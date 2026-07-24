@@ -1,0 +1,6 @@
+﻿l_russian:
+ rule_disfigurement_visibility: "Отображение маски"
+ setting_masks_off: "Никогда"
+ setting_masks_off_desc: "Обезображенные персонажи никогда не будут носить маски."
+ setting_masks_on: "Редко"
+ setting_masks_on_desc: "Обезображенные персонажи уровня Король или Император с соответствующими чертами могут носить маски." 
