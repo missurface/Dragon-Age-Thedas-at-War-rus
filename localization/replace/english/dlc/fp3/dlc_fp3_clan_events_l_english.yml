@@ -1,0 +1,6 @@
+﻿l_english: 
+### FP3 CLAN EVENTS
+ fp3_clan.8015.t: "Scandalous Scion"
+ fp3_clan.8015.desc: "[concerned_parent.GetName] enters my hall, dragging along [concerned_parent.GetHerHis] [scandalous_scion.Custom('GetDaughterSon')], [scandalous_scion.GetFirstName], who looks less than happy.\n\n"My [ROOT.Char.GetTitleTierName]", [concerned_parent.GetFirstNameNoTooltip] says, "you might have heard how this [scandalous_scion.Custom('GetDaughterSon')] of mine have been behaving - fraternizing in the #EMP guildhalls#! with the vagabond warriors who congregate there, drinking with them at shady taverns and roaming about town." [concerned_parent.GetSheHe|U] sighs deeply.\n\n"We need to safeguard [scandalous_scion.GetHerHis] reputation, lest this becomes a public scandal. I was thinking [scandalous_scion.GetSheHe] could stay here, to learn some manners at your court."" 
+ fp3_clan.8015.a: "Very well, [scandalous_scion.GetSheHe] can join my court."
+ fp3_clan.8015.b: "[scandalous_scion.GetSheHe|U] is the fruit of your loins, not mine."

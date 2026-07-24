@@ -1,0 +1,3 @@
+﻿l_english:
+ #FACTION JOIN/CREATE REASONS
+ FACTION_REASON_DISLIKE_FOREIGN_RULERS:0 "[liege|E] is a foreign culture; $VALUE|0+=$"

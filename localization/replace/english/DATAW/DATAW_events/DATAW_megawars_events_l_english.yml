@@ -1,0 +1,27 @@
+﻿l_english:
+ DATAW_MW_main.0001.tit: "The Choice in this War"
+ DATAW_MW_main.0001.desc: "A great war has begun between [attacker.GetName] and [defender.GetName]\n\nAs a powerful ruler, I have been left to my own devices, while I make my choice in this conflict."
+ DATAW_MW_main.0001.opt.a: "I will join my liege in this war that threatens to destroy us all."
+ DATAW_MW_main.0001.opt.a_tt: "You assist your liege"
+ DATAW_MW_main.0001.opt.b: "I will not involve myself in this destructive war."
+ DATAW_MW_main.0001.opt.b_tt: "You stay neutral in this conflict"
+ DATAW_MW_main.0001.opt.c: "I will join this righteous cause of rebellion!"
+ DATAW_MW_main.0001.opt.c_tt: "You assist the rebels"
+ DATAW_MW_main.0001.opt.d: "I will fight for my freedom!"
+
+ DATAW_faction_MW_starts: "Mega War starts"
+
+ MW_DEFENDER: "Defender"
+ MW_ATTACKER: "Attacker"
+ MW_DEFENDER_SUPPORTERS: "Defender Supporters"
+ MW_DEFENDER_NEUTRALS: "Neutral Vassals"
+ MW_DEFENDER_DISSIDENT_INDP: "Defender Dissidents"
+ MW_ATTACKER_SUPPORTERS: "Attacker Supporters"
+ MW_ATTACKER_NEUTRALS: "Neutral Vassals"
+ MW_ATTACKER_DISSIDENT_INDP: "Attacker Dissidents"
+
+ #TEMP
+ DATAW_MW_attacker_story: "Mega War - Attacker POV"
+ DATAW_MW_attacker_story_desc: ""
+ DATAW_MW_defender_story: "Mega War - Defender POV"
+ DATAW_MW_defender_story_desc: ""

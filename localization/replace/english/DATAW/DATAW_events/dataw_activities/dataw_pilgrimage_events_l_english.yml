@@ -1,0 +1,93 @@
+﻿l_english:
+ #Jader
+ dataw_pilgrimage.1000.t: "Jader"
+ dataw_pilgrimage.1000.desc: "Jader, to have finally arrived and set my eyes upon it at last. It lacks the splendor of other larger cities but to me it’s a marvel and I feel my very heart swell as I take it in. It’s not Jader’s busy market or its merchants that have called me here, nor its large harbor or the long and rocky coastline.\n\nNo, my hurried steps are taking me towards my goal. I feel it before I truly see it; the Chantry of Jader. It’s the largest building here in the city, with its eternal flames burning brightly. More brightly than normally almost, at least to me.\n\nI place a hand on its stone wall and take it all in. The true birthplace of Andraste. Finally. I feel her warmth spreading, as if she is standing beside me."
+ dataw_pilgrimage.1000.a: "A true sight to behold."
+ #Montsimmard
+ dataw_pilgrimage.1001.t: "Montsimmard"
+ dataw_pilgrimage.1001.desc.beginning: "No other city in the world has a history quite like Jerusalem. In addition to the many other holy sites there, the city contains "
+ dataw_pilgrimage.1001.desc.christian: "the Church of the Holy Sepulchre, built over the combined places where Jesus was crucified, buried, and resurrected."
+ dataw_pilgrimage.1001.desc.muslim: "the Haram esh-Sharif, the site where Muhammad ascended to Heaven after his time on earth."
+ dataw_pilgrimage.1001.desc.jewish: "the Temple Mount, the location of the Holy of Holies, and the site where the Third Temple is prophecized to be rebuilt."
+ dataw_pilgrimage.1001.desc.end: "\n\nStanding outside of the Temple Mount, with my hand on the Western Wall, I find myself reflecting on everything that happened on my journey to this city of legend."
+
+ #Denerim
+ dataw_pilgrimage.1002.t: "O Jerusalem, Jerusalem!"
+ dataw_pilgrimage.1002.desc.beginning: "No other city in the world has a history quite like Jerusalem. In addition to the many other holy sites there, the city contains "
+ dataw_pilgrimage.1002.desc.christian: "the Church of the Holy Sepulchre, built over the combined places where Jesus was crucified, buried, and resurrected."
+ dataw_pilgrimage.1002.desc.muslim: "the Haram esh-Sharif, the site where Muhammad ascended to Heaven after his time on earth."
+ dataw_pilgrimage.1002.desc.jewish: "the Temple Mount, the location of the Holy of Holies, and the site where the Third Temple is prophecized to be rebuilt."
+ dataw_pilgrimage.1002.desc.end: "\n\nStanding outside of the Temple Mount, with my hand on the Western Wall, I find myself reflecting on everything that happened on my journey to this city of legend."
+
+ #Halamshiral
+ dataw_pilgrimage.1003.t: "O Jerusalem, Jerusalem!"
+ dataw_pilgrimage.1003.desc.beginning: "No other city in the world has a history quite like Jerusalem. In addition to the many other holy sites there, the city contains "
+ dataw_pilgrimage.1003.desc.christian: "the Church of the Holy Sepulchre, built over the combined places where Jesus was crucified, buried, and resurrected."
+ dataw_pilgrimage.1003.desc.muslim: "the Haram esh-Sharif, the site where Muhammad ascended to Heaven after his time on earth."
+ dataw_pilgrimage.1003.desc.jewish: "the Temple Mount, the location of the Holy of Holies, and the site where the Third Temple is prophecized to be rebuilt."
+ dataw_pilgrimage.1003.desc.end: "\n\nStanding outside of the Temple Mount, with my hand on the Western Wall, I find myself reflecting on everything that happened on my journey to this city of legend."
+
+ #Mont-De-Glace
+ dataw_pilgrimage.1004.t: "O Jerusalem, Jerusalem!"
+ dataw_pilgrimage.1004.desc.beginning: "No other city in the world has a history quite like Jerusalem. In addition to the many other holy sites there, the city contains "
+ dataw_pilgrimage.1004.desc.christian: "the Church of the Holy Sepulchre, built over the combined places where Jesus was crucified, buried, and resurrected."
+ dataw_pilgrimage.1004.desc.muslim: "the Haram esh-Sharif, the site where Muhammad ascended to Heaven after his time on earth."
+ dataw_pilgrimage.1004.desc.jewish: "the Temple Mount, the location of the Holy of Holies, and the site where the Third Temple is prophecized to be rebuilt."
+ dataw_pilgrimage.1004.desc.end: "\n\nStanding outside of the Temple Mount, with my hand on the Western Wall, I find myself reflecting on everything that happened on my journey to this city of legend."
+
+ #Skyhold
+ dataw_pilgrimage.1005.t: "O Jerusalem, Jerusalem!"
+ dataw_pilgrimage.1005.desc.beginning: "No other city in the world has a history quite like Jerusalem. In addition to the many other holy sites there, the city contains "
+ dataw_pilgrimage.1005.desc.christian: "the Church of the Holy Sepulchre, built over the combined places where Jesus was crucified, buried, and resurrected."
+ dataw_pilgrimage.1005.desc.muslim: "the Haram esh-Sharif, the site where Muhammad ascended to Heaven after his time on earth."
+ dataw_pilgrimage.1005.desc.jewish: "the Temple Mount, the location of the Holy of Holies, and the site where the Third Temple is prophecized to be rebuilt."
+ dataw_pilgrimage.1005.desc.end: "\n\nStanding outside of the Temple Mount, with my hand on the Western Wall, I find myself reflecting on everything that happened on my journey to this city of legend."
+
+ #Stone Bear Hold
+ dataw_pilgrimage.1006.t: "O Jerusalem, Jerusalem!"
+ dataw_pilgrimage.1006.desc.beginning: "No other city in the world has a history quite like Jerusalem. In addition to the many other holy sites there, the city contains "
+ dataw_pilgrimage.1006.desc.christian: "the Church of the Holy Sepulchre, built over the combined places where Jesus was crucified, buried, and resurrected."
+ dataw_pilgrimage.1006.desc.muslim: "the Haram esh-Sharif, the site where Muhammad ascended to Heaven after his time on earth."
+ dataw_pilgrimage.1006.desc.jewish: "the Temple Mount, the location of the Holy of Holies, and the site where the Third Temple is prophecized to be rebuilt."
+ dataw_pilgrimage.1006.desc.end: "\n\nStanding outside of the Temple Mount, with my hand on the Western Wall, I find myself reflecting on everything that happened on my journey to this city of legend."
+
+ #Kinloch Hold
+ dataw_pilgrimage.1007.t: "O Jerusalem, Jerusalem!"
+ dataw_pilgrimage.1007.desc.beginning: "No other city in the world has a history quite like Jerusalem. In addition to the many other holy sites there, the city contains "
+ dataw_pilgrimage.1007.desc.christian: "the Church of the Holy Sepulchre, built over the combined places where Jesus was crucified, buried, and resurrected."
+ dataw_pilgrimage.1007.desc.muslim: "the Haram esh-Sharif, the site where Muhammad ascended to Heaven after his time on earth."
+ dataw_pilgrimage.1007.desc.jewish: "the Temple Mount, the location of the Holy of Holies, and the site where the Third Temple is prophecized to be rebuilt."
+ dataw_pilgrimage.1007.desc.end: "\n\nStanding outside of the Temple Mount, with my hand on the Western Wall, I find myself reflecting on everything that happened on my journey to this city of legend."
+
+ #Grand Cathedral
+ dataw_pilgrimage.1008.t: "O Jerusalem, Jerusalem!"
+ dataw_pilgrimage.1008.desc.beginning: "No other city in the world has a history quite like Jerusalem. In addition to the many other holy sites there, the city contains "
+ dataw_pilgrimage.1008.desc.christian: "the Church of the Holy Sepulchre, built over the combined places where Jesus was crucified, buried, and resurrected."
+ dataw_pilgrimage.1008.desc.muslim: "the Haram esh-Sharif, the site where Muhammad ascended to Heaven after his time on earth."
+ dataw_pilgrimage.1008.desc.jewish: "the Temple Mount, the location of the Holy of Holies, and the site where the Third Temple is prophecized to be rebuilt."
+ dataw_pilgrimage.1008.desc.end: "\n\nStanding outside of the Temple Mount, with my hand on the Western Wall, I find myself reflecting on everything that happened on my journey to this city of legend."
+
+ # Overgrown Valley
+ dataw_pilgrimage.1009.t: "O Jerusalem, Jerusalem!"
+ dataw_pilgrimage.1009.desc.beginning: "No other city in the world has a history quite like Jerusalem. In addition to the many other holy sites there, the city contains "
+ dataw_pilgrimage.1009.desc.christian: "the Church of the Holy Sepulchre, built over the combined places where Jesus was crucified, buried, and resurrected."
+ dataw_pilgrimage.1009.desc.muslim: "the Haram esh-Sharif, the site where Muhammad ascended to Heaven after his time on earth."
+ dataw_pilgrimage.1009.desc.jewish: "the Temple Mount, the location of the Holy of Holies, and the site where the Third Temple is prophecized to be rebuilt."
+ dataw_pilgrimage.1009.desc.end: "\n\nStanding outside of the Temple Mount, with my hand on the Western Wall, I find myself reflecting on everything that happened on my journey to this city of legend."
+
+ #West Brecilian Forest
+ dataw_pilgrimage.1010.t: "O Jerusalem, Jerusalem!"
+ dataw_pilgrimage.1010.desc.beginning: "No other city in the world has a history quite like Jerusalem. In addition to the many other holy sites there, the city contains "
+ dataw_pilgrimage.1010.desc.christian: "the Church of the Holy Sepulchre, built over the combined places where Jesus was crucified, buried, and resurrected."
+ dataw_pilgrimage.1010.desc.muslim: "the Haram esh-Sharif, the site where Muhammad ascended to Heaven after his time on earth."
+ dataw_pilgrimage.1010.desc.jewish: "the Temple Mount, the location of the Holy of Holies, and the site where the Third Temple is prophecized to be rebuilt."
+ dataw_pilgrimage.1010.desc.end: "\n\nStanding outside of the Temple Mount, with my hand on the Western Wall, I find myself reflecting on everything that happened on my journey to this city of legend."
+
+ # Brecilian Border 
+ dataw_pilgrimage.1011.t: "O Jerusalem, Jerusalem!"
+ dataw_pilgrimage.1011.desc.beginning: "No other city in the world has a history quite like Jerusalem. In addition to the many other holy sites there, the city contains "
+ dataw_pilgrimage.1011.desc.christian: "the Church of the Holy Sepulchre, built over the combined places where Jesus was crucified, buried, and resurrected."
+ dataw_pilgrimage.1011.desc.muslim: "the Haram esh-Sharif, the site where Muhammad ascended to Heaven after his time on earth."
+ dataw_pilgrimage.1011.desc.jewish: "the Temple Mount, the location of the Holy of Holies, and the site where the Third Temple is prophecized to be rebuilt."
+ dataw_pilgrimage.1011.desc.end: "\n\nStanding outside of the Temple Mount, with my hand on the Western Wall, I find myself reflecting on everything that happened on my journey to this city of legend."
+

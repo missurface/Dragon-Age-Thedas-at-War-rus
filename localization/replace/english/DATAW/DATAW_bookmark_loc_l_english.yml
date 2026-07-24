@@ -1,0 +1,142 @@
+﻿l_english:
+ bookmark_meghren:0 "King Meghren Dufayel"
+ bookmark_meghren_desc:0 ""
+ bookmark_maric:0 "Prince Maric Theirin"
+ bookmark_maric_desc:0 ""
+ bookmark_florian:0 "Emperor Florian Valmont"
+ bookmark_florian_desc:0 ""
+ bm_ferelden_revolution:0 "Fereldan Rebellion"
+ bm_ferelden_revolution_desc:0 ""
+
+ bookmark_jenaeve_i:0 "Dame Jenaeve Drakon"
+ bookmark_jenaeve_i_desc:0 ""
+
+
+## Fall of the Dales
+ bm_fall_of_the_dales:0 "Fall of the Dales"
+ bm_fall_of_the_dales_desc:0 "Ten years have passed since the Second Blight's end, and Thedas moves ever onward. Ferelden remains leaderless, prone to petty squabbles between fledgling Teyrns and Banns alike. One man has declared himself King of Ferelden, and intends to unite the entirety of the land by any means necessary. Hostility continues to increase between Orlais and the Dales, and rumors speak of conflict on the horizon. Were that not enough for Orlais, the lands of the marshes are in the midst of a rebellion, with a new King in the Marshes seeking independence from Orlais.\n\n#!#bold How many will rise and fall in their bid for power and prestige in the wake of the Second Blight?"
+
+ bookmark_hassandriel:0 "Prince Hassandriel"
+ bookmark_hassandriel_desc:0 "[Concept( 'story_content_hassandriel', '$bm_story_content_available_icon|q$' )|E] [Concept( 'story_content_hassandriel', '$bm_story_content_available_copy|q$' )|E]\n#!After having maintained their known neutrality during the Second [blight|E], the Dales continued to remain independent of their human neighbors in Orlais. However, as history has indicated, neutrality can only carry a people so far. Even the best of leaders find themselves in conflict eventually, whether within their borders... or without. \n\nHassandriel is the current Prince of the Dales, and he is aware of the increasing hostilities between his people and Orlais. Despite his personal feelings on the matter, it is unlikely that much can be done to improve relations between his people and the [human|E]s, though he intends to rely on Fenarel Suledin should it come to that.\n\n#!#bold As Prince of the Dales, will Hassandriel's efforts be enough to preserve the lives of his people? Will the [elves|E] meet a grisly end in the years to come, or will they have the wit and resources to outlast the coming storm?."
+ bookmark_hassandriel_subheading: "Lord of Halamshiral"
+
+ game_concept_story_content_hassandriel: "$game_concept_story_generic_prefix$ $bm_fall_of_the_dales$"
+ game_concept_story_content_hassandriel_desc: "#tooltip_heading Story Style: Extensive#!\n\nAs Hassandriel Ralaferin, you will find yourself faced with many dilemmas if you want to avoid a legacy as the last Prince of the Dales. How much are you ready to sacrifice to preserve Elvhen rule? Are you ready to sacrifice your morals and partake in Blood Magic? Are you ready to sacrifice your faith, or even your independence, for the preservation of the Dales? At what point does sacrifice become surrender? No matter what you decide, there are difficult times ahead for the Dalish.\n\n$game_concept_story_generic_desc_boilerplate$"
+
+ bookmark_pale_demon:0 "Lord Fenarel"
+ bookmark_pale_demon_desc:0 "A known [mage|E] with a vicious disdain for Orlesians, Fenarel is an advocate for holding onto all things pertaining to his people's history. This also includes ensuring that such a history is remembered, and that their beliefs are protected at any cost. Nobody will stop him from protecting his people from any and all threats, even themselves. With hostility increasing between his kin and the Orlesian Empire, Fenarel knows all too well what is to come. When the time comes for action, it is unlikely that he will not play a part. Orlesians know Fenarel as “the Pale Demon” for how proficient he is with his [dataw_magic|E] in combat, and how easily he instills fear in his enemies.\n\n#!#bold Will the Pale Demon be able to ensure that his people survive the events to come?"
+ bookmark_pale_demon_subheading: "The Pale Demon"
+ 
+ bookmark_ulstor_wolfhand:0 "Konungr Ulstor"
+ bookmark_ulstor_wolfhand_desc:0 "[Concept( 'story_content_ulstor', '$bm_story_content_available_icon|q$' )|E] [Concept( 'story_content_ulstor', '$bm_story_content_available_copy|q$' )|E]\n#!Few can withstand the might of Ulstor Wolfhand, who rules over the lands of Edgehall. A monster of a man in [battle|E], many fear facing this bear of a man in any battlefield. Word has reached Ulstor that Caedmon of Denerim has declared himself the first “King of Ferelden,” something which Wolfhand himself finds laughable. Now that someone has made such intent clear to unite all of Ferelden, Ulstor believes such a unification should be led by himself. Yes, the strong Avvar warrior has decided that he shall unite all of Ferelden under his rule.\n\n#!#bold Can Wolfhand prove himself as the true King in the Making by uniting all of Ferelden, or will Caedmon best the mighty warrior?"
+ bookmark_ulstor_wolfhand_subheading: "The Wolf of the Highlands"
+
+ game_concept_story_content_ulstor: "$game_concept_story_generic_prefix$ $bm_fall_of_the_dales$"
+ game_concept_story_content_ulstor_desc: "#tooltip_heading Story Style: Extensive#!\n\nAs Ulstor, you shall decide the fate of the Avvar in the western lowlands through your lineage. The Sun-Wolf, Sky-Hound, and Wise-Wind Clans all had an impact on the young man, and you will have to choose with which you feel closest to. Will you accept the Sun-Wolf Clan as kin, and look towards conquering all Avvar soil under one crown? Will you join the Sky-Hound and rampage the lowlands of the Andrastians? Or will you accept the Wise-Wind's word, and carve a durable and distinct identity for the Avvar of Edgehall?\n\n$game_concept_story_generic_desc_boilerplate$"
+ 
+ bookmark_aerona:0 "Rhiain Aerona"
+ bookmark_aerona_desc:0 "For too long the Chasind have been divided and leaderless, this much Aerona has seen firsthand. Young and capable of great things, she has chosen to take up the mantle of bringing the Chasind together as a united force that the entire world should be wary of. Before she can see her dream realized, she must contend with those that would seek to stop her. Only one of her own seems capable of truly disrupting her plans, but she must deal with him all the same, as he has shown himself to be a cruel and ruthless leader. \n\n#!#bold Aerona has taken upon herself a monumental burden, but can she see that it goes from simply a dream to reality?"
+ bookmark_aerona_subheading: "Mother of the Winds"
+
+ bookmark_drakon_ii:0 "Emperor Kordillus II"
+ bookmark_drakon_ii_desc:0 "[Concept( 'story_content_kordillus', '$bm_story_content_available_icon|q$' )|E] [Concept( 'story_content_kordillus', '$bm_story_content_available_copy|q$' )|E]\n#!Unlike his father, Kordillus II was unable to prevent the destruction of entire villages by the [darkspawn|E] hordes during the Second [blight|E]. Many lives were lost during this time, and much was in need of rebuilding.\n\nMany claim that he is nowhere near the leader his father was, and some might even wish to remove the emperor from power due to his shortcomings. Despite his failures, the old monarch has to contend with the rising hostility between his people and the [elves|E] of the Dales.\n#!\n#bold Will Kordillus Drakon II redeem himself as a ruler, or will he continue to be a great disappointment for his bloodline?"
+ bookmark_drakon_ii_subheading: "Emperor of Orlais"
+
+ game_concept_story_content_kordillus: "$game_concept_story_generic_prefix$ $bm_fall_of_the_dales$"
+ game_concept_story_content_kordillus_desc: "#tooltip_heading Story Style: Moderate#!\n\nThough your time draws near, the Empire of Orlais is still young, and destined to rise as the new dominant power of [thedas|E], replacing the fading Imperium as premier force of the continent. Yet with youth comes uncertainty, and the final test before greatness is fast approaching. As tensions rise with both the heathen knife-ears of the Dales and the Mareschois separatists of the West, you stand atop the Empire built by your father Kordillus, founder of the Orlesian Chantry and Orlais, and great vanquisher of the Second [blight|E]. Whether or not his empire survives the coming storm to rise high above all others, is up to you.\n\n$game_concept_story_generic_desc_boilerplate$"
+
+ bookmark_roux:0 "Duke Roux"
+ bookmark_roux_desc:0 "[Concept( 'story_content_roux', '$bm_story_content_available_icon|q$' )|E] [Concept( 'story_content_roux', '$bm_story_content_available_copy|q$' )|E]\nMany had grown tired of being under the thumb of the Orlesians, and so a rebellion began to take shape. Declaring Lord Marchette as the King in the Marshes was a bold move, one that would result in a proclamation of treason from the Emperor of Orlais.\nWith conflict seeming inevitable, the newly chosen King in the Marshes will find himself tested in ways he never had to consider before. However, rumors have begun to spread that the Dales are also causing problems for Orlais, enough so that [war|E] may erupt as a result. Should the new king prove himself as a true opportunist, his people may just yet have an opening to succeed in their rebellion.\n\n#!#bold To wage a revolt is a dangerous choice, for there is no room for failure. Will the King in the Marshes be victorious in his declaration of independence, or will he find himself outmatched by the mighty Orlesian Empire?"
+ bookmark_roux_subheading: "The King in\n the Marshes"
+
+ game_concept_story_content_roux: "$game_concept_story_generic_prefix$ $bm_fall_of_the_dales$"
+ game_concept_story_content_roux_desc: "#tooltip_heading Story Style: Extensive#!\n\nAs Roux Marchette, you will be faced with many difficult dilemmas: will you finally strive for independence from Val Royeaux, or will you stay loyal and grow in power as a vassal of the Empire? Will you turn back to the past ways of the Ciriane, rebuilding them for a new age, or will you strive to forge your own legend, separate from the monoliths of old? No matter what you choose, the Mareschois of Nahashin long for freedom amidst the turmoil, and await to see where you will stand. \n\n$game_concept_story_generic_desc_boilerplate$"
+
+ bookmark_caedmon:0 "Teyrn Caedmon"
+ bookmark_caedmon_desc:0 "[Concept( 'story_content_caedmon', '$bm_story_content_available_icon|q$' )|E] [Concept( 'story_content_caedmon', '$bm_story_content_available_copy|q$' )|E]\n#!Ferelden had seen little change after the Second [blight|E], as each of the tribes of arls and teyrns continued their ancestors' legacies of bloody conquest. Caedmon grew to manhood hearing tales of his grandfather - the first man to ever become a teyrn - and this only added fuel to the ambition stirring in his heart. Upon his father's passing, he vowed to unite the land, and started by declaring himself king.\n\n In truth, Caedmon could not become king through words alone. None of the populace would take his declaration seriously, for there was only one language of power in Ferelden, one which left the rising monarch's course of action clear... To wage [war|E] such as his ancestors had before him, and to unite all of Ferelden by the sword\n\n#!#bold Caedmon has quite the ambition, but does he have the tactical mind and prowess to see it done? Will the King in the Making fall short of uniting his people as one?"
+ bookmark_caedmon_subheading: "King in the Making"
+
+ game_concept_story_content_caedmon: "$game_concept_story_generic_prefix$ $bm_fall_of_the_dales$"
+ game_concept_story_content_caedmon_desc: "#tooltip_heading Story Style: Moderate#!\n\nAs Caedmon, you will find yourself in the thick of restless ambition, the ambition of a Ferelden united under one king and one faith. How will you deal with the Orlesian support of the west, clamoring for you to adopt their Chant? How will you deal with the plethora of rulers coming against your dreams of kingship?\n\n$game_concept_story_generic_desc_boilerplate$"
+
+## [war|E] of the Dog Lords
+ bm_war_of_the_dog_lords: "[war|E] of the Dog Lords"
+ bm_war_of_the_dog_lords_desc: "Teyrn Caedmon has declared himself king, which has spread like wildfire all throughout Ferelden. None will be able to escape the coming conflict, and only those with the will to survive will have a chance. For those that seek to claim greater power, they must be willing to take risks, and to sacrifice everything they hold dear. Like their ancestors before them, the Dog Lords will wage [war|E] to rise to new heights. Once again, Ferelden will see its lands run red with blood.\n\n#!#bold Bravery and strength are commonplace in Ferelden, but will it be enough to unite these lands? Will deceit and sabotage be utilized in naming the first king?"
+
+ bookmark_myrddin:0 "Arl Myrddin of Amaranthine"
+ bookmark_myrddin_desc:0 "With news of the self declared king of Ferelden spreading like wildfire, blood is soon to be spilled across the land. Such is the way of Ferelden, for blood to flow aplenty and for the strong to survive, and for the weak to die. Myrddin has been Arl for sometime, and he has seen many upstarts rise and fall. Regardless of them all, he has remained steadfast in his reign over his arling. Why shouldn’t he throw in his lot for greater fame and power? Why shouldn’t the line of Cormac partake in the claiming of Ferelden?\n\n#!#bold Will Myrddin and his kin rise from Arls and become Teyrns? Is it destined for the line of Cormac to rob Caedmon of his claim over all Ferelden?"
+
+ bookmark_trefir:0 "Arl Trefir of Redcliffe"
+ bookmark_trefir_desc:0 "From an early age, Trefir has understood that Ferelden lives for conflict. To survive, one must be strong of body, but that a ruler must also be wise. With Teyrn Caedmon’s declaration of intention to become the first king of Ferelden, and Wolfhand of Edgehall being on his Western border, the Arl must act quickly. It will take careful navigation to thrive amidst the chaos of the coming weeks and months, let alone to achieve survival for the line of Guerrin. Having two young sons, Trefir is no longer fighting for the sake of ambition, but for a prominent future for his beloved sons and wife.\n\n#!#bold Can the Arl of Redcliffe survive the bloody conquest that is sure to ensue at Teyrn Caedmon’s behest, ensuring that his family endures long after? Will Trefir give into the call of ambition, risking everything for power?"
+
+ bookmark_arryn:0 "Komes Arryn of West Brecilian Forest"
+ bookmark_arryn_desc:0 "Ever since he was a child, Arryn has been fascinated with the history of his kin. To consider that the mighty Tevinter Imperium once held power over all of [thedas|E] continues to inspire the young man in his everyday pursuits. Some day, he hopes to restore Tevinter to its former glory, to take back the lands of Ferelden and Orlais. He knows all too well that his goals of conquering [thedas|E] may not come to pass in his lifetime, but after finding himself in the Brecilian Forest after stepping through an [eluvian|E] in an attempt to flee his homeland, he’s convinced himself that claiming Ferelden on behalf of the Tevinter Imperium is indeed his destiny.\n\n#!#bold Arryn is the definition of ambition, and he will not allow anything to stop him from achieving his goals. Does this lowly Tevinter apostate have what it takes to see his plans realized?"
+
+ bookmark_velcorminth:0 "Argylwydd Velcorminth of Notnac"
+ bookmark_velcorminth_desc:0 "Born on the outskirts of the Korcari Wilds, Velcorminth lived a difficult life. With the deaths of his parents at a young age, it was understood that life was cruel. As he became older, the young warrior learned what it meant to be a strong leader, capable of much on the battlefield. Unfortunately, this path also led Velcorminth to struggle to understand basic human emotions, leaving him cold and ruthless. Murdering his own family was but a way to get rid of potential complications. \n\n#!#bold Velcorminth has no intention of sitting idly by the conflicts to come. Should he be successful in his endeavour of conquest, with Ferelden united under Chasind leadership?"
+
+ bookmark_alaric:0 "Arl Alaric of Gwaren"
+ bookmark_alaric_desc:0 "With news of his father’s recent passing, Arl Alaric has risen to the high seat of the Arling of Gwaren. Many Bann’s of the Teyrnir wait in anticipation to see what Alaric will turn out like. As Alaric takes the reins of his father’s lands, he intends to install his family as one to be feared and respected in the lands of Gwaren… and perhaps beyond.\n\n#!#bold Alaric stands at a crossroads with his new seat. Will he rise to the challenge and take Ferelden by storm? Or will he succumb to the same follies of his late father and be known as just another Dog Lord?"
+
+### Waning of the Sun
+
+ bm_waning_of_the_sun: "Waning of the Sun"
+ bm_waning_of_the_sun_desc: "Much continues to occur within [thedas|E] in the wake of the Second [blight|E], especially for the Orlesian Empire. Orlais continues to see increasing hostility with the Dales, and now a King in the Marshes reveals himself in a declaration of independence with many supporters. Were that not enough drama, the Grand Game continues to prove a dangerous one indeed. From the grandest of Dukes to the lowliest of Comtes, political schemes run rampant within the Empire, and everyone has something to gain.\n\n#!#bold Orlais stands on the brink of destruction if they cannot rally together to deal with emerging threats. Will this prestigious Empire survive the events to come?"
+
+ bookmark_umbert:0 "Marquis Umbert of Chevin"
+ bookmark_umbert_desc:0 "Like his father, and his father before him, Umbert has held the lands of Chevin in honor of his house. Unfortunately, the [maker|E] has yet to bless this Marquis with a spouse. As a result of such a lack of companionship at his age, the line of house Montlaures could be in jeopardy should tragedy occur for either of the Montlaures brothers. Perhaps the [maker|E] will choose to grace Umbert with a partner that can preserve his line. Even should the [maker|E] not bless him, there is plenty more to do within the Grand Game.\n\n#!#bold Will an heir be born for house Montlaures, or will the line die with the two brothers?"
+
+ bookmark_evram:0 "Marquis Evram of Jader"
+ bookmark_evram_desc:0 "House Doucy has held Jader for as long as it has stood between Ferelden and the rest of Orlais. Aside from keeping his eyes open for a potential spouse to ensure his bloodline endures, the Marquis must also be ready for the potential [war|E] with the Dales, as well as the Grand Game encouraging political scheming between his peers. Due to Jader being on the Orlesian border, little is to be feared when it comes to the Grand Game itself, but should Orlais become weakened by the Dales or the King in the Marshes, Evram may not be able to rely on the Empire’s aid should the barbarians of Ferelden come knocking.\n\n#!#bold Jader will be a prime target of the barbarians of Ferelden should Orlais by the coming troubles. Can Evram ensure that his lands are ready for whatever is to come?"
+
+ bookmark_foisine:0 "Marquise Foisine of Chalons"
+ bookmark_foisine_desc:0 "Having survived the Great Game for this long, and living long enough to be middle aged, Foisine and her husband have provided a strong bloodline to ensure that House Chalons thrives after they both part from this world. With her lands bordering the Dales, and with known hostility emerging, the Marquise must prepare her people for what could be a future [war|E] with the Dales. She is not particularly fond of [elves|E], but if [war|E] should arise, then her family will be far too close to the frontline for her liking. Regardless of what happens with the Dales, it is unlikely that House Chalons can avoid being involved.\n\n#!#bold Can House Chalons survive potential warfare with the Dales? Can [war|E] be avoided altogether?"
+
+ bookmark_frederic:0 "Marquis Frederic of Ghislain"
+ bookmark_frederic_desc:0 "A prominent noble in the Great Game, Frederic knows the ins and outs of how to handle all matters of diplomacy and intrigue, making him a considerable threat or ally in any court. As a reward for his skills, he was chosen over his older brother to succeed his father due to the political incompetence of his eldest sibling. Having had two children with his lovely wife, the Marquis has much to gain in his current position, but even more to lose should the King in the Marshes be successful. Being on the outskirts of the marshes makes Frederic nervous, especially as news of a potential [war|E] with the Dales passes through the imperial court.\n\n#!#bold Can the Marquis sabotage the King in the Marshes declaration of independence? Would he consider aligning himself with Roux against the Emperor of Orlais?"
+
+ bookmark_vincent:0 "Marquis Vincent of Lydes"
+ bookmark_vincent_desc:0 "Growing up with several siblings tends to leave one challenged in their household at an early age. Vincent was no exception, but such a competitive upbringing served the man well. After taking over the lands of his ancestors, it has become apparent that the Marquis tends to favor diplomacy and the blade in equal measure. As a [knight|E] of the Orlesian Empire, it is his duty to protect his beloved homeland from any and all threats, be that with word or blade. While he recalls the pleading from his courtiers and advisors to seek a spouse in the back of his mind, he must also contend with the possibility of [war|E] with the Dales. A [war|E] that would see his lands covered in both elvish and human blood.\n\n#!#bold Will the words of a diplomat serve the Orlesian Empire better than the protection of a [knight|E]?"
+
+ bookmark_cyril:0 "Comte Cyril of Vauton"
+ bookmark_cyril_desc:0 "[Concept( 'story_content_cyril', '$bm_story_content_available_icon|q$' )|E] [Concept( 'story_content_cyril', '$bm_story_content_available_copy|q$' )|E]\nGrandson to the current Emperor of Orlais, much is expected from Cyril of house Drakon, despite not being the heir. Ever since he was just a boy, Cyril has been trained by the finest Orlesian knights, and has taken well to becoming quite the military leader. Yet [war|E] looms on the horizon, with two vastly different foes to speak of. On one side, the Dales, who's neutrality grows thinner every day. On the other side, Roux Marchette, who seems intent on leading his fellow marsh-dwellers against the Orlesian empire to secure independence.\n\n#!#bold Eager to prove himself, Cyril takes up his sword for the Empire. Will he be able to lead the armies of Orlais to victory?"
+
+ game_concept_story_content_cyril: "$game_concept_story_generic_prefix$ $bm_fall_of_the_dales$"
+ game_concept_story_content_cyril_desc: "#tooltip_heading Story Style: Light#!\n\nAs Cyril, grandson of the Emperor and brother to the future Empress Jeaneve, you will stand as the loyal sword of the Empire against both heathen [elves|E] and rebelling Nahashin. Destined to die in a duel against the King of the Marshes for a chance, once and for all, to end the rebellion right then and there, will you manage to defy fate and claim your due glory?\n\n$game_concept_story_generic_desc_boilerplate$"
+
+ bookmark_hedinelle:0 "Comtesse Hedinelle of Morreau"
+ bookmark_hedinelle_desc:0 "The blood of the otherwise extinct House Simmard lives on in the veins of the Morreau. While Marquis Percivale Aurelien may now reign over Montsimmard through marriage ties to the old House, the Morreau consider themselves, a cadet branch of the dynasty, the rightful heirs. Montsimmard has been beset by a great many ills: Darkspawn predation, Elven neglect, and now the undue reign of Percivale. Hedinelle will create a world where the Morreau may gain their rightful stewardship of Montsimmard, even if she does not live to see it, through her grandson, Jean.\n\n#!#bold Can the Morreau restore House Simmard? Will Montsimmard reclaim its grandeur and its rulers?"
+
+ bookmark_ronan:0 "Yurl Ronan of Logerswold"
+ bookmark_ronan_desc:0 "With the death of his father Judoc, Ronan was thrown into the role of Yurl at only eighteen. Despite his lack of magic, Ronan has grown throughout his rule into a valorous warrior and strategist. Yet many dangers come to the Brecilians, threatening their blissful isolation. Gwaren and Stenhold covet the Passage. One of the old tevinter oppressors has taken over one of the tribes, and rumours tell of a great war to the west, with a strange people similar to the one of old legends. Ronan understands that the Brecilians will not survive the coming days divided. Someone needs to unite them all, and by the Lady of the Forest, Ronan will. \n\n#!#bold Historically, the Brecilians were confused with the Claynes by the Dalish, and were massacred and forgotten by Thedas. Can Ronan save his people from extinction?"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ bm_group_blessed:0 "Blessed Age"
+ start_year_1299_01_01_desc:0 "The start of the Glory Age is filled with impactful events and great character that shaped the History of [thedas|E] for Ages to come.\nThe infamous [exalted_march|E] on the Dales that sent the elves into their never ending exile, the Rebellion of the king of the Marshes, as well as the Campaigns of the King of Starkhaven… Multiple events await you in the Glory Age, be they to be followed, changed, or accompanied by an event of your own making."
+ bm_group_glory:0 "Glory Age"
+ bm_group_divine:0 "Divine Age"
+
+ bm_group_blight:0 "Blight Testing"
+
+
+ bm_second_blight:0 "Second Blight"
+ bm_third_blight:0 "Third Blight"
+ bm_fourth_blight:0 "Fourth Blight"
+ bm_fifth_blight:0 "Fifth Blight"

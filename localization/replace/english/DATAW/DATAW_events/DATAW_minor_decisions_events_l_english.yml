@@ -1,0 +1,9 @@
+﻿l_english:
+ DATAW_minor_decision.0001.tit: "The one for the job"
+ DATAW_minor_decision.0001.desc: "It seems my invites have brought numerous veterans to my door. After clearing out multiple people that were blatantly lying about their level of experience. Only three ended up being interesting for us, [veteran01.GetFullName], [veteran02.GetFullName] and [veteran03.GetFullName]. All of them have unique competencies, and the choice now rests on me."
+ DATAW_minor_decision.0001.opt.a: "I will recruit [veteran01.GetName]."
+ DATAW_minor_decision.0001.opt.b: "[veteran02.GetName] seems worthwhile."
+ DATAW_minor_decision.0001.opt.c: "[veteran03.GetName], no question."
+ DATAW_minor_decision.0001.opt.d: "I will choose none of them."
+ #Bugfix for martial_chivalry.6000
+ martial_chivalry.6000.desc:0 "The woods have always been a valuable training ground. Everyone knows that any gallant knight is always on the lookout for new adventures: a malevolent tyrant, a secret trial, an innocent in need.\n\nI hadn't explored this part of the [church_province.GetTerrain.GetNameNoTooltip|l] before; perhaps that's what makes the sudden ruins seem like a test of valor.\n\nThe [ROOT.Char.GetFaith.HouseOfWorship] has been abandoned for decades, by the looks of it. Spider webs have replaced the glass on the windows. Broken trunks are now the new benches. Some birds fly away when I approach the rotten door."

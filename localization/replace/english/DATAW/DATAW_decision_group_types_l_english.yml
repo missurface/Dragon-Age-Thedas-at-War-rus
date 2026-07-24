@@ -1,0 +1,8 @@
+﻿l_english: 
+ decision_group_type_character: "Character Decisions"
+ decision_group_type_region: "Regional Decisions"
+ decision_group_type_religion: "Religious Decisions"
+ decision_group_type_culture: "Cultural Decisions"
+ decision_group_type_roux: "Ciriane Rebellion Decisions"
+ decision_group_type_caedmon: "Caedmon's Unification Decisions"
+ decision_group_type_ulstor: "Ulstor's Journey"

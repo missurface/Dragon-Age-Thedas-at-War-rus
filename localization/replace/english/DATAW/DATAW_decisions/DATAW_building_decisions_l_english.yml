@@ -1,0 +1,15 @@
+﻿l_english:
+ investigate_ducarme_orphanage_andrastian: "Investigate Ducarme Orphanage"
+ DATAW_investigate_ducarme_orphanage_andrastian_desc: "Robert Ducarme, the “Servant of the Divine's Will”, is a name often mentioned when discussing the Ducarme Orphanage for Dalish Children. Yet rumours surrounding the institution are plenty, and endless speculation about what truly happens is kept secret behind those doors. There is too much secrecy, too many strange happenings, around the orphanage. An investigation must begin at once."
+ investigate_ducarme_orphanage_andrastian_confirm: "Ducarme's secrets will be revealed."
+ investigate_ducarme_orphanage_andrastian_tooltip: "Look into the mysteries of [GetBuilding('ducarme_orphanage').GetName]"
+
+ investigate_ducarme_orphanage_elvish: "Investigate Ducarme Orphanage"
+ DATAW_investigate_ducarme_orphanage_elvish_desc: "The Ducarme Orphanage is a name often cursed by our people. Everyone, from the most devout follower of Fen'Harel to the highest Keeper there is knows this accursed name and the one of its founder, Robert Ducarme. [ROOT.Char.GetFaith.HighGodName] guide us, for it is finally time to tear down this evil institution."
+ investigate_ducarme_orphanage_elvish_confirm: "Ducarme's stain will be removed."
+ investigate_ducarme_orphanage_elvish_tooltip: "Look into the mysteries of [GetBuilding('ducarme_orphanage').GetName]"
+
+ visit_halla_vhenasan: "Visit the Halla Vhenasan"
+ DATAW_visit_halla_vhenasan_desc: "The Halla Vhenasan is a renowned clearing where halla gather in the place where they supposedly were created. It is said that visiting the clearing eases the mind, and it could be enjoyable to relax in such a place."
+ visit_halla_vhenasan_confirm: "To the Halla Vhenasan!"
+ visit_halla_vhenasan_tooltip: "Explore the renowned [GetBuilding('halla_vhenasan_01').GetName]"

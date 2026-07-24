@@ -1,0 +1,44 @@
+﻿l_english:
+  doctrine_clerical_function_taxation_desc:1 "The [ROOT.Faith.AltPriestTermPlural] derives their authority from [ROOT.Faith.HighGodName] [ROOT.Faith.HighGodHerselfHimself], and that still applies here on Thedas."
+  doctrine_clerical_gender_either_desc: "Anyone who has felt the call of the divine should be able to serve as [ROOT.Faith.PriestNeuterPlural], no matter their gender."
+
+  doctrine_chantry_succession_name: "Chantry Succession"
+  chantry_succession_orlesian_doctrine_name: "Orlesian Authority"
+  chantry_succession_orlesian_doctrine_desc: "We believe the Orlesian Chantry is the true successor to Andraste's teachings."
+  chantry_succession_imperial_doctrine_name: "Imperial Authority"
+  chantry_succession_imperial_doctrine_desc: "We believe the Imperial Chantry is the true successor to Andraste's teachings."
+  chantry_succession_none_doctrine_name: "Autonomous Authority"
+  chantry_succession_none_doctrine_desc: "We believe neither Chantry faction is the true successor to Andraste's teachings."
+
+  doctrine_parameter_hostility_override_chantry_succession_orlesian_doctrine: "Considers other [faiths|E] that share this doctrine to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
+  doctrine_parameter_hostility_override_chantry_succession_imperial_doctrine: "Considers other [faiths|E] that share this doctrine to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
+  doctrine_parameter_hostility_override_chantry_succession_none_doctrine: "Considers other [faiths|E] that share this doctrine to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
+
+  tenet_tree_sepulture_name: "Protectors of the Living Sepultures"
+  tenet_tree_sepulture_desc: "The forests are filled with trees that have been used to bury the deceased for generations. Their bodies are sealed inside the trunks, protecting the corpse from possession by demons. Each and every tree we may come across could be the sepulture of a long lost parent or other, and as such, the forest must be nurtured and protected from harm."
+  doctrine_funeral_tree_burial_active_name: "Tree Burial"
+  doctrine_funeral_tree_burial_active_desc: "With an oaken staff to aid their travels in the Beyond and a cedar branch to ward off the ravens of Dirthamen, our dead are laid to rest beneath the earth. Above their remains we plant a tree, their Vallasdahlen, both to remember them by and to feed new life with each of our deaths. Walk beneath them with reverence, and remember that each of them once had a name." #TODO Should this have a different description than the tenet?
+  doctrine_parameter_tree_burial_active: "[rulers|E] can give their ancestors a Tree Burial, gaining [piety|E] and pleasing their [vassals|E]"
+  
+  doctrine_funeral_tree_sepulture_active_name: "Tree Sepulture"
+  doctrine_funeral_tree_sepulture_active_desc: "The forests are filled with dangerous spirits, who threaten to torment our now dead ancestors. In order to protect the souls and body of our forefathers, we seal their remains into the body of the forest itself, masked from spirits by the vigorous life of the tree protecting its body. This way, our ancestors can join the spirits among the servants of The Lady of The Forest, knowing their remains will be undisturbed."
+  doctrine_parameter_tree_sepulture_active: "[rulers|E] can lay their ancestors to rest in a tree, gaining [piety|E] and pleasing their [vassals|E]"
+
+  doctrine_view_on_magic_name: "View on Magic"
+  doctrine_circle_system_name: "Circle System"
+  doctrine_circle_system_desc: "[Concept('mage','Mages')|E] have to be sent to a [circle|E] in order to be trained to resist [demonic_possession|E], as well as in the use of [dataw_magic|E]. Refusal to do so will make a mage an [GetTrait('apostate').GetName(GetNullCharacter)]. Should the worst happen, the [templar|E]s will make sure the [abomination|E] is put down."
+  doctrine_mage_rule_name: "Mage Rule"
+  doctrine_mage_rule_desc: "[dataw_magic|E] is a gift, a privilege reserved to the few, like the rulers holding the very land itself. As such, it is only natural that mages and [rulers|E] should be one and the same"
+  doctrine_forced_conscription_name: "Forced Conscription"
+  doctrine_forced_conscription_desc: "[dataw_magic|E] is a devastating weapon of [war|E], and should be treated as such."
+  doctrine_tranquil_solution_name: "Tranquil Solution"
+  doctrine_tranquil_solution_desc: "For the safety of [Concept('mage','Mages')|E] and non-[Concept('mage','Mages')|E] alike, all [dataw_magic|E] users should undergo rites to prevent [demonic_possession|E] and the potential misuse of their powers. The dampening of their emotions is an unfortunate side effect."
+  doctrine_unlanded_sages_name: "Unlanded Sages"
+  doctrine_unlanded_sages_desc: "[Concept('mage','Mages')|E] are accepted and even revered as sages or advisors able to display wisdom and connection to the [fade|E] to the common folk. Yet the holding of [titles|E] of [land|E] is forbidden to them, as [dataw_magic|E] has no place on a throne."
+  doctrine_persecution_name: "Persecution"
+  doctrine_persecution_desc: "[Concept('mage','Mages')|E] are targets of persecution, and forced to hide their abilities."
+  court_enchanter_allowed_name: "Court Enchanter Allowed"
+  court_enchanter_disallowed_name: "Court Enchanter Disallowed"
+  doctrine_parameter_circle_system_active:0 "The [circle|E] Government is active."
+  doctrine_parameter_persecution_active: "Mages will experience persecution and flee if they can"  # - add mechs
+  doctrine_parameter_tranquil_solution_active: "Mages will be forced to have their access to the [fade|E] severed"  # - add mechs

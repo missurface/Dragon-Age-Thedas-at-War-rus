@@ -1,0 +1,8 @@
+﻿l_english: 
+ #Varangian Guard
+ found_varangian_guard_decision: "Establish the Imperial Templars"
+ found_varangian_guard_decision_desc: "For years, templars from the our outlying provinces have collected in our capitol, attracted by our riches. They offer their services as guards, an art at which they excel, and have no loyalties except those to coin and their own pride. If we could organize their presence around the Archon, we would get an invincible military force at our personal service!"
+ found_varangian_guard_decision_tooltip: "$found_varangian_guard_decision$"
+ found_varangian_guard_decision_confirm: "Start recruiting"
+ unlocked_varangian_guard_desc: "Unlocks the [court_position|E] $akolouthos_court_position$ and the [GetMaA('imperial_templars').GetName] [men_at_arms|E] for [GetTitleByKey('h_tevinter').GetName]."
+ unlocked_varangian_guard_desc_tt: "Imperial Templars Founded"

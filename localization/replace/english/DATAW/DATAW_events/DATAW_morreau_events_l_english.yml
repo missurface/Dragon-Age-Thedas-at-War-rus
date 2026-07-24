@@ -1,0 +1,14 @@
+﻿l_english:
+# EVENT 1
+ DATAW_morreau_events.001.tit: "A Stolen and Ravaged Homeland"
+ DATAW_morreau_events.001.desc: "A decade has passed since House Simmard last ruled over Montsimmard. Ever since the capital of the south was attacked and breached by darkspawn and left to fend for itself by the elves, the House of Simmard has been extinct. Now, [house|E] [percivale.GetHouse.GetName] rules the birthplace of the First Divine, claiming to be the closest to the former ruling house through marriage, due to the current [percivale.GetName] being the son of one of the last scions of House Simmard. \n\n“But they are not like [ROOT.Char.GetHouse.GetName]!” exclaims [jean.GetName], interrupting my lesson. “The Aureliens have only intermingled with de Simmard, while we descend from them. We are the cadet branch of House Simmard, the true successors of Montsimmard, and the city and its lands are ours by birthright.” \n\nWhile we have accepted the present state of affairs, it is true that many among the House of Morreau feel cheated, and long for a return to the city that was once our dynasty's pride. I can see anger, mixed with bravery in the young one's eyes. These are the eyes of someone that could dedicate a lifetime to a dream."
+
+ DATAW_morreau_events.001.opt.a: "One step at a time, young one."
+ DATAW_morreau_events.001.opt.a.tooltip: "Hedinelle will take Jean under her wing, in hopes of guiding him towards Simmard's reclamation."
+
+# Event 2
+ DATAW_morreau_events.002.tit: "A Dynasty Reclaimed"
+ DATAW_morreau_events.002.desc: "Finally, the birthplace of the First Divine is in [ROOT.Char.GetHouse.GetName] hands. The true heirs of [ROOT.Char.GetDynasty.GetName] finally rule the city that was rightfully ours to inherit. \n\nThis is only the first step to reclaim the position House Simmard held before Montsimmard’s destruction. One day, we shall reclaim our place as rulers of Deauvin. But for now, we have reclaimed House Simmard’s position and home, and it is time to reclaim a name that has been without use for decades."
+
+ DATAW_morreau_events.002.opt.a: "We are Simmard once more!"
+ DATAW_morreau_events.002.opt.a.tooltip: "You and your direct descendants become of House Simmard."

@@ -1,0 +1,161 @@
+﻿l_english:
+ #Generic Pagan/Common Pagan Localization
+ rf_elven_paganism:0 "Elven Paganism"
+ elven_paganism_religion:0 "Elven Paganism"
+ elven_paganism_religion_adj:0 "Elven Pagan"
+ elven_paganism_religion_adherent:0 "Elven Pagan"
+ elven_paganism_religion_adherent_plural:0 "Elven Pagans"
+ elven_paganism_religion_desc:0 "The Elvhen believe in two clans of gods, one good and the other evil, both sealed away long ago." #TODO
+
+ #Vir Evanuris Faith
+ vir_evanuris:0 "Vir'Evanuris"
+ vir_evanuris_adj:0 "Vir'Evanuris"
+ vir_evanuris_adherent:0 "Evanurian"
+ vir_evanuris_adherent_plural:0 "Evanurians"
+ vir_evanuris_desc:0 "The Creators once bestowed all life's gifts and doled out its punishments - until they were sealed away. When we prove we are elves again, they will return."
+
+ vir_evanuris_high_god_name:0 "Elgar'nan"
+ vir_evanuris_high_god_name_2:0 "$vir_evanuris_high_god_name$" # Optional translation alt
+ vir_evanuris_high_god_name_possessive:0 "Elgar'nan's"
+ vir_evanuris_high_god_alternate:0 "the All-Father"
+ vir_evanuris_high_god_alternate_possessive:0 "the All-Father's"
+ vir_evanuris_creator_god_name:0 "the Creators"
+ vir_evanuris_creator_god_name_possessive:0 "the Creators'"
+ vir_evanuris_health_god_name:0 "Sylaise"
+ vir_evanuris_health_god_name_possessive:0 "Sylaise's"
+ vir_evanuris_fertility_god_name:0 "Mythal"
+ vir_evanuris_fertility_god_name_possessive:0 "Mythal's"
+ vir_evanuris_wealth_god_name:0 "Andruil"
+ vir_evanuris_wealth_god_name_possessive:0 "Andruil's"
+ vir_evanuris_fate_god_name:0 "Fate"
+ vir_evanuris_fate_god_name_possessive:0 "Fate's"
+ vir_evanuris_knowledge_god_name:0 "Dirthamen"
+ vir_evanuris_knowledge_god_name_possessive:0 "Dirthamen's"
+ vir_evanuris_trickster_god_name:0 "Fen'Harel"
+ vir_evanuris_trickster_god_name_possessive:0 "Fen'Harel's"
+ vir_evanuris_night_god_name:0 "Falon'Din"
+ vir_evanuris_night_god_name_possessive:0 "Falon'Din's"
+ vir_evanuris_water_god_name:0 "Ghilan'nain"
+ vir_evanuris_water_god_name_possessive:0 "Ghilan'nain's"
+
+ vir_evanuris_pantheon_term:0 "Evanuris"
+ vir_evanuris_pantheon_term_2:0 "$vir_evanuris_pantheon_term$"
+ vir_evanuris_pantheon_term_3:0 "$vir_evanuris_pantheon_term$"
+ vir_evanuris_good_god_june:0 "June"
+ vir_evanuris_devil_name:0 "the Forgotten Ones"
+ vir_evanuris_devil_name_possessive:0 "the Forgotten Ones'"
+ vir_evanuris_devil_herselfhimself:0 "themselves"
+ vir_evanuris_evil_god_anaris:0 "Anaris"
+ vir_evanuris_evil_god_geldauran:0 "Geldauran"
+ vir_evanuris_evil_god_daern_thal:0 "Daern'thal"
+ vir_evanuris_house_of_worship:0 "temple"
+ vir_evanuris_house_of_worship_2:0 "$paganism_house_of_worship$"
+ vir_evanuris_house_of_worship_3:0 "$paganism_house_of_worship$"
+ vir_evanuris_house_of_worship_plural:0 "temples"
+ vir_evanuris_religious_symbol:0 "tree"
+ vir_evanuris_religious_symbol_2:0 "$vir_evanuris_religious_symbol$" # Optional translation alt
+ vir_evanuris_religious_symbol_3:0 "$vir_evanuris_religious_symbol$" # Optional translation alt
+ vir_evanuris_religious_text:0 "teachings"
+ vir_evanuris_religious_text_2:0 "$vir_evanuris_religious_text$" # Optional translation alt
+ vir_evanuris_religious_text_3:0 "$vir_evanuris_religious_text$" # Optional translation alt
+ vir_evanuris_religious_head_title:0 "Highest One"
+ vir_evanuris_religious_head_title_name:0 "High Keepers"
+ vir_evanuris_devotee:0 "devotee"
+ vir_evanuris_devotee_plural:0 "devotees"
+ vir_evanuris_priest:0 "keeper"
+ vir_evanuris_priest_plural:0 "keepers"
+ vir_evanuris_bishop:0 "high keeper"
+ vir_evanuris_bishop_plural:0 "high keepers"
+ vir_evanuris_divine_realm:0 "the Beyond"
+ vir_evanuris_divine_realm_2:0 "$vir_evanuris_divine_realm$" # Optional translation alt
+ vir_evanuris_divine_realm_3:0 "$vir_evanuris_divine_realm$" # Optional translation alt
+ vir_evanuris_negative_afterlife:0 "the Abyss"
+ vir_evanuris_negative_afterlife_2:0 "$vir_evanuris_negative_afterlife$" # Optional translation alt
+ vir_evanuris_negative_afterlife_3:0 "$vir_evanuris_negative_afterlife$" # Optional translation alt
+ ghw_tel_avhenan:0 "Tel'avhenan"
+ ghw_tel_avhenanas:0 "Tel'avhenanas"
+
+ #Elven Paganism Group Holy Sites
+ holy_site_halamshiral_name:0 "Halamshiral"
+ holy_site_halamshiral_effect_name:0 "From [holy_site|E] #weak ($holy_site_halamshiral_name$)#!"
+ holy_site_emerald_graves_name:0 "Din'an Hanin"
+ holy_site_emerald_graves_effect_name:0 "From [holy_site|E] #weak ($holy_site_emerald_graves_name$)#!"
+ holy_site_var_bellanaris_name:0 "Var Bellanaris"
+ holy_site_var_bellanaris_effect_name:0 "From [holy_site|E] #weak ($holy_site_var_bellanaris_name$)#!"
+ holy_site_temple_of_mythal_name: "Vir'Abelasan"
+ holy_site_temple_of_mythal_effect_name:0 "From [holy_site|E] #weak ($holy_site_temple_of_mythal_name$)#!"
+
+ #Forgotten Ones Faith - old Fen'Harel Cult Faith
+ forgotten_ones_faith:0 "Vir'Silaimast'en"
+ forgotten_ones_faith_adj:0 "Vir'Silaimast'en"
+ forgotten_ones_faith_adherent:0 "Follower"
+ forgotten_ones_faith_adherent_plural:0 "Followers"
+ forgotten_ones_faith_desc:0 "Some elves - forsaken by the gods and forsaking them in turn - reached out to others, most of whom have been willingly lost to the mists of time. But a few remain."
+
+ forgotten_ones_high_god_name:0 "the Forgotten Ones"
+ forgotten_ones_high_god_name_2:0 "$forgotten_ones_high_god_name$" # Optional translation alt
+ forgotten_ones_high_god_name_possessive:0 "the Forgotten Ones'"
+ forgotten_ones_high_god_alternate:0 "the Forgotten Ones"
+ forgotten_ones_high_god_alternate_possessive:0 "the Forgotten Ones'"
+ forgotten_ones_creator_god_name:0 "the Forgotten Ones"
+ forgotten_ones_creator_god_name_possessive:0 "the Forgotten Ones'"
+ #vir_evanuris_health_god_name:0 "Sylaise"
+ #vir_evanuris_health_god_name_possessive:0 "Sylaise's"
+ #vir_evanuris_fertility_god_name:0 "Mythal"
+ #vir_evanuris_fertility_god_name_possessive:0 "Mythal's"
+ #vir_evanuris_wealth_god_name:0 "Andruil"
+ #vir_evanuris_wealth_god_name_possessive:0 "Andruil's"
+ forgotten_ones_fate_god_name:0 "Fate"
+ forgotten_ones_fate_god_name_possessive:0 "Fate's"
+ #vir_evanuris_knowledge_god_name:0 "Dirthamen"
+ #vir_evanuris_knowledge_god_name_possessive:0 "Dirthamen's"
+ forgotten_ones_trickster_god_name:0 "Fen'Harel"
+ forgotten_ones_trickster_god_name_possessive:0 "Fen'Harel's"
+ #vir_evanuris_night_god_name:0 "Falon'Din"
+ #vir_evanuris_night_god_name_possessive:0 "Falon'Din's"
+ #vir_evanuris_water_god_name:0 "Ghilan'nain"
+ #vir_evanuris_water_god_name_possessive:0 "Ghilan'nain's"
+
+ forgotten_ones_faith_term:0 "Silaimast'en"
+ forgotten_ones_faith_term_2:0 "$forgotten_ones_faith_term$"
+ forgotten_ones_faith_term_3:0 "$forgotten_ones_faith_term$"
+ forgotten_ones_good_god_anaris:0 "Anaris"
+ forgotten_ones_good_god_daern'thal:0 "Daern'thal"
+ forgotten_ones_good_god_geldauran:0 "Geldauran"
+ forgotten_ones_devil_name:0 "the Creators"
+ forgotten_ones_devil_name_possessive:0 "the Creators'"
+ forgotten_ones_devil_herselfhimself:0 "themselves"
+ forgotten_ones_evil_god_elgar'nan:0 "Elgar'nan"
+ forgotten_ones_evil_god_sylaise:0 "Sylaise"
+ forgotten_ones_evil_god_mythal:0 "Mythal"
+ forgotten_ones_evil_god_andruil:0 "Andruil"
+ forgotten_ones_evil_god_dirthamen:0 "Dirthamen"
+ forgotten_ones_evil_god_falon'Din:0 "Falon'Din"
+ forgotten_ones_evil_god_ghilan'nain:0 "Ghilan'nain"
+ forgotten_ones_evil_god_june:0 "June"
+ forgotten_ones_house_of_worship:0 "temple"
+ forgotten_ones_house_of_worship_2:0 "$paganism_house_of_worship$"
+ forgotten_ones_house_of_worship_3:0 "$paganism_house_of_worship$"
+ forgotten_ones_house_of_worship_plural:0 "temples"
+ forgotten_ones_religious_symbol:0 "tree"
+ forgotten_ones_religious_symbol_2:0 "$forgotten_ones_religious_symbol$" # Optional translation alt
+ forgotten_ones_religious_symbol_3:0 "$forgotten_ones_religious_symbol$" # Optional translation alt
+ forgotten_ones_religious_text:0 "teachings"
+ forgotten_ones_religious_text_2:0 "$forgotten_ones_religious_text$" # Optional translation alt
+ forgotten_ones_religious_text_3:0 "$forgotten_ones_religious_text$" # Optional translation alt
+ forgotten_ones_religious_head_title:0 "Highest One"
+ forgotten_ones_religious_head_title_name:0 "High Keepers"
+ forgotten_ones_devotee:0 "devotee"
+ forgotten_ones_devotee_plural:0 "devotees"
+ forgotten_ones_priest:0 "keeper"
+ forgotten_ones_priest_plural:0 "keepers"
+ forgotten_ones_bishop:0 "high keeper"
+ forgotten_ones_bishop_plural:0 "high keepers"
+ forgotten_ones_divine_realm:0 "the Beyond"
+ forgotten_ones_divine_realm_2:0 "$forgotten_ones_divine_realm$" # Optional translation alt
+ forgotten_ones_divine_realm_3:0 "$forgotten_ones_divine_realm$" # Optional translation alt
+ forgotten_ones_negative_afterlife:0 "the Abyss"
+ forgotten_ones_negative_afterlife_2:0 "$forgotten_ones_negative_afterlife$" # Optional translation alt
+ forgotten_ones_negative_afterlife_3:0 "$forgotten_ones_negative_afterlife$" # Optional translation alt
+ ghw_tel_avhenan:0 "Tel'avhenan"
+ ghw_tel_avhenanas:0 "Tel'avhenanas"

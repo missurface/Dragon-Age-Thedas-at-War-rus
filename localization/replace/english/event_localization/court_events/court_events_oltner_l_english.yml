@@ -1,0 +1,8 @@
+﻿l_english:
+
+ court.9100.t: "Antivan Entertainment"
+ court.9100.desc: ""Ah, excellent! [food_lover_1.Custom('GetExpensiveMeal')|U], my favorite!" [food_lover_1.GetFirstName] bellows merrily, gorging [food_lover_1.GetHerselfHimself] as the servant desperately steadies the serving tray.\n\n"Oh, my beloved [food_lover_2.Custom('GetExpensiveDessert')], you truly are delectable!" [food_lover_2.GetFirstName] says with a singing voice.\n\n"Now, this is what life is all about! Servants, more [food_lover_1.Custom('GetExpensiveDrink')], now!" [food_lover_3.GetFirstName] demands.\n\nIt would appear that my courtiers are enjoying themselves!"
+ court.9100.a: "More working, less stuffing your faces!"
+ court.9100.b: "You all deserve the very best!"
+ court.9100.c: "Save some drink for me, [food_lover_3.GetFirstNameNoTooltip] — It is best shared with friends!"
+ court.9100.d: "I should let them be."

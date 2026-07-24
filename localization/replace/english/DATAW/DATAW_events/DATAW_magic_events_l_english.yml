@@ -1,0 +1,24 @@
+﻿l_english:
+ # EVENT 0100
+ DATAW_magic_events.0100.tit: "Writ in Blood"
+ DATAW_magic_events.0100.desc.firstSection: "I am somewhere in the twilight between sleep and wakefulness, when I hear it. \n\nIt's a voice - a whisper louder than a shout. It is familiar and strange, changing by the instant. I first hear my mother's voice. Then, "
+ DATAW_magic_events.0100.desc.asexual: "the adulations of my beloved childhood tutor."
+ DATAW_magic_events.0100.desc.notAsexual: "the delighted cooing of my first kiss."
+ DATAW_magic_events.0100.desc.secondSection: "\n\nThe voice tells me that to a mage, the Fade and lyrium are but two sources of magic. Why do I not avail myself to the red font that flows within my veins, and within the veins of others? \n\nI have been cautioned against the use of blood magic since discovering my magic. Even the great Tevinter Magisters deny its employ in public. For there to be such shame associated with the act, surely it must be dangerous. \n\nThe voice senses my hesitation, cradling me like a babe. \n\nIt matters little how power is gained - it is how that power is used that cements the legacy of mortal men. \n\nJust then, my stationary set slides off my desk, bringing me to wakefulness. The voice is gone, but its suggestion still lingers... After all, I need not do any harm. The power comes from within. I spend the rest of the evening contemplating whether I possess the courage to seize it."
+ DATAW_magic_events.0100.opt.a: "What wonders could be accomplished with just a drop?"
+ DATAW_magic_events.0100.opt.b: "The cost is too steep."
+
+ # EVENT 0101
+ DATAW_magic_events.0101.tit: "Writ in Blood"
+ DATAW_magic_events.0101.desc: "I take the quill knife from my stationary set and appraise its glinting edge for a moment, before gingerly puncturing the fruit of my thumb. \n\nFrom the wound pools a darkening ruby of my ichor. I watch as it fattens with perverse satisfaction. When I have glutted myself on the sight, I close my eyes. \n\nI call to that voice, somewhere in a locus beyond my consciousness, and like a doe steadies the fawn to its cloven feet for the very first time, my quiet instructor teaches me the ways in which my red offering can be applied to my magic."
+ DATAW_magic_events.0101.opt.a: "And so it is done."
+
+ # EVENT 0102
+ DATAW_magic_events.0102.tit: "Writ in Blood"
+ DATAW_magic_events.0102.desc: "To have even entertained the thought - I'm a damned fool! \n\nWhat mage does not know the perils of blood magic? To use blood magic is to offer succor to demons! \n\nEven well-meaning men fall prey to this temptation, thinking themselves better than their forebears who have succumbed. Once blood is freely offered, the hunger can only increase. \n\nA drop, then a deluge. More blood than exists in my mortal body. If I capitulated, how many lives might I take? \n\nNo. I steel my resolve. When the voice comes to me in my sleep, I shall send it away hungry. The true power comes not from my blood, but my will."
+ DATAW_magic_events.0102.opt.a: "Evil shall not tempt me."
+
+ # EVENT 0200
+ DATAW_magic_events.0200.tit: "Emotional Outbursts"
+ DATAW_magic_events.0200.desc: "I find myself, as I do so often lately, in a heated debate with [familyMember.GetShortUIName|U] over a late supper. How is it that I can care so deeply about someone who I so seldom can find common ground with? \n\nThe resentment boils over this time, like an unattended stew pot. Before I register what is happening, [familyMember.GetHerHis] linen napkin erupts into a blaze - a blaze that in my idle discontent, I conjured."
+ DATAW_magic_events.0200.opt.a: "By [ROOT.Char.GetFaith.HighGodName]! What have I done?"

@@ -1,0 +1,14 @@
+﻿l_english: 
+
+ ep3_laamps.5005.t: "A Faithful Visitor"
+ ep3_laamps.5005.desc: "The campfire crackles, illuminating a figure entering our circle. [priest.GetSheHe|U] moves with vigor despite the lateness of the hour, hand wrapped around a walking stick. Those standing guard are already intercepting, but I wave them away.\n\n"Do you have a place for a [priest.GetWomanMan] of [priest.GetFaith.HighGodName]?" [priest.GetSheHe|U] smiles at me hopefully, dirty clothes rustling in the stiff breeze. A wandering [ROOT.Char.GetFaith.PriestNeuter]!\n\n"
+ ep3_laamps.5005.samefaith: "Such figures are well-known in [ROOT.Char.GetFaith.GetAdjective] circles. The traveling preachers spread the word of [priest.GetFaith.HighGodName] to every nook and cranny of the world."
+ ep3_laamps.5005.difffaith: "A [ROOT.Char.GetFaith.PriestNeuter], maybe, but not a [ROOT.Char.GetFaith.PriestNeuter] of [ROOT.Char.GetFaith.GetAdjective] faith, that much I can tell. A few of my fellow believers shuffle their feet uncomfortably as they make the same realization."
+ ep3_laamps.5005.a: "We could do with a [priest.GetWomanMan] of such worldliness..."
+ ep3_laamps.5005.a.success: "[priest.GetSheHe|U] agrees to stay a while"
+ ep3_laamps.5005.a.failure: "[priest.GetSheHe|U] has plans far beyond the camp"
+ ep3_laamps.5005.b: ""Sit, stay a night, and tell us your stories!""
+ ep3_laamps.5005.c: ""I must ask you to leave.""
+ ep3_laamps.5005.c.tt: "There is simply not enough room: I'd never ask a follower of mine to give up their bed for a stranger!"
+ ep3_laamps.5005.d: ""Begone! We don't want your type here!""
+ every_non_faith_follower: "Every non-[priest.GetFaith.GetAdjective] [follower|E]"

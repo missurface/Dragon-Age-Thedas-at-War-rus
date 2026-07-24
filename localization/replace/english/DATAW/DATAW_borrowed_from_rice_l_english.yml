@@ -1,0 +1,28 @@
+﻿l_english:
+
+# Whale Hunt decision 
+ RICE_north_atlantic_whale_hunt:0 "Sponsor a Whale Hunt"
+ RICE_north_atlantic_whale_hunt_desc:0 "We [ROOT.Char.GetCulture.GetCollectiveNoun] have hunted whales for generations. A whale's carcass is a source of much profit thanks to its meat and blubber, which can be turned into a valuable oil. I'd thus like to fund a whale hunt in my name."
+ RICE_north_atlantic_whale_hunt_tooltip:1 "“There is no folly of the beast of the earth which is not infinitely outdone by the madness of man.”"
+ RICE_north_atlantic_whale_hunt_effect_tooltip_1:1 "You have a #V [GetPlayer.MakeScope.ScriptValue('RICE_north_atlantic_whaling_success_chance')|0]%#! chance of success, which is influenced by your [traits|E] and [skills|E], especially [stewardship|E], but also [martial|E] and [learning|E]"
+ RICE_north_atlantic_whale_hunt_effect_tooltip_2:1 "If successful, you will gain [prestige|E] and a random amount of [gold|E] between #V [gold_i|E] 1#! up to a #bold maximum#! of #V [gold_i|E] [GetPlayer.MakeScope.ScriptValue('RICE_north_atlantic_whaling_max_gold_display_value')|0]#!"
+ north_atlantic.0180.t:0 "The Whalers Set Off"
+ RICE_north_atlantic_whale_hunt_confirm:0 "Start the search for some seasoned whalers!"
+ north_atlantic.0180.desc:0 "We [ROOT.Char.GetCulture.GetCollectiveNoun] have hunted whales for as long as anyone can remember. These creatures – or more correctly, their carcasses – are a useful source of blubber for oil and meat.\n\nEven a great [ROOT.Char.GetTitleAsNameNoTooltip] such as myself am aware of the potentially profitable, if risky, nature of the whaling business. Thus, I have decided to sponsor a number of whalers to go find and hunt these majestic beasts, and a good share of the profit from whatever they manage to collect will go to me. Some whalers prefer to go out to sea and hunt whales there, while others stick to luring into coastal areas where they can be trapped.\n\nOf course, I should manage my expectations carefully, as not every hunting trip returns successfully. However, I am confident that the whalers I’ve employed will do more than an acceptable job."
+ north_atlantic.0180.a:0 "Good luck!"
+ north_atlantic.0181.t:0 "The Whalers Return"
+ north_atlantic.0181.desc:0 "The [ROOT.Char.GetCulture.GetName] whalers I recently sent to hunt for whales have returned.\n\n"
+ north_atlantic.0181.desc.fail:0 "Alas, it appears these whalers were unsuccessful and unable to kill any whales! I am extremely disappointed with this result, but such outcomes are not unheard of. I can only hope that next time, the whalers I hire are luckier… or more competent."
+ north_atlantic.0181.desc.success:0 "Thankfully, these whalers successfully hunted down some whales. Once we contact nearby merchants, we can sell the meat as well as the blubber for oil, and ship them to ports elsewhere. Anyways, as I congratulate the whalers on a job well done, I assess how much profit we'll make from their kills.\n\n"
+ north_atlantic.0181.desc.low:0 "Unfortunately, while the whalers did manage to kill a couple whales, it was not a particularly impressive amount. It was enough to pay back some of the costs of the whole trip, but it was not enough to turn a handsome profit.\n\nStill, things could have been worse! At least we got something out of it."
+ north_atlantic.0181.desc.medium:0 "The whalers managed to kill a decent number of whales. Not only was it enough to pay back the costs of the whole trip, but we’ve made quite a decent profit!\n\nI can’t complain much about the result, and am glad that I found a team of competent whalers."
+ north_atlantic.0181.desc.high:0 "The whalers managed to kill a large number of whales; in fact, it was one of the best hunting trips among all the whalers in the area in a long time. We’ve not only paid back the costs of the whole trip, but we’ve made a great profit!\n\nI am most impressed with the team of whalers, and I look forward to potentially working with them again in the future."
+ north_atlantic.0181.a.failure:0 "Perhaps we’ll do better next time…."
+ north_atlantic.0181.a.low:0 "We'll make do with what we caught."
+ north_atlantic.0181.a.medium:0 "The whalers did very good work."
+ north_atlantic.0181.a.high:0 "A very commendable result!"
+# Culture stuff
+ culture_parameter_unlock_rice_whaling:0 "Unlocks the [decision|E] to $RICE_north_atlantic_whale_hunt$"
+ culture_parameter_unlock_rice_whaling_stations:0 "Unlocks the [decisions|E] to $RICE_north_atlantic_whale_exempt_tax$ and $RICE_north_atlantic_whale_levy_extra_tax$ for [rulers|E] of [counties|E] of this [culture|E]"
+# Misc
+ RICE_capital_coastal_county:0 "Your capital is a coastal [county|E]"

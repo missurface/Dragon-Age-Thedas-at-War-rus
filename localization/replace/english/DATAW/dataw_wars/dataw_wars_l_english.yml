@@ -1,0 +1,26 @@
+﻿l_english:
+##########################################
+################ Wars ################
+##########################################
+
+ ciriane_rebellion:0 "Ciriane Rebellion"
+ CIRIANE_REBELLION_NAME:0 "Ciriane Rebellion"
+
+ cleansing_the_frontiers_name:0 "The Invasion of [TITLE.GetBaseName] for Orlais"
+ cleansing_the_frontiers_NAME:0 "The Invasion of [TITLE.GetBaseName] for Orlais"
+
+ first_exalted_march:0 "First Exalted March"
+ FIRST_EXALTED_MARCH_NAME:0 "First Exalted March"
+
+ war_of_the_dales_NAME:1 "War of the Dales"
+ war_of_the_dales:0 "War of the Dales"
+ WAR_OF_THE_DALES_NAME:0 "[holy_war|E] for the [TITLE.GetBaseName]"
+
+ DATAW_CAEDMON_GREAT_WAR_OF_DEFIANCE_NAME: "Great Defiance of [ATTACKER.GetFirstName] [ATTACKER.GetHouse.GetName]"
+ DATAW_caedmon_great_war_of_defiance: "Great Defiance of [ATTACKER.GetFirstName] [ATTACKER.GetHouse.GetName]"
+ DATAW_CAEDMON_GREAT_WAR_OF_DEFIANCE_NAME_BASE: "Great Defiance of [ATTACKER.GetFirstName] [ATTACKER.GetHouse.GetName]"
+ DATAW_CAEDMON_GREAT_WAR_OF_DEFIANCE_NAME_MY: "Great Defiance of [ATTACKER.GetFirstName] [ATTACKER.GetHouse.GetName]"
+ 
+ DATAW_elven_rebellion_NAME: "Elven Rebellion"
+ DATAW_elven_rebellion: "Elven rebellion"
+ DATAW_ELVEN_REBELLION_NAME: "Elven Rebellion"

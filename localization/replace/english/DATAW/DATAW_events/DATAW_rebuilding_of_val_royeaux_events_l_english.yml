@@ -1,0 +1,68 @@
+﻿l_english:
+ # STARTING DECISION
+ DATAW_rebuilding_of_val_royeaux: "Begin the Rebuilding of Val Royeaux"
+ DATAW_rebuilding_of_val_royeaux.desc: "Ever since the dreaded Sack of Val Royeaux, the city has been a shell of what it once was. Now, it is time for the [ROOT.Char.GetTitleAsNameNoTooltip] to fund a great renovation of the city, so that it can once again regain its splendour."
+ DATAW_rebuilding_of_val_royeaux_tooltip: "Return Val Royeaux to its former splendor."
+ DATAW_rebuilding_of_val_royeaux_confirm: "Call the Architects!"
+
+ # EVENT 1
+ DATAW_rebuilding_of_val_royeaux.001.tit: "The Rebuilding of Val Royeaux: The First Step"
+ DATAW_rebuilding_of_val_royeaux.001.desc: "The work to rebuild the capital of the Divine has begun, and architects have come from all over Thedas to help. No doubt the next investments will be crucial to the city's recovery as a shining beacon of the [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip] Empire. \n\nAn architect approaches me, and tells me of the questions of the merchants. \n\n“My [ROOT.Char.GetTitleAsNameNoTooltip], the merchants are wondering how much of an initial investment the crown will put into the city's reconstruction. They wonder how much help they can count on, especially after they received so little of it during the sack.”"
+ DATAW_rebuilding_of_val_royeaux.001.opt.a: "We must spare no expense as our first step. Allow all the funds you need."
+ DATAW_rebuilding_of_val_royeaux.001.opt.b: "We must save funds for later investments. A substantial, but reserved sum."
+ DATAW_rebuilding_of_val_royeaux.001.opt.c: "We cannot allow ourselves to spend so much so early."
+ DATAW_rebuilding_of_val_royeaux.001.opt.d: "We cannot begin this investment right now."
+
+ # EVENT 2
+ DATAW_rebuilding_of_val_royeaux.002.tit: "The Rebuilding of Val Royeaux: The Populace's Plight"
+ DATAW_rebuilding_of_val_royeaux.002.desc: "Now that the investment has been made, I have seen multiple arrivals of workers, merchants and others, all working to rebuild the city proper. But with their arrival came the need for housing, and the local populace's cry for it only put the issue to the forefront of everyone's concerns. \n\nAnother investment must be made for the growing housing crisis, to avoid a slowdown of the rebuilding that has begun. \n\n“How will you respond to these demands, my [ROOT.Char.GetTitleAsNameNoTooltip]?”"
+ DATAW_rebuilding_of_val_royeaux.002.opt.a: "Every person shall have a home!"
+ DATAW_rebuilding_of_val_royeaux.002.opt.a.tt.success: "The building program goes successfully"
+ DATAW_rebuilding_of_val_royeaux.002.opt.a.tt.failure: "The building program goes horribly"
+ DATAW_rebuilding_of_val_royeaux.002.opt.b: "The ruins of the Sack shall be repurposed as housing."
+ DATAW_rebuilding_of_val_royeaux.002.opt.c: "I have an idea for a cheap building that could house many."
+ DATAW_rebuilding_of_val_royeaux.002.opt.d: "We should place a modest investment in rebuilding."
+ DATAW_rebuilding_of_val_royeaux.002.opt.d.tt.success: "The building program goes successfully"
+ DATAW_rebuilding_of_val_royeaux.002.opt.d.tt.failure: "The building program goes horribly"
+ DATAW_rebuilding_of_val_royeaux.002.opt.e: "The peasants are not our highest priority. Send some token funds."
+ DATAW_rebuilding_of_val_royeaux.002.opt.e.tt.success: "The building program goes successfully"
+ DATAW_rebuilding_of_val_royeaux.002.opt.e.tt.failure: "The building program goes horribly"
+ DATAW_rebuilding_of_val_royeaux.002.opt.f: "The poor only breed and eat like rabbits."
+
+ # EVENT 3
+ DATAW_rebuilding_of_val_royeaux.003.tit: "The Rebuilding of Val Royeaux: The Pleading Sun"
+ DATAW_rebuilding_of_val_royeaux.003.firstSection: "“In the name of the Maker and his Bride, I call for your aid!” \n\nAs I turn around from observing the various projects that have started ever since the rebuilding project, I see a very important figure. [orlesianDivine.GetFirstName] stands before me, with a beautiful cortege following behind her of various monks and guards. "
+ DATAW_rebuilding_of_val_royeaux.003.secondSection: "A closer look at the cortege reveals that despite the beautiful clothing, the monks' clothes are worn and reused, while a few of the guards' armours are mismatched with old helmets. An unacceptable mistake in the Great Game, that speaks of the trying times of the city."
+ DATAW_rebuilding_of_val_royeaux.003.thirdSection: "\n\n“The Chantry, like so many others, have seen great damage done to them, and the chantries that people run to for aid are now in ruins and unable to provide them the solace or care they ask for. "
+ DATAW_rebuilding_of_val_royeaux.003.fourthSection: "I understand you are not a worshipper of the Maker, but many come to Val Royeaux because of their faith, and they find peace, purpose and aid in our chant. "
+ DATAW_rebuilding_of_val_royeaux.003.fifthSection: "I ask, simply, for a donation to help rebuild those structures so important to the common folk, and to us.”"
+ DATAW_rebuilding_of_val_royeaux.003.opt.a: "You will receive the help you need, oh [orlesianDivine.GetFirstName]."
+ DATAW_rebuilding_of_val_royeaux.003.opt.a.tooltip: "All Andrastian counties gain a popular opinion boost."
+ DATAW_rebuilding_of_val_royeaux.003.opt.b: "We can easily repurpose the rubble to reconstruct chantries."
+ DATAW_rebuilding_of_val_royeaux.003.opt.b.tooltip: "All Andrastian counties gain a popular opinion boost."
+ DATAW_rebuilding_of_val_royeaux.003.opt.c: "I have seen the light, and will contribute myself!"
+ DATAW_rebuilding_of_val_royeaux.003.opt.d: "We can offer some contributions."
+ DATAW_rebuilding_of_val_royeaux.003.opt.e: "We can't allow ourselves to spend this amount of money."
+
+ # EVENT 4
+ DATAW_rebuilding_of_val_royeaux.004.tit: "The Rebuilding of Val Royeaux: The Sea's Call"
+ DATAW_rebuilding_of_val_royeaux.004.desc: "As reconstruction has progressed, the general rebuilding, then call for housing and religious support has brought the attention to the city's docks, and now [quaiRoyeauxHolder.GetFirstName] has come to talk to me about the issue. \n\n“My liege, the time has come to invest into the city's docks. It is a vital part of Val Royeaux' economy, and while shops and chantries rebuild themselves, countless goods, merchants and pilgrims pass through the docks. It would be folly to rebuild the cart while leaving the road uncared for.” \n\nLooking through the window to the docks, I can see burned down houses that previously housed goods of all kinds. Even those closest to the water weren't spared by the fire."
+ DATAW_rebuilding_of_val_royeaux.004.opt.a: "You have my support, have the money you desire!"
+ DATAW_rebuilding_of_val_royeaux.004.opt.b: "You will have the support we can afford."
+ DATAW_rebuilding_of_val_royeaux.004.opt.c: "Let's see if we can't negotiate with the dock's merchants."
+ DATAW_rebuilding_of_val_royeaux.004.opt.c.tt.success: "You strike a great deal."
+ DATAW_rebuilding_of_val_royeaux.004.opt.c.tt.failure: "The merchants focus on their businesses instead."
+ DATAW_rebuilding_of_val_royeaux.004.opt.d: "Why not tax the merchants to help refund the city?"
+
+ # EVENT 5
+ DATAW_rebuilding_of_val_royeaux.005.tit: "The Rebuilding of Val Royeaux: The Demand of Knowledge"
+ DATAW_rebuilding_of_val_royeaux.005.desc: "“Greetings, [ROOT.Char.GetTitleAsNameNoTooltip], if I may.” \n\nA messenger, presenting [universityStudent.GetHerselfHimself] as [universityStudent.GetFirstName], comes quickly before me, hands out a message gracefully, and then leaves me the space to read comfortably while being close enough for any questions, as is expected of someone properly educated. \n\n“The University council writes this letter to ask for aid, oh [ROOT.Char.GetTitleAsNameNoTooltip]. The University has not been spared by the elven attack, and as such, we humbly ask for money that could bring much needed renovations and students to the institution. Of course, we can understand that the university is not the crown's priority, and as such, we are ready to offer our messenger as courtier, or any other demand you could desire.”"
+ DATAW_rebuilding_of_val_royeaux.005.opt.a: "I accept your messenger and your offer."
+ DATAW_rebuilding_of_val_royeaux.005.opt.b: "Go back with the gold, [universityStudent.GetFirstName]."
+ DATAW_rebuilding_of_val_royeaux.005.opt.c: "I can only offer so much."
+ DATAW_rebuilding_of_val_royeaux.005.opt.d: "The university is for failures of the Game."
+
+ # EVENT 6
+ DATAW_rebuilding_of_val_royeaux.006.tit: "The Rebuilding of Val Royeaux: The Verdict"
+ DATAW_rebuilding_of_val_royeaux.006.desc: "Over the previous months, there has been unprecedented activity across [GetTitleByKey('c_val_royeaux').GetBaseNameNoTier]. Countless demands, countless amounts of investment, all of it has been made to restore the city's standing after this fateful day. \n\nNow, the frenzy has cooled down, but the project has not. My initial investments have secured the way forward, and will dictate the rhythm of growth over the coming years."
+ DATAW_rebuilding_of_val_royeaux.006.opt.a: "Let us wish [GetTitleByKey('c_val_royeaux').GetBaseNameNoTier] is rebuilt in all its splendor."

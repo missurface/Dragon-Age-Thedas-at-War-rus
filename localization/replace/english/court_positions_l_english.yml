@@ -1,0 +1,14 @@
+﻿l_english:
+
+ chief_qadi_court_position:0 "Chief Judge"
+ chief_qadi_court_position_desc:0 "The $chief_qadi_court_position$ is the ultimate judge of the realm, responsible for applying Elvhen law in various disputes and legal matters."
+
+ akolouthos_court_position:0 "Knight-Commander"
+ 
+ akolouthos_employer_custom_effect_description:0 "$BULLET$Increases [GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()] [aptitude|E] (based on [aptitude|E])\n$BULLET$More eligible [courtiers|E] gain the [GetTrait('varangian').GetName( GetNullCharacter )] and [GetTrait('loyal').GetName( GetNullCharacter )] [traits|E]\n$BULLET$More Varangians will appear\n@warning_icon!#X The Imperial Templars will claim some [gold_i] Gold after the Basileus's death.#!"
+ 
+ akolouthos_court_position_desc:0 "The $akolouthos_court_position$ commands much of Tevinter's house guard, including the famed Imperial Templars, who are most willing to die honorably for their master."
+ 
+ akolouthos_founded_varangians_trigger_tt:0 "You have founded the Imperial Templars"
+
+ court_position_akolouthos_bonus:0 "[GetCourtPositionType('akolouthos_court_position').GetName()]"

@@ -1,0 +1,9 @@
+﻿l_english:
+hauterin_culture_event.0003.t:0 "Voices from the Wastes"
+hauterin_culture_event.0003.desc:0 "After making camp in the desert, I quietly steal away for a private walk. Privacy is a ruler’s greatest luxury, especially when out with one’s entourage. Under the stars and alone with the wastes, I roam far enough that I can no longer hear the sounds of my camp. And yet a voice persists. While I cannot understand it, it is unmistakable. It almost sounds as if the sands themselves are speaking to me."
+hauterin_culture_event.0003.a:0 "Even the [maker|E] creation speaks the [chant_of_light|E]."
+hauterin_culture_event.0003.b:0 "Perhaps the [dwarves|E] aren’t so wrong about the Stone."
+hauterin_culture_event.0003.c:0 "The useless thoughts of an idle mind. Back to camp."
+hauterin_cultural_acceptance_gain:0 "Understanding the Stone."
+hauterin_culture_event.0005.t:0 "Tipping the scales"
+hauterin_culture_event.0005.desc:0 "Debug desc mareschois ruler [mare.GetTitledFirstName], chanvalois ruler [chan.GetTitledFirstName]."

@@ -1,0 +1,58 @@
+﻿l_english:
+ DATAW_building_decision.0001.tit: "The Horrors of Zeal..."
+ DATAW_building_decision.0001.desc: "Graves. \n\nI see only countless graves, as I enter the Ducarme Orphanage, whose doors had to be forced upon with a makeshift ram after the administration's multiple refusals of an on-site investigation. \n\nNow I know why. \n\nElven orphans all around can be seen, some looking like they haven't seen light or food for days, while others have their entire back bloody due to lashes. All of them, surprisingly, call the Maker for help in perfect Orlesian, although whether this expert knowledge of the Chant is due to fear of punishment or genuine faith, I couldn't say. Cages were found inside the building's basement, with many locked inside, seemingly for \"rehabilitation\". \n\nBut the worst was when the graves were dug up. \n\nThey were all Dalish, and all had horrible scarifications, covering some if not the entirety of their face. One of the elves, seemingly weak with similar scars, approached me and told me why in a trembling voice. \n\n\"They said the Vallaslin made you a slave to the gods, and forbade you from following the Maker. They said that if you didn't let them remove it, you wouldn't get to eat. The graves are the ones that didn't survive.\" \n\nThis should never have happened. No matter to whom."
+ DATAW_building_decision.0001.opt.a: "Tear the place down. This is a disgrace that will be severely punished."
+ DATAW_building_decision.0001.opt.b: "No one must ever know what happened here. Cover it up."
+ DATAW_building_decision.0001.opt.c: "Regulations must be placed at once to avoid further atrocities."
+
+ DATAW_building_decision.0002.tit: "...and The Beauty of Love"
+ DATAW_building_decision.0002.desc: "It has been a month since the atrocities at Ducarme Orphanage have been revealed. Despite the ever-present tensions between humans and elves, none have questioned the decision to tear the building down to the last brick, letting the institution and its horrors fade out of memory. \n\nNone but the people of [GetTitleByKey('c_verchiel').GetNameNoTier]. \n\nIn a surprising turn, the locals have begun housing the now homeless elves, and many have now integrated into the homes of those families, sharing their meals, their lives, and even beginning to work in the same jobs. It is a rare display of equality amongst races, perhaps fuelled by guilt. Some have even managed to buy houses to form their little neighbourhood. \n\n[GetTitleByKey('c_verchiel').GetNameNoTier] may be the site of a great atrocity against the elves, but it is now, paradoxically, the site of a great showcase of equality amongst races, perhaps one of the biggest Orlais has seen. While it is unlikely these new customs spread to the rest of the region, the locals have managed to build something beautiful on the ashes of evil."
+ DATAW_building_decision.0002.opt.a: "Good for them."
+
+ DATAW_building_decision.0003.tit: "Elgar'nan's Burning Vengeance..."
+ DATAW_building_decision.0003.desc: "Graves. \n\nI can only see countless graves, as I enter the Ducarme Orphanage, whose doors had to be forced open by our forces. \n\nOur diggings revealed they were all Dalish. \n\nAll had horrible scarifications, covering some if not the entirety of their face. Some of our soldiers recognized the scars mimicked the shapes of a vallaslin, and one of the trembling orphans came to me to confirm. \n\n« They said the Vallaslin made you a slave to the gods, and forbade you from following the Maker. They said that if you didn't let them remove it, you wouldn't get to eat. The graves are the ones that didn't survive. » \n\nElves all around can be seen, some looking like they haven't seen light or food for days, while others have their entire back bloody due to lashes. All of them call for that despicable human god, reciting the chant that brought so much suffering to the Elvhen. Our soldiers, taken by rage seeing the suffering, are calling for slaughter in the name of [ROOT.Char.GetFaith.WarGodName]."
+ DATAW_building_decision.0003.opt.a: "We follow [ROOT.Char.GetFaith.WarGodName]'s example. Kill them all, and save those of our people."
+ DATAW_building_decision.0003.opt.b: "No more blood shall be shed on this land. Take them to a cell, they shall be judged accordingly."  
+
+ DATAW_building_decision.0004.tit: "...Calmed by Mythal's Embrace"
+ DATAW_building_decision.0004.desc: "A month has passed ever since the revelations of the Ducarme Orphanage, and the building has finally been completely torn to the ground. Justice has been given to the ones that delivered this suffering, and only the graves remain. \n\nWell, that, and the orphans. \n\nDuring the last month, various locals, with the help of the orphaned elves, have built a statue for remembrance of this act, and the funding has risen to give a monument against oppression, one that stands among the many graves of the ones that we lost. \n\nApparently, during the inauguration yesterday, many of the orphans and the locals sang the Chant of Light in the few words of elvish they knew, as a sort of last goodbye to this dark part of their life. What was written below the statue was “Vir Sulahn Var Revas”." 
+ DATAW_building_decision.0004.opt.a: "A fitting phrase to close this chapter of our history."
+
+ cultural_acceptance_built_elven_neighbourhood: "Supported the Elven Neighbourhood"
+ 
+ DATAW_building_decision_exit.t: "Refund"
+ DATAW_building_decision_exit.desc: "Your trip has been refunded"
+ DATAW_building_decision.0005.t: "Halla Vhenasan: A Beautiful moment"
+ DATAW_building_decision.0005.elf: "\n\nEither way, they are a beautiful creatures, and [ROOT.Char.GetFaith.WaterGodName] has done a wonderful job. There is no doubt she has wonderful taste, with a sense for elegant beauty."
+ DATAW_building_decision.0005.cynic: "\n\nWith this sight, I wonder if the Halla were created after all, like the $elven_paganism_religion_adherent_plural$ claim. If a being such as $vir_evanuris_water_god_name$ created them, they no doubt had wonderful taste, and a sense for elegant beauty."
+ DATAW_building_decision.0005.desc: "It has been an hour now since I arrived at the Halla Vhenasan. The halla all around me are galloping freely, without a care in the world. Do they possess the knowledge that people believe this is their birthplace? Do they care?"
+ DATAW_building_decision.0005.opt.a: "Beautiful."
+ DATAW_building_decision.0005.opt.b: " Kill them all, and bring their spoils with us."
+
+ DATAW_building_decision.0006.tit: "...With No End in Sight"
+ DATAW_building_decision.0006.desc: "Money has been given to the few that participated in the investigation, and the few that did not accept will never speak again. Commoners can keep speculating all they want, yet it is for their own good. \n\nNone must know what happens in the Ducarme Orphanage for Dalish Children. Any revelations of the orphans’ treatment would also reveal what I did to cover up those activities, and as such I shall do my best to protect this secret."
+ DATAW_building_decision.0006.opt.a: "The children’s cries will be left unheard."
+
+ DATAW_building_decision.0007.tit: "...Now Chained by Reason"
+ DATAW_building_decision.0007.desc: "Investigations of the Ducarme Orphanage for Dalish Children have been pushed further in the last month, punishing those that held ill intentions towards those children, and finding ways to regulate the orphanage, so that the honourable mission of giving a righteous education to Dalish orphans can at least be done with some reason and decency. No longer shall Dalish children be kidnapped from their still living families, and no longer shall senseless torture take place. \n\nThis Orphanage, now handled by public administration and funds, shall handle true orphans with the decency they deserve, to allow them a true education, secular as well as religious, as the Maker intended.
+ DATAW_building_decision.0007.opt.a: "Finally, their nightmare is over."
+ 
+ DATAW_visit_the_wyvern_market_decision:0 "Visit the Wyvern Market"
+ DATAW_visit_the_wyvern_market_tooltip:0 "It is time for a visit."
+ DATAW_visit_the_wyvern_market_desc:0 "The small market which built itself around the Wyvern Graveyard may be less than scrupulous, but it is the best place to find a Wyvern Claw, or even better, a skull. Then again, I may pay a visit to get some order in that forsaken market."
+ DATAW_visit_the_wyvern_market_decision_confirm:0 "It is time for a visit."
+ DATAW_visit_the_wyvern_market_decision_effect_tooltip:0 "Placeholder effect"
+ DATAW_building_decision.0101.tit: "The Wyvern Market"
+ DATAW_building_decision.0101.desc: "As I enter the town of Darnois, I can immediately see a group of peasants huddled among the Kordillus Plaza, where it seems many stands have erected themselves, selling many different parts of a wyvern’s corpse, no doubt taken from the nearby Graveyard where the beasts go to rest their last days. One merchant, comes to me, and begins what is no doubt her/his highly practiced sales pitch. “Greetings! Would you be interested in buying a Wyvern Claw? A Wyvern scale, perhaps? Or, would you prefer the *pièce de résistance*, a Wyvern Skull?""
+ DATAW_building_decision.0101.opt.a: "I’ll buy the wyvern claw."
+ DATAW_building_decision.0101.opt.b: "I’ll take the scale"
+ DATAW_building_decision.0101.opt.c: "I’ll buy the skull."
+ DATAW_building_decision.0101.opt.d: "How about I shut down your business instead?"
+ DATAW_wyvern_claw:0 "Wyvern Claw"
+ DATAW_wyvern_claw_desc:0 "A claw from a mighty wyvern’s paw. It is said it can slash through the thickest armor."
+ DATAW_wyvern_scale:0 "Wyvern Scale"
+ DATAW_wyvern_scale_desc:0 "A scale from a mighty wyvern’s hide. It is said it can resist the sturdiest spears, which make them a prime target for hunting."
+ DATAW_wyvern_skull:0 "Wyvern Skull"
+ DATAW_wyvern_skull_desc:0 " The skull of a mighty wyvern. It is said they are one of the fiercest creatures in all of Thedas."
+ DATAW_disrupted_wyvern_business: "Disrupted wyvern business"
+ DATAW_disrupted_wyvern_business_desc: "Disrupted wyvern business."

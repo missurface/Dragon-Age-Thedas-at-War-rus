@@ -1,0 +1,55 @@
+﻿l_english:
+ trait_anointed: "Anointed"
+ trait_anointed_desc: "Considered to be directed by the Maker himself, there is no greater honor for the faithful than to be named Anointed."
+ trait_anointed_character_desc: "Considered to be directed by the Maker himself, there is no greater honor for the faithful than to be named Anointed."
+
+ trait_vallaslin: "Bearer of the [vallaslin|E]"
+ trait_vallaslin_desc: "This character has undertaken the rite of passage to adulthood and now wears the [vallaslin|E] of their chosen god, as is the custom."
+ trait_vallaslin_character_desc: "[ROOT.Char.GetFirstNameNoTooltip] has undertaken the rite of passage to adulthood and now wears the [vallaslin|E] of their chosen god, as is the custom."
+
+ trait_qunari: "[qunari|E]"
+ trait_qunari_desc: "[ROOT.Char.GetFirstNameNoTooltip] is apart of the Qun."
+ trait_qunari_character_desc: "[ROOT.Char.GetFirstNameNoTooltip] is apart of the Qun."
+
+ trait_human: "[human|E]"
+ trait_human_desc: "This person is a member of the Human race, hailing from the multiple tribes that migrated from the north beyond Thedas."
+ trait_human_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a member of the Human race, hailing from the multiple tribes that migrated from the north beyond Thedas." 
+
+ trait_elvhen: "Elf"
+ trait_elvhen_desc: "This person is a member of the [elvhen|E] race, hailing from Arlathan forest."
+ trait_elvhen_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a member of the [elvhen|E] race, hailing from Arlathan forest."
+
+
+
+ trait_witchofthewilds: "Witch of the Wilds"
+ trait_witchofthewilds_desc: "This character is a drop in an ancient and reclusive wellspring - a Witch of the Wilds."
+ trait_witchofthewilds_character_desc: "[ROOT.Char.GetFirstNameNoTooltip] is a drop in an ancient and reclusive wellspring - a Witch of the Wilds."
+ I_HAVE_WITCHOFTHEWILDS_TRAIT: "[GetTrait('witchofthewilds').GetName(GetPlayer)]: $VALUE|=+0$"
+
+ # CREDIT TO EK2 FOR LETTING US USE THEIR LINE_OF_X!! THANK YOU GUYS
+ trait_line_of_x: "Line of [ROOT.Char.GetFirstNameNoTooltip]" # assume named Line of X
+ trait_line_of_x_null: "Line of X" # incase character doesnt exist
+ trait_line_of_x_desc: "This character represents the Line of [ROOT.Char.GetFirstNameNoTooltip]."
+ trait_line_of_x_desc_null: "This character represents the Line of X." # incase character doesnt exist
+ #Crusader Names
+ trait_crusader_andrastianism: "Exalted"
+
+ # Crusader King names
+ trait_crusader_king_andrastianism_male: "Exalted King"
+ trait_crusader_king_andrastianism_female: "Exalted Queen"
+ 
+ trait_education_magic_1: "Inept Mage"
+ trait_education_magic_1_desc: "The Inept Mage has a natural connection to the Fade but needs training to use their powers."
+ trait_education_magic_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] has a natural connection to the Fade but needs training to use [ROOT.GetCharacter.GetHerHis] powers."
+ trait_education_magic_2: "Apprentice Magician"
+ trait_education_magic_2_desc: "The Apprentice Magician can conjure simple magic, enough to entertain or frighten, but more education is needed before they can wield their magic safely."
+ trait_education_magic_2_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] can conjure simple magic, enough to entertain or frighten, but more education is needed before [ROOT.GetCharacter.GetSheHe] can wield [ROOT.GetCharacter.GetHerHis] magic safely."
+ trait_education_magic_3: "Harrowed Mage"
+ trait_education_magic_3_desc: "The Harrowed Mage has mastered their connection to the Fade and their control over the powers within."
+ trait_education_magic_3_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] has mastered [ROOT.GetCharacter.GetHerHis] connection to the Fade and [ROOT.GetCharacter.GetHerHis] control over the powers within."
+ trait_education_magic_4: "Senior Enchanter"
+ trait_education_magic_4_desc: "The Senior Enchanter is a force to be reckoned with; they have trained for years to be in full control of their powers and a master at wielding them when needed."
+ trait_education_magic_4_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a force to be reckoned with; [ROOT.GetCharacter.GetSheHe] has trained for years to be in full control of [ROOT.GetCharacter.GetHerHis] powers and is a master at wielding them when needed."
+ trait_education_magic_5: "Fade-Touched Archmage"
+ trait_education_magic_5_desc: "The Fade-Touched Archmage is a rarity even amongst the most senior of mages, their strong connection to the Fade allows them to cast magic without much effort, almost as natural as breathing."
+ trait_education_magic_5_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a rarity even amongst the most senior of mages, [ROOT.GetCharacter.GetHerHis] strong connection to the Fade allows them to cast magic without much effort, almost as natural as breathing."

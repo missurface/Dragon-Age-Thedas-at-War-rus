@@ -1,0 +1,38 @@
+﻿l_english:
+
+# Halamshiral - Specific
+ travel_city_halamshiral_intro:0 "#italic The End of the Journey#!. At least it was to the elves of the Long Walk, as they saw this land and decided to build here for the elves to find their new home. [city_province.GetNameNoTooltip], as this is its elven name, now lay in front of me, its stone walls built in a style meant to emulate Arlathan, now forever lost to time.\n\n"
+ travel_city_halamshiral_winding_streets_title: "[city_province.GetBaronyNameExplicitlyNoTooltip]: Winding Streets"
+ travel_city_halamshiral_high_quarter_title: "[city_province.GetBaronyNameExplicitlyNoTooltip]: High Quarter"
+ travel_city_halamshiral_ancient_walls_title: "[city_province.GetBaronyNameExplicitlyNoTooltip]: Ancient Walls"
+
+ travel_city_halamshiral_winding_streets: "All around, the winding streets of [city_province.GetBaronyNameExplicitlyNoTooltip] surround me as if it was a dense forest. Countless figures walk around, entering and leaving the streets so frequently I cannot recall any of their faces. I knew Halamshiral was built as the center of the new elven homeland, but this feels like it was made to house them all."
+ travel_city_halamshiral_high_quarter: "Faraway can be seen the streets of the high quarter, hidden behind high walls, home of the city’s nobility. Seemingly the first place of the city built by the elves, the neighbourhood both feels gorgeous, old, and of an air of desperation, perhaps fitting to elven history."
+ travel_city_halamshiral_ancient_walls: "Behind me, I look back to see the old walls surrounding the city, only matched in height by those guarding the high quarter. Made once the city was advanced enough to be called a proper capital, it both exudes a sense of renewal, as well as a sense of obsession with the past.\n\n Are those walls meant to replicate the old walls of Arlathan as they were, or are they trying to emulate on them? Hard to tell, and a question with an answer probably lost forever to time."
+
+ travel_city_halamshiral_winding_streets_companion_reflection:0 "\nMy [ROOT.Char.Custom2('RelationToMe', sightseeing_companion)|U] [sightseeing_companion.GetName] adds that we should use this opportunity to learn about the city."
+ travel_city_halamshiral_high_quarter_companion_reflection:0 "\nMy [ROOT.Char.Custom2('RelationToMe', sightseeing_companion)|U] [sightseeing_companion.GetName] adds that we should use this opportunity to learn about the city."
+ travel_city_halamshiral_ancient_walls_companion_reflection:0 "\nMy [ROOT.Char.Custom2('RelationToMe', sightseeing_companion)|U] [sightseeing_companion.GetName] adds that we should use this opportunity to learn about the ancient walls."
+
+ travel_city_halamshiral_alone_reflection:0 "\nI can't help but reflect on the immense age of this city."
+#val_royeaux - Specific
+#val_royeaux - Specific
+ travel_city_val_royeaux_grand_cathedral_title: "[city_province.GetBaronyNameExplicitlyNoTooltip]: Grand Cathedral"
+ travel_city_val_royeaux_university_of_orlais_title: "[city_province.GetBaronyNameExplicitlyNoTooltip]: University of Orlais"
+ travel_city_val_royeaux_imperial_palace_title: "[city_province.GetBaronyNameExplicitlyNoTooltip]: Imperial Palace"
+ PROSPHORION_GLOSS: "The northern commercial harbor of [GetTitleByKey('b_val_royeaux').GetNameNoTier], the city also had a number of other military, commercial and imperial harbors."
+ travel_city_val_royeaux_intro: "Passing alongside the gorgeous estates, it is difficult to not be in marvel at the sight of [city_province.GetBaronyNameExplicitlyNoTooltip], capital of Kordillus' empire of Orlais and city of wonder, with enough gold and ornaments to ressemble the Golden City.\n\n"
+
+ travel_city_val_royeaux_grand_cathedral: "As I enter the city proper through the Sun Gate, I can see, far into the distance, the [Glossary( 'Grand Cathedral', 'grand_cathedral_GLOSS')], seat of the Divine. the seat of the Sunburst Throne can be seen from here, and the grandness of the circular plaza is only overshadowed by the faint singing of the Chant of Light, ever-present."
+ travel_city_grand_cathedral_reflection: "\n\nSurrounded by monumental buildings, it is not hard to be in awe of all this grandeur. My own existence suddenly feels less significant."
+ travel_city_companion_grand_cathedral_reflection:0 "\n\n“[ROOT.Char.Custom2('RelationToMeAddress', sightseeing_companion)|U], this is a place unlike any other you have been to. We stand before over a millennia of history”"
+ travel_city_companion_university_of_orlais_reflection:0 "\n\n“[ROOT.Char.Custom2('RelationToMeAddress', sightseeing_companion)|U], this is a place unlike any other you have been to. We stand before over a millennia of history”"
+
+ grand_cathedral_GLOSS: "Planned by Kordillus 1 Drakon, the Grand Cathedral of Val Royeaux has historically served as the seat of the Divine of the Orlesian Chantry. It is the only place where the Chant of Light is sung in its entirety, which takes about two weeks. The building would only be completed in 2:99 Glory with the inauguration of its two towers, more than 200 years after the construction's start, giving its name to the Towers Age."
+ travel_city_val_royeaux_university_of_orlais: "Driven by curiosity we follow an [Glossary( 'enormous university', 'AQUEDUCT_OF_VALENS_GLOSS' )]\n"
+ travel_city_option_study_university_of_orlais: "We must chart and document these libraries"
+ travel_city_val_royeaux_imperial_palace: "As I enter the city through the Sun Gate, I can see, standing high above all, the Imperial Palace. Symbol of the debauchery and vices that are so freely accepted, indulged and forgiven in these walls."
+ AQUEDUCT_OF_VALENS_GLOSS: "As I enter the city proper through the Night Gate, I can see the University to our right, towering the city with the twin bronze domes of its chantry. It is said that various publications relating to multiple subjects, be it culture, fauna, history or other, despite the limitations set upon themselves by the present ruler's tastes."
+ FALLBACK_COIN: "coin"
+ travel_city_well_supplied: "Well Supplied"
+ travel_city_well_supplied_desc: "This character has recently stocked up on all essentials that are needed for traveling."

@@ -1,0 +1,32 @@
+﻿l_english:
+
+ RULER_DESIGNER_BIRTH_YEAR:0 "Born: $RULER_DESIGNER_YEAR_CONCAT$"
+
+ # circumpolar:0 "Agadi" for now......
+ # caucasian:0 "Central Thedosian" no longer needed
+ # northern_ruler_designer:0 "Alamarri/Orth" no longer needed
+ mediterranean_ruler_designer:0 "Tevene"
+ avvar:0 "Avvar"
+ brecilian:0 "Brecilian"
+ chasind:0 "Chasind"
+ clayne:0 "Clayne"
+ edgehaller:0 "Edgehaller"
+ jaderian:0 "Jaderian"
+ ciriane:0 "Ciriane"
+ gamoric:0 "Gamoric"
+ orlesian:0 "Orlesian"
+ vandalarien:0 "Vandalarien"
+ borsol:0 "Borsol"
+ ethnicity_elven_caucasian:0 "Elvhen 1"
+ ethnicity_elven_mena:0 "Elvhen 2"
+ ethnicity_elven_african:0 "Elvhen 3"
+ ethnicity_elven_asian:0 "Elvhen 4"
+ ethnicity_elven_hispanic:0 "Elvhen 5"
+
+ elven_eye:0 "Elvhen Eyes"
+ elven_eyes_disabled:0 "Elvhen Eyes Disabled"
+ elven_eyes_enabled:0 "Elvhen Eyes Enabled"
+
+ elven_ear:0 "Elvhen Ears"
+ elven_ear_disabled:0 "Elvhen Ears Disabled"
+ elven_ear_enabled:0 "Elvhen Ears Enabled"
