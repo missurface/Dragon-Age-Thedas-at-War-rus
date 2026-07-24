@@ -1,0 +1,20 @@
+﻿l_russian:
+
+ ce1_contracted_black_death: "Contracted the Blight Sickness"
+ ce1_contracted_black_death_desc: "my soul was challenged by [owner.GetFaith.DeathDeityName|U] as I became weak with [GetTrait('bubonic_plague').GetNameNoTooltip( GetNullCharacter )]"
+ ce1_contracted_black_death_desc_second_perspective: "you were afflicted with [GetTrait('bubonic_plague').GetNameNoTooltip( GetNullCharacter )]"
+ ce1_contracted_black_death_desc_third_perspective: "[owner.GetTitledFirstName] became afflicted with [GetTrait('bubonic_plague').GetNameNoTooltip( GetNullCharacter )]"
+
+# Check these
+ sacked_great_city: "The Sack of [ROOT.Var('province').GetProvince.GetNameNoTooltip]"
+ sacked_great_city_desc: "I've sacked the great city of [ROOT.Var('province').GetProvince.GetName]"
+ sacked_great_city_desc_second_perspective: "You've sacked the great city of [ROOT.Var('province').GetProvince.GetName]"
+ sacked_great_city_desc_third_perspective: "[owner.GetTitledFirstName] has sacked the great city of [ROOT.Var('province').GetProvince.GetName]"
+ spared_great_city: "The Sack of [ROOT.Var('province').GetProvince.GetNameNoTooltip]"
+ spared_great_city_desc: "I've saved as much people as i could during the sack of [ROOT.Var('province').GetProvince.GetName]"
+ spared_great_city_desc_second_perspective: "You've saved as much people as you could during the sack of [ROOT.Var('province').GetProvince.GetName]"
+ spared_great_city_desc_third_perspective: "[owner.GetTitledFirstName] has saved as much people as [owner.GetSheHe] could during the sack of [ROOT.Var('province').GetProvince.GetName]"
+ survived_sack_of_great_city: "The Sack of [ROOT.Var('province').GetProvince.GetNameNoTooltip]"
+ survived_sack_of_great_city_desc: "I've survived the sack of [ROOT.Var('province').GetProvince.GetName]"
+ survived_sack_of_great_city_desc_second_perspective: "You've survived the sack of [ROOT.Var('province').GetProvince.GetName]"
+ survived_sack_of_great_city_desc_third_perspective: "[owner.GetTitledFirstName] has survived the sack of [ROOT.Var('province').GetProvince.GetName]"

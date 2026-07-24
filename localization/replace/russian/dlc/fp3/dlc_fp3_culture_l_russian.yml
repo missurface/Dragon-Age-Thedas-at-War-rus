@@ -1,0 +1,6 @@
+﻿l_russian:
+
+ tradition_fp3_beacon_of_learning_name: "Beacon of Learning"
+ tradition_fp3_beacon_of_learning_desc: "A nexus of Antivan, Orlesian, and Tevinter scholarship, this culture prides itself on scientific advancement."
+ culture_parameter_can_appoint_court_scholar:0 "Can appoint the #high $court_scholar_court_position$#! [court_position|E]"
+ culture_parameter_guardian_education_better_outcomes: "[guardians|E] of this culture are more likely to give better [education_traits|E] to their [wards|E]"

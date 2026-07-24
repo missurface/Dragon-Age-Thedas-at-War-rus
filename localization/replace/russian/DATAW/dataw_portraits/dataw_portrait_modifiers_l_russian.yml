@@ -1,0 +1,170 @@
+﻿l_russian:
+
+##########################################
+################ Clothes ################
+##########################################
+
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_orlesian_noble_01:0 "@dataw_icon! Orlesian Noble Doublet"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_orlesian_noble_02:0 "@dataw_icon! Orlesian Noble Family Doublet"
+
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_orlesian_noble_01:0 "@dataw_icon! Orlesian Noble Doublet"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_orlesian_noble_02:0 "@dataw_icon! Orlesian Noble Family Doublet"
+
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_orlesian_noble_dress_01:0 "@dataw_icon! Orlesian Noble Dress"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_orlesian_noble_dress_02:0 "@dataw_icon! Orlesian Noble Family Dress"
+
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_orlesian_noble_dress_03:0 "@dataw_icon! Orlesian Noble Dress"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_orlesian_noble_dress_04:0 "@dataw_icon! Orlesian Noble Family Dress"
+
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_ciriane_noble_01:0 "@dataw_icon! Ciriane High Clothing"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_ciriane_noble_02:0 "@dataw_icon! Ciriane Family High Clothing"
+
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_ciriane_noble_03:0 "@dataw_icon! Ciriane Common Clothing"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_ciriane_noble_04:0 "@dataw_icon! Ciriane Family Common Clothing"
+
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_ciriane_noble_01:0 "@dataw_icon! Ciriane High Clothing"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_ciriane_noble_02:0 "@dataw_icon! Ciriane Family High Clothing"
+
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_ciriane_noble_03:0 "@dataw_icon! Ciriane Common Clothing"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_ciriane_noble_04:0 "@dataw_icon! Ciriane Family Common Clothing"
+
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_dalish_dataw_landed_01:0 "@dataw_icon! Dalish Noble Chemise"
+
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_religious_chantry_generic_01:0 "@dataw_icon! Chantry Robes"
+##########################################
+################ Legwear ################
+##########################################
+
+ PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_orlesian_noble_01:1 "@dataw_icon! Orlesian Noble Trousers"
+ PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_orlesian_noble_02:1 "@dataw_icon! Orlesian Noble Family Trousers"
+
+ PORTRAIT_MODIFIER_custom_legwear_female_legwear_secular_orlesian_noble_01:1 "@dataw_icon! Orlesian Noble Trousers"
+ PORTRAIT_MODIFIER_custom_legwear_female_legwear_secular_orlesian_noble_02:1 "@dataw_icon! Orlesian Noble Family Trousers"
+
+##########################################
+################ Cloaks ################
+##########################################
+
+ PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_orlesian_tabbard_01:1 "@dataw_icon! Orlesian Tabbard"
+ PORTRAIT_MODIFIER_custom_cloaks_female_cloaks_secular_orlesian_tabbard_01:1 "@dataw_icon! Orlesian Tabbard"
+
+ PORTRAIT_MODIFIER_custom_cloaks_female_cloaks_secular_orlesian_dress_cloak_01:1 "@dataw_icon! Orlesian Shawl"
+ PORTRAIT_MODIFIER_custom_cloaks_female_cloaks_secular_orlesian_dress_cloak_02:1 "@dataw_icon! Orlesian Family Shawl"
+
+
+########################################
+################ Crowns ################
+##########################################
+
+ 
+
+
+
+
+##########################################
+################ Finery ################
+##########################################
+
+ PORTRAIT_MODIFIER_custom_finery:1 "Finery"
+
+ PORTRAIT_MODIFIER_custom_finery_male_empty:1 "No Finery"
+ PORTRAIT_MODIFIER_custom_finery_female_empty:1 "$PORTRAIT_MODIFIER_custom_finery_male_empty$"
+ PORTRAIT_MODIFIER_custom_finery_boy_empty:1 "$PORTRAIT_MODIFIER_custom_finery_male_empty$"
+ PORTRAIT_MODIFIER_custom_finery_girl_empty:1 "$PORTRAIT_MODIFIER_custom_finery_male_empty$"
+
+ PORTRAIT_MODIFIER_custom_finery_male_headgear_special_gen_orl_mask_01:0 "@dataw_icon! Silverite Orlesian Mask"
+ PORTRAIT_MODIFIER_custom_finery_male_headgear_special_gen_orl_mask_02:0 "@dataw_icon! Summerstone Orlesian Mask"
+ PORTRAIT_MODIFIER_custom_finery_male_headgear_special_gen_orl_mask_03:0 "@dataw_icon! Pyrophite Orlesian Mask"
+ PORTRAIT_MODIFIER_custom_finery_male_headgear_special_gen_orl_mask_04:0 "@dataw_icon! Onyx Orlesian Mask"
+ PORTRAIT_MODIFIER_custom_finery_male_headgear_special_gen_orl_mask_05:0 "@dataw_icon! Drakestone Orlesian Mask"
+ PORTRAIT_MODIFIER_custom_finery_male_headgear_special_gen_orl_mask_06:0 "@dataw_icon! Paragon's Luster Orlesian Mask"
+ PORTRAIT_MODIFIER_custom_finery_male_headgear_special_gen_orl_mask_07:0 "@dataw_icon! Volcanic Aurum Orlesian Mask"
+ PORTRAIT_MODIFIER_custom_finery_male_headgear_special_gen_orl_mask_08:0 "@dataw_icon! Iron Orlesian Mask"
+ PORTRAIT_MODIFIER_custom_finery_male_headgear_special_gen_orl_mask_09:0 "@dataw_icon! White Marble Orlesian Mask"
+ PORTRAIT_MODIFIER_custom_finery_male_headgear_special_gen_orl_mask_10:0 "@dataw_icon! Lazurite Orlesian Mask"
+ PORTRAIT_MODIFIER_custom_finery_male_headgear_special_gen_orl_mask_11:0 "@dataw_icon! Dawnstone Orlesian Mask"
+ PORTRAIT_MODIFIER_custom_finery_male_headgear_special_gen_orl_mask_12:0 "@dataw_icon! Veridium Orlesian Mask"
+ PORTRAIT_MODIFIER_custom_finery_male_headgear_special_gen_orl_mask_13:0 "@dataw_icon! Bloodstone Orlesian Mask"
+ PORTRAIT_MODIFIER_custom_finery_male_headgear_special_gen_orl_mask_14:0 "@dataw_icon! Obsidian Orlesian Mask"
+
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_dalish_dataw_ddob_01:1 "@dataw_icon! Dalish Diadem of Beneficence"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_chasind_dataw_bonecrown_01:1 "@dataw_icon! Korcari Tusks"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_chasind_dataw_bonecrown_01:1 "@dataw_icon! Korcari Tusks"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_religious_chantry_divine:1 "@dataw_icon! Mantle of the Divine"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_dalish_emeraldknight:1 "@dataw_icon! Emerald Knight's Plate Helm"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_religious_dalish_emeraldknight:1 "@dataw_icon! Emerald Knight's Plate Helm"
+
+ PORTRAIT_MODIFIER_custom_finery_female_headgear_special_gen_orl_mask_01:0 "@dataw_icon! Silverite Orlesian Mask"
+ PORTRAIT_MODIFIER_custom_finery_female_headgear_special_gen_orl_mask_02:0 "@dataw_icon! Summerstone Orlesian Mask"
+ PORTRAIT_MODIFIER_custom_finery_female_headgear_special_gen_orl_mask_03:0 "@dataw_icon! Pyrophite Orlesian Mask"
+ PORTRAIT_MODIFIER_custom_finery_female_headgear_special_gen_orl_mask_04:0 "@dataw_icon! Onyx Orlesian Mask"
+ PORTRAIT_MODIFIER_custom_finery_female_headgear_special_gen_orl_mask_05:0 "@dataw_icon! Drakestone Orlesian Mask"
+ PORTRAIT_MODIFIER_custom_finery_female_headgear_special_gen_orl_mask_06:0 "@dataw_icon! Paragon's Luster Orlesian Mask"
+ PORTRAIT_MODIFIER_custom_finery_female_headgear_special_gen_orl_mask_07:0 "@dataw_icon! Volcanic Aurum Orlesian Mask"
+ PORTRAIT_MODIFIER_custom_finery_female_headgear_special_gen_orl_mask_08:0 "@dataw_icon! Iron Orlesian Mask"
+ PORTRAIT_MODIFIER_custom_finery_female_headgear_special_gen_orl_mask_09:0 "@dataw_icon! White Marble Orlesian Mask"
+ PORTRAIT_MODIFIER_custom_finery_female_headgear_special_gen_orl_mask_10:0 "@dataw_icon! Lazurite Orlesian Mask"
+ PORTRAIT_MODIFIER_custom_finery_female_headgear_special_gen_orl_mask_11:0 "@dataw_icon! Dawnstone Orlesian Mask"
+ PORTRAIT_MODIFIER_custom_finery_female_headgear_special_gen_orl_mask_12:0 "@dataw_icon! Veridium Orlesian Mask"
+ PORTRAIT_MODIFIER_custom_finery_female_headgear_special_gen_orl_mask_13:0 "@dataw_icon! Bloodstone Orlesian Mask"
+ PORTRAIT_MODIFIER_custom_finery_female_headgear_special_gen_orl_mask_14:0 "@dataw_icon! Obsidian Orlesian Mask"
+
+##########################################
+################ Vallaslins/Tattoos/Facepaint ################
+##########################################
+ PORTRAIT_MODIFIER_facepaint:0 "Face Tattoos" 
+ PORTRAIT_MODIFIER_vallaslin_face_tattoo: "Face Tattoos"
+
+ PORTRAIT_MODIFIER_facepaint_no_vallaslin:0 "@dataw_icon! No Vallaslin" 
+ PORTRAIT_MODIFIER_facepaint_vallaslin_tattoo_25:0 "@dataw_icon! Ghilannain Vallaslin 1 (Black)"
+ PORTRAIT_MODIFIER_facepaint_vallaslin_tattoo_1:0 "@dataw_icon! Elgar'nan Vallaslin 1 (Black)"
+ PORTRAIT_MODIFIER_facepaint_vallaslin_tattoo_4:0 "@dataw_icon! Elgar'nan Vallaslin 2 (Black)"
+ PORTRAIT_MODIFIER_facepaint_vallaslin_tattoo_34:0 "@dataw_icon! Mythal Vallaslin 1 (Black)"
+ PORTRAIT_MODIFIER_facepaint_vallaslin_tattoo_37:0 "@dataw_icon! Mythal Vallaslin 2 (Black)"
+ PORTRAIT_MODIFIER_facepaint_vallaslin_tattoo_7:0 "@dataw_icon! June Vallaslin 1 (Black)"
+ PORTRAIT_MODIFIER_facepaint_vallaslin_tattoo_10:0 "@dataw_icon! Andruil Vallaslin 1 (Black)"
+ PORTRAIT_MODIFIER_facepaint_vallaslin_tattoo_13:0 "@dataw_icon! Andruil Vallaslin 2 (Black)"
+ PORTRAIT_MODIFIER_facepaint_vallaslin_tattoo_19:0 "@dataw_icon! Falon'din Vallaslin 1 (Black)"
+ PORTRAIT_MODIFIER_facepaint_vallaslin_tattoo_22:0 "@dataw_icon! Falon'din Vallaslin 2 (Black)"
+ PORTRAIT_MODIFIER_facepaint_vallaslin_tattoo_16:0 "@dataw_icon! Dirthamen Vallaslin 1 (Black)"
+ PORTRAIT_MODIFIER_facepaint_vallaslin_tattoo_28:0 "@dataw_icon! Sylaise Vallaslin 1 (Black)"
+ PORTRAIT_MODIFIER_facepaint_vallaslin_tattoo_31:0 "@dataw_icon! Sylaise Vallaslin 2 (Black)"
+ PORTRAIT_MODIFIER_facepaint_vallaslin_tattoo_11:0 "@dataw_icon! Andruil Vallaslin 1 (Green)"
+ PORTRAIT_MODIFIER_facepaint_vallaslin_tattoo_12:0 "@dataw_icon! Andruil Vallaslin 1 (White)"
+ PORTRAIT_MODIFIER_facepaint_vallaslin_tattoo_14:0 "@dataw_icon! Andruil Vallaslin 2 (Green)"
+ PORTRAIT_MODIFIER_facepaint_vallaslin_tattoo_15:0 "@dataw_icon! Andruil Vallaslin 2 (White)"
+ PORTRAIT_MODIFIER_facepaint_vallaslin_tattoo_17:0 "@dataw_icon! Dirthamen Vallaslin 1 (Green)"
+ PORTRAIT_MODIFIER_facepaint_vallaslin_tattoo_18:0 "@dataw_icon! Dirthamen Vallaslin 1 (Yellow)"
+ PORTRAIT_MODIFIER_facepaint_vallaslin_tattoo_2:0 "@dataw_icon! Elgar'nan Vallaslin 1 (Red)"
+ PORTRAIT_MODIFIER_facepaint_vallaslin_tattoo_3:0 "@dataw_icon! Elgar'nan Vallaslin 1 (Gold)"
+ PORTRAIT_MODIFIER_facepaint_vallaslin_tattoo_5:0 "@dataw_icon! Elgar'nan Vallaslin 2 (Red)"
+ PORTRAIT_MODIFIER_facepaint_vallaslin_tattoo_6:0 "@dataw_icon! Elgar'nan Vallaslin 2 (Gold)"
+ PORTRAIT_MODIFIER_facepaint_vallaslin_tattoo_20:0 "@dataw_icon! Falon'din Vallaslin 1 (Blue)"
+ PORTRAIT_MODIFIER_facepaint_vallaslin_tattoo_21:0 "@dataw_icon! Falon'din Vallaslin 1 (White)"
+ PORTRAIT_MODIFIER_facepaint_vallaslin_tattoo_23:0 "@dataw_icon! Falon'din Vallaslin 2 (Blue)"
+ PORTRAIT_MODIFIER_facepaint_vallaslin_tattoo_24:0 "@dataw_icon! Falon'din Vallaslin 2 (White)"
+ PORTRAIT_MODIFIER_facepaint_vallaslin_tattoo_26:0 "@dataw_icon! Ghilan'nain Vallaslin 1 (Blue)"
+ PORTRAIT_MODIFIER_facepaint_vallaslin_tattoo_27:0 "@dataw_icon! Ghilan'nain Vallaslin 1 (White)"
+ PORTRAIT_MODIFIER_facepaint_vallaslin_tattoo_8:0 "@dataw_icon! June Vallaslin 1 (Sienna)"
+ PORTRAIT_MODIFIER_facepaint_vallaslin_tattoo_9:0 "@dataw_icon! June Vallaslin 1 (Gold)"
+ PORTRAIT_MODIFIER_facepaint_vallaslin_tattoo_29:0 "@dataw_icon! Sylaise Vallaslin 1 (Red)"
+ PORTRAIT_MODIFIER_facepaint_vallaslin_tattoo_30:0 "@dataw_icon! Sylaise Vallaslin 1 (White)"
+ PORTRAIT_MODIFIER_facepaint_vallaslin_tattoo_35:0 "@dataw_icon! Mythal Vallaslin 1 (Purple)"
+ PORTRAIT_MODIFIER_facepaint_vallaslin_tattoo_36:0 "@dataw_icon! Mythal Vallaslin 1 (White)"
+ PORTRAIT_MODIFIER_facepaint_vallaslin_tattoo_38:0 "@dataw_icon! Mythal Vallaslin 2 (Purple)"
+ PORTRAIT_MODIFIER_facepaint_vallaslin_tattoo_39:0 "@dataw_icon! Mythal Vallaslin 2 (White)"
+ PORTRAIT_MODIFIER_facepaint_vallaslin_tattoo_32:0 "@dataw_icon! Sylaise Vallaslin 2 (White)"
+ PORTRAIT_MODIFIER_facepaint_vallaslin_tattoo_33:0 "@dataw_icon! Sylaise Vallaslin 2 (Red)"
+
+### Facepaint Colours ###
+ PORTRAIT_MODIFIER_facepaint_colour: "Face Tattoo Color"
+ PORTRAIT_MODIFIER_facepaint_colour_facepaint_colour_1:0 "Color 1"
+ PORTRAIT_MODIFIER_facepaint_colour_facepaint_colour_2:0 "Color 2"
+ PORTRAIT_MODIFIER_facepaint_colour_facepaint_colour_3:0 "Color 3"
+ PORTRAIT_MODIFIER_facepaint_colour_facepaint_colour_4:0 "Color 4"
+ PORTRAIT_MODIFIER_facepaint_colour_facepaint_colour_5:0 "Color 5"
+ 
+
+
+### hairs ###
+ PORTRAIT_MODIFIER_custom_hair_dataw_male_shorter_hair:1 "@dataw_icon! Shorter Hair"

@@ -1,0 +1,841 @@
+﻿l_russian:
+# EVENT 1     #THE FIRST STONE
+ DATAW_ulstor_events.001.tit: "The First Stone"
+ DATAW_ulstor_events.001.desc: "Edgehall, a hall of my own. Built by the dwarves long before the first Blight as a surface outpost, and abandoned when the darkspawn attacked their underground thaigs. \n\nSoon after, the land would be claimed by the native Alamarri, led by the mythical Luthias Dwarfson. His kin and ilk ruled this land for generations - a western bulwark of civilization for the Clayne against the Avvar tribes of the Frostbacks. But the Avvar remember the dishonor inflicted on Morrighan'nan, the hand of friendship pushed aside and spurned. Luthias may have been a hero to the lowlanders, but to us, he was a fraud, and his hall free for the taking by right of conquest. \n\nAnd so I did. The Wolf of the Highlands never quite felt at home in his step-father's hold Far Peak. Stigandr tried his best to impart the ways of the Wise-Wind upon me, but after my mother's passing I was clanless. Upon reaching manhood I wandered, full of rage, unsure of my purpose or who I really was. \n\nI've seen and done much. But what I desired most of all was a hall of my own, so when my friend Endre brought word of the defenseless lands to our east, mismanaged for centuries by Luthias' vile spawn, I knew the hour of the wolf had finally come!"
+
+ DATAW_ulstor_events.001.opt.a: "And so Edgehall did burn..."
+ DATAW_ulstor_events.001.opt.a.tooltip: "During my conquest of Edgehall, I spared not a soul from my wrath, and my coffers benefited all the more for it. This should serve as material to equip my army with before #N making war with Redcliffe.#!"
+ DATAW_ulstor_events.001.opt.b: "And so I sat the throne..."
+ DATAW_ulstor_events.001.opt.b.tooltip: "During my conquest of Edgehall, I spared a majority of the civilian population, earning me much respect from my Clayne neighbors. This should serve to strengthen my reputation with the locals before #N making war with Redcliffe.#!"
+
+
+# EVENT 2     #THE WHETSTONE
+ DATAW_ulstor_events.002.tit: "The Whetstone"
+ DATAW_ulstor_events.002.desc: "#N The time for war has come.#!          \n\nNow that I've established a base of operations for myself and my allies, I peer voraciously at the lands to my south-east. Lands that fall rightfully under my domain... The Arling of Redcliffe holds the territories of Whitewell and Rainesfere, and has done so for nigh a century, even though these lands rightfully fell under the claim of their kinsman in Edgehall. \n\nWith Edgehall now under the control of myself and my closest friends and confidants - now is the time to enforce these ancient claims!  Send out the ravens, let the Arl in his keep know that soon - the men of the Frostbacks will be at his doors!"
+
+ DATAW_ulstor_events.002.opt.a: "Call on the augurs! Ready them for war!"
+ DATAW_ulstor_events.002.opt.a.tooltip: "The Augurs shall guide us in our war against Redcliffe!"
+ DATAW_ulstor_events.002.opt.b: "Send word to the clans! There are holdfasts to claim!"
+ DATAW_ulstor_events.002.opt.b.tooltip: "The clans will rally to our cause and help us take what is rightfully ours!"
+
+############## WINNING BRANCH BELOW
+
+### NEW BORDER ### DOWN
+
+# EVENT 3     #A New Border
+ DATAW_ulstor_events.003.tit: "A New Border"
+ DATAW_ulstor_events.003.desc: "We have won. Redcliffe has submitted to our will, all of the proper Arling of Edgehall falls within our domain. Rainesfere and Whitewell will need to be integrated properly, but for now we need to decide on our next course of action. The rest of our rightful territory - the former Teyrnir of Edgehall - is still held by those outside our domain. How should we approach taking these lands?"
+ DATAW_ulstor_events.003.opt.a: "Seek peaceful integration with the locals."
+ DATAW_ulstor_events.003.opt.a.tooltip: "Take the long path towards peaceful integration."
+ DATAW_ulstor_events.003.opt.b: "Force the locals to submit."
+ DATAW_ulstor_events.003.opt.b.tooltip: "The quicker route is often the better route."
+
+# EVENT 3.1   #A Plan for Cooperation
+ DATAW_ulstor_events.0031.tit: "A Plan for Cooperation"
+ DATAW_ulstor_events.0031.desc: "I've decided to focus my efforts on integrating those holdouts to my rule through more diplomatic routes. The question remains though, who should I approach first? The Andrastians in Haven, or our Avvar kin in Elmridge?"
+ DATAW_ulstor_events.0031.opt.a: "First the disciples, then the clans!"
+ DATAW_ulstor_events.0031.opt.a.tooltip: "Send a message to the Disciples in Haven!"
+ DATAW_ulstor_events.0031.opt.b: "First the clans, then the disciples!"
+ DATAW_ulstor_events.0031.opt.b.tooltip: "Send a message to the Southron Clan in Elmridge!"
+
+# EVENT 3.2   #A Message to the Disciples
+ DATAW_ulstor_events.0032.tit: "A Message to the Disciples"
+ DATAW_ulstor_events.0032.desc: "The Disciples of Andraste claim to be the holdovers of their lady's original followers and their descendants. They used to be leal subjects of the former teyrn of Edgehall, before we claimed it for ourselves, now we must bring them back under our control. Should we approach them with an open hand, allowing them special privelages of religious protection? Or should we demand they fall back in line as our rightful subject with no special terms?"
+ DATAW_ulstor_events.0032.opt.a: "Offer them special protections as an incentive to submit!"
+ DATAW_ulstor_events.0032.opt.a.tooltip: "Haven should be granted special protections to show the Clayne we are willing to be generous with those that submit."
+ DATAW_ulstor_events.0032.opt.b: "Demand their submission lest they face our wrath!"
+ DATAW_ulstor_events.0032.opt.b.tooltip: "The Disciples are seperated from their Andrastian kin, so they will be more easily swayed by force."
+
+# EVENT 3.21  #Integrating the Clans - refocusing on Haven
+ DATAW_ulstor_events.00321.tit: "Focusing on Haven"
+ DATAW_ulstor_events.00321.desc: "We've started the process of dealing with the Disciples inhabiting Haven. We must now turn our focus on adding the Thane of Elmridge to our territories. Hopefully they won't get too many delusions of granduer."
+ DATAW_ulstor_events.00321.opt.a: "Continue the campaign!"
+ DATAW_ulstor_events.00321.opt.a.tooltip: "We must continue our campaign and add Haven into our realm."
+
+# EVENT 3.31  #Integrating Haven - refocusing on the Clan
+ DATAW_ulstor_events.00331.tit: "Focusing on the Southron Clan"
+ DATAW_ulstor_events.00331.desc: "We've started the process of dealing with the Long-Beard clan to our south. We must now turn our focus on adding the Bann of Haven to our territories. Hopefully they won't get too many delusions of granduer."
+ DATAW_ulstor_events.00331.opt.a: "Continue the campaign!"
+ DATAW_ulstor_events.00331.opt.a.tooltip: "We must continue our campaign and add Haven into our realm."
+
+# EVENT 3.22   #A Message to the Disciples (after clan tree is done)
+ DATAW_ulstor_events.00322.tit: "A Message to the Disciples"
+ DATAW_ulstor_events.00322.desc: "The Disciples of Andraste claim to be the holdovers of their lady's original followers and their descendants. They used to be leal subjects of the former teyrn of Edgehall, before we claimed it for ourselves, now we must bring them back under our control. Should we approach them with an open hand, allowing them special privelages of religious protection? Or should we demand they fall back in line as our rightful subject with no special terms?"
+ DATAW_ulstor_events.00322.opt.a: "Offer them special protections as an incentive to submit!"
+ DATAW_ulstor_events.00322.opt.a.tooltip: "Haven should be granted special protections to show the Clayne we are willing to be generous with those that submit."
+ DATAW_ulstor_events.00322.opt.b: "Demand their submission lest they face our wrath!"
+ DATAW_ulstor_events.00322.opt.b.tooltip: "The Disciples are seperated from their Andrastian kin, so they will be more easily swayed by force."
+
+# EVENT 3.4   #A Response to the Konungr's Message (nice branch) haven
+ DATAW_ulstor_events.0034.tit: "An Offer from Edgehall"
+ DATAW_ulstor_events.0034.desc: "We have recieved a message from the new Konungr of Edgehall - Ulstor Wolfhand. The message offers us special economic grants in exchange for our submission. He promises to send respected Avvar craftsman to our lands. In exchange we are to submit to his authority, and send a contingent of our able-bodied men to serve in his shieldwall."
+ DATAW_ulstor_events.0034.opt.a: "Accept Edgehall's Offer"
+ DATAW_ulstor_events.0034.opt.a.tooltip: "Accept the offer of economic grants from Edgehall."
+ DATAW_ulstor_events.0034.opt.b: "Reject Edgehall's Offer"
+ DATAW_ulstor_events.0034.opt.b.tooltip: "Reject the presumptive offers of Edgehall."
+
+# EVENT 3.41   #A Response to the Konungr's Message (nice branch) haven (after clan tree is done)
+ DATAW_ulstor_events.00341.tit: "An Offer from Edgehall"
+ DATAW_ulstor_events.00341.desc: "We have recieved a message from the new Konungr of Edgehall - Ulstor Wolfhand. The message offers us special economic grants in exchange for our submission. He promises to send respected Avvar craftsman to our lands. In exchange we are to submit to his authority, and send a contingent of our able-bodied men to serve in his shieldwall."
+ DATAW_ulstor_events.00341.opt.a: "Accept Edgehall's Offer"
+ DATAW_ulstor_events.00341.opt.a.tooltip: "Accept the offer of economic grants from Edgehall."
+ DATAW_ulstor_events.00341.opt.b: "Reject Edgehall's Offer"
+ DATAW_ulstor_events.00341.opt.b.tooltip: "Reject the presumptive offers of Edgehall." 
+
+# EVENT 3.42   #Haven says no to our (nice) offer
+ DATAW_ulstor_events.00342.tit: "An Offer Rejected - Haven"
+ DATAW_ulstor_events.00342.desc: "The Disciples of Haven have rejected our incredibly generous offer of vassalage! This cannot stand, these andrastians must be shown that our offer was not merely a suggestion, and that our pens are back by the axe!"
+ DATAW_ulstor_events.00342.opt.a: "Then we shall take the lands by force!"
+ DATAW_ulstor_events.00342.opt.a.tooltip: "A warband is inspired by your resolve, joining the cause."
+ DATAW_ulstor_events.00342.opt.b: "Accept their refusal, for now..."
+ DATAW_ulstor_events.00342.opt.b.tooltip: "Accept the refusal of Haven for now, and plan a more strategic approach."
+
+# EVENT 3.43   #Haven says no to our (nice) offer
+ DATAW_ulstor_events.00343.tit: "An Offer Rejected - Haven"
+ DATAW_ulstor_events.00343.desc: "The Disciples of Haven have rejected our incredibly generous offer of vassalage."
+ DATAW_ulstor_events.00343.opt.a: "Then we shall take the lands by force!"
+ DATAW_ulstor_events.00343.opt.a.tooltip: "We must take the lands of Haven by force."
+ DATAW_ulstor_events.00343.opt.b: "Accept their refusal, for now..."
+ DATAW_ulstor_events.00343.opt.b.tooltip: "Accept the refusal of Haven for now, and plan a more strategic approach."
+
+# EVENT 3.5   #A Response to the Konungr's Message (mean branch) haven
+ DATAW_ulstor_events.0035.tit: "A Threat from Edgehall"
+ DATAW_ulstor_events.0035.desc: "We have recieved a threat from the new Konungr of Edgehall - Ulstor Wolfhand. The message threatens immenent war with us if we do not submit to his rule. He also demands that we abandon our religious beliefs and customs, and send a contingent of our able-bodied men to serve in his shieldwall."
+ DATAW_ulstor_events.0035.opt.a: "Accept Edgehall's Threat"
+ DATAW_ulstor_events.0035.opt.a.tooltip: "Give in to the threat of war from Edgehall."
+ DATAW_ulstor_events.0035.opt.b: "Reject Edgehall's Threat"
+ DATAW_ulstor_events.0035.opt.b.tooltip: "Reject the threat of war from Edgehall."
+
+# EVENT 3.51   #A Response to the Konungr's Message (mean branch) haven
+ DATAW_ulstor_events.00351.tit: "A Threat from Edgehall"
+ DATAW_ulstor_events.00351.desc: "We have recieved a threat from the new Konungr of Edgehall - Ulstor Wolfhand. The message threatens immenent war with us if we do not submit to his rule. He also demands that we abandon our religious beliefs and customs, and send a contingent of our able-bodied men to serve in his shieldwall."
+ DATAW_ulstor_events.00351.opt.a: "Accept Edgehall's Threat"
+ DATAW_ulstor_events.00351.opt.a.tooltip: "Give in to the threat of war from Edgehall."
+ DATAW_ulstor_events.00351.opt.b: "Reject Edgehall's Threat"
+ DATAW_ulstor_events.00351.opt.b.tooltip: "Reject the threat of war from Edgehall."
+
+# EVENT 3.3  #A Message to the Southron Clan
+ DATAW_ulstor_events.0033.tit: "A Message to the Southron Clan"
+ DATAW_ulstor_events.0033.desc: "During our conquest of Edgehall, the Long-Beard clan took advantage of the chaos and grabbed land for themselves in the south. While we hold them at no fault for this - as it is the natural way of things in the Avvar world - we must now demand they submit to us as their natural overlords. Should we treat with them as fellow kin of Tyrdda, offering them a special place of honor, or demand they bow low to their rightful konungr?"
+ DATAW_ulstor_events.0033.opt.a: "Treat them as fellow children of the Frostbacks!"
+ DATAW_ulstor_events.0033.opt.a.tooltip: "The clans to our south are Avvar like us, rely on our shared heritage and values to bring them into the fold."
+ DATAW_ulstor_events.0033.opt.b: "Demand they kneel before their konungr!"
+ DATAW_ulstor_events.0033.opt.b.tooltip: "The clans to our south are weak, we can afford to be more forceful in our demands."
+
+# EVENT 3.31  #Integrating Haven - refocusing on the Clan
+ DATAW_ulstor_events.00331.tit: "Focusing on the Southron Clan"
+ DATAW_ulstor_events.00331.desc: "We've started the process of dealing with the Disciples inhabiting Haven. We must now turn our focus on adding the Thane of Elmridge to our territories. Hopefully they won't get too many delusions of granduer."
+ DATAW_ulstor_events.00331.opt.a: "Continue the campaign!"
+ DATAW_ulstor_events.00331.opt.a.tooltip: "We must continue our campaign and add Elmridge into our realm."
+
+# EVENT 3.32  #A Message to the Southron Clan (after haven tree)
+ DATAW_ulstor_events.00332.tit: "A Message to the Southron Clan"
+ DATAW_ulstor_events.00332.desc: "During our conquest of Edgehall, the Long-Beard clan took advantage of the chaos and grabbed land for themselves in the south. While we hold them at no fault for this - as it is the natural way of things in the Avvar world - we must now demand they submit to us as their natural overlords. Should we treat with them as fellow kin of Tyrdda, offering them a special place of honor, or demand they bow low to their rightful konungr?"
+ DATAW_ulstor_events.00332.opt.a: "Treat them as fellow children of the Frostbacks!"
+ DATAW_ulstor_events.00332.opt.a.tooltip: "The clans to our south are Avvar like us, rely on our shared heritage and values to bring them into the fold."
+ DATAW_ulstor_events.00332.opt.b: "Demand they kneel before their konungr!"
+ DATAW_ulstor_events.00332.opt.b.tooltip: "The clans to our south are weak, we can afford to be more forceful in our demands."
+
+
+
+
+
+
+
+
+# EVENT 3.6   #A Response to the Konungr's Message (nice branch) clans
+ DATAW_ulstor_events.0036.tit: "An Offer from Edgehall"
+ DATAW_ulstor_events.0036.desc: "Our clan has received a message from the so-called Konungr of Edgehal - Ulstor Wolfhand. He messages us with offer of a place of honor in his growing military in exchange for our submission. The Avvar have never unified behind a konungr before, even the occasional jarl is typically short-lived. Should we throw our lot in with this young pup?"
+ DATAW_ulstor_events.0036.opt.a: "Accept Edgehall's Offer"
+ DATAW_ulstor_events.0036.opt.a.tooltip: "Accept the offer from our kinsman in Edgehall."
+ DATAW_ulstor_events.0036.opt.b: "Reject Edgehall's Offer"
+ DATAW_ulstor_events.0036.opt.b.tooltip: "Reject the offer from the pup in Edgehall."
+
+
+
+
+
+
+
+
+
+
+# EVENT 3.61   #A Response to the Konungr's Message (nice branch) clans (after haven tree)
+ DATAW_ulstor_events.00361.tit: "An Offer from Edgehall"
+ DATAW_ulstor_events.00361.desc: "Our clan has received a message from the so-called Konungr of Edgehal - Ulstor Wolfhand. He messages us with offer of a place of honor in his growing military in exchange for our submission. The Avvar have never unified behind a konungr before, even the occasional jarl is typically short-lived. Should we throw our lot in with this young pup?"
+ DATAW_ulstor_events.00361.opt.a: "Accept Edgehall's Offer"
+ DATAW_ulstor_events.00361.opt.a.tooltip: "Accept the offer from our kinsman in Edgehall."
+ DATAW_ulstor_events.00361.opt.b: "Reject Edgehall's Offer"
+ DATAW_ulstor_events.00361.opt.b.tooltip: "Reject the offer from the pup in Edgehall."
+
+# EVENT 3.62   #Elmridge says no to our (nice) offer
+ DATAW_ulstor_events.00362.tit: "An Offer Rejected - Elmridge"
+ DATAW_ulstor_events.00362.desc: "The Thane of Elmridge has rejected our incredibly generous offer of vassalage! This cannot stand, these upstarts must be shown that our offer was not merely a suggestion, and that our pens are back by the axe!"
+ DATAW_ulstor_events.00362.opt.a: "Then we shall take the lands by force!"
+ DATAW_ulstor_events.00362.opt.a.tooltip: "A warband is inspired by your resolve, joining the cause."
+ DATAW_ulstor_events.00362.opt.b: "Accept their refusal, for now..."
+ DATAW_ulstor_events.00362.opt.b.tooltip: "Accept the refusal of Elmridge for now, and plan a more strategic approach."
+
+
+
+
+
+
+
+# EVENT 3.63   #Elmridge says no to our (nice) offer
+ DATAW_ulstor_events.00363.tit: "An Offer Rejected - Elmridge"
+ DATAW_ulstor_events.00363.desc: "The Thane of Elmridge has rejected our incredibly generous offer of vassalage! This cannot stand, these upstarts must be shown that our offer was not merely a suggestion, and that our pens are back by the axe!"
+ DATAW_ulstor_events.00363.opt.a: "Then we shall take the lands by force!"
+ DATAW_ulstor_events.00363.opt.a.tooltip: "A warband is inspired by your resolve, joining the cause."
+ DATAW_ulstor_events.00363.opt.b: "Accept their refusal, for now..."
+ DATAW_ulstor_events.00363.opt.b.tooltip: "Accept the refusal of Elmridge for now, and plan a more strategic approach."
+
+# EVENT 3.7   #A Response to the Konungr's Message (mean branch) clans
+ DATAW_ulstor_events.0037.tit: "A Threat from Edgehall"
+ DATAW_ulstor_events.0037.desc: "We have recieved a threat from the new Konungr of Edgehall - Ulstor Wolfhand. The message threatens immenent war with us if we do not submit to his rule and send a contingent of our able-bodied men to serve in his shieldwall."
+ DATAW_ulstor_events.0037.opt.a: "Accept Edgehall's Threat"
+ DATAW_ulstor_events.0037.opt.a.tooltip: "Give in to the threat of war from Edgehall."
+ DATAW_ulstor_events.0037.opt.b: "Reject Edgehall's Threat"
+ DATAW_ulstor_events.0037.opt.b.tooltip: "Reject the threat of war from Edgehall."
+
+
+
+# EVENT 3.5   #A Response to the Konungr's Message (mean branch) haven
+ DATAW_ulstor_events.0035.tit: "A Threat from Edgehall"
+ DATAW_ulstor_events.0035.desc: "We have recieved a threat from the new Konungr of Edgehall - Ulstor Wolfhand. The message threatens immenent war with us if we do not submit to his rule. He also demands that we abandon our religious beliefs and customs, and send a contingent of our able-bodied men to serve in his shieldwall."
+ DATAW_ulstor_events.0035.opt.a: "Accept Edgehall's Threat"
+ DATAW_ulstor_events.0035.opt.a.tooltip: "Give in to the threat of war from Edgehall."
+ DATAW_ulstor_events.0035.opt.b: "Reject Edgehall's Threat"
+ DATAW_ulstor_events.0035.opt.b.tooltip: "Reject the threat of war from Edgehall."
+
+
+
+
+
+
+# EVENT 3.71   #A Response to the Konungr's Message (mean branch) clans
+ DATAW_ulstor_events.00371.tit: "A Threat from Edgehall"
+ DATAW_ulstor_events.00371.desc: "We have recieved a threat from the new Konungr of Edgehall - Ulstor Wolfhand. The message threatens immenent war with us if we do not submit to his rule and send a contingent of our able-bodied men to serve in his shieldwall."
+ DATAW_ulstor_events.00371.opt.a: "Accept Edgehall's Threat"
+ DATAW_ulstor_events.00371.opt.a.tooltip: "Give in to the threat of war from Edgehall."
+ DATAW_ulstor_events.00371.opt.b: "Reject Edgehall's Threat"
+ DATAW_ulstor_events.00371.opt.b.tooltip: "Reject the threat of war from Edgehall."
+
+# EVENT 3.8   #Demand Subjugation
+ DATAW_ulstor_events.0038.tit: "Sending our Demands"
+ DATAW_ulstor_events.0038.desc: "The holdouts to my rule mock Edgehall's authority through their continued existence. We must see to it that we rectify this situation as soon as possible. The question remains, how best should we accomplish our goals? \n\n(check decisions for the next step in your questline)"
+ DATAW_ulstor_events.0038.opt.a: "Let the clans prepare for war!"
+ DATAW_ulstor_events.0038.opt.a.tooltip: "Send word to the Avvar clans in the Frostbacks that soon Edgehall will be going to war, and that opportunities for loot await them."
+ DATAW_ulstor_events.0038.opt.b: "Prepare for a more strategic approach"
+ DATAW_ulstor_events.0038.opt.b.tooltip: "Prepare for a more strategic approach to the situation, assure our subjects that we are taking the right steps."
+
+# EVENT 3.81   #Let Fly the Ravens of Edgehall!
+ DATAW_ulstor_events.00381.tit: "Let Fly the Ravens of Edgehall!"
+ DATAW_ulstor_events.00381.desc: "The time has come. The ravens will fly, and the wayward sheep brought back to the flock."
+ DATAW_ulstor_events.00381.opt.a: "Let the ravens fly!"
+ DATAW_ulstor_events.00381.opt.a.tooltip: "Declare war on both Haven and Elmridge, and let the ravens of Edgehall fly!"
+
+# EVENT 3.9   #Edgehall Unified - Now What?
+ DATAW_ulstor_events.0039.tit: "Exhausted Diplomacy"
+ DATAW_ulstor_events.0039.desc: "We have exhausted our diplomatic options in the region. We must now look towards the future and plan for the next stage of our expansion."
+ DATAW_ulstor_events.0039.opt.a: "We must look towards the future!"
+ DATAW_ulstor_events.0039.opt.a.tooltip: "We must look towards the future and plan for the next stage of our expansion. (Check Decisions for the next step of Ulstor's journey)"
+
+### NEW BORDER ### UP
+
+
+
+
+
+### CONSOLIDATING EDGEHALL ### DOWN
+
+# EVENT 6     #Cleaning Up
+ DATAW_ulstor_events.006.tit: "Cleaning Up"
+ DATAW_ulstor_events.006.desc: "We have successfully consolidated our control over Edgehall and must now focus on rebuilding and developing the region. But before we rush too far ahead, our hoard has begun to grow quite large, and our steward has presented us with a proposal. A new Edgehall designed by us, to reflect our vision for the future. The question remains though, what are our plans for the future?"
+ DATAW_ulstor_events.006.opt.a: "Rebuild Edgehall like a traditional Avvar Hall."
+ DATAW_ulstor_events.006.opt.a.tooltip: "This will align us more with Avvar traditionalists."
+ DATAW_ulstor_events.006.opt.b: "Renovate Edgehall to fit a more modern Clayne style."
+ DATAW_ulstor_events.006.opt.b.tooltip: "This will allow us to integrate with the rest of Ferelden more easily." 
+ DATAW_ulstor_events.006.opt.c: "Restore Edgehall to its original Dwarven construction."
+ DATAW_ulstor_events.006.opt.c.tooltip: "While not the most obvious choice - and by far the most expensive - this will be the most unique and impressive option, and will show that we are not just another Dog Lord." 
+
+# EVENT 6.01  #A NEW PATH
+ DATAW_ulstor_events.00601.tit: "A New Path"
+ DATAW_ulstor_events.00601.desc: "Edgehall is reborn! The people of my realm look to the future with hope. But I must always remain with my eye to the future. Should we focus on strengthening our economy, or preparing for future conflicts? Both options have their merits, and my council is divided."
+ DATAW_ulstor_events.00601.opt.a: "We must prepare for conflict!"
+ DATAW_ulstor_events.00601.opt.a.tooltip: "This will take us down a path of growing our military apparatus and leadership capabilities."
+ DATAW_ulstor_events.00601.opt.b: "We must expand our economic base!"
+ DATAW_ulstor_events.00601.opt.b.tooltip: "This will take us down a path of developing our trade and commerce." 
+
+### CONSOLIDATING EDGEHALL ### UP
+
+
+
+
+
+### INTO THE FROSTBACKS! ### DOWN
+
+# EVENT 6.1   #How to Procede?
+ DATAW_ulstor_events.0061.tit: "How to Procede?"
+ DATAW_ulstor_events.0061.desc: "How should we proceed in our expansion efforts? - filler loc"
+ DATAW_ulstor_events.0061.opt.a: "Focus on the West"
+ DATAW_ulstor_events.0061.opt.a.tooltip: "Our primary focus should be to prepare for future conflict against our kin in the Frostbacks."
+ DATAW_ulstor_events.0061.opt.b: "Focus on the East"
+ DATAW_ulstor_events.0061.opt.b.tooltip: "Our primary focus should be to prevent the Clayne natives from reclaiming the gains we've made against them." 
+
+# EVENT 6.11   #How to Procede?
+ DATAW_ulstor_events.00611.tit: "Recruiting the Locals?"
+ DATAW_ulstor_events.00611.desc: "How best should we recuit for the upcoming campaign - filler loc"
+ DATAW_ulstor_events.00611.opt.a: "force recruit our subjects"
+ DATAW_ulstor_events.00611.opt.a.tooltip: "filler tooltip"
+ DATAW_ulstor_events.00611.opt.b: "incentivize avvar warriors with glory and wealth"
+ DATAW_ulstor_events.00611.opt.b.tooltip: "filler tooltip" 
+
+# EVENT 6.12   #Feel our Wrath!
+ DATAW_ulstor_events.00612.tit: "Feel our Wrath!"
+ DATAW_ulstor_events.00612.desc: "Ulstor has brought his might back upon the frostbacks - filler loc"
+ DATAW_ulstor_events.00612.opt.a: "Bring the thanes to heel"
+ DATAW_ulstor_events.00612.opt.a.tooltip: "filler tooltip"
+
+
+
+
+
+
+
+
+
+### INTO THE FROSTBACKS! ### UP
+
+
+
+
+
+### DEVELOPING THE HOLD ### DOWN
+
+# EVENT 6.5   #Baby Steps
+ DATAW_ulstor_events.0065.tit: "Baby Steps"
+ DATAW_ulstor_events.0065.desc: "With our decision to focus on our economic development, our advisors have asked us where the bulk of our efforts should be directed. Should we focus on further developing our newly rebuilt Edgehall, or should we invest our resources into our outer lands?"
+ DATAW_ulstor_events.0065.opt.a: "The core around Edgehall must be strengthened!"
+ DATAW_ulstor_events.0065.opt.a.tooltip: "This will grant our capital holdings a powerful economic modifier."
+ DATAW_ulstor_events.0065.opt.b: "The outlying territories must be developed!"
+ DATAW_ulstor_events.0065.opt.b.tooltip: "This will aid in the speed at which we can develop our outer lands." 
+
+# EVENT 6.6   #A Focus for Our People
+ DATAW_ulstor_events.0066.tit: "A Focus for Our People"
+ DATAW_ulstor_events.0066.desc: "Our people prosper, they now look to the future with hope and determination. We could take advantage of this situation if we so desire. Should we double down on our economic efforts?, or instead focus on investing in making our rule more permenant?"
+ DATAW_ulstor_events.0066.opt.a: "Focus on maintaining stability."
+ DATAW_ulstor_events.0066.opt.a.tooltip: "We will gain immense sway over our subjects and our lands."
+ DATAW_ulstor_events.0066.opt.b: "Focus on growing prosperity."
+ DATAW_ulstor_events.0066.opt.b.tooltip: "We will gain significant economic benefits from this approach." 
+
+
+
+# EVENT 6.7   #A Clan Beast: Eagle or Ram?
+ DATAW_ulstor_events.0067.tit: "A Clan Beast for Edgehall"
+ DATAW_ulstor_events.0067.desc: "Our rule is stable. Avvar and Clayne within our borders look to each other with respect and admiration - not fear. Now, like any good hold of the Frostbacks, we must decide on a hold-beast to represent us."
+ DATAW_ulstor_events.0067.opt.a: "The all-seeing eagle shall lead us!"
+ DATAW_ulstor_events.0067.opt.a.tooltip: "The eagle sees all, but can it see what lies within Ulstor's past? (check decisions)"
+ DATAW_ulstor_events.0067.opt.b: "The stout-hearted ram shall lead us!"
+ DATAW_ulstor_events.0067.opt.b.tooltip: "The ram's heart may be stout, but can Ulstor live up to its expectations? (check decisions)"
+ DATAW_ulstor_events.0067.opt.c: "The brave wolf shall lead us!"
+ DATAW_ulstor_events.0067.opt.c.tooltip: "The wolf is brave, but can it brave the challenges ahead of Ulstor? (check decisions)"
+ DATAW_ulstor_events.0067.opt.d: "The stalwart bear shall lead us!"
+ DATAW_ulstor_events.0067.opt.d.tooltip: "The bear is stalwart, but can it stand against the forces that threaten Ulstor? (check decisions)"
+### DEVELOPING THE HOLD ### UP
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+############ LOSING BRANCH BELOW
+
+# EVENT 4     #Licking Wounds
+ DATAW_ulstor_events.004.tit: "Licking Wounds"
+ DATAW_ulstor_events.004.desc: "We lost. The Wolf of The Highlands lost. With this loss comes not only the destruction of any momentum we had gathered thus far, but the authority we had as Konungr of Edgehall. Now are former thanes claim independence, and we no longer find ourselves able to project any authority over the greater realm of Edgehall. The road to recovery from this tragedy will be arduous"
+ DATAW_ulstor_events.004.opt.a: "Woe to the people of Edgehall!"
+ DATAW_ulstor_events.004.opt.a.tooltip: "We shall be fighting a long uphill battle to recover from this catastrophe."
+
+
+
+
+
+
+
+
+
+
+# EVENT 4.1     #Where We Faltered
+ DATAW_ulstor_events.0041.tit: "Where We Faltered"
+ DATAW_ulstor_events.0041.desc: "filler loc for ulstor where we faltered event"
+ DATAW_ulstor_events.0041.opt.a: "Strength of arms"
+ DATAW_ulstor_events.0041.opt.a.tooltip: "We failed due to the weakness of our clan, we shall not make such a mistake again"
+ DATAW_ulstor_events.0041.opt.b: "Wisdom of mind"
+ DATAW_ulstor_events.0041.opt.b.tooltip: "We failed due to the short-sightedness of our leadership, we shall not make such a mistake again"
+
+# EVENT 4.2     #Remember the Heroes
+ DATAW_ulstor_events.0042.tit: "Remember the Heroes"
+ DATAW_ulstor_events.0042.desc: "filler loc for remember the heroes event"
+ DATAW_ulstor_events.0042.opt.a: "Enfold the weak"
+ DATAW_ulstor_events.0042.opt.a.tooltip: "filler loc"
+ DATAW_ulstor_events.0042.opt.b: "Entice the Weak"
+ DATAW_ulstor_events.0042.opt.b.tooltip: "filler loc"
+
+# EVENT 4.6     #Remember the Ancestors
+ DATAW_ulstor_events.0046.tit: "Remember the Ancestors"
+ DATAW_ulstor_events.0046.desc: "filler loc for remember the ancestors event"
+ DATAW_ulstor_events.0046.opt.a: "Gather the clans"
+ DATAW_ulstor_events.0046.opt.a.tooltip: "filler loc"
+ DATAW_ulstor_events.0046.opt.b: "Convince the clans"
+ DATAW_ulstor_events.0046.opt.b.tooltip: "filler loc"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# EVENT 5     #Collecting the Pieces
+ DATAW_ulstor_events.005.tit: "Collecting the Pieces"
+ DATAW_ulstor_events.005.desc: "filler loc for ulstor collecting the pieces event"
+ DATAW_ulstor_events.005.opt.a: "blah blah blah option 1"
+ DATAW_ulstor_events.005.opt.a.tooltip: "filler tooltip"
+ DATAW_ulstor_events.005.opt.b: "blah blah blah option 2"
+ DATAW_ulstor_events.005.opt.b.tooltip: "filler tooltip"  
+
+
+
+
+
+# EVENT 7     #In Far Peak?
+ DATAW_ulstor_events.007.tit: "In Far Peak?"
+ DATAW_ulstor_events.007.desc: "Who am I? That's the question that racks my mind every night these days. I've spent a handful of years solidifying my rule over these lands, crafting a new realm for my people, proving my power, and establishing Avvar dominance in the western Ferelden Valley. But somehow, I still don't feel anymore complete within. There is still a gaping wound in my core. Many of my subjects - both Clayne and Avvar alike, have grown to call Edgehall their home; I however, cannot. \n\nMy youth was far more troubled than the average Avvar's. My mother… Skuld Flame-Touched, unfortunately, had a reputation. Whilst she tried to shield me from it, she never could fully - for I was a result of one of her many dalliances. Mother tried the best she could, but I never could escape the rumors surrounding my origins. Either way, I never stood much of a chance - a bout of sickness took her from me when I was only six, leaving me in the care of her husband Stigandr Wise-Wind. This is the man who truly 'raised' me, though whether the lessons he tried to give me truly made it through, I highly doubt. \n\nHe tried to raise me as his own, even going so far as to dub me 'his son.' But as genuine as he may have been, such matters became complicated when Katla arrived, and with her, genuine blood heirs to the Wise-Wind family. Though I could have easily laid claim to the hold - Avvar rights of leadership are not as sedentary as the lowlanders' I now surround myself with - I felt that the time to move on had come. So I left Far Peak - and Stigandr with it, years ago. If not to discover the truth of my origin, than the truth of my future instead."
+
+ DATAW_ulstor_events.007.opt.a: "Maybe some of his lessons did stick after all..."
+ DATAW_ulstor_events.007.opt.a.tooltip: "Become more in-tune with the teachings of Stigandr, and let his wisdom guide you in your decisions."
+ DATAW_ulstor_events.007.opt.b: "I never had much need for his teachings..."
+ DATAW_ulstor_events.007.opt.b.tooltip: "This will harden your heart, and keep you on track for glory."
+
+
+
+
+
+# EVENT 7.1     #In Highhold?
+ DATAW_ulstor_events.0071.tit: "In Highhold?"
+ DATAW_ulstor_events.0071.desc: "When I left Far Peak, I set out North, having no particular destination in mind. But I knew that I may one day eventually cross paths with one of the men that might be my father. And I've had the fortune, or perhaps, the misfortune, of learning the fates of two such individuals. \n\nThe first of these - Roarr Sverkesen of the Sky-Hound clan - I met for the first and only time when stopping by his hall of Highhold looking for contracts early in my career as a mercenary. I remember seeing his face most of all… it was almost as if I had seen my reflection on the surface of a lake. He regaled me and my band with stories of his raids into Sun-Wolf lands. How he had orchestrated two-pronged assaults alongside the Crow-Talons of Stonepass, taken numerous captives from Sunhold, and personally slew Thane Kothmorn II's most fearsome brother - Warg Grimmornsen. \n\n'The nug got too full of himself! He actually managed to disarm me at one point, but he refused to strike me down on the spot! Apparently it would have been beneath an upstanding Sun-Wolf like him to kill an unarmed opponent, unfortunately for him - I never gave him another chance at my life.'"
+
+ DATAW_ulstor_events.0071.opt.a: "Now this is a man I'd be proud to call my father!"
+ DATAW_ulstor_events.0071.opt.a.tooltip: "Become more in-tune with the philosophy of Roarr, and let his anger guide you in your decisions."
+ DATAW_ulstor_events.0071.opt.b: "This man lets his wrath get the best of him, the fool!"
+ DATAW_ulstor_events.0071.opt.b.tooltip: "You will train to be more calm, hopefully seeing the order in the chaos."
+
+
+
+
+
+
+# EVENT 7.2     #In Sunhold?
+ DATAW_ulstor_events.0072.tit: "In Sunhold?"
+ DATAW_ulstor_events.0072.desc: "My experience in Highhold left me reeling. Had I finally found my sire? My heart was pounding, I felt something within me I'd never felt before as I left the hall. Pride? Strength? Belonging? Maybe all or none of these things. \n\n'I can see why mother would choose such a powerful warrior as Roarr!' -  I thought to myself. How foolish I was! For my band had not even crested the next hilltop when Hundi Clean-Face said to me 'You know Wolfhand… that Warg may have died a noble death, but I remember when he was a pup not too much older than you. He weren't always so righteous. I heard he broke some lass' heart out in Cliffhold, left her with child then scampered back to Sunhold just to keep fighting in that stupid feud his family's always barking about.' \n\nCliffhold? I still remember hearing that name. That was mother's hold… I had never been there before, but I'd heard her speak of it all the time as a youth, when she'd tell me stories of grandpa Trond and uncle Roald. But what did this mean for me? For years I had written off the possibility of knowing who my father was, and had set out to make my own path. But it seemed destiny had other plans for me."
+
+ DATAW_ulstor_events.0072.opt.a: "Maybe there is strength in the teachings of the Sun-Wolves after all..."
+ DATAW_ulstor_events.0072.opt.a.tooltip: "Become more in-tune with the philosophy of the Sun-Wolves, and let their honor guide you in your decisions."
+ DATAW_ulstor_events.0072.opt.b: "The Sun-Wolves are a bunch of fools, I don't need their moralizing!"
+ DATAW_ulstor_events.0072.opt.b.tooltip: "Refute the teachings of the Sun-Wolves, and continue to forge your own path."
+
+# EVENT 7.3     #In Edgehall.
+ DATAW_ulstor_events.0073.tit: "In Edgehall."
+ DATAW_ulstor_events.0073.desc: "Of course, all of this was years ago now. But with my own family growing and questions of heritage and legitimacy being posed to me by courtiers and neighboring rulers alike I know the time has finally come. I must decide - where does this wolf's den lie?  WHO AM I?"
+ DATAW_ulstor_events.0073.opt.a: "I am Ulstor 'Wolfhand,' scion of Clan Sun-Wolf and son of Warg Grimmornsen!"
+ DATAW_ulstor_events.0073.opt.a.tooltip: "This will put you on a path of unification with your kin in the Frostbacks and greater honor for your clan!"
+ DATAW_ulstor_events.0073.opt.b: "I am Ulstor 'Wolfhand,' scion of Clan Sky-Hound and son of Roarr Sverkesen!"
+ DATAW_ulstor_events.0073.opt.b.tooltip: "This will put you on a path of conquest and destruction -#N  be warned #!- all may be lost should you fail!"
+ DATAW_ulstor_events.0073.opt.c: "I am Ulstor 'Wolfhand,' Stigandr is my father - a man's blood does not make him!"
+ DATAW_ulstor_events.0073.opt.c.tooltip: "This will put you on a path of peacekeeping and stewardship, building and growing a new way of life for the Avvar!"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+############### SKY-HOUND BELOW ##############
+# EVENT 9.0     #Konungr or Conqueror?
+ DATAW_ulstor_events.009.tit: "Konungr or Conqueror?"
+ DATAW_ulstor_events.009.desc: "As a newly declared member of the mighty Sky-Hound clan, I must consider the direction in which I will take my reign. Our clan's devotion to the spirits of the mountains has never been in question. Where other Avvar might dare entertain the folly of the so called 'Maker Cults,' we stand resolute in the old ways that forged our survival in the Frostbacks. Our faith is one of the many things that distinguish us from limp-armed lowlanders. \n\nOur gods and ancestors have bestowed our clan with strength. Should I give due reverence to the many gods of my people, I could strengthen my realm and reinforce the ties that bind the Avvar as a firm-handed konungr. However, I also hear the war cry of the great Hakkon Wintersbreath in my heart. He promises great power to myself and my warriors should I devote myself solely to him and spread his bitter colds of frost and steel. \n\n(check decisions to continue quests)"
+
+ DATAW_ulstor_events.009.opt.a: "I will honor the gods and ancestors with my rule..."
+ DATAW_ulstor_events.009.opt.a.tooltip: "and see our people honored!"
+ DATAW_ulstor_events.009.opt.b: "By Hakkon's Jaws, I will terrorize the lowlands..."
+ DATAW_ulstor_events.009.opt.b.tooltip: "and all who dare oppose me!"
+
+
+
+
+
+
+
+
+# EVENT 9.1     #The Lone Wolf Dies
+ DATAW_ulstor_events.0091.tit: "The Lone Wolf Dies"
+ DATAW_ulstor_events.0091.desc: "filler loc for the lone wolf dies event"
+ DATAW_ulstor_events.0091.opt.a: "lead by example"
+ DATAW_ulstor_events.0091.opt.a.tooltip: "filler tooltip"
+ DATAW_ulstor_events.0091.opt.b: "take charge"
+ DATAW_ulstor_events.0091.opt.b.tooltip: "filler tooltip"
+
+
+
+
+
+
+# EVENT 9.2     #Leading by Example
+ DATAW_ulstor_events.0092.tit: "Leading by Example"
+ DATAW_ulstor_events.0092.desc: "filler loc for leading by example event"
+ DATAW_ulstor_events.0092.opt.a: "We shall lead our pack to Portsmouth!"
+ DATAW_ulstor_events.0092.opt.a.tooltip: "filler tooltip"
+
+# EVENT 9.3     #Taking Charge
+ DATAW_ulstor_events.0093.tit: "Taking Charge"
+ DATAW_ulstor_events.0093.desc: "filler loc for taking charge event"
+ DATAW_ulstor_events.0093.opt.a: "Send the orders, we march for Portsmouth!"
+ DATAW_ulstor_events.0093.opt.a.tooltip: "filler tooltip"
+
+
+
+
+
+# EVENT 10.0     #With Axe and Frost
+ DATAW_ulstor_events.010.tit: "With Axe and Frost"
+ DATAW_ulstor_events.010.desc: "I have savaged lowlander armies in Hakkon's name. My axe bears down on the war god's foes like a ferocious winter wind. Those below us quake in fear on hearing our battle cry come down the mountains. With axe and frost, we spread Hakkon's dread. \n\nThe god of war and winter gifts his loyal warriors with otherworldly strength and courage. Every one of us tears through our enemies like beasts, but I, the Wolfhand, stand as Hakkon's peerless champion. The Clayne may curse my name, but can they withstand my might?"
+ DATAW_ulstor_events.010.opt.a: "Send the orders, we march for Portsmouth!"
+ DATAW_ulstor_events.010.opt.a.tooltip: "Take the more aggressive approach, hoping to take all of Portsmouth at once. This may inspire fellow Avvar to your cause. \n\nNote - you must conquer all of Portsmouth to continue."
+ DATAW_ulstor_events.010.opt.b: "Sharpen the axes, our time will come!"
+ DATAW_ulstor_events.010.opt.b.tooltip: "Take a more cautious approach, dividing and conquering the banns and arls of Portsmouth one by one. This is safer if a bit slower. \n\nNote - you must conquer all of Portsmouth to continue."
+
+# EVENT 10.1     #Clearing the Way
+ DATAW_ulstor_events.0101.tit: "Clearing the Way"
+ DATAW_ulstor_events.0101.desc: "filler loc for clearing the way event"
+ DATAW_ulstor_events.0101.opt.a: "Clear the way, winter is headed for Portsmouth!"
+ DATAW_ulstor_events.0101.opt.a.tooltip: "filler tooltip"
+
+# EVENT 10.2     #Culling the Weak
+ DATAW_ulstor_events.0102.tit: "Culling the Weak"
+ DATAW_ulstor_events.0102.desc: "filler loc for culling the weak event"
+ DATAW_ulstor_events.0102.opt.a: "Send the orders, we march for Portsmouth!"
+ DATAW_ulstor_events.0102.opt.a.tooltip: "filler tooltip"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# EVENT 10.3     #Quake the Wake
+ DATAW_ulstor_events.0103.tit: "Quake the Wake"
+ DATAW_ulstor_events.0103.desc: "Portsmouth lays in ruins, the weaklings who once called it home scattered to the outskirts of my domain. In their place, a fresh wave of Avvar veterans form the conquest have settled in the region. \n\nAlready the populace lament my rule, crying out for revolt against my conquest. Yet my advisors urge me that further glory is just within reach, I need only grasp it.  "
+ DATAW_ulstor_events.0103.opt.a: "They shall feel the Wrath of Korth!"                 #only available if stayed avvar
+ DATAW_ulstor_events.0103.opt.a.tooltip: "They shall quake from the Mountain Father's fury."
+ DATAW_ulstor_events.0103.opt.b: "They shall feel the Wrath of Haakon!"                #only available if converted to haakon
+ DATAW_ulstor_events.0103.opt.b.tooltip: "They shall feel the cold embrace of Hakkon Wintersbreath."
+
+# EVENT 10.4     #Gate to Ferelden
+ DATAW_ulstor_events.0104.tit: "The Gate to Ferelden is Open"
+ DATAW_ulstor_events.0104.desc: "Redcliffe, home of the Guerrins and the last line of defense for any would-be invaders of Ferelden from the west. No conqueror has ever suceeded in crossing the Hinterlands who did not already have or take Redcliffe first. Now, it is ours. \n\nThe people rejoice as the world opens to the people of the Frostbacks."
+ DATAW_ulstor_events.0104.opt.a: "The gates are open..."
+ DATAW_ulstor_events.0104.opt.a.tooltip: "...and nothing can stop us!"
+
+# EVENT 10.5     #From upon the Mighty Hill
+ DATAW_ulstor_events.0105.tit: "From upon the Mighty Hill"
+ DATAW_ulstor_events.0105.desc: "Lothering is taken, and with it the hills of southern Ferelden. Already more and more of my people are migrating eastwards and settling into the newly taken lands, especially those in the outlying borders."
+ DATAW_ulstor_events.0105.opt.a: "These hills belong to the Avvar!"              
+ DATAW_ulstor_events.0105.opt.a.tooltip: "Onwards, to new glory!"
+
+# EVENT 10.6     #Routing the Lost Tribe
+ DATAW_ulstor_events.0106.tit: "Routing the Lost Tribe"
+ DATAW_ulstor_events.0106.desc: "Many wisemen say the Brecilians are our long lost kin, that they are no different from us than our Chasind and Clayne cousins. These wisemen have seen the errors of their ways. \n\nThe willingness of which the Brecilians covorted with demons, bringing about abominations upon the land needs no further remarks."
+ DATAW_ulstor_events.0106.opt.a: "The forest shall be brought down with Korth's wroth!"                 #only available if stayed avvar
+ DATAW_ulstor_events.0106.opt.a.tooltip: "Demons are not to be trifled with."
+ DATAW_ulstor_events.0106.opt.b: "The forest shall be brought down with Haakon's wroth!"                #only available if converted to haakon
+ DATAW_ulstor_events.0106.opt.b.tooltip: "Demons are not to be trifled with."
+
+# EVENT 10.7     #The Abandoned Outpost
+ DATAW_ulstor_events.0107.tit: "The Abandoned Outpost"
+ DATAW_ulstor_events.0107.desc: "Gwaren lies abandoned, its walls crumbling and its people scattered. The outpost has been left to decay, a testament to the chaos that has befallen the region. A once mighty arling once ruled from here, projecting power across the sea and deep into the Korcari Wilds, bolstered with by Dwarven allies. But no more, it is the Avvars that rule Gwaren now, and we have plans of our own."
+ DATAW_ulstor_events.0107.opt.a: "Gwaren is ours."                
+ DATAW_ulstor_events.0107.opt.a.tooltip: "Perhaps another entrance to the Deep Roads will be useful in the future?"
+
+# EVENT 10.8     #A People's Hopes - Crushed
+ DATAW_ulstor_events.0108.tit: "A People's Hopes - Crushed"
+ DATAW_ulstor_events.0108.desc: "From the lowest urchin to the highest lording contained within the high walls of Fort Drakon, all know the news by now. Denerim is ours - and if it isn't already, the rest of Ferelden will soon follow its lead."
+ DATAW_ulstor_events.0108.opt.a: "The augurs have long heralded this moment."
+ DATAW_ulstor_events.0108.opt.a.tooltip: ""
+  
+# EVENT 10.9     #A Long Kept Vigil
+ DATAW_ulstor_events.0109.tit: "A Long Kept Vigil"
+ DATAW_ulstor_events.0109.desc: "The Fort of a Thousand Vigils - or as the Clayne call it, Vigil's Keep - is the oldest and strongest Avvar fortress still standing outside the Frostbacks. Now, for the first time in nearly four ages, it is once again ours. \n\nAlready the clans have begun to settle within its walls."
+ DATAW_ulstor_events.0109.opt.a: "Its vigil was not in vain."             
+ DATAW_ulstor_events.0109.opt.a.tooltip: "The north of Ferelden is ours!"
+
+# EVENT 10.10     #Like Sheep before the Wolf
+ DATAW_ulstor_events.01010.tit: "Like Sheep before the Wolf"
+ DATAW_ulstor_events.01010.desc: "The weak cower before the onslaught. Holdfasts burn, widows wail, and the Clayne call out for justice. But none ever arrives. \n\nNow, the breadbasket of Ferelden is in our hands."
+ DATAW_ulstor_events.01010.opt.a: "Show them what real authority looks like!"
+ DATAW_ulstor_events.01010.opt.a.tooltip: "Burn out the cowards and weaklings."
+
+# EVENT 10.11     #Ulstor wept
+ DATAW_ulstor_events.01011.tit: "Ulstor Wept"
+ DATAW_ulstor_events.01011.desc: "I never believed it possible, yet here I am. When I first wandered out of Far Peak all those years ago, I doubt many of my clan mates would have assumed that one day - soon - all of Ferelden would tremble in my wake. \n\nBut those days are gone, and my time is now, the age of the Wolf-Hand is upon us."
+ DATAW_ulstor_events.01011.opt.a: "...for there were no more lands to conquer."                 
+ DATAW_ulstor_events.01011.opt.a.tooltip: "I am Maferath come again!"
+
+############### SKY-HOUND ABOVE ###############
+
+
+
+
+############### WISE-WIND BELOW ##############
+# EVENT 8.0     #The Wind at my Back
+ DATAW_ulstor_events.008.tit: "The Wind at my Back"
+ DATAW_ulstor_events.008.desc: "I have chosen kin over blood. Years of torment over my place, my father, are over. Why should I worry about who left my mother with son, when they never did anything for me? Why chase forevermore after an absentee father, when the one that cared for me most was not linked by blood at all? \n\n[stigandrdaddy.GetName] is the father I had, and I need no other. Now is the time for me to say goodbye to years of soul-searching, years of wandering and fighting, and it is time to take in the lessons he taught me. \n\n'Look at the commoners, son, and guide them like the wind. Through care, yet capable of strength when necessary. No matter their tongue, their blood or station, if you care for their lives and act for their prosperity, they will follow you to the highest of peaks.' \n\nNow, Edgehall is mine to rule, and I should do my best to apply the lessons of [stigandrdaddy.GetName]."
+ DATAW_ulstor_events.008.opt.a: "Prosperity and stability shall come to Edgehall!"        
+ DATAW_ulstor_events.008.opt.a.tooltip: "With your new lineage and your promises of peace, the lowlands expect you to rule with respect to the local Claynes, as well as developing your realm!"
+
+# EVENT 8.1     #Wise Rule, Wise Diplomacy
+ DATAW_ulstor_events.0081.tit: "Wise Rule, Wise Diplomacy"
+ DATAW_ulstor_events.0081.desc: "As I manage my realm as best I can, I have begun looking inward to secure the prosperity of my people. But the words of [stigandrdaddy.GetName] still ring through my head. In order to offer my people peace and prosperity, I need to see more in their lives than a simple number to throw away in war. Unfortunately, hostilities with neighbouring Arls such as [trefirwisewindevents.GetName] will only fuel the soil with blood, and so I must find a way to appease things, at least for a while. \n\nRedcliffe, after our previous war, has been left in a rather dire state. While [redcliffeholderwisewind.GetName] no doubt doesn't hold me in [redcliffeholderwisewind.GetHerHis] heart, if I desire to offer peace to the region rather than war, proposing a truce could be a great step to take."
+ DATAW_ulstor_events.0081.opt.a: "I will make the first step. Send the offer to a truce at once."        
+ DATAW_ulstor_events.0081.opt.a.tooltip: "If Redcliffe accepts the offer, this could be a great step towards normalizing relations with the lowlanders."
+ DATAW_ulstor_events.0081.opt.b: "Hatred between Edgehall and Redcliffe will not heal so quickly."        
+ DATAW_ulstor_events.0081.opt.b.tooltip: "Old wounds do not close so easily, Redcliffe likely feels the same."
+
+
+
+
+
+# EVENT 8.2     #The Call of Spirits
+ DATAW_ulstor_events.0082.tit: "The Call of Spirits"
+ DATAW_ulstor_events.0082.desc: "Edgehall - my hold. I've ruled from here for over a decade. Trying to guide my people along the principles my father [stigandrdaddy.GetName] tried to teach me. One of these lessons was to always heed the words of wisdom given to me by the wisemen and augurs of my clan. \n\nHowever, Edgehall is a diverse realm, and everyday I recieve conflicting information and advice from my spiritual advisors. [stigandrdaddy.GetName] [stigandrdaddy.GetHerselfHimself] follows the Cult of the Sky, a subset of Avvar that have dedicated themselves to the worship of the Lady of the Skies. Most of the populace of my realm however, are followers of the teachings of [andraste.GetName]. \n\nI've heard from the mouthpieces of various spirits, the question is, who has sway over my heart?" 
+ DATAW_ulstor_events.0082.opt.a: "The faith of the mountains!"        
+ DATAW_ulstor_events.0082.opt.a.tooltip: "Keep true to the spirits of my childhood!"
+ DATAW_ulstor_events.0082.opt.b: "Stigandr had the right idea!"        
+ DATAW_ulstor_events.0082.opt.b.tooltip: "Convert to the Lady's Cult, and spread her wings in an embrace over Edgehall!"
+ DATAW_ulstor_events.0082.opt.c: "I must give way to the Maker!"        
+ DATAW_ulstor_events.0082.opt.c.tooltip: "Convert to the Cult of the Maker, appeasing your subjects, but perhaps upsetting your vassals."
+
+
+
+
+# EVENT 8.3     #Feel the Breeze
+ DATAW_ulstor_events.0083.tit: "Feel the Breeze"
+ DATAW_ulstor_events.0083.desc: "The breeze of change has once again swept through my hall. The courtroom is alive with talks of my reform efforts. Chitterings of tax policy, legal codes, and architectural reforms. The tongue they speak though... is quite different than the one from my youth in Far Peak. They still speak Avvarsk, but with a notable Clayne influence - perhaps brought in by the many native subjects I now rule. \n\nWith great joy I realize, this is what it means to lead as my father intended. People of all paths - former enemies even - coming together as one for a common cause."
+ DATAW_ulstor_events.0083.opt.a: "Our people are now one and the same!"        
+ DATAW_ulstor_events.0083.opt.a.tooltip: "A new hybrid culture has formed, with you as its head. #N Note #! - continue Ulstor's development of the realm through decisions."
+
+
+
+
+# Event 8.01    #The Lowland Wind
+ DATAW_ulstor_events.00801.tit: "The Lowland Wind"
+ DATAW_ulstor_events.00801.desc: "It has been a few years since the start of my rule, and already changes can be seen in the region now known as Edgehall. People have mingled, traded and feasted in my realm, and now, a new base has been created, one that may end up as the future of my realm. \n\nThe Avvar that have accompanied me have settled and slowly adopted new habits under my gentle hand, and little by little, the people of Edgehall find themselves in a unique situation, separate from the Avvar of the Frostbacks and from the Clayne of Ferelden. \n\nNow, Edgehall sees its future in its people. The creation of a new culture, guiding the region like the wind. But most of all, where should the wind guide these new folks?"
+ DATAW_ulstor_events.00801.opt.a: "Customs of forgiveness through service will benefit Edgehall as a whole."
+ DATAW_ulstor_events.00801.opt.a.tooltip: "Grant clemency to our former foes."
+ DATAW_ulstor_events.00801.opt.b: "The good deeds of [stigandrdaddy.GetName] will live on in this land."
+ DATAW_ulstor_events.00801.opt.b.tooltip: "Lead our realm in a path of law and order."
+
+#Event 8.4       #The Lowland Legend
+ DATAW_ulstor_events.0084.tit: "The Lowland Legend"
+ DATAW_ulstor_events.0084.desc: "Ulstor, the Wolf of the Highlands. By now, the story of my conquest of Edgehall from its former ruling family - the [dwarfsonlastname.GetHouse.GetName] - is little more than myth and legend. \n\nA full generation has come and gone since those days, and the people of the realm would no longer recognize the kingdom of their forefathers. \n\n'Tell us the story again Wolf!' - I hear nearly everytime I'm in the streets of Edgehall - 'tell us how you freed us from the tyranny of Luthias' spawn! \n\nThey seen to have competely forgotten or perhaps forgiven all my pasts transgressions, instead seeing me as a hero to aspire to."
+ DATAW_ulstor_events.0084.opt.a: "Inspire them with tales from my past!"        
+ DATAW_ulstor_events.0084.opt.a.tooltip: "It's time I recognized the change in times - teach them the lessons of my past."
+ DATAW_ulstor_events.0084.opt.b: "Inspire them to be the leaders of the future!"        
+ DATAW_ulstor_events.0084.opt.b.tooltip: "It's time I recognized the change in times - teach them lessons for the future."
+
+
+
+
+
+############### WISE-WIND ABOVE ##################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+############### SUN-WOLF BELOW ####################
+#Event 11.0       #A Sun of My Own
+ DATAW_ulstor_events.011.tit: "A Sun of My Own"
+ DATAW_ulstor_events.011.desc: "Throughout these last years, I have consolidated Edgehall, and my rule over it has become right. I have asserted my lineage as a Sun-Wolf and shaped my destiny, but there is still one last thing that weighs heavily on my mind. What force has fueled my strength, for it is not only my hand that guides my axe. I've always followed my own path and believed in my own ability, but with the birth of my children, I feel a longing for the divine. \n\nAs I reflect on my triumphs, I see now that I've been guided, but by whom?"
+ DATAW_ulstor_events.011.opt.a: "I am blessed by the Maker's Light!"        
+ DATAW_ulstor_events.011.opt.a.tooltip: "You realize what guides you, the light of the Maker and the love of Andraste."
+ DATAW_ulstor_events.011.opt.b: "I am favored by the gods of our ancestors!"        
+ DATAW_ulstor_events.011.opt.b.tooltip: "You realize what guides you, the power of Korth, the Lady, Hakkon, and the spirits."
+
+#Event 11.1       #Axe of the Maker
+ DATAW_ulstor_events.0111.tit: "Axe of the Maker"
+ DATAW_ulstor_events.0111.desc: "I see now as clearly as the day I sat my throne. Each stride, each arc of my axe, every hard-won victory has drawn me nearer to the Maker's sacred truth. I realize that when I set out to find myself, it was Andraste who guided me. For in my glory, the Maker's light shines upon this world. \n\nI see the conviction the Clayne carry for their creator, and know it is resolute. I urge my clan to join me in my absolution, Andraste has called upon us all to spread the chant of light to our kindred, to our home of mountain and sky. \n\nThe people clamor for war, and the call to spread her holy chant echoes through the land. Perhaps we could use this fervor to our advantage and press into the Frostbacks and claim my father's hold?\n\n(Check Decisions for the next step of Ulstor's journey)."
+ DATAW_ulstor_events.0111.opt.a: "I will be the Maker's Will!"       
+ DATAW_ulstor_events.0111.opt.a.tooltip: "You declare yourself the will of the Maker, spreading the chant of light to your people!"
+ DATAW_ulstor_events.0111.opt.b: "I will be the Maker's Wrath!"        
+ DATAW_ulstor_events.0111.opt.b.tooltip: "You declare yourself the wrath of the Maker, becoming the force that spreads his light!"
+
+#Event 11.2       #Spirits of our Ancestors
+ DATAW_ulstor_events.0112.tit: "Spirits of our Ancestors"
+ DATAW_ulstor_events.0112.desc: "Korth, the Lady, Hakkon, the spirits, and my ancestors have always accompanied me, even when I lost sight of them early in my wandering. Their presence has been my strength, their memory, the fire that drove me to lead my people back to Belanas. \n\nOnly now do I truly understand. This land has lingered too long beneath the eye of the Maker. It's time for our gods to return and once again hold dominion over these lowlands. A new era must begin for Tyrdda's children, with me at its head. \n\nMy closest advisors have counseled me that the best course of action to achieve these aims is to bring in the might of the old clans of the Frostbacks. The drums of war beat in the distance, and the call to reclaim our ancestral lands echoes through the valleys. \n\n(Check Decisions for the next step of Ulstor's journey)."
+ DATAW_ulstor_events.0112.opt.a: "I will be the hand of their dominance!"       
+ DATAW_ulstor_events.0112.opt.a.tooltip: "You declare yourself the hand of the gods' dominance, becoming the force of their will!"
+ DATAW_ulstor_events.0112.opt.b: "I will be the hand of their benevolence!"        
+ DATAW_ulstor_events.0112.opt.b.tooltip: "You declare yourself the hand of the gods' benevolence, spreading their favor to your people!"
+
+#Event 11.3       #Demesne of the Wolf
+ DATAW_ulstor_events.0113.tit: "Demesne of the Wolf"
+ DATAW_ulstor_events.0113.desc: "The hour has come to breathe life into my ensuing ambitions. My council and I have begun deliberating the next phase of Edgehall's legacy. With newfound credence of faith, we have marked Sunhold, the home of my father and my recent conquest. I descend from the Sun-Wolf, and as the son of Warg Grimmornsen, I recognize that to establish rule over the Frostbacks and lead the Avvar into a new era, I must dominate where the wolf den lies. \n\nI have returned to the land that forged my mark, Wolf-Hand. It is only right that I begin here, where my legend was born, to stake my claim over the Frostbacks."
+ DATAW_ulstor_events.0113.opt.a: "We shall rule directly!"       
+ DATAW_ulstor_events.0113.opt.a.tooltip: "Rule Sunhold with an iron grip, increasing your control over it but upsetting the local clans."
+ DATAW_ulstor_events.0113.opt.b: "Install my newfound kin!"        
+ DATAW_ulstor_events.0113.opt.b.tooltip: "Install your new kin the Sun-Wolf as jarls over Sunhold, gaining powerful allies but causing differing reactions from the local clans."
+
+#Event 11.31       #A Path for our People?
+ DATAW_ulstor_events.01131.tit: "A Path for our People?"
+ DATAW_ulstor_events.01131.desc: "For years, the Avvar and Clayne of Edgehall have shared my rule and their lives. I have seen firsthand a new people take shape, who meld the two into a new way of life. Traditions and tales flow between us, and our lives become woven together. \n\nTime heals all wounds, and now we stand not as two peoples, but as one united clan. With the lands of Sunhold secured, our new customs are spreading into the Frostbacks, strengthening my influence over it. At the same time however, old traditions are finding it easier to make their way into the lowlands strengthening some people's convictions in the old ways. \n\nShould I lean into these old ways, or try to guide my people towards a new more Clayne way of life?"
+ DATAW_ulstor_events.01131.opt.a: "We must look to the past..."       
+ DATAW_ulstor_events.01131.opt.a.tooltip: "(look to decisions to continue your journey)"
+ DATAW_ulstor_events.01131.opt.b: "The future is where our path is headed!"        
+ DATAW_ulstor_events.01131.opt.b.tooltip: "(look to decisions to continue your journey)"
+
+
+
+#Event 11.6         #Holds of Stone and Sorcery
+ DATAW_ulstor_events.0116.tit: "Holds of Stone and Sorcery"
+ DATAW_ulstor_events.0116.desc: "The bleeding heart of the Frostbacks has fallen to the might of my armies. Here, the land has long been inhabited by clans of powerful mages. Its ancient history, marked by bloodshed and enigma, has diminished the Lady's favor in the region. We must be vigilant against threats beyond our most recent enemies - now subjects. My warriors must steel themselves not only for battle, but for the unknown magic and lurking threats that haunt the shadows if I am to reign over the region. However, my expertise lies in combat and strategy; I know little of sorcery..."
+ DATAW_ulstor_events.0116.opt.a: "Look to the local augurs for guidance!"       
+ DATAW_ulstor_events.0116.opt.a.tooltip: "Surely the traditions of this region can continue to guide us?"
+ DATAW_ulstor_events.0116.opt.b: "Ask our strongest thanes to establish our authority!"        
+ DATAW_ulstor_events.0116.opt.b.tooltip: "The only way to peace is strength."
+ DATAW_ulstor_events.0116.opt.c: "Direct rule is the only way to impart order on these hedge mages!"        
+ DATAW_ulstor_events.0116.opt.c.tooltip: "Show these locals that we are here to stay, and that there is only one authority in the Frostbacks."
+
+#Event 11.61        #To the Edge of the World
+ DATAW_ulstor_events.01161.tit: "To the Edge of the World"
+ DATAW_ulstor_events.01161.desc: "The western holds have given way to my rule. These lands are quite different from what I am accustomed to. Where their eastern counterparts were once highly interconnected with the Ferelden Valley that bordered it, these holds knew no such diplomacy. As a result, a strong sense of fierce independence has taken root in the peoples living on this side of the Frostbacks. However, such independence was surely meant to end sooner or later..."
+ DATAW_ulstor_events.01161.opt.a: "The wisest thanes must be consulted!"       
+ DATAW_ulstor_events.01161.opt.a.tooltip: "To manage this region effectively, we must seek the counsel of its most experienced leaders."
+ DATAW_ulstor_events.01161.opt.b: "Only those that prove their worth can lead!"        
+ DATAW_ulstor_events.01161.opt.b.tooltip: "Only the most capable leaders should be given the chance to govern."
+ DATAW_ulstor_events.01161.opt.c: "There is but one authority in the Frostbacks!"        
+ DATAW_ulstor_events.01161.opt.c.tooltip: "Skyhold must be brought to heel, and the people must understand that we are here to stay!"
+
+
+
+
+
+#Event 11.7         #A New Sun on the Frostbacks
+ DATAW_ulstor_events.0117.tit: "A New Sun on the Frostbacks"
+ DATAW_ulstor_events.0117.desc_1: "I, Ulstor Skuldsen, have united the Avvar under my rule alone. All clans now rallied beneath a single banner. What no thane dared to dream, I have made real. When I marched on Edgehall all those years ago, I could not foresee where my path would take me or the glory that awaited. Through countless battles, I led my warriors as hold after hold yielded or fell, and now the skalds will immortalize my name in song. \n\nThe Maker's light has lifted me to the summit of greatness, and the mountains will bask in his warmth. A new dawn rises over the Frostbacks and its people. My legend will spread throughout all of Thedas, for I am the first King of the Avvar, the Thane of Thanes. I am Wolf-Hand!"
+ DATAW_ulstor_events.0117.desc_2: "I, Ulstor Skuldsen, have united the Avvar under my rule alone. All clans now rallied beneath a single banner. What no thane dared to dream, I have made real. When I marched on Edgehall all those years ago, I could not foresee where my path would take me or the glory that awaited. Through countless battles, I led my warriors as hold after hold yielded or fell, and now the skalds will immortalize my name in song. \n\nKorth, the Lady, and Hakkon have lifted me to the summit of greatness, and the mountains will forever have their favor. A new dawn rises over the Frostbacks and its people. My legend will spread throughout all of Thedas, for I am the first King of the Avvar, the Thane of Thanes. I am Wolf-Hand!"
+ DATAW_ulstor_events.0117.opt.a: "May my kingdom shine forever!"       
+ DATAW_ulstor_events.0117.opt.a.tooltip: "You have brought the Avvar together and declared your legend as the cornerstone for a realm that will endure through the ages!"
+
+
+
+
+
+
+####### SUN-Wolf ABOVE ########
+
+
+
+
+
+
+
+
+
+################## LAST EVENT BELOW
+
+ DATAW_ulstor_events.012.tit: "Home at Last"
+ DATAW_ulstor_events.012wisewind.desc: "It feels so strange to feel at peace. After so many years of doubt - of searching for who I am - I just stand here with nothing to think about but the wind rushing against my face. \n\nIn these lowlands, I have found my home. I have offered my subjects prosperity and peace in a land of torment. My place in the world is not one of a conqueror, but of a just ruler."
+ DATAW_ulstor_events.012skyhound.desc: "It feels so strange to feel at peace. After so many years of doubt - of searching for who I am - I just stand here with nothing to think about but the wind rushing against my face. \n\nIn these lowlands, I have spilt blood. So many heathens I have slaughtered in my quest for meaning. Now, I see my place in the world, as an empty vehicle for the gods' wrath against the Andrastians."
+ DATAW_ulstor_events.012sunwolf.desc: "It feels so strange to feel at peace. After so many years of doubt - of searching for who I am - I just stand here with nothing to think about but the wind rushing against my face. \n\nIn these lowlands, I have seen the value of unity. The Claynes desire their unification not only because of their rampant ambition, but also because of the strength they gain together. As such, I have found my place in the world, as the unifier of all Avvars, under one faith and one throne."
+ DATAW_ulstor_events.012.opt.a: "Finally, I know who I am."       
+ DATAW_ulstor_events.012.opt.a.tooltip: "After all the trials and tribulations, I have found my place in the world, and I am at peace with it."
+
+
+
+
+
+
+
+################## MISC BELOW
+# Army locs
+clan_augurs: "Clan Augurs"
+haven_defenders: "Haven Defenders"
+haven_conscripts: "Haven Conscripts"
+elmridge_defenders: "Elmridge Defenders"
+elmridge_conscripts: "Elmridge Conscripts"
+elmridge_raiders: "Elmridge Raiders"
+haven_raiders: "Haven Raiders"
+freshbloods: "Freshbloods"
+clan_warband: "Clan Warband"
+hakkons_fury: "Hakkon's Fury"
+#Redcliffe response to attack (here for now)
+DATAW_redcliffe_events.010.tit: "The Avvar Warlord"
+DATAW_redcliffe_events.010.desc: "filler loc for redcliffe avvar warlord event"
+DATAW_redcliffe_events.010.opt.a: "filler"
+DATAW_redcliffe_events.010.opt.a.tooltip: "filler tooltip"
+DATAW_redcliffe_events.010.opt.b: "filler"
+DATAW_redcliffe_events.010.opt.b.tooltip: "filler tooltip"

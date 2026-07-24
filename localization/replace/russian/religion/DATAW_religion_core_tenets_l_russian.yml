@@ -1,0 +1,44 @@
+﻿l_russian:
+ # Syncretic Tenets
+ #Not referenced in-game anywhere by itself, but used to control other opinion title copy:
+ alamarri_syncretic_recipient_opinion_active_opinion_name: "$faith_syncretic_opinion_active_control$"
+ alamarri_paganism_religion_syncretic_actor_opinion_active_opinion_name: "$faith_syncretic_opinion_active_control$"
+ alamarri_syncretic_recipient_opinion_active_county_opinion_name: "$faith_syncretic_popular_opinion_active_control$"
+ alamarri_paganism_religion_syncretic_actor_opinion_active_county_opinion_name: "$faith_syncretic_popular_opinion_active_control$"
+ andrastianism_religion_syncretic_recipient_opinion_active_opinion_name: "$faith_syncretic_opinion_active_control$"
+ andrastianism_religion_syncretic_actor_opinion_active_opinion_name: "$faith_syncretic_opinion_active_control$"
+ andrastianism_religion_syncretic_recipient_opinion_active_county_opinion_name: "$faith_syncretic_popular_opinion_active_control$"
+ andrastianism_religion_syncretic_actor_opinion_active_county_opinion_name: "$faith_syncretic_popular_opinion_active_control$"
+ elven_paganism_religion_syncretic_recipient_opinion_active_opinion_name: "$faith_syncretic_opinion_active_control$"
+ elven_paganism_religion_syncretic_actor_opinion_active_opinion_name: "$faith_syncretic_opinion_active_control$"
+ elven_paganism_religion_syncretic_recipient_opinion_active_county_opinion_name: "$faith_syncretic_popular_opinion_active_control$"
+ elven_paganism_religion_syncretic_actor_opinion_active_county_opinion_name: "$faith_syncretic_popular_opinion_active_control$"
+
+ #doctrine_parameter_can_use_thedas_artefacts: "Can use Thedas [artifacts|E] at full benefit"
+
+ tenet_alamarri_paganism_religion_syncretic_name: "Alamarri Syncretism"
+ tenet_alamarri_paganism_religion_syncretic_desc: "There is still much wisdom and virtue in following the old ways, for they carry the knowledge and traditions of our past. As such, these practices should be respected."
+ doctrine_parameter_hostility_override_special_doctrine_is_alamarri_faith:2 "Considers Alamarri [faiths|E], and is considered by Alamarri $game_concept_faiths$, to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] instead of $hostility_evil_tooltippable$"
+ doctrine_parameter_alamarri_paganism_religion_syncretic_actor_opinion_active:1 "Mutual [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] [opinion|E] bonus with Alamarri [faiths|E]"
+ doctrine_parameter_opinion_of_alamarri_syncretic_recipient_opinion_active: ""
+ doctrine_parameter_alamarri_syncretic_recipient_opinion_active:1 "Mutual [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] [opinion|E] bonus with [faiths|E] that have the $tenet_alamarri_paganism_religion_syncretic_name$ [core_tenet|E]"
+ doctrine_parameter_opinion_of_alamarri_paganism_religion_syncretic_actor_opinion_active: ""
+
+ tenet_andrastianism_religion_syncretic_name: "Andrastian Syncretism"
+ tenet_andrastianism_religion_syncretic_desc: "Although we do not agree about its claim of the [maker|E] being the sole creator of the World, the [chant_of_light|E] is still a text that brings much wisdom to [thedas|E], and as such, shouldn't be disgraced."
+ doctrine_parameter_hostility_override_special_doctrine_is_andrastian_faith:2 "Considers Andrastian [faiths|E], and is considered by Andrastian $game_concept_faiths$, to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] instead of $hostility_evil_tooltippable$"
+ doctrine_parameter_andrastianism_religion_syncretic_actor_opinion_active:1 "Mutual [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] [opinion|E] bonus with Andrastian [faiths|E]"
+ doctrine_parameter_opinion_of_andrastianism_religion_syncretic_recipient_opinion_active: ""
+ doctrine_parameter_andrastianism_religion_syncretic_recipient_opinion_active:1 "Mutual [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] [opinion|E] bonus with [faiths|E] that have the $tenet_andrastianism_religion_syncretic_name$ [core_tenet|E]"
+ doctrine_parameter_opinion_of_andrastianism_religion_syncretic_actor_opinion_active: ""
+
+ tenet_elven_paganism_religion_syncretic_name: "Elven Paganism Syncretism"
+ tenet_elven_paganism_religion_syncretic_desc: "The gods of Elvhenkind, although strange and many, tell of great virtues and wisdom that should be acknowledged as such, no matter our doubts on other matters."
+ doctrine_parameter_hostility_override_special_doctrine_is_elven_paganism_faith:2 "Considers Elven Paganism [faiths|E], and is considered by Elven Paganism $game_concept_faiths$, to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] instead of $hostility_evil_tooltippable$"
+ doctrine_parameter_elven_paganism_religion_syncretic_actor_opinion_active:1 "Mutual [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] [opinion|E] bonus with Elven Paganism [faiths|E]"
+ doctrine_parameter_opinion_of_elven_paganism_religion_syncretic_recipient_opinion_active: ""
+ doctrine_parameter_elven_paganism_religion_syncretic_recipient_opinion_active:1 "Mutual [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] [opinion|E] bonus with [faiths|E] that have the $tenet_elven_paganism_religion_syncretic_name$ [core_tenet|E]"
+ doctrine_parameter_opinion_of_elven_paganism_religion_syncretic_actor_opinion_active: ""
+
+ tenet_way_of_cinders_name: "Ash sacrifice"
+ tenet_way_of_cinders_desc: "We believe that when one grows too old and weak to be a worthy asset to the community, it is accepted, and even encouraged, to enact a ritual suicide so that we may become a spirit of cinder, an Ash Wraith.\nWith a flawless black pearl in mouth to retain the Spirit on this side of the Veil, the body is prepared in prayer and abstinence for weeks, before being burned.\nWith the ashes of all our forefathers travelling the mountains and dunes of Thedas we call home, their wisdom still available to guide us."

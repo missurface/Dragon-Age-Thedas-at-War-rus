@@ -1,0 +1,14 @@
+﻿l_russian:
+# Chasind Travel Events
+ DATAW_chasind_flavor_travel.1.t: "An Argument"
+ DATAW_chasind_flavor_travel.1.desc: "As my entourage and I stop at a roadside inn, I notice a pair of travelers who seem to be arguing animatedly. The inn is lively enough that their bickering would not ordinarily stand out to me, were it not for the fact that their accents are unmistakably [GetCultureByKey('mareschois').GetName].\n\n"The marshfolk are as much [GetCultureByKey('orlesian').GetName] as anyone else!" the first man, [angry_mareschois_man.GetFirstName], says. "Are we not all of the lineage of the [GetCultureByKey('ciriane').GetCollectiveNoun]? Simply because we've preserved a few of the old ways doesn't make us an entirely different culture!"\n\n"You know we have never fully bent the knee to [GetTitleByKey('c_val_royeaux').GetBaseNameNoTier]," insists his companion, [angry_mareschois_man_1.GetFirstName]. "Even in the time of Isorath, the marshes never truly bought into his grand unification. And later on, did we commit ourselves to Drakon's nation-building? The rest of Orlais has left us behind and become something different - We are the last keepers of the old culture!"\n\n"It simply means we are slow to adopt the newest trends," rebuts [angry_mareschois_man.GetFirstName]. "There is nothing wrong with tradition - what is wrong is pretending that this makes us somehow foreign to the rest of our peers. What good can come of distancing ourselves from Orlesian identity?"\n\nI clear my throat loudly to interject."
+ DATAW_chasind_flavor_travel.1.a: "[angry_mareschois_man.GetFirstNameNoTooltip] is right. The Mareschois are part of the rich tapestry of Orlesian culture."
+ DATAW_chasind_flavor_travel.1.b: "I agree with [angry_mareschois_man_1.GetFirstNameNoTooltip]. The Mareschois are more Ciriane than Orlesian."
+ DATAW_chasind_flavor_travel.1.c: "Surely an agreement can be broached."
+ DATAW_chasind_flavor_travel.1.d: "This is all subjective. What's the difference?"
+ DATAW_chasind_flavor_travel.1.orlesian_vassals: "Every Orlesian Vassal"
+ DATAW_chasind_flavor_travel.1.mareschois_vassals: "Every Mareschois Vassal"
+ DATAW_chasind_flavor_travel.1.orlesian_and_mareschois_vassals: "Every Orlesian and Mareschois Vassal"
+ DATAW_chasind_flavor_travel.1.c.good: "My argument is persuasive"
+ DATAW_chasind_flavor_travel.1.c.bad: "My argument falls short"
+ DATAW_chasind_flavor_travel.1.bad.toast: "You fail to persuade both people"

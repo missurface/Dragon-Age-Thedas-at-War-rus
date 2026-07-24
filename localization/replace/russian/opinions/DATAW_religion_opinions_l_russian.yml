@@ -1,0 +1,8 @@
+﻿l_russian:
+ ### Religion Opinion
+ alamarri_paganism_religion_opinion:0 "$alamarri_paganism_religion_adherent$ Opinion"
+ andrastianism_religion_opinion:0 "$andrastianism_religion_adj$ Opinion"
+ ciriane_paganism_religion_opinion:0 "$ciriane_paganism_religion_adj$ Opinion"
+ elven_paganism_religion_opinion:0 "$elven_paganism_religion_adherent$ Opinion"
+ ### Faith Opinion
+ orlesian_chantry_opinion:0 "$orlesian_chantry$ $orlesian_chantry_adherent$ Opinion"

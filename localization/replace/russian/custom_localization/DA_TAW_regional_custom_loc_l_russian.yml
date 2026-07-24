@@ -1,0 +1,181 @@
+﻿l_russian:
+
+# Regional Dragon Age Drink
+ cocktail: "a cocktail"
+ chasind_sack_mead: "Chasind sack mead" 
+ antivan_sip-sip: "Antivan sip-sip"
+ herbal_tea: "herbal tea"
+ dandelion_wine: "dandelion wine" # Orlesian City Elf
+ sangria: "sangria"
+ lichen_ale: "lichen ale"
+# Local Dragon Age Street Food
+ butter_soup: "butter soup" # Orlesian & Ciraine
+ lentil_soup: "lentil soup" # City Elf Fereldan
+ fish_pocket: "fish pocket" # Tevinter
+ peasant_bread: "peasant bread"
+ honey_fritter: "honey fritter" # Neromenian Heritage
+ pickled_eggs: "pickled egg" # Ferelden
+ turnip_and_mutton_pie: "turnip & mutton pie" # Ferelden
+ lamb_and_pea_stew: "lamb & pea stew" # Ferelden
+ flat_bread_and_yogurt_dip: "flat bread & yogurt dip" # Nevarran
+ peasant_bread: "peasant bread" # City Elf Orlesian
+ stuffed_grape_leaves: "stuffed grape leaf" # Teviainius
+ mystery_meat_stew: "The Hanged Man's mystery meat stew" # Kirkwaller
+ pig_oat_mash: "pig oat mash"
+ treviso_energy_balls: "Treviso energy ball" # Trevisan
+ llomerryn_red_sauce: "Llomerryn red sauce" # rivaini
+ nug_bacon_and_egg_pie: "nug bacon and egg pie"
+ yummy_corn: "yummy corn"
+ buttered_rice: "buttered rice"
+
+# Local Dragon Age Street Food Plural
+ butter_soup_plural: "bowls of butter soup" # Orlesian & Ciraine
+ honey_fritter_plural: "honey fritters" # Neromenian Heritage
+ lentil_soup_plural: "lentil soups" # City Elf Fereldan
+ fish_pocket_plural: "fish pockets" # Tevinter
+ pickled_eggs_plural: "pickled eggs" # Ferelden
+ turnip_and_mutton_pie_plural: "turnip & mutton pies" # Ferelden
+ lamb_and_pea_stew_plural: "bowls of lamb & pea stew" # Ferelden
+ flat_bread_and_yogurt_dip_plural: "flat bread & yogurt dip" # Nevarran
+ peasant_bread_plural: "crusts of peasant bread" # City Elf Orlesian
+ stuffed_grape_leaves_plural: "stuffed grape leaves" # Teviainius
+ mystery_meat_stew_plural: "bowls of The Hanged Man's mystery meat stew" # Kirkwaller
+ pig_oat_mash_plural: "bowls of pig oat mash"
+ treviso_energy_balls_plural: "Treviso energy balls" # Trevisan
+ llomerryn_red_sauce_plural: "servings of Llomerryn red sauce" # rivaini
+ nug_bacon_and_egg_pie_plural: "nug bacon and egg pies"
+ yummy_corn_plural: "cobs of yummy corn"
+ buttered_rice_plural: "servings of buttered rice"
+# Local Dragon Age Expensive Meals & Desserts
+ hazelnut_torte: "hazelnut torte"
+ sweet_and_sour_cabbage_soup: "sweet and sour cabbage soup"
+ gnocchi: "gnocchi"
+ cacio_e_pepe: "cacio e pepe"
+ plum_jam: "plum jam"
+ black_lichen_bread: "black lichen bread"
+ nug_pancakes: "nug pancakes"
+ deep_mushrooms: "deep mushrooms"
+ honey_carrots: "honeyed carrots"
+ hearth_cakes: "hearth cakes"
+ eggs_a_la_val_foret: "eggs à la Val Foret" # Orlesian and Ciriane
+ stuffed_cabbage: "stuffed cabbage" # Avvar
+ blood_soup: "blood soup" # Dalish
+ nettle_soup: "nettle soup" # Chasind
+ croissant: "croissants" # Orlesian and Ciriane
+ hearty_scones: "hearty scones" # Fereldan and Clayne
+ potato_and_leek_soup: "potato and leek soup" # Fereldan and Clayne
+ turnip_and_barley_stew: "turnip and barley stew" # Fereldan and Clayne
+ fluffy_mackerel_pudding: "fluffy mackerel pudding" # Fereldan and Clayne
+ blood_orange_salad: "blood orange salad" # Nevarran
+ expensive_dessert_cherry_cupcakes: "cherry cupcakes" # Tevinter
+ pumpkin_bread: "pumpkin bread" # Tevinter
+ starkhaven_fish_and_egg_pie: "Starkhaven fish and egg pie" # Starkhavener
+ nordbotten_fruit_stew: "Nordbotten fruit stew" # ander
+ crab_cakes: "crab cakes" # Kirkwaller
+ fish_chowder: "fish chowder" # Antivan
+ paella: "paella" # Rivaini
+ ghislain_blessed_apple_pie: "Ghislain blessed apple pie" # Orlesian Ciriane
+ cookies: "cookies" # Fereldan Clayne
+ forest_fruit_cobbler: "forest fruit cobbler" # DAlish
+ chocolate_coated_orange_peels: "chocolate-coated orange peels" # Teivanus
+ cinnamon_rolls: "cinnamon rolls" # Kirkwaller
+ rice_pudding: "rice pudding" # Antivan
+ bread_of_many_tongues: "bread of many tongues"
+ gazpacho: "gazpacho"
+ potato_omelette: "potato omelette"
+ tapas: "tapas"
+ chocolate_cake: "chocolate cake"
+ blind_tetrava: "blind tetrava"
+ fish_crayfish: "fish crayfish"
+ octopus: "octopus"
+ squid: "squid"
+ fish_bluefin: "fish bluefin"
+ churros: "churros"
+ goat_custard: "goat custard"
+ blancmange: "blancmange"
+ sour_cherries_in_cream: "sour cherries in cream"
+ sugar_cake: "sugar cake"
+ pastries: "pastries"
+ apple_grenade: "apple grenade"
+# Regional Edible Meats
+ regional_edible_meat_roasted_wyvern: "roasted wyvern" # Avvar
+ regional_edible_meat_pickled_krone_fish: "pickled krone fish" # Avvar & Clayne
+ regional_edible_meat_grilled_poussin: "grilled poussin" # Chasind
+ regional_edible_meat_gurgut: "gurgut with Lowlander spices" # Avvar
+ regional_edible_meat_snails: "snails" # Avvar
+ regional_edible_meat_fish_in_salt_crust: "fish in salt crust"
+ regional_edible_meat_spiced_jerky: "spiced jerky" # Dalish
+ regional_edible_meat_beetle_larvae: "beetle larvae" # Dalish
+ regional_edible_meat_unidentified_meat: "unidentified meat" # Tevinter / Tevianius
+ regional_edible_meat_giant_spiders: "fried giant spiders" # Sharosk and Orzmisch
+ regional_edible_meat_cave_beetles: "cave beetles" # Sharosk and Orzmisch
+ regional_edible_meat_nug: "nug" # Sharosk orzmisch
+ regional_edible_meat_smoked_ham: "smoked ham" # Ander
+ regional_edible_meat_jamon_iberico: "jamón ibérico" # Rivaini
+ regional_edible_meat_jellied_pigs_feet: "jellied pigs' feet"
+
+ #Random religious texts
+ random_religious_text_city_of_the_maker: "City of the Maker"
+ random_religious_text_chant_of_light_analysis: "The [chant_of_light|E] - Literary Analysis and History"
+ random_religious_text_reflections_on_divinity: "Reflections on Divinity"
+
+# RandomEntertainmentTextName 
+ random_entertainment_text_dane_and_the_werewolf: "Dane and the Werewolf"
+ random_entertainment_text_travels_to_denerim: "Travels to Denerim"
+ random_entertainment_text_north_of_par_vollen: "North of Par Vollen"
+ random_entertainment_text_travels_to_tevinter: "Travels to Tevinter"
+ random_entertainment_text_heir_of_verchiel: "The Heir of Verchiel"
+ random_entertainment_text_wilkshire_downs: "Wilkshire Downs"
+ random_entertainment_text_death_in_the_mansion: "Death in the Mansion"
+
+ #Random Informative Texts
+ random_informative_text_wilds_of_thedas: "The Wilds of [thedas|E]"
+ random_informative_text_herbology_in_thedas: "Herbology in [thedas|E]"
+ random_informative_text_storm_coast_history: "The Storm Coast and Its History"
+ random_informative_text_free_marches_history: "Tales and Legends of the Free Marches"
+ random_informative_text_shape_of_fade: "The Shape of the [fade|E]"
+ random_informative_text_threat_of_magic: "The True Threat of [dataw_magic|E]"
+ random_informative_text_legendary_blades_of_thedas: "Legendary Blades of [thedas|E]"
+ random_informative_text_artists_through_the_ages: "A Still Life of Modest Artistic Discernments"
+ random_informative_text_interplay_of_spirits: "The Interplay of [spirits|E] in the Common Laundry Room"
+ random_informative_text_beyond_the_veil: "Beyond the [veil|E] - [spirits|E] and [demon|E]s"
+
+
+
+
+ #get_region_flower_type
+ flower_type_blood_lotus: "Blood Lotus"
+ flower_type_borage: "Borage"
+ flower_type_buttercup: "Buttercup"
+ flower_type_bluebell: "Bluebell"
+ flower_type_dawn_lotus: "Dawn Lotus"
+ flower_type_crystal_grace: "Crystal Grace"
+ flower_type_embrium: "Embrium"
+ flower_type_vandal_aria: "Vandal Aria"
+
+ #get_region_flower_type_plural
+ flower_type_blood_lotus_plural: "Blood Lotuses"
+ flower_type_borage_plural: "Borages"
+ flower_type_buttercup_plural: "Buttercups"
+ flower_type_bluebell_plural: "Bluebells"
+ flower_type_dawn_lotus_plural: "Dawn Lotuses"
+ flower_type_crystal_grace_plural: "Crystal Graces"
+ flower_type_embrium_plural: "Embriums"
+ flower_type_vandal_aria_plural: "Vandal Arias"
+
+ #get_region_dog_type
+ dog_type_mabari: "mabari warhound"
+
+ #Curses (should not be translated, but remain the same in every language of the game)
+ curse_fenhedis: "fenhedis"
+ curse_kaffas: "kaffas"
+ curse_fasta_vass: "fasta vass"
+ curse_putain_de_merde: "putain de merde"
+ curse_makers_breath: "Maker's breath"
+ curse_andrastes_tits: "Andraste's tits"
+ curse_andrastes_great_flaming_arse: "Andraste's great flaming arse"
+ curse_andrastes_knicker_weasels: "Andraste's knicker weasels"
+
+ #Gamesets (games like chess and shiiiiit)
+ archon_set: "Archon Set"
+ deck_of_wicked_grace: "Deck of Wicked Grace"

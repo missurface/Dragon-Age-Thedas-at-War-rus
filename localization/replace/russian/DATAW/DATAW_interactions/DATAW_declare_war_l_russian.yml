@@ -1,0 +1,2 @@
+﻿l_russian:
+ clan_government_vassals_external_war_tooltip: "[vassals|E] of a [GetGovernment('clan_government').GetName] cannot declare External [wars|E] unless they have [GetSubjectContractType( 'ghazi_special_rights' ).GetObligationName('ghazi_special_rights_granted')] in their [vassal_contract|E], or have a [strong_hook|E] on their [liege|E]"

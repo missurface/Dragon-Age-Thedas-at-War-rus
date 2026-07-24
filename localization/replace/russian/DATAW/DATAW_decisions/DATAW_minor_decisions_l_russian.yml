@@ -1,0 +1,25 @@
+﻿l_russian:
+ DATAW_invite_free_marches_veterans_decision: "Invite Free Marches Veterans"
+ DATAW_invite_free_marches_veterans_decision_tooltip: "Invite Free Marches Veterans"
+ DATAW_invite_free_marches_veterans_decision_desc: "With the various conflicts raging all over Ferelden, we are always in need of experienced generals to assure a certain degree of competency on the battlefield.\nLuckily, another region, just north of Ferelden, has been a prime breeding ground of experienced generals for decades: The Free Marches. Starkhaven, Kirkwall, Hercinia... The number of city-states and small kingdoms waging war against each other is too large to be counted, and is only surpassed in numbers by the veterans hardened by these conflicts. Hiring a few competent generals of these lands would bring a degree of experience most useful, for a price."
+ DATAW_invite_free_marches_veterans_decision_confirm: "Send the herald"
+ DATAW_invite_free_marches_veterans_decision_effect_tooltip: "#P 3#! veterans from the Free Marches will arrive as [guests|E] at your #V Court"
+ DATAW_invite_free_marches_veterans_decision_valid_tooltip: "You must have at least @gold_icon!#V 75#! [gold|E] to recruit a #V veteran#!"
+ 
+ consult_elders: "Consult the Elders"
+ DATAW_consult_elders_desc: "A wise ruler consults with the most experienced advisors available on all matters, both familiar and uncertain. The elders of the court should gather in my hall in a private gathering, to offer sage advice on all of my affairs, from patrol routes to tax codes."
+ consult_elders_tooltip:"Consult the elders for advice"
+ consult_elders_confirm: "Call the council!"
+ DATAW_consult_elders_valid_tooltip: "You have at least one person in court who is over 50."
+
+ DATAW_minor_decisions.0624.t:0 "Elder Advice"
+ DATAW_minor_decision.0624.desc: "After many many hours of careful discussion, covering nearly every aspect of my realm, the meeting is done. Through it all, it was [elder.GetName] who spoke with the most weight, and [elder.GetHerHis] words stick in my mind as I retreat from the hall."
+ DATAW_minor_decision.0624.opt.a: "Sage advice, [elder.GetName]."
+ DATAW_minor_decision.0624.opt.b: "Unfortunately, [elder.GetSheHe] has a point.""
+ DATAW_minor_decision.0624.opt.c: "My beloved is wise."
+
+ investigate_ducarme_orphanage: "Investigate Ducarme Orphanage"
+ DATAW_investigate_ducarme_orphanage_desc: " Robert Ducarme, the “Servant of the Divine's Will”, is a name often mentioned when discussing the Ducarme Orphanage for Dalish Children. Yet rumours surrounding the institution are plenty, and endless speculation about what truly happens is kept secret behind those doors. There is too much secrecy, too many strange happenings, around the orphanage. An investigation must begin at once."
+ investigate_ducarme_orphanage_confirm: "Ducarme's secrets will be revealed."
+ investigate_ducarme_orphanage_tooltip: "Look into the mysteries of [GetBuilding('ducarme_orphanage').GetName]"
+

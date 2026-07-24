@@ -1,0 +1,12 @@
+﻿l_russian:
+  TAW_version: "#Z Thedas at War #!#weak (Public 0.1)#!"
+  dlc_dataw: "Thedas at War"
+  dlc_dataw_desc: "Thedas at War is a total conversion mod set in the world of Bioware's Dragon Age series. Currently set in the Glory Age, play as any ruler you want in the expansive continent of Thedas"
+
+  # DATAW Music stuff 
+  DATAW_soundtrack_list: "Dragon Age: Thedas At War Soundtrack"
+  mx_WolvesInWar: "Wolves In War"
+  mx_TheOldWays: "The Old Ways"
+  mx_RielsTheme: "Riels Theme"
+  mx_Varangian: "Varangian"
+  mx_ThedasAtWar: "Thedas At War (Unmixed)"

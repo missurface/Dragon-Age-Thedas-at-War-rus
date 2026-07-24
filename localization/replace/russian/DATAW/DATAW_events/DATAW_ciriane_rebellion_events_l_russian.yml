@@ -1,0 +1,1129 @@
+﻿l_russian:
+## Ciriane Rebellion Events - 1000
+# 1000 - 1999 is all Roux/K_Nahashin Perspective
+# 2000-2499 is all D_Serault Perspective
+# 2500-2999 is all D_Alyons Perspective
+# 3000-3499 is all Orlais Perspective
+# 3500-3999 is all Misc
+# Day After Red Crossing has happened
+#### Nahashin Holder decides if he wants to rebel
+ dataw_ciriane_rebellion.1000.t: "The Ciriane Situation"
+ dataw_ciriane_rebellion.1000.desc: "Since the rise of the Orlesian Empire under [kordillus_i.GetName], the once-fractious clans of the [GetGlobalVariable('ciriane_culture_var').Culture.GetName] have been united as a single proud nation. That, at least, is the story our rulers in [GetTitleByKey('c_val_royeaux').GetBaseNameNoTier] tell themselves. Here in the [GetGeographicalRegion('custom_mareschois_population').GetName], the control exerted by the capital has always been... tenuous, at best.\n\nIn these lands, echoes remain, memories of the old ways - of the time when the marshfolk were a free people. #italic Is there a chance that we might be so once again?#! We exist at the fringes of the empire, both geographically and culturally. The [orlais.GetTitleAsNameNoTooltip] in distant Val Royeaux does not truly know us, does not truly understand our ways. How could [kordillus_i.GetSheHe], after all? My thoughts are increasingly preoccupied of late with notions like these. A strange destiny beckons.\n\n#italic #N Dare I step towards it?#!#!"
+ dataw_ciriane_rebellion.1000.a: "Could I better serve my people as an independent king?"
+ dataw_ciriane_rebellion.1000.b: "No, this is madness - Treason. The empire has been good to us."
+ dataw_ciriane_rebellion.1000.c: "This remnant must be crushed! For the [orlais.GetTitleAsNameNoTooltip]'s sake."
+ dataw_ciriane_rebellion.1000.a_tt: "You decide to #N eventually rebel.#! This will begin the Ciriane Rebellion story cycle, giving you events to build up your forces by the time Red Crossing occurs. #N If you do win the war of independence against Orlais, you will unlock new events and decisions to reform the Ciriane Empire with options to reform the Ciriane Religion.#! If you back out when the War of the Dales begins and decide not to rebel there, you will face a Ciriane uprising as you've changed your mind last second after convincing them to rebel with you."
+ dataw_ciriane_rebellion.1000.b_tt: "You remain a #N Vassal#!, forever holding your peace and submitting under the Orlesian Empire's rule. "
+ dataw_ciriane_rebellion.1000.c_tt: "You remain a vassal, seeking to align yourself with [orlais.GetTitleAsNameNoTooltip]. This will begin a different event chain, where instead of rebelling you aim to improve relations with Orlais and better defend the Empire. #N You will unlock decisions & events to align yourself with Orlais and will focus on crushing the rebellious Ciriane & Dalish.#! You will immediately travel to the capital to swear your oath to the [orlais.GetTitleAsNameNoTooltip], and convert to the Orlesian Chantry faith."
+
+# Ally with Alyons/Serault
+ dataw_ciriane_rebellion.1001.t: "An Offer of Friendship"
+ dataw_ciriane_rebellion.1001.desc: "As I prepare my diplomatic overtures to my neighbors, I am haunted by their inevitable reply.\n\n#italic “What’s in it for me?”#! has been the death of many historic alliances.\n\nIf I expect [ally_target.GetName] to ride with me against the greatest empire in [thedas|E], I must make it worth their while.\n\n#italic #N But what do I have that they need? And how do I ensure that their dependence on me lasts?#!#!"
+ dataw_ciriane_rebellion.1001.a: "Is my reputation not enough? [prestige_i]"
+ dataw_ciriane_rebellion.1001.b: "I have the coin to make it worth their while... [gold_i]"
+ dataw_ciriane_rebellion.1001.c: "I will offer them some of my excess lands [stewardship_i]"
+ dataw_ciriane_rebellion.1001.c_tt: "You do not have a spare county that borders [ally_target.GetName]"
+ dataw_ciriane_rebellion.1001.g_tt: "[nahashin.GetName] does not have a spare county that borders you, or [nahashin.GetSheHe] has already offered you land"
+ dataw_ciriane_rebellion.1001.j_tt: "[nahashin.GetName] has already offered you land"
+
+ DATAW_ciriane_rebellion.1001.a.serault_convinced: "You convince [GetTitleByKey('d_serault').GetBaseNameNoTier] to support your independence"
+ DATAW_ciriane_rebellion.1001.a.serault_not_convinced: "You fail to convince [GetTitleByKey('d_serault').GetBaseNameNoTier] to support your independence"
+ DATAW_ciriane_rebellion.1001.a.alyons_convinced: "You convince [GetTitleByKey('d_alyons').GetBaseNameNoTier] to support your independence"
+ DATAW_ciriane_rebellion.1001.a.alyons_not_convinced: "You fail to convince [GetTitleByKey('d_alyons').GetBaseNameNoTier] to support your independence"
+
+ DATAW_ciriane_rebellion.1001.b.serault_bribed: "You bribe [GetTitleByKey('d_serault').GetBaseNameNoTier] to support your independence"
+ DATAW_ciriane_rebellion.1001.b.serault_not_bribed: "You fail to bribe [GetTitleByKey('d_serault').GetBaseNameNoTier] to support your independence"
+ DATAW_ciriane_rebellion.1001.b.alyons_bribed: "You bribe [GetTitleByKey('d_alyons').GetBaseNameNoTier] to support your independence"
+ DATAW_ciriane_rebellion.1001.b.alyons_not_bribed: "You fail to bribe [GetTitleByKey('d_alyons').GetBaseNameNoTier] to support your independence"
+
+ DATAW_ciriane_rebellion.1001.a.serault_notify_roux: "[GetTitleByKey('d_serault').GetBaseNameNoTier] decides to join [GetTitleByKey('e_orlais').GetBaseNameNoTier] to stop your rebellion"
+ DATAW_ciriane_rebellion.1001.a.alyons_notify_roux: "[GetTitleByKey('d_alyons').GetBaseNameNoTier] decides to join [GetTitleByKey('e_orlais').GetBaseNameNoTier] to stop your rebellion"
+ DATAW_ciriane_rebellion.1001.a.serault_notify_orlais: "[GetTitleByKey('d_serault').GetBaseNameNoTier] decides to join you to stop [GetTitleByKey('k_nahashin').GetBaseNameNoTier] rebellion"
+ DATAW_ciriane_rebellion.1001.a.alyons_notify_orlais: "[GetTitleByKey('d_alyons').GetBaseNameNoTier] decides to join you to stop [GetTitleByKey('k_nahashin').GetBaseNameNoTier] rebellion"
+
+ DATAW_ciriane_rebellion.1001.a.serault_orlais_notify: "[GetTitleByKey('d_serault').GetBaseNameNoTier] decides to join [GetTitleByKey('k_nahashin').GetBaseNameNoTier]'s planned rebellion"
+ DATAW_ciriane_rebellion.1001.a.alyons_orlais_notify: "[GetTitleByKey('d_alyons').GetBaseNameNoTier] decides to join [GetTitleByKey('k_nahashin').GetBaseNameNoTier]'s planned rebellion"
+
+#### K Nahashin Holder Declaration of Independene
+ dataw_ciriane_rebellion.1002.t: "The Declaration of Independence"
+ dataw_ciriane_rebellion.1002.desc: "The news from the south grows more grim with each report. War has well and truly erupted between the Empire and the Dales.\n\nYet while some despair, I see my opportunity at long last... With imperial forces steeped in conflict with the elves, perhaps the time has finally come to put our plans into motion and end [GetTitleByKey('c_val_royeaux').GetBaseNameNoTier]'s rule over these marshes."
+ dataw_ciriane_rebellion.1002.n.e.desc: "I arrive at my capital bruised and bloodied, but alive. I have undergone an ordeal at the hands of the [orlais.GetTitleAsNameNoTooltip]’s dogs, but by some miracle, I have managed to escape with my life intact.\n\nDuring these long weeks of running and hiding across the countryside, I had little time to appreciate my freedom. Now that I am home free, I let out a hearty laugh of relief. My guards rush to meet me and escort me back to my castle.\n\nSoon, after a hot bath and a good meal, I sit in my throne room contemplating my next course of action. The cat is out of the bag now; we can no longer catch the [orlais.GetTitleAsNameNoTooltip] off guard with our rebellion. The hardship I have suffered these past weeks is but a fraction of what I and all the people of the marshes might experience if this goes poorly.\n\n#N How committed am I really to this path?#!"
+ dataw_ciriane_rebellion.1002.n.d.m.desc: "I stand stone-faced and silent as my valet’s dress me in my ceremonial garb. I am the [nahashin.GetTitleAsNameNoTooltip] now, and I must address the people.\n\nA ripple of discontent has been spreading across the marshes in response to the recent news: My predecessor was slain attempting to escape from the dungeons of [GetTitleByKey('c_val_royeaux').GetBaseNameNoTier].\n\n#N Or so the [orlais.GetTitleAsNameNoTooltip] says.#!\n\nWhatever the truth, the people grumble with barely-disguised anger. [nahashin_past_holder.GetName] was, to many, a symbol. Now [nahashin_past_holder.GetSheHe] may well become a martyr.\n\n#N I need only fan the flames...#!"
+ dataw_ciriane_rebellion.1002.n.d.f.desc: "I stand stone-faced and silent as my lady's maids dress me in my ceremonial garb. I am the [nahashin.GetTitleAsNameNoTooltip] now, and I must address the people.\n\nA ripple of discontent has been spreading across the marshes in response to the recent news: My predecessor was slain attempting to escape from the dungeons of [GetTitleByKey('c_val_royeaux').GetBaseNameNoTier].\n\n#N Or so the [orlais.GetTitleAsNameNoTooltip] says.#!\n\nWhatever the truth, the people grumble with barely-disguised anger. [nahashin_past_holder.GetName] was, to many, a symbol. Now [nahashin_past_holder.GetSheHe] may well become a martyr.\n\n#N I need only fan the flames...#!"
+ dataw_ciriane_rebellion.1002.a: "The timing could not be more perfect! @skill_martial_icon!"
+ dataw_ciriane_rebellion.1002.b: "On second thought... Maybe I should abandon this foolish notion. @warning_icon!"
+ DATAW_ciriane_rebellion.1002.b.coward: "Your prestige will be stripped for planning to rebel then backing out like a #N coward.#!"
+ DATAW_ciriane_declare_independence_tt: "This will make you #N independent from Orlais immediately#! and give Orlais Options to: attack you now, attack after Dalish War, or let you remain independent."
+ dataw_ciriane_rebellion.1002.n.e.a: "No liberty was ever won without sacrifice. I will not yield! @skill_martial_icon!"
+ dataw_ciriane_rebellion.1002.n.e.b: "I must end this madness now, before things get any more out of hand @warning_icon!"
+ dataw_ciriane_rebellion.1002.n.d.a: "Fetch my scribe. We will make our intent clear to Val Royeaux! @skill_martial_icon!"
+ dataw_ciriane_rebellion.1002.n.d.b: "This is nothing but vanity. Charge the dissenters with lese-majesty. @warning_icon!"
+ DATAW_ciriane_rebellion.1002.n.e.b_tt: "You end your plans of Rebellion, ending the #N Ciriane Rebellion#! once and for all"
+
+#### K Nahashin #Declares War# of Independence
+ dataw_ciriane_rebellion.1003.t: "Retaliation"
+ dataw_ciriane_rebellion.1003.desc: "As I feared, despite the wounds inflicted by the elven invasion, the dragon is unwilling to simply lay down and accept our secession. It is to come to war after all – the might of the Orlesian Empire against my massed forces and those of my allies."
+ dataw_ciriane_rebellion.1003.n.e.desc: "As anticipated, the [orlais.GetTitleAsNameNoTooltip] did not take kindly to my insistence on inciting a rebellion in spite of everything.\n\nThat I still live must fill [orlais.GetHerHim] with fury; I take amusement from that thought, at least, even as I must steel myself for war against the massed forces of Orlais.\n\n#N It is time to avenge myself upon my captors, and break the remaining chains that bind the marshfolk and I to the [orlais.GetTitleAsNameNoTooltip].#!"
+ dataw_ciriane_rebellion.1003.n.d.desc: "The response from the capital is swift, the words icy.\n\nIt is now clear to the [orlais.GetTitleAsNameNoTooltip] that imprisoning [nahashin_past_holder.GetName] alone was not sufficient to quell the rebellious spirit of the marshes - In cutting off the head of the snake, [orlais.GetSheHe] has only enabled three more to spring up in its place.\n\n#N Now imperial troops mass with the intent of crushing our rebellion once and for all.#!"
+ dataw_ciriane_rebellion.1003.ns.a.desc: "A courier arrived from the capital this morning, bearing the [orlais.GetTitleAsNameNoTooltip]’s response to our declaration of war. I smile as I read over the parchment - Despite the [orlais.GetTitleAsNameNoTooltip]’s bluster, the empire truly did not see this coming. Now they hurry to prepare for war, but we have the upper hand.\n\n#N Unlike the elves of the Dales, I know how the Orlesians think - after all, was I not one of them?#!"
+ dataw_ciriane_rebellion.1003.a: "Let them come. They will not find us wanting."
+ dataw_ciriane_rebellion.1003.n.e.a: "To war!"
+ dataw_ciriane_rebellion.1003.n.e.d: "They underestimate our resolve."
+ dataw_ciriane_rebellion.1003.ns.a: "So it begins."
+ DATAW_ciriane_retaliation_war_tt: "#N This will officially begin the War of Independence!#! We will resist Orlesian Occupation!"
+ DATAW_ciriane_retaliation_war_next_steps_tt: "#N We will be victorious in our conquests! One Kingdom at a time we shall weaken the Orlesian Empire!#!"
+ DATAW_ciriane_retaliation_imprisonment_freed_tt: "Due to the attempted imprisonment by Orlais, #N an army of 10,000 marshmen and local tribes has been spawned to aid you!#!"
+ DATAW_ciriane_retaliation_imprisonment_died_tt: "Due to your predecessor dying at the hands of the Orlesians, #N an army of 14,500 marshmen and local tribes has been spawned to aid you!#!"
+
+
+ dataw_ciriane_rebellion.1003.nevarra: "Nevarran Sellswords"
+ dataw_ciriane_rebellion.1003.ciriane: "Ciriane Steel"
+ dataw_ciriane_rebellion.1003.dalish: "Dalish Precision"
+ dataw_ciriane_rebellion.1003.fereldan: "Fereldan's Might"
+ dataw_ciriane_rebellion.1003.nevarra_tt: "Your #N Nevarran Sellswords#! have been spawned to aid you!"
+ dataw_ciriane_rebellion.1003.ciriane_tt: "Your #N Ciriane Steel#! have been spawned to aid you!"
+ dataw_ciriane_rebellion.1003.dalish_tt: "Your #N Dalish Precision#! have been spawned to aid you!"
+ dataw_ciriane_rebellion.1003.fereldan_tt: "Your #N Fereldan's Might#! have been spawned to aid you!"
+
+ #### K Nahashin loses the rebellion war (folded)
+ dataw_ciriane_rebellion.1004.t: "The War is Lost"
+ dataw_ciriane_rebellion.1004.desc: "We fought with determination and valor, but in the end, it was not enough. The war is lost, and with it, any hope for our freedom. With gritted teeth, I bow my head and sign the parchment outlining the empire’s demands. So ends my short-lived [ROOT.Char.Custom('GetQueenKing')|l]ship.\n\n#N Doubtless there will be consequences - [orlais.GetName] will not allow this rebellion to go unpunished. I can only hope that the penalties fall upon my shoulders alone, rather than upon my people.#!"
+ dataw_ciriane_rebellion.1004.a: "Was it worth it in the end?"
+ DATAW_cirianes_lost: "#N Our battle is over...#!"
+
+# Unique Desc for Roux
+
+ dataw_ciriane_rebellion.1004.desc.r: "We fought with determination and valor, but in the end, it was not enough. The war is lost, and with it, any hope for our freedom. With gritted teeth, I bow my head and sign the parchment outlining the empire’s demands. So ends my short-lived [ROOT.Char.Custom('GetQueenKing')|l]ship. Doubtless there will be consequences - [orlais.GetName] will not allow this rebellion to go unpunished, especially as the blood of her brother [cyril.GetFirstName] stains my blade."
+
+ #### K Nahashin wins the rebellion war 
+ dataw_ciriane_rebellion.1005.t: "Victory of the Marshes"
+ dataw_ciriane_rebellion.1005.desc: "It is done. Every drop of Nahashin blood spilt was worth it, for it helped secure our independence. The forces of [GetTitleByKey('c_val_royeaux').GetBaseNameNoTier] fought hard, but we fought harder. I look with pride upon the faces of my soldiers – courageous sons and daughters of the marshes, every one.\n\nTogether, we accomplished the unthinkable and beat back the mighty dragon. A cheer goes out among the assembled troops as I read aloud the declaration from [GetTitleByKey('c_val_royeaux').GetBaseNameNoTier]: [orlais.GetName]’ unconditional surrender.\n\n#N I have secured a future full of freedom and promise for my house and for my subjects.#!"
+ dataw_ciriane_rebellion.1005.a: "Was it worth it in the end?"
+ DATAW_cirianes_win: "The battle is over... #N We have won!#!"
+
+#### Roux POV Duel
+ dataw_ciriane_rebellion.1006.t: "A Dragon Emerges"
+ dataw_ciriane_rebellion.1006.desc: "For every battle with the [GetGlobalVariable('orlesian_culture_var').Culture.GetName]s, I choose to fight alongside my people every step of the way. To compare a battlefield to anything else is ridiculous, for nothing compares to the rush of adrenaline one feels as they find themselves surrounded by such chaos. Neither does one feel such fear when witnessing how quickly a life can be taken. A man is brave when he fights through such fear, to rise above it and see his goals realized. This rebellion has filled me with plenty of fear, but it has also made me into a better man. Hopefully one worthy of ruling his people.\n\nA surge of adrenaline courses through me as these thoughts are interrupted by the swinging of a blade. Through instinct alone I catch the blade with the curved head of my axe, to then push my arms forward to pin the blade against the Orlesian knight’s breastplate. An older knight’s eyes meet my own for just a moment before my axe is raised overhead. With a swift swing, the axe cuts through the throat of the knight before he slumps to the ground, only to then get trampled by a cavalry charge.\n\nBy the time I was able to recollect myself, I was able to notice that one of the knights was dismounting his horse. His armor looked to be in a far better condition than the other knights I have seen throughout this rebellion. A unique sword was unsheathed by this knight, which signified he was someone of importance. It then dawned on me that this was a member of the bloodline in which I’ve sworn to defeat. [cyril.GetFirstName] [cyril.GetDynastyHouseName], one of the last remaining members of his house, has chosen to engage me personally in a duel? He is just a boy, dammit. Augh, there is no talking him out of this, not in the midst of all this fighting."
+ dataw_ciriane_rebellion.1006.a: "#italic #color_red Must I kill this boy? So be it.#!"
+
+#### Roux POV Duel
+ dataw_ciriane_rebellion.1007.t: "The Slain Dragon"
+ dataw_ciriane_rebellion.1007.desc: "[cyril.GetFirstName] [cyril.GetDynastyHouseName]'s steel meets my own with heavy swings, causing us both to stumble backward for just a moment. Quickly, the youthful knight rushes me with the intent to pierce my abdomen with the tip of his sword.\n\nWith my right hand gripping the handle of my axe, I manage to deflect the incoming blow just enough to prevent a fatal wound. Despite my best attempt to avoid a wound, his blade still manages to find my left shoulder as it slices through my flesh.\n\nA cry of pain escapes me before I follow up the young dragon’s strike with one of my own. Another cry is heard, but not my own as the head of the axe is buried into [cyril.GetFirstName]'s chest.\n\n#N Crimson begins to pour from the wound and I notice a change in his demeanor.#!\n\nThat is a look of fear, as I have come to know it well since the start of this rebellion.\n[cyril.GetFirstName] brings a hand up to push the axe free from his chest, the break in his breastplate easily seen now as he prepares for another strike.\n\nBefore the young knight can attempt another strike upon me, I pursue my advantage. When both of his arms raise above his head, I tackle him to the ground. His sword is sent flying after we both hit the ground, lost in the sea of fighting soldiers.\n\nA few blows from the young dragon find purchase, but only one draws blood as he busts my lip with a gauntleted fist. Adrenaline is a deadly weapon, as the strike did not impede my efforts. Despite his swinging fists in the struggle, I manage to shove each arm out of the way just enough to bring my axe down in an overhead swing.\n\n#G Not a word was uttered from [cyril.GetFirstName] [cyril.GetDynastyHouseName] in his final moments.#!\n\nIt was too quick, too much of a struggle was ongoing for him to even have a reaction. All I saw was the look of fear in this boy's eyes seconds before my axe cleaved into his face.\n\n#N Right between the eyes the blow had struck, covering me in even more gore.#!\n\nHorns are quickly being blown, and I can hear the Orlesian officers commanding their men to retreat. My men begin to run them down, to which I manage to stand. I watch them strike down some of the retreating foes, before my gaze falls to the corpse of [cyril.GetFirstName] [cyril.GetDynastyHouseName]."
+ dataw_ciriane_rebellion.1007.a: "#N I did not wish to kill this boy.#!"
+
+#### Next Step
+ dataw_ciriane_rebellion.1008.t: "Next Steps"
+ dataw_ciriane_rebellion.1008.desc: "I stand upon the balcony of my keep, looking over my demesne. These marshes are wild, foreboding... and at long last, #italic free.#!\n\nI am the #color_goldy_yellow [GetPlayer.GetTitleAsNameNoTooltip] in the Marshes#!, and no longer will my people bend the knee to [GetTitleByKey('c_val_royeaux').GetBaseNameNoTier]. Yet there is much to consider now, and quickly.\n\nOur position is a precarious one - for a new realm, any missteps could be fatal. The [orlais.GetTitleAsNameNoTooltip] may have given us our freedom today, but what of tomorrow? And what of the elves in the south, who march upon the Orlesian capital as we speak?\n\n#N There are decisions to be made, ones that will forever shape our relationship with the empire going forward.#!"
+ dataw_ciriane_rebellion.1008.a: "Strike now and weaken the empire while they are vulnerable @skill_martial_icon!"
+ dataw_ciriane_rebellion.1008.a_tt: "#N You will lay claim to Orlesian lands and launch a war to conquer all of the [GetTitleByKey('k_blasted_hills').GetBaseNameNoTier]. This will be a conquest war, you won't be vassalized by Orlais if defeated.#!"
+ dataw_ciriane_rebellion.1008.b: "Offer an alliance against the Dalish invasion @alliance_icon!"
+ dataw_ciriane_rebellion.1008.b_tt: "#N If Orlais accepts the alliance, you will automatically join the war on Orlais' side against the Dales. Aligning yourself, a new independent nation with the Empire of Orlais by your side is a wise move.#!"
+ dataw_ciriane_rebellion.1008.c:  "Stay out of it - we have affairs of our own to tend to"
+ dataw_ciriane_rebellion.1008.c_tt: "#N You retire to your bedchamber alas, as the [GetPlayer.GetTitleAsNameNoTooltip] in the Marshes. You have secured a new freedom for your people, and now you will enjoy it.#!"
+ dataw_ciriane_rebellion.1008.d_tt: "The Ciriane Rebellion has ended, but not the story of the Ciriane. You have unlocked new decisions & events to Reform the Ciriane Kingdom."
+
+#### War with the Dales!
+ dataw_ciriane_rebellion.1009.t: "War with the Dales!"
+ dataw_ciriane_rebellion.1009.desc: "Tensions between the empire and the barbarous elves of the south have finally reached a breaking point.\n\nThe elves swarm across our borders like an unrelenting tide, their black hearts filled with hatred for all that is good and pure. It is time to show that my oath to the [orlais.GetTitleAsNameNoTooltip] was not in vain.\n\n#N Today, we stand together as Orlesians against the Dalish horde.#!"
+ dataw_ciriane_rebellion.1009.a: "For Orlais! For humanity!"
+
+#### D_Serault Holder deciding if they want to support Roux or not (Player)
+ dataw_ciriane_rebellion.2000.t: "The Rebel [nahashin.GetTitleAsNameNoTooltip]"
+ dataw_ciriane_rebellion.2000.desc: "I sit in the high chamber of the [GetBuilding('serault_castle_01').GetName], sipping my wine. I survey my domain with pride: The glassworks of Serault are legendary throughout Orlais and beyond. The sudden arrival of a messenger breaks my reverie. #italic “Word from the Marshes, Your Grace.”#! I unfurl the message with a frown.\n\nIt seems [nahashin.GetName], to our east, is plotting an independence revolt against [orlais.GetName]... and [nahashin.GetSheHe] seeks my support. The message is laden with honeyed words, but there are a myriad of subtle threats woven in. “Support the [orlais.GetTitleAsNameNoTooltip] at your peril”, the letter seems to be saying. I purse my lips as I consider the matter."
+ dataw_ciriane_rebellion.2000.a: "How dare [nahashin.GetSheHe] threaten me? That is no way to win my friendship."
+ dataw_ciriane_rebellion.2000.b: "But the marshes could well cause us serious trouble if I refuse... @alliance_icon!"
+ dataw_ciriane_rebellion.2000.c: "I had something else in mind"
+# Bribery Variant
+ dataw_ciriane_rebellion.2000.b.desc: "I sit in the high chamber of the [GetBuilding('serault_castle_01').GetName], sipping my wine. I survey my domain with pride: The glassworks of Serault are legendary throughout Orlais and beyond. The sudden arrival of a messenger breaks my reverie. #italic “Word from the Marshes, Your Grace.”#! I unfurl the message with a frown.\n\nIt seems [nahashin.GetName], to our east, is plotting an independence revolt against [orlais.GetName]... and [nahashin.GetSheHe] seeks my support. Accompanying the note is a #italic “small token”#! of the [nahashin.GetTitleAsNameNoTooltip]'s #italic “highest regard”#! for me - a chest brimming with glittering [GetGlobalVariable('orlesian_culture_var').Culture.GetName] royals. A transparent attempt at bribery, with the implied promise of more to come. Yet do I dare position myself against the mighty [GetTitleByKey('e_orlais').GetBaseName], which will surely seek to crush this rebel and all who ally with [nahashin.GetHerHim]? I purse my lips as I consider the matter."
+ dataw_ciriane_rebellion.2000.a.b: "But these funds could be of use... @alliance_icon!"
+ dataw_ciriane_rebellion.2000.b.b: "I cannot be bought so easily!"
+ dataw_ciriane_rebellion.2000.c.b: "I had something else in mind"
+# Land Gift Variant
+ dataw_ciriane_rebellion.2000.c.desc: "I sit in the high chamber of the [GetBuilding('serault_castle_01').GetName], sipping my wine. I survey my domain with pride: The glassworks of Serault are legendary throughout Orlais and beyond. The sudden arrival of a messenger breaks my reverie. #italic “Word from the Marshes, Your Grace.”#! I unfurl the message with a frown.\n\nIt seems [nahashin.GetName], to our east, is plotting an independence revolt against [orlais.GetName]... and [nahashin.GetSheHe] seeks my support. Accompanying the letter is another writ, signing land and title in the Nahashin Lands over to my name. The [nahashin.GetTitleAsNameNoTooltip] of Nahashin would trade away his own lands to earn my support, but can we truly hope to stand against the empire? Even together?\n\n(Offer: [spare_county.GetName])"
+ dataw_ciriane_rebellion.2000.a.c: "On the other hand, it would be nice to move that border... @alliance_icon!"
+ dataw_ciriane_rebellion.2000.b.c: "Serault has land enough without Nahashin’s help!"
+ dataw_ciriane_rebellion.2000.c.c: "I had something else in mind"
+
+ DATAW_ciriane_support_roux_tt: "You will #P support#! [nahashin.GetName] in their bid for independence."
+ DATAW_ciriane_support_roux_disrespected_tt: "You have been disrespected, the gifts are an empty box worth nothing...#N Do you still want to ally?#!"
+ DATAW_ciriane_dont_support_roux_tt: "You will #N not support#! [nahashin.GetName] in their bid for independence."
+ DATAW_ciriane_something_else_tt: "#N You send extra demands#! to [nahashin.GetName], his current offer is not enough"
+ DATAW_ciriane_insulted_tt: "#N [nahashin.GetName] insults you by offering you 0[gold_i]"
+
+#### D_Alyons Holder deciding if they want to support Roux or not (Player)
+ dataw_ciriane_rebellion.2500.t: "The Rebel [nahashin.GetTitleAsNameNoTooltip]"
+ dataw_ciriane_rebellion.2500.desc: "I uncork a bottle of Alyons black in celebration. The harvest has been generous this year, and the castle larders are well-stocked with field mushrooms, wild fennel, and cloves - A sure sign the land is recovering well from the ravages of the Second [blight|E]. The Lands Between the Rivers are as fertile as they have ever been, and the marquisate as a whole is thriving. Yet my good mood is interrupted by a messenger from the [GetGeographicalRegion('custom_mareschois_population').GetName].\n\nI read through the letter with a scowl, my eyes flitting over the looping handwriting. [nahashin.GetName] plans an independence revolt against our [orlais.GetTitleAsNameNoTooltip], and solicits my support. On the surface, the request is amiable enough, but there is an undercurrent of implied violence if I should refuse. Bold, very bold. If I bend to his threats, of course, I will likely incur the wrath of a far greater power: The [orlais.GetTitleAsNameNoTooltip] of Orlais"
+ dataw_ciriane_rebellion.2500.a: "But then, should I really jeopardize our newfound prosperity? @alliance_icon!"
+ dataw_ciriane_rebellion.2500.b: "Does [nahashin.GetSheHe] take me for a spineless craven? The affairs of Alyons are [nahashin.GetHerHis] own."
+ dataw_ciriane_rebellion.2500.c: "I had something else in mind"
+
+# Bribery Variant
+ dataw_ciriane_rebellion.2500.b.desc: "I uncork a bottle of Alyons black in celebration. The harvest has been generous this year, and the castle larders are well-stocked with field mushrooms, wild fennel, and cloves - A sure sign the land is recovering well from the ravages of the Second [blight|E]. The Lands Between the Rivers are as fertile as they have ever been, and the marquisate as a whole is thriving. Yet my good mood is interrupted by a messenger from the [GetGeographicalRegion('custom_mareschois_population').GetName].\n\nI read through the letter with a scowl, my eyes flitting over the looping handwriting. [nahashin.GetName] plans an independence revolt against our [orlais.GetTitleAsNameNoTooltip], and solicits my support. Yet it seems the [nahashin.GetTitleAsNameNoTooltip] does not trust in words alone to convey his point - for alongside the letter [nahashin.GetSheHe] has sent a #italic “token of his regard”#!. My eyes widen as the precious gemstones spill out onto the table. A crude attempt at bribery, and one that could easily incur the wrath of the [orlais.GetTitleAsNameNoTooltip]s should I be imprudent enough to be swayed by it."
+ dataw_ciriane_rebellion.2500.a.b: "On the other hand, some extra coin couldn’t hurt... @alliance_icon!"
+ dataw_ciriane_rebellion.2500.b.b: "Alyons has wealth enough without tying myself to the pursestrings of another."
+ dataw_ciriane_rebellion.2500.c.b: "The [orlais.GetTitleAsNameNoTooltip] will hear of this treason! @alliance_icon!"
+
+# Land Gift Variant
+ dataw_ciriane_rebellion.2500.c.desc: "I sit in the high chamber of the [GetBuilding('serault_castle_01').GetName], sipping my wine. I survey my domain with pride: The glassworks of Serault are legendary throughout Orlais and beyond. The sudden arrival of a messenger breaks my reverie. #italic “Word from the Marshes, Your Grace.”#! I unfurl the message with a frown.\n\nIt seems [nahashin.GetName], to our east, is plotting an independence revolt against [orlais.GetName]... and [nahashin.GetSheHe] seeks my support. Accompanying the letter is another writ, signing land and title in the Nahashin Lands over to my name. The [nahashin.GetTitleAsNameNoTooltip] of Nahashin would trade away his own lands to earn my support, but can we truly hope to stand against the empire? Even together?\n\n(Offer: [spare_county.GetName])"
+ dataw_ciriane_rebellion.2500.a.c: "On the other hand, it would be nice to move that border... @alliance_icon!"
+ dataw_ciriane_rebellion.2500.b.c: "Alyons has land enough without Nahashin’s help!"
+ dataw_ciriane_rebellion.2500.c.c: "I had something else in mind"
+
+#### E Orlais Holder Declaration of Independene
+ dataw_ciriane_rebellion.3000.t: "The Declaration of Independence"
+ dataw_ciriane_rebellion.3000.desc: "The inhabitants of the [GetGeographicalRegion('custom_mareschois_population').GetName] have always had a stubbornly independent streak, thumbing their noses at the capital while continuing to reap the benefits of empire.\nEven during the reign of [kordillus_i.GetName], Val Royeaux’s control over the marshes was tentative at best. Yet it seems even this state of affairs was not enough for the selfish louts.\n\nIn a time when the very heart of our empire is under assault by The Dales, when every Orlesian is needed to drive back the elven menace and protect our way of life, it seems the marshfolk have decided instead to take advantage of the chaos and declare their independence from the rest of Orlais! They count on my reluctance to divide my forces at a time like this to put down their rebellion. The gall!"
+ dataw_ciriane_rebellion.3000.a: "And they’re right. #N Conclude this war first#! – The marshfolk’s time will come."
+ DATAW_ciriane_wait_till_after_dalish_war_tt: "You will decide what to do again once the Dalish War ends, #N win or lose.#! This will give you a truce with the Marshes till the Dalish war ends. "
+ DATAW_ciriane_rebellion.3000.a.tt: "Orlais holds off till Dalish War ends"
+ dataw_ciriane_rebellion.3000.b: "But that’s what they expect. Begin preparations to #N attack #!and reassert control! @skill_martial_icon!"
+ DATAW_ciriane_rebellion.3000.b.tt: "Orlais attacks you immediately"
+ DATAW_ciriane_orlais_fight_now_tt: "Can you really fight both at the same time? This will #N immediately #!begin a war to reconquer all of the Marshes."
+ dataw_ciriane_rebellion.3000.c: "Eh... Just #N let [nahashin.GetHerHim] remain independent#!... who cares... @warning_icon!"
+ DATAW_ciriane_rebellion.3000.c.tt: "Orlais lets you remain independent"
+ DATAW_ciriane_let_them_remain_independent_tt: "The Ciriane Rebellion will end with a #N 10 year truce between you both#!. The Marshes will be freed from Orlesian rule."
+
+#### E Orlais Holder Loses the Rebellion
+ dataw_ciriane_rebellion.3001.t: "The War is Lost"
+## todo add marshal scope/chheck
+ dataw_ciriane_rebellion.3001.desc: "“Our forces have been utterly routed, Your Imperial Majesty,” one subject says with a bow.\n\nTo play the Great Game demands mastery over one’s emotions, but in this moment, I cannot help but bury my face in my hands.\n\nThe [GetGeographicalRegion('custom_mareschois_population').GetName] have broken free of my benevolent oversight – and so, the borders of the empire continue to recede.\n\n#N I replay the events of the war over and over again in my mind, wondering if there was some way this could have been avoided...#!"
+ dataw_ciriane_rebellion.3001.a: "I have failed."
+
+#### E Orlais Holder Wins the Rebellion
+ dataw_ciriane_rebellion.3002.t: "Orlais Triumphant"
+ dataw_ciriane_rebellion.3002.desc: "Song and celebration ring through the streets of the capital as the victorious soldiers make their triumphant return.\n\nI stand among the crowd, looking with [orlais.GetMotherFather]ly pride upon my troops. The marshfolk fought well, but we fought better.\n\n#N In the days to come, there will be consequences for my errant vassal’s treason, but for now we may take comfort in the fact that the empire has remained intact despite everything.#!"
+ dataw_ciriane_rebellion.3002.a: "Long may it remain so."
+ # Variant Desc for Kordillus
+ dataw_ciriane_rebellion.3002.desc.k: "Song and celebration ring through the streets of the capital as the victorious soldiers make their triumphant return.\n\nI stand among the crowd, looking with [orlais.GetMotherFather]ly pride upon my troops. The marshfolk fought well, but we fought better. Yet the victory is a bittersweet one; my grandson [cyril.GetFirstName] lies dead, slain by the traitor's own hand.\n\n#N In the days to come, there will be consequences for this, but for now.#!"
+# Variant Desc for Jeaneve
+ dataw_ciriane_rebellion.3002.desc.j: "Song and celebration ring through the streets of the capital as the victorious soldiers make their triumphant return.\n\nI stand among the crowd, looking with [orlais.GetMotherFather]ly pride upon my troops. The marshfolk fought well, but we fought better. Yet the victory is a bittersweet one; my brother [cyril.GetFirstName] lies dead, slain by the traitor's own hand.\n\n#N In the days to come, there will be consequences for this, but for now.##!"
+# Variant Desc if Cyril kills Roux for Kordillus
+ dataw_ciriane_rebellion.3002.desc.c.k: "Song and celebration ring through the streets of the capital as the victorious soldiers make their triumphant return.\n\nRiding at the head of the column is my grandson [cyril.GetFirstName], the vaunted hero who slew the traitor in single combat. I stand among the crowd, looking with [orlais.GetMotherFather]ly pride upon my troops. The marshfolk fought well, but we fought better.\n\n#N In the days to come, there will be consequences for their treason, but for now we may take comfort in the fact that the empire has remained intact despite everything.#!"
+# Variant Desc if Cyril kills Roux for Jeaneve
+ dataw_ciriane_rebellion.3002.desc.c.j: "Song and celebration ring through the streets of the capital as the victorious soldiers make their triumphant return.\n\nRiding at the head of the column is my brother [cyril.GetFirstName], the vaunted hero who slew the traitor in single combat. I stand among the crowd, looking with [orlais.GetMotherFather]ly pride upon my troops. The marshfolk fought well, but we fought better.\n\n#N In the days to come, there will be consequences for their treason, but for now we may take comfort in the fact that the empire has remained intact despite everything.#!"
+#### Cyril POV Duel
+ dataw_ciriane_rebellion.3003.t: "The Marsh-King"
+ dataw_ciriane_rebellion.3003.desc: "Seated upon my trustworthy steed of a lovely chestnut coloration, I watch with bated breath as my men collide in battle with the [GetGlobalVariable('ciriane_culture_var').Culture.GetName] rebels. Word had reached me several days ago, informing me that [roux.GetFullNameNicknamedOrMe] himself would be in command against me. He has proven to be a worthy leader to his people, despite being a traitor to [GetGeographicalRegion('world_orlais').GetName]. Supposedly, he is quite skilled with that axe of his. Yes, #italic the Song of the Marshes#! would be quite the boon for any warrior.\n\nSuddenly, I hear shouting as my second-in-command asks for me to give the order to charge. For the time being, I ignore his inquiry as I intend to wait for this #I “King of the Marshes”#! to show himself before I enter the field. Draw them in, wait for them to dig their heels in, then go in for the kill. That is how a proper cavalry charge is executed. Atop this hill, I watch [roux.GetFirstName] enter the fray flanked by his best warriors before shortly becoming threatened by one of our knights. They’re fairly even in this match, but [roux.GetFirstName] seems to overpower his foe. This is all I need to confirm that now is the time to strike.\n\n#EMP “Ride with me! For Orlais!”#! I say, trying to quell the fear rising within me as our horses race toward the battlefield.\n\nBy the time we’ve reached the rest of the army engaged with [roux.GetFirstName] forces, I no longer hear my own heart beating out of my chest, but instead can only hear the thousands of weapons slamming into one another. Cries of pain and obscenities make it even more difficult to remain brave. After the cavalry charge reached its end, I dismount and unsheathe my sword. Suddenly, it’s as if everything else seemed to fade. All the noise, the cries and sounds of battle, gone as I solely focus on [roux.GetFirstName] before me. This would-be “king” threatens every aspect of my life with this war, the lives of my family and other loved ones. He must be, will be, defeated here and now. "
+ dataw_ciriane_rebellion.3003.a: "#italic #color_red For Orlais!#!"
+
+#### Cyril Duel against Roux wins
+ dataw_ciriane_rebellion.3004.t: "A Dragon’s Victory"
+ dataw_ciriane_rebellion.3004.desc: "With a heavy thud, I watch as #italic “King”#! [roux.GetFirstName] [roux.GetDynastyHouseName] drops to the ground. My blade is covered from tip to hilt in his blood, which trickles down until it reaches the earth beneath my boots. I try to catch my breath, to focus on the rest of the battle as I am knocked to the ground by another knight, but this one had been fighting for the marshes, not Orlais.\n\nA large axe is raised over the man’s head, ready to cleave me in two. Within the blink of an eye, I kick toward the man’s knee, causing him to hit the ground hard as his leg flies out from under him. After hitting the ground, my foe’s axe falls into the bloody battlefield, leaving him disarmed temporarily. Scrambling over to him, I reach for my dagger, sheathed along my hip, unsheathing and thrusting it into his neck.\n\nWith minimal resistance, the man gurgles and bleeds out as I hold him firmly against the earth. Panting even more so than before, my heart once again pounds in my ears, threatening to burst from my chest. It is not enough to distract me from what is changing within this battle, however.\n\nHorns are blown and shouting is heard in various volumes due to how far or close they might be to us. It would seem the forces of the rebels are in retreat. We are victorious. [roux.GetFirstName] [roux.GetDynastyHouseName] is dead, ensuring that this war will come to an end soon. My men smile at me and cheer, knowing that we can all expect peace to return to our beloved [GetGeographicalRegion('world_orlais').GetName]. This blow to the rebellion should be the tipping point, leaving them leaderless and broken as a result of their “king” being slain. It all began with [roux.GetFirstName], so it is fitting that it all should end with him too. Victory, peace, both at last ours."
+ dataw_ciriane_rebellion.3004.a: "#italic #color_red Orlais will be all the stronger as this conflict reaches its end.#!"
+
+# Betrayal!
+ dataw_ciriane_rebellion.3005.t: "Betrayal!"
+ dataw_ciriane_rebellion.3005.desc: "I had thought the gift of freedom and independence - exactly as my errant vassal in the marshes had demanded - would be enough to placate the young [nahashin.GetLadyLord].\n\nOnce I acceded to [nahashin.GetHerHis] demands, I supposed, [nahashin.GetSheHe] would return to the quaint business of the marshes, leaving me breathing room to focus upon the clash with the Dales.\n\n#color_goldy_yellow I was a fool.#!\n\nIn Orlais, men say one thing and mean another. It is in our blood, the games we all play. The so-called #italic [nahashin.GetTitleAsNameNoTooltip] in the Marshes#! has taken [nahashin.GetHerHis] newfound independence... and rallied to attack us.\n\n#N There is no honor among marshfolk nor among elves, it seems.#!" 
+ dataw_ciriane_rebellion.3005.a: "So it is to be war after all..." 
+
+# Roux Losing Options
+# Ancudor’s Offer
+ dataw_ciriane_rebellion.3006.t: "Ancudor’s Offer"
+ dataw_ciriane_rebellion.3006.desc: "A skilled warrior named [ancudor.GetFirstName] presents himself in a secret meeting between him and I.\n\n#italic "I will try not to take up too much of your time, your majesty,” Ancudor begins. “I am Ancudor Marchette, half-brother to Roux Marchette. We share the same father, though few know it. By right, when you defeat the Rebel Duke, I should be the newest Duke of Nahashin."#!\n\nThe man's reputation makes him seem like he would make for a loyal vassal, but his skills are untested. There is no way to tell if he will make a capable ruler, or just a useful puppet." 
+ dataw_ciriane_rebellion.3006.a: "You presume too much, Ancudor, your half-brother has nullified your birthright." 
+ dataw_ciriane_rebellion.3006.a_tt: "#N [ancudor.GetFirstName] will not be granted the Duchy of Nahashin once the war ends.#!" 
+ dataw_ciriane_rebellion.3006.b: "Would you be willing to pay for such privileges?" 
+ dataw_ciriane_rebellion.3006.b_tt: "#N [ancudor.GetFirstName] will hope to be given the Duchy of Nahashin if you win the war, though the final decision is yours.#!" 
+ dataw_ciriane_rebellion.3006.c: "I would be happy to oblige, but in the meantime, you must come work for me" 
+ dataw_ciriane_rebellion.3006.d: "You’re right, I’m sure you will serve capably" 
+
+# Roux Losing Options
+# Promise to Ancudor
+ dataw_ciriane_rebellion.3007.t: "Promise to Ancudor"
+ dataw_ciriane_rebellion.3007.desc: "[ancudor.GetFirstName] rides into my keep as if he were a general leading a triumph. The proud warrior kneels before my throne, eager to take on his new responsibilities.\n\nEverything is ready for his ascension, and yet I feel myself hesitate. Is Ancudor truly ready to lead the Mareschois to peace & prosperity?\n\n#N Or is there someone better for the job?#!" 
+ dataw_ciriane_rebellion.3007.a: "Arise, Duke Ancudor"  
+ dataw_ciriane_rebellion.3007.b: "Begone, Knave! You could never be a Duke!" 
+
+# Roux Losing Options
+# Promise to Ancudor (Ancudor Dead Version)
+ dataw_ciriane_rebellion.3008.t: "Promise to Ancudor"
+ dataw_ciriane_rebellion.3008.desc: "As the ashes settle on our victory over the Rebel Duke, I send for my new Duke of Nahashin. To my horror, I find [ancudor.GetName]'s name amongst the roll of our slain soldiers.\n\n#N Without [ancudor.GetName], who should inherit the Duchy is now a matter of dispute, and it falls to me to find a solution.#!" 
+ dataw_ciriane_rebellion.3008.a: "Who will rule the Marshes now?"  
+ 
+# Roux Losing Options
+# Victory Over the Duke
+ dataw_ciriane_rebellion.3009.t: "Victory Over the [nahashin.GetTitleAsNameNicknamed]"
+ dataw_ciriane_rebellion.3009.desc: "With the Marshes defeated, a large piece of the empire has become unruled and unmanaged. \n\nI have to find someone to take on the rebel duke’s responsibilities. A wise emperor must not mistake one enemy’s defeat for the defeat of all enemies. My new duke cannot become a new rebel, nor can [nahashin.GetSheHe] allow his vassals to seek vengeance.\n\n#N They must be a peacemaker, and one that my enemies will see as legitimate.#!" 
+ dataw_ciriane_rebellion.3009.a: "The current ruler is fine."  
+ dataw_ciriane_rebellion.3009.a_tt: "[nahashin_ruler.GetName] remains as the [nahashin_ruler.GetTitleAsNameNicknamed]"  
+ dataw_ciriane_rebellion.3009.b: "It's too recent to name a duke just yet. For now, it is mine."  
+ dataw_ciriane_rebellion.3009.c: "The Marshes need a ruler of Orlesian stock."  
+ dataw_ciriane_rebellion.3009.c_tt: "[orlesian_ruler.GetName] will take over the Marshes"  
+# Roux Losing Options
+# The New Duke
+ dataw_ciriane_rebellion.3010.t: "The New [nahashin.GetTitleAsNameNicknamed]"
+ dataw_ciriane_rebellion.3010.n.desc: "[nahashin_ruler.GetFirstName] makes a speech accepting their new responsibilities\n\nThey spend little time denouncing the old Duke, instead focusing on their own qualifications. [nahashin_ruler.GetFirstName] provides the court with a history of their life, hoping to illustrate why and how they’ve come to deserve this noble role.\n\n#N It is hard for me to tell whether the crowd is convinced, but those whose opinions matter lie further west.#!" 
+ dataw_ciriane_rebellion.3010.o.desc: "I accept my new responsibilities with grace & dignity, and make a brief speech.\n\nI speak about how the Empire is stronger now that there is central control over Nahashin. I promise to expand the influence of Val Royeaux and our chantry into the marshland, and promise it will become a second home to my descendants.\n\n#N Some in the crowd greet this speech with thunderous applause, others with quiet dread.#!"
+ dataw_ciriane_rebellion.3010.o.s.desc: "[orlesian_ruler.GetFirstName] makes a speech accepting their new responsibilities.\n\nThey denounce the Rebel Duke’s naive rebellion, and promise to lead the marshes into an Orlesian future.\n\nThey promise that within a generation, the marshfolk will be the spitting image of Orlesian civilization.\n\n#N Some in the crowd greet this speech with thunderous applause, others with quiet dread.#!"
+ dataw_ciriane_rebellion.3010.a.n: "Let us see if [nahashin_ruler.GetFirstName] can keep the marshes in check."  
+ dataw_ciriane_rebellion.3010.a.o: "After all, why not? Why shouldn’t I keep it?"  
+ dataw_ciriane_rebellion.3010.a.o.s: "I wish [orlesian_ruler.GetFirstName] luck."  
+
+# Roux Losing Options
+# The Fallen Duke
+ dataw_ciriane_rebellion.3011.t: "The Fallen Duke"
+ dataw_ciriane_rebellion.3011.desc: "With the Marsh secure, the dirty business of war is over. There is one last loose thread remaining, the rebel Duke himself. [nahashin.GetName] rots in my dungeon, but even that seems too kind for his base behavior.\n\n#N Deep in our cups, late at night, my courtiers & I devise creative ways to punish him.#!" 
+ dataw_ciriane_rebellion.3011.a: "I will cut off his head and be rid of him"  
+ dataw_ciriane_rebellion.3011.b: "I will burn him at the stake"  
+ dataw_ciriane_rebellion.3011.c: "I will torture him to death"  
+ dataw_ciriane_rebellion.3011.d: "I will let him loose in the wilderness."  
+ dataw_ciriane_rebellion.3011.e: "I will pardon him, and make him my Fool."  
+
+# The Chant of Light Grows Quieter
+ dataw_ciriane_rebellion.3012.t: "The Chant of Light Grows Quieter"
+ dataw_ciriane_rebellion.3012.desc: "Nahashin was always a region more nominally under [GetTitleByKey('c_val_royeaux').GetBaseNameNoTier]’s control than in factuality, and that truth could especially be seen in the religious aspect. There, the old regional variants of andrastianism survived, and the organised [chantry|E] of our dear founder [kordillus_i.GetFirstName] has only minimally implanted itself. Still, they worshipped the [maker|E], and for this, we left their faith alone.\n\n#N Until now.#!\n\nNews tell me that the [nahashin.GetTitleAsNameNoTooltip] of Nahashin, [nahashin.GetFirstName], has converted back to the ancient pagan beliefs of our people, and is now worshipping those old gods in flagrant defiance to our rule. While the Chant tells us that the Maker will only return once his name is sung to all four corners of [thedas|E], our lax authority on faith has led to this, and taking action now will only fuel the anger of the people, perhaps even to the greatest rebellion the Empire has ever seen.\n\n#N Nevertheless, one thing is sure.#!" 
+ dataw_ciriane_rebellion.3012.a: "The Chant is more and more quiet in the marshes."  
+
+# Hiring Mercenaries
+ dataw_ciriane_rebellion.3601.t: "Mercenary Recruitment"
+ dataw_ciriane_rebellion.3601.desc: "My councillors has prepared a loyal and discrete envoy for my task. [envoy.GetSheHe|U] has passed my own inspection, and should be able to safely transport my money to the sellswords without being taken by bandits.\n\nThe only decision left is where to send [envoy.GetHerHim]..."
+ dataw_ciriane_rebellion.3601.a: "Head east, to #italic Nevarra City#! #G (Easiest)#!"
+ dataw_ciriane_rebellion.3601.w_tt: "#G (Success!)#!"
+ dataw_ciriane_rebellion.3601.l_tt: "#N (Failure!)#!"
+ dataw_ciriane_rebellion.3601.w_e_tt: "The Mercenaries agree to join you!"
+ dataw_ciriane_rebellion.3601.l_e_tt: "The Mercenaries refuse to join you!"
+ dataw_ciriane_rebellion.3601.b: "You'll be going nearby, to #italic the marshes of the Ciriane#! #G (Easy)#!"
+ dataw_ciriane_rebellion.3601.c: "To the far east, to treat with #italic the Fereldans#! #N (Hard)#!"
+ dataw_ciriane_rebellion.3601.d: "To the near east, to treat with #italic the Dalish#! #N (Hardest)#!"
+
+ dataw_ciriane_rebellion.3601.w_i_tt: "You successfully hire the Mercenaries!"
+ dataw_ciriane_rebellion.3601.l_i_tt: "The Mercenaries take your #N [gold_i]250#!!"
+ dataw_ciriane_rebellion.3601.l_i_2_tt: "The Mercenaries take your #N [gold_i]350#!!"
+
+# A Fine Addition
+ dataw_ciriane_rebellion.3602.t: "A Fine Addition"
+ dataw_ciriane_rebellion.3602.desc: "Word arrives ahead of my scout. My vassals report that small numbers of soldiers, less than a dozen in each keep, have arrived to reinforce their garrisons. The soldiers claim to be serving on my behalf, and my vassals are asking why they weren’t informed ahead of time.\n\nI don’t provide any reply until [envoy.GetName] makes their way to court to explain the ruse. Our mercenaries have already begun embedding themselves in the local forces to avoid suspicion.\n\nWhen the order for rebellion comes, they’ll make haste to join with my main force. I send word to my vassals approving the new troops, acting as if it were their idea in the first place. Their requests for verification get no further reply."
+ dataw_ciriane_rebellion.3602.a: "When the time comes, #N we'll be ready...#!"
+ dataw_ciriane_rebellion.3602.a.n_tt: "#N Nevarran Sellswords#! will be raised once the Rebellion begins"
+ dataw_ciriane_rebellion.3602.a.c_tt: "#N Ciriane Steel#! will be raised once the Rebellion begins"
+ dataw_ciriane_rebellion.3602.a.d_tt: "#N Dalish Precision#! will be raised once the Rebellion begins"
+ dataw_ciriane_rebellion.3602.a.f_tt: "#N Fereldan's Might#! will be raised once the Rebellion begins"
+
+# A Failed Recruitment
+ dataw_ciriane_rebellion.3603.t: "Failed Recruitment"
+ dataw_ciriane_rebellion.3603.desc: "[envoy.GetName] returns with their head held low. It seems the mercenaries have refused my terms, unwilling to go along with a non-standard mercenary contract.\n\nDespite this, the mercenaries were more than happy to take my money from my envoy. #italic “As the cost for their silence”#! my envoy explains."
+ dataw_ciriane_rebellion.3603.a: "Go get my money back! #N Now!#!"
+ dataw_ciriane_rebellion.3603.b: "Fine, onto the next plan."
+ dataw_ciriane_rebellion.3603.a.w_tt: "You get what remains of your gold"
+ dataw_ciriane_rebellion.3603.a.l_tt: "[orlais.GetFirstName] finds out about your treason"
+
+# Wooing Mercenaries
+ dataw_ciriane_rebellion.3604.t: "Wooing Mercenaries"
+ dataw_ciriane_rebellion.3604.desc: "[envoy.GetName] has not done enough work to meet with these mercenaries. The terms of our contract are strange and expose our plans. If the wrong company were approached with the wrong offer, they could expose us to the [orlais.GetTitleAsNameNoTooltip] and have us crushed.\n\n#N #italic We must take every possible precaution to ensure this is successful.#!#!"
+ dataw_ciriane_rebellion.3604.a: "Increase [envoy.GetName]'s' budget"
+ dataw_ciriane_rebellion.3604.b: "[lustful.GetName] will seduce the mercenaries."
+ dataw_ciriane_rebellion.3604.c: "[diplomacy.GetName] will treat with the foreigners"
+ dataw_ciriane_rebellion.3604.d: "[martial.GetName] knows how to lead soldiers"
+ dataw_ciriane_rebellion.3604.e: "[warrior.GetName] shares a warrior's perspective"
+ dataw_ciriane_rebellion.3604.f: "I think we've done enough already."
+ dataw_ciriane_rebellion.3604.a_tt: "You will give [envoy.GetName] an extra [gold_i]100 gold - increases chance of #G success#!"
+ dataw_ciriane_rebellion.3604.b_tt: "You send a Lustful character - increases chance of #G success#!"
+ dataw_ciriane_rebellion.3604.c_tt: "You send a High Diplomacy character - increases chance of #G success#!"
+ dataw_ciriane_rebellion.3604.d_tt: "You send a High Martial character - increases chance of #G success#!"
+ dataw_ciriane_rebellion.3604.e_tt: "You send a High Prowess warrior - increases chance of #G success#!"
+ dataw_ciriane_rebellion.3604.f_tt: "You don't do anything to increase your chances of #G success#!"
+
+# Envoy Failure
+ dataw_ciriane_rebellion.3606.t: "Envoy Failure"
+ dataw_ciriane_rebellion.3606.desc: "The mercenaries send their own envoy named [merc_envoy.GetName] to answer my request, bearing a magnificent chest.\n\nWhen [merc_envoy.GetSheHe] opens the chest, I find the decapitated heads of my envoys piled upon a stack of coins.\n\n #italic #N “We humbly refuse your request, my lord”#!#!\n\n[merc_envoy.GetName] says, before quickly absconding from my court."
+ dataw_ciriane_rebellion.3606.a: "Have I really sunk so low?"
+ dataw_ciriane_rebellion.3606.a_tt: "The Mercenaries return the [gold_i]250 you spent"
+ dataw_ciriane_rebellion.3606.a_2_tt: "The Mercenaries return the [gold_i]350 you spent"
+# Independence Events
+
+# The rebellions Successor
+ dataw_ciriane_rebellion.3700.t: "The Rebellion's Successor"
+ dataw_ciriane_rebellion.3700.desc: "As I sift through the papers left by my predecessor, [nahashin_past_holder.GetName], I am shocked to find documents of the most incriminating nature.\n\nIt seems that prior to [nahashin_past_holder.GetHerHim] untimely vacating of the dukedom, [nahashin_past_holder.GetFirstName] was deeply embroiled in a plot to break away from the empire and form an independent kingdom out of the marshlands.\n\nThis was no mere passing fancy - detailed plans, webs of potential contacts...\n\n#N The material is all here to launch a revolt of an unprecedented scale.#!"
+ dataw_ciriane_rebellion.3700.a: "Burn the papers at once. This is treason!"
+ dataw_ciriane_rebellion.3700.a_tt: "You will continue the plans of your predecessor, #N and will rebel when the time comes#!"
+ dataw_ciriane_rebellion.3700.b: "All the groundwork is here to make this plan my own..."
+ dataw_ciriane_rebellion.3700.b_tt: "You will cancel all plans of the Rebellion, #N acknowledging defeat#!"
+
+ dataw_ciriane_rebellion.3700.h.t: "The Rebellion's Heir"
+ dataw_ciriane_rebellion.3700.h.c.desc: "With the passing of my father, the reins of the duchy fall to me, as [nahashin_past_holder.GetHerHis] rightful heir. While some mourn, a newly-minted [GetPlayer.GetTitleAsNameNoTooltip] has little time for such considerations. As is expected of me, I travel to the capital in silence in order to renew the compact between my family and the House of [orlais.GetDynastyHouseName].\n\nKneeling before the [orlais.GetTitleAsNameNoTooltip], I repeat the words that generations of [GetPlayer.GetDynastyHouseName] before me have uttered. I, the vassal. [orlais.GetSheHe|U], my liege and protector.\n\nBut... Is that really how it must be? My father wanted something more for us. Then [nahashin_past_holder.GetSheHe] left us, his ambitions unfulfilled. These thoughts haunt me as I make the trip back to the marshes.\n\n #N By the time I return to my castle, I have made my decision.#!"
+ dataw_ciriane_rebellion.3700.h.s.desc: "With the passing of my sibling, the reins of the duchy fall to me, as [nahashin_past_holder.GetHerHis] rightful heir. While some mourn, a newly-minted [GetPlayer.GetTitleAsNameNoTooltip] has little time for such considerations. As is expected of me, I travel to the capital in silence in order to renew the compact between my family and the House of [orlais.GetDynastyHouseName].\n\nKneeling before the [orlais.GetTitleAsNameNoTooltip], I repeat the words that generations of [GetPlayer.GetDynastyHouseName] before me have uttered. I, the vassal. [orlais.GetSheHe|U], my liege and protector.\n\nBut... Is that really how it must be? My sibling wanted something more for us. Then [nahashin_past_holder.GetSheHe] left us, his ambitions unfulfilled. These thoughts haunt me as I make the trip back to the marshes.\n\n #N By the time I return to my castle, I have made my decision.#!"
+ dataw_ciriane_rebellion.3700.h.a: "I will not let the dream die here. #N The marshes WILL be free!#!"
+ dataw_ciriane_rebellion.3700.h.b: "Resign myself to my current station... Long live the [orlais.GetTitleAsNameNoTooltip]!"
+
+# Roux breaking out of Orlesian Capital event
+ dataw_ciriane_rebellion.3701.t: "Imprisonment!"
+ dataw_ciriane_rebellion.3701.desc: "My heart sinks as I see the column of imperial soldiers approaching my castle, the rider at their head brandishing what can only be a warrant for my arrest. I curse myself inwardly for my lack of discretion - word of my planned rebellion has reached the ears of the [orlais.GetTitleAsNameNoTooltip]!\n\nBefore long I find myself hauled to the capital in chains, sequestered in the dungeons of the [orlais.GetCapitalLocation.GetTitle.GetNameNoTier], and left to await the [orlais.GetTitleAsNameNoTooltip]’s decision as to my fate.\n\n #italic #N The humiliation of it all!#!#!"
+ dataw_ciriane_rebellion.3701.a: "I shall stage a daring escape, and they will rue the day! @skill_martial_icon! @warning_icon!"
+ dataw_ciriane_rebellion.3701.a_tt: "You will engage the Orlesian troops, trying to free yourself singlehandedly. You will duel an Orlesian Knight to break yourself out. #N Survive or not, you will go ahead with the Independence plan afterwards!#!"
+ dataw_ciriane_rebellion.3701.b: "That would likely just get me killed. This is the price for my carelessness."
+ dataw_ciriane_rebellion.3701.b_tt: "You will submit to Orlesian rule, #N acknowledging your treachery and handing yourself in. The Ciriane Rebellion will end immediately.#!"
+
+ # The Turns of Fate
+ dataw_ciriane_rebellion.3703.t: "The Fall of Orlais"
+ dataw_ciriane_rebellion.3703.g.t: "A Wise Choice"
+ dataw_ciriane_rebellion.3703.desc: "A once mighty empire, now brought so low. With the fall of Orlais upon us, the balance of power has changed forever.\n\n#italic Who shall rise in the ashes of the previous empire?#!\n\nSurely the lands west of the [GetGeographicalRegion('f_region_frostback_mountains').GetName] will see nothing but conflict until someone else comes along to succeed where the previous ruler of Orlais failed.\n\n#italic Perhaps, that someone to rise amidst their fall should be one such as I?#!\n\nI now have much to consider with this newfound freedom, as challenges are sure to come as a result.\n\n#N We no longer must bow to another with a crown, but now I can only rely on myself and my vassals.#!"
+ dataw_ciriane_rebellion.3703.g.desc: "As I stand before my councilors, considering my options before potentially leading a rebellion, I hear the door to the chamber open. One of my servants delivers a message to me, to which they claim I should read it right away. Quickly, I begin to read this message, only to find the greatest of surprises awaiting me.\n\n#italic "The [GetGeographicalRegion('custom_mareschois_population').GetName] have been granted independence by order of the [orlais.GetTitleAsNameNoTooltip]"#!. My words leave my lips before I’m able to truly process what this news means. Each of my councilors explode in jubilation as they congratulate me, but I can’t even fathom this development.\n\nOnce I recover from the mind boggling information given to me, I too cheer and laugh along with those next to me. Now we need not prepare for war, but to prepare to act as an independent people as intended.\n\n#N Finally, the people of Nahashin need only worry for themselves, united against anyone else that may wish us harm in the future.#!"
+ dataw_ciriane_rebellion.3703.a: "What comes next?"
+ dataw_ciriane_rebellion.3703.a.g: "Nahashin’s future is a bright one!"
+ dataw_ciriane_rebellion.3703.a_tt: "With Orlais dissolving - #N all plans of the Ciriane Rebellion has ended, but not the story of the Ciriane.#! You have unlocked new decisions & events to Reform the Ciriane Kingdom!"
+ dataw_ciriane_rebellion.3703.a.g_tt: "With Orlais granting you independence - #N all plans of the Ciriane Rebellion has ended, but not the story of the Ciriane.#! You have unlocked new decisions & events to Reform the Ciriane Kingdom!"
+### Ally with the Ciriane Cult Event Chain
+ # The Old Ways
+ dataw_ciriane_rebellion.3800.t: "The Old Ways"
+ dataw_ciriane_rebellion.3800.desc: "As I walk through the streets of my capital, I see my people participating in an almost alien affair. When I ask my guards what is going on, they explain it is a religious festival.\n\nA minority of our people still follow the [GetFaithByKey('ciriane_paganism').GetAdjective] ways from before [andraste.GetName] brought them the light of the maker.\n\nThe people dance in a large circle, hoping they can demand better weather from #G $ciriane_paganism_high_god_name$#!"
+ dataw_ciriane_rebellion.3800.a: "Hmm, odd."
+ dataw_ciriane_rebellion.3800.b: "Why not join in?"
+ dataw_ciriane_rebellion.3800.c: "Guards, jail these heretics!"
+
+ ciriane_cultists_arrested:0 "Ciriane Cultists Arrested"
+ ciriane_warrior_arrested:0 "Ciriane Warrior Arrested"
+ ciriane_cultists_acknowledged:0 "Ciriane Cultists Acknowledged"
+ ciriane_cultists_embraced:0 "Ciriane Cultists Embraced"
+ corruption_vanquished:0 "Corruption Vanquished"
+ corruption_rampant:0 "Corruption Rampant"
+ curious_about_the_old_ways: "Curious About The Old Ways"
+ pleased_local_tribes: "Pleased Local Tribes"
+ displeased_local_tribes: "Displeased Local Tribes"
+ destroyed_local_tribes: "Destroyed Local Tribes"
+### Ally with the Ciriane Cult Event Chain
+ # COURT EVENT: The Augur
+ dataw_ciriane_rebellion.3801.t: "The Augur"
+ dataw_ciriane_rebellion.3801.desc: "A mysterious figure in dark robes approaches my throne. They are an Augur, one of the apostate [Concept('mage','Mages')|E] loyal to the [GetFaithByKey('ciriane_paganism').GetAdjective]. Their ancestors have studied [dataw_magic|E] for centuries, and have survived isolated in the Marches even after the rise of the [chantry|E].\n\nThe Augur invokes ancient oaths my ancestors swore to them. They tell me of their persecution under the chantry and their [templar|E]s.\n\n#N They beg me to see the wisdom of the good [spirits|E], to cast aside the false [maker|E] of [andraste|E] and defend them from the Templars’ swords.#!"
+ dataw_ciriane_rebellion.3801.a: "I will deliver you to the Templars myself!"
+ dataw_ciriane_rebellion.3801.b: "We may not see eye to eye, but I will keep you safe from the Templars."
+ dataw_ciriane_rebellion.3801.c: "I'm with you Augur, for the good spirits!"
+
+### Ally with the Ciriane Cult Event Chain
+ # The Cult Revealed
+ dataw_ciriane_rebellion.3802.t: "The Cult Revealed"
+ dataw_ciriane_rebellion.3802.desc: "My advisors have arranged a clandestine meeting with several of the marshland tribesmen who live in the more isolated part of my lands. Though my [GetGlobalVariable('orlesian_culture_var').Culture.GetName] peers would balk at this suggestion, I actually find them to be quite reasonable fellows. Their ways are much the same as the [GetGlobalVariable('mareschois_culture_var').Culture.GetName], though they still follow the ways of [andraste.GetName] ancestors, rather than the Maker.\n\nThe tribes wish to share in the wealth of civilized lands, and to better integrate with the rest of my people. But they fear reprisals from the Chantry. Already, their Augurs are hunted by [templar|E]s as apostates. They beg my guarantee for their safety, invoking the pledges of protection my ancestors pledged to theirs."
+ dataw_ciriane_rebellion.3802.a: "We must tolerate the pagans, at least!"
+ dataw_ciriane_rebellion.3802.b: "It is my duty to defend the old ways, but the Chantry cannot know."
+ dataw_ciriane_rebellion.3802.b_tt: "You convert to the [GetFaithByKey('ciriane_paganism').GetAdjective] #N in secret#!"
+ dataw_ciriane_rebellion.3802.c: "As it was in the Divine Age! Your gods are my gods!"
+ dataw_ciriane_rebellion.3802.d: "Guards, jail these heretics."
+ tolerates_pagans:0 "Tolerates Pagans"
+ tolerates_pagans_hidden:0 "Tolerates Pagans"
+### Ally with the Ciriane Cult Event Chain
+ # EVENT: Vassal Conversion
+ dataw_ciriane_rebellion.3803.t: "Vassal Conversion"
+ dataw_ciriane_rebellion.3803.desc: "Word arrives from my vassal [vassal.GetName], proudly declaring that they have returned to our ancestral forms of worship. They beg me too to see the light of the old gods, to reject [andraste.GetName]'s false prophecies and reject the ways of Orlais’ chantry. The move is almost unthinkable for a vassal of Orlais...\n\n#N ...but for an independent leader, our own local faith would be a boon.#!"
+ dataw_ciriane_rebellion.3803.a: "I will join you, my vassal!!"
+ dataw_ciriane_rebellion.3803.a_tt: "You convert to the [GetFaithByKey('ciriane_paganism').GetAdjective]"
+ dataw_ciriane_rebellion.3803.t_tt: "You have chosen to Side with Orlais in all matters."
+ dataw_ciriane_rebellion.3803.b: "The realm can tolerate other religions...for a price."
+ dataw_ciriane_rebellion.3803.c: "The old ways are in the past, [vassal.GetFirstName]. Repent or face [andraste.GetName]'s wrath!"
+
+### Ally with the Ciriane Cult Event Chain
+ # EVENT: Heretic Liege
+ dataw_ciriane_rebellion.3804.t: "Heretic Liege"
+ dataw_ciriane_rebellion.3804.desc: "Troubling news comes from my liege’s capital. It seems [nahashin.GetSheHe] has turned his back on the [chant_of_light|E] and returned to the [GetFaithByKey('ciriane_paganism').GetAdjective].\n\nMy court priests spins tales of an impending civil war for me, warning that soon, the Divine & the [orlais.GetTitleAsNameNoTooltip] will bring the Maker’s wrath down on our whole duchy,\n\n#N unless I act first.#!"
+ dataw_ciriane_rebellion.3804.a: "Perhaps it is time for a new Duke."
+ dataw_ciriane_rebellion.3804.b: "Send word to the Divine, and beg for aid."
+ dataw_ciriane_rebellion.3804.c: "Guards, see Andraste’s priest away."
+
+### Ally with the Ciriane Cult Event Chain
+ # EVENT: Ciriane Revival
+ dataw_ciriane_rebellion.3805.t: "Ciriane Revival"
+ dataw_ciriane_rebellion.3805.desc: "Upon receiving their orders, [cp.GetName] charges into my chambers. #italic “With respect, my lord”#! they begin.\n\n #italic “You cannot possibly think the people will convert quickly. They have followed the Chantry’s guidance for more than a century. If you hope to see Nahashin return to the old ways in your lifetime, it will take serious investment.”#!\n\nIt seems like this is the truth, and not just my councilor demanding more money.\n\n#N But still, there are other concerns we must budget for...#!"
+ dataw_ciriane_rebellion.3805.a: "Take your time, this is a multi-generational project."
+ dataw_ciriane_rebellion.3805.a_tt: "[cp.GetSheHe|U] will continue [cp.GetHerHis] task #N without a boost#!"
+ dataw_ciriane_rebellion.3805.b: "I will stake my reputation on the project"
+ dataw_ciriane_rebellion.3805.b_tt: "[cp.GetSheHe|U] will continue [cp.GetHerHis] task #N with a small boost#!"
+ dataw_ciriane_rebellion.3805.c: "I will invest in the project."
+ dataw_ciriane_rebellion.3805.c_tt: "[cp.GetSheHe|U] will continue [cp.GetHerHis] task #N with a moderate boost#!"
+ dataw_ciriane_rebellion.3805.d: "If you can’t do it, I’ll find someone who will!"
+
+ DATAW_conversion_boost_small: "Small County Conversion Boost"
+ DATAW_conversion_boost_moderate: "Moderate County Conversion Boost"
+
+### Ally with the Ciriane Cult Event Chain
+ # Defenders of the Faith
+ dataw_ciriane_rebellion.3806.t: "Defenders of the Faith"
+ dataw_ciriane_rebellion.3806.desc: "[augur.GetName] approaches my throne and bows deeply before beginning.\n\n #italic "My Lord, I have served as your leal warrior for some time. But lately, I find my mind fixed on our return to the true faith. I urge you to found a holy order."#!"
+ dataw_ciriane_rebellion.3806.a: "Very well. I will take it into consideration."
+ dataw_ciriane_rebellion.3806.a_tt: "The #N Found Holy Order#! decision will be 50% cheaper."
+ dataw_ciriane_rebellion.3806.b: "Guards, get this fool out of my sight!"
+
+### Seeking out the Local Tribes Event Chain
+ dataw_ciriane_rebellion_lose_1_tribal_acceptance_tt: "You Lose #negative_value 1#! [dataw_tribal_acceptance|E]"
+ dataw_ciriane_rebellion_lose_2_tribal_acceptance_tt: "You Lose #negative_value 2#! [dataw_tribal_acceptance|E]"
+ dataw_ciriane_rebellion_lose_3_tribal_acceptance_tt: "You Lose #negative_value 3#! [dataw_tribal_acceptance|E]"
+ dataw_ciriane_rebellion_gain_1_tribal_acceptance_tt: "You Gain #positive_value 1#! [dataw_tribal_acceptance|E]"
+ dataw_ciriane_rebellion_gain_2_tribal_acceptance_tt: "You Gain #positive_value 2#! [dataw_tribal_acceptance|E]"
+ dataw_ciriane_rebellion_gain_3_tribal_acceptance_tt: "You Gain #positive_value 3#! [dataw_tribal_acceptance|E]"
+ dataw_ciriane_rebellion_gain_4_tribal_acceptance_tt: "You Gain #positive_value 4#! [dataw_tribal_acceptance|E]"
+ CIRIANE_REBELLION_VALUE_FOR_DECISIONS_COMPLETED: "The Amount of Decisions Completed to Form Ciriane Empire:"
+ CIRIANE_REBELLION_ORLAIS_POINTS: "The Amount of Ciriane Tribes Destroyed:"
+ # Marsh Courier
+ dataw_ciriane_rebellion.3900.t: "Marsh Courier"
+ dataw_ciriane_rebellion.3900.desc: "A trusted agent must be sent into the marshes to make contact with our [GetGlobalVariable('ciriane_culture_var').Culture.GetName] kin. The ideal person would be discrete and well-spoken.\n\n#N But they will also need strength & bravado to impress the barbarians.#!"
+ dataw_ciriane_rebellion.3900.a: "[prowess.GetName] with [prowess.GetHerHis] prowess."
+ dataw_ciriane_rebellion.3900.b: "[intrigue.GetName] with [intrigue.GetHerHis] intrigue."
+ dataw_ciriane_rebellion.3900.c: "[diplomacy.GetName] with [diplomacy.GetHerHis] diplomacy."
+
+ game_concept_dataw_tribal_acceptance:0 "Tribal Acceptance Points"
+ game_concept_dataw_tribal_acceptance_desc:0 "$game_concept_dataw_tribal_acceptance$ are a measure of your character’s reputation among the nomadic tribes living on their land. High values lead to rewards from the tribal chiefs, while low values can lead to harsh reprisals."
+ tribal_acceptance_points:0 "[dataw_tribal_acceptance|E]"
+ tribal_acceptance_points_desc:0 "This character has: [GetPlayer.MakeScope.Var('dataw_tribal_acceptance_points').GetValue] [dataw_tribal_acceptance|E]"
+ 
+ story_cycle_ciriane_rebellion: "Ciriane Rebellion"
+ story_cycle_ciriane_rebellion_desc: "You have a particularly well-trained warhorse at your disposal. May your enemies tremble before your charge."
+  CIRIANE_STORY_PRACTICAL_INFORMATION_STRING: "[Story.MakeScope.Var('debug_test_story_liege').Char.GetShortUIName] is your [liege|E]. $game_concept_dataw_tribal_acceptance$ is a number that affects the loyalty meter of the local [GetGlobalVariable('ciriane_culture_var').Culture.GetName] Tribes"
+ CIRIANE_REBELLION_ORLAIS: "The Orlesian Ruler, Current \"Liege\""
+ CIRIANE_REBELLION_EVENT_TROOPS_COUNT: "Amount of Event Troops Gained Upon Independence War"
+ TRIBAL_ACCEPTANCE: "Ciriane Tribal Acceptance"
+ TRIBAL_ACCEPTANCE_MIN_VALUE_LABEL: "Unworthy"
+ TRIBAL_ACCEPTANCE_MAX_VALUE_LABEL: "Worthy"
+
+ ciriane_story_counter_positive: "This will #positive_value raise#! [dataw_tribal_acceptance|E] to the [GetGlobalVariable('ciriane_culture_var').Culture.GetName] Tribes"
+ ciriane_story_counter_very_positive: "This will #positive_value greatly raise#! [debug_test_story|E] to the [GetGlobalVariable('ciriane_culture_var').Culture.GetName] Tribes"
+ ciriane_story_counter_negative: "This will #negative_value question#! [debug_test_story|E] to the [GetGlobalVariable('ciriane_culture_var').Culture.GetName] Tribes"
+ ciriane_story_counter_very_negative: "This will #negative_value greatly question#! [debug_test_story|E] to the [GetGlobalVariable('ciriane_culture_var').Culture.GetName] Tribes"
+
+
+### Seeking out the Local Tribes Event Chain
+ # Back With a Guest
+ dataw_ciriane_rebellion.3902.t: "Back With a Guest"
+ dataw_ciriane_rebellion.3902.desc: "[envoy.GetName] returns from the marshes in good spirits, traveling alongside one of the [GetGlobalVariable('ciriane_culture_var').Culture.GetName] tribesmen. The barbarian brings friendly greetings and some small gifts from his chieftain. The more I speak with [envoy.GetName]'s new friend, the more they steer conversation to their lord.\n\n#N They seem single minded in getting me to agree to a meeting with their leader.#!"
+ dataw_ciriane_rebellion.3902.a: "Make yourself comfortable, you can return in good time."
+ dataw_ciriane_rebellion.3902.b: "Make haste to your lord, and bid him to return."
+ dataw_ciriane_rebellion.3902.c: "It would be rude to send you home without gifts of your own."
+ dataw_ciriane_rebellion.3902.d: "Wait a while, when I am ready I will return with you."
+
+### Seeking out the Local Tribes Event Chain
+ # Heads Up
+ dataw_ciriane_rebellion.3903.t: "Heads Up"
+ dataw_ciriane_rebellion.3903.desc: "A [GetGlobalVariable('ciriane_culture_var').Culture.GetName] warrior arrives in my capital bearing an intricately carved gift box. They present it before my throne and remove the lid to reveal the decapitated head of [envoy.GetName], the agent I sent to contact the local tribes.\n\n #italic “The marshfolk acknowledge no king and accept no gifts.” #! The barbarian grunts, #italic “You are not welcome in our lands.” #!\n\n #N The warrior turns to leave before I can respond.#!"
+ dataw_ciriane_rebellion.3903.a: "Guards! Don’t just stand there!"
+ dataw_ciriane_rebellion.3903.b: "Perhaps I misjudged them."
+ dataw_ciriane_rebellion.3903.c: "Return to your lord an apology, and my wish to give it in person."
+ dataw_ciriane_rebellion.3903.c.a_tt: "#G (Success!)#!"
+ dataw_ciriane_rebellion.3903.c.b_tt: "#N (Failure!)#!"
+ dataw_ciriane_rebellion.3903.c.s: "The Barbarian Lord accepts your apology."
+ dataw_ciriane_rebellion.3903.c.f: "The Barbarian Lord rejects your apology."
+
+### Seeking out the Local Tribes Event Chain
+ # Apology Accepted
+ dataw_ciriane_rebellion.3904.t: "Apology Accepted"
+ dataw_ciriane_rebellion.3904.desc: "One of the chieftains of the marsh tribes arrives in my court, demanding to hear me answer for my insult. As we argue through translators, they come to understand my true intentions.\n\nThe warrior who visited me before explains that their lord demands I host a contest to be held in their honor.\n\n#N In exchange, they offer me an opportunity to meet with the other leaders of their people.#!"
+ dataw_ciriane_rebellion.3904.a: "That was close!"
+ dataw_ciriane_rebellion.3904.a_tt: "You make your way to the #italic Tribal Tournament#!"
+
+### Seeking out the Local Tribes Event Chain
+ # Apology Rejected
+ dataw_ciriane_rebellion.3905.t: "Apology Rejected"
+ dataw_ciriane_rebellion.3905.desc: "One of the chieftains of the marsh tribes arrives at my gate, with an army of barbarians behind him.\n\nThey demand entrance to my capital so that I may answer for my insults.\n\n#N My garrison’s commander asks me what to do, as if it is not obvious [barbarian.GetSheHe] shouldn’t let an army into the city.#!"
+ dataw_ciriane_rebellion.3905.a: "Send them some gifts as apologies, but keep the gates closed!"
+ dataw_ciriane_rebellion.3905.b: "Let them wag."
+### Seeking out the Local Tribes Event Chain
+ # Barbaric Guest
+ dataw_ciriane_rebellion.3906.t: "Barbaric Guest"
+ dataw_ciriane_rebellion.3906.desc: "My new friend from the marshlands becomes more unruly by the day. [barbarian.GetName] seems to be purposefully insulting me and my knights at gatherings.\n\nMost of my court is able to brush these off as simple misunderstandings but [champion.GetName] is the one who finally speaks up and asks what the barbarian’s problem is.\n\nIt’s only then that our guest reveals [barbarian.GetHerHis] ruse. [barbarian.GetSheHe|U] reveals [barbarian.GetHerHis] desire to prove himself a better warrior than our knights.\n\n#N It seems [barbarian.GetSheHe] cannot be satisfied until [barbarian.GetSheHe] knows whether [barbarian.GetSheHe] can defeat his hosts.#!"
+ dataw_ciriane_rebellion.3906.a: "[champion.GetName] will fight as my champion."
+ dataw_ciriane_rebellion.3906.b: "I will fight [barbarian.GetHerHim] myself!"
+
+### Seeking out the Local Tribes Event Chain
+ # Tribal Tournament
+ dataw_ciriane_rebellion.3908.t: "Tribal Tournament"
+ dataw_ciriane_rebellion.3908.desc: "My advisors have invented a genius cover for our meeting with the Marshlander chiefs. We will host a tournament as a cover.\n\nOur neighbors will never suspect that we are gathering new allies. Meanwhile, the tribesmen will jump at the opportunity to prove themselves as capable warriors.\n\nThere are some diplomatic concerns to consider, however. The Marshlanders will expect me to participate myself, but doing so would put myself at risk.\n\n#N I must also consider what prize the winning warrior will receive, as insulting a marshland warrior is a great way to make new enemies.#!"
+ dataw_ciriane_rebellion.3908.a: "We will decide the Roster!"
+ dataw_ciriane_rebellion.3908.b: "We will decide the Prize!"
+
+### Seeking out the Local Tribes Event Chain
+ # Tribal Tournament
+ dataw_ciriane_rebellion.3909.t: "Tournament Preparations: #italic The Grand Prize#!"
+ dataw_ciriane_rebellion.3909.f.desc: "The first piece of preparation is selecting what the winner of our tournament will take home. Simply being heralded as a great warrior would be enough for any of my knights, but the marshfolk may not put the same stock in fame as the rest of us.\n\n#N What’s more, great gifts are likely to be spent and given away to their countrymen, so spending too much gold may just be a waste.#!"
+ dataw_ciriane_rebellion.3909.desc: "The last piece of preparation is selecting what the winner of our tournament will take home. Simply being heralded as a great warrior would be enough for any of my knights, but the marshfolk may not put the same stock in fame as the rest of us.\n\n#N What’s more, great gifts are likely to be spent and given away to their countrymen, so spending too much gold may just be a waste.#!"
+ dataw_ciriane_rebellion.3909.a: "The winner’s name will be spread across the [GetGeographicalRegion('custom_mareschois_population').GetName]."
+ dataw_ciriane_rebellion.3909.b: "The winner will become rich and esteemed."
+ dataw_ciriane_rebellion.3909.c: "The winner will be gifted a prize weapon."
+
+### Seeking out the Local Tribes Event Chain
+ # Tournament Preparations: Forged for Greatness
+ dataw_ciriane_rebellion.3910.t: "Tournament Preparations: #italic Forged for Greatness#!"
+ dataw_ciriane_rebellion.3910.desc: "I have decided to award the tournament’s winner with a weapon, but my council still bickers about how much money we should put into the project.\n\nIt is down to me to decide.\n\nOur smiths are much more skilled than the Marshlanders, so any weapon we provide is sure to be greater than their own.\n\n#N But giving something too simple as a prize may be taken as an insult.#!"
+ dataw_ciriane_rebellion.3910.a: "The Marshlanders will be impressed by even a #italic common weapon#!"
+ dataw_ciriane_rebellion.3910.b: "I will commission a #P real Masterwork#!"
+ dataw_ciriane_rebellion.3910.c: "A #N famous weapon#! would be better."
+ dataw_ciriane_rebellion.3910.d: "We could commission something #G truly illustrious#!"
+ dataw_ciriane_rebellion.3910.e: "Wait... let me go back."
+
+
+### Seeking out the Local Tribes Event Chain
+ # Tournament Preparations: Leaders & Champions
+ dataw_ciriane_rebellion.3911.t: "Tournament Preparations: #italic Leaders & Champions#!"
+ dataw_ciriane_rebellion.3911.desc: "The last piece of preparation is planning the tournament’s roster. I am told that the marshland leaders fight many of their own battles. I am encouraged to do the same, but many of my councilors advise that doing so will put me in too much danger.\n\n#N We could ask each clan leader to appoint their own champion, or we could ask them to fight mine to demonstrate the power I hold over them.#!"
+ dataw_ciriane_rebellion.3911.f.desc: "The first piece of preparation is planning the tournament’s roster. I am told that the marshland leaders fight many of their own battles. I am encouraged to do the same, but many of my councilors advise that doing so will put me in too much danger.\n\n#N We could ask each clan leader to appoint their own champion, or we could ask them to fight mine to demonstrate the power I hold over them.#!"
+ dataw_ciriane_rebellion.3911.a: "The chieftains and I will fight as equals."
+ dataw_ciriane_rebellion.3911.b: "My champion will prove himself greater than any chieftain."
+ dataw_ciriane_rebellion.3911.c: "Our champions will clash for our shared amusement."
+
+### Seeking out the Local Tribes Event Chain
+ # Tribal Tournament: Time to Start
+ dataw_ciriane_rebellion.3912.t: "Tribal Preparations: #italic Time to Start#!"
+ dataw_ciriane_rebellion.3912.desc: "Preparations for our meeting with the tribal chieftains are ready, all that is left is to send out the invitations.\n\n#N So long as everything is correct, we can begin.#!"
+ dataw_ciriane_rebellion.3912.a: "Start the tournament!"
+ dataw_ciriane_rebellion.3912.b: "No! Wait!"
+ dataw_ciriane_rebellion.3912.b_tt: "You cancel the tournament, #N ending the Event Chain.#! You will get a refund if you ordered a prized weapon."
+
+### Seeking out the Local Tribes Event Chain
+ # Champion of the Ciriane
+ dataw_ciriane_rebellion.3914.t: "Champion of the Ciriane"
+ dataw_ciriane_rebellion.3914.desc: "[winner.GetName] is crowned champion of my tournament, and champion of all [GetGlobalVariable('ciriane_culture_var').Culture.GetName] people.\n\nThey seem satisfied with my prize, as well as their competition. The crowd receives their champion with open arms, and helps themselves to my food and drink.\n\n#N I myself politely congratulate them, before making my way to meet with the marshland chieftains.#!"
+ dataw_ciriane_rebellion.3914.a: "Best not keep them waiting..."
+
+### Seeking out the Local Tribes Event Chain
+ # Champion of the Ciriane
+ dataw_ciriane_rebellion.3915.t: "Victorious!"
+ dataw_ciriane_rebellion.3915.desc: "I am victorious, which leaves me in a pretty awkward position. My lavish prizes are handed to me by my own courtier.\n\n#N While the marshlanders are impressed by my performance, they seem a fair bit grumpy that I don’t have any gifts left for them... or do I?#!"
+ dataw_ciriane_rebellion.3915.a: "I gift this prize to you, the true Ciriane!"
+ dataw_ciriane_rebellion.3915.b: "No matter, I will receive my own gift with pride."
+ dataw_ciriane_rebellion.3915_tt: "You take the gift for yourself!"
+ dataw_ciriane_rebellion.3915.2_tt: "You give the gift to your opponent."
+ dataw_ciriane_rebellion.3915.c: "For you my friends, I have prepared only the best drink!"
+### Seeking out the Local Tribes Event Chain
+ # Tribal Moot
+ dataw_ciriane_rebellion.3916.t: "Tribal Moot!"
+ dataw_ciriane_rebellion.3916.desc: "At the end of my tournament, I am seated with the tribal chieftains of the marshlands. We eat and drink together. In many ways, the [GetGlobalVariable('ciriane_culture_var').Culture.GetName] conduct politics differently than the [GetGlobalVariable('orlesian_culture_var').Culture.GetName].\n\nThey are gruff, both in manner and appearance. They eat fast and eat much. They drink deeply and do not care to hide their slurring.\n\nYet in other ways, they are the simple mirror of Orlais. They nakedly discuss their ambitions and politique at the dinner table.\n\n#N If I hope to win their support, now is the time to show I can play their version of the Great Game.#!"
+ dataw_ciriane_rebellion.3916.a: "I will demonstrate my combat expertise."
+ dataw_ciriane_rebellion.3916.b: "I will explain my plan to rebel against Orlais."
+ dataw_ciriane_rebellion.3916.c: "I will promise them wealth if they ally with me."
+ dataw_ciriane_rebellion.3916.w_tt: "The Ciriane Tribes are convinced."
+ dataw_ciriane_rebellion.3916.l_tt: "The Ciriane Tribes aren't convinced."
+
+### Seeking out the Local Tribes Event Chain
+ # Betrayed by the Tribes
+ dataw_ciriane_rebellion.3918.t: "Betrayed by the Tribes"
+ dataw_ciriane_rebellion.3918.desc: "The Marsh Tribes send no reply. Instead, letter after letter comes to court, alerting me to tribal raiders attacking our lands.\n\n#N It seems the tribesmen have chosen war. So much work has turned to ash in my mouth#!"
+ dataw_ciriane_rebellion.3918.a: "Fine then. To war."
+
+### Seeking out the Local Tribes Event Chain
+ # Warriors of the Ciriane
+ dataw_ciriane_rebellion.3919.t: "Warriors of the Ciriane"
+ dataw_ciriane_rebellion.3919.desc: "The Marsh Tribes have come to a decision, I know because an army arrived in my capital in the middle of the night, surrendering their arms when they arrived.\n\n#N These barbaric warriors have pledged to serve me for life. They should be a great boon in the wars to come.#!"
+ dataw_ciriane_rebellion.3919.a: "Onward! To War!"
+ dataw_ciriane_rebellion.3920.berserkers_tt: "Your #N Ciriane's Berserkers#! have been spawned to aid you!"
+ dataw_ciriane_rebellion.3920.berserkers: "Ciriane Berserkers"
+
+### Seeking out the Local Tribes Event Chain
+ # Defender of the Tribes
+ dataw_ciriane_rebellion.3920.t: "Defender of the Tribes"
+ dataw_ciriane_rebellion.3920.desc: "After careful deliberation, the Marsh Tribes have elected a liaison, who agrees to swear an oath of service to me.\n\nMy new courtier brings along a crowd of skilled warriors to join mine own. While my new courtier is brutish & unruly, his skills are indispensable and his warriors a boon in the wars to come\n\n#N In a private meeting, my advisors celebrate my success, claiming I've won more than I could ever pay for.#!"
+ dataw_ciriane_rebellion.3920.a: "Welcome to my court!"
+
+### Unholy Alliance Event Chain
+ # An Offer of Alliance (Roux Side)
+ dataw_ciriane_rebellion.4000.t: "An Offer of Alliance"
+ dataw_ciriane_rebellion.4000.desc: "Sequestered in my castle deep in the marshlands, it is all too easy to forget the goings-on of the outside world - now more than ever, with our secession from the rest of [GetTitleByKey('e_orlais').GetBaseNameNoTier].\n\nBut... something troubles me. I find myself rising from my bed and walking the corridors in the dark of night, turning the matter over in my mind. I owe nothing more to the [orlais.GetTitleAsNameNoTooltip], let alone the lives and loyalty of my soldiers.\n#italic Why, then, does the ongoing elven invasion haunt me so?#!\n\nPerhaps, come morning, I will send a messenger to [GetTitleByKey('c_val_royeaux').GetBaseNameNoTier]. Perhaps, though I may no longer be [orlais.GetHerHis] sworn vassal, I may serve as the [orlais.GetTitleAsNameNoTooltip]’s ally in this war.\n\n#N Or perhaps I will simply leave them all to their fates, with a smile on my lips.#!"
+ dataw_ciriane_rebellion.4000.a: "Offer an alliance without condition."
+ dataw_ciriane_rebellion.4000.b: "Be pragmatic - How much is my aid worth to the [orlais.GetTitleAsNameNoTooltip]?"
+ dataw_ciriane_rebellion.4000.b_tt: "You request [gold_i]#N 100#! for an alliance."
+ dataw_ciriane_rebellion.4000.c: "Return to my bed, sleeping easily at last."
+
+### Unholy Alliance Event Chain
+ # An Offer of Alliance (Orlais Side)
+ dataw_ciriane_rebellion.4001.t: "An Offer of Alliance"
+ dataw_ciriane_rebellion.4001.desc: "An uneasy twilight hangs over the palace. I sit in my study, furiously penning missive after missive by candlelight. The [elves|E] and their ruthless knights spill from the forests like a cold, unfeeling tidal wave. In their wake they leave only misery and ruin - entire villages put to the sword. Just as it was during the [blight|E].\n\nYet among the papers on my desk, there is one to which my mind keeps returning, despite my best efforts to ignore it. A letter from the [GetGeographicalRegion('custom_mareschois_population').GetName], and my... former vassal there.\n\nI am no longer in a position to demand [nahashin.GetSheHe] commit troops to the war effort - something [nahashin.GetSheHe] knows well. Yet here is a voluntary offer of aid. [nahashin.GetSheHe|U] writes to me as though to an equal, one monarch to another, proposing an alliance against our Dalish foes."
+ dataw_ciriane_rebellion.4001.b.desc: "\n\n#N The overture is not made out of charity. [nahashin.GetFirstName] expects a hefty sum of gold in exchange for the aid of the marshfolk."
+ dataw_ciriane_rebellion.4001.a: "I cannot afford to turn away such an offer."
+ dataw_ciriane_rebellion.4001.a_tt: "[nahashin.GetName] will become your ally, and automatically join your side against the Dales."
+ dataw_ciriane_rebellion.4001.b: "Lend legitimacy to this farce of a kingdom? No, I will do this alone."
+
+### Unholy Alliance Event Chain
+ # An Offer of Alliance (Orlais Side)
+ dataw_ciriane_rebellion.4002.t: "The Response"
+ dataw_ciriane_rebellion.4002.o.desc: "Under the clouded sky, a rider upon a pale horse makes his way towards my keep. This is the [orlais.GetTitleAsNameNoTooltip]’s messenger, and soon I shall know whether or not my people will be drawn into the follies of elves and men.\n\nThe scroll is delivered to my own hand, and I unfurl it with anticipation. A single word is written upon the parchment:\n\n #italic #N "OUI"#!#!"
+ dataw_ciriane_rebellion.4002.n.desc: "Under the clouded sky, a rider upon a pale horse makes his way towards my keep. This is the [orlais.GetTitleAsNameNoTooltip]’s messenger, and soon I shall know whether or not my people will be drawn into the follies of elves and men.\n\nThe scroll is delivered to my own hand, and I unfurl it with anticipation. A single word is written upon the parchment:\n\n #italic #N "NON"#!#!"
+ dataw_ciriane_rebellion.4002.a: "So be it." 
+
+## Ally Serault/Alyons
+# The Value of Friendship
+ dataw_ciriane_rebellion.4050.t: "The Value of Friendship"
+ dataw_ciriane_rebellion.4050.desc: "If I hope to buy allies, the price must be carefully considered.\n\nI can’t break the bank hoping to make friends. My allies will expect more in the future, and what I give now will set a standard for future gifts.\n\n#N Not to mention, once they have cash in hand there’ll be nothing to stop them from taking the money and running.#!"
+ dataw_ciriane_rebellion.4050.a: "My presence alone is convincing" 
+ dataw_ciriane_rebellion.4050.a_tt: "You give nothing. This will more than likely come off as an insult absolutely annilhilating your chances of an alliance.#N Are you sure you want to do this?#!" 
+ dataw_ciriane_rebellion.4050.b: "A small gift of 25[gold_i]." 
+ dataw_ciriane_rebellion.4050.c: "A moderate gift of 100[gold_i]." 
+ dataw_ciriane_rebellion.4050.d: "A large gift of 250[gold_i]." 
+
+# It's Free Real Estate!
+ dataw_ciriane_rebellion.4051.t: "It’s Free Real Estate!"
+ dataw_ciriane_rebellion.4051.desc: "By handing [spare_county.GetName] over to my neighbors, I make them more powerful.\n\nIt’s basically the most enticing option I have. The consequences could be disastrous, and people may view me as weak for giving up land.\n\nI will retain some claims to take the land should I be betrayed, but it will entwine my realm with my neighbor’s, making any war more disastrous for both of us.\n\n#N Perhaps it would be a good way to ensure we both get along.#!" 
+ dataw_ciriane_rebellion.4051.a: "Whatever works..." 
+
+# Counteroffer
+ dataw_ciriane_rebellion.4052.t: "Counteroffer"
+ dataw_ciriane_rebellion.4052.desc: "An alliance with the Nahashin is tempting, but their terms leave something to be desired. My councilors and I rehearse our counteroffer endlessly. It’s a hard tightrope to walk, trying to get what we deserve while avoiding insulting our would-be friends.\n\n#N We argue for so long we almost forget to decide what we should ask for.#!" 
+ dataw_ciriane_rebellion.4052.a: "We desire promises of gold." 
+ dataw_ciriane_rebellion.4052.b: "We desire land if you want our swords." 
+
+# A Counteroffer of Friendship
+ dataw_ciriane_rebellion.4053.t: "A Counteroffer of Friendship"
+ dataw_ciriane_rebellion.4053.desc: "It seems my offer of friendship is not enough for my neighbors. Their envoys come to my court with their own counter offer\n\n#italic “You must understand my lord,”#! the diplomat treads carefully #italic “what you ask for is a long and lasting alliance. And the risk it would incur is not equal to the price you’ve offered.”#!\n\nI ask the diplomat what they would suggest, and they reply..." 
+ dataw_ciriane_rebellion.4053.m.desc: "\n\n#italic ”a modest sum my lord, but a meaningful gift to usher in our new age of cooperation.”#! Such honeyed words for such a crass demand. Cash for a military alliance? How bad are their debts?"
+ dataw_ciriane_rebellion.4053.l.desc: "\n\n#italic ”we would ask for land, my lord. My liege wishes that our border move inward, across [spare_county.GetName]. So that we may better defend one another.”#! A kind way to spin a land grab. My neighbors must think I'm desperate to ask this of me."
+ dataw_ciriane_rebellion.4053.a: "Their ask is fair, I will comply." 
+ dataw_ciriane_rebellion.4053.b: "I refuse, return to your liege and tell them you failed." 
+ dataw_ciriane_rebellion.4053.c: "This is an insult! To war!" 
+ dataw_ciriane_rebellion.4053_n: "[nahashin.GetName] refuses your demands."
+ dataw_ciriane_rebellion.4053_a: "[nahashin.GetName] accepts your demands."
+ dataw_ciriane_rebellion.4053_w: "[nahashin.GetName] is insulted by your demand and declares war."
+ dataw_ciriane_rebellion.4053_tt: "#color_goldy_yellow Above is their request, and below your gift to them#!"
+# An Alliance Forged
+ dataw_ciriane_rebellion.4054.t: "An Alliance Forged"
+ dataw_ciriane_rebellion.4054.desc: "My new allies send their envoy with a great procession. Knights wave both our banners in the streets while [ally_target.GetName]'s diplomat makes their way to my court. I hand the diplomat my signed copy of our new treaty, and receive a copy signed by my new ally.\n\n#N Our troops laugh together as they speak of the wars ahead.#!" 
+ dataw_ciriane_rebellion.4054.a: "It was all worth it." 
+ dataw_ciriane_rebellion.4054.a_tt: "You have gained an alliance with [ally_target.GetName]." 
+# An Alliance Forged
+ dataw_ciriane_rebellion.4055.t: "An Alliance Lost"
+ dataw_ciriane_rebellion.4055.desc: "My neighbor’s diplomat seems nervous when [messenger.GetSheHe] comes to court. They are reluctant to meet my eyes as they deliver their liege’s reply. There will be no alliance. The diplomat shifts nervously between his feet, fearing my reply..." 
+ dataw_ciriane_rebellion.4055.a: "No need to shoot the messenger, be on your way." 
+ dataw_ciriane_rebellion.4055.b: "Guards! Seize [messenger.GetHerHim]!" 
+ dataw_ciriane_rebellion.4055.c: "This is an insult! To War!"
+ dataw_ciriane_rebellion.4055.a_tt: "You have lost the potential alliance with [ally_target.GetName]." 
+## Siding with Orlais: Rooting out Ciriane Rebel's
+# Swear a New Oath DLC
+ dataw_ciriane_rebellion.4099.t: "Swear a New Oath"
+ dataw_ciriane_rebellion.4099.desc: "The die has been cast. Since [orlais.GetTitleAsNameNoTooltip] [orlais.GetFirstName] has been informed of the Ciriane plot to rebel, tempers have been rising. This is a threat to the empire that cannot be ignored.\n\nGrateful as [orlais.GetSheHe] is for your previous support [orlais.GetSheHe] now demands that you swear a new oath of fealty to [orlais.GetHerHim] and Orlais, and of course, your continued aid in rooting out these cretins.\n\n#italic "Of course, my liege. I promise that I, [GetPlayer.GetName], will be faithful to the rightful [orlais.GetTitleAsNameNoTooltip], [orlais.GetFirstName], in matters of life, limb and earthly honor."#!" 
+ dataw_ciriane_rebellion.4099.a: "I have sworn my oath."
+# Swear a New Oath Non DLC (Same)
+ dataw_ciriane_rebellion.4100.t: "Swear a New Oath"
+ dataw_ciriane_rebellion.4100.desc: "The die has been cast. Since [orlais.GetTitleAsNameNoTooltip] [orlais.GetFirstName] has been informed of the Ciriane plot to rebel, tempers have been rising. This is a threat to the empire that cannot be ignored.\n\nGrateful as [orlais.GetSheHe] is for your previous support [orlais.GetSheHe] now demands that you swear a new oath of fealty to [orlais.GetHerHim] and Orlais, and of course, your continued aid in rooting out these cretins.\n\n#italic "Of course, my liege. I promise that I, [GetPlayer.GetName], will be faithful to the rightful [orlais.GetTitleAsNameNoTooltip], [orlais.GetFirstName], in matters of life, limb and earthly honor."#!" 
+ dataw_ciriane_rebellion.4100.a: "I have sworn my oath." 
+# The Frontiers Secuured
+ dataw_ciriane_rebellion.4101.t: "The Frontiers Secured"
+ dataw_ciriane_rebellion.4101.desc: "I smile as I reread the letter of surrender in my hand. It is done. Serault & Alyons have been left with no choice but to surrender to the might of the Empire.\n\n#italic "No"#!, I think, #italic "to me"#!. I was the one to do this, the [orlais.GetTitleAsNameNoTooltip] will surely never doubt my loyalty again.\n\nWith them under our heel the west will be secured in no time. Sure, there might be minor rebels but they will be quieted quickly and harshly.\n\n#italic "Maker be praised, this will all be dealt with soon."" 
+ dataw_ciriane_rebellion.4101.a: "I have served the Empire well." 
+# The Frontiers Enraged
+ dataw_ciriane_rebellion.4102.t: "The Frontiers Enraged"
+ dataw_ciriane_rebellion.4102.desc: "You smooth out the parchment again. No matter how many times you reread it, crumple it and toss it, the truth of it never changes.\n\n#N Lost.#!\n\nHow could we have lost against a bunch of upstart rebels of the west? How could they have stood against the might of the Empire?\n\n#italic "Maker, why have you forsaken us when we are just following the path you set us on?"#!\n\n[orlais.GetTitleAsNameNoTooltip] [orlais.GetFirstName] will never forgive this failure; you just know it."
+ dataw_ciriane_rebellion.4102.a: "I have failed the Empire..."  
+# The Rebellion Begins
+ dataw_ciriane_rebellion.4103.t: "The Rebellion Begins"
+ dataw_ciriane_rebellion.4103.desc: "You sit in your chamber with a crumpled piece of parchment yet again. How many has that been now? You’ve read the message again and again.\n\nThe report informs you of a rebellion amongst your own people. They call you a pretender, a tyrant, a demon and worse.\n\nNo longer will they take part in your war and do not recognise you or the Empire as their leaders. Angrily you throw the parchment into your burning hearth.\n\n#N #italic "So be it."#!#!"
+ dataw_ciriane_rebellion.4103.a: "I truly have failed the Empire..."
+ dataw_ciriane_rebellion.4103.a_tt: "The Ciriane have begun a war to oust you from your rightful rule of the Marshes!"
+ dataw_ciriane_rebellion.4103.b_tt: "The Ciriane would now start a war to oust you from rule, but as you are at war with one of them, the Ciriane have rallied behind them."
+ ciriane_revolt: "Ciriane Revolt"  
+# The Rebellion Falters
+ dataw_ciriane_rebellion.4104.t: "The Rebellion Falters"
+ dataw_ciriane_rebellion.4104.desc: "The rebel leader is on his knees before you. It would seem your informant was right, there was a rebellion brewing amongst your people.\n\nUnfortunately for them they were too pitiful to do any real damage, without support the best they could do was curse your name in taverns. Most of the rebels had already been put to the sword but what should we do with their leader?"
+ dataw_ciriane_rebellion.4104.a: "Have this fool executed immediately!"
+ dataw_ciriane_rebellion.4104.b: "Take him out of my sight, into our darkest dungeon!"
+# A Promising Message
+ dataw_ciriane_rebellion.4105.t: "A Promising Message"
+ dataw_ciriane_rebellion.4105.desc: "You beam with pride as the Orlesian messenger informs you that you have been summoned to capital to be given a reward directly from [orlais.GetTitleAsNameNoTooltip] [orlais.GetFirstName] [orlais.GetHerHim]self.\n\n#N The [orlais.GetTitleAsNameNoTooltip] bids you to travel at once.#!"
+ dataw_ciriane_rebellion.4105.a: "Of course, such an honour. Prepare the caravan!"
+# The Finest Reward
+ dataw_ciriane_rebellion.4106.t: "The Finest Reward"
+ dataw_ciriane_rebellion.4106.desc: "You are kneeling on the hard and cold floor. The [orlais.GetTitleAsNameNoTooltip] stands before you in all of [orlais.GetHerHis] might. Finally, the recognition you have waited for. It was all worth it, for this honour.\n\nThe [orlais.GetTitleAsNameNoTooltip] holds a grand speech, detailing your great deeds to his court. There are murmurs, impressed inhales, cheers and applauds as the crowd hears of how you have aided the Empire.\n\nFinally, the [orlais.GetTitleAsNameNoTooltip] bids you to stand. You manage to do so despite your knees being stiff at this point. The [orlais.GetTitleAsNameNoTooltip] gestures to two servants who approach you carrying a large decorated chest between them.\n\nThe servant opens it, a rising murmur mixed with gasps is heard through the hall. Inside the chest lies a new armor piece specifically made for you.\n\n#italic "Thank you. I will use this with honour in your name."#!"
+ dataw_ciriane_rebellion.4106.a: "A fine reward indeed."
+# The War for Orlais’s West
+ dataw_ciriane_rebellion.4107.t: "The War for Orlais’s West"
+ dataw_ciriane_rebellion.4107.desc: "The letter has been sent.\n\nThe [ally_target.GetTitleAsName] of [ally_target.GetPrimaryTitle.GetBaseNameNoTier] will no doubt prepare their troops, for the loyal sword of Orlais has come marching into their land for the glory of the Empire.\n\n"
+ dataw_ciriane_rebellion.4107.s.desc: "#N No matter what the lords of the castle of glass prepare, we will prevail.#!"
+ dataw_ciriane_rebellion.4107.a.desc: "#N No matter what the lords of the last bastion of civilization prepare, we will prevail.#!"
+ dataw_ciriane_rebellion.4107.a: "We march onward, to [ally_target.GetPrimaryTitle.GetBaseNameNoTier]!"
+# The Empire’s March
+ dataw_ciriane_rebellion.4108.t: "The Empire’s March"
+ dataw_ciriane_rebellion.4108.desc: "[GetTitleByKey('c_val_royeaux').GetBaseNameNoTier] has always been a long way from [GetPlayer.GetPrimaryTitle.GetBaseNameNoTier], yet its influence can be felt all the way here, on the edge of the Tirashan. Yet this letter presented in front of me is nowhere near what I was expecting.\n\nThe [nahashin.GetTitleAsNameNoTooltip] of Nahashin has begun marching [nahashin.GetHerHis] troops forward towards me, with the clear intent of bringing [GetPlayer.GetPrimaryTitle.GetBaseNameNoTier] back under Orlesian sovereignty.\n\n#N This act is a clear declaration of the intent of Nahashin to stay loyal to the Empire, despite the will of its people.#!"
+ dataw_ciriane_rebellion.4108.a: "War it is, then."
+
+# Siding with Orlais: Those Who Hide amongst the Marshes
+# A Blade from the Marshes
+ dataw_ciriane_rebellion.4150.t: "A Blade from the Marshes"
+ dataw_ciriane_rebellion.4150.desc: "I was barely sleeping that night. Nahashin’s declaration of loyalty to Orlais has given me many enemies among the Mareschois who wished for independence. Many have called for my death for this perceived betrayal.\n\nIn the silence of the room, I hear a single step, trying to be as quiet as possible.\n\n#N Someone is here, and this attempt of a quiet step can only confirm a malicious intent.#!\n\nSlowly reaching for my dagger while feigning sleep, I can see, through my barely open eyes my soon-to-be assailant approaching carefully, his steps as silent as [assassin.GetSheHe] can manage. Definitely a professional, yet that earlier step would be his downfall, with some luck.\n\nAs [assassin.GetSheHe] approaches, his dagger now above me, I have a clear view of him, and could easily reach him. I only need to strike." 
+ dataw_ciriane_rebellion.4150.a: "Not today, fool!" 
+ dataw_ciriane_rebellion.4150.a_tt: "You strike at the assailant!" 
+ dataw_ciriane_rebellion.4150.b: "Perhaps my death will finally appease those who felt betrayed." 
+ dataw_ciriane_rebellion.4150.b_tt: "You let yourself die to the assassin's knife..." 
+
+# Siding with Orlais: Those who hide amongst the Marshes
+# A Plot Amongst the Marshes
+ dataw_ciriane_rebellion.4151.t: "A Plot Amongst the Marshes"
+ dataw_ciriane_rebellion.4151.desc: "My blade sinks inside the neck of my assailant, taken aback by surprise. Barely able to react, [assassin.GetSheHe] slowly attempts to strike back, but is easily restrained as [assassin.GetSheHe] dies, blood gushing from his neck.\n\nAs I observe the body, my bodyguard [bodyguard.GetName] enters the room at the sound of death.\n\n#italic "My Duke! I am sorry to have let that one slip through! I am glad you managed to stop him in time!#!\n\nAs we observe the body closer, we end up finding a note, written in Old Ciriane, which translates as: #italic Night-Blade, the window will be open for you to strike down the Betrayer of the Marshes at the point where Somisarian’s light in the dark is highest. Those who hide amongst the Marshes trust that you shall do the deed, for we all work against the Betrayer of the Marshes.#!\n\nIt seems like the assassin was sent by a group who calls itself "Those who hide amongst the Marshes". That secret group seems hellbent on taking me down, and who knows how far their influence reigns. No doubt another agent would lure nearby, hidden amongst my courtiers. Finding him would be extremely useful." 
+ dataw_ciriane_rebellion.4151.a: "Let the hunt begin."
+ dataw_ciriane_rebellion.4151.a_tt: "The Hunt for "Those who hide amongst the Marshes" now begins."
+
+# Siding with Orlais: Those who hide amongst the Marshes
+# An Offer of Vengeance
+ dataw_ciriane_rebellion.4152.t: "An Offer of Vengeance"
+ dataw_ciriane_rebellion.4152.desc: "I have been informed of the strangest thing from the ducal capital of Nahashin: an attempt was made on the [nahashin.GetTitleAsNameNoTooltip]'s life!\n\n" 
+ dataw_ciriane_rebellion.4152.desc.a.y: "The [nahashin.GetTitleAsNameNoTooltip] now lays dead in [nahashin.GetHerHis] own blood, while those who killed [nahashin.GetHerHim] still run amok.\n\n"
+ dataw_ciriane_rebellion.4152.desc.a.n: "The assassin, however, was surprised to find a blade inside his neck as [assassin.GetSheHe] was preparing to do the same to his target.\n\n"
+ dataw_ciriane_rebellion.4152.desc.a: "Regardless, one thing is certain: people among Nahashin are after the life of the [nahashin.GetTitleAsNameNoTooltip], perhaps because of [nahashin.GetHerHis] renewed loyalty to Val Royeaux, which explains the letter I found in my chamber this morning.\n\n"
+ dataw_ciriane_rebellion.4152.desc.b: "It is a letter written in Old Ciriane, and none of my courtiers recall having brought the letter to me. After a good work of translation, I understand that a group, calling itself "Those who hide amongst the Marshes", wish to work against Orlais to liberate Nahashin from imperial rule, and they desire my aid in their plot. The fact they swear by Somisarian, Queen of the Sun and Moon only means they care little for the ways of the Chantry as well, perhaps due to association to [GetTitleByKey('c_val_royeaux').GetBaseNameNoTier].\n\n#N Now, all I need to prepare is my answer.#!"
+ dataw_ciriane_rebellion.4152.a: "I will join you in the worship of old and your plot, may Val Royeaux be driven out!"
+ dataw_ciriane_rebellion.4152.a_tt: "As a player, you cannot join as an agent... but your assistance will give the murder scheme #N a bonus.#!"
+ dataw_ciriane_rebellion.4152.b: "By the Maker! These fools need to be reported immediately!"
+ dataw_ciriane_rebellion.4152.b_tt: "[vassal.GetFirstName] warns you of #N Those who hide amongst the Marshes#!"
+ dataw_ciriane_rebellion.4152.b.r_tt: "[nahashin.GetFirstName] is warned of #N Those who hide amongst the Marshes#!"
+ dataw_ciriane_rebellion.4152.d.r_tt: "[nahashin.GetFirstName] discovers your treason."
+ dataw_ciriane_rebellion.4152.r.d_tt: "[vassal.GetFirstName] works with #N Those who hide amongst the Marshes#!"
+ dataw_ciriane_rebellion.4152.c: "The duke will love to hear those words to calm him down."
+ dataw_ciriane_rebellion.4152.c_tt: "You need ONE of these: Intrigue lifestyle, Callous Trait, Arbitrary trait."
+ dataw_ciriane_rebellion.4152.w_e_tt: "You trick [nahashin.GetFirstName], bringing them closer to you."
+ dataw_ciriane_rebellion.4152.l_e_tt: "[nahashin.GetFirstName] is notified of your treason."
+
+# Misc
+ dataw_ciriane_rebellion.4152.w_tt: "#G (Success!)#!"
+ dataw_ciriane_rebellion.4152.l_tt: "#N (Failure!)#!"
+ dataw_ciriane_rebellion.4152.w.c_tt: "#G (Critical Success!)#!"
+ dataw_ciriane_rebellion.4152.l.c_tt: "#N (Critical Failure!)#!"
+
+# Siding with Orlais: Those who hide amongst the Marshes
+
+# The Work Against Loyallty
+ dataw_ciriane_rebellion.4153.t: "The Work Against Loyalty"
+ dataw_ciriane_rebellion.4153.desc: "Now is the time to call upon my allies amongst the marshes, always ready to work towards Nahashin’s independence against Orlais.\n\n#N A few of them have answered my call, and given me offers with which I can support them.#!" 
+ dataw_ciriane_rebellion.4153.a: "By pushing the people against the [nahashin.GetTitleAsNameNoTooltip], we will gain support."
+ dataw_ciriane_rebellion.4153.a.w_tt: "The people in [title.GetBaseNameNoTier] support your righteous cause."
+ dataw_ciriane_rebellion.4153.a.l_tt: "The people support in [title.GetBaseNameNoTier] [nahashin.GetFirstName] more!"
+
+ dataw_ciriane_rebellion.4153.c.c_tt: "The people in [title.GetBaseNameNoTier] convert to [GetFaithByKey('ciriane_paganism').GetAdjective]"
+ dataw_ciriane_rebellion.4153.c.d_tt: "The people in [title.GetBaseNameNoTier] convert to [GetFaithByKey('orlesian_chantry').GetAdjective]"
+
+
+ dataw_ciriane_rebellion.4153.b: "Sabotaging the army will be the best way to fight against it in the future."
+ dataw_ciriane_rebellion.4153.b.w_tt: "Random MAA size of [nahashin.GetFirstName] down by 1"
+ dataw_ciriane_rebellion.4153.b.w_a_tt: "[maa.GetName] from [nahashin.GetFirstName] down by 1"
+ dataw_ciriane_rebellion.4153.b.w_c_tt: "[maa.GetName] from [nahashin.GetFirstName] down by 2"
+ dataw_ciriane_rebellion.4153.b.w_b_tt: "[maa.GetName] from [nahashin.GetFirstName] destroyed"
+
+ dataw_ciriane_rebellion.4153.r.d_tt: "[maa.GetName] sabotaged by "Those who hide amongst the Marshes""
+ dataw_ciriane_rebellion.4153.r.1_tt: "[maa.GetName] sabotaged a level down "Those who hide amongst the Marshes""
+ dataw_ciriane_rebellion.4153.r.2_tt: "[maa.GetName] sabotaged 2 levels down "Those who hide amongst the Marshes""
+
+ dataw_ciriane_rebellion.4153.b.w_o_tt: "Your [maa.GetName] down by 1"
+ dataw_ciriane_rebellion.4153.b.w_o2_tt: "Your [maa.GetName] down by 2"
+ dataw_ciriane_rebellion.4153.b.w_o3_tt: "Your [maa.GetName] destroyed"
+ dataw_ciriane_rebellion.4153.b.l_tt: "A random MAA size of yours goes down by 1"
+ dataw_ciriane_rebellion.4153.b.w.c_tt: "Random MAA size of [nahashin.GetFirstName] down by 2"
+ dataw_ciriane_rebellion.4153.b.l.c_tt: "A random MAA size of yours goes down by 2"
+
+ dataw_ciriane_rebellion.4153.c: "We will work against the [nahashin.GetTitleAsNameNoTooltip] by planting an agent in every wall of [nahashin.GetHerHis] keep."
+ dataw_ciriane_rebellion.4153.c.w_tt: "[courtier.GetFirstName] joins the murder plot against [nahashin.GetFirstName]"
+ dataw_ciriane_rebellion.4153.c.l_tt: "The mercenaries refuse to join you!"
+ dataw_ciriane_rebellion.4153.c.t_tt: "[courtier.GetName]"
+ dataw_ciriane_rebellion.4153.d: "Ruin [nahashin.GetHerHis] markets, make the seat of Val Royeaux’s pet suffer."
+ dataw_ciriane_rebellion.4153.e: "By teaching the peasants the ways of old, we can stray them away from Orlais!"
+ dataw_ciriane_rebellion.4153.e_tt: "The Hunt for "Those who hide amongst the Marshes" now begins."
+ dataw_ciriane_rebellion.4153.e.w_tt: "The Mercenaries agree to join you!"
+ dataw_ciriane_rebellion.4153.e.l_tt: "The Mercenaries refuse to join you!"
+
+# An Unexpected Ally
+ dataw_ciriane_rebellion.4154.t: "An Unexpected Ally"
+ dataw_ciriane_rebellion.4154.desc: "Well, this is awkward.\n\nThe letter that you have received this morning is from none other than the [nahashin.GetTitleAsNameNoTooltip] of Nahashin, [nahashin.GetFirstName] [nahashin.GetHerHim]self. It calls for an immediate stop at my attempts of sabotage against the Duchy, for I would only weaken "Those who hide amongst the Marshes" doing so." 
+ dataw_ciriane_rebellion.4154.desc.a.n.k: "This revelation, leaving you quite baffled to know that the [nahashin.GetTitleAsNameNoTooltip] is an ally, leaves you only with two options."
+ dataw_ciriane_rebellion.4154.desc.a.k: "This revelation that the [nahashin.GetTitleAsNameNoTooltip] is a fellow agent is nothing new for you, but still, this peculiar situation leaves you with two options."
+ dataw_ciriane_rebellion.4154.desc.a: "Abandon the possibilities of scheming against the [nahashin.GetTitleAsNameNoTooltip] as long as [nahashin.GetSheHe] remains in power, or continue regardless. For weakening Nahashin also weakens Orlais, and, after all, you could be at the top of it all when the plot finally reaches its goal, instead of [nahashin.GetHerHim]."
+ dataw_ciriane_rebellion.4154.a: "Stop the plans at once, the [nahashin.GetTitleAsNameNoTooltip] is one of us!"
+ dataw_ciriane_rebellion.4154.b: "Let’s isolate the agents from the rest of the plot and continue as planned."
+
+# Death of the Betrayer
+ dataw_ciriane_rebellion.4155.t: "Death of the Betrayer"
+ dataw_ciriane_rebellion.4155.desc: "#N The Betrayer is dead.#!\n\nThe one who betrayed [nahashin_past_holder.GetHerHis] people to stay subjugated to Val Royeaux, has finally left for the [fade|E], never to come back.\n\n" 
+ dataw_ciriane_rebellion.4155.desc.a.m: "Yet this transition was not peaceful, for the death was accelerated voluntarily by [nahashin_past_holder.GetKiller.GetName]. Some will see this killer as a hero, others as a radical, but whether or not [nahashin_past_holder.GetFirstName] will receive justice remains to be seen.\n\n"
+ dataw_ciriane_rebellion.4155.desc.a.ms: "Yet this transition away from the world of the living is mired in mystery. Many say that [nahashin_past_holder.GetSheHe] was killed by a group that calls itself "Those who hide amongst the Marshes", hardline secret supporters of Nahashin’s bid for independence against Orlais.\n\n"
+ dataw_ciriane_rebellion.4155.desc.a.n: "And, despite what many could believe, the death was not made by one of the Betrayer’s many enemies, but by the natural circumstances given by the Maker.\n\n"
+ dataw_ciriane_rebellion.4155.desc.a: "Now, a new era begins, one after the Betrayer’s death, but with Nahashin still under Orlais’s boot."
+ dataw_ciriane_rebellion.4155.a: "No doubt Nahashin will see more blood spilt."
+ dataw_ciriane_rebellion.4155.a.b: "You will be our Maferath, Betrayer."
+
+# Follow the White Rabbit
+ dataw_ciriane_rebellion.4156.t: "Follow the White Rabbit"
+ dataw_ciriane_rebellion.4156.desc: "#color_goldy_yellow #italic Like a rabbit spotted during a hunt, prey can so easily be lost.#!#!\n\nMost of the time, people strike immediately, in fear of losing their game, or they follow it quietly, as silently as possible, in the hopes of getting more than just one. Despite them leading me to the same outcome in my case, I find myself in the same position.\n\nI have recently learned the fact that [scheme_agent.GetName] is part of this heinous band of radicals that calls themselves "Those who hide amongst the Marshes", committing acts of sabotage all over Nahashin, while claiming to fight for its liberation. Now, the time is fleeting rapidly, and I have to act fast before [scheme_agent.GetSheHe] learns of what I know. I can capture [scheme_agent.GetHerHim] right this instant and begin an interrogation, hell, a torture for everything [scheme_agent.GetSheHe] knows, or I can follow quietly to where they meet, with the hopes of taking them all out there.\n\n#N Regardless, the choice is mine.#!" 
+ dataw_ciriane_rebellion.4156.a: "Torture [scheme_agent.GetHerHim], I want to know everything, at any cost."
+ dataw_ciriane_rebellion.4156.a_a_tt: "[scheme_agent.GetFirstName] folds under pressure."
+ dataw_ciriane_rebellion.4156.a_b_tt: "[scheme_agent.GetFirstName] dies unjustly from torture, with no information extracted."
+ dataw_ciriane_rebellion.4156.b_b_tt: "You are unable to find the secret hideout, [scheme_agent.GetFirstName] vanishes & you've let [scheme_agent.GetHerHim] go so [scheme_agent.GetSheHe]'s rendered innocent."
+ dataw_ciriane_rebellion.4156.b: "Follow [scheme_agent.GetHerHim] quietly, that way, we will know where they meet."
+ dataw_ciriane_rebellion.4156.b_c_tt: "[scheme_agent.GetFirstName] is freed, you've lost evidence to arrest."
+ dataw_ciriane_rebellion.4156.c: "It is too risky, let’s not."
+ dataw_ciriane_rebellion.4156.a_c_tt: "You find the secret hideout of "Those who hide amongst the Marshes"."
+# The Hidden Nest
+ dataw_ciriane_rebellion.4157.t: "The Hidden Nest"
+ dataw_ciriane_rebellion.4157.desc: "Thanks to the information we’ve gathered from our lovely involuntary informant, we are now in the middle of the swamp, in front of an old building, seemingly lost to time. No doubt this is the lair of Those who hide amongst the Marshes, or, I hope, enough to dismantle this heinous group. To minimize my chances of getting discovered, only a minimal group of soldiers are with me today.\n\nAfter a strategic meeting with a few of my advisors, I have two options.\n\n#N I can either strike hard and fast before they can react by sheer overwhelming force and surprise, or slowly and methodically encircle the entire building before coming in from all sides, blocking all routes of escape.#!" 
+ dataw_ciriane_rebellion.4157.a: "We will strike hard, leaving them no time to organize any defense!"
+ dataw_ciriane_rebellion.4157.b: "We will encircle the building and strike from all directions."
+ dataw_ciriane_rebellion.4157.a.a_tt: "Up to 5 agents will be captured, if there's that many."
+ dataw_ciriane_rebellion.4157.a.b_tt: "Any possible agents escape."
+ dataw_ciriane_rebellion.4157.a.d_tt: "[agent.GetFirstName] works with #N Those who hide amongst the Marshes#!"
+
+# Hidden No More (Nahashin)
+ dataw_ciriane_rebellion.4158.t: "Hidden No More"
+ dataw_ciriane_rebellion.4158.desc: "It has been done.\n\nThe bodies pile around me as I enter the lair of those who plotted against me. I have been told that many of them have been arrested, and a few have fled, but they are too little to continue to plot as they did before.\n\nAt last, this needless bloodshed will stop, and people among the expedition have already begun to call me [GetPlayer.GetNickname]." 
+ dataw_ciriane_rebellion.4158.a: "Hidden we are no more."
+ dataw_ciriane_rebellion.4158.a_tt: "#N With "Those who hide amongst the Marshes" eradicated, you are a step closer towards crushing the Ciriane, and preventing an uprising when the War of the Dales begins.#!"
+
+# Retribution Against the Hidden 
+ dataw_ciriane_rebellion.4159.t: "Retribution Against the Hidden"
+ dataw_ciriane_rebellion.4159.desc: "In the middle of the night, I am awoken by a deafening chaos. Who has surged into my home so brutally, I can only assume is an opponent, and the yells and fights I can hear confirms it: they are not supporters of Nahashin’s liberation.\n\nAs I peek through the doorway to take a look at the battle, I see the uniforms I dreaded so much to see: those of the [nahashin.GetTitleAsNameNoTooltip] of Nahashin’s soldiers. The yell of their commander orders them to push through, and to find the plotter before it is too late.\n\nIt seems like it will not take long for them to get all the way to me, and I have only a few minutes before they barge into my home and kill me, or worse, capture me.\n\n#N I need to make those minutes count.#!" 
+ dataw_ciriane_rebellion.4159.a: "I can escape through the window and run."
+ dataw_ciriane_rebellion.4159.b: "I can hide, and hope they do not find me."
+ dataw_ciriane_rebellion.4159.c: "I will go down fighting! For a free Nahashin!"
+ dataw_ciriane_rebellion.4159.d: "They will not take me alive."
+ dataw_ciriane_rebellion.4159.e: "I surrender! Take me to the [nahashin.GetTitleAsNameNoTooltip]."
+ dataw_ciriane_rebellion.4159.a_tt: "#N With "Those who hide amongst the Marshes" eradicated, you are a step closer towards crushing the Ciriane, and preventing an uprising when the War of the Dales begins.#!"
+ dataw_ciriane_rebellion.4159.a.s_tt: "You successfully escape."
+ dataw_ciriane_rebellion.4159.a.f_tt: "You are stopped in your escape and captured."
+ dataw_ciriane_rebellion.4159.a.b_tt: "You are killed during combat."
+ dataw_ciriane_rebellion.4159.a.ss_tt: "You stab yourself to death before they arrive."
+ dataw_ciriane_rebellion.4159.a.fs_tt: "You are stopped before you do the deed."
+ dataw_ciriane_rebellion.4159.a.t_tt: "You turn yourself in to [nahashin.GetFirstName]."
+
+# Hidden No More (Plotter/vassals)
+ dataw_ciriane_rebellion.4160.t: "Hidden No More"
+ dataw_ciriane_rebellion.4160.desc: "Strange.\n\nMy letters should have received an answer a while ago, and yet I remain at a loss, with no response to feed upon. I wonder what might have happened, and a hundred theories form in my head as I circle around.\n\nThen, I came to the conclusion that my mind refused to accept a million times.\n\n#N "Those who hide amongst the Marshes are hidden no more."#!\n\nNo matter what happened, I will soon know thanks to the generosity of the [nahashin.GetName], but one thing is now clear."
+ dataw_ciriane_rebellion.4160.a.desc: "\n\nI was there when the [nahashin.GetTitleAsNameNoTooltip] entered with [nahashin.GetHerHis] forces, and I was there when, after a short but decisive bloodbath, I was put in shackles and presented in front of our dear [nahashin.GetName], proof of my involvement.\n\n#N I was part of this group, and I planned sabotage and independence against Val Royeaux with my fellow brethren.#!"
+ dataw_ciriane_rebellion.4160.a: "Hidden we are no more."
+
+# Cornered in the Swamp
+ dataw_ciriane_rebellion.4161.t: "Cornered in the Swamp"
+ dataw_ciriane_rebellion.4161.desc: "In this old and forgotten building, I have found myself along with many co-conspirators to plan our next move against Orlais and their pets. Together, we sometimes meet in this dangerous meeting to figure out our next way of approach, for the enemy we are up against is strong and always close.\n\nA faint step coming from the outside of the building suddenly alerts us, and I only have the time to look outside before realising how close they truly are.\n\n" 
+ dataw_ciriane_rebellion.4161.a.h.desc: "Before I can even comprehend the situation, the door of the building starts to shake under a heavy hit. Arrows come from the openings, killing some of my co-conspirators, as the wood of the door starts flying and the blood starts gushing." 
+ dataw_ciriane_rebellion.4161.a.e.desc: "As I look at the nearby window to get a better look at the situation outside, I see an arrow coming in through it, narrowly hitting my head. Yet the quick glance was all I needed to know that the soldiers have spread all around the building, and are now rushing inside." 
+ dataw_ciriane_rebellion.4161.b.desc: "\n\nI have but a few moments before the [nahashin.GetTitleAsNameNoTooltip]’s troops burst in, and I must use those precious seconds to make my decision. My fate has never been so unsure, yet one thing is certain.\n\n#N This day is the last of Those who hide amongst the Marshes#!"
+ dataw_ciriane_rebellion.4161.a: "I will go out and surrender, we have lost."
+ dataw_ciriane_rebellion.4161.b: "Perhaps there is a secret passage somewhere! Quick!"
+ dataw_ciriane_rebellion.4161.c: "I will fight to the last. I do not expect to survive, but I will fight on."
+ dataw_ciriane_rebellion.4161.d: "I will die with the hope of a free Nahashin."
+
+# The Broken Chains of Subjugation (Nahashin)
+ dataw_ciriane_rebellion.4162.t: "The Broken Chains of Subjugation"
+ dataw_ciriane_rebellion.4162.desc: "Despite what [GetTitleByKey('c_val_royeaux').GetBaseNameNoTier] has wanted, the Marshes are now free. Nahashin has now retracted itself from Orlais’s rule, and now is ruled by their own, with no suzerain above them. And the ultimate proof is this letter on the desk in front of me.\n\nWritten for the first time in common [GetGlobalVariable('orlesian_culture_var').Culture.GetName] instead of old [GetGlobalVariable('ciriane_culture_var').Culture.GetName], perhaps to add insult to injury, the letter read as such:\n\n#italic "Those who hide amongst the Marshes salute you for the last time, [GetPlayer.GetFirstName]. Nahashin is now free, and as such, our quarrel with you has ended. We shall disband, for our goal has been accomplished, and never again shall we torment you.\n\nMay you guide your people well, for we will guide them away from Orlais in this new age for our marshes."#!" 
+ dataw_ciriane_rebellion.4162.a: ""Marvel at perfection, for it is fleeting", plotter."
+ dataw_ciriane_rebellion.4162.a_tt: "#N Those who hide amongst the Marshes have disbanded.#!"
+
+# The Broken Chains of Subjugation (Vassal/plotter)
+ dataw_ciriane_rebellion.4163.t: "The Broken Chains of Subjugation"
+ dataw_ciriane_rebellion.4163.desc: "Despite what [GetTitleByKey('c_val_royeaux').GetBaseNameNoTier] has wanted, the Marshes are now free. Nahashin has now retracted itself from Orlais’s rule, and now is ruled by our own, with no suzerain above us to dictate what to wear, who to pay, or who to die for.\n\nNothing could prove this accomplishment more than this letter on my desk.\n\n#italic "Greetings, you who hide amongst the Marshes.\n\nI write to you as such for the last time, for our goal has been reached, and we can now rule ourselves, without the diktats of Val Royeaux. May we thank Somisarian, for we have triumphed. Now that we have disbanded, will you join us in our old beliefs?"#!" 
+ dataw_ciriane_rebellion.4163.a: "I will finally reveal who I truly believe in! Praise The Queen of the Sun and Moon!"
+ dataw_ciriane_rebellion.4163.b: "I will praise The Queen of the Sun and Moon as above Andraste and her Maker."
+ dataw_ciriane_rebellion.4163.c: "My desire for independance was for Nahashin's people, yet my faith remains unwavering."
+
+### Siding with Orlais: Destroy/Culling The Tribes
+ dataw_ciriane_rebellion.4200.t: "The Tribes to Break"
+ dataw_ciriane_rebellion.4200.zero.desc: "The tribes following the Old Ciriane ways have been very clear on their dislike of me and my allegiance for Orlais. Everywhere they hide, swaying my subjects little by little against me, in the hopes of raising an army against Nahashin.\n\n#N With this, I can strike first.#!\n\nMy generals have prepared three plans that, if they succeed, will manage to root out those hidden tribes and bring them to the light. They plan to do this gradually, concentrating on one region at a time in order to leave no tribe hidden, no pagan unconverted. I will only have to keep my hold on the region, as a great lack of control will surely mean an easy escape for the followers of Somisarian." 
+ dataw_ciriane_rebellion.4200.one.desc: "One operation was a success and it seems the tribes now fear going back into those lands, by fear of being reported to me.\n\n#N But the work isn’t done yet.#!\n\nThe lands are still affected by the tribes of old, working against me, and as such, another of the plans must begin to root out their influence, and make sure the tribes are destroyed, never to resurface." 
+ dataw_ciriane_rebellion.4200.two.desc: "Two times now, I have succeeded at crushing the tribes so thoroughly they now fear the mere thought of returning to the place of their torment.\n\nIt is time for the final piece of the puzzle, the final plan, to finally start and crush the non-believers, to finally bring the light of Andraste to all among the marshes.\n\n#N Now is the time for this to all come to a close.#!" 
+ dataw_ciriane_rebellion.4200.a: "We will strike the north, in the lands of Eudolon."
+ dataw_ciriane_rebellion.4200.b: "We will strike the west, in the lands of Claose near the Tirashan and Serault."
+ dataw_ciriane_rebellion.4200.c: "We will strike the east, in the lands of Henar."
+ dataw_ciriane_rebellion.4200.d: "Do them all at once! The sooner we are rid of them, the better."
+
+# The crushed remnants. (Successfully convert a county)
+ dataw_ciriane_rebellion.4201.t: "The Crushed Remnants"
+ dataw_ciriane_rebellion.4201.desc: "Less and less non-believers end up arrested as the days go on, and more and more false reports come to my soldier’s desks.\n\nSome may think this is bad news, but they are fools.\n\nFor I have brought the people to my side, and in their zealousness, they have reported more tribals than my soldiers could have ever found alone.\n\nNow, the Ciriane have moved to other pastures, scared of the people’s hostility and zealotry, and they will spread their words elsewhere in the marshes.\n\n#N Little by little, their hold grows weaker on Nahashin.#!"  
+ dataw_ciriane_rebellion.4201.a: "And soon there will be none."
+ dataw_ciriane_rebellion.4201.a.b: "And now there is none."
+ dataw_ciriane_rebellion.4201_a_tt: "#G You have successfully culled the tribes in: [GetTitleByKey('c_eudolon').GetBaseNameNoTier], [GetTitleByKey('c_claose').GetBaseNameNoTier], and [GetTitleByKey('c_val_henar').GetBaseNameNoTier]#!."
+ dataw_ciriane_rebellion.4201_b_tt: "#G You have successfully culled the tribe in [title.GetBaseName]#!"
+# The past’s revolt.. (Successfully convert a county)
+ dataw_ciriane_rebellion.4202.t: "The Past's Revolt"
+ dataw_ciriane_rebellion.4202.desc: "Despite my best efforts, I have failed.\n\nAs my soldiers scoured the land, they earned the ire of my people by barging in their homes, questioning their neighbors, and arresting their friends. As my priests went and converted by force women and children, they earned the hatred of those who escaped their grasp. And as the hatred grew, my control grew weaker, until this rebellion started, sparked by those I wanted to eradicate.\n\nAlthough this will be easy to crush, This peasant army is a symbol of my failure, a symbol of my weakening hold on the Duchy of Nahashin.\n\n#N If I do not restart my plan yet again, no doubt the worst is to come.#!"  
+ dataw_ciriane_rebellion.4202.a: "Damn it all!"
+ dataw_ciriane_rebellion.4202_a_tt: "#X You have failed to cull the tribes in: [GetTitleByKey('c_eudolon').GetBaseNameNoTier], [GetTitleByKey('c_claose').GetBaseNameNoTier], and [GetTitleByKey('c_val_henar').GetBaseNameNoTier]#!."
+ dataw_ciriane_rebellion.4202_b_tt: "#X You have failed to cull the tribe in [title.GetBaseName]#!"
+# Last of the Ciriane
+ dataw_ciriane_rebellion.4203.t: "Last of the Ciriane"
+ dataw_ciriane_rebellion.4203.desc: "It has been weeks since the last report by the people was actually fruitful. False reports of wicked savages of the marshes have been commonplace, and now, thanks to the prisoner I have before me, I know why.\n\nThe [leader.GetWomanMan] in front of me is apparently named [leader.GetFirstName], and has been hiding in the forest for months.\n\nIsolated, [leader.GetSheHe] had to feed on whatever was around the marshes, while avoiding the various bandits, soldiers and animals. [leader.GetSheHe|U] even tells me that elves found [leader.GetHerHim] in the Tirashan, and that [leader.GetSheHe] ended up having to come back, arrows flying behind her/him.\n\nIn the stories told, never is another member of [leader.GetFirstName]’s tribe mentioned, as if this mad and constant run for [leader.GetHerHis] life was made on [leader.GetHerHis] own. When I ask [leader.GetHerHim] about the rest of [leader.GetHerHis] tribe, [leader.GetHerHim] tells me that the entire tribe has been long dead, and that [leader.GetSheHe] has not met any other tribe in years, despite trying desperately.\n\nIt seems like this is the last member of the Ciriane tribe."  
+ dataw_ciriane_rebellion.4203_tt: "#G You have completed one of the steps needed to quell the Ciriane Revolt upon the War of the Dales. Even if not all decisions and events are completed, the Revolt is still weakened.#!"
+ dataw_ciriane_rebellion.4203.a: "I will take care of that one, in my own court."
+ dataw_ciriane_rebellion.4203.b: "Let [leader.GetHerHim] go, the Ciriane have suffered enough."
+ dataw_ciriane_rebellion.4203.c: "Take care of the last remnant of this blasted people."
+
+## King of the Marshes/Expanding Ciriane Kingdom
+# King of the Marshes/Coronation
+ dataw_ciriane_rebellion.4250.t: "The [nahashin.GetTitleAsNameNoTooltip|U] of the Marshes"
+ dataw_ciriane_rebellion.4250.desc: "#X It has been done.#! No longer do those that dwell in the marshes of Nahashin need to suffer from [GetGlobalVariable('orlesian_culture_var').Culture.GetName] rulers. For the first time in so long, we are truly free, united under a single banner. Many perished during the war, yet now it shall prove worth the costs.\n\nMy people gather just outside of my keep, where they await my arrival for the ceremony. Countless nights I had gone without sleep, unsure that I was doing the right thing. Drums are being played as I hear the passionate beats resound through my halls, bringing a joyous smile to my face. Such momentous days are few and far between, but I will savor this moment till the end of my days.\n\nEventually, I step out from the walls of my holding, greeting everyone that has chosen to bear witness to my glorious crowning. Despite this elaborate showing of this transition into proper authority, it provides those around and even myself with a great sense of unity. We are all now brothers and sisters of Nahashin, and I shall lead them as their new king.\n\n#N I stand, now with the Crown of the Marshes adorning my head, only to turn toward the cheers of those around me.#!"  
+ dataw_ciriane_rebellion.4250_tt: "#G With your coronation over, the Ciriane Rebellion has ended, but not the story of the Ciriane. You have unlocked new decisions & events to Reform the Ciriane Kingdom.#!"
+ dataw_ciriane_rebellion.4250.a: "At last, I have become [nahashin.GetTitleAsNameNoTooltip]."
+
+## King of the Marshes/Expanding Kingdom
+# The Demands of Archambon
+ dataw_ciriane_rebellion.4251.t: "The Demands of Archambon"
+ dataw_ciriane_rebellion.4251.desc: "[nahashin.GetName] has sent a letter in the guise of an offer, but you can feel the intent behind [nahashin.GetHerHis] words.\n\nGoing to great lengths, it details the long history and close bonds between our people, explaining how my own people long for the leadership of [nahashin.GetHerHim] and [nahashin.GetHerHis] supposed united [GetGlobalVariable('ciriane_culture_var').Culture.GetName] people. It closes with his offer, swear fealty to [nahashin.GetFirstName] and receive protection and safety under [nahashin.GetHerHis] guidance.\n\nThe letter phrases it as a choice, though the implications of your refusal here would not be received well in [nahashin.GetPrimaryTitle.GetBaseNameNoTier] and you are certain [nahashin.GetFirstName] knows this as well.\n\n#N You weigh your option out before you, much will be decided by your response.#!"  
+ dataw_ciriane_rebellion.4251.a: "You bow your head to [nahashin.GetFirstName], the risk is too great..."
+ dataw_ciriane_rebellion.4251.b: "You burn the letter, your silence will tell [nahashin.GetFirstName] everything [nahashin.GetSheHe] needs to know."
+ dataw_ciriane_rebellion.4251.b_tt: "This will give [nahashin.GetFirstName] a pressed claim on all your lands"
+
+## King of the Marshes/Expanding Ciriane Kingdom
+# The Marquisate Accedes
+ dataw_ciriane_rebellion.4252.t: "The [vassal.GetTitleAsNameNoTooltip|U] Accedes"
+ dataw_ciriane_rebellion.4252.desc: "I let out a small smile as I read the letter before me. [vassal.GetName] has acceded to my demands, swearing everlasting loyalty to Nahashin.\n\nWith this I have managed to unite another part of the Nahashin lands without bloodshed, a great victory that deserves celebration.\n\n#N For now, we must begin the preparations for the vow of fealty.#!"  
+ dataw_ciriane_rebellion.4252.a_tt: "#G [vassal.GetName] swears fealty to you#!"
+ dataw_ciriane_rebellion.4252.a: "Hopefully where one domino falls the rest soon follow."
+
+## King of the Marshes/Expanding Ciriane Kingdom
+# The Marquisate Resists
+ dataw_ciriane_rebellion.4253.t: "The [vassal.GetTitleAsNameNoTooltip|U] Resists"
+ dataw_ciriane_rebellion.4253.desc: "A frown gradually grows on my face as the days go by, and no letter from [vassal.GetName] arrives. It becomes more and more apparent that [vassal.GetFirstName] has chosen to ignore my letter, and my threat.\n\n#X This leaves me with little choice.#!\n\nA ruler who does not fulfill his promises is no true ruler. They have chosen to challenge me and while I would have preferred to unify the lands in Orlais’s shadow without unnecessary bloodshed, sometimes there is no other option."
+ dataw_ciriane_rebellion.4253.a: "Time to fulfill your promise."
+
+## King of the Marshes/Expanding Ciriane Kingdom
+# Our Flank Secured
+ dataw_ciriane_rebellion.4254.t: "Our Flank Secured"
+ dataw_ciriane_rebellion.4254.desc: "Finally the lands of [GetTitleByKey('k_serault').GetBaseNameNoTier] has fallen under my control, unifying the [GetGlobalVariable('ciriane_culture_var').Culture.GetName] people of the marshes together for the first time in decades. Now that my back is secured I can look towards the lands of Orlais to return the lands we once owned back to us.\n\n#N First however I must restore order and faith to these distant lands, as what kind of ruler would I be if I did not care for my own people.#!"
+ dataw_ciriane_rebellion.4254.a: "To a united Ciriane."
+
+## Reforming the Ciriane Religion
+# An Old Faith for the Modern Times
+ dataw_ciriane_rebellion.4255.t: "An Old Faith for the Modern Times"
+ dataw_ciriane_rebellion.4255.desc: "Now that our independence has been secured, it is time to look at the marshes’s future, especially on the matter of faith and religion.\n\nOrlais has proudly given itself the role of the center of Andrastianism, and we have rejected that by embracing our old faith. Yet, many now believe that the old beliefs need to be organized, ready for those new and trying times.\n\n#N As the [GetPlayer.GetTitleAsNameNoTooltip|U] of newly independent Nahashin, it is up to me if the effort of organizing the old faith is worth it, and if I will manage to avoid the ire of the people as I remodel their beliefs.#!"
+ dataw_ciriane_rebellion.4255.a: "A new faith, for new times!"
+ dataw_ciriane_rebellion.4255.a_tt: "The people will look to you for guidance as you remake their beliefs anew. Beware, as failure to implement your ideas of reform properly among the populace will lead to grave consequences."
+
+## The Chantry Connection
+ dataw_ciriane_rebellion.4256.t: "The Chantry Connection"
+ dataw_ciriane_rebellion.4256.desc: "Now that I’ve set myself on the path of a religious reformation, my work means that I must consider the place of Andraste compared to our Queen of the Sun and Moon, #X Somisarian.#! For, in our old times, Andraste was but a distant thought in a mother’s mind, and now, Andrastianism is too great a faith to ignore its foundational events that shattered thedosian history, as well as destroying the Imperium’s might.\n\nNow, it seems like many scholars from all over the realm have begun arriving at my court, discussing the finer points of how the faith should be reformed. Two in particular have begun talking extensively about the relation between our faith and Andraste. [scholar_one.GetFirstName] seems to be of the idea that Andraste should not be completely disregarded, as to make our transitionary period and further diplomatic relations easier to manage. [scholar_two.GetFirstName], on the other hand, is of the idea that Andraste should be defined as simply a mortal woman, who did great things, but was never associated with a divine being, for the Maker does not exist.\n\n#N Regardless, they have both given me their point of view, if only indirectly, and I can inspire myself from them.#!"
+ dataw_ciriane_rebellion.4256.a: "Andraste and her teachings should not be disregarded, but integrated into our beliefs!"
+ dataw_ciriane_rebellion.4256.a_tt: "The people will look to you for guidance as you remake their beliefs anew. Beware, as failure to implement your ideas of reform properly among the populace will lead to grave consequences."
+ dataw_ciriane_rebellion.4256.a.a_tt: "Limited to [GetFaithByKey('ciriane_maker_cult').GetAdjective]"
+ dataw_ciriane_rebellion.4256.a.b_tt: "Limited to [GetFaithByKey('ciriane_paganism').GetAdjective]"
+ dataw_ciriane_rebellion.4256.b: "Andraste's just an historical figure, her involvement with the Maker is simply made up."
+ dataw_ciriane_rebellion.4256.b_tt: "Your belief in the Old ways pleases the commoners."
+ dataw_ciriane_rebellion.4256.c: "Such positions don't need to be taken, we can affirm our view without discrediting theirs."
+
+# The preparation for the new faith
+ dataw_ciriane_rebellion.4257.t: "The Preparation For the New Faith"
+ dataw_ciriane_rebellion.4257.desc: "The people have discussed, and the scholars as well. Many have debated, many have proposed outlandish things, and other much more sensible ideas, yet the final verdict is mine to uphold.\n\n#X Yet one thing remains clear.#!\n\nIf this faith isn’t accepted by the people as their own, if they cling too hard to their old beliefs, my attempt will not be seen as one of reformation, but one of corruption. And if I do not go forward with my attempt, people will be upset for giving them false hopes."
+ dataw_ciriane_rebellion.4257.a: "A new faith, for new times!"
+ dataw_ciriane_rebellion.4257.a_tt: "You have gained a 50% discount for faith reformation of [GetFaithByKey('ciriane_paganism').GetAdjective]. If most nobles or counties haven’t converted to your new faith 10 years after you reform it, there will be grave consequences..."
+
+# The Renewed will of Somisarian
+ dataw_ciriane_rebellion.4258.t: "The Renewed Will of Somisarian"
+ dataw_ciriane_rebellion.4258.desc: "The faith has been reformed, with organized rules to follow and gods to serve.\n\n"
+ dataw_ciriane_rebellion.4258.a.desc: "Putting Andraste as a rightful prophet of wisdom alongside the old gods was definitely controversial, but will undoubtedly benefit our external diplomacy in the long run."
+ dataw_ciriane_rebellion.4258.b.desc: "Now, the race for approval has been set, for if my people begin longing for their old beliefs before this new faith hasn’t truly settled down in the marshes, they will see me as a traitor, a corruptor, and react accordingly."
+ dataw_ciriane_rebellion.4258.a_tt: "You will have #G 10 years#! to convert most of your vassals or most of your counties to your organized faith. If you fail to do so, the Kingdom will brand you as a traitor to the faith for having tried to corrupt their beliefs and they will rise up in revolt!"
+ dataw_ciriane_rebellion.4258.a: "Let’s pray it doesn’t come to that."
+
+# The People's Faith
+ dataw_ciriane_rebellion.4259.t: "The People's Faith"
+ dataw_ciriane_rebellion.4259.s.desc: "Despite some resistance, it seems the efforts made in the last decade have paid off. More and more people claim to follow the Ciriane gods has we said they should, and less and less people are seen complaining that corruption has been made to their beliefs.\n\nOur new organization is now firmly established as the successor to the old faith, ready to guide our people into a new age, one not tied to Orlais, but only guided by us, where we can choose our own allies, our own wars, and our own laws."
+ dataw_ciriane_rebellion.4259.f.desc: "#X It is a failure.#!\n\nDespite the efforts of the last decade, our words fell on deaf ears. For each that converted, two refused to adopt our new customs. And now, time has come for them to claim that corruption was made.\n\nThe people have branded me a traitor, and nobles I previously thought were on my side have forsaken the words of my faith to side with the people. They now all call for me to step down from the throne and let another take it."
+ dataw_ciriane_rebellion.4259.a.s: "Hail the gods, Hail Nahashin, and Hail our people!"
+ dataw_ciriane_rebellion.4259.a.f: "Damn it all, for they have forsaken the future of our faith!"
+
+# The Crossroads of The Past and Future/Ciriane Question event chain
+ dataw_ciriane_rebellion.4260.t: "The Crossroads of The Past and Future"
+ dataw_ciriane_rebellion.4260.desc: "We have come so far as Mareschois since the rebellion against Orlais. We have reclaimed our land from our soil, we have reclaimed our faith, and we have forged an Empire to challenge [GetTitleByKey('c_val_royeaux').GetBaseNameNoTier], an Empire that can stand strong against the seat of Andrastianism.\n\nYet I would never have presumed that this would happen.\n\nA man, called [ciriane.GetFirstName], has come before my court today, and has given me an unique offer. He proposes, in the name of all of the tribes that walk my land unseen, that I join them in the old ways. My family and I have proven, time and time again, that we stand for Nahashin and the [GetGlobalVariable('ciriane_culture_var').Culture.GetName], that we stand in favor of Somisarian. Which is why, now, they propose that I become one of them, and show the culture they have preserved as best they could to the world.\n\n[mareschois.GetFirstName] objects, #italic "By accepting the ways of the Ciriane tribes, you would turn your back on the future you have built for the Mareschois! You would join those tribes, that indeed showed us our old beliefs. But we have surpassed their ways! We have surpassed the past they so cherish and will never leave! We do not need to heed their words anymore, for we can prove that we may forge a story of legend, not one that attaches itself to the Ciriane, but one which people will attach themselves to!"#!"
+ dataw_ciriane_rebellion.4260.a: "You are right. We will forge our own path, as an Empire for the future, not the past!"
+ dataw_ciriane_rebellion.4260.b: "No, my goal was to embrace the old ways, and embrace them I shall."
+
+# An Empire for us all.
+ dataw_ciriane_rebellion.4261.t: "An Empire For Us All"
+ dataw_ciriane_rebellion.4261.desc: "I wondered, in the last few days, if my decision was correct. Should I have accepted their offer? What would have happened if I did not listen to [mareschois.GetFirstName]? I am supposed to oversee a festival today, one organized in my name, yet my head is still swallowed by those doubts over my decision.\n\n#N But they all disappear once I step outside.#!\n\nAll around, I see my people, proud of their ways, speaking the language they always did, without fear, for they can practice the Ways of Old freely. Yet none speak of the past. None speak of the time of [GetGlobalVariable('orlesian_culture_var').Culture.GetName] rule, none speak of their faith as if it was one long lost set of belief rediscovered at last. None speak of my Empire as a continuation of the ways of our people.\n\n#G All speak of the future.#!\n\nI understand now that the choice I made was the right one, for I have taken the ways of our past, and brought them into the modern world. The nostalgia of the past drived us to this moment, yet, now, in the middle of this crowd that chants my name, I see that we have not allowed ourselves to be slaves to it.\n\n#X We are not the past.#!"
+ dataw_ciriane_rebellion.4261.a: "We are the future of Nahashin, no, the whole of the Empire!"
+
+# An Empire for us all.
+ dataw_ciriane_rebellion.4262.t: "The Ways of Old Reclaimed"
+ dataw_ciriane_rebellion.4262.desc: "Immediately after accepting the offer, I was lead in the deepest hearts of Nahashin, under the disapproving gaze of [mareschois.GetFirstName], in order to live, if only for a few days, among the tribes.\n\nThrough those days, I was tested on all matters, and never was I allowed a moment of rest. History, the old ways of governing, as well as customs and long-lost battle tactics… Even my sleep was without rest, for they still had things to teach me while I laid in bed.\n\nYet, at the end of it all, I sat in front of the reunited chieftains of the old tribes, all at the same place for the first time in ages, and I told them everything they teached. The way they governed, the way they talked and interacted, I said it all, showed what I could and explained what I knew.\n\nIn the end, one of the chieftains stood up in the tent and said: #italic "We have chosen that you know all you need to know. We have declared you one of us, for you have proven your loyalty to our land and shown us your understanding of our culture. Some of us will come out of the shadows to follow you, yet know that some of our tribes will accept the members of your new faith as brothers, not as part of them. Now go, for you are the Chosen among the Ciriane, and you will bring back the Ciriane into the light, where they were meant to be.#!"
+ dataw_ciriane_rebellion.4262.a: "All hail Somisarian, Queen of the Sun and Moon. All hail the Empire of the Ciriane."
+ dataw_ciriane_rebellion.4262.a.c: "Ciriane"
+
+# An Empire for us all.
+ dataw_ciriane_rebellion.4263.t: "Construction Begins?"
+ dataw_ciriane_rebellion.4263.desc: "I look over the plans presented to me by the engineers. A complicated system of canals, sluice gates and dams will let us better control the water flow throughout the marshes, lowering the risk of floods and increasing the amount of arable land available.\n\nThey estimate it will take five years to complete a project of this size. If all goes according to the plans laid out in front of me, then by the end of this we will have set up the infrastructure needed to speed up the development of the [GetGeographicalRegion('custom_mareschois_population').GetName] in ways we could never have dreamed of even a few years ago.\n\n#N All that is awaited is my seal committing funds to it. Do I dare go forward with such a massive undertaking?#!"
+ dataw_ciriane_rebellion.4263.a: "Yes! Let the project begin."
+ dataw_ciriane_rebellion.4263.b: "On second thoughts. Maybe we should wait first."
+ dataw_ciriane_rebellion.4263.b_tt: "Since you have already hired engineers to draw plans, you will only get back #P 600[gold_i]#! out of the #P 750[gold_i]#! you spent on the decision. You can take it again when ready."
+
+# Local Tribes Protest Change
+ dataw_ciriane_rebellion.4265.t: "Local Tribes Protest Change"
+ dataw_ciriane_rebellion.4265.desc: "Rumors have been making their way to my court over the last few weeks about demonstrations and even fights breaking out in [high_dev_county.GetName].\n\nFinally, a sheepish looking official brings you a report detailing that the local tribes have been complaining about the destruction of their traditional land for new #italic "projects"#! which they deem a waste of time and resources.\n\nI suppress a sigh, the local workers have been unable to meet their demands and have instead brought this issue to me.\n\nIf I do not handle it soon, then there is no knowing how bad things will get, decisive action is needed to quell the complaints."
+ dataw_ciriane_rebellion.4265.n.desc: "\n\nThis ruckus is likely brought on by my large scale project to Drain the Marshes. If this issue continues, or if it gets worse, then there is a high chance that this will cause issues with the outcome of the project."
+ dataw_ciriane_rebellion.4265.a: "Placate them with gold and platitudes."
+ dataw_ciriane_rebellion.4265.b: "Placate them with promises and words."
+ dataw_ciriane_rebellion.4265.c: "Placate them with lies and false promises."
+ dataw_ciriane_rebellion.4265.d: "Crush them with the troops."
+ dataw_ciriane_rebellion.4265.e: "Ignore them and hope the problem resolves itself."
+ dataw_ciriane_rebellion.4265.w: "The Tribes are Content"
+ dataw_ciriane_rebellion.4265.l: "The Tribes remain Displeased"
+# The Tribes are Content
+ dataw_ciriane_rebellion.4266.t: "The Tribes are Content"
+ dataw_ciriane_rebellion.4266.desc: "My actions seem to have worked.\n\nReports of local tribal demonstrations and fighting have drastically lowered and I have even received grumblings from the LLocal Tribal leaders that they are most pleased with what I have offered them.\n\n#N With this issue solved work can once again continue in [high_dev_county.GetName].#!\n\nAllowing for the projects in the region to continue without fear of interference or delay."
+ dataw_ciriane_rebellion.4266.a: "A great success indeed!"
+
+# The Tribes remain Displeased
+ dataw_ciriane_rebellion.4267.t: "The Tribes Remain Displeased"
+ dataw_ciriane_rebellion.4267.desc: "The days go by and the reports I receive from [high_dev_county.GetName] continue to worsen, as more and more reports of skirmishes between local tribesmen and local workers come in.\n\nI soon find myself with no choice but to send in soldiers to quell the situation before things break down even further.\n\n#N This will fix the issue, but neither the workers nor the tribesmen will be happy with the increased military presence, likely causing issues with the projects planned in the region.#!"
+ dataw_ciriane_rebellion.4267.a: "There is no other way!"
+
+# The Tribes are Destroyed
+ dataw_ciriane_rebellion.4268.t: "The Tribes are Destroyed"
+ dataw_ciriane_rebellion.4268.desc: "Sometimes a bit of blood and fear is needed to put respect in my subjects.\n\nI send in a large contingent of troops and over the following days I receive reports of raids and harsh reprisals on the local tribes in the areas.\n\nIn no time at all, the demonstrations and issues they had with [high_dev_county.GetName] were replaced with much more pressing ones.\n\n#N By the time I call my troops back, the damage done will take many years for the local tribespeople to rebuild, which while not a popular play, has solved the issue in the area.#!"
+ dataw_ciriane_rebellion.4268.a: "They will bend to my will."
+
+## Corrupt Officials Steal Money
+ dataw_ciriane_rebellion.4269.t: "Corrupt Officials Steal Money"
+ dataw_ciriane_rebellion.4269.desc: "After receiving a request for money for the fifth time in as many weeks, I take the time to scour the various ledgers and letters I have received from officials in [low_dev_county.GetName] and I have come to only one conclusion, one of these officials is embezzling my funds!\n\nHowever, the trail is obscured enough for me to not be able to track down the perpetrator.\n\n#N They cannot be left to continue their thievery unabated, or it risks increasing costs and encouraging even further corruption.#!\n\n"
+ dataw_ciriane_rebellion.4269.n.desc: "This ruckus is likely brought on by my large scale project to drain the marshes. If this issue continues, or if it gets worse, then there is a high chance that this will cause issues with the outcome of the project."
+ dataw_ciriane_rebellion.4269.a: "Assume direct control of the affected project area."
+ dataw_ciriane_rebellion.4269.b: "Lay a trap to lure out the Corrupted Officials."
+ dataw_ciriane_rebellion.4269.c: "Execute the lot and bring in new officials."
+ dataw_ciriane_rebellion.4269.d: "Ignore the issue."
+ dataw_ciriane_rebellion.4269.w: "The Corrupt Officials vanish"
+ dataw_ciriane_rebellion.4269.l: "The Corrupt Officials grow out of control"
+
+# Corrupt Officials Disappear
+ dataw_ciriane_rebellion.4270.t: "Corrupt Officials Disappear"
+ dataw_ciriane_rebellion.4270.desc: "The measures I have taken against the corrupt officials in [low_dev_county.GetName] seem to have proven effective.\n\n#N Close watch of the ledgers and funds being sent between us shows no more discrepancies and all work in the county is progressing at an adequate rate.#!"
+ dataw_ciriane_rebellion.4270.a: "Corruption has no place here."
+
+# Corrupt Officials Worsens
+ dataw_ciriane_rebellion.4271.t: "Corrupt Officials Worsens"
+ dataw_ciriane_rebellion.4271.desc: "The measures I have taken against the corrupt officials in [low_dev_county.GetName] have made no dent on the rampant corruption.\n\n#N Discrepancies remain in the ledgers and the size of the funds missing only increases by the month.#!"
+ dataw_ciriane_rebellion.4271.a: "What a disaster."
+
+# Wyvern Event Chain
+ dataw_ciriane_rebellion.4272.t: "Wyvern Attacks"
+ dataw_ciriane_rebellion.4272.desc: "I receive a letter from the workers in [wyvern_county.GetName] holding dire news.\n\nA Wyvern has taken nest somewhere in the County, feasting on any traffic it finds upon the various roads and settlements within the area.\n\nMost workers within the county refuse to leave their homes out of fear of being attacked by the beast.\n\n#N The letter implores me to send aid immediately, as without it the entire county risks falling into inactivity. Though what aid to send exactly is up to me.#!"
+ dataw_ciriane_rebellion.4272.n.desc: "\n\nIf this issue continues, or if it gets worse, then there is a high chance that this will cause issues with the outcome of the project."
+ dataw_ciriane_rebellion.4272.a: "Lead a group of soldiers personally."
+ dataw_ciriane_rebellion.4272.b: "Send [knight.GetFirstName] with a group of soldiers."
+ dataw_ciriane_rebellion.4272.c: "Hire a Wyvern Hunter to handle it."
+ dataw_ciriane_rebellion.4272.d: "Ignore the issue."
+ dataw_ciriane_rebellion.4272.w: "The Wyvern is Slain"
+ dataw_ciriane_rebellion.4272.l: "The Wyvern Remains Elusive"
+# Slaying the Wyvern
+ dataw_ciriane_rebellion.4273.t: "Slaying the Wyvern"
+ dataw_ciriane_rebellion.4273.desc: "Darting up close, I use the brief distraction one of my soldiers has given me to get within striking distance of the Wyvern. The tail whips around, and everything seems to slow as I finally plunge the blade through the Wyvern’s scales, its body’s frantic movements slowing as life drains from the beast.\n\nTaking a glance around at my men, I see a few injured and, sadly, some dead from the battle with the Wyvern. Those that still stand are looking at me with a glint in their eyes. Clearly, my performance in the hunt was impressive, and it appears I have left a lasting impression on these men.\n\nNow that the Wyvern has been slain, the people can go back to normal in [wyvern_county.GetName], without fear of being feasted upon. Only one question remains: how will I handle the body of this creature."
+ dataw_ciriane_rebellion.4273.a: "Tour the Wyvern head throughout the land, to show my might."
+ dataw_ciriane_rebellion.4273.b: "Grant the Wyvern’s corpse to the local people."
+ dataw_ciriane_rebellion.4273.c: "Sell the corpse to the highest bidder."
+ wyvern_corpse_donated: "Wyvern Corpse Donated"
+ frequent_wyvern_attacks: "Frequent Wyvern Attacks"
+ recently_slain_wyvern: "Recently Slain Wyvern"
+ proudly_displaying_wyvern_head: "Proudly Displaying Wyvern Head"
+ marshes_drained: "Marshes Drained"
+# The Wyvern is Slain
+ dataw_ciriane_rebellion.4274.t: "The Wyvern is Slain"
+ dataw_ciriane_rebellion.4274.desc: "With each passing day the gnawing worry that the people I have sent to handle the Wyvern have failed grows in my head. However finally they return, presenting me with the grizzly head of a sizable Wyvern that they have felled.\n\nElated, I congratulate all the men responsible for this operation. Ensuring they are rewarded sufficiently both in monetary terms and in prestige from my court. It isn’t everyday a Wyvern’s head is brought to court after all.\n\n#N Now that the Wyvern has been slain, the people can go back to normal in [wyvern_county.GetName], without fear of being feasted upon.#!"
+ dataw_ciriane_rebellion.4274.a: "A victory to celebrate for days to come."
+
+# The Wyvern Remains Elusive
+ dataw_ciriane_rebellion.4275.t: "The Wyvern Remains Elusive"
+ dataw_ciriane_rebellion.4275.a.desc: "With each passing day more and more reports stream in of the Wyvern attacking caravans, villages and people. It’s attacks growing bolder and the cries for help growing louder.\n\n"
+ dataw_ciriane_rebellion.4275.b.desc: "It appears those I sent to resolve the situation have failed, as no news of their success or return has made its way to me.\n\n"
+ dataw_ciriane_rebellion.4275.c.desc: "The only silver lining I can see is that the Wyvern is bound to move on soon, leaving a damaged countryside behind, but one that can be rebuilt. Though the people of [wyvern_county.GetName] are not likely to view it this way."
+ dataw_ciriane_rebellion.4275.a: "I only hope the Wyvern disappears sooner rather than later."
+
+# A Dream Becomes Reality
+ dataw_ciriane_rebellion.4276.t: "A Dream Becomes Reality"
+ dataw_ciriane_rebellion.4276.desc: "Months have passed since the decision was made to drain these marshes, the dream that was once presented to me on detailed blueprints and paper ledgers has now become a reality. Large sluice gates have been installed at various points of the land, allowing for the everpresent flooding to be contained and even controlled. Boosting crop growth and production to levels to previously unthinkable levels.\n\nMy engineers are celebrating this achievement and perhaps most miraculously so are the stewards of my Kingdom, as the project stayed well within budget, helped in large part by my quick handling of any issues it faced during its development.\n\n#N Today we celebrate as the future for the people of Nahashin has never been so bright, as this is but one of the steps that I need to take to turn this area from the backwater it is perceived as into the Empire I dream of it as.#!"
+ dataw_ciriane_rebellion.4276.a: "To a successful dream."
+ dataw_ciriane_rebellion.4276.s.c_tt: "Limited to [GetTitleByKey('d_claose').GetBaseNameNoTier]"
+ dataw_ciriane_rebellion.4276.s.h_tt: "Limited to [GetTitleByKey('d_henar').GetBaseNameNoTier]"
+ dataw_ciriane_rebellion.4276.n.a_tt: "Limited to [GetTitleByKey('d_archambon').GetBaseNameNoTier]"
+ dataw_ciriane_rebellion.4276.n.e_tt: "Limited to [GetTitleByKey('d_eudolon').GetBaseNameNoTier]"
+
+# The Cost of a Dream
+ dataw_ciriane_rebellion.4277.t: "The Cost of a Dream"
+ dataw_ciriane_rebellion.4277.desc: "Months have passed since the decision was made to drain these marshes, the dream that was once presented to me on detailed blueprints and paper ledgers has now become a reality. Large sluice gates have been installed at various points of the land, allowing for the everpresent flooding to be contained and even controlled. Boosting crop growth and production to levels to previously unthinkable levels.\n\nHowever, while the accomplishment is impressive and the project will last beyond my lifetime, the cost of it has increased past what was originally allocated, by a sizable sum. My engineers give excuses and try to shift blame, though it is but a front as they silently accuse me. “If you’d handled the issues facing this project better we wouldn’t be here!”, their eyes say, whilst their words offer nothing but platitudes.\n\nThis sum will be paid, I have no choice in this matter lest word get out that I don’t make good my debts. And despite all this we can celebrate the advancement of Nahashin, as this is but one of the steps that needs to be taken to turn this area from the backwater it is perceived into the Empire I dream of it as.\n\n#N A shame dreams are expensive.#!"
+ dataw_ciriane_rebellion.4277.a: "The sum will be paid and this farce can be done away with."
+
+# The Wetlands Revitalised
+ dataw_ciriane_rebellion.4278.t: "The Wetlands Revitalised"
+ dataw_ciriane_rebellion.4278.desc: "Finally the entirety of Nahashin has undertaken the project that was envisioned all those years ago!\n\nPeople all across my Kingdom are praising the benefits that these changes have brought and while there is room for improvements in the future, for now it is one of the largest undertakings done by our people in all of recorded history, and so should be celebrated as such.\n\nWith the project finished, my name and house is all but guaranteed to go down in history as one of the fundamental figures of Nahashin, and soon the Empire that is to come.\n\n#N For now however, I am allowed to bask in the glory this success has achieved me.#!"
+ dataw_ciriane_rebellion.4278.a: "To more steps forward such as this!"
+
+ dataw_ciriane_rebellion.4280.t: "An Empire for My People"
+ dataw_ciriane_rebellion.4280.desc: "Finally, the dream of an Empire to the west is realized. An Empire that speaks not the Orlesian Tongue, but the Ciriane of the west. An Empire to rival Orlais, given in offering to the [GetGlobalVariable('mareschois_culture_var').Culture.GetName] of Nahashin, my people, who through their blood and sweat helped me fuel this dream."
+ dataw_ciriane_rebellion.4280.a: "Long live the Empire of [GetTitleByKey('e_nahashin').GetBaseNameNoTier]!"

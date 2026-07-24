@@ -1,0 +1,180 @@
+﻿l_russian:
+
+
+
+  orlesian_monarchy: "Orlesian Monarchy"
+  orlesian_monarchy_concept: "[orlesian_monarchy|E]"
+  orlesian_monarchy_adjective: "Orlesian"
+  orlesian_monarchy_with_icon: "Orlesian Monarchy"
+  orlesian_monarchy_desc: "Prior to the time of Drakon, the nation of Orlais was little more than a federation of squabbling city-states. The legacy of this time endures in the nobility's ability to rule city holdings without penalty."
+  orlesian_monarchy_filter_option_desc: "Only show characters with Orlesian Government"   ### Orlesian Gov should be tool tip
+  orlesian_monarchy_filter_option: "Orlesian"
+  orlesian_icon_concept: "[orlesian_i|E]"
+  
+
+
+
+
+  game_concept_orlesian_monarchy: "Orlesian"
+  game_concept_orlesian_monarchy_desc: "Prior to the time of Drakon, the nation of Orlais was little more than a federation of squabbling city-states. The legacy of this time endures in the nobility's ability to rule city holdings without penalty."
+  game_concept_orlesian_i: "@orlesian_government!"
+ 
+
+
+
+
+
+  circle_government: "Circle of Magi"
+  circle_icon_concept: "[circle_i|E]"
+  circle_government_adjective: "Circle of Magi"
+  circle_government_with_icon: "Circle of Magi"
+  circle_government_desc: "The Circles of Magi have a hierarchical system of governance; each [circle|E] is led by a [first_enchanter|E], assisted by a council of [senior_enchanter|E]."
+  circle_government_filter_option_desc: "Only show characters with [circle|E] Government"   ### Orlesian Gov should be tool tip
+  circle_government_filter_option: "Circle of Magi"
+
+
+  grey_warden_government: "Grey Warden"
+  grey_warden_government_adjective: "Grey Warden"
+  grey_warden_government_desc: "[grey_warden|E] "
+  grey_warden_icon_concept: "[grey_warden_i|E]"
+  grey_warden_government_filter_option_desc: "Only show characters with [grey_warden|E] Government"
+  grey_warden_government_filter_option: "Grey Warden"
+  templar_government: "Templar Order"
+  templar_government_adjective: "Templar Order"
+  templar_government_with_icon: "Templar Order"
+  templar_government_desc: "The Templar Order have a hierarchical system of governance; each [templar|E] is led by a [knight_commander|E]."
+  templar_government_filter_option_desc: "Only show characters with [templar|E] Government"   ### Orlesian Gov should be tool tip
+  templar_government_filter_option: "Templar Order"
+
+
+
+
+
+
+
+  GAME_OVER_CANNOT_PLAY_CIRCLE: "Cannot play [circle|E]"
+  NOT_GAME_OVER_CANNOT_PLAY_CIRCLE: "$GAME_OVER_CANNOT_PLAY_CIRCLE$"
+
+  GAME_OVER_CANNOT_PLAY_TEMPLAR: "Cannot play [templar|E]"
+  NOT_GAME_OVER_CANNOT_PLAY_TEMPLAR: "$GAME_OVER_CANNOT_PLAY_TEMPLAR$"
+
+  GAME_OVER_CANNOT_PLAY_GREY_WARDEN: "Cannot play [grey_warden|E]"
+  NOT_GAME_OVER_CANNOT_PLAY_GREY_WARDEN: "$GAME_OVER_CANNOT_PLAY_GREY_WARDEN$"
+
+  CANNOT_REVOKE_CIRCLE: "Cannot revoke titles from [circle|E]"
+  CANNOT_REVOKE_WARDEN: "Cannot revoke titles from [grey_warden|E]"
+
+  game_concept_circle: "Circle"
+  game_concept_circle_government: "Circle Government"
+  game_concept_circle_i: "@circle_icon!"
+  game_concept_grey_warden_i: "@grey_warden_icon!"
+  game_concept_circle_desc: "The $game_concept_circle$ is an unplayable [government_form|E] used by [mage|E] Circles. They are usually led by a [first_enchanter|E]"
+   #Default circle tiers
+  circle_senior_enchanter_female_spymaster: "[senior_enchanter]" 
+  circle_senior_enchanter_female_chancellor: "[senior_enchanter]" 
+  circle_senior_enchanter_female_steward: "[senior_enchanter]" 
+  circle_senior_enchanter_female_marshal: "[senior_enchanter]" 
+  circle_senior_enchanter_female_court_chaplain: "[senior_enchanter]" 
+  circle_senior_enchanter_male_spymaster: "[senior_enchanter]" 
+  circle_senior_enchanter_male_chancellor: "[senior_enchanter]" 
+  circle_senior_enchanter_male_steward: "[senior_enchanter]" 
+  circle_senior_enchanter_male_marshal: "[senior_enchanter]" 
+  circle_senior_enchanter_male_court_chaplain: "[senior_enchanter]" 
+  baron_circle_male: "[first_enchanter]"
+  baron_circle_female: "[first_enchanter]"
+  barony_circle: "Circle"                        
+  count_circle_male: "[first_enchanter]"
+  count_circle_female: "[first_enchanter]"
+  county_circle: "Circle"
+  duke_circle_male: "[first_enchanter]"
+  duke_circle_female: "[first_enchanter]"
+  duchy_circle: "Circle"
+  king_circle_male: "[first_enchanter]"
+  king_circle_female: "[first_enchanter]"
+  kingdom_circle: "Circle"
+  emperor_circle_male: "[first_enchanter]"
+  emperor_circle_female: "[first_enchanter]"
+  empire_circle: "Circle"
+  
+  #Default templar tiers
+  templar_knight_commander_female_spymaster: "[knight_commander]" 
+  templar_knight_commander_female_chancellor: "[knight_commander]" 
+  templar_knight_commander_female_steward: "[knight_commander]" 
+  templar_knight_commander_female_marshal: "[knight_commander]" 
+  templar_knight_commander_female_court_chaplain: "[knight_commander]" 
+  templar_knight_commander_male_spymaster: "[knight_commander]" 
+  templar_knight_commander_male_chancellor: "[knight_commander]" 
+  templar_knight_commander_male_steward: "[knight_commander]" 
+  templar_knight_commander_male_marshal: "[knight_commander]" 
+  templar_knight_commander_male_court_chaplain: "[knight_commander]" 
+  baron_templar_male: "[knight_commander]"
+  baron_templar_female: "[knight_commander]"
+  # barony_templar: "Templar"
+  count_templar_male: "[knight_commander]"
+  count_templar_female: "[knight_commander]"
+  # county_templar: "Templar"
+  duke_templar_male: "[knight_commander]"
+  duke_templar_female: "[knight_commander]"
+  # duchy_templar: "Templar"
+  king_templar_male: "[knight_commander]"
+  king_templar_female: "[knight_commander]"
+  # kingdom_templar: "Templar"
+  emperor_templar_male: "[knight_commander]"
+  emperor_templar_female: "[knight_commander]"
+  # empire_templar: "Templar"
+
+  # Default Grey Warden tiers 
+  grey_warden_female_spymaster: "Senior Warden" 
+  grey_warden_female_chancellor: "Senior Warden" 
+  grey_warden_female_steward: "Senior Warden" 
+  grey_warden_female_marshal: "Senior Warden" 
+  grey_warden_female_court_chaplain: "Senior Warden" 
+  grey_warden_male_spymaster: "Senior Warden" 
+  grey_warden_male_chancellor: "Senior Warden" 
+  grey_warden_male_steward: "Senior Warden" 
+  grey_warden_male_marshal: "Senior Warden" 
+  grey_warden_male_court_chaplain: "Senior Warden" 
+  baron_grey_warden_male: "[warden_commander]"
+  baron_grey_warden_female: "[warden_commander]"
+  barony_grey_warden: "Stronghold"
+  count_grey_warden_male: "[warden_commander]"
+  count_grey_warden_female: "[warden_commander]"
+  county_grey_warden: "Stronghold"
+  duke_grey_warden_male: "[warden_commander]"
+  duke_grey_warden_female: "[warden_commander]"
+  duchy_grey_warden: "Stronghold"
+  king_grey_warden_male: "[warden_commander]"
+  king_grey_warden_female: "[warden_commander]"
+  kingdom_grey_warden: "Stronghold"
+  emperor_grey_warden_male: "[warden_commander]"
+  emperor_grey_warden_female: "[warden_commander]"
+  empire_grey_warden: "Stronghold"
+
+  nomadic_clan_gov: "Nomadic Clan"
+  nomadic_clan_gov_desc: "These proud descendants of the Dales live in small nomad clans. Oft unwelcome, they skirt the edges of human civilization, remaining insular and communal."
+  clan_government: "Settled Clan"
+  clan_government_desc: "After a long march, the [elves|E] have found a new home. Clans gather from all across [thedas|E], banding together to found a new Elvhenan in a new Age."
+  gov_increases_hostile_scheme_power: "[government|E] type increases [hostile_scheme|E] [success_chance|E]"
+  jizya_special_rights_tax_collector: "Salasahn Tithe"
+  jizya_special_rights_tax_collector_flavor_desc: "Though rarely sustained and often revoked, the 'Chanter's Right' is a precedent which allows for non-Evanuris faiths to be practised inside Elvhen lands, namedly the [chant_of_light|E]. For a significant price, such things may be tolerated. For now."
+  iqta_special_rights_tax_collector: "Maramas Boon"
+  iqta_special_rights_tax_collector_flavor_desc: "A declaration that taxes are 'Yours for the Taking' permits vassals to administer tax farming in their own holdings. In return they are expected to provide recruits and gold for the Emerald Knights, along with other forces assembled by their liege for the defence of the Elvhen realm."
+  ghazi_special_rights_tax_collector: "Dar'Enaste Bearer"
+  ghazi_special_rights_tax_collector_flavor_desc: "For the frontier lord, the sorts of raids and expansions required to defend the borders are often officially discouraged. However an envoy may quietly deliver a 'Favored Blade', imprinted with the Oath of the Dales, informing them that such actions may be... quietly overlooked, or even approved."
+  deqhan_special_rights_tax_collector: "Re'virelan Right"
+  deqhan_special_rights_tax_collector_flavor_desc: "Before the Emerald Knights, volunteer militias would be granted the right to conduct a 'March of the Free' though Halamshiral. By reviving it, we'd allow vassals to swan through our capital and perhaps outshine our own men-at-arms, in exchange for tidy sums of sword and [gold|E]."
+  maguh_special_rights_tax_collector: "Hahaur Tribute"
+  maguh_special_rights_tax_collector_flavor_desc: "Another older decree, the 'Elder's Gold' tribute was paid for decades by some of the richest clans of The Dales to help fund the construction of the forest capital of Halamshiral. Should another great city of the Elvhen people ever be needed, the return of the Hahuar seems likely."
+  muqata_special_rights_tax_collector: "Marethan Vow"
+  muqata_special_rights_tax_collector_flavor_desc: "Popular during the early years of the Dales, this decree shifts the emphasis away from collecting for the benefit of the liege, and instead places the focus on 'Your Keep'. Vassals in underdeveloped or distant regions are therefore free to focus on the growth of their local communities."
+  strict_taxation_tax_collector: "La'solas Enforced"
+  strict_taxation_tax_collector_flavor_desc: "Technically mandatory for all Elvhen folk, this 'Gift of Pride' is intended as a means for the wealthiest nobles of the Dales to give a proportion of their riches to the poorest members of Elvhen society. By piously enforcing this tradition, we lessen the burden of charity on the state and do some good."
+  iqta_special_rights: "Maramas Boon"
+  iqta_special_rights_granted: "Maramas Boon Extended"
+  iqta_special_rights_granted_short: "Extended"
+  ghazi_special_rights: "Dar'Enaste Bearer"
+  ghazi_special_rights_granted: "Dar'Enaste Blade Provided"
+  ghazi_special_rights_granted_short: "Blade Provided"
+  jizya_special_rights: "Salasan Tithe"
+  jizya_special_rights_granted: "Salasan Tithe Enacted"
+  jizya_special_rights_granted_short: "Enacted"

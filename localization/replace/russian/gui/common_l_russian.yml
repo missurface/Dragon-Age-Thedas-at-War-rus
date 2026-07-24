@@ -1,0 +1,6 @@
+﻿l_russian:
+
+ TOP_BAR_VERSION:2 "TaW Version: $TAW_version$\nGame Version: [GetGameVersionInfo]\nMP Checksum: [GetMPChecksum|V] $MODIFIED_CHECKSUM$ [GetRandomLogInfo]"
+ VERSION_SHORT:2 "$TAW_version$\n[GetGameVersionInfoShort], Checksum: [GetMPChecksum] $MODIFIED_CHECKSUM$"
+ COTW_ENABLE: "Character of\n the Week"
+ ##COA_REALM_TOOLTIP_CHARACTER:4 "#T [CHARACTER.GetPrimaryTitle.GetNameWithUnderlyingNoTooltip|U]#!\n[CHARACTER.GetGovernment.GetName] [CHARACTER.GetPrimaryTitle.GetRankConcept]-[rank|E] [realm|E]\n[ruler|E]: [CHARACTER.GetUIName|U]\nMilitary Strength: [CHARACTER.GetMilitaryStrengthText|V] [soldiers|E]\nRealm Size: [CHARACTER.RealmSize|V] [counties|E]\n\n#S Succession#!\nSuccession Law: $SUCCESSION_FORM_NAME$\n\n[line_of_succession|E]:\n[CHARACTER.GetPrimaryTitle.GetLineOfSuccessionDesc]"

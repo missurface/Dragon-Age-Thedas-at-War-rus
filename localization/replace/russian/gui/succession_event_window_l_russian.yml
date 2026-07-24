@@ -1,0 +1,26 @@
+﻿l_russian:
+
+# DATAW ADDED
+ SUCCESSION_EVENT_WINDOW_DEAD_INTRO_AVVAR:0 "[ROOT.Char.GetFullNameNoTooltip] reunited with [ROOT.Char.GetHerHis] kin at [ROOT.Char.GetAge] years of age"
+ SUCCESSION_EVENT_WINDOW_DEAD_INTRO_CULT_OF_THE_SKY:0 "[ROOT.Char.GetFullNameNoTooltip] was taken to the Lady of the Skies via Eagle at [ROOT.Char.GetAge] years of age."
+ SUCCESSION_EVENT_WINDOW_DEAD_INTRO_JAWS_OF_HAKKON:0 "[ROOT.Char.GetFullNameNoTooltip] joined Hakkon Wintersbreath in silence at [ROOT.Char.GetAge] years of age."
+ SUCCESSION_EVENT_WINDOW_DEAD_INTRO_CHASIND:0 "[ROOT.Char.GetFullNameNoTooltip] was taken by the Seasons at [ROOT.Char.GetAge] years of age."
+ SUCCESSION_EVENT_WINDOW_DEAD_INTRO_BRUCILLAS:0 "[ROOT.Char.GetFullNameNoTooltip] walked within the Woods for the last time at [ROOT.Char.GetAge] years of age."
+ SUCCESSION_EVENT_WINDOW_DEAD_INTRO_MAKER:0 "[ROOT.Char.GetFullNameNoTooltip] journeyed beyond the Fade to the Maker's side at [ROOT.Char.GetAge] years of age."
+ SUCCESSION_EVENT_WINDOW_DEAD_INTRO_ANDRASTE:0 "[ROOT.Char.GetFullNameNoTooltip] joined blessed Andraste at [ROOT.Char.GetAge] years of age."
+ SUCCESSION_EVENT_WINDOW_DEAD_INTRO_FIERY:0 "[ROOT.Char.GetFullNameNoTooltip]'s role in the rebirth of the world ended at [ROOT.Char.GetAge] years of age."
+ SUCCESSION_EVENT_WINDOW_DEAD_INTRO_HESSARIAN:0 "[ROOT.Char.GetFullNameNoTooltip]'s service to blessed Andraste ended at [ROOT.Char.GetAge] years of age."
+ SUCCESSION_EVENT_WINDOW_DEAD_INTRO_MASKED_ANDRASTE:0 "[ROOT.Char.GetFullNameNoTooltip] joined Andraste deep within the Applewoods at [ROOT.Char.GetAge] years of age."
+ SUCCESSION_EVENT_WINDOW_DEAD_INTRO_DAUGHTERS_SONG:0 "[ROOT.Char.GetFullNameNoTooltip] ascended to join the Holy Union at [ROOT.Char.GetAge] years of age."
+ SUCCESSION_EVENT_WINDOW_DEAD_INTRO_VIR_EVANURIS:0 "[ROOT.Char.GetFullNameNoTooltip] followed the sacred Halla at [ROOT.Char.GetAge] years of age."
+
+
+
+
+ #DATAW ADDED
+ SUCCESSION_EVENT_WINDOW_DEAD_OUTRO_ACCOMPLISHMENT_CRESENT:0 "By your hand, the Avvar of the Crescent Valley have been subdued, and the honor of the great city of Jader restored."
+ SUCCESSION_EVENT_WINDOW_DEAD_OUTRO_ACCOMPLISHMENT_BANNORN:0 "[ROOT.Char.GetFullNameNoTooltip] achieved the impossible and unified the squabbling Banns into a single Kingdom."
+ SUCCESSION_EVENT_WINDOW_DEAD_OUTRO_ACCOMPLISHMENT_FERELDEN:0 "From the highest Teyrn to the humblest Mabari Hound, none will ever forget that [ROOT.Char.GetFullNameNoTooltip] was the first to unite all of Ferelden."
+
+
+

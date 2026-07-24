@@ -1,0 +1,17 @@
+﻿l_russian:
+
+ rule_black_death_occurrence: "#N Blight Sickness#! Circumstance"
+ setting_bd_occurrence_organic: "#high Organic#!"
+ setting_bd_occurrence_organic_desc: "The #N Blight Sickness#! will occur in a historically plausible scenario that is reactive to the current state of the game."
+ setting_bd_occurrence_historical: "Historical"
+ setting_bd_occurrence_historical_desc: "The #N Blights#! will occur or have occurred at their recorded dates and locations. 1st in -395 Ancient, 2nd in 1:5 Divine, 3rd in 3:10 Towers, 4th in 5:12 Exalted, and 5th in 9:30 Dragon."
+ setting_bd_occurrence_random: "#high Random#!"
+ setting_bd_occurrence_random_desc: "The #N Blight Sickness#! will originate in a completely random province on the map."
+
+ rule_black_death_frequency: "#N Blight Sickness#! Frequency"
+ setting_bd_frequency_once: "Canon Blight Sickness"
+  setting_bd_frequency_once_desc: "The #N Blight Sickness#! will spawn on the exact date canonically."
+ setting_bd_frequency_unlimited: "#high Unlimited#!"
+ setting_bd_frequency_unlimited_desc: "The #N Blight Sickness#! can appear an unlimited number of times in a campaign."
+ setting_bd_frequency_never: "#high Never#!"
+ setting_bd_frequency_never_desc: "The #N Blight Sickness#! will never occur."

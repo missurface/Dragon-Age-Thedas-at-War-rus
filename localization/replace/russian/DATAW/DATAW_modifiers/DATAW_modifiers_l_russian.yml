@@ -1,0 +1,5 @@
+﻿l_russian:
+ magic_lifestyle_xp_gain_add: "Magic [lifestyle|E] Experience Gain"
+ magic_lifestyle_xp_gain_mult: "$magic_lifestyle_xp_gain_add$"
+ monthly_magic_lifestyle_xp_gain_add: "$monthly_magic_lifestyle_xp_gain_mult$"
+ monthly_magic_lifestyle_xp_gain_mult:0 "Monthly [dataw_magic|E] [lifestyle|E] Experience"

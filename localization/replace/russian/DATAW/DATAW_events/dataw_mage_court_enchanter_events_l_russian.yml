@@ -1,0 +1,23 @@
+﻿l_russian:
+# Recruit a court enchatner
+ dataw_mage_court_enchanter_events.0001.title: ""
+ dataw_mage_court_enchanter_events.0001.desc: ""
+
+  # Recruit physician event
+ dataw_mage_court_enchanter_events.0001.disease.t: "[SCOPE.Custom('EventTitleDisease')]:"
+ dataw_mage_court_enchanter_events.0001.title:1 "Court Enchanter"
+#  dataw_mage_court_enchanter_events.0001.fallback_reason.desc: "This world is full of dangers, even to a [ROOT.Char.GetTitleTierName] and [ROOT.Char.GetHerHis] [ROOT.Char.Custom('GetCourt')|l]. .\n\nI have asked around for recommendations, and have assembled a few options to chose from."
+ dataw_mage_court_enchanter_events.0001.desc: "This world is full of dangers, even to a [ROOT.Char.GetTitleTierName] and [ROOT.Char.GetHerHis] [ROOT.Char.Custom('GetCourtierPlural')|l]. As my behest, my servants have inquired after recommendations. Now they have assembled a few options to chose from."
+#  dataw_mage_court_enchanter_events.0001.already_sick.desc: "Finally, my servants have found some people who might be fit to serve as my physician. Either way, I fear I cannot afford to be picky now."
+ dataw_mage_court_enchanter_events.0001.a: "Apparently, [high_skill_option.GetFirstNameNoTooltip] is quite experienced."
+ dataw_mage_court_enchanter_events.0001.a.tt:1 "A [GetCourtPositionType('court_enchanter_court_position').GetName] also has a monthly salary of [gold_i][SCOPE.ScriptValue('court_position_physician_salary')]"
+ dataw_mage_court_enchanter_events.0001.a.aptitude: "[high_skill_option.GetUINamePossessive|U] [aptitude|E] is [high_skill_option.GetCourtPositionAptitude( GetCourtPositionType( 'court_enchanter_court_position' ) )]"
+ dataw_mage_court_enchanter_events.0001.b: "[low_skill_option.GetFirstNameNoTooltip] seems enthusiastic, if nothing else."
+ dataw_mage_court_enchanter_events.0001.b.aptitude: "[low_skill_option.GetUINamePossessive|U] [aptitude|E] is [low_skill_option.GetCourtPositionAptitude( GetCourtPositionType( 'court_enchanter_court_position' ) )]"
+ dataw_mage_court_enchanter_events.0001.c: "[mystic_option.GetFirstNameNoTooltip] claims to be trained in "alternative medicine.""
+ dataw_mage_court_enchanter_events.0001.c.aptitude: "[mystic_option.GetUINamePossessive|U] [aptitude|E] is [mystic_option.GetCourtPositionAptitude( GetCourtPositionType( 'court_enchanter_court_position' ) )]"
+ dataw_mage_court_enchanter_events.0001.d.two: "Both of them fail to impress me."
+ dataw_mage_court_enchanter_events.0001.d.more: "They all fail to impress me."
+ dataw_mage_court_enchanter_events.0001.e: "[excellent_skill_option.GetFirstNameNoTooltip] is widely known in scholarly circles."
+ dataw_mage_court_enchanter_events.0001.e.aptitude: "[excellent_skill_option.GetUINamePossessive|U] [aptitude|E] is [excellent_skill_option.GetCourtPositionAptitude( GetCourtPositionType( 'court_enchanter_court_position' ) )]"
+ dataw_mage_court_enchanter_events.0001.d.tt:1 "I do not recruit anyone as my [GetCourtPositionType('court_enchanter_court_position').GetName()]"

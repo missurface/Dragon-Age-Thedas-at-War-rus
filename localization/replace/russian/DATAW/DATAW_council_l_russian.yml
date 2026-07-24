@@ -1,0 +1,73 @@
+﻿l_russian:
+
+##Andrastianism 
+
+# Empire Tier
+ councillor_court_chaplain_andrastianism_empire:0 "[grand_cleric]"
+ councillor_court_chaplain_andrastianism_empire_possessive:0 "Grand Cleric's"
+
+# Cult of the Maker Empire Tier
+councillor_court_chaplain_cult_of_the_maker_empire:0 "High Elder"
+councillor_court_chaplain_cult_of_the_maker_empire_possessive:0 "High Elder's"
+
+# Cult of the Maker all other Tiers
+ councillor_court_chaplain_cult_of_the_maker_all_tiers:0 "Elder"
+ councillor_court_chaplain_cult_of_the_maker_all_tiers_possessive:0 "Elder's"
+
+# Ciriane Maker Cult Empire Tier
+councillor_court_chaplain_ciriane_maker_cult_empire:0 "High Elder"
+councillor_court_chaplain_ciriane_maker_cult_empire_possessive:0 "High Elder's"
+
+# Ciriane Maker Cult all other Tiers
+ councillor_court_chaplain_ciriane_maker_cult_all_tiers:0 "Elder"
+ councillor_court_chaplain_ciriane_maker_cult_all_tiers_possessive:0 "Elder's"
+
+# Alamarri Maker Cult Empire Tier
+councillor_court_chaplain_alamarri_maker_cult_empire:0 "High Elder"
+councillor_court_chaplain_alamarri_maker_cult_empire_possessive:0 "High Elder's"
+
+# Alamarri Maker Cult all other Tiers
+ councillor_court_chaplain_alamarri_maker_cult_all_tiers:0 "Elder"
+ councillor_court_chaplain_alamarri_maker_cult_all_tiers_possessive:0 "Elder's"
+
+# All other Tiers
+ councillor_court_chaplain_andrastianism_all_tiers:0 "Revered Father"
+ councillor_court_chaplain_andrastianism_all_tiers_possessive:0 "Revered Father's" 
+
+ councillor_court_chaplain_andrastianism_all_tiers_female:0 "Revered Mother"
+ councillor_court_chaplain_andrastianism_all_tiers_female_possessive:0 "Revered Mother's"
+
+## Alamarri Pagan Faiths 
+ councillor_court_chaplain_alamarri:0 "Augur"
+ councillor_court_chaplain_alamarri_possessive:0 "Augur's"
+
+## Brecilian Pagan Faiths 
+ councillor_court_chaplain_brecilian:0 "Druid"
+ councillor_court_chaplain_brecilian_possessive:0 "Druid's"
+
+## Chasind Pagan Faiths
+ councillor_court_chaplain_chasind:0 "Shaman"
+ councillor_court_chaplain_chasind_possessive:0 "Shaman's"
+
+## Elven Faiths 
+
+# Empire Tier
+ councillor_court_chaplain_elven_empire:0 "High Keeper"
+ councillor_court_chaplain_elven_empire_possessive:0 "High Keeper's"
+
+# All other Tiers
+ councillor_court_chaplain_elven_all_tiers:0 "Keeper"
+ councillor_court_chaplain_elven_all_tiers_possessive:0 "Keeper's"
+
+## Wake culture
+ councillor_chancellor_wake:0 "First Mate"
+ councillor_chancellor_wake_possessive:0 "First Mate's"
+
+ councillor_steward_wake:0 "Quartermaster"
+ councillor_steward_wake_possessive:0 "Quartermaster's"
+
+ councillor_marshal_wake:0 "Scrapper"
+ councillor_marshal_wake_possessive:0 "Scrapper's"
+
+ councillor_spymaster_wake:0 "Gossiper"
+ councillor_spymaster_wake_possessive:0 "Gossiper's"

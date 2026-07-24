@@ -1,0 +1,31 @@
+﻿l_russian:
+
+ trait_education_diplomacy_4:0 "Grey Eminence"
+ trait_education_diplomacy_4_desc:0 "As familiar with the nuances of diplomacy as the back of their hand, the Grey Eminence is a master of the art."
+
+ trait_education_stewardship_4:0 "Golden Touched"
+ trait_education_stewardship_4_desc:0 "The Golden Touched is followed by success after success in the art of stewardship, displaying an indisputable mastery of the art."
+
+ trait_hashishiyah:0 "Elfroot Addict"
+ trait_hashishiyah_desc:0 "This character is dependent on the consumption of elfroot to deal with the stress of everyday life."
+ trait_hashishiyah_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is dependent on the consumption of elfroot to deal with the stress of everyday life."
+
+ trait_blighted:0 "Blighted"
+ trait_blighted_desc:0 "This character is afflicted by the Blight. They will either perish, or become a ghoulish shell of their former self."
+ trait_blighted_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is afflicted by the Blight. [ROOT.GetCharacter.GetHerHim] will either perish, or become a ghoulish shell of [ROOT.GetCharacter.GetHerHis] former self."
+
+ trait_bubonic_plague:0 "Blight Sickness"
+ trait_eunuch: "Eunuch"
+ trait_eunuch_1:0 "Eunuch"
+ trait_eunuch_1_desc: "This character has been intentionally castrated after sexual maturity."
+ trait_eunuch_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] has been intentionally castrated after sexual maturity."
+ trait_beardless_eunuch: "Beardless Eunuch"
+ trait_beardless_eunuch_desc: "Castration before puberty has stunted this person's muscles and body hair, leaving them the quintessential eunuch."
+ trait_beardless_eunuch_character_desc: "Castration before puberty has stunted [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] muscles and body hair, leaving [ROOT.GetCharacter.GetHerHim] the quintessential eunuch."
+  
+ trait_dwarf:0 "Stunted"
+
+ trait_disinherited_character_desc:1 "[ROOT.GetCharacter.GetShortUINameNoTooltip] has been disinherited by [ROOT.GetCharacter.GetHerHis] [dynast|E] and cannot inherit any title from any other Dynasty member."
+
+ trait_devoted_orlesian_chantry_male:0 "Brother"
+ trait_devoted_orlesian_chantry_female:0 "Sister"

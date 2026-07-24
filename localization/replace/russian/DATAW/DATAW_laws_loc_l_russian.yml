@@ -1,0 +1,35 @@
+﻿l_russian:
+ DATAW_orlesian_elective_candidates: "Claimants, Close Family, Dynasty"
+ DATAW_orlesian_elective_candidates_tooltip: "In order to be a valid Candidate under Orlesian Elective, a [character|E] must fulfill one of the following conditions:\n$EFFECT_LIST_BULLET$Be a [legitimate|E] [close_family|E] member of the current [ruler|E], who is not in line to inherit a [theocracy|E] or [republic|E]. [children|E] of a candidate cannot be nominated\n$EFFECT_LIST_BULLET$Be a [claimant|E] to the title, who is not in line to inherit a [theocracy|E] or [republic|E]\n$EFFECT_LIST_BULLET$Be a valid [legitimate|E] member of the [ruler|E] [dynasty|E], who is not in line to inherit a [theocracy|E] or [republic|E]"
+ DATAW_orlesian_elective_electors: "Emperor, Powerful Vassals, Landed Family"
+ DATAW_orlesian_elective_electors_tooltip: "In order to be a valid [elector|E] under Orlesian Elective, a vassal must fulfill all the following conditions:\n$EFFECT_LIST_BULLET$Be a [de_jure|E] vassal of the [title|E]\n$EFFECT_LIST_BULLET$Be a [powerful_vassal|E] of the [title|E]\n$EFFECT_LIST_BULLET$Be only one or two [ranks|E] below the [title|E]\n$EFFECT_LIST_BULLET$Or be [landed|E] member of the [ruler|E] [family|E]\n$EFFECT_LIST_BULLET$Or if Council of Heralds was created hold one of the hereditary member [titles|E] "
+
+ orlesian_elective_succession_law: "Orlesian Elective"
+ orlesian_elective_succession_law_effects: ""
+# Circle
+ circle_succession_law: "Circle Succession"
+ circle_succession_law_effects: ""
+ # Templar
+ templar_succession_law: "Templar Succession"
+ templar_succession_law_effects: ""
+ # Grey Warden 
+ grey_warden_succession_law: "Grey Warden Succession"
+ grey_warden_succession_law_effects: ""
+#Council Elective Succession
+ council_elective_succession_law: "Council Elective"
+ council_elective_succession_law_subname: "Council"
+ council_elective_succession_law_effects: "The [ruler|E] and all [de_jure|E] [vassals|E] can nominate a [title_heir|E] amongst the ruler's [dynasty|E] and any available [claimants|E]. [voting_power|E] in this [succession_law|E] is influenced by the [elector|E]'s total [domain|E] [county_development|E] and [capital|E] [county_opinion|E]. Vassals will tend to favor older candidates over the young."
+ council_elective_candidates: "Claimants, Dynasty"
+ council_elective_candidates_tooltip: "In order to be a valid Candidate for the Council, a character must fulfill one of the following conditions:\n$EFFECT_LIST_BULLET$Be a member of the ruling dynasty, who is not in line to inherit a Theocracy or Republic\n$EFFECT_LIST_BULLET$Be a [claimant|E] to the title, who is not in line to inherit a Theocracy or Republic."
+ council_elective_electors: "All De Jure Vassals"
+ council_elective_electors_tooltip: "In order to be a valid [elector|E] for the Council, a vassal must fulfill all the following conditions:\n$EFFECT_LIST_BULLET$Be a [de_jure|E] vassal of the title\n$EFFECT_LIST_BULLET$Be a direct vassal of the title\n$EFFECT_LIST_BULLET$Be Adult\n$EFFECT_LIST_BULLET$NOT be Incapable"
+ tooltip_council_elector_vote_elder_1: "[candidate.GetSheHe|U] is an adult: $VALUE|=+0$"
+ tooltip_council_elector_vote_elder_2: "[candidate.GetSheHe|U] is an adult: $VALUE|=+0$"
+ tooltip_council_elector_vote_elder_3: "[candidate.GetSheHe|U] is almost an elder: $VALUE|=+0$"
+ tooltip_council_elector_vote_elder_4: "[candidate.GetSheHe|U] is an elder: $VALUE|=+0$"
+ tooltip_council_elector_vote_elder_5: "[candidate.GetSheHe|U] is a venerable elder: $VALUE|=+0$"
+ tooltip_council_vote_strength_king_tier: "Royal Dignity: $VALUE|=+0$"
+ tooltip_council_vote_strength_duke_tier: "Ducal Dignity: $VALUE|=+0$"
+ tooltip_council_vote_strength_count_tier: "County Dignity: $VALUE|=+0$"
+ tooltip_council_vote_strength_baron_tier: "Baronial Dignity: $VALUE|=+0$"
+ council_succession_enabled_name: "Elder Council"

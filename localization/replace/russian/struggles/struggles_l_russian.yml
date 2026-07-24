@@ -1,0 +1,12 @@
+﻿l_russian:
+# DATAW Modified
+ fereldan_struggle:0 "Fereldan Struggle"
+ fereldan_struggle_desc:1 "$game_concept_fereldan_struggle$"
+ struggle_ferelden_phase_opportunity:0 "Opportunity"
+ struggle_ferelden_phase_opportunity_desc:0 "$game_concept_struggle_phase_ferelden_opportunity_desc$"
+ struggle_ferelden_phase_hostility:0 "Hostility"
+ struggle_ferelden_phase_hostility_desc:0 "$game_concept_struggle_phase_ferelden_hostility_desc$"
+ struggle_ferelden_phase_compromise:0 "Compromise"
+ struggle_ferelden_phase_compromise_desc:0 "$game_concept_struggle_phase_ferelden_compromise_desc$"
+ struggle_ferelden_phase_conciliation:0 "Conciliation"
+ struggle_ferelden_phase_conciliation_desc:0 "$game_concept_struggle_phase_ferelden_conciliation_desc$"

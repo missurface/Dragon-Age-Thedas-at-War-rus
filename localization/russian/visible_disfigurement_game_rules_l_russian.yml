@@ -1,6 +1,7 @@
 ﻿l_russian:
- rule_disfigurement_visibility: "Отображение маски"
- setting_masks_off: "Никогда"
- setting_masks_off_desc: "Обезображенные персонажи никогда не будут носить маски."
- setting_masks_on: "Редко"
- setting_masks_on_desc: "Обезображенные персонажи уровня Король или Император с соответствующими чертами могут носить маски." 
+ rule_disfigurement_visibility: "Mask Visibility"
+ setting_masks_off: "Never"
+ setting_masks_off_desc: "Disfigured characters will never wear masks."
+ setting_masks_on: "Rare"
+ setting_masks_on_desc: "Disfigured characters of King or Emperor tier with appropriate traits may wear masks."
+ 

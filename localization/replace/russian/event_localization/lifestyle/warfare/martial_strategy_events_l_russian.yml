@@ -1,0 +1,54 @@
+﻿l_russian:
+ #Well-known commander, by Sean Hughes
+ martial_strategy.1051.t:0 "General Gossip"
+ martial_strategy.1051.desc:0 "The most popular topic of conversation in [ROOT.Char.Custom('GetCourt')] is ever-changing, but one recent trend has been the discussion of my notable skill as a military commander — and what the secret to my success is.\n\nI can use this natural curiosity to bolster my reputation, but first I must decide what to attribute my success to..."
+ martial_strategy.1051.a:0 "I have a natural talent that sets me above the rest."
+ martial_strategy.1051.a.humble:0 "Knowing my limits means I can work around them."
+ martial_strategy.1051.b.brave:0 "My courage inspires my troops to stand and fight."
+ martial_strategy.1051.b.stalwart:0 "My determination is such that I will never falter!"
+ martial_strategy.1051.c.wrathful:0 "Nobody can withstand my overwhelming ferocity!"
+ martial_strategy.1051.c.feareater:0 "My mere presence strikes fear into my foes!"
+ martial_strategy.1051.d.zealous:0 "My devotion to [ROOT.GetCharacter.GetFaith.HighGodName] grants me victory."
+ martial_strategy.1051.d.sadistic:0 "I always hit my enemies where it hurts the most."
+ martial_strategy.1051.d.zealoussadistic:0 "I am unrelenting in my crusade against the wicked!"
+ martial_strategy.1051.e.patient:0 "I am ever-vigilant, waiting for my chance to strike."
+ martial_strategy.1051.f.ambitious:0 "I will do #EMP whatever#! it takes to emerge victorious!"
+
+ 
+ #Translate old texts (Learning skill challenge), Mathilda Bjarnehed
+ martial_strategy.2000.t:0 "Lessons From the Past"
+ martial_strategy.2000.start.desc:0 "Though I will surely see many battlefields before I meet my maker, my library holds tales of war from a hundred lifetimes.\n\nI have recently acquired a tome on the great"
+
+ martial_strategy.2000.hastings.desc:1 "Battle of the Silent Plains, " #dataw changed
+ martial_strategy.2000.tours.desc:1 "Battle of Montsimmard, " #dataw changed
+ martial_strategy.2000.palaceofthemartyrs.desc:1 "Battle of Temerin, " #dataw changed
+ martial_strategy.2000.catalaunianplains.desc:1 "Battle of Cumberland, " #dataw changed
+ martial_strategy.2000.constantinople.desc:1 "fall of Estwatch, " #dataw changed
+ martial_strategy.2000.vapati.desc:1 "siege of Weisshaupt, " #dataw changed
+
+ martial_strategy.2000.end.desc:1 "as well as a timeworn scroll written in some ancient language. Who knows what forgotten secrets it holds..."
+ martial_strategy.2000.a:0 "Read the newer tome."
+ martial_strategy.2000.b:0 "Attempt to translate the old scroll."
+ martial_strategy.2000.b.success:0 "I uncover a piece of ancient knowledge"
+ martial_strategy.2000.b.success.tt:1 "You gain #P 1#! [martial|E], #P 1#! [learning|E] and a [commander|E] bonus for #V 20 years#!"
+ martial_strategy.2000.b.failure:0 "I fail to decipher the scroll"
+ martial_strategy.2000.b.failure.tt:1 "You must gain [stress|E] or give up"
+
+
+
+
+
+ martial_strategy.2001.start.desc:0 "Even with the help of a dusty glossary, the scroll is reluctant to share its secrets, but I press on. As the night progresses, the most incredible story unfolds before me...\n\n"
+ #DATAW CHANGED
+ martial_strategy.2001.red_falls.desc:0 "#F The last duel between the legendary Morrighan'nan and Luthias Dwarfson, this was the culmination of a romantic drama between the two that brought much pain and suffering to all. It is said in a earlier battle, Luthias fought his son born from his affair with the rival chieftain. The duel, while quick, was deadly, as Luthias unknowingly killed his own son, and Morrighan'nan soon revealed what he did cursing the gravely injured Alamarri, who was in the end defeated.#!"
+ martial_strategy.2001.the_emerius_slave_revolt.desc:0 "#F In -25 Ancient, the death of an influential Alamarri slave, Radun, sparked the fires of rebellion among the slaves of the city. As he was pushing for better conditions, the death was blamed on the city's magisters, and the slaves stormed the Gallows, before being massacred. \n\nThroughout the yearlong revolt, fights between slaves and soldiers raged inside and outside the city, killing many. The slaves often used their massive numerical advantage to overwhelm the soldiers, while the latter held strategic chokepoints to hold Hightown. However in the end, Hightown was sacked, the city was burned, and Emerius took on the name of Kirkwall.#!"
+ martial_strategy.2001.valarian_fields.desc:1 "#F The battle of Valarian Fields, fought outside Minrathous and the most difficult battle Andraste faced in her Exalted March against the Tevinter Imperium. The forces of Minrathous made a sortie from the bridge of Minrathous against the forces of the Bride of the Maker, transforming the siege into an open battle. Supposedly fighting alongside the elves of Shartan, Andraste fought with her husband Maferath, and managed to defeat the soldier of the Old Gods' servants. It is often said that the Maker smiled on them that day, for the betrayal was imminent.#!"
+ martial_strategy.2001.pnemoix.desc:0 "#F During the Battle of the Pnemoix River, told in the Canticle of Threnodies, it is said that the King of Neromenian, Antoridus, set fire to the fields of the Planasene. Yet as the Planasene anointed the field with water from the Pnemoix they so revered, it did not burn. Antoridus, meeting the opposing forces in the field, struck with thousands of arrows and spears. Yet as the arrows reigned destruction upon the armies of King Damertes, the spears broke against the shields of the Sons of the Pnemoix. Yet, it was Damertes forsaking the Maker's name that defeated the forces of Antoridus, for when he did, disease struck the armies and forced Neromenian to turn back.#!"
+ martial_strategy.2001.a:0 "Study the battle."
+ martial_strategy.2001.b:0 "Focus on the translation process."
+
+ martial_strategy.2002.desc:0 "Night falls and the single candle illuminating the script before me becomes shorter by the hour. When it flickers one last time and leaves me in darkness, the scroll's secrets remain undiscovered."
+ martial_strategy.2002.a:0 "Push forward."
+ martial_strategy.2002.b:0 "Give up."
+
+

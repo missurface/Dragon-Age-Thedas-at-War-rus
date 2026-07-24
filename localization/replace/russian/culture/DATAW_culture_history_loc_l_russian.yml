@@ -1,0 +1,10 @@
+﻿l_russian:
+ avvar_history_loc:0 "Split from the [CULTURE.GetName] in -1815 Ancient and settled the Frostback Mountains"
+ clayne_history_loc:0 "Descended from the [CULTURE.GetName] tribes that settled the lowlands of Ferelden"
+ edgehaller_history_loc:0 "Born from a mix of [CULTURE.GetName] and [GetGlobalVariable('clayne_culture_var').Culture.GetName] within the hold of Edgehall"
+ chasind_history_loc:0 "Split from the [CULTURE.GetName] in -1415 Ancient and settled the Korcari Wilds"
+ brecilian_history_loc:0 "Descendants of the [CULTURE.GetName] who fled to the Brecilian Forest in -1385 Ancient"
+ alamarri_history_loc:0 "One of the earliest human tribes, and the first humans to settle in south-eastern Thedas"
+ dalish_settled_history_loc:0 "The [elves|E] who fought alongside [andraste|E]; given the Dales to settle in -165 Ancient"
+ jaderian_history_loc:0 "Descendants of [CULTURE.GetName] under [GetGlobalVariable('orlesian_culture_var').Culture.GetName] influence in -3 Ancient"
+ wake_history_loc:0 "A melting pot of freebooters from around the [GetGeographicalRegion('sea_waking_sea').GetName]"

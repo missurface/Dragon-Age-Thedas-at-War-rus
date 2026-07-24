@@ -1,0 +1,50 @@
+﻿
+l_russian:
+  #court events
+  DATAW_jader_flavour_court.0001.tit: "Where the Prophet was born"
+  DATAW_jader_flavour_court.0001.desc: "As the affairs of the court drag on endlessly through the day, there is one strange [mad_priest.GetManWoman], clearly a follower of the [mad_priest.GetFaith.GetName]. [mad_priest.GetHerHis] manner is telling, the new arrivant is\n\nAs [mad_priest.GetSheHe]kneels down, the priest begins [mad_priest.GetHerHis] rant.\n\n“[ROOT.Char.GetTitleAsName], I am here to ask you to stop the, frankly quite ridiculous claim that Jader is the birthplace of Andraste. Everyone knows, including the people of Jader in denial, that Andraste was alamarri, and what is Denerim if not the heart of the Alamarri? Jader is only the most Alamarri of the Ciriane, and is obviously a lie spread by Kordillus Drakon, blessed he be, to claim the prophet was born in the empire's borders!”\n\nDespite the frankly quite offended court around [mad_priest.GetHerHim], the raving priest continues his speech for several minutes until he is stopped by the guards and taken out of court. The court rests silent, and awaits my answer following the ranting."
+  DATAW_jader_flavour_court.0001.opt.a: "Another one…"
+  DATAW_jader_flavour_court.0001.opt.b: "We shall prove them wrong!"
+  DATAW_jader_flavour_court.0001.opt.c: "Execute that raving madman."
+  DATAW_jader_flavour_court.0001.c.tt.success: "The court blows it away as a mere mild annoyance with no real impact."
+  DATAW_jader_flavour_court.0001.c.tt.failure: "The court finds your lack of concern worrying."
+  DATAW_jader_andraste_festival: "Andraste's Festival"
+
+  #Main events
+  DATAW_jader_flavour_main.0001.tit: "Shields of the Empire"
+  DATAW_jader_flavour_main.0001.desc: "We people of Jader have always been a fairly defensive lot, and this military exercise was no different.\n\nSoldiers forming a line in order to defend against the formation in front of them was a common sight in jaderian military training as well as battles, and I am the commander of this formation today.\n\nYet should I follow what my people expect and perfected, or should I sail out?"
+  DATAW_jader_flavour_main.0001.opt.a: "Stand our ground!"
+  DATAW_jader_flavour_main.0001.opt.b: "Sail out, We shall surpise them!" 
+  DATAW_jader_flavour_main.0002.tit: "The Sons of Isorath"
+  DATAW_jader_flavour_main.0002.desc: "The people of Jader have always been a peculiar people. Distinctly close to the Alamarri of Ferelden, yet speaking the tongue of the orlesians, we were always the estranged child of a dysfunctional relationship.\n\nYet through our differences we thrived, for we are the descendants of the Alamarri that followed Isorath, defending the reaches of the Empire against Avvars and Claynes alike, while acting as negotiators for both with the Ciriane people.\n\nToday, I look at this memory, knowing that this history has defined us in the Game.\n\nYet what part of my people will I follow?"
+  DATAW_jader_flavour_main.0002.opt.a: "I will erect myself as a great defender."
+  DATAW_jader_flavour_main.0002.opt.b: "I will make of myself a bridge."   
+  DATAW_bridge_of_the_people_modifier: "Bridge of the People"
+  DATAW_defender_of_the_people_modifier: "Defender of the People"
+
+  #travel events
+  DATAW_jader_flavour_travel.0001.tit: "The People Linking Others"
+  DATAW_jader_flavour_travel.0001.desc: "[GetTitleByKey('k_jader').GetBaseNameNoTier], our homeland, was always the link between the Alamarri of [GetTitleByKey('e_ferelden').GetBaseNameNoTier] and the Ciriane of [GetTitleByKey('h_orlais').GetBaseNameNoTier], and as such, the people of Jader learned to be the link between both, sharing the customs of one and the tongue of the other. \n\nPerhaps that now is the time to show we can be the bridge between people, no matter who.\n\nOn the horizon, I can see two travelers arguing. After some observation, one of them seems to be [traveler.GetCulture.GetName], while the other seems to be of [traveler_2_culture.GetName] descent."
+  DATAW_jader_flavour_travel.0001.opt.a: "Let us try to defuse the situation"
+  DATAW_jader_flavour_travel.0001.opt.b: "Let me help clear up the confusion!"
+  DATAW_jader_flavour_travel.0001.opt.c: "By force, we will separate them!"
+  DATAW_jader_flavour_travel.0001.opt.d: "Let us move on."
+  DATAW_jader_flavour_travel.0001.c.tt.crit_failure: "Critical Failure" 
+  DATAW_jader_flavour_travel.0001.c.tt.failure: "Failure"
+  DATAW_jader_flavour_travel.0001.c.tt.success: "Success"
+  DATAW_jader_flavour_travel.0001.c.tt.crit_success: "Critical Success"   
+  DATAW_jader_flavour_travel.0001.tt.a.success_desc.a: "You defuse the situation successfully"
+  DATAW_jader_flavour_travel.0001.tt.a.failure_desc.a: "Your words cannot stop the incoming blows."
+  DATAW_jader_flavour_travel.0001.tt.c.success_desc.a: "You manage to separate the bickering travelers"
+  DATAW_jader_flavour_travel.0001.tt.c.failure_desc.a: "Your efforts are fruitless against the bickering travellers"
+  DATAW_jader_flavour_travel.0001.tt.c.failure_desc.b: "Through your efforts, you unite the two travelers against you"
+
+  DATAW_jader_flavour_travel.0002.tit: "The Stranded Sea Bandit"
+  DATAW_jader_flavour_travel.0002.desc: "A strange thing, we found washing on the shore.\n\nWhile we were simply passing near the coast of [raider.GetCurrentLocation.GetName], we seemed to have found the wreckage of a ship. No doubt this is a Jaderian ship, although if there are survivors could be anyone's guess.\n\n#bold "Help! Someone help!"#!\n\nAs we hear a voice shout from the ship, we sprint to the rescue of one of our own. Yet one of my companions, [random_entourage_member.GetName], points out that the person's accent is not one of [GetTitleByKey('k_jader').GetBaseNameNoTier], despite the ship's origin.\n\n When we arrive at the origin of the voice, my companion's suspicions are only confirmed. In front of us is a [raider.GetWomanMan] who's scars and voice screams of [raider.GetHerHis] true origin. Speaking in the strange tongue of the raiders of the Waking Sea born from an amalgamation of all around Thedas, [raider.GetSheHe] calls to us for aid.\n\n"Greetings, oh noble travelers! I am [raider.GetName], a humble merchant coming from [GetTitleByKey('k_jader').GetBaseNameNoTier], stranded in this land. I would like for your assistance at moving this heavy log of wood, for my leg is stuck beneath it."\n\n[raider.GetHerHis] attempt at imitating the accent of my people is pathetic, really, but it is clear that it comes more from desperation and fear than genuine malice. Gold is clearly offered on the table should I help this pirate, but does [raider.GetSheHe] really deserve my help, considering she could very well have stolen a ship from one of my own?"
+  DATAW_jader_flavour_travel.0002.opt.a: "You are a poor liar, raider, but I will aid you."
+  DATAW_jader_flavour_travel.0002.opt.b: "How about I save you in exchange for service?"
+  DATAW_jader_flavour_travel.0002.opt.c: "Let's leave [raider.GetHerHim] to [raider.GetHerHis] fate"
+  DATAW_jader_flavour_travel.0002.opt.d: "I will jail you for your crimes against my people"
+  DATAW_safer_coasts_modifier: "Safer Coasts"
+  DATAW_safer_coasts_modifier_desc: "With the arrest of a local raider due to a shipwreck, pirates have avoided the region by fear of encountering whatever made the unfortunate soul end up on the shore, to the delight of the local population enjoying the safer coast"
+  

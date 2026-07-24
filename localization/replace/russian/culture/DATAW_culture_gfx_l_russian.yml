@@ -1,0 +1,296 @@
+﻿l_russian:
+ #Alamarri
+ avvar_building_gfx:0 "Avvar"
+ avvar_clothing_gfx:0 "Avvar"
+ avvar_coa_gfx:0 "Avvar"
+ avvar_unit_gfx:0 "Avvar"
+
+ brecilian_building_gfx:0 "Brecilian"
+ brecilian_clothing_gfx:0 "Brecilian"
+ brecilian_coa_gfx:0 "Brecilian"
+ brecilian_unit_gfx:0 "Brecilian"
+
+ chasind_building_gfx:0 "Chasind"
+ chasind_clothing_gfx:0 "Chasind"
+ chasind_coa_gfx:0 "Chasind"
+ chasind_unit_gfx:0 "Chasind"
+
+ clayne_building_gfx:0 "Clayne"
+ clayne_clothing_gfx:0 "Clayne"
+ clayne_coa_gfx:0 "Clayne"
+ clayne_unit_gfx:0 "Clayne"
+
+ edgehaller_building_gfx:0 "Edgehaller"
+ edgehaller_clothing_gfx:0 "Edgehaller"
+ edgehaller_coa_gfx:0 "Edgehaller"
+ edgehaller_unit_gfx:0 "Edgehaller"
+
+ fereldan_building_gfx:0 "Fereldan"
+ fereldan_clothing_gfx:0 "Fereldan"
+ fereldan_coa_gfx:0 "Fereldan"
+ fereldan_unit_gfx:0 "Fereldan"
+
+ jaderian_building_gfx:0 "Jaderian"
+ jaderian_clothing_gfx:0 "Jaderian"
+ jaderian_coa_gfx:0 "Jaderian"
+ jaderian_unit_gfx:0 "Jaderian"
+
+ ostwicker_building_gfx:0 "Ostwicker"
+ ostwicker_clothing_gfx:0 "Ostwicker"
+ ostwicker_coa_gfx:0 "Ostwicker"
+ ostwicker_unit_gfx:0 "Ostwicker"
+
+ wake_building_gfx:0 "Wake"
+ wake_clothing_gfx:0 "Wake"
+ wake_coa_gfx:0 "Wake"
+ wake_unit_gfx:0 "Wake"
+
+ #Antivan
+ antivan_building_gfx:0 "Antivan"
+ antivan_clothing_gfx:0 "Antivan"
+ antivan_coa_gfx:0 "Antivan"
+ antivan_unit_gfx:0 "Antivan"
+
+ #Ciriane
+ borsol_building_gfx:0 "Borsol"
+ borsol_clothing_gfx:0 "Borsol"
+ borsol_coa_gfx:0 "Borsol"
+ borsol_unit_gfx:0 "Borsol"
+
+ nevenais_building_gfx:0 "Nevenais"
+ nevenais_clothing_gfx:0 "Nevenais"
+ nevenais_coa_gfx:0 "Nevenais"
+ nevenais_unit_gfx:0 "Nevenais"
+
+ chanvalois_building_gfx:0 "Chanvalois"
+ chanvalois_clothing_gfx:0 "Chanvalois"
+ chanvalois_coa_gfx:0 "Chanvalois"
+ chanvalois_unit_gfx:0 "Chanvalois"
+
+ ciriane_building_gfx:0 "Ciriane"
+ ciriane_clothing_gfx:0 "Ciriane"
+ ciriane_coa_gfx:0 "Ciriane"
+ ciriane_unit_gfx:0 "Ciriane"
+
+ hauterin_building_gfx:0 "Hauterin"
+ hauterin_clothing_gfx:0 "Hauterin"
+ hauterin_coa_gfx:0 "Hauterin"
+ hauterin_unit_gfx:0 "Hauterin"
+
+ mareschois_building_gfx:0 "Mareschois"
+ mareschois_clothing_gfx:0 "Mareschois"
+ mareschois_coa_gfx:0 "Mareschois"
+ mareschois_unit_gfx:0 "Mareschois"
+
+ vandalarien_building_gfx:0 "Vandalarien"
+ vandalarien_clothing_gfx:0 "Vandalarien"
+ vandalarien_coa_gfx:0 "Vandalarien"
+ vandalarien_unit_gfx:0 "Vandalarien"
+
+ orlesian_building_gfx:0 "Orlesian"
+ orlesian_clothing_gfx:0 "Orlesian"
+ orlesian_coa_gfx:0 "Orlesian"
+ orlesian_unit_gfx:0 "Orlesian"
+
+ cendrerin_building_gfx:0 "Cendrerin"
+ cendrerin_clothing_gfx:0 "Cendrerin"
+ cendrerin_coa_gfx:0 "Cendrerin"
+ cendrerin_unit_gfx:0 "Cendrerin"
+
+ #Daefad
+ kirkwaller_building_gfx:0 "Kirkwaller"
+ kirkwaller_clothing_gfx:0 "Kirkwaller"
+ kirkwaller_coa_gfx:0 "Kirkwaller"
+ kirkwaller_unit_gfx:0 "Kirkwaller"
+
+ starkhavener_building_gfx:0 "Starkhavener"
+ starkhavener_clothing_gfx:0 "Starkhavener"
+ starkhavener_coa_gfx:0 "Starkhavener"
+ starkhavener_unit_gfx:0 "Starkhavener"
+
+ tantervalean_building_gfx:0 "Tantervalean"
+ tantervalean_clothing_gfx:0 "Tantervalean"
+ tantervalean_coa_gfx:0 "Tantervalean"
+ tantervalean_unit_gfx:0 "Tantervalean"
+
+ #Dwarven
+ sharosk_building_gfx:0 "Sharosk"
+ sharosk_clothing_gfx:0 "Sharosk"
+ sharosk_coa_gfx:0 "Sharosk"
+ sharosk_unit_gfx:0 "Sharosk"
+
+ orzmisch_building_gfx:0 "Orzmisch"
+ orzmisch_clothing_gfx:0 "Orzmisch"
+ orzmisch_coa_gfx:0 "Orzmisch"
+ orzmisch_unit_gfx:0 "Orzmisch"
+
+ surface_orzmisch_building_gfx:0 "Surface Orzmisch"
+ surface_orzmisch_clothing_gfx:0 "Surface Orzmisch"
+ surface_orzmisch_coa_gfx:0 "Surface Orzmisch"
+ surface_orzmisch_unit_gfx:0 "Surface Orzmisch"
+
+ #Elvhen
+ city_elf_ander_building_gfx:0 "Ander City Elf"
+ city_elf_ander_clothing_gfx:0 "Ander City Elf"
+ city_elf_ander_coa_gfx:0 "Ander City Elf"
+ city_elf_ander_unit_gfx:0 "Ander City Elf"
+
+ city_elf_ansburisch_building_gfx:0 "Ansburisch City Elf"
+ city_elf_ansburisch_clothing_gfx:0 "Ansburisch City Elf"
+ city_elf_ansburisch_coa_gfx:0 "Ansburisch City Elf"
+ city_elf_ansburisch_unit_gfx:0 "Ansburisch City Elf"
+
+ city_elf_antivan_building_gfx:0 "Antivan City Elf"
+ city_elf_antivan_clothing_gfx:0 "Antivan City Elf"
+ city_elf_antivan_coa_gfx:0 "Antivan City Elf"
+ city_elf_antivan_unit_gfx:0 "Antivan City Elf"
+
+ city_elf_fereldan_building_gfx:0 "Fereldan City Elf"
+ city_elf_fereldan_clothing_gfx:0 "Fereldan City Elf"
+ city_elf_fereldan_coa_gfx:0 "Fereldan City Elf"
+ city_elf_fereldan_unit_gfx:0 "Fereldan City Elf"
+
+ city_elf_kirkwaller_building_gfx:0 "Kirkwaller City Elf"
+ city_elf_kirkwaller_clothing_gfx:0 "Kirkwaller City Elf"
+ city_elf_kirkwaller_coa_gfx:0 "Kirkwaller City Elf"
+ city_elf_kirkwaller_unit_gfx:0 "Kirkwaller City Elf"
+
+ city_elf_hasmalian_building_gfx:0 "Hasmalian City Elf"
+ city_elf_hasmalian_clothing_gfx:0 "Hasmalian City Elf"
+ city_elf_hasmalian_coa_gfx:0 "Hasmalian City Elf"
+ city_elf_hasmalian_unit_gfx:0 "Hasmalian City Elf"
+
+ city_elf_hercinian_building_gfx:0 "Hercinian City Elf"
+ city_elf_hercinian_clothing_gfx:0 "Hercinian City Elf"
+ city_elf_hercinian_coa_gfx:0 "Hercinian City Elf"
+ city_elf_hercinian_unit_gfx:0 "Hercinian City Elf"
+
+ city_elf_marsk_building_gfx:0 "Marsk City Elf"
+ city_elf_marsk_clothing_gfx:0 "Marsk City Elf"
+ city_elf_marsk_coa_gfx:0 "Marsk City Elf"
+ city_elf_marsk_unit_gfx:0 "Marsk City Elf"
+
+ city_elf_nevarran_building_gfx:0 "Nevarran City Elf"
+ city_elf_nevarranh_clothing_gfx:0 "Nevarran City Elf"
+ city_elf_nevarran_coa_gfx:0 "Nevarran City Elf"
+ city_elf_nevarran_unit_gfx:0 "Nevarran City Elf"
+
+ city_elf_orlesian_building_gfx:0 "Orlesian City Elf"
+ city_elf_orlesian_clothing_gfx:0 "Orlesian City Elf"
+ city_elf_orlesian_coa_gfx:0 "Orlesian City Elf"
+ city_elf_orlesian_unit_gfx:0 "Orlesian City Elf"
+
+ city_elf_ostwicker_building_gfx:0 "Ostwicker City Elf"
+ city_elf_ostwicker_clothing_gfx:0 "Ostwicker City Elf"
+ city_elf_ostwicker_coa_gfx:0 "Ostwicker City Elf"
+ city_elf_ostwicker_unit_gfx:0 "Ostwicker City Elf"
+
+ city_elf_rivaini_building_gfx:0 "Rivaini City Elf"
+ city_elf_rivaini_clothing_gfx:0 "Rivaini City Elf"
+ city_elf_rivaini_coa_gfx:0 "Rivaini City Elf"
+ city_elf_rivaini_unit_gfx:0 "Rivaini City Elf"
+
+ city_elf_starkhavener_building_gfx:0 "Starkhavener City Elf"
+ city_elf_starkhavener_clothing_gfx:0 "Starkhavener City Elf"
+ city_elf_starkhavener_coa_gfx:0 "Starkhavener City Elf"
+ city_elf_starkhavener_unit_gfx:0 "Starkhavener City Elf"
+
+ city_elf_tantervalean_building_gfx:0 "Tantervalean City Elf"
+ city_elf_tantervalean_clothing_gfx:0 "Tantervalean City Elf"
+ city_elf_tantervalean_coa_gfx:0 "Tantervalean City Elf"
+ city_elf_tantervalean_unit_gfx:0 "Tantervalean City Elf"
+
+ city_elf_tevinter_building_gfx:0 "Tevene City Elf"
+ city_elf_tevinter_clothing_gfx:0 "Tevene City Elf"
+ city_elf_tevinter_coa_gfx:0 "Tevene City Elf"
+ city_elf_tevinter_unit_gfx:0 "Tevene City Elf"
+
+ city_elf_vollen_building_gfx:0 "Vollen City Elf"
+ city_elf_vollen_clothing_gfx:0 "Vollen City Elf"
+ city_elf_vollen_coa_gfx:0 "Vollen City Elf"
+ city_elf_vollen_unit_gfx:0 "Vollen City Elf"
+
+ city_elf_wycomean_building_gfx:0 "Wycomean City Elf"
+ city_elf_wycomean_clothing_gfx:0 "Wycomean City Elf"
+ city_elf_wycomean_coa_gfx:0 "Wycomean City Elf"
+ city_elf_wycomean_unit_gfx:0 "Wycomean City Elf"
+
+ dalish_settled_building_gfx:0 "Settled Elvish"
+ dalish_settled_clothing_gfx:0 "Settled Elvish"
+ dalish_settled_coa_gfx:0 "Settled Elvish"
+ dalish_settled_unit_gfx:0 "Settled Elvish"
+
+ dalish_nomadic_building_gfx:0 "Nomadic Elvish"
+ dalish_nomadic_clothing_gfx:0 "Nomadic Elvish"
+ dalish_nomadic_coa_gfx:0 "Nomadic Elvish"
+ dalish_nomadic_unit_gfx:0 "Nomadic Elvish"
+
+ #Hacian
+ ansburisch_building_gfx:0 "Ansburisch"
+ ansburisch_clothing_gfx:0 "Ansburisch"
+ ansburisch_coa_gfx:0 "Ansburisch"
+ ansburisch_unit_gfx:0 "Ansburisch"
+
+ hacian_building_gfx:0 "Hacian"
+ hacian_clothing_gfx:0 "Hacian"
+ hacian_coa_gfx:0 "Hacian"
+ hacian_unit_gfx:0 "Hacian"
+
+ marsk_building_gfx:0 "Marsk"
+ marsk_clothing_gfx:0 "Marsk"
+ marsk_coa_gfx:0 "Marsk"
+ marsk_unit_gfx:0 "Marsk"
+
+ wycomean_building_gfx:0 "Wycomean"
+ wycomean_clothing_gfx:0 "Wycomean"
+ wycomean_coa_gfx:0 "Wycomean"
+ wycomean_unit_gfx:0 "Wycomean"
+
+ #Inghirsh
+ inghirsh_building_gfx:0 "Inghirsh"
+ inghirsh_clothing_gfx:0 "Inghirsh"
+ inghirsh_coa_gfx:0 "Inghirsh"
+ inghirsh_unit_gfx:0 "Inghirsh"
+
+ #Neromenian
+ tevene_building_gfx:0 "Tevene"
+ tevene_clothing_gfx:0 "Tevene"
+ tevene_coa_gfx:0 "Tevene"
+ tevene_unit_gfx:0 "Tevene"
+
+ #Orth
+ ander_building_gfx:0 "Ander"
+ ander_clothing_gfx:0 "Ander"
+ ander_coa_gfx:0 "Ander"
+ ander_unit_gfx:0 "Ander"
+
+ #Planasene
+ cumberling_building_gfx:0 "Cumberling"
+ cumberling_clothing_gfx:0 "Cumberling"
+ cumberling_coa_gfx:0 "Cumberling"
+ cumberling_unit_gfx:0 "Cumberling"
+
+ nevarran_building_gfx:0 "Nevarran"
+ nevarran_clothing_gfx:0 "Nevarran"
+ nevarran_coa_gfx:0 "Nevarran"
+ nevarran_unit_gfx:0 "Nevarran"
+
+ planasene_building_gfx:0 "Planasene"
+ planasene_clothing_gfx:0 "Planasene"
+ planasene_coa_gfx:0 "Planasene"
+ planasene_unit_gfx:0 "Planasene"
+
+ #Rivaini
+ rivaini_building_gfx:0 "Rivaini"
+ rivaini_clothing_gfx:0 "Rivaini"
+ rivaini_coa_gfx:0 "Rivaini"
+ rivaini_unit_gfx:0 "Rivaini"
+
+ #Vollen
+ vollen_building_gfx:0 "Vollen"
+ vollen_clothing_gfx:0 "Vollen"
+ vollen_coa_gfx:0 "Vollen"
+ vollen_unit_gfx:0 "Vollen"
+
+ # gamoric 
+ gamoric_clothing_gfx: "Gamoric"
