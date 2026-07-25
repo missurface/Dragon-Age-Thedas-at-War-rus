@@ -1,31 +1,35 @@
 ﻿l_russian:
 
- trait_education_diplomacy_4:0 "Grey Eminence"
- trait_education_diplomacy_4_desc:0 "As familiar with the nuances of diplomacy as the back of their hand, the Grey Eminence is a master of the art."
+ trait_education_diplomacy_4:0 "Серый кардинал"
+ trait_education_diplomacy_4_desc:0 "Великий мастер дипломатии, знающий все ее нюансы как свои пять пальцев."
+ trait_education_diplomacy_4_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] — знает все тонкости дипломатии как свои пять пальцев."
 
- trait_education_stewardship_4:0 "Golden Touched"
- trait_education_stewardship_4_desc:0 "The Golden Touched is followed by success after success in the art of stewardship, displaying an indisputable mastery of the art."
+ trait_education_stewardship_4:0 "Золотое прикосновение"
+ trait_education_stewardship_4_desc:0 "Один успех следует за другим на поприще управления, подтверждая неоспоримое мастерство в этом искусстве."
+ trait_education_stewardship_4_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] не знает поражения на поприще управления и возводит оное в ранг искусства."
 
- trait_hashishiyah:0 "Elfroot Addict"
- trait_hashishiyah_desc:0 "This character is dependent on the consumption of elfroot to deal with the stress of everyday life."
- trait_hashishiyah_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is dependent on the consumption of elfroot to deal with the stress of everyday life."
+ trait_hashishiyah:0 "Эльфийский корень"
+ trait_hashishiyah_desc:0 "Этот персонаж зависит от употребления эльфийского корня, помогающего справиться со [Concept( 'stress', 'стрессом' )|E] повседневной жизни."
+ trait_hashishiyah_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'зависима', 'зависим' )] от употребления эльфийского корня, помогающего справиться со [Concept( 'stress', 'стрессом' )|E] повседневной жизни."
 
- trait_blighted:0 "Blighted"
- trait_blighted_desc:0 "This character is afflicted by the Blight. They will either perish, or become a ghoulish shell of their former self."
- trait_blighted_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is afflicted by the Blight. [ROOT.GetCharacter.GetHerHim] will either perish, or become a ghoulish shell of [ROOT.GetCharacter.GetHerHis] former self."
+ trait_blighted:0 "Мор"
+ trait_blighted_desc:0 "Этот персонаж поражен Мором. [ROOT.GetCharacter.GetSheHe|U] либо погибнет, либо превратится в полумертвую упыреподобную оболочку."
+ trait_blighted_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'поражена', 'поражен' )] Мором. [ROOT.GetCharacter.GetSheHe|U] либо погибнет, либо превратится в полумертвую оболочку самого себя."
 
- trait_bubonic_plague:0 "Blight Sickness"
- trait_eunuch: "Eunuch"
- trait_eunuch_1:0 "Eunuch"
- trait_eunuch_1_desc: "This character has been intentionally castrated after sexual maturity."
- trait_eunuch_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] has been intentionally castrated after sexual maturity."
- trait_beardless_eunuch: "Beardless Eunuch"
- trait_beardless_eunuch_desc: "Castration before puberty has stunted this person's muscles and body hair, leaving them the quintessential eunuch."
- trait_beardless_eunuch_character_desc: "Castration before puberty has stunted [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] muscles and body hair, leaving [ROOT.GetCharacter.GetHerHim] the quintessential eunuch."
-  
- trait_dwarf:0 "Stunted"
+ trait_bubonic_plague:0 "Моровая язва"
 
- trait_disinherited_character_desc:1 "[ROOT.GetCharacter.GetShortUINameNoTooltip] has been disinherited by [ROOT.GetCharacter.GetHerHis] [dynast|E] and cannot inherit any title from any other Dynasty member."
+ trait_eunuch: "Евнух"
+ trait_eunuch_1:0 "Евнух"
+ trait_eunuch_1_desc: "Этот персонаж был намеренно кастрирован после достижения половой зрелости."
+ trait_eunuch_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'была', 'был' )] намеренно кастрирован после достижения половой зрелости."
 
- trait_devoted_orlesian_chantry_male:0 "Brother"
- trait_devoted_orlesian_chantry_female:0 "Sister"
+ trait_beardless_eunuch: "Безбородый евнух"
+ trait_beardless_eunuch_desc: "Кастрация до полового созревания замедлила рост мышц и волос на теле, сделав этого человека квинтэссенцией евнуха."
+ trait_beardless_eunuch_character_desc: "Кастрация до полового созревания замедлила рост мышц и волос на теле [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip], сделав [ROOT.GetCharacter.GetHerHim] квинтэссенцией евнуха."
+
+ trait_dwarf:0 "Низкорослый"
+
+ trait_disinherited_character_desc:1 "[ROOT.GetCharacter.GetShortUINameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'была лишена', 'был лишон' )] наследства [Select_CString(ROOT.GetCharacter.IsFemale, 'своей', 'своим' )] [dynast|E] и не может наследовать [Concept( 'titles', 'титулы' )|E] от других членов династии."
+
+ trait_devoted_orlesian_chantry_male:0 "Брат"
+ trait_devoted_orlesian_chantry_female:0 "Сестра"
