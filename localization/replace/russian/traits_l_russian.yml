@@ -1,0 +1,35 @@
+﻿l_russian:
+
+ trait_education_diplomacy_4:0 "Серый кардинал"
+ trait_education_diplomacy_4_desc:0 "Великий мастер дипломатии, знающий все ее нюансы как свои пять пальцев."
+ trait_education_diplomacy_4_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] — знает все тонкости дипломатии как свои пять пальцев."
+
+ trait_education_stewardship_4:0 "Золотое прикосновение"
+ trait_education_stewardship_4_desc:0 "Один успех следует за другим на поприще управления, подтверждая неоспоримое мастерство в этом искусстве."
+ trait_education_stewardship_4_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] не знает поражения на поприще управления и возводит оное в ранг искусства."
+
+ trait_hashishiyah:0 "Эльфийский корень"
+ trait_hashishiyah_desc:0 "Этот персонаж зависит от употребления эльфийского корня, помогающего справиться со [Concept( 'stress', 'стрессом' )|E] повседневной жизни."
+ trait_hashishiyah_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'зависима', 'зависим' )] от употребления эльфийского корня, помогающего справиться со [Concept( 'stress', 'стрессом' )|E] повседневной жизни."
+
+ trait_blighted:0 "Мор"
+ trait_blighted_desc:0 "Этот персонаж поражен Мором. [ROOT.GetCharacter.GetSheHe|U] либо погибнет, либо превратится в полумертвую упыреподобную оболочку."
+ trait_blighted_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'поражена', 'поражен' )] Мором. [ROOT.GetCharacter.GetSheHe|U] либо погибнет, либо превратится в полумертвую оболочку самого себя."
+
+ trait_bubonic_plague:0 "Моровая язва"
+
+ trait_eunuch: "Евнух"
+ trait_eunuch_1:0 "Евнух"
+ trait_eunuch_1_desc: "Этот персонаж был намеренно кастрирован после достижения половой зрелости."
+ trait_eunuch_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'была', 'был' )] намеренно кастрирован после достижения половой зрелости."
+
+ trait_beardless_eunuch: "Безбородый евнух"
+ trait_beardless_eunuch_desc: "Кастрация до полового созревания замедлила рост мышц и волос на теле, сделав этого человека квинтэссенцией евнуха."
+ trait_beardless_eunuch_character_desc: "Кастрация до полового созревания замедлила рост мышц и волос на теле [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip], сделав [ROOT.GetCharacter.GetHerHim] квинтэссенцией евнуха."
+
+ trait_dwarf:0 "Низкорослый"
+
+ trait_disinherited_character_desc:1 "[ROOT.GetCharacter.GetShortUINameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'была лишена', 'был лишон' )] наследства [Select_CString(ROOT.GetCharacter.IsFemale, 'своей', 'своим' )] [dynast|E] и не может наследовать [Concept( 'titles', 'титулы' )|E] от других членов династии."
+
+ trait_devoted_orlesian_chantry_male:0 "Брат"
+ trait_devoted_orlesian_chantry_female:0 "Сестра"
