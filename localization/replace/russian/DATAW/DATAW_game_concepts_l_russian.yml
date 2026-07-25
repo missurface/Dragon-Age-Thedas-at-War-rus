@@ -45,7 +45,7 @@
  game_concept_wyvern_desc: "Родич [Concept('dragon','дракона')|E], использующий крылья для парения, а не для настоящего полёта. Виверн способен плеваться смертельным ядом и считается опасной, но достойной добычей."
  game_concept_war_beasts: "Боевые звери"
  game_concept_war_beast: "Боевой зверь"
- game_concept_war_beasts_desc: "Боевые звери — это [Concept('men_at_arms','профессиональные полки')|E], обычно состоящие из животных, обученных для войны. Каждый такой зверь по-своему уникален, однако обычно они особенно эффективны против [Concept('skirmishers','застрельщиков')|E], а сдерживать их лучше всего умеют [Concept('spearmen','копейщики')|E]."
+ game_concept_war_beasts_desc: "Боевые звери — это [Concept('men_at_arms','профессиональные войска')|E], обычно состоящие из животных, обученных для войны. Каждый такой зверь по-своему уникален, однако обычно они особенно эффективны против [Concept('skirmishers','застрельщиков')|E], а сдерживать их лучше всего умеют [Concept('spearmen','копейщики')|E]."
 
 # TODO
  game_concept_lyrium: "Лириум"
@@ -141,5 +141,5 @@
 
 
 
- game_concept_religion_desc: "Одна $game_concept_religion$ может объединять множество различных конфессий, называемых [Concept('faiths','конфессиями')|E]. Сами религии, в свою очередь, относятся к одному из четырёх более крупных [Concept('religious_families','религиозных семейств')|E]: [GetReligionFamily('rf_alamarri_paganism').GetName], [GetReligionFamily('rf_ciriane_paganism').GetName], [GetReligionFamily('rf_andrastianism').GetName] или [GetReligionFamily('rf_elven_paganism').GetName]."
+ game_concept_religion_desc: "Одна $game_concept_religion$ может объединять множество различных конфессий, называемых [Concept('faiths','конфессиями')|E]. Сами религии, в свою очередь, относятся к одной из четырёх [Concept('religious_families','религиозных концепций')|E]: [GetReligionFamily('rf_alamarri_paganism').GetName], [GetReligionFamily('rf_ciriane_paganism').GetName], [GetReligionFamily('rf_andrastianism').GetName] или [GetReligionFamily('rf_elven_paganism').GetName]."
 

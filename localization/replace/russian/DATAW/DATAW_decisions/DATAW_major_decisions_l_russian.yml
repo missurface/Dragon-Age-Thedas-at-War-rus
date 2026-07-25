@@ -1,299 +1,299 @@
 ﻿l_russian:
- DATAW_integrate_crescent_valley: "Integrate the Crescent Valley"
- DATAW_integrate_crescent_valley_tooltip: "Integrate the Crescent Valley"
- DATAW_integrate_crescent_valley_desc: "Since the founding of the Orlesian Empire it has been Jader's legal right, granted by Kordillus I himself, to hold dominion over the [GetTitleByKey('d_crescent_valley').GetBaseNameNoTier]. The local Avvar clans, however, have always resented our authority, raising arms whenever we step in to claim dominion.\n\nOur initial attempts to pacify the valley faltered during the final stages of the Second Blight, when Thane Aldenon Eagle-Eyed evicted our administrators through armed rebellion. Our hold on the region ever since has been precarious. We must take drastic action to rectify this state of affairs."
- DATAW_integrate_crescent_valley_confirm: "End this Travesty"
- DATAW_land_easier_to_convert_crescent: "Counties within [GetTitleByKey('d_crescent_valley').GetName] are easier to convert ([faith|E] and [culture|e]) for next 25 years"
- DATAW_jader_turn_tribes_into_castle: "[tribe|E] [holdings|E] within [GetTitleByKey('d_crescent_valley').GetBaseNameNoTier] are turned into [castle|E] [holdings|E]"
- DATAW_jader_reset_development: "Any [development|E] and [county|E] [control|E] within [GetTitleByKey('d_crescent_valley').GetName] is removed"
+ DATAW_integrate_crescent_valley: "Интегрировать Долину Полумесяца"
+ DATAW_integrate_crescent_valley_tooltip: "Интегрировать Долину Полумесяца"
+ DATAW_integrate_crescent_valley_desc: "С самого основания Орлесианской империи Джейдер по праву, дарованному самим Кордилиусом Дракконом I, владеет землями титула [GetTitleByKey('d_crescent_valley').GetBaseNameNoTier]. Однако местные авварские кланы никогда не признавали нашу власть и брались за оружие всякий раз, когда мы пытались утвердить её.\n\nПервые попытки усмирить долину потерпели крах на исходе Второго Мора: тан Альденон Орлиный Глаз изгнал наших наместников, подняв вооружённое восстание. С тех пор наша власть в этих землях остаётся шаткой. Исправить положение можно лишь решительными мерами."
+ DATAW_integrate_crescent_valley_confirm: "Покончить с этим безобразием"
+ DATAW_land_easier_to_convert_crescent: "В течение следующих 25 лет в графствах титула [GetTitleByKey('d_crescent_valley').GetName] будет проще обращать население в другую [Concept('faith','конфессию')|E] и [Concept('culture','культуру')|E]"
+ DATAW_jader_turn_tribes_into_castle: "Все [Concept('tribe','племенные')|E] [Concept('holdings','владения')|E] титула [GetTitleByKey('d_crescent_valley').GetBaseNameNoTier] станут [Concept('castle','замковыми')|E] [Concept('holdings','владениями')|E]"
+ DATAW_jader_reset_development: "Во всех [Concept('county','графствах')|E] титула [GetTitleByKey('d_crescent_valley').GetName] обнулятся [Concept('development','развитие')|E] и [Concept('control','контроль')|E]"
 
- DATAW_unite_the_bannorn: "Unite the Bannorn"
- DATAW_unite_the_bannorn_tooltip: "Unite Land of Banns"
- DATAW_unite_the_bannorn_desc: "Long have the myriad Banns of central Ferelden remained divided, squabbling over petty disputes, and as of yet there has been no Teyrn strong enough to unite the lot of them under one banner.\n\nOne could imagine the power and influence such a lord might wield, with all of the Bannorn unified under their command…"
- DATAW_unite_the_bannorn_confirm: "Unite Land of Banns"
- DATAW_unite_the_bannorn_tooltip_1: "Lands of [GetTitleByKey('k_w_bannorn').GetBaseNameNoTier] and [GetTitleByKey('k_e_bannorn').GetBaseNameNoTier] are united under [GetTitleByKey('k_bannorn').GetName]"
+ DATAW_unite_the_bannorn: "Объединить Баннорн"
+ DATAW_unite_the_bannorn_tooltip: "Объединить земли баннов"
+ DATAW_unite_the_bannorn_desc: "Бесчисленные банны центрального Ферелдена долго оставались разобщены и погрязли в мелочных распрях. До сих пор ни один правитель не обладал достаточной силой, чтобы объединить их под одним знаменем.\n\nМожно лишь представить, какие власть и влияние принесёт господство над единым Баннорном…"
+ DATAW_unite_the_bannorn_confirm: "Объединить земли баннов"
+ DATAW_unite_the_bannorn_tooltip_1: "Земли титулов [GetTitleByKey('k_w_bannorn').GetBaseNameNoTier] и [GetTitleByKey('k_e_bannorn').GetBaseNameNoTier] объединятся в составе державы [GetTitleByKey('k_bannorn').GetName]"
  DATAW_unite_the_bannorn_tooltip_2: ""
 
- DATAW_unite_clayne_tribes: "Unite Clayne Tribes"
- DATAW_unite_clayne_tribes_tooltip: "Unite Clayne Tribes"
- DATAW_unite_clayne_tribes_desc: "If a sufficiently strong leader were to arise from among the warring [GetGlobalVariable('clayne_culture_var').Culture.GetName] [tribes|E], a united [realm|E] might be forged from the chaos, capable of standing up to the caprice of our neighbors."
- DATAW_unite_clayne_tribes_confirm: "End millenias of Disunion"
- DATAW_unite_clayne_tribes_conquest_tooltip_trig: "You need to own at least #I 70%#! #I ([SCOPE.ScriptValue('70_percent_of_clayne_land')])#! of [GetGlobalVariable('clayne_culture_var').Culture.GetName] (and its children [cultures|E]) controled [counties|E] of [GetTitleByKey('e_ferelden').GetBaseNameNoTier].\nCurrently you own #I [SCOPE.ScriptValue('ruler_owned_clayne_land')]#!/#X [SCOPE.ScriptValue('all_clayne_land')]#! [counties|E]"
- DATAW_unite_clayne_tribes_mixed_tooltip_trig: "You and your [allies|E] need to own at least #I 70%#! #I ([SCOPE.ScriptValue('70_percent_of_clayne_land')])#! of [GetGlobalVariable('clayne_culture_var').Culture.GetName] (and its children [cultures|E]) controled [counties|E] of [GetTitleByKey('e_ferelden').GetBaseNameNoTier] additionally you also must own more than #I 40%#! #I ([SCOPE.ScriptValue('40_percent_of_clayne_land')])#! but less that #X 70%#! #X ([SCOPE.ScriptValue('70_percent_of_clayne_land')])#! of [GetGlobalVariable('clayne_culture_var').Culture.GetName] owned [counties|E].\nCurrently you own #I [SCOPE.ScriptValue('ruler_owned_clayne_land')]#!/#X [SCOPE.ScriptValue('all_clayne_land')]#! [counties|E] and you combined with your [allies|E] own #I [SCOPE.ScriptValue('all_ally_land_and_ruler_combined')]#!/#X [SCOPE.ScriptValue('all_clayne_land')]#! [counties|E]"
- DATAW_unite_clayne_tribes_peace_tooltip_trig: "You and your [allies|E] need to own at least #I 70%#! #I ([SCOPE.ScriptValue('70_percent_of_clayne_land')])#! of [GetGlobalVariable('clayne_culture_var').Culture.GetName] (and its children [cultures|E]) controled [counties|E] of [GetTitleByKey('e_ferelden').GetBaseNameNoTier] additionally you also cant own more than #X 40%#! #X ([SCOPE.ScriptValue('40_percent_of_clayne_land')])#! of [GetGlobalVariable('clayne_culture_var').Culture.GetName] owned [counties|E].\nCurrently you own #I [SCOPE.ScriptValue('ruler_owned_clayne_land')]#!/#X [SCOPE.ScriptValue('all_clayne_land')]#! [counties|E] and you combined with your [allies|E] own #I [SCOPE.ScriptValue('all_ally_land_and_ruler_combined')]#!/#X [SCOPE.ScriptValue('all_clayne_land')]#! [counties|E]"
- DATAW_unite_clayne_tribes_conquest_tooltip: "Your [vassals|E] will be more inclied to [scheme|e] or join [factions|E] against you\nYou get a major [opinion|E] malus with all your [vassals|E]\nEvery [vassal|E] [vassal_contract|E] (when appliable) is increased by one level\nHigh [dread|E] increases [feudal|E] [taxes|E] and [levies|E]"
- DATAW_unite_clayne_tribes_mixed_tooltip: "All your [allies|E] will become [vassals|E] under your [realm|E]\nYou get a minor [opinion|E] bonus with all your [vassals|E]\nEvery [powerful_vassal|E] or [kingdom|E] [title_tier|E] [vassal|E] can demand to be put on your [council|E]"
- DATAW_unite_clayne_tribes_peace_tooltip: "All your [allies|E] will become [vassals|E] under your [realm|E]\nYou will be placed under special [diarchy|E] in which strongest [vassal|E] shall become [diarch|E]\nYour [vassals|E] will be less inclied to [scheme|e] or join [factions|E] against you\nYou get a major [opinion|E] bonus with all your [vassals|E]\nEvery [powerful_vassal|E] or [kingdom|E] [title_tier|E] [vassal|E] can demand to be put on your [council|E], [diarch|E] excluded."
- DATAW_unite_clayne_tribes_before_req_tooltip: "Additional Effects of this [decision|E] will be shown upon meeting one of its requirements"
+ DATAW_unite_clayne_tribes: "Объединить племена клейнов"
+ DATAW_unite_clayne_tribes_tooltip: "Объединить племена клейнов"
+ DATAW_unite_clayne_tribes_desc: "Если среди враждующих [Concept('tribes','племён')|E] народа [GetGlobalVariable('clayne_culture_var').Culture.GetName] появится достаточно сильный вождь, из хаоса можно будет выковать единую [Concept('realm','державу')|E], способную противостоять прихотям соседей."
+ DATAW_unite_clayne_tribes_confirm: "Покончить с тысячелетиями раздора"
+ DATAW_unite_clayne_tribes_conquest_tooltip_trig: "Вы должны владеть не менее #I 70%#! #I ([SCOPE.ScriptValue('70_percent_of_clayne_land')])#! [Concept('counties','графств')|E] державы [GetTitleByKey('e_ferelden').GetBaseNameNoTier], где господствует [GetGlobalVariable('clayne_culture_var').Culture.GetName] или одна из её дочерних [Concept('cultures','культур')|E].\nСейчас вы владеете #I [SCOPE.ScriptValue('ruler_owned_clayne_land')]#!/#X [SCOPE.ScriptValue('all_clayne_land')]#! [Concept('counties','графствами')|E]"
+ DATAW_unite_clayne_tribes_mixed_tooltip_trig: "Вы и ваши [Concept('allies','союзники')|E] должны владеть не менее #I 70%#! #I ([SCOPE.ScriptValue('70_percent_of_clayne_land')])#! [Concept('counties','графств')|E] державы [GetTitleByKey('e_ferelden').GetBaseNameNoTier], где господствует [GetGlobalVariable('clayne_culture_var').Culture.GetName] или одна из её дочерних [Concept('cultures','культур')|E]. Кроме того, лично вы должны владеть более чем #I 40%#! #I ([SCOPE.ScriptValue('40_percent_of_clayne_land')])#!, но менее чем #X 70%#! #X ([SCOPE.ScriptValue('70_percent_of_clayne_land')])#! [Concept('counties','графств')|E], где господствует [GetGlobalVariable('clayne_culture_var').Culture.GetName].\nСейчас вы владеете #I [SCOPE.ScriptValue('ruler_owned_clayne_land')]#!/#X [SCOPE.ScriptValue('all_clayne_land')]#! [Concept('counties','графствами')|E], а вместе с [Concept('allies','союзниками')|E] — #I [SCOPE.ScriptValue('all_ally_land_and_ruler_combined')]#!/#X [SCOPE.ScriptValue('all_clayne_land')]#! [Concept('counties','графствами')|E]"
+ DATAW_unite_clayne_tribes_peace_tooltip_trig: "Вы и ваши [Concept('allies','союзники')|E] должны владеть не менее #I 70%#! #I ([SCOPE.ScriptValue('70_percent_of_clayne_land')])#! [Concept('counties','графств')|E] державы [GetTitleByKey('e_ferelden').GetBaseNameNoTier], где господствует [GetGlobalVariable('clayne_culture_var').Culture.GetName] или одна из её дочерних [Concept('cultures','культур')|E]. При этом лично вы не можете владеть более чем #X 40%#! #X ([SCOPE.ScriptValue('40_percent_of_clayne_land')])#! [Concept('counties','графств')|E], где господствует [GetGlobalVariable('clayne_culture_var').Culture.GetName].\nСейчас вы владеете #I [SCOPE.ScriptValue('ruler_owned_clayne_land')]#!/#X [SCOPE.ScriptValue('all_clayne_land')]#! [Concept('counties','графствами')|E], а вместе с [Concept('allies','союзниками')|E] — #I [SCOPE.ScriptValue('all_ally_land_and_ruler_combined')]#!/#X [SCOPE.ScriptValue('all_clayne_land')]#! [Concept('counties','графствами')|E]"
+ DATAW_unite_clayne_tribes_conquest_tooltip: "Ваши [Concept('vassals','вассалы')|E] будут чаще плести [Concept('scheme','происки')|E] и вступать в направленные против вас [Concept('factions','фракции')|E]\nВы получите значительный штраф к [Concept('opinion','мнению')|E] всех [Concept('vassals','вассалов')|E]\nУровень [Concept('vassal_contract','вассального договора')|E] каждого [Concept('vassal','вассала')|E] повысится на один, если это возможно\nВысокий [Concept('dread','ужас')|E] увеличит [Concept('feudal','феодальные')|E] [Concept('taxes','налоги')|E] и [Concept('levies','ополчение')|E]"
+ DATAW_unite_clayne_tribes_mixed_tooltip: "Все ваши [Concept('allies','союзники')|E] станут [Concept('vassals','вассалами')|E] в вашей [Concept('realm','державе')|E]\nВы получите небольшой бонус к [Concept('opinion','мнению')|E] всех [Concept('vassals','вассалов')|E]\nКаждый [Concept('powerful_vassal','могущественный вассал')|E] или [Concept('vassal','вассал')|E], чей [Concept('title_tier','уровень титула')|E] — [Concept('kingdom','королевство')|E], сможет потребовать место в вашем [Concept('council','совете')|E]"
+ DATAW_unite_clayne_tribes_peace_tooltip: "Все ваши [Concept('allies','союзники')|E] станут [Concept('vassals','вассалами')|E] в вашей [Concept('realm','державе')|E]\nБудет введено особое [Concept('diarchy','наделение полномочиями')|E], при котором сильнейший [Concept('vassal','вассал')|E] станет [Concept('diarch','диархом')|E]\nВаши [Concept('vassals','вассалы')|E] будут реже плести [Concept('scheme','происки')|E] и вступать в направленные против вас [Concept('factions','фракции')|E]\nВы получите значительный бонус к [Concept('opinion','мнению')|E] всех [Concept('vassals','вассалов')|E]\nКаждый [Concept('powerful_vassal','могущественный вассал')|E] или [Concept('vassal','вассал')|E], чей [Concept('title_tier','уровень титула')|E] — [Concept('kingdom','королевство')|E], кроме [Concept('diarch','диарха')|E], сможет потребовать место в вашем [Concept('council','совете')|E]"
+ DATAW_unite_clayne_tribes_before_req_tooltip: "Дополнительные последствия этого [Concept('decision','решения')|E] появятся после выполнения одного из его требований"
 
- DATAW_unite_brecilian_forest: "Reclaim the Brecilian Lands"
- DATAW_unite_brecilian_forest_tooltip: "Reclaim the Brecilian Lands"
- DATAW_unite_brecilian_forest_desc: "For as long as anyone can remember, the Brecilian people have been divided, isolated. For centuries, it has been this way, and we are proud of the traditions we have developed from our lives among the spirits.\nHowever, the encroachment of foreign people on our lands, some that say to follow a “Maker”, singular creator of everything, are threatening our way of life, along with a race of people with ears as sharp as knives. Now, the time has come to unite to preserve our way of life. Now, the Brecilians, and the Brùcilis Cultas, shall be united as one!"
- DATAW_unite_brecilian_forest_confirm: "The Spirits favour us!"
- DATAW_unite_brecilian_forest_faith_tt: "Your [faith|E] is [GetFaithByKey('brucilis_cultas').GetName], or was created from it"
+ DATAW_unite_brecilian_forest: "Вернуть Бресилианские земли"
+ DATAW_unite_brecilian_forest_tooltip: "Вернуть Бресилианские земли"
+ DATAW_unite_brecilian_forest_desc: "Сколько существует людская память, бресилианцы живут разобщённо и обособленно. Так продолжается веками, и мы гордимся обычаями, рождёнными нашей жизнью среди духов.\nНо в наши земли вторгаются чужаки: одни поклоняются некоему «Создателю», единственному творцу всего сущего, а другие принадлежат к народу с острыми, словно ножи, ушами. Все они угрожают нашему укладу. Пришло время объединиться, чтобы сохранить его. Отныне бресилианцы и Бруцилис Култас станут единым целым!"
+ DATAW_unite_brecilian_forest_confirm: "Духи благоволят нам!"
+ DATAW_unite_brecilian_forest_faith_tt: "Ваша [Concept('faith','конфессия')|E] — [GetFaithByKey('brucilis_cultas').GetName] либо создана на её основе"
 
- DATAW_subjugate_brecilian_forest: "The Barbarians Tamed"
- DATAW_subjugate_brecilian_forest_tooltip: "Subjugate the Brecilians under Tevinter rule"
- DATAW_subjugate_brecilian_forest_desc: "As our family settled in these faraway lands, inhabited by violent barbarians worshiping spirits, our future seemed grim. One of these tribes saw our magical talents and brought the Nanterius forward to lead them, but our family seemed doomed to fade into obscurity, fading, absorbed by the Savages of the South that call themselves "Brecilians". But we have not only survived, but thrived, and we now rule over the spirit-worshippers that plotted our doom. The Brecilian Forest is ours, and has been for long enough that no one can refute that claim. Now, the Brecilians will be tamed under a Despotate, no matter how far away from the Imperium, and only the barbarian's view of us will end up deciding if they are unruly subjects or not."
- DATAW_subjugate_brecilian_forest_confirm: "Those who oppose thee, Shall know the wrath of heaven."
- DATAW_imperial_subjugate_brecilian_forest_tt: "Your [faith|E] is [GetFaithByKey('imperial_chantry').GetName], or was created from it"
+ DATAW_subjugate_brecilian_forest: "Укрощение варваров"
+ DATAW_subjugate_brecilian_forest_tooltip: "Подчинить бресилианцев власти Тевинтера"
+ DATAW_subjugate_brecilian_forest_desc: "Когда наш род поселился в этих далёких землях, населённых жестокими варварами-духопоклонниками, будущее казалось безрадостным. Одно из племён оценило наши магические дарования и призвало Нантериев править им, но всё же казалось, что нашему роду суждено исчезнуть, растворившись среди дикарей Юга, именующих себя «бресилианцами». Однако мы не просто выжили — мы достигли процветания и теперь властвуем над духопоклонниками, некогда грозившими нам гибелью. Лес Бресилиан принадлежит нам уже достаточно долго, чтобы никто не мог оспорить это право. Отныне бресилианцев усмирит деспотат, сколь бы далёк он ни был от Империи, а покорными подданными или мятежниками сделает их лишь собственное отношение к нам."
+ DATAW_subjugate_brecilian_forest_confirm: "Противящиеся тебе познают гнев небес."
+ DATAW_imperial_subjugate_brecilian_forest_tt: "Ваша [Concept('faith','конфессия')|E] — [GetFaithByKey('imperial_chantry').GetName] либо создана на её основе"
 
- DATAW_a_teyrn_of_the_seas_decision: "A Teyrn of the Seas"
- DATAW_a_teyrn_of_the_seas_decision_tooltip: "A Teyrn of the Seas"
- DATAW_a_teyrn_of_the_seas_decision_desc: "Brandel's Reach, due to its prime location on the edge of the Waking Sea, has always been a haven for raiders, smugglers and other unsavory types of seafarers, searching to escape the encumbering rules of the mainland. Now that Brandel's Reach is united via the reign of a local Arl, it is time for the creation of a unique type of Teyrn on Brandel's Reach. A Teyrn centered upon the sea and its prospects."
- DATAW_a_teyrn_of_the_seas_decision_confirm: "We are now Masters of the Waves and our own destiny!"
- DATAW_a_teyrn_of_the_seas_amaranthine: "If neither the Teyrnir of [GetTitleByKey('k_highever').GetBaseNameNoTier] nor the Kingdom of [GetTitleByKey('e_ferelden').GetBaseNameNoTier] exist, then the Arling of [GetTitleByKey('d_amaranthine').GetBaseNameNoTier] Holder must have at least #P 80#! [opinion|E] of you."
- DATAW_a_teyrn_of_the_seas_highever: "If the Kingdom of [GetTitleByKey('e_ferelden').GetBaseNameNoTier] doesn't exist but the Teyrnir of [GetTitleByKey('k_highever').GetBaseNameNoTier] does, then the Teyrnir of [GetTitleByKey('k_highever').GetBaseNameNoTier] Holder must have at least #P 80#! [opinion|E] of you."
- DATAW_a_teyrn_of_the_seas_ferelden: "If the Kingdom of [GetTitleByKey('e_ferelden').GetBaseNameNoTier] exists, then the Kingdom of [GetTitleByKey('e_ferelden').GetBaseNameNoTier] Holder must have at least #P 80#! [opinion|E] of you."
+ DATAW_a_teyrn_of_the_seas_decision: "Тэйрн морей"
+ DATAW_a_teyrn_of_the_seas_decision_tooltip: "Тэйрн морей"
+ DATAW_a_teyrn_of_the_seas_decision_desc: "Благодаря выгодному положению у Недремлющего моря Предел Бранделя всегда служил пристанищем для налётчиков, контрабандистов и прочих сомнительных мореходов, бежавших от обременительных законов материка. Теперь местному эрлу удалось объединить Предел Бранделя, и настало время создать здесь особый тэйрнир — державу, обращённую к морю и его возможностям."
+ DATAW_a_teyrn_of_the_seas_decision_confirm: "Отныне мы владыки волн и собственной судьбы!"
+ DATAW_a_teyrn_of_the_seas_amaranthine: "Если не существует ни тэйрнира [GetTitleByKey('k_highever').GetBaseNameNoTier], ни королевства [GetTitleByKey('e_ferelden').GetBaseNameNoTier], владелец эрлинга [GetTitleByKey('d_amaranthine').GetBaseNameNoTier] должен иметь о вас не менее #P 80#! ед. [Concept('opinion','мнения')|E]."
+ DATAW_a_teyrn_of_the_seas_highever: "Если королевства [GetTitleByKey('e_ferelden').GetBaseNameNoTier] не существует, а тэйрнир [GetTitleByKey('k_highever').GetBaseNameNoTier] существует, владелец тэйрнира [GetTitleByKey('k_highever').GetBaseNameNoTier] должен иметь о вас не менее #P 80#! ед. [Concept('opinion','мнения')|E]."
+ DATAW_a_teyrn_of_the_seas_ferelden: "Если королевство [GetTitleByKey('e_ferelden').GetBaseNameNoTier] существует, владелец королевства [GetTitleByKey('e_ferelden').GetBaseNameNoTier] должен иметь о вас не менее #P 80#! ед. [Concept('opinion','мнения')|E]."
 
- steward_promote_culture_DATAW_conversion_boost: "County Conversion boost"
- DATAW_only_able_to_create_via_decision: "Can only create this [title|E] via special [decision|E]"
+ steward_promote_culture_DATAW_conversion_boost: "Ускорение смены культуры графства"
+ DATAW_only_able_to_create_via_decision: "Этот [Concept('title','титул')|E] можно создать только с помощью особого [Concept('decision','решения')|E]"
 
  # Unifying the Avvar, by Terra Game
 
- DATAW_unify_avvar_kingdom_decision:0 "Unite the Children of Tyrdda Bright-Axe"
- DATAW_unify_avvar_kingdom_decision_confirm:0 "Once again, the lands of the Avvar reach Belenas."
- DATAW_unify_avvar_kingdom_decision_desc:0 "For centuries, we have followed the path of the eldest of Elders, the Avvar-Mother. Like her, we fight against our soft cousins of the east who accepted a foreign faith, while we stayed true to our roots. However, the divisions among the various clans meant that we rarely could bring about a united front against the Claynes. Now, it is time to show to Thedas that the Avvars are united and strong, united under a faith that is theirs and theirs alone! Edgehall and the Frostbacks, starting now, will now only be seen as one. The lands of the Clans. The lands of the Avvars."
- DATAW_unify_avvar_kingdom_decision_tooltip:0 "The Avvar are united as one."
- DATAW_unify_avvar_kingdom_decision_effect_tooltip:0 "The Avvar are united as one"
+ DATAW_unify_avvar_kingdom_decision:0 "Объединить детей Тирдды Яркой Секиры"
+ DATAW_unify_avvar_kingdom_decision_confirm:0 "Пусть земли авваров вновь простираются до Беленаса."
+ DATAW_unify_avvar_kingdom_decision_desc:0 "Веками мы следуем пути первой из старейшин — Матери авваров. Подобно ей, мы сражаемся с изнеженными восточными родичами, принявшими чужую веру, тогда как сами остаёмся верны своим корням. Но из-за раздоров между кланами мы редко могли выступить единым фронтом против клейнов. Пришло время показать всему Тедасу, что аввары едины и сильны, объединённые своей и только своей верой! Отныне Эджхолл и Морозные горы станут единым целым. Землёй кланов. Землёй авваров."
+ DATAW_unify_avvar_kingdom_decision_tooltip:0 "Аввары объединятся."
+ DATAW_unify_avvar_kingdom_decision_effect_tooltip:0 "Аввары объединятся"
 
- major_decisions.2441.t:0 " A Thane of Thanes"
- major_decisions.2441.desc:0 "For once, the final word does not come from a Thane.\n\nFor centuries, the Thane as been the final authority on everything, in every clan that has ever seen the Frostbacks and beyond. \n\nToday, this universal truth is broken.\n\nFor I, [ROOT.Char.GetName], have erected myself above all other clans, all other Thanes, and I am now the one that has the final word on everything, for I am a Thane of Thanes.\n\nIn the name of Korth the Mountain-Father, the Lady of the Skies and Hakkon Wintersbreath, I have now united their domain and although nothing is permanent, the tale of the Thane-of-Thanes shall be counted by the Elders for ages to come."
- major_decisions.2441.a:0 "Long may live the united clans! Long live the Avvars!"
+ major_decisions.2441.t:0 "Тан танов"
+ major_decisions.2441.desc:0 "Впервые последнее слово остаётся не за отдельным таном.\n\nВеками тан был высшей властью во всех делах каждого клана, видевшего Морозные горы и земли за ними.\n\nСегодня эта незыблемая истина пала.\n\nЯ, [ROOT.Char.GetName], [Select_CString(ROOT.Char.IsFemale, 'возвысилась', 'возвысился' )] над всеми прочими кланами и танами. Отныне последнее слово во всех делах принадлежит мне, ибо я — тан танов.\n\nВо имя Корта Отца Гор, Хозяйки Небес и Гаккона Зимодыха я объединяю их владения. Пусть ничто не вечно, но сказание о тане танов старейшины будут пересказывать многие века."
+ major_decisions.2441.a:0 "Да здравствуют единые кланы! Да здравствуют аввары!"
 
  # Unifying the Avvar as a maker follower, by Terra Game
 
- DATAW_unify_avvar_kingdom_maker_decision:0 "Unite the Children of Tyrdda Bright-Axe"
- DATAW_unify_avvar_kingdom_maker_decision_confirm:0 "Blessed are the peacekeepers, the champions of the just."
- DATAW_unify_avvar_kingdom_maker_decision_desc:0 "For centuries, we have followed the path of the eldest of Elders, the Avvar-Mother. Like her, we fight against our soft cousins of the east who stayed in the lowlands, while we thrived in the mountains. However, the divisions among the various clans and our unique faith meant that we rarely could bring about a united front against the Claynes, and it led to our isolation from the rest of Thedas. If we are to survive in the coming centuries without becoming subjects of a foreigner, it is a necessity that some parts of our culture change so that the rest survives. and so we shall unite the Frostbacks and Edgehall into one, for The Maker and Andraste. For she, Maferath and her Divine Husband showed the light to all Thedas, and we shall follow their will."
- DATAW_unify_avvar_kingdom_maker_decision_tooltip:0 "The Avvar are united as one."
- DATAW_unify_avvar_kingdom_maker_decision_effect_tooltip:0 "The Avvar are united as one"
+ DATAW_unify_avvar_kingdom_maker_decision:0 "Объединить детей Тирдды Яркой Секиры"
+ DATAW_unify_avvar_kingdom_maker_decision_confirm:0 "Благословенны хранители мира, защитники справедливости."
+ DATAW_unify_avvar_kingdom_maker_decision_desc:0 "Веками мы следуем пути первой из старейшин — Матери авваров. Подобно ей, мы сражаемся с изнеженными восточными родичами, оставшимися в низинах, пока сами процветаем в горах. Но раздоры между кланами и наша особая вера мешали нам выступить единым фронтом против клейнов и обрекли нас на оторванность от остального Тедаса. Если мы хотим пережить грядущие века и не оказаться под властью чужеземцев, некоторые стороны нашей культуры придётся изменить, чтобы сохранить всё остальное. Во имя Создателя и Андрасте мы объединим Морозные горы и Эджхолл. Андрасте, Маферат и её божественный Супруг явили свет всему Тедасу, и мы последуем их воле."
+ DATAW_unify_avvar_kingdom_maker_decision_tooltip:0 "Аввары объединятся."
+ DATAW_unify_avvar_kingdom_maker_decision_effect_tooltip:0 "Аввары объединятся"
 
- major_decisions.2442.t:0 "The Maker's Mountains"
- major_decisions.2442.desc:0 "Faith and culture always meant the same thing among the Avvars.\n\n Tales of Tyrdda Bright-Axe leading her clan into the mountains, tales of the eagle finding Korth's heart in the treacherous Frostbacks. The tales of the gods and the Avvar people have always been told side by side, mingling with each other until they were one and the same. \n\n Today, this fact must change.\n\n Our worship of the gods have left us completely isolated, a target hated by all but ourselves. If we are to survive, we have to change, and we must follow what one of our own, Maferath, once did, and follow The Maker and his Bride. \n\n Today, the Avvars are united as one, Hen Wlad Fy Nhadau not for the glory of the Lady of the Skies, not for Hakkon Wintersbreath, but for The Maker and His bride.\n\n "Despair not, said She, for your betrayal was Maker-blessed and returned me to His side.""
- major_decisions.2442.a:0 "I am forgiven."
+ major_decisions.2442.t:0 "Горы Создателя"
+ major_decisions.2442.desc:0 "Для авваров вера и культура всегда были единым целым.\n\nСказания о Тирдде Яркой Секире, уведшей свой клан в горы; сказания об орле, отыскавшем сердце Корта среди коварных Морозных гор. Истории богов и авварского народа всегда звучали рядом, переплетаясь, пока не стали неразделимы.\n\nСегодня это должно измениться.\n\nПоклонение богам обрекло нас на полное одиночество и сделало мишенью для ненависти всех прочих народов. Чтобы выжить, нам придётся измениться и повторить путь одного из наших сородичей — Маферата, последовав за Создателем и Его Невестой.\n\nСегодня аввары едины. Земля наших предков объединена не во славу Хозяйки Небес или Гаккона Зимодыха, но во имя Создателя и Его Невесты.\n\n«Не отчаивайся, — сказала Она, — ибо твоё предательство было благословлено Создателем и вернуло меня к Нему»."
+ major_decisions.2442.a:0 "Я [Select_CString(ROOT.Char.IsFemale, 'прощена', 'прощён' )]."
 
  # Unifying the Chasind, by Terra Game
 
- DATAW_unify_chasind_kingdom_decision:0 "Unify the Chasind"
- DATAW_unify_chasind_kingdom_decision_confirm:0 "Unite the Wilds!"
- DATAW_unify_chasind_kingdom_decision_desc:0 "Seldom have the Chasind tribes united under a single leader, but when they have, they have been a force to be reckoned with.\n\nA more permanent unification - should there be someone with the mettle to accomplish it - would allow the Chasind to finally make their mark on history."
- DATAW_unify_chasind_kingdom_decision_tooltip:0 "The Chasind are united as one."
- DATAW_unify_chasind_kingdom_decision_effect_tooltip:0 "The Chasind are united as one"
+ DATAW_unify_chasind_kingdom_decision:0 "Объединить хасиндов"
+ DATAW_unify_chasind_kingdom_decision_confirm:0 "Объединить Дикие земли!"
+ DATAW_unify_chasind_kingdom_decision_desc:0 "Племена хасиндов редко объединялись под властью одного вождя, но всякий раз становились силой, с которой приходилось считаться.\n\nЕсли найдётся вождь, способный на более прочное объединение, хасинды наконец оставят свой след в истории."
+ DATAW_unify_chasind_kingdom_decision_tooltip:0 "Хасинды объединятся."
+ DATAW_unify_chasind_kingdom_decision_effect_tooltip:0 "Хасинды объединятся"
 
 # Unify Chasind Event Loc
- major_decisions.2443.t:0 "Hen Wlad Fy Nhadau"
- major_decisions.2443.desc:0 "My people have ranged the wilds since time immemorial.\n\nTo our kinsmen in the hills and the central valley, our homeland seems treacherous and all but unnavigable. Yet to we of the [GetGlobalVariable('chasind_culture_var').Culture.GetName], it has a savage beauty of its own; the forest and the wetlands are good to us and share their bounty freely. Why, then, should we live apart - each tribe with its own shaman, its own village or hold - when history has shown we can achieve so much together?\n\nI have sought to answer that question, and here before the gods, let my [GetPlayer.GetTitleAsNameNicknamedNoTooltip]-ship be the reply."
- major_decisions.2443.a:0 "Henceforth, the Chasind stand together!"
+ major_decisions.2443.t:0 "Земля наших предков"
+ major_decisions.2443.desc:0 "С незапамятных времён мой народ странствует по Диким землям.\n\nНашим родичам из холмов и центральной долины родной край кажется коварным и почти непроходимым. Но для народа [GetGlobalVariable('chasind_culture_var').Culture.GetName] он обладает собственной дикой красотой: леса и топи добры к нам и щедро делятся своими дарами. Так зачем же нам жить порознь — каждому племени со своим шаманом, деревней или оплотом, — если история уже показала, сколь многого мы способны достичь вместе?\n\nЯ [Select_CString(ROOT.Char.IsFemale, 'искала', 'искал' )] ответ на этот вопрос, и теперь перед лицом богов им станет мой титул: [GetPlayer.GetTitleAsNameNicknamedNoTooltip]."
+ major_decisions.2443.a:0 "Отныне хасинды стоят плечом к плечу!"
 
  # Unifying the Chasind as a maker follower, by Terra Game
 
- DATAW_unify_chasind_kingdom_maker_decision:0 "Unify the Chasind"
- DATAW_unify_chasind_kingdom_maker_decision_confirm:0 "Unite the Wilds!"
- DATAW_unify_chasind_kingdom_maker_decision_desc:0 "Seldom have the Chasind tribes united under a single leader, but when they have, they have been a force to be reckoned with.\n\nA more permanent unification - should there be someone with the mettle to accomplish it - would allow the Chasind to finally make their mark on history."
- DATAW_unify_chasind_kingdom_maker_decision_tooltip:0 "The Chasind are united as one."
- DATAW_unify_chasind_kingdom_maker_decision_effect_tooltip:0 "The Chasind are united as one"
+ DATAW_unify_chasind_kingdom_maker_decision:0 "Объединить хасиндов"
+ DATAW_unify_chasind_kingdom_maker_decision_confirm:0 "Объединить Дикие земли!"
+ DATAW_unify_chasind_kingdom_maker_decision_desc:0 "Племена хасиндов редко объединялись под властью одного вождя, но всякий раз становились силой, с которой приходилось считаться.\n\nЕсли найдётся вождь, способный на более прочное объединение, хасинды наконец оставят свой след в истории."
+ DATAW_unify_chasind_kingdom_maker_decision_tooltip:0 "Хасинды объединятся."
+ DATAW_unify_chasind_kingdom_maker_decision_effect_tooltip:0 "Хасинды объединятся"
 
- major_decisions.2444.t:0 "Hen Wlad Fy Nhadau"
- major_decisions.2444.desc:0 "My people have ranged the wilds since time immemorial.\n\nTo our kinsmen in the hills and the central valley, our homeland seems treacherous and all but unnavigable. Yet to we of the [GetGlobalVariable('chasind_culture_var').Culture.GetName], it has a savage beauty of its own; the forest and the wetlands are good to us and share their bounty freely. Why, then, should we live apart - each tribe with its own shaman, its own village or hold - when history has shown we can achieve so much together?\n\nI have sought to answer that question, and here before the Maker, let my [GetPlayer.GetTitleAsNameNicknamedNoTooltip]-ship be the reply."
- major_decisions.2444.a:0 "Henceforth, the Chasind stand together!"
+ major_decisions.2444.t:0 "Земля наших предков"
+ major_decisions.2444.desc:0 "С незапамятных времён мой народ странствует по Диким землям.\n\nНашим родичам из холмов и центральной долины родной край кажется коварным и почти непроходимым. Но для народа [GetGlobalVariable('chasind_culture_var').Culture.GetName] он обладает собственной дикой красотой: леса и топи добры к нам и щедро делятся своими дарами. Так зачем же нам жить порознь — каждому племени со своим шаманом, деревней или оплотом, — если история уже показала, сколь многого мы способны достичь вместе?\n\nЯ [Select_CString(ROOT.Char.IsFemale, 'искала', 'искал' )] ответ на этот вопрос, и теперь перед Создателем им станет мой титул: [GetPlayer.GetTitleAsNameNicknamedNoTooltip]."
+ major_decisions.2444.a:0 "Отныне хасинды стоят плечом к плечу!"
 
 # Unify the Marshes, by Stocky Kruegar
 
- DATAW_unify_the_marshes_decision: "Unify the Marshes"
- DATAW_unify_the_marshes_decision_tooltip: "placeholder"
- DATAW_unify_the_marshes_decision_desc: "placeholder!"
- DATAW_unify_the_marshes_decision_confirm: "The Marshes are united as one"
- DATAW_unify_the_marshes_decision_faith_tt: "Your [faith|E] is [GetFaithByKey('brucilis_cultas').GetName], or was created from it"
- DATAW_unify_the_marshes_decision_without_orlais: "You must be #P independent #!"
- DATAW_unify_the_marshes_decision_with_orlais: "#italic If you are a vassal under [GetTitleByKey('e_orlais').GetBaseNameNoTier]#!, the Holder of [GetTitleByKey('e_orlais').GetBaseNameNoTier] Holder must have at least #P 80#! [opinion|E] of you."
- unify_marshes: "All of your Vassals must have at least #P 80#! [opinion|E] of you."
+ DATAW_unify_the_marshes_decision: "Объединить топи"
+ DATAW_unify_the_marshes_decision_tooltip: "Заглушка"
+ DATAW_unify_the_marshes_decision_desc: "Текст-заглушка!"
+ DATAW_unify_the_marshes_decision_confirm: "Топи объединятся"
+ DATAW_unify_the_marshes_decision_faith_tt: "Ваша [Concept('faith','конфессия')|E] — [GetFaithByKey('brucilis_cultas').GetName] либо создана на её основе"
+ DATAW_unify_the_marshes_decision_without_orlais: "Вы должны обладать #P независимостью#!"
+ DATAW_unify_the_marshes_decision_with_orlais: "#italic Если вы являетесь вассалом державы [GetTitleByKey('e_orlais').GetBaseNameNoTier]#!, владелец державы [GetTitleByKey('e_orlais').GetBaseNameNoTier] должен иметь о вас не менее #P 80#! ед. [Concept('opinion','мнения')|E]."
+ unify_marshes: "Все ваши вассалы должны иметь о вас не менее #P 80#! ед. [Concept('opinion','мнения')|E]."
  # Summon sylvans to fight!
 
- summon_spirits_decision:0 "Summon the Aid of the Forest"
- summon_spirits_decision_confirm:0 "Lady of the Forest, hear my plea…"
- summon_spirits_decision_desc:0 "As the decades passed, the Spirits of the forest have been good to us. The White Lady hearing us to guide those lost in the night, the Bringer of Seeds helping a treatment come to fruition…\n\n However, when we see ourselves attacked by outside forces, we have called upon the spirits for a more… tangible help. \n\n Great trees thought to be immovable suddenly moving with the rage of a thousand warriors, ready to lend their incredible strength and power to protect those that worship them. \n\n  While most of them are wild and hostile to any creature, the few that lend their strength to us are invaluable allies worthy of the greatest of praise and the greatest of sacrifices.\n\n The time has come once again to call for the aid of such spirits. Let us pray that the answer we receive is favourable."
- summon_spirits_decision_tooltip:0 "Summon spirits of the forest"
- summon_spirits_decision_effect.tt:0 "Prepare a sacrifice to call upon the help of the spirits."
- sylvan_army:0 "Spirit Army"
+ summon_spirits_decision:0 "Призвать лес на помощь"
+ summon_spirits_decision_confirm:0 "Хозяйка леса, услышь мою мольбу…"
+ summon_spirits_decision_desc:0 "Десятилетиями духи леса были добры к нам. Белая Госпожа внимала нашим просьбам и выводила заблудившихся из ночной тьмы, а Сеятель помогал лекарствам принести плоды…\n\nНо когда на нас нападали чужаки, мы взывали к духам ради более… осязаемой помощи.\n\nВеликие деревья, казавшиеся недвижимыми, внезапно оживали с яростью тысячи воинов, готовые обрушить невероятную мощь на защиту своих почитателей.\n\nБольшинство из них дики и враждебны любому живому существу, но те немногие, что отдают нам свою силу, становятся бесценными союзниками, достойными величайших почестей и жертв.\n\nПришло время вновь призвать таких духов на помощь. Будем молиться, чтобы они ответили благосклонно."
+ summon_spirits_decision_tooltip:0 "Призвать духов леса"
+ summon_spirits_decision_effect.tt:0 "Подготовить жертву, чтобы призвать духов на помощь."
+ sylvan_army:0 "Войско духов"
 
 # Hiring Mercenaries
 # Ciriane Rebellion
 # By Stocky Kruegar, written by Denvar
 
- DATAW_ciriane_rebellion_hiring_mercenaries:0 "Recruit Mercenaries"
- DATAW_ciriane_rebellion_hiring_mercenaries_confirm:0 "Hire them!"
- DATAW_ciriane_rebellion_hiring_mercenaries_desc:0 "The army of the [GetGeographicalRegion('custom_mareschois_population').GetName] can simply never match the scale of the Empire of [GetTitleByKey('e_orlais').GetBaseNameNoTier]. We must scrape together any allies we can. We must also do so without raising the Empire’s suspicions. To do so, my advisors recommend entering into a secret pact with some mercenaries.\n\n#N Our contract cannot be public until the rebellion begins, so special precautions must be taken...#!"
- DATAW_ciriane_rebellion_hiring_mercenaries_tooltip:0 "Grants special mercenary contract to reinforce the player during rebellion"
- DATAW_ciriane_rebellion_hiring_mercenaries_tt:0 "This will trigger an event - allowing you to choose certain mercenary contracts to take! These Mercenaries will be spawned when you begin the rebellion! Proceed with caution - your recruitment money may be intercepted by Bandits. You will not be able to hire Mercenaries a second time, this Decision is One-Time use."
+ DATAW_ciriane_rebellion_hiring_mercenaries:0 "Нанять наёмников"
+ DATAW_ciriane_rebellion_hiring_mercenaries_confirm:0 "Нанять их!"
+ DATAW_ciriane_rebellion_hiring_mercenaries_desc:0 "Войско региона [GetGeographicalRegion('custom_mareschois_population').GetName] никогда не сравнится с мощью империи [GetTitleByKey('e_orlais').GetBaseNameNoTier]. Нам придётся собрать всех союзников, каких только удастся найти, и при этом не вызвать подозрений Империи. Поэтому советники предлагают тайно договориться с несколькими наёмными отрядами.\n\n#N До начала восстания договор должен оставаться в тайне, а значит, потребуются особые меры предосторожности…#!"
+ DATAW_ciriane_rebellion_hiring_mercenaries_tooltip:0 "Особый договор с наёмниками обеспечит вам подкрепление во время восстания"
+ DATAW_ciriane_rebellion_hiring_mercenaries_tt:0 "Начнётся событие, в котором вы сможете выбрать несколько договоров с наёмниками! Эти отряды появятся после начала восстания! Действуйте осторожно: деньги на вербовку могут перехватить разбойники. Нанять наёмников повторно не удастся — это решение можно принять лишь однажды."
 
 # United in Faith
 # Ciriane Rebellion
 # By Stocky Kruegar, written by Denvar
 
- DATAW_ciriane_rebellion_united_in_faith:0 "United in Faith"
- DATAW_ciriane_rebellion_united_in_faith_confirm:0 "To glory!"
- DATAW_ciriane_rebellion_united_in_faith_desc:0 "The Chantry has failed us. By returning to the old ways, we secure our independence and safety. Warriors flood to my capital, and to the strongholds of my vassals, begging for their chance to defend the faith.\n\n#N They will have it!#!"
- DATAW_ciriane_rebellion_united_in_faith_tooltip:0 "Grants you special soldiers"
- DATAW_ciriane_rebellion_united_in_faith_tt:0 "You gain the special soldiers #N Defenders of Ciriane#!"
- DATAW_ciriane_rebellion_united_in_faith.m: "Defenders of the Ciriane"
+ DATAW_ciriane_rebellion_united_in_faith:0 "Единство в вере"
+ DATAW_ciriane_rebellion_united_in_faith_confirm:0 "Навстречу славе!"
+ DATAW_ciriane_rebellion_united_in_faith_desc:0 "Церковь подвела нас. Возвращение к старым обычаям обеспечит нам независимость и безопасность. Воины стекаются в мою столицу и крепости моих вассалов, моля о возможности защитить веру.\n\n#N Они её получат!#!"
+ DATAW_ciriane_rebellion_united_in_faith_tooltip:0 "Вы получите особых воинов"
+ DATAW_ciriane_rebellion_united_in_faith_tt:0 "Вы получите особых воинов — #N защитников Цирианы#!"
+ DATAW_ciriane_rebellion_united_in_faith.m: "Защитники Цирианы"
 
 # Seek out Local Tribes
 # Ciriane Rebellion
 # By Stocky Kruegar, written by Denvar
 
- DATAW_ciriane_rebellion_seek_out_the_local_tribes:0 "Seek Out the Local Tribes"
- DATAW_ciriane_rebellion_seek_out_the_local_tribes_confirm:0 "We shall ask them!"
- DATAW_ciriane_rebellion_seek_out_the_local_tribes_desc:0 "While the [GetGlobalVariable('mareschois_culture_var').Culture.GetName] nobles tell stories of their [GetGlobalVariable('ciriane_culture_var').Culture.GetName] ancestry, those who’ve traveled the marshlands say there are still true tribesmen living in our lands. No one has ever been able to tell their true number or power.\n\n#N For most, they exist only as folk tales and campfire stories.#!"
- DATAW_ciriane_rebellion_seek_out_the_local_tribes_tooltip:0 "You will seek to gain the respect of the local Ciriane tribes"
- DATAW_ciriane_rebellion_seek_out_the_local_tribes_tt:0 "You will undergo a number of trials and tribulations, the local tribes will test your worthiness."
+ DATAW_ciriane_rebellion_seek_out_the_local_tribes:0 "Разыскать местные племена"
+ DATAW_ciriane_rebellion_seek_out_the_local_tribes_confirm:0 "Обратимся к ним!"
+ DATAW_ciriane_rebellion_seek_out_the_local_tribes_desc:0 "Знать народа [GetGlobalVariable('mareschois_culture_var').Culture.GetName] рассказывает о своих предках из народа [GetGlobalVariable('ciriane_culture_var').Culture.GetName], а бывавшие в топях путники утверждают, что на наших землях до сих пор живут настоящие племена. Никому не известно, какова их численность и сила.\n\n#N Для большинства людей они существуют лишь в народных сказках и историях у костра.#!"
+ DATAW_ciriane_rebellion_seek_out_the_local_tribes_tooltip:0 "Попытаться заслужить уважение местных племён цирианов"
+ DATAW_ciriane_rebellion_seek_out_the_local_tribes_tt:0 "Вам предстоит пройти через испытания и невзгоды, которыми местные племена проверят ваше достоинство."
 
 # Ally with Serault/Alyons
 # Ciriane Rebellion
 # By Stocky Kruegar, written by Denvar
 
- DATAW_ciriane_rebellion_ally_with_serault:0 "Ally with Serault"
- DATAW_ciriane_rebellion_ally_with_serault_confirm:0 "To an alliance!"
- DATAW_ciriane_rebellion_ally_with_serault_desc:0 "Our neighbors to the west are one of two independent Mareschois rulers left standing. While separated from us by the border of the empire, the Seraudais are more like us than any noble in Val Royeaux. There is no reason why we should not stick up for one another.\n\nSerault is the more devout of our two neighbors. They are proud of their Ciriane heritage largely because they want to be tied to Andraste.\n\n#N As ally’s they would add righteous fury to our cause.#!"
- DATAW_ciriane_rebellion_ally_with_serault_tooltip:0 "Send a Courier to The Thousand-Windowed Castle"
- DATAW_ciriane_rebellion_ally_with_serault_tt:0 "You will negotiate a special alliance with the Duchy of Serault, with options to use your prestige as a method of convincing, gold, or even offer a county. If they refuse, you may accept the peace and move on, or begin a war for their entire land via the event chain."
+ DATAW_ciriane_rebellion_ally_with_serault:0 "Заключить союз с Серо"
+ DATAW_ciriane_rebellion_ally_with_serault_confirm:0 "Заключим союз!"
+ DATAW_ciriane_rebellion_ally_with_serault_desc:0 "Наш западный сосед — один из двух последних независимых правителей народа марешуа. Хотя нас разделяет граница Империи, жители Серо гораздо ближе нам, чем любая знать Вал Руайо. Нет причин не поддержать друг друга.\n\nИз двух наших соседей Серо отличается большей набожностью. Там гордятся цирианским наследием прежде всего потому, что желают подчеркнуть связь с Андрасте.\n\n#N Такой союзник привнесёт в наше дело праведную ярость.#!"
+ DATAW_ciriane_rebellion_ally_with_serault_tooltip:0 "Отправить гонца в Замок Двух тысяч Окон"
+ DATAW_ciriane_rebellion_ally_with_serault_tt:0 "Вы начнёте переговоры об особом союзе с герцогством Серо. Убедить его правителя можно с помощью престижа, золота или даже предложения графства. В случае отказа вы сможете сохранить мир и отступиться либо с помощью цепочки событий начать войну за все земли Серо."
 
- DATAW_ciriane_rebellion_ally_with_alyons:0 "Ally with Alyons"
- DATAW_ciriane_rebellion_ally_with_alyons_confirm:0 "To an alliance!"
- DATAW_ciriane_rebellion_ally_with_alyons_desc:0 "Our neighbors to the northwest are one of two independent Mareschois rulers left standing. While separated from us by the border of the empire, the Alyonnais are more like us than any noble in Val Royeaux. There is no reason why we should not stick up for one another.\n\nAlyons is the more prestigious of our two neighbors. They are well regarded in [GetTitleByKey('c_val_royeaux').GetBaseNameNoTier].\n\n#N They would be a welcome asset while playing the great game.#!"
- DATAW_ciriane_rebellion_ally_with_alyons_tooltip:0 "Send a Courier to Chateau Alyons"
- DATAW_ciriane_rebellion_ally_with_alyons_tt:0 "You will negotiate a special alliance with the Duchy of Alyons, with options to use your prestige as a method of convincing, gold, or even offer a county. If they refuse, you may accept the peace and move on, or begin a war for their entire land via the event chain."
+ DATAW_ciriane_rebellion_ally_with_alyons:0 "Заключить союз с Альоном"
+ DATAW_ciriane_rebellion_ally_with_alyons_confirm:0 "Заключим союз!"
+ DATAW_ciriane_rebellion_ally_with_alyons_desc:0 "Наш северо-западный сосед — один из двух последних независимых правителей народа марешуа. Хотя нас разделяет граница Империи, жители Альона гораздо ближе нам, чем любая знать Вал Руайо. Нет причин не поддержать друг друга.\n\nИз двух наших соседей Альон пользуется большим почётом. Его жители имеют превосходную репутацию при дворе [GetTitleByKey('c_val_royeaux').GetBaseNameNoTier].\n\n#N Они станут ценным подспорьем в Великой игре.#!"
+ DATAW_ciriane_rebellion_ally_with_alyons_tooltip:0 "Отправить гонца в замок Альон"
+ DATAW_ciriane_rebellion_ally_with_alyons_tt:0 "Вы начнёте переговоры об особом союзе с герцогством Альон. Убедить его правителя можно с помощью престижа, золота или даже предложения графства. В случае отказа вы сможете сохранить мир и отступиться либо с помощью цепочки событий начать войну за все земли Альона."
 
 # Rooting out Ciriane Rebels
 # Ciriane Rebellion
 # By Stocky Kruegar, written by Mel
 
- DATAW_ciriane_rebellion_cleansing_frontiers_serault:0 "Conquer Serault"
- DATAW_ciriane_rebellion_cleansing_frontiers_serault_confirm:0 "Serault is an existential threat."
- DATAW_ciriane_rebellion_cleansing_frontiers_serault_desc:0 "The vermin to the west are still standing in our way to victory. We cannot risk anything to go wrong, or anyone to wrong us. The empire must prosper at all cost. It’s up to me to root these vermin out and lead the way – I have been chosen for this task and only I can prevail."
- DATAW_ciriane_rebellion_cleansing_frontiers_serault_tooltip:0 "Secure the frontiers by conquering [GetTitleByKey('d_serault').GetBaseNameNoTier]."
- DATAW_ciriane_rebellion_cleansing_frontiers_serault_tt:0 "You #N immediately#! begin a war to conquer all of Serault and bring it down to heel #N for Orlais.#! You will prove your outstanding loyalty to the Empire by doing so. You will get a reward for this. Do note that if you fail to #N complete all these decisions#! by the time the War of the Dales begins, you will suffer from rebellions led by the Ciriane people."
+ DATAW_ciriane_rebellion_cleansing_frontiers_serault:0 "Завоевать Серо"
+ DATAW_ciriane_rebellion_cleansing_frontiers_serault_confirm:0 "Серо угрожает самому нашему существованию."
+ DATAW_ciriane_rebellion_cleansing_frontiers_serault_desc:0 "Западная мразь всё ещё преграждает нам путь к победе. Мы не можем допустить ни единой ошибки и не позволим никому причинить нам вред. Империя должна процветать любой ценой. Истребить этих паразитов и повести остальных за собой предстоит мне: для этой задачи [Select_CString(ROOT.Char.IsFemale, 'избрана', 'избран' )] именно я, и только мне дано одержать победу."
+ DATAW_ciriane_rebellion_cleansing_frontiers_serault_tooltip:0 "Обезопасить границу, завоевав [GetTitleByKey('d_serault').GetBaseNameNoTier]."
+ DATAW_ciriane_rebellion_cleansing_frontiers_serault_tt:0 "Вы #N немедленно#! начнёте войну за завоевание всего Серо и подчините его #N во имя Орлея.#! Тем самым вы докажете исключительную верность Империи и получите награду. Учтите: если до начала Священного похода на Долы вы не успеете #N выполнить все эти решения#!, вам придётся столкнуться с восстаниями цирианов."
 
- DATAW_ciriane_rebellion_cleansing_frontiers_alyons:0 "Conquer Alyons"
- DATAW_ciriane_rebellion_cleansing_frontiers_alyons_confirm:0 "Alyons is an immediate threat."
- DATAW_ciriane_rebellion_cleansing_frontiers_alyons_desc:0 "The vermin to the west are still standing in our way to victory. We cannot risk anything to go wrong, or anyone to wrong us. The empire must prosper at all cost. It’s up to me to root these vermin out and lead the way – I have been chosen for this task and only I can prevail."
- DATAW_ciriane_rebellion_cleansing_frontiers_alyons_tooltip:0 "Secure the frontiers by conquering [GetTitleByKey('d_alyons').GetBaseNameNoTier]."
- DATAW_ciriane_rebellion_cleansing_frontiers_alyons_tt:0 "You #N immediately#! begin a war to conquer all of Alyons and bring it down to heel #N for Orlais.#! You will prove your outstanding loyalty to the Empire by doing so. You may will a reward for this. Do note that if you fail to #N complete all these decisions#! by the time the War of the Dales begins, you will suffer from rebellions led by the Ciriane people."
+ DATAW_ciriane_rebellion_cleansing_frontiers_alyons:0 "Завоевать Альон"
+ DATAW_ciriane_rebellion_cleansing_frontiers_alyons_confirm:0 "Альон представляет непосредственную угрозу."
+ DATAW_ciriane_rebellion_cleansing_frontiers_alyons_desc:0 "Западная мразь всё ещё преграждает нам путь к победе. Мы не можем допустить ни единой ошибки и не позволим никому причинить нам вред. Империя должна процветать любой ценой. Истребить этих паразитов и повести остальных за собой предстоит мне: для этой задачи [Select_CString(ROOT.Char.IsFemale, 'избрана', 'избран' )] именно я, и только мне дано одержать победу."
+ DATAW_ciriane_rebellion_cleansing_frontiers_alyons_tooltip:0 "Обезопасить границу, завоевав [GetTitleByKey('d_alyons').GetBaseNameNoTier]."
+ DATAW_ciriane_rebellion_cleansing_frontiers_alyons_tt:0 "Вы #N немедленно#! начнёте войну за завоевание всего Альона и подчините его #N во имя Орлея.#! Тем самым вы докажете исключительную верность Империи и получите награду. Учтите: если до начала Священного похода на Долы вы не успеете #N выполнить все эти решения#!, вам придётся столкнуться с восстаниями цирианов."
 
 # The Faith Secured
 # Ciriane Rebellion
 # By Stocky Kruegar, written by Ser Pounce
 
- DATAW_ciriane_rebellion_the_faith_secured:0 "The Faith Secured"
- DATAW_ciriane_rebellion_the_faith_secured_confirm:0 "Let our voices join as one in singing the Chant!"
- DATAW_ciriane_rebellion_the_faith_secured_desc:0 "At last, I have completed the work that Emperor Drakon I started. The disorganized vestiges of individual Maker cults have been brought together as one, under the auspices of the Chantry and the Divine in Val Royeaux. Andraste herself would surely smile to see this - where once there was disunity, there is now harmonious concord."
- DATAW_ciriane_rebellion_the_faith_secured_tooltip:0 "Grants you special soldiers"
- DATAW_ciriane_rebellion_the_faith_secured_tt:0 "You gain the special soldiers #N Defenders of the Chantry#!"
- DATAW_ciriane_rebellion_the_faith_secured_tt_2:0 "With this decision, you are a step closer towards preventing a Ciriane revolt when the War of the Dales breaks out. The more decisions you complete, the fewer soldiers will rise against you. #Z Complete all of them successfully, in order to entirely prevent an uprising.#!"
- DATAW_ciriane_rebellion_the_faith_secured.m: "Defenders of the Chantry"
+ DATAW_ciriane_rebellion_the_faith_secured:0 "Вера в безопасности"
+ DATAW_ciriane_rebellion_the_faith_secured_confirm:0 "Пусть наши голоса сольются воедино, воспевая Песнь Света!"
+ DATAW_ciriane_rebellion_the_faith_secured_desc:0 "Наконец завершено дело, начатое императором Кордилиусом Дракконом I. Разрозненные остатки отдельных культов Создателя объединились под покровительством Церкви и Верховной Жрицы в Вал Руайо. Сама Андрасте наверняка улыбнулась бы, увидев, как прежнюю разобщённость сменило согласие."
+ DATAW_ciriane_rebellion_the_faith_secured_tooltip:0 "Вы получите особых воинов"
+ DATAW_ciriane_rebellion_the_faith_secured_tt:0 "Вы получите особых воинов — #N защитников Церкви#!"
+ DATAW_ciriane_rebellion_the_faith_secured_tt_2:0 "Это решение ещё на шаг приблизит вас к предотвращению восстания цирианов после начала Священного похода на Долы. Чем больше решений вы выполните, тем меньше воинов поднимется против вас. #Z Чтобы полностью предотвратить восстание, успешно выполните их все.#!"
+ DATAW_ciriane_rebellion_the_faith_secured.m: "Защитники Церкви"
 
 # The Faith Secured
 # Ciriane Rebellion
 # By Stocky Kruegar, written by Reside
 
- DATAW_ciriane_rebellion_plan_sabotage_against_nahashin:0 "Plan Sabotage Against Nahashin"
- DATAW_ciriane_rebellion_plan_sabotage_against_nahashin_confirm:0 "I answer your call, servant of Somisarian..."
- DATAW_ciriane_rebellion_plan_sabotage_against_nahashin_desc:0 "Nahashin is still loyal to Orlais, but Those who hide amongst the Marshes never rest, for the will of Somisarian is to see the land of Nahashin free from those who forgot her.\n\nMany agents sent me encrypted messages, informing me of a few plans they would like my help with to sabotage the duke and his love of those perfumed rats of the East.\n\n#N The only thing I need to do is answer.#!"
- DATAW_ciriane_rebellion_plan_sabotage_against_nahashin_tooltip:0 "Sabotage Nahashin"
- DATAW_ciriane_rebellion_plan_sabotage_against_nahashin_tt:0 "You will have options to sabotage Nahashin in several different ways, such as: reducing their army size & county control, increasing upkeep, lowering their popular opinion, etc."
+ DATAW_ciriane_rebellion_plan_sabotage_against_nahashin:0 "Спланировать диверсии против Нахашина"
+ DATAW_ciriane_rebellion_plan_sabotage_against_nahashin_confirm:0 "Я отвечу на зов служителя Сомисариан…"
+ DATAW_ciriane_rebellion_plan_sabotage_against_nahashin_desc:0 "Нахашин всё ещё верен Орлею, но Те, кто скрывается среди Топей, не знают покоя: Сомисариан желает освободить земли Нахашина от забывших её людей.\n\nМножество агентов прислали мне зашифрованные послания. В них изложены планы диверсий против герцога и возлюбленных им надушенных крыс с Востока, для которых требуется моя помощь.\n\n#N Мне остаётся лишь ответить.#!"
+ DATAW_ciriane_rebellion_plan_sabotage_against_nahashin_tooltip:0 "Устроить диверсии в Нахашине"
+ DATAW_ciriane_rebellion_plan_sabotage_against_nahashin_tt:0 "Вы сможете навредить Нахашину несколькими способами: сократить численность его войска и контроль над графствами, повысить расходы, снизить народное мнение и не только."
 
 # Culling the Tribes
 # Ciriane Rebellion
 # By Stocky Kruegar, written by Reside
 
- DATAW_ciriane_rebellion_culling_the_tribes:0 "Culling the Tribes"
- DATAW_ciriane_rebellion_culling_the_tribes_confirm:0 "Summon my generals!"
- DATAW_ciriane_rebellion_culling_the_tribes_desc:0 "There has always been rumours of tribes following the old faith of the [GetGlobalVariable('ciriane_culture_var').Culture.GetName] here in Nahashin. Some that, to this day, follow the will of the old gods of our past, led by Somisarian, queen of the sun and moon.\n\nHowever, the rumours have proven to be reality, as the old nomadic tribes, stubbornly clinging to the ways of the past, have surfaced to aid the nativist sentiment among the [GetGlobalVariable('mareschois_culture_var').Culture.GetName].\n\n#N This must not be tolerated any further, for the safety of both the Empire and our salvation is at stake if we let those tribes act any longer.#!"
- DATAW_ciriane_rebellion_culling_the_tribes_tooltip:0 "Culling the Tribes"
- DATAW_ciriane_rebellion_culling_the_tribes_tt:0 "You will fire an event to weaken the [GetGlobalVariable('ciriane_culture_var').Culture.GetName] tribes overtime. This will reduce the county control of the region you select in the event over the span of a year. You must keep it raised above a certain threshold (50%), to successfully cull the tribe in that county. #X Successfully keeping county control above the threshold (50%) for all three will weaken the rebellion that spawns upon the War of the Dales, and is a step towards avoiding it entirely.# This decision is ONLY available in 2:5 Glory, as how long it can take!"
+ DATAW_ciriane_rebellion_culling_the_tribes:0 "Истребить племена"
+ DATAW_ciriane_rebellion_culling_the_tribes_confirm:0 "Созвать моих полководцев!"
+ DATAW_ciriane_rebellion_culling_the_tribes_desc:0 "В Нахашине всегда ходили слухи о племенах, сохранивших древнюю веру народа [GetGlobalVariable('ciriane_culture_var').Culture.GetName]. Говорят, некоторые из них и поныне следуют воле старых богов во главе с Сомисариан, царицей солнца и луны.\n\nТеперь слухи подтвердились: древние кочевые племена, упрямо цепляющиеся за обычаи прошлого, вышли из укрытий, чтобы поддержать стремление народа [GetGlobalVariable('mareschois_culture_var').Culture.GetName] вернуть власть над родными землями.\n\n#N Этого больше нельзя терпеть. Если позволить племенам действовать и дальше, под угрозой окажутся и безопасность Империи, и спасение наших душ.#!"
+ DATAW_ciriane_rebellion_culling_the_tribes_tooltip:0 "Истребить племена"
+ DATAW_ciriane_rebellion_culling_the_tribes_tt:0 "Начнётся событие, позволяющее постепенно ослабить племена народа [GetGlobalVariable('ciriane_culture_var').Culture.GetName]. На протяжении года контроль над выбранным в событии регионом будет снижаться. Чтобы успешно истребить племя в графстве, удерживайте контроль выше порога в 50%. #X Если во всех трёх графствах контроль останется выше 50%, восстание, которое начнётся во время Священного похода на Долы, ослабеет, и вы приблизитесь к его полному предотвращению.#! Это решение доступно ТОЛЬКО в 2:5 году Века Славы, поскольку его выполнение требует много времени!"
 
 # Expanding the Kingdom of Nahashin
 # Ciriane Rebellion
 # By Stocky Kruegar, written by Korin & Reside
 
- DATAW_ciriane_rebellion_expanding_the_kingdom_of_nahashin:0 "Expanding the Kingdom of Nahashin"
- DATAW_ciriane_rebellion_expanding_the_kingdom_of_nahashin_confirm:0 "Send forth my soldiers."
- DATAW_ciriane_rebellion_expanding_the_kingdom_of_nahashin_desc:0 "For decades, our people have been under the rule of Orlais, losing much of their territory and power. Now that we are free from this court of vipers, the time has come to restore the Kingdom of Nahashin to an empire eclipsing the one with its seat in Val Royeaux."
- DATAW_ciriane_rebellion_expanding_the_kingdom_of_nahashin_tooltip:0 "Expanding the Kingdom of Nahashin"
- DATAW_ciriane_rebellion_expanding_the_kingdom_of_nahashin_tt:0 "After taking this decision, you will unlock all of the decisions to expand the Kingdom."
+ DATAW_ciriane_rebellion_expanding_the_kingdom_of_nahashin:0 "Расширить королевство Нахашин"
+ DATAW_ciriane_rebellion_expanding_the_kingdom_of_nahashin_confirm:0 "Послать воинов в поход."
+ DATAW_ciriane_rebellion_expanding_the_kingdom_of_nahashin_desc:0 "Десятилетиями наш народ находился под властью Орлея, утрачивая земли и могущество. Теперь мы свободны от этого змеиного двора, и настало время превратить возрождённое королевство Нахашин в империю, которая затмит державу со столицей в Вал Руайо."
+ DATAW_ciriane_rebellion_expanding_the_kingdom_of_nahashin_tooltip:0 "Расширить королевство Нахашин"
+ DATAW_ciriane_rebellion_expanding_the_kingdom_of_nahashin_tt:0 "Это решение откроет все решения, позволяющие расширить королевство."
 
 # Demand Subjugation of the Duchies
 # Ciriane Rebellion
 # By Stocky Kruegar, written by Korin & Reside
 
- DATAW_ciriane_rebellion_demand_subjugation_of_the_duchies:0 "Demand Subjugation of the Duchies"
- DATAW_ciriane_rebellion_demand_subjugation_of_the_duchies_confirm:0 "For a United Nahashin!"
- DATAW_ciriane_rebellion_demand_subjugation_of_the_duchies_desc:0 "The backwater Duchies of Serault and Alyons, long forgotten by Orlais, are rightfully part of the Kingdom of Nahasin as the shared kinship between us can be traced back to our Ciriane ancestors of old. Now we are free from Orlais, many of those in these distant Duchies would surely join us!"
- DATAW_ciriane_rebellion_demand_subjugation_of_the_duchies_tooltip:0 "Demand Subjugation of the Duchies"
- DATAW_ciriane_rebellion_demand_subjugation_of_the_duchies_tt:0 "After taking this decision, all independent Rulers in the Kingdom of Serault are given an option to join you or refuse which gives you a claim on them. Once you rule over [GetTitleByKey('k_serault').GetBaseNameNoTier], you will get claims to expand to the [GetTitleByKey('k_blasted_hills').GetBaseNameNoTier] and [GetTitleByKey('k_western_approach').GetBaseNameNoTier]"
+ DATAW_ciriane_rebellion_demand_subjugation_of_the_duchies:0 "Потребовать подчинения герцогств"
+ DATAW_ciriane_rebellion_demand_subjugation_of_the_duchies_confirm:0 "За единый Нахашин!"
+ DATAW_ciriane_rebellion_demand_subjugation_of_the_duchies_desc:0 "Захолустные герцогства Серо и Альон, давно забытые Орлеем, по праву должны входить в королевство Нахашин: нас связывает родство, восходящее к древним цирианским предкам. Теперь, когда мы освободились от Орлея, многие жители этих далёких герцогств наверняка захотят присоединиться к нам!"
+ DATAW_ciriane_rebellion_demand_subjugation_of_the_duchies_tooltip:0 "Потребовать подчинения герцогств"
+ DATAW_ciriane_rebellion_demand_subjugation_of_the_duchies_tt:0 "Все независимые правители королевства Серо получат выбор: присоединиться к вам или отказать, дав вам притязания на их владения. Установив власть над титулом [GetTitleByKey('k_serault').GetBaseNameNoTier], вы получите притязания, позволяющие расшириться в земли [GetTitleByKey('k_blasted_hills').GetBaseNameNoTier] и [GetTitleByKey('k_western_approach').GetBaseNameNoTier]."
 
 # Claim the Northern Lands
 # Ciriane Rebellion
 # By Stocky Kruegar, written by Korin & Reside
 
- DATAW_ciriane_rebellion_claim_the_northern_lands:0 "Claim the Northern Lands"
- DATAW_ciriane_rebellion_claim_the_northern_lands_confirm:0 "The Hills will be Ours Again."
- DATAW_ciriane_rebellion_claim_the_northern_lands_desc:0 "The Blasted Hills, once the Northern reaches of the Ciriane lands, hold many rich mines and caves that rightfully belong to us. If we are able to retake these lands, we would be one step closer to a [GetPlayer.GetCulture.GetName] Empire."
- DATAW_ciriane_rebellion_claim_the_northern_lands_tooltip:0 "Claim the Northern Lands"
- DATAW_ciriane_rebellion_claim_the_northern_lands_tt:0 "By taking this decision, you officially are recognised as the rightful ruler over these lands. This will assist in your making of a [GetPlayer.GetCulture.GetName] Empire, and also give every county in this region a 25 year conversion boost."
+ DATAW_ciriane_rebellion_claim_the_northern_lands:0 "Заявить права на северные земли"
+ DATAW_ciriane_rebellion_claim_the_northern_lands_confirm:0 "Холмы вновь станут нашими."
+ DATAW_ciriane_rebellion_claim_the_northern_lands_desc:0 "Выжженные холмы, некогда бывшие северным рубежом цирианских земель, хранят множество богатых шахт и пещер, которые принадлежат нам по праву. Их возвращение ещё на шаг приблизит создание империи народа [GetPlayer.GetCulture.GetName]."
+ DATAW_ciriane_rebellion_claim_the_northern_lands_tooltip:0 "Заявить права на северные земли"
+ DATAW_ciriane_rebellion_claim_the_northern_lands_tt:0 "После принятия этого решения вас официально признают законным правителем этих земель. Это поможет создать империю народа [GetPlayer.GetCulture.GetName], а каждое графство региона на 25 лет получит ускорение обращения."
 
 # Claim the Southern Lands
 # Ciriane Rebellion
 # By Stocky Kruegar, written by Korin & Reside
 
- DATAW_ciriane_rebellion_claim_the_southern_lands:0 "Claim the Southern Lands"
- DATAW_ciriane_rebellion_claim_the_southern_lands_confirm:0 "The Approach will be under Nahashin."
- DATAW_ciriane_rebellion_claim_the_southern_lands_desc:0 "The Western Approach, once a land of plenty, has lost much of its luster thanks to the vile taint of the Darkspawn. However it was once our land and should return to us, as the history and burial grounds left behind there should be reclaimed for our people."
- DATAW_ciriane_rebellion_claim_the_southern_lands_tooltip:0 "Claim the Southern Lands"
- DATAW_ciriane_rebellion_claim_the_southern_lands_tt:0 "By taking this decision, you officially are recognised as the rightful ruler over these lands. This will assist in your making of a [GetPlayer.GetCulture.GetName] Empire, and also give every county in this region a 25 year conversion boost."
+ DATAW_ciriane_rebellion_claim_the_southern_lands:0 "Заявить права на южные земли"
+ DATAW_ciriane_rebellion_claim_the_southern_lands_confirm:0 "Западный предел подчинится Нахашину."
+ DATAW_ciriane_rebellion_claim_the_southern_lands_desc:0 "Западный предел, некогда плодородный край, утратил былое великолепие из-за мерзкой скверны порождений тьмы. Но когда-то эти земли принадлежали нам и должны вернуться к нашему народу вместе с оставленными там памятниками прошлого и местами погребений."
+ DATAW_ciriane_rebellion_claim_the_southern_lands_tooltip:0 "Заявить права на южные земли"
+ DATAW_ciriane_rebellion_claim_the_southern_lands_tt:0 "После принятия этого решения вас официально признают законным правителем этих земель. Это поможет создать империю народа [GetPlayer.GetCulture.GetName], а каждое графство региона на 25 лет получит ускорение обращения."
 
 # Form the Empire of Ciriane
 # Ciriane Rebellion
 # By Stocky Kruegar, written by Korin & Reside
 
- DATAW_ciriane_rebellion_form_the_empire_of_ciriane:0 "Form the Empire of the [GetPlayer.GetCulture.GetName]"
- DATAW_ciriane_rebellion_form_the_empire_of_ciriane_confirm:0 "The [GetPlayer.GetCulture.GetName] are united."
- DATAW_ciriane_rebellion_form_the_empire_of_ciriane_desc:0 "A [GetPlayer.GetCulture.GetName] Empire, a dream that until recently would have remained that. However now I can almost grasp it. If I manage to bring together the ancient lands of the Ciriane people, the balance of power in Orlais, nay maybe even all of Thedas, will remain forever shifted."
- DATAW_ciriane_rebellion_form_the_empire_of_ciriane_tooltip:0 "Form the Empire of the [GetPlayer.GetCulture.GetName]"
- claimed_southern_lands_decision_tooltip:0 "If you have claimed the Southern Lands, and hold the title of [GetTitleByKey('k_western_approach').GetBaseNameNoTier] or fully control its de jure land, it will become de jure [GetTitleByKey('e_nahashin').GetBaseNameNoTier]"
- claimed_northern_lands_decision_tooltip:0 "If you have claimed the Northern Lands, and hold the title of [GetTitleByKey('k_blasted_hills').GetBaseNameNoTier] or fully control its de jure land, it will become de jure [GetTitleByKey('e_nahashin').GetBaseNameNoTier]"
+ DATAW_ciriane_rebellion_form_the_empire_of_ciriane:0 "Создать империю народа [GetPlayer.GetCulture.GetName]"
+ DATAW_ciriane_rebellion_form_the_empire_of_ciriane_confirm:0 "Народ [GetPlayer.GetCulture.GetName] объединён."
+ DATAW_ciriane_rebellion_form_the_empire_of_ciriane_desc:0 "Империя народа [GetPlayer.GetCulture.GetName] — ещё недавно это оставалось лишь несбыточной мечтой, но теперь она почти в моих руках. Если мне удастся объединить древние земли цирианов, равновесие сил в Орлее, а возможно, и во всём Тедасе изменится навсегда."
+ DATAW_ciriane_rebellion_form_the_empire_of_ciriane_tooltip:0 "Создать империю народа [GetPlayer.GetCulture.GetName]"
+ claimed_southern_lands_decision_tooltip:0 "Если вы заявили права на южные земли и владеете титулом [GetTitleByKey('k_western_approach').GetBaseNameNoTier] либо полностью контролируете его земли де-юре, он станет частью де-юре владений [GetTitleByKey('e_nahashin').GetBaseNameNoTier]"
+ claimed_northern_lands_decision_tooltip:0 "Если вы заявили права на северные земли и владеете титулом [GetTitleByKey('k_blasted_hills').GetBaseNameNoTier] либо полностью контролируете его земли де-юре, он станет частью де-юре владений [GetTitleByKey('e_nahashin').GetBaseNameNoTier]"
 
 # Reforming the Ciriane Religion
 # Ciriane Rebellion
 # By Stocky Kruegar, written by Korin & Reside
 
- DATAW_ciriane_rebellion_reforming_the_ciriane_religion:0 "Reforming the Ciriane Religion"
- DATAW_ciriane_rebellion_reforming_the_ciriane_religion_desc:0 "Nahashin is independent now, and the old faith has been revealed anew, for we no longer need to hide the practitioners of Somisarian.\n\nYet the faith has diverged plenty throughout the ages, as tribes understood the teachings differently and told legends in different ways. If we desire for our faith to truly stand the test of time and return to our people, we need to stamp out those divergences.\n\n#N While the people could very well brand me as a corruptor for changing their beliefs, it is a risk worth taking if we desire our religion to survive.#!"
- DATAW_ciriane_rebellion_reforming_the_ciriane_religion_confirm:0 "It is time to reinvent our faith!"
- DATAW_ciriane_rebellion_reforming_the_ciriane_religion_tt:0 "You will begin a event chain to Reform the Ciriane Religion, with options to tie it to Andraste or not."
- DATAW_ciriane_rebellion_reforming_the_ciriane_religion_tooltip:0 "Reforming the Ciriane Religion"
- faith_conversion_unreformed_tt:0 "Your [faith|E] is [GetFaithDoctrine('unreformed_faith_doctrine').GetBaseName] (NOT [organized|E])"
+ DATAW_ciriane_rebellion_reforming_the_ciriane_religion:0 "Реформировать цирианскую религию"
+ DATAW_ciriane_rebellion_reforming_the_ciriane_religion_desc:0 "Нахашин обрёл независимость, и древняя вера вновь вышла на свет: нам больше не приходится скрывать почитателей Сомисариан.\n\nНо за минувшие века вера распалась на множество течений: племена по-разному понимали учение и пересказывали легенды. Если мы хотим, чтобы наша вера выдержала испытание временем и вновь привлекла народ, эти расхождения необходимо искоренить.\n\n#N Люди вполне могут объявить меня [Select_CString(ROOT.Char.IsFemale, 'исказительницей', 'исказителем' )] веры за изменение их убеждений, но ради выживания нашей религии стоит пойти на такой риск.#!"
+ DATAW_ciriane_rebellion_reforming_the_ciriane_religion_confirm:0 "Пришло время преобразить нашу веру!"
+ DATAW_ciriane_rebellion_reforming_the_ciriane_religion_tt:0 "Начнётся цепочка событий о реформировании цирианской религии, в которой вы сможете связать её с Андрасте или отказаться от этой связи."
+ DATAW_ciriane_rebellion_reforming_the_ciriane_religion_tooltip:0 "Реформировать цирианскую религию"
+ faith_conversion_unreformed_tt:0 "Ваша [Concept('faith','конфессия')|E] имеет доктрину [GetFaithDoctrine('unreformed_faith_doctrine').GetBaseName] (НЕ является [Concept('organized','организованной конфессией')|E])"
 
 #  Drain the Northern Marshes
 # Ciriane Rebellion
 # By Stocky Kruegar, written by Korin & Reside
 
- DATAW_ciriane_rebellion_drain_the_northern_marshes:0 "Drain the Northern Marshes"
- DATAW_ciriane_rebellion_drain_the_northern_marshes_desc:0 "The Nahasin Marshes have long been seen as a backwater province compared to some of the jewels of Orlais. However, with a lot of work and some of the finest engineers' money can buy, we can turn large parts of these wetlands into areas of arable land, ready to be developed by the newly freed [GetPlayer.GetCulture.GetName] people!\n\n#N The work will be arduous but if managed well, the benefits of such a project could be seen developmentally for generations to come.#!"
- DATAW_ciriane_rebellion_drain_the_northern_marshes_confirm:0 "Begin the work!"
- DATAW_ciriane_rebellion_drain_the_northern_marshes_tt:0 "Begins event chain for Draining the North Marshes. This affects the Duchies of [GetTitleByKey('d_archambon').GetBaseNameNoTier] and [GetTitleByKey('d_eudolon').GetBaseNameNoTier] and gives them a development boost at the end of the event chain. This will take place over five years with an obstacle event every two years."
- DATAW_ciriane_rebellion_drain_the_northern_marshes_c_tt:0 "You are NOT in another event chain for Draining the Marshes."
- DATAW_ciriane_rebellion_drain_the_northern_marshes_tooltip:0 "Drain the Northern Marshes"
+ DATAW_ciriane_rebellion_drain_the_northern_marshes:0 "Осушить северные топи"
+ DATAW_ciriane_rebellion_drain_the_northern_marshes_desc:0 "На фоне великолепных провинций Орлея Нахашинские топи издавна считались захолустьем. Но огромный труд и лучшие инженеры, которых можно купить за деньги, позволят превратить значительную часть болот в пахотные земли, готовые принять недавно освободившийся народ [GetPlayer.GetCulture.GetName]!\n\n#N Работа предстоит тяжёлая, но при умелом управлении этот проект будет ускорять развитие края на протяжении многих поколений.#!"
+ DATAW_ciriane_rebellion_drain_the_northern_marshes_confirm:0 "Начать работы!"
+ DATAW_ciriane_rebellion_drain_the_northern_marshes_tt:0 "Начнётся пятилетняя цепочка событий об осушении северных топей, затрагивающая герцогства [GetTitleByKey('d_archambon').GetBaseNameNoTier] и [GetTitleByKey('d_eudolon').GetBaseNameNoTier]. После её завершения они получат ускорение развития. Раз в два года будет происходить событие с новым препятствием."
+ DATAW_ciriane_rebellion_drain_the_northern_marshes_c_tt:0 "Вы НЕ участвуете в другой цепочке событий об осушении топей."
+ DATAW_ciriane_rebellion_drain_the_northern_marshes_tooltip:0 "Осушить северные топи"
 
  # Drain the Southern Marshes
 # Ciriane Rebellion
 # By Stocky Kruegar, written by Korin & Reside
 
- DATAW_ciriane_rebellion_drain_the_southern_marshes:0 "Drain the Southern Marshes"
- DATAW_ciriane_rebellion_drain_the_southern_marshes_desc:0 "The Nahasin Marshes have long been seen as a backwater province compared to some of the jewels of Orlais. However, with a lot of work and some of the finest engineers' money can buy, we can turn large parts of these wetlands into areas of arable land, ready to be developed by the newly freed people of Nahashin!\n\n#N The work will be arduous but if managed well, the benefits of such a project could be seen developmentally for generations to come.#!"
- DATAW_ciriane_rebellion_drain_the_southern_marshes_confirm:0 "Draw up the plans!"
- DATAW_ciriane_rebellion_drain_the_southern_marshes_tt:0 "Begins event chain for Draining the North Marshes. This affects the Duchies of [GetTitleByKey('d_claose').GetBaseNameNoTier] and [GetTitleByKey('d_henar').GetBaseNameNoTier] and gives them a development boost at the end of the event chain. This will take place over five years with an obstacle event every two years."
- DATAW_ciriane_rebellion_drain_the_southern_marshes_tooltip:0 "Drain the Southern Marshes"
+ DATAW_ciriane_rebellion_drain_the_southern_marshes:0 "Осушить южные топи"
+ DATAW_ciriane_rebellion_drain_the_southern_marshes_desc:0 "На фоне великолепных провинций Орлея Нахашинские топи издавна считались захолустьем. Но огромный труд и лучшие инженеры, которых можно купить за деньги, позволят превратить значительную часть болот в пахотные земли, готовые принять недавно освободившийся народ Нахашина!\n\n#N Работа предстоит тяжёлая, но при умелом управлении этот проект будет ускорять развитие края на протяжении многих поколений.#!"
+ DATAW_ciriane_rebellion_drain_the_southern_marshes_confirm:0 "Подготовить планы!"
+ DATAW_ciriane_rebellion_drain_the_southern_marshes_tt:0 "Начнётся пятилетняя цепочка событий об осушении южных топей, затрагивающая герцогства [GetTitleByKey('d_claose').GetBaseNameNoTier] и [GetTitleByKey('d_henar').GetBaseNameNoTier]. После её завершения они получат ускорение развития. Раз в два года будет происходить событие с новым препятствием."
+ DATAW_ciriane_rebellion_drain_the_southern_marshes_tooltip:0 "Осушить южные топи"
 
 
 ###################################
@@ -302,11 +302,11 @@
 # By Rislav, written by Reside
 ###################################
 
- DATAW_reclaim_simmard_lineage_decision:0 "Reclaim the Simmard Lineage"
- DATAW_reclaim_simmard_lineage_decision_desc:0 "Ever since the fateful massacre that left Montsimmard a shell of its former self, the [ROOT.Char.GetDynasty.GetName] dynasty has laid in ruins, only alive through my branch, the [ROOT.Char.GetHouse.GetName]. We have struggled with the hand the darkspawn dealt us through their attack and the suffering that the elves inflicted through their inaction - and have prevailed in spite of it all. Now, a successor to House Simmard rules in the Capital of the South once more, no longer ruled by the illegitimate Aureliens! It is time for our glorious name to be used once again."
- DATAW_reclaim_simmard_lineage_decision_confirm:0 "House Simmard rules and lives once more!"
- DATAW_reclaim_simmard_lineage_decision_tooltip:0 "Reclaim our ancestors' glory!"
- DATAW_reclaim_simmard_lineage_tt:0 "Lay Claim to your Simmard Ancestry!"
+ DATAW_reclaim_simmard_lineage_decision:0 "Вернуть наследие Симмара"
+ DATAW_reclaim_simmard_lineage_decision_desc:0 "Со времён роковой резни, превратившей Монтсиммар в жалкую тень былого величия, династия [ROOT.Char.GetDynasty.GetName] лежала в руинах и продолжала жить лишь в моей ветви — доме [ROOT.Char.GetHouse.GetName]. Мы пережили удары порождений тьмы и страдания, причинённые бездействием эльфов, и вопреки всему одержали верх. Теперь наследники дома Симмар вновь правят Столицей Юга, сбросив власть незаконных Орельенов! Пришло время вернуть нашему славному имени достойное место."
+ DATAW_reclaim_simmard_lineage_decision_confirm:0 "Дом Симмар вновь жив и правит!"
+ DATAW_reclaim_simmard_lineage_decision_tooltip:0 "Вернуть славу наших предков!"
+ DATAW_reclaim_simmard_lineage_tt:0 "Заявить права на наследие Симмаров!"
 
 
 
@@ -320,80 +320,80 @@
 # By Rislav
 #########################
 
- consolidating_edgehall_decision:0 "Consolidating Edgehall"
- consolidating_edgehall_decision_desc:0 "With the recent acquisition of Edgehall, there is much work to be done to consolidate our hold on the region. The people of Edgehall are loyal to their new liege, but there are still many holdfasts and castles in the region that need to be brought under our control. We must send out ravens to the various holdfasts in the region, and let them know that they are now under our protection, and that they should swear fealty to us as their new liege."
- consolidating_edgehall_decision_confirm:0 "Consolidate your hold on Edgehall!"
- consolidating_edgehall_decision_tooltip:0 "Consolidate your hold on Edgehall!"
+ consolidating_edgehall_decision:0 "Упрочить власть над Эджхоллом"
+ consolidating_edgehall_decision_desc:0 "После недавнего присоединения Эджхолла нам предстоит немало потрудиться, чтобы закрепить власть над краем. Жители верны новому сюзерену, но многие оплоты и замки ещё необходимо подчинить. Следует разослать по ним воронов и объявить, что отныне они находятся под нашей защитой и должны принести нам присягу как своему новому сюзерену."
+ consolidating_edgehall_decision_confirm:0 "Упрочить власть над Эджхоллом!"
+ consolidating_edgehall_decision_tooltip:0 "Упрочить власть над Эджхоллом!"
 
 ##########################
 # The Mountains Brought Low
 # By Rislav
 #########################
 
- the_mountains_brought_low_decision:0 "The Mountains Brought Low"
- the_mountains_brought_low_decision_desc:0 "filler loc"
- the_mountains_brought_low_decision_confirm:0 "filler confirm"
- the_mountains_brought_low_decision_tooltip:0 "filler tooltip"
+ the_mountains_brought_low_decision:0 "Горы склонены"
+ the_mountains_brought_low_decision_desc:0 "Текст-заглушка"
+ the_mountains_brought_low_decision_confirm:0 "Подтверждение-заглушка"
+ the_mountains_brought_low_decision_tooltip:0 "Подсказка-заглушка"
 
 ##########################
 # Where the Wolf Den Lies...
 # By Rislav
 #########################
 
- where_the_wolf_den_lies_decision:0 "Where the Wolf Den Lies..."
- where_the_wolf_den_lies_decision_desc:0 "Home is where the heart is, but this wolf has known no such thing. Now that my rule shows promise upon which I could launch a future campaign, I must resolve inner conflicts before I can fully commit myself to the cause."
- where_the_wolf_den_lies_decision_confirm:0 "Where is my true home?"
- where_the_wolf_den_lies_decision_tooltip:0 "Delve into your past and find out who you are."
+ where_the_wolf_den_lies_decision:0 "Где находится волчье логово…"
+ where_the_wolf_den_lies_decision_desc:0 "Дом там, где сердце, но этот волк никогда не знал дома. Теперь моя власть достаточно окрепла, чтобы стать опорой будущего похода, однако прежде нужно разрешить внутренние противоречия и лишь затем без остатка посвятить себя цели."
+ where_the_wolf_den_lies_decision_confirm:0 "Где мой настоящий дом?"
+ where_the_wolf_den_lies_decision_tooltip:0 "Обратиться к прошлому и понять, кто вы."
 
 ##########################
 # They Shall Fear my Name!
 # By Rislav
 #########################
 
- they_shall_fear_my_name_decision:0 "They Shall Fear my Name!"
- they_shall_fear_my_name_decision_desc:0 "Portsmouth has fallen to the Wolf of the Lowlands, and the people have seen the power of my name. Now, I must decide how to use this newfound respect to further my goals."
- they_shall_fear_my_name_decision_confirm:0 "Stamp my name into the land!"
- they_shall_fear_my_name_decision_tooltip:0 "Portsmouth shall be the first of many to fall under the shadow of your name."
+ they_shall_fear_my_name_decision:0 "Они устрашатся моего имени!"
+ they_shall_fear_my_name_decision_desc:0 "Портсмут пал перед Волком Низин, и народ увидел силу моего имени. Теперь предстоит решить, как обратить новообретённое уважение на пользу моим замыслам."
+ they_shall_fear_my_name_decision_confirm:0 "Запечатлеть моё имя на этой земле!"
+ they_shall_fear_my_name_decision_tooltip:0 "Портсмут станет первым из многих владений, на которые падёт тень вашего имени."
 
 ##########################
 # The Pup Comes Home
 # By Rislav - written by Varren
 #########################
 
- the_pup_comes_home_decision:0 "The Pup Comes Home"
- the_pup_comes_home_decision_desc:0 "I now hold the lands of my father, I should summon my council for guidance on how I should enforce my rule."
- the_pup_comes_home_decision_confirm:0 "Summon the council!"
- the_pup_comes_home_decision_tooltip:0 "Decide how to rule your new lands with the help of your council."
+ the_pup_comes_home_decision:0 "Волчонок возвращается домой"
+ the_pup_comes_home_decision_desc:0 "Теперь земли моего отца принадлежат мне. Следует созвать совет и решить, как утвердить здесь свою власть."
+ the_pup_comes_home_decision_confirm:0 "Созвать совет!"
+ the_pup_comes_home_decision_tooltip:0 "С помощью совета решить, как править новыми землями."
 
 ##########################
 # Edgehall Reforged
 # By Rislav 
 #########################
 
- edgehall_reforged_decision:0 "Edgehall Reforged"
- edgehall_reforged_decision_desc:0 "edgehall reforged desc"
- edgehall_reforged_decision_confirm:0 "filler confirm"
- edgehall_reforged_decision_tooltip:0 "filler tooltip"
+ edgehall_reforged_decision:0 "Возрождённый Эджхолл"
+ edgehall_reforged_decision_desc:0 "Описание возрождения Эджхолла"
+ edgehall_reforged_decision_confirm:0 "Подтверждение-заглушка"
+ edgehall_reforged_decision_tooltip:0 "Подсказка-заглушка"
 
 ##########################
 # The People of Edgehall
 # By Rislav 
 #########################
 
- the_people_of_edgehall_decision:0 "The People of Edgehall"
- the_people_of_edgehall_decision_desc:0 "the people of edgehall desc"
- the_people_of_edgehall_decision_confirm:0 "filler confirm"
- the_people_of_edgehall_decision_tooltip:0 "filler tooltip"
+ the_people_of_edgehall_decision:0 "Народ Эджхолла"
+ the_people_of_edgehall_decision_desc:0 "Описание народа Эджхолла"
+ the_people_of_edgehall_decision_confirm:0 "Подтверждение-заглушка"
+ the_people_of_edgehall_decision_tooltip:0 "Подсказка-заглушка"
 
 ##########################
 # A Lowland Realm
 # By Rislav 
 #########################
 
- a_lowland_realm_decision:0 "A Lowland Realm"
- a_lowland_realm_decision_desc:0 "In order to offer peace to Edgehall, the need for stability is necessary. On all levels, be it social, diplomatic, territorial and economic, Edgehall needs to be at peace and prosper. Only when those matters are all resolved will Edgehall be secure, and a true realm will be born."
- a_lowland_realm_decision_confirm:0 "filler confirm"
- a_lowland_realm_decision_tooltip:0 "filler tooltip"
+ a_lowland_realm_decision:0 "Держава низин"
+ a_lowland_realm_decision_desc:0 "Чтобы принести Эджхоллу мир, нужна стабильность. Общество, дипломатия, границы и хозяйство — во всех отношениях Эджхолл должен обрести покой и процветание. Лишь когда все эти вопросы будут решены, край окажется в безопасности и родится подлинная держава."
+ a_lowland_realm_decision_confirm:0 "Подтверждение-заглушка"
+ a_lowland_realm_decision_tooltip:0 "Подсказка-заглушка"
 
 
 
@@ -402,10 +402,10 @@
 # By Varren / Rislav
 ###########################
 
- storm_of_the_wolf_decision:0 "Storm of the Wolf"
- storm_of_the_wolf_decision_desc:0 "We've established ourselves as the new overlord of the eastern Frostbacks. We must bring them in line with our rule."
- storm_of_the_wolf_decision_confirm:0 "Divy up the spoils!"
- storm_of_the_wolf_decision_tooltip:0 "Decide how to rule your new lands with the help of your council."
+ storm_of_the_wolf_decision:0 "Буря Волка"
+ storm_of_the_wolf_decision_desc:0 "Мы утвердились в роли новых властителей восточной части Морозных гор. Теперь необходимо привести эти земли к покорности."
+ storm_of_the_wolf_decision_confirm:0 "Разделить добычу!"
+ storm_of_the_wolf_decision_tooltip:0 "С помощью совета решить, как править новыми землями."
 
 
 
@@ -414,10 +414,10 @@
 # By Rislav
 ##########################
 
- to_touch_the_sky_decision:0 "To Touch the Sky"
- to_touch_the_sky_decision_desc:0 "We've established ourselves as the new overlord of the western Frostbacks. We must bring them in line with our rule."
- to_touch_the_sky_decision_confirm:0 "Divy up the spoils!"
- to_touch_the_sky_decision_tooltip:0 "Decide how to rule your new lands with the help of your council."
+ to_touch_the_sky_decision:0 "Коснуться неба"
+ to_touch_the_sky_decision_desc:0 "Мы утвердились в роли новых властителей западной части Морозных гор. Теперь необходимо привести эти земли к покорности."
+ to_touch_the_sky_decision_confirm:0 "Разделить добычу!"
+ to_touch_the_sky_decision_tooltip:0 "С помощью совета решить, как править новыми землями."
 
 
 ###########################
@@ -425,10 +425,10 @@
 # By Varren / Rislav
 ###########################
 
- howls_over_the_mountains_decision:0 "Howls over the Mountains"
- howls_over_the_mountains_decision_desc:0 "From the northern peaks to the southern basin, the name Wolf-Hand echoes; every hold feels the impact of my glory. Through word and axe I have pressed on until the mountains bowed to me alone. Now, I will fulfill my destiny and unite the Avvar and lead them into a bright future. The end is within reach; my council and I must gather and determine our ultimate fate."
- howls_over_the_mountains_decision_confirm:0 "The Wolf-Hand is the true King of the Frostbacks!"
- howls_over_the_mountains_decision_tooltip:0 "Consolidate your hold on the Frostbacks!"
+ howls_over_the_mountains_decision:0 "Вой над горами"
+ howls_over_the_mountains_decision_desc:0 "От северных вершин до южной котловины гремит имя Волчьей Руки, и каждый оплот ощущает тяжесть моей славы. Словом и топором я [Select_CString(ROOT.Char.IsFemale, 'шла', 'шёл' )] вперёд, пока горы не склонились передо мной. Теперь я исполню своё предназначение, объединю авваров и поведу их к светлому будущему. Конец пути близок: мы с советом должны собраться и решить нашу окончательную судьбу."
+ howls_over_the_mountains_decision_confirm:0 "Волчья Рука — [Select_CString(ROOT.Char.IsFemale, 'истинная королева', 'истинный король' )] Морозных гор!"
+ howls_over_the_mountains_decision_tooltip:0 "Упрочить власть над Морозными горами!"
 
 
 ##########################
@@ -436,80 +436,80 @@
 # By Rislav
 ##########################
 
- burning_the_bannorn_decision:0 "Burning the Bannorn"
- burning_the_bannorn_decision_desc:0 "The petty banns of the Bannorn have fallen. Where once were hundreds of squabbling clans, now lie my handpicked thanes and jarls. Once again, my mighty host grows, and the hunger for new lands grows with it."
- burning_the_bannorn_decision_confirm:0 "Let the flames consume their defiance!"
- burning_the_bannorn_decision_tooltip:0 "Decide how to deal with the rebellious Bannorn."
+ burning_the_bannorn_decision:0 "Сжечь Баннорн"
+ burning_the_bannorn_decision_desc:0 "Ничтожные банны Баннорна пали. Там, где прежде грызлись сотни кланов, теперь правят избранные мною таны и ярлы. Моё могучее войско вновь растёт, а вместе с ним крепнет жажда новых земель."
+ burning_the_bannorn_decision_confirm:0 "Пусть пламя пожрёт их непокорность!"
+ burning_the_bannorn_decision_tooltip:0 "Решить судьбу мятежного Баннорна."
 
 ##########################
 # Harrying the Hills
 # By Rislav
 ##########################
 
- harrying_the_hills_decision:0 "Harrying the Hills"
- harrying_the_hills_decision_desc:0 "Ferelden's strategic heart has always been the its Southron Hills, caught between the numorous conflicts of the region. Now, it lies in our hands."
- harrying_the_hills_decision_confirm:0 "Let the flames consume their defiance!"
- harrying_the_hills_decision_tooltip:0 "Decide how to deal with the rebellious Bannorn."
+ harrying_the_hills_decision:0 "Разорить Южные холмы"
+ harrying_the_hills_decision_desc:0 "Стратегическим сердцем Ферелдена всегда были Южные холмы, раз за разом оказывавшиеся меж жерновами бесчисленных войн. Теперь они в наших руках."
+ harrying_the_hills_decision_confirm:0 "Пусть пламя пожрёт их непокорность!"
+ harrying_the_hills_decision_tooltip:0 "Решить судьбу непокорных Южных холмов."
 
 ##########################
 # An Ancient Territory
 # By Rislav
 ##########################
 
- an_ancient_territory_decision:0 "An Ancient Territory"
- an_ancient_territory_decision_desc:0 "Long ago, the Avvar were not constrained to the Frostbacks, but roamed the lands of Ferelden freely. Now, we have returned to long lost lands of ours, and it is time we reclaim them."
- an_ancient_territory_decision_confirm:0 "Has the vigil been kept?"
- an_ancient_territory_decision_tooltip:0 "Do the people still remember the old ways?"
+ an_ancient_territory_decision:0 "Древние владения"
+ an_ancient_territory_decision_desc:0 "В давние времена аввары не знали границ Морозных гор и свободно странствовали по землям Ферелдена. Теперь мы вернулись в давно утраченный край, и настало время вновь сделать его своим."
+ an_ancient_territory_decision_confirm:0 "Сохранили ли здесь старые обеты?"
+ an_ancient_territory_decision_tooltip:0 "Помнит ли народ древние обычаи?"
 
 ##########################
 # Into the Hinterlands
 # By Rislav
 ##########################
 
- into_the_hinterlands_decision:0 "Into the Hinterlands"
- into_the_hinterlands_decision_desc:0 "Redcliffe has long been considered the gateway to the rest of Ferelden, now that we have taken it, the rest of the lowlands is ripe for the taking."
- into_the_hinterlands_decision_confirm:0 "Ferelden is ours."
- into_the_hinterlands_decision_tooltip:0 "The old enemy is no more."
+ into_the_hinterlands_decision:0 "Во Внутренние земли"
+ into_the_hinterlands_decision_desc:0 "Редклиф издавна считался вратами в остальной Ферелден. Теперь он наш, а значит, низины созрели для завоевания."
+ into_the_hinterlands_decision_confirm:0 "Ферелден наш."
+ into_the_hinterlands_decision_tooltip:0 "Старого врага больше нет."
 
 ##########################
 # Breaking the Brecilian
 # By Rislav
 ##########################
 
- breaking_the_brecilian_decision:0 "Breaking the Brecilian"
- breaking_the_brecilian_decision_desc:0 "The Brecilian Forest has long been a thorn in our side - home of wildmen making blood sacrifices to trees. No longer."
- breaking_the_brecilian_decision_confirm:0 "Burn them out."
- breaking_the_brecilian_decision_tooltip:0 "The forest falls before us."
+ breaking_the_brecilian_decision:0 "Покорить Бресилиан"
+ breaking_the_brecilian_decision_desc:0 "Лес Бресилиан долго был занозой в нашем боку — пристанищем дикарей, приносящих кровавые жертвы деревьям. Но этому пришёл конец."
+ breaking_the_brecilian_decision_confirm:0 "Выкурить их огнём."
+ breaking_the_brecilian_decision_tooltip:0 "Лес падёт перед нами."
 
 ##########################
 # Gutting Gwaren
 # By Rislav
 ##########################
 
- gutting_gwaren_decision:0 "Gutting Gwaren"
- gutting_gwaren_decision_desc:0 "The city of Gwaren has a similar history to that of Edgehall, an alamarri town heavily influenced by that of its underground neighbors. Nowadays though, it is little more a collection of fishing huts and family farms."
- gutting_gwaren_decision_confirm:0 "What now of Gwaren?"
- gutting_gwaren_decision_tooltip:0 "Oh - to hear the sea call..."
+ gutting_gwaren_decision:0 "Выпотрошить Гварен"
+ gutting_gwaren_decision_desc:0 "История Гварена во многом напоминает историю Эджхолла: это поселение аламарри, на которое сильно повлияли подземные соседи. Однако ныне от былого города остались лишь рыбацкие хижины да семейные фермы."
+ gutting_gwaren_decision_confirm:0 "Что ждёт Гварен?"
+ gutting_gwaren_decision_tooltip:0 "О, услышать бы зов моря…"
 
 ##########################
 # Winter Falls on Denerim
 # By Rislav
 ##########################
 
- winter_falls_on_denerim_decision:0 "Winter Falls on Denerim"
- winter_falls_on_denerim_decision_desc:0 "The great city of Denerim, once the pearl of Ferelden, has been subsumed by the our cold grasp."
- winter_falls_on_denerim_decision_confirm:0 "Drakon or Danesen, it makes no difference now."
- winter_falls_on_denerim_decision_tooltip:0 "An old rival falls."
+ winter_falls_on_denerim_decision:0 "Зима приходит в Денерим"
+ winter_falls_on_denerim_decision_desc:0 "Великий Денерим, некогда бывший жемчужиной Ферелдена, попал в нашу ледяную хватку."
+ winter_falls_on_denerim_decision_confirm:0 "Драккон или Данесен — теперь это неважно."
+ winter_falls_on_denerim_decision_tooltip:0 "Давний соперник повержен."
 
 ##########################
 # Bloodlust Sated
 # By Rislav
 ##########################
 
- bloodlust_sated_decision:0 "Bloodlust Sated"
- bloodlust_sated_decision_desc:0 "All of Ferelden is mine, the Clayne cower in fear. All that remains now is what to do with the ashes."
- bloodlust_sated_decision_confirm:0 "The Wolf-Hand is the true King of Ferelden!"
- bloodlust_sated_decision_tooltip:0 "The beginning of a new era."
+ bloodlust_sated_decision:0 "Утолённая жажда крови"
+ bloodlust_sated_decision_desc:0 "Весь Ферелден принадлежит мне, а клейны трепещут от страха. Осталось лишь решить, что делать с пеплом."
+ bloodlust_sated_decision_confirm:0 "Волчья Рука — [Select_CString(ROOT.Char.IsFemale, 'истинная королева', 'истинный король' )] Ферелдена!"
+ bloodlust_sated_decision_tooltip:0 "Начало новой эпохи."
 
 
 
@@ -519,29 +519,27 @@
 # By Rislav / Rei
 ##########################
 
- crown_of_ferelden_decision:0 "The Crown of Ferelden - Caedmon's Path"
- crown_of_ferelden_decision_desc:0 "Ferelden is mine to claim, and none of my rivals have the strength to contest me. It is time to forge a crown worthy of the true King of Ferelden and be recognized as such."
- crown_of_ferelden_decision_confirm:0 "I am the true King of Ferelden!"
- crown_of_ferelden_decision_tooltip:0 "Take the crown and crown yourself as the true King of Ferelden."
- crown_of_ferelden_custom_tooltip:0 "You will crown yourself 'king' of Ferelden."
- crown_of_ferelden_custom_tooltip_2:0 "Your neighbors may start to plan your downfall."
- fereldennotheldtooltip:0 "The Kingdom of Ferelden must not be held by anyone else to take this decision."
- crown_of_ferelden_decision_generic:0 "The Crown of Ferelden"
- crown_of_ferelden_decision_generic_desc:0 "Ferelden is mine to claim, and none of my rivals have the strength to contest me. It is time to forge a crown worthy of the true [ROOT.Char.Custom('GetQueenKing')] of Ferelden and be recognized as such."
- crown_of_ferelden_decision_generic_confirm:0 "I am the true [ROOT.Char.Custom('GetQueenKing')] of Ferelden!"
- crown_of_ferelden_decision_generic_tooltip:0 "Take the crown and crown yourself as the true [ROOT.Char.Custom('GetQueenKing')] of Ferelden."
- crown_of_ferelden_custom_tooltip:0 "You will crown yourself ruler of Ferelden."
- crown_of_ferelden_custom_tooltip_2:0 "Your neighbors may start to plan your downfall."
+ crown_of_ferelden_decision:0 "Корона Ферелдена — путь Каэдмона"
+ crown_of_ferelden_decision_desc:0 "Ферелден принадлежит мне по праву, и ни одному сопернику не хватит сил оспорить мою власть. Пришло время выковать корону, достойную [Select_CString(ROOT.Char.IsFemale, 'истинной королевы', 'истинного короля' )] Ферелдена, и добиться всеобщего признания."
+ crown_of_ferelden_decision_confirm:0 "Я — [Select_CString(ROOT.Char.IsFemale, 'истинная королева', 'истинный король' )] Ферелдена!"
+ crown_of_ferelden_decision_tooltip:0 "Взять корону и [Select_CString(ROOT.Char.IsFemale, 'провозгласить себя истинной королевой', 'провозгласить себя истинным королём' )] Ферелдена."
+ fereldennotheldtooltip:0 "Чтобы принять это решение, необходимо, чтобы королевством Ферелден не владел никто другой."
+ crown_of_ferelden_decision_generic:0 "Корона Ферелдена"
+ crown_of_ferelden_decision_generic_desc:0 "Ферелден принадлежит мне по праву, и ни одному сопернику не хватит сил оспорить мою власть. Пришло время выковать достойную корону и добиться признания моего права на имя: [ROOT.Char.Custom('GetQueenKing')] Ферелдена."
+ crown_of_ferelden_decision_generic_confirm:0 "Я — [Select_CString(ROOT.Char.IsFemale, 'истинная', 'истинный' )] [ROOT.Char.Custom('GetQueenKing')] Ферелдена!"
+ crown_of_ferelden_decision_generic_tooltip:0 "Взять корону, чтобы вся страна отныне знала: вы — [Select_CString(ROOT.Char.IsFemale, 'истинная', 'истинный' )] [ROOT.Char.Custom('GetQueenKing')] Ферелдена."
+ crown_of_ferelden_custom_tooltip:0 "Вы коронуете себя как правителя Ферелдена."
+ crown_of_ferelden_custom_tooltip_2:0 "Ваши соседи могут начать замышлять ваше свержение."
 
 ##########################
 # Westward March
 # Rislav / Rei
 ##########################
 
-the_westward_march_decision:0 "The Westward March"
-the_westward_march_decision_desc:0 "A unified Ferelden would be incomplete without the Bannorn, its breadbasket. These lands will provide much to our army in way of supplies and hearty soldiers, both needed for our advance further southward and westward."
-the_westward_march_decision_confirm:0 "Now on to Redcliffe!"
-the_westward_march_decision_tooltip:0 "With Ferelden's heartland secured, we can now venture into the wilder parts of the land."
+the_westward_march_decision:0 "Поход на запад"
+the_westward_march_decision_desc:0 "Единый Ферелден немыслим без своей житницы — Баннорна. Эти земли дадут нашему войску обильные припасы и крепких воинов, необходимые для дальнейшего продвижения на юг и запад."
+the_westward_march_decision_confirm:0 "Теперь — на Редклиф!"
+the_westward_march_decision_tooltip:0 "Закрепив власть над сердцем Ферелдена, мы можем двинуться в более дикие земли."
 
 
 ##########################
@@ -549,47 +547,47 @@ the_westward_march_decision_tooltip:0 "With Ferelden's heartland secured, we can
 # Rislav / Rei
 ##########################
 
-the_fate_of_ferelden_decision:0 "The Fate of Ferelden"
-the_fate_of_ferelden_decision_desc:0 "Castle Redcliffe stands tall, guarding the lowlands from threats to its west and south. The Hinterlands, which it protects, is the sole land route into Ferelden, making it vital for both defense and trade. With the majority of the Clayne now united under my banner. We stand strong and prepared to face whatever befalls us next."
-the_fate_of_ferelden_decision_confirm:0 "The fate of Redcliffe is the fate of all Ferelden."
-the_fate_of_ferelden_decision_tooltip:0 "If we are to defend the center, we must hold the edge."
+the_fate_of_ferelden_decision:0 "Судьба Ферелдена"
+the_fate_of_ferelden_decision_desc:0 "Замок Редклиф гордо возвышается над низинами, защищая их от угроз с запада и юга. Оберегаемые им Внутренние земли служат единственным сухопутным путём в Ферелден, а потому жизненно важны и для обороны, и для торговли. Теперь большинство клейнов объединено под моим знаменем. Мы сильны и готовы встретить всё, что ждёт нас впереди."
+the_fate_of_ferelden_decision_confirm:0 "Судьба Редклифа — судьба всего Ферелдена."
+the_fate_of_ferelden_decision_tooltip:0 "Чтобы защитить сердце страны, мы должны удержать её рубеж."
 
 ##########################
 # A Unified Ferelden
 # Rislav / Rei
 ##########################
 
-a_unified_ferelden_decision:0 "The End of the Road"
-a_unified_ferelden_decision_desc:0 "Almost all of Ferelden has given way to my will. All that remains now is what lies to the west of Lake Calenhad. Edgehall has fallen to Avvar warlords, and Portsmouth lies ripe for the taking."
-a_unified_ferelden_decision_confirm:0 "They too, shall bend the knee."
-a_unified_ferelden_decision_tooltip:0 "Ferelden will be mine."
+a_unified_ferelden_decision:0 "Конец пути"
+a_unified_ferelden_decision_desc:0 "Почти весь Ферелден покорился моей воле. Остались лишь земли к западу от озера Каленхад. Эджхолл пал перед авварскими вождями, а Портсмут созрел для завоевания."
+a_unified_ferelden_decision_confirm:0 "Они тоже преклонят колено."
+a_unified_ferelden_decision_tooltip:0 "Ферелден будет моим."
 
 ##########################
 # Ancestral Amaranthine
 # Rislav / Rei
 ##########################
 
-ancestral_amaranthine_decision:0 "Ancestral Amaranthine"
-ancestral_amaranthine_decision_desc:0 "Amaranthine is a place of import for all Alamarri. It was here blessed Andraste first revealed the Chant and the faithful assembled to march on the Imperium - any king must have it as the jewel of his kingdom."
-ancestral_amaranthine_decision_confirm:0 "The North belongs to me."
-ancestral_amaranthine_decision_tooltip:0 "Lay claim to your 'birthright' in Amaranthine, however tenous it may be."
+ancestral_amaranthine_decision:0 "Амарантайн предков"
+ancestral_amaranthine_decision_desc:0 "Амарантайн имеет огромное значение для всех аламарри. Здесь благословенная Андрасте впервые открыла людям Песнь Света, и здесь верующие собрались для похода на Империю. Этот край должен стать жемчужиной державы любого правителя."
+ancestral_amaranthine_decision_confirm:0 "Север принадлежит мне."
+ancestral_amaranthine_decision_tooltip:0 "Заявить о своём «праве по рождению» на Амарантайн, сколь бы сомнительным оно ни было."
 
 ###############################################
 # Restore the Imperial Treasures to the Court
 # Valo Toran / Reside
 ###############################################
 
-restore_imperial_treasures_decision:0 "Restore the Imperial Treasures to the Court"
-restore_imperial_treasures_decision_desc:0 "Ever since the Sack of Val Royeaux, the artefacts left by the First Emperor and the First Divine have been left in an uncertain state. Now that the capital and its artifacts have been reclaimed in times of peace, it is time for the Empire of Orlais to restore those priceless objects to their rightful place beside the Sunburst Throne."
-restore_imperial_treasures_decision_confirm:0 "All hail the Empire!"
-restore_imperial_treasures_decision_tooltip:0 "The stolen treasures will be restored!"
-restore_imperial_treasures_decision_custom_desc:0 "Place all the relics within the tomb to earn a new nickname, as well as large amounts of prestige and legitimacy. If you have Kordillus' Ashes, you will earn a new legend seed in addition to the other rewards."
+restore_imperial_treasures_decision:0 "Вернуть имперские сокровища ко двору"
+restore_imperial_treasures_decision_desc:0 "После разграбления Вал Руайо судьба артефактов, оставленных Первым Императором и Первой Верховной Жрицей, долго оставалась неясной. Теперь столица и её реликвии возвращены в мирное время, и Орлесианская империя должна поместить эти бесценные сокровища на подобающее им место у Солнечного Трона."
+restore_imperial_treasures_decision_confirm:0 "Да здравствует Империя!"
+restore_imperial_treasures_decision_tooltip:0 "Похищенные сокровища будут возвращены!"
+restore_imperial_treasures_decision_custom_desc:0 "Поместите все реликвии в гробницу, чтобы получить новое прозвище, а также огромное количество престижа и легитимности. Если у вас есть прах Кордилиуса, помимо прочих наград вы получите новую затравку для легенды."
 
 ##########################################
 # Integrate Brecilian Forest into Gwaren
 # Cairo/
 ###########################################
-DATAW_integrate_brecilian_forest_decision:0 "Bring the Forest to Heel"
-DATAW_integrate_brecilian_forest_decision_desc:0 "For as long as can be remembered, our traders have faced constant harrassment by forest savages as they made the journey through the pass from Gwaren to the rest of Ferelden. Now, with the complete subjugation of the forests, we have an opportunity to integrate these lands into our realm forevermore by giving [GetTitleByKey('k_gwaren').GetBaseNameNoTier] stewardship over the area."
-DATAW_integrate_brecilian_forest_decision_confirm:0 "The forest falls silent"
-DATAW_integrate_brecilian_forest_decision_tooltip:0 "Lands of [GetTitleByKey('k_brecilian_forest').GetBaseNameNoTier] become a [de_jure|E] part of the [GetTitleByKey('k_gwaren').GetName]"
+DATAW_integrate_brecilian_forest_decision:0 "Поставить лес на колени"
+DATAW_integrate_brecilian_forest_decision_desc:0 "Сколько существует людская память, лесные дикари постоянно нападали на наших торговцев, шедших через перевал из Гварена в остальной Ферелден. Теперь лес полностью покорён, и мы можем навсегда включить эти земли в нашу державу, передав управление ими титулу [GetTitleByKey('k_gwaren').GetBaseNameNoTier]."
+DATAW_integrate_brecilian_forest_decision_confirm:0 "Лес умолкнет"
+DATAW_integrate_brecilian_forest_decision_tooltip:0 "Земли титула [GetTitleByKey('k_brecilian_forest').GetBaseNameNoTier] станут [Concept('de_jure','де-юре')|E] частью владений [GetTitleByKey('k_gwaren').GetName]"
