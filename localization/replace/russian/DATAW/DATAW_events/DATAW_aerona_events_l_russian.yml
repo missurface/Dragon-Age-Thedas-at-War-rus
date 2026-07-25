@@ -1,186 +1,186 @@
 ﻿l_russian:
 
 #EVENT 1     #A CHANGING OF SEASONS
- dataw_aerona_events.001.tit: "A Changing of Seasons"
- dataw_aerona_events.001.desc: "The Chasind are a people as many and varied as the leaves of a great tree. No two are alike, and they forget too quickly the boughs that brought them all to bear. \n\nLong have I dreamt of a single, unified Chasind people. The respect of men comes cheap; always at the price of blood, bed and gold. It is only with the currency of faith that a lasting legacy can be brokered. To realize my dream, I must obtain both. \n\nSomething within me unfurls at the thought. A many-horned interloper, watching me from beyond the fade awaits my conclusion, much like a mother stewards her children." 
+ dataw_aerona_events.001.tit: "Смена времён года"
+ dataw_aerona_events.001.desc: "Хасинды столь же многочисленны и разнообразны, как листья великого дерева. Нет двух одинаковых, и они слишком быстро забывают ветви, что породили их всех. \n\nДавно уже я [Select_CString(ROOT.Char.IsFemale, 'мечтала', 'мечтал' )] о едином, сплочённом народе хасиндов. Уважение людей достаётся дёшево — ценой крови, постели и золота. Но только верой можно купить долговечное наследие. Чтобы воплотить мечту, мне необходимо обрести и то и другое. \n\nПри этой мысли нечто внутри меня расправляет крылья. Многорогая незваная гостья наблюдает из-за Завесы и ждёт моего решения, словно мать, присматривающая за детьми." 
 
- dataw_aerona_events.001.opt.a: "I shall make a point to consult my spiritual advisors."
- dataw_aerona_events.001.opt.a.tooltip: "Perhaps someone well versed in spirtitual matters could help me make sense of these thoughts."
- dataw_aerona_events.001.opt.b: "Perhaps I ought to tread lightly."
- dataw_aerona_events.001.opt.b.tooltip: "Power is seldom bought without great cost. I will search for clarity from my councilors."
+ dataw_aerona_events.001.opt.a: "Непременно посоветуюсь с духовными наставниками."
+ dataw_aerona_events.001.opt.a.tooltip: "Кто-нибудь сведущий в духовных вопросах, возможно, поможет мне разобраться в этих мыслях."
+ dataw_aerona_events.001.opt.b: "Пожалуй, лучше ступать осторожно."
+ dataw_aerona_events.001.opt.b.tooltip: "Власть редко обретают без высокой цены. Я попрошу советников внести ясность."
 
 #EVENT 2     #THE STILL HOURS
- dataw_aerona_events.002.tit: "The Still Hours"
- dataw_aerona_events.002.desc: "My convictions do not fade. I chew my nails red; and my meals lose their savor. Then, one evening in my sleep, a voice comes to me, distant but deeply resonant in the landscape of my dreams. It is both familiar to me and completely alien: \n\n #Italic 'Only beings of flesh and blood divine the right to rule by bloodshed alone. It is by leave of the goddesses that thou mayest contrive thy deserved right to rule. Come pay obeisance to the four winds, so that thy goddess may make measure of thy worth. We shall see if we mayest make a true queen of thee.'"
+ dataw_aerona_events.002.tit: "Безмолвные часы"
+ dataw_aerona_events.002.desc: "Мои убеждения не меркнут. Я сгрызаю ногти до крови, а еда теряет вкус. Однажды вечером во сне ко мне приходит голос — далёкий, но глубоко и мощно звучащий среди пейзажа сновидений. Он одновременно знаком мне и совершенно чужд: \n\n #Italic «Лишь создания из плоти и крови считают, будто одно кровопролитие даёт право властвовать. Только с дозволения богинь ты можешь заявить заслуженное право на престол. Приди поклониться четырём ветрам, дабы твоя богиня могла оценить тебя. Тогда мы увидим, можно ли сделать из тебя [Select_CString(ROOT.Char.IsFemale, 'истинную королеву', 'истинного короля' )]»."
 	
- dataw_aerona_events.002.opt.a: "I must put this to paper, quickly, before it slips away!"
- dataw_aerona_events.002.opt.a.tooltip: "Meticulously, I record the mandate by the light of the rushes. No detail will escape me."
- dataw_aerona_events.002.opt.b: "Perhaps I should avoid ale before bed."
- dataw_aerona_events.002.opt.b.tooltip: "When I wake, I make a point of learning greater temperence. The Chasind will heed no gibbering drunkard."
- dataw_aerona_events.002.opt.c: "An augur should be consulted at earliest convenience."
- dataw_aerona_events.002.opt.c.tooltip: "Revelations of this gravity are best interpreted by augurs. They might help me understand the goddess' plans for me, and the intent of my silent advocate."
+ dataw_aerona_events.002.opt.a: "Надо скорее записать всё, пока не забылось!"
+ dataw_aerona_events.002.opt.a.tooltip: "При свете камышовой лучины я тщательно записываю наказ. Ни одна подробность не ускользнёт."
+ dataw_aerona_events.002.opt.b: "Пожалуй, не стоит пить эль перед сном."
+ dataw_aerona_events.002.opt.b.tooltip: "Проснувшись, я решаю впредь быть умереннее. Хасинды не станут слушать пьяное бормотание."
+ dataw_aerona_events.002.opt.c: "При первой возможности следует обратиться к авгуру."
+ dataw_aerona_events.002.opt.c.tooltip: "Столь важные откровения лучше всего толкуют авгуры. Они могут помочь мне понять замыслы богини и намерения безмолвной покровительницы."
 
 #EVENT 3     #FOR RICHES, OR RUIN?
- dataw_aerona_events.003.tit: "For Riches, or Ruin?"
- dataw_aerona_events.003.desc: "The task ahead of me is clear - I must placate the goddesses of All-War if I am to secure a future for my people. A wise queen serves her people with one hand, and begs the spirits for their blessing with the other. As a mage, I am uniquely suited to bridge the gap between my people and the spirits to whom they owe their prosperity. \n\nThe voice in my dreams spoke of the four winds. The sacred earth beneath my feet is tilled by three goddesses, with the Wolf-Queen presiding over all. As I have my house servants prepare supplies for my journey, I must now choose my first destination."
+ dataw_aerona_events.003.tit: "К богатству или к погибели?"
+ dataw_aerona_events.003.desc: "Мне ясно, что предстоит сделать: если я хочу обеспечить будущее своему народу, надо умилостивить богинь Всеобщей Войны. [Select_CString(ROOT.Char.IsFemale, 'Мудрая королева одной рукой служит', 'Мудрый король одной рукой служит' )] народу, а другую простирает к духам, моля о благословении. [Select_CString(ROOT.Char.IsFemale, 'Как волшебница, я лучше прочих способна', 'Как волшебник, я лучше прочих способен' )] стать связующим звеном между своим народом и духами, которым он обязан благоденствием. \n\nГолос в моих снах говорил о четырёх ветрах. Священную землю под моими ногами возделывают три богини, а над всеми царит Королева-Волчица. Пока слуги готовят припасы для путешествия, мне предстоит выбрать первую цель."
 	
  #Wolf Queen (Premature)
- dataw_aerona_events.003.opt.a: "Why bother with the lesser goddesses? The Wolf-Queen, now!"
- dataw_aerona_events.003.opt.a.tooltip: "I will go to the South to seek the Wolf-Queen in the Sunless Lands, and ask for her intercession."
+ dataw_aerona_events.003.opt.a: "Зачем тратить время на младших богинь? Сразу к Королеве-Волчице!"
+ dataw_aerona_events.003.opt.a.tooltip: "Я отправлюсь на юг, найду Королеву-Волчицу в Бессолнечных землях и попрошу её о заступничестве."
  #Owl Mother
- dataw_aerona_events.003.opt.b: "I shall seek the Owl-Mother."
- dataw_aerona_events.003.opt.b.tooltip: "I will seek out the Owl-Mother in the hallowed ground of Kinloch Hold."
+ dataw_aerona_events.003.opt.b: "Я найду Матерь-Сову."
+ dataw_aerona_events.003.opt.b.tooltip: "Я буду искать Матерь-Сову на священной земле Цитадели Кинлох."
  #Snake Huntress
- dataw_aerona_events.003.opt.c: "It must be the Snake-Huntress first."
- dataw_aerona_events.003.opt.c.tooltip: "I must travel to the Brecilian Forest to speak with the Snake Huntress, where she guards the lands where the world was first made."
+ dataw_aerona_events.003.opt.c: "Первой должна быть Змея-Охотница."
+ dataw_aerona_events.003.opt.c.tooltip: "Мне предстоит отправиться в Лес Бресилиан и поговорить со Змеёй-Охотницей, которая охраняет земли, где некогда был сотворён мир."
  #Deer Witch
- dataw_aerona_events.003.opt.d: "Deer-Witch, I beseech thee!"
- dataw_aerona_events.003.opt.d.tooltip: "I will first speak to the Deer-Witch in the Tombigbee hinterlands."
+ dataw_aerona_events.003.opt.d: "Оленья Ведьма, взываю к тебе!"
+ dataw_aerona_events.003.opt.d.tooltip: "Первой я встречусь с Оленьей Ведьмой в окрестностях Томбигби."
 	
 ### THIS IS WHERE IT FORKS. IT DOES NOT MATTER WHAT ORDER THESE HAPPEN IN, EXCEPT FOR WOLF QUEEN. SHE NEEDS TO GO TO ALL 3 OTHER GODDESSES BEFORE HER TO SUCCEED ###
 
 # PREMATURE WOLF QUEEN FORK
 # EVENT 4   #WITH TOOTH AND CLAW
- dataw_aerona_events.004.tit: "With Tooth and Claw"
- dataw_aerona_events.004.desc: "I arrive in the heart of the Sunless Lands to gain the blessing of the Wolf-Queen. My nose and fingers sting with the brittle chill, but it will be a small price to pay for the endorsement of a goddess queen.\n\n The snow breaks, and I spot the wild shrine of the Wolf-Queen in a frozen valley. I prostrate myself before it. \n\nThe Wolf-Queen is as fickle as she is regal, and I may not have another chance to impress her." 
+ dataw_aerona_events.004.tit: "Зубами и когтями"
+ dataw_aerona_events.004.desc: "Я прибываю в самое сердце Бессолнечных земель, чтобы заслужить благословение Королевы-Волчицы. Нос и пальцы колет хрупкий мороз, но это малая цена за одобрение богини-царицы.\n\n Снег расступается, и в замёрзшей долине я замечаю дикий алтарь Королевы-Волчицы. Я простираюсь перед ним ниц. \n\nКоролева-Волчица столь же своенравна, сколь величественна, и другого случая впечатлить её может не представиться." 
 
- dataw_aerona_events.004.opt.a: "I've come all the way here, the least you can do is show yourself."
- dataw_aerona_events.004.opt.a.tooltip: "I taunt the Wolf-Queen in the hopes of impressing her with my boldness."
- dataw_aerona_events.004.opt.b: "Perhaps I'd better plea my case to the other goddesses first..."
- dataw_aerona_events.004.opt.b.tooltip: "Perhaps I was too hasty to seek the Wolf-Queen's approval. I should seek the other goddesses first."
+ dataw_aerona_events.004.opt.a: "Весь этот путь — и ты даже не покажешься?"
+ dataw_aerona_events.004.opt.a.tooltip: "Я дразню Королеву-Волчицу, надеясь впечатлить её своей дерзостью."
+ dataw_aerona_events.004.opt.b: "Пожалуй, сперва стоит обратиться к другим богиням..."
+ dataw_aerona_events.004.opt.b.tooltip: "Обращаться за одобрением Королевы-Волчицы было слишком поспешным решением. Сперва следует найти других богинь."
 
 # OWL MOTHER FORK
 
 # EVENT 5   #NORTHERN BOUND
- dataw_aerona_events.005.tit: "Northern Bound"
- dataw_aerona_events.005.desc: "I watch the dawn rise on Tombigbee one last time, swaying on the back of my steed. My city is a precious jewel – a treasure worth humbling myself before the goddesses a thousand times over. \n\nIt is only natural that I would make my appeal first to the Owl-Mother, for she heralds all springs. It is she whom we owe the very act of creation; her design by which the tides craft stone spires. She dwells in the hearth of every Chasind home, and it will only be by her blessing that my people will put food to table, and by her will that our walls continue to stand. \n\nAwait me, Owl-Mother. I will prostrate myself before you in Kinloch, where you are so dearly beloved."
+ dataw_aerona_events.005.tit: "На север"
+ dataw_aerona_events.005.desc: "В последний раз я смотрю, как над Томбигби встаёт рассвет, покачиваясь в седле. Мой город — драгоценный самоцвет, сокровище, ради которого стоит хоть тысячу раз смириться перед богинями. \n\nВполне естественно, что первой я обращусь к Матери-Сове, ведь она возвещает приход каждой весны. Ей мы обязаны самим сотворением мира; по её замыслу приливы вытачивают каменные шпили. Она живёт в очаге каждого хасиндского дома, и лишь с её благословения мой народ сможет ставить пищу на стол, лишь по её воле наши стены продолжат стоять. \n\nЖди меня, Матерь-Сова. Я прострусь перед тобой ниц в Кинлохе, где тебя так нежно любят."
 
- dataw_aerona_events.005.opt.a: "Your creations are beyond compare, Mother!"
- dataw_aerona_events.005.opt.a.tooltip: "I will continue on my way to Kinloch Hold."
+ dataw_aerona_events.005.opt.a: "Твоим творениям нет равных, Матерь!"
+ dataw_aerona_events.005.opt.a.tooltip: "Я продолжу путь к Цитадели Кинлох."
 
 # EVENT 5.1 #ON THE WINDING PATH
- dataw_aerona_events.015.tit: "On the Winding Path"
- dataw_aerona_events.015.desc: "It has scarcely been a day, but already I am awed by the beauty of the lands. It is said that the Owl-Mother is the architect of our mortal garden, and I cannot help but to see her expert hand in the mirror-like lakes that litter the horizon. \n\nAs I ensconce myself in a warm shawl to turn in for the night, I wonder what inspiration, if any, I should bring back to my hold in Tombigbee."
+ dataw_aerona_events.015.tit: "Извилистой тропой"
+ dataw_aerona_events.015.desc: "Не прошло и дня, а красота этих земель уже поражает меня. Говорят, Матерь-Сова — зодчая нашего смертного сада, и в зеркальных озёрах, рассыпанных до самого горизонта, невозможно не увидеть её искусную руку. \n\nКутаясь в тёплую шаль перед сном, я размышляю, какое вдохновение отсюда стоит привезти в свою крепость в Томбигби."
 
- dataw_aerona_events.015.opt.a: "I cannot imagine anything more perfect than Tombigbee."
- dataw_aerona_events.015.opt.a.tooltip: "I will not change a thing about Tombigbee."
- dataw_aerona_events.015.opt.b: "I shall commission an artist to put the night sky to tapestry!"
- dataw_aerona_events.015.opt.b.tooltip: "I will commission a skilled weaver to capture this celestial perfection."
- dataw_aerona_events.015.opt.c: "I’ll have an artisan fashion me a silver mirror."
- dataw_aerona_events.015.opt.c.tooltip: "A jeweler will craft me a reflective trinket."
- dataw_aerona_events.015.opt.d: "I will have my advisors develop floating gardens!"
- dataw_aerona_events.015.opt.d.tooltip: "The people of Tombigbee would benefit from aquaculture."
+ dataw_aerona_events.015.opt.a: "Не могу представить ничего совершеннее Томбигби."
+ dataw_aerona_events.015.opt.a.tooltip: "Я ничего не стану менять в Томбигби."
+ dataw_aerona_events.015.opt.b: "Поручу мастеру запечатлеть ночное небо на гобелене!"
+ dataw_aerona_events.015.opt.b.tooltip: "Я закажу искусному ткачу гобелен с этим небесным совершенством."
+ dataw_aerona_events.015.opt.c: "Пусть ремесленник изготовит мне серебряное зеркало."
+ dataw_aerona_events.015.opt.c.tooltip: "Ювелир создаст для меня маленькое зеркальное украшение."
+ dataw_aerona_events.015.opt.d: "Прикажу советникам разработать плавучие сады!"
+ dataw_aerona_events.015.opt.d.tooltip: "Аквакультура принесёт пользу жителям Томбигби."
 
 #EVENT 5.2 #CURIOSITY
- dataw_aerona_events.025.tit: "Curiosity"
- dataw_aerona_events.025.desc: "I awake before my retinue, and the morning is still. There is a thick coat of fog, laying low upon the lands like a blanket. \n\nSomething catches my eye for just a brief moment. Should I chase the movement?"
+ dataw_aerona_events.025.tit: "Любопытство"
+ dataw_aerona_events.025.desc: "Я просыпаюсь раньше свиты; утро безмолвно. Густой туман низко стелется над землёй, словно покрывало. \n\nНа краткий миг нечто привлекает мой взгляд. Стоит ли отправиться следом?"
 
- dataw_aerona_events.025.opt.a: "Nothing good can come of this."
- dataw_aerona_events.025.opt.a.tooltip: "Those who pursue recklessly live short lives. Best to stay out of it."
- dataw_aerona_events.025.opt.b: "I can handle myself. What's the harm?"
- dataw_aerona_events.025.opt.b.tooltip: "Becoming a noble has not made you soft, there's little danger in checking it out."
- dataw_aerona_events.025.opt.c: "Wake the retainers - I would have them seek the source!"
- dataw_aerona_events.025.opt.c.tooltip: "This sounds like a great task - for someone else; preferably less important than you."
+ dataw_aerona_events.025.opt.a: "Ничем хорошим это не кончится."
+ dataw_aerona_events.025.opt.a.tooltip: "Безрассудные преследователи долго не живут. Лучше не вмешиваться."
+ dataw_aerona_events.025.opt.b: "Я могу постоять за себя. Что может случиться?"
+ dataw_aerona_events.025.opt.b.tooltip: "Знатный титул не сделал вас [Select_CString(ROOT.Char.IsFemale, 'изнеженной', 'изнеженным' )], и проверить источник движения почти не опасно."
+ dataw_aerona_events.025.opt.c: "Разбудить слуг — пусть выяснят, откуда движение!"
+ dataw_aerona_events.025.opt.c.tooltip: "Отличная задача — для кого-нибудь другого, желательно менее важного, чем вы."
 
 #EVENT 5.2.1 #CURIOSITY DENIED
- dataw_aerona_events.125.tit: "Curiosity Denied"
- dataw_aerona_events.125.desc: "Whatever you detected before, it is gone as quickly as it came. You are likely the scariest thing in these woods."
+ dataw_aerona_events.125.tit: "Любопытство отвергнуто"
+ dataw_aerona_events.125.desc: "Что бы вы ни заметили, оно исчезло так же быстро, как появилось. Скорее всего, самое страшное существо в этих лесах — вы."
 
- dataw_aerona_events.125.opt.a: "Perhaps some breakfast, then."
- dataw_aerona_events.125.opt.a.tooltip: "You have more pressing things to worry about than some rustling bushes."
+ dataw_aerona_events.125.opt.a: "Тогда, пожалуй, можно позавтракать."
+ dataw_aerona_events.125.opt.a.tooltip: "Шорох в кустах — далеко не самая важная из ваших забот."
 
 #EVENT 5.2.2 #CURIOSITY INDULGED
- dataw_aerona_events.225.tit: "Curiosity Indulged"
- dataw_aerona_events.225.desc: "A child of less than five winters regards me, eyes wide and owlish. She is plastered in mud and new earth, and palms a heavy wad of clay between her diminutive fingers.\n\n When she speaks, there is something uncanny about her voice - altogether maiden, mother and crone. Those muddy fingers form a steeple in wet clay.\n\n “Why have you come here?”"
+ dataw_aerona_events.225.tit: "Любопытство удовлетворено"
+ dataw_aerona_events.225.desc: "Девочка не старше пяти зим смотрит на меня огромными, совиными глазами. Она с ног до головы перепачкана грязью и свежей землёй, а в крошечных ладонях мнёт тяжёлый ком глины.\n\n Когда она начинает говорить, в её голосе слышится нечто потустороннее: дева, мать и старуха одновременно. Перепачканные пальцы складывают из мокрой глины башенку.\n\n «Зачем вы пришли сюда?»"
 
- dataw_aerona_events.225.opt.a: "Preposterous! Where are the parents?"
- dataw_aerona_events.225.opt.a.tooltip: "This beggar is someone else's burden."
- dataw_aerona_events.225.opt.b: "Come, child. You will be looked after in my court."
- dataw_aerona_events.225.opt.b.tooltip: "You will not suffer a child to be lost, out in the cold."
- dataw_aerona_events.225.opt.c: "To satisfy my curiosity."
- dataw_aerona_events.225.opt.c.tooltip: "Sensible questions deserve sensible answers."
- dataw_aerona_events.225.opt.d: "I seek the Owl-Mother. Do you know of her?"
- dataw_aerona_events.225.opt.d.tooltip: "This child may be more than meets the eye."
+ dataw_aerona_events.225.opt.a: "Какая нелепость! Где её родители?"
+ dataw_aerona_events.225.opt.a.tooltip: "Эта нищенка — чужая забота."
+ dataw_aerona_events.225.opt.b: "Идём, дитя. При моём дворе о тебе позаботятся."
+ dataw_aerona_events.225.opt.b.tooltip: "Вы не позволите девочке пропасть одной на холоде."
+ dataw_aerona_events.225.opt.c: "Чтобы удовлетворить своё любопытство."
+ dataw_aerona_events.225.opt.c.tooltip: "Разумные вопросы заслуживают разумных ответов."
+ dataw_aerona_events.225.opt.d: "Я ищу Матерь-Сову. Ты знаешь о ней?"
+ dataw_aerona_events.225.opt.d.tooltip: "Эта девочка может оказаться не той, кем кажется."
 
 #EVENT 5.2.3 #CURIOSITY INDULGED DISREGARDED CHILD
- dataw_aerona_events.325.tit: "Curiosity Indulged"
- dataw_aerona_events.325.desc: "The child gapes at you, as if you said nothing. In disbelief, you turn to your retainers, and when you look back, the child is gone."
+ dataw_aerona_events.325.tit: "Любопытство удовлетворено"
+ dataw_aerona_events.325.desc: "Девочка с открытым ртом глядит на вас, будто вы ничего не сказали. Не веря своим глазам, вы поворачиваетесь к слугам, а когда смотрите обратно, ребёнка уже нет."
 
- dataw_aerona_events.325.opt.a: "I will wish them safe travels."
- dataw_aerona_events.325.opt.a.tooltip: "The child has disappeared."
+ dataw_aerona_events.325.opt.a: "Пожелаю ей доброго пути."
+ dataw_aerona_events.325.opt.a.tooltip: "Девочка исчезла."
 
 #EVENT 5.2.4 #CURIOSITY INDULGED ADOPTED CHILD
- dataw_aerona_events.425.tit: "Curiosity Indulged"
- dataw_aerona_events.425.desc: "You remove your cloak, and offer it to the soiled child. They run their fingers over the textiles in awe before staring at you unblinkingly. \n\n“You would offer us a home?”\n\n Something in their gaze snaps, and the timeless wisdom of the waif's countenance dissipates, leaving a shivering child. When the dam bursts, the child crowds you, sobbing into your knees, and the voice you hear is once again new and fragile."
+ dataw_aerona_events.425.tit: "Любопытство удовлетворено"
+ dataw_aerona_events.425.desc: "Вы снимаете плащ и протягиваете его перепачканной девочке. Она благоговейно проводит пальцами по ткани, после чего не мигая смотрит на вас. \n\n«Вы дадите нам дом?»\n\n Что-то в её взгляде ломается, и вечная мудрость исчезает с лица беспризорницы, оставляя лишь дрожащую девочку. Словно плотину прорвало: она бросается к вам, плачет, уткнувшись в колени, и её голос вновь звучит юно и хрупко."
 
- dataw_aerona_events.425.opt.a: "A remarkable child requires a remarkable home."
- dataw_aerona_events.425.opt.a.tooltip: "You will adopt the mysterious child into your household."
- dataw_aerona_events.425.opt.b: "You will have a home in my court."
- dataw_aerona_events.425.opt.b.tooltip: "You will bring the child home to your court."
- dataw_aerona_events.425.opt.c: "On second thought..."
- dataw_aerona_events.425.opt.c.tooltip: "You will give the suspicious child some alms and send them away."
+ dataw_aerona_events.425.opt.a: "Необыкновенному ребёнку нужен необыкновенный дом."
+ dataw_aerona_events.425.opt.a.tooltip: "Вы примете загадочную девочку в свой дом."
+ dataw_aerona_events.425.opt.b: "У тебя будет дом при моём дворе."
+ dataw_aerona_events.425.opt.b.tooltip: "Вы приведёте девочку к своему двору."
+ dataw_aerona_events.425.opt.c: "Если подумать..."
+ dataw_aerona_events.425.opt.c.tooltip: "Вы дадите подозрительной девочке немного милостыни и отошлёте её."
 
 #EVENT 5.2.5 #CURIOSITY INDULGED QUESTIONS
- dataw_aerona_events.525.tit: "Curiosity Indulged"
- dataw_aerona_events.525.desc: "The child smiles knowingly; an odd, faraway look on their muddy face. \n\n 'Aye, but the satisfaction of curiosity is in having no satisfaction. May your cup be as a sieve, child, and your thirst be slaked.'\n\n I am certain that this is no mere child, but before I can press them for answers, a great wind blows fog and leaves, temporarily blinding me. When I open my eyes, the child is gone. In their place is a strange, clay idol."
+ dataw_aerona_events.525.tit: "Любопытство удовлетворено"
+ dataw_aerona_events.525.desc: "Девочка понимающе улыбается; на перепачканном лице появляется странное, отрешённое выражение. \n\n «Верно, но любопытство утоляется лишь тогда, когда остаётся неутолённым. Пусть твоя чаша будет решетом, дитя, а жажда всё же угаснет».\n\n Я [Select_CString(ROOT.Char.IsFemale, 'уверена', 'уверен' )], что это не простой ребёнок, но прежде, чем удаётся потребовать ответов, мощный порыв ветра вздымает туман и листья, на время ослепляя меня. Когда я открываю глаза, девочки уже нет. На её месте стоит странный глиняный идол."
 
- dataw_aerona_events.525.opt.a: "I am listening, spirits."
- dataw_aerona_events.525.opt.a.tooltip: "You are left to ponder the nature of the child, and pocket the clay idol. You're sure it must have some use."
+ dataw_aerona_events.525.opt.a: "Я слушаю вас, духи."
+ dataw_aerona_events.525.opt.a.tooltip: "Вам остаётся размышлять о природе девочки и спрятать глиняного идола в карман. Вы уверены, что он для чего-нибудь пригодится."
 
 #EVENT 5.2.6 #CURIOSITY INDULGED OWL MOM
- dataw_aerona_events.625.tit: "Curiosity Indulged"
- dataw_aerona_events.625.desc: "“Every wave that crests and stone that is laid knows our Mother. What do you want of her?”"
+ dataw_aerona_events.625.tit: "Любопытство удовлетворено"
+ dataw_aerona_events.625.desc: "«Каждая вставшая волна и каждый уложенный камень знают нашу Матерь. Чего вы от неё хотите?»"
 
- dataw_aerona_events.625.opt.a: "I seek her counsel at Kinloch Hold."
- dataw_aerona_events.625.opt.a.tooltip: "You suspect the child has some connection to the goddess."
+ dataw_aerona_events.625.opt.a: "Я ищу её совета в Цитадели Кинлох."
+ dataw_aerona_events.625.opt.a.tooltip: "Вы подозреваете, что девочка как-то связана с богиней."
 
 #EVENT 5.2.7 #CURIOSITY INDULGED OWL MOM
- dataw_aerona_events.725.tit: "Curiosity Indulged"
- dataw_aerona_events.725.desc: "'A mother comes to collect her lost children, and does not demand they find their way to her. What matters is that you sought her in the first place.' Says the wretch, a strange, dulcet smile on their cherubic face. \n\n The wind picks up, and I am buffeted by leaves and fog. When it ceases, the child is gone, but in their place is a strange, clay idol."
+ dataw_aerona_events.725.tit: "Любопытство удовлетворено"
+ dataw_aerona_events.725.desc: "«Мать сама приходит за заблудшими детьми и не требует, чтобы они отыскали к ней дорогу. Важно то, что вы вообще начали её искать», — говорит оборванка; её ангельское лицо озаряет странная ласковая улыбка. \n\n Налетает ветер, и меня осыпает листьями и окутывает туманом. Когда всё стихает, девочки уже нет, но на её месте стоит странный глиняный идол."
 
- dataw_aerona_events.725.opt.a: "What a strange bauble!"
- dataw_aerona_events.725.opt.a.tooltip: "You are left to ponder the nature of the child, and pocket the clay idol. You're sure it must have some use."
+ dataw_aerona_events.725.opt.a: "Какая странная безделушка!"
+ dataw_aerona_events.725.opt.a.tooltip: "Вам остаётся размышлять о природе девочки и спрятать глиняного идола в карман. Вы уверены, что он для чего-нибудь пригодится."
 
 #EVENT 5.3.0 #CURIOSITY DELEGATED OWL MOM
- dataw_aerona_events.035.tit: "Curiosity Delegated"
- dataw_aerona_events.035.desc: "At a moment's notice, several of your entourage begin threading between the trees and brush in the source of the disturbance. \n\nThey have no luck for some time, until one of their number shouts."
+ dataw_aerona_events.035.tit: "Любопытство поручено другим"
+ dataw_aerona_events.035.desc: "Стоит вам подать знак, как несколько спутников начинают пробираться между деревьями и сквозь кусты к источнику шума. \n\nДолгое время поиски остаются безуспешными, пока один из них не вскрикивает."
 
- dataw_aerona_events.035.opt.a: "Away! Go assist, I need no keepers."
- dataw_aerona_events.035.opt.a.tooltip: "You will send away your party to assist, whatever the cost."
- dataw_aerona_events.035.opt.b: "That's enough. Let's get on with it."
- dataw_aerona_events.035.opt.b.tooltip: "You have spent enough time on this foolish endeavor."
+ dataw_aerona_events.035.opt.a: "Вперёд! Идите помогите, няньки мне не нужны."
+ dataw_aerona_events.035.opt.a.tooltip: "Вы отошлёте всю свиту на помощь, чего бы это ни стоило."
+ dataw_aerona_events.035.opt.b: "Довольно. Пора двигаться дальше."
+ dataw_aerona_events.035.opt.b.tooltip: "Вы потратили достаточно времени на эту глупую затею."
 
 #EVENT 5.3.1 #CURIOSITY DELEGATED INVESTIGATION
- dataw_aerona_events.135.tit: "Curiosity Delegated"
- dataw_aerona_events.135.desc: "The rest of my traveling party goes to assist ___, leaving me to my own devices. As a creation of the Owl-Mother, I am at home in the the woods, but like any animal, I too am subject to hunger. \n\nIt hasn't been so long since I fended for myself, surely I could scrounge something up as an impromptu breakfast while my party investigates my omen?"
+ dataw_aerona_events.135.tit: "Любопытство поручено другим"
+ dataw_aerona_events.135.desc: "Остальные спутники идут помогать ___, оставляя меня в одиночестве. Как творение Матери-Совы, я чувствую себя в лесах как дома, но голод властен надо мной, как над любым зверем. \n\nНе так давно мне ещё приходилось самостоятельно добывать пропитание. Наверняка, пока спутники исследуют моё знамение, я смогу наскрести что-нибудь на скорый завтрак?"
 
- dataw_aerona_events.135.opt.a: "I'd better wait."
- dataw_aerona_events.135.opt.a.tooltip: "I will make no attempt to sate my hunger while I wait for my traveling entourage to return."
- dataw_aerona_events.135.opt.b: "Nature provides, and we give thanks."
- dataw_aerona_events.135.opt.b.tooltip: "I will look for something to eat in the woods."
+ dataw_aerona_events.135.opt.a: "Лучше подождать."
+ dataw_aerona_events.135.opt.a.tooltip: "Я не стану утолять голод, пока жду возвращения свиты."
+ dataw_aerona_events.135.opt.b: "Природа дарует, а мы благодарим."
+ dataw_aerona_events.135.opt.b.tooltip: "Я поищу в лесу что-нибудь съестное."
 
 #EVENT 5.3.2 #CURIOSITY DELEGATED FORAGE
- dataw_aerona_events.235.tit: "Curiosity Delegated: A Quick Bite"
- dataw_aerona_events.235.desc: "I look around for the trappings of a snack in my immediate surroundings. My overtures eventually turn up a handful of appetizing looking berries, ripe to bursting."
+ dataw_aerona_events.235.tit: "Любопытство поручено другим: быстрый перекус"
+ dataw_aerona_events.235.desc: "Я оглядываюсь вокруг в поисках чего-нибудь съестного. В конце концов удаётся найти горсть аппетитных ягод, до краёв налитых спелым соком."
 
- dataw_aerona_events.235.opt.a: "Bottoms up!"
- dataw_aerona_events.235.opt.a.tooltip: "I eat the berries while I wait for my retainers to return."
+ dataw_aerona_events.235.opt.a: "Приятного аппетита!"
+ dataw_aerona_events.235.opt.a.tooltip: "Я съем ягоды, пока жду возвращения слуг."
 
 #EVENT 5.3.3 #CURIOSITY DELEGATED HUNGRY
- dataw_aerona_events.335.tit: "Curiosity Delegated: Hunger"
- dataw_aerona_events.335.desc: "It's not long before my boredom turns to hunger, shifting restlessly in the clearing. When a twig snaps, I expect to see my retainer, but instead I see a filthy child, teeth white and grinning. Their hands are laden with ripe berries and red juice. \n\n'I've brought you some fruits, my liege'"
+ dataw_aerona_events.335.tit: "Любопытство поручено другим: голод"
+ dataw_aerona_events.335.desc: "Вскоре скука превращается в голод, и я начинаю беспокойно мерить шагами поляну. Когда хрустит ветка, я ожидаю увидеть слугу, но вместо него замечаю грязную девочку с белозубой улыбкой. В её руках полно спелых ягод, истекающих красным соком. \n\n«Я принесла вам плодов, [Select_CString(ROOT.Char.IsFemale, 'моя госпожа', 'мой господин' )]»."
 
- dataw_aerona_events.335.opt.a: "They make a compelling point..."
- dataw_aerona_events.335.opt.a.tooltip: "I share in nature's bounty."
- dataw_aerona_events.335.opt.b: "Something about the child isn't quite right."
- dataw_aerona_events.335.opt.b.tooltip: "I should try focusing on what is amiss about the child."
+ dataw_aerona_events.335.opt.a: "Звучит убедительно..."
+ dataw_aerona_events.335.opt.a.tooltip: "Я разделю дары природы."
+ dataw_aerona_events.335.opt.b: "С ребёнком явно что-то не так."
+ dataw_aerona_events.335.opt.b.tooltip: "Стоит сосредоточиться и понять, что именно не так с девочкой."
 
 #EVENT 5.3.2 #CURIOSITY DELEGATED DENIED
- dataw_aerona_events.435.tit: "Curiosity Dismissed"
- dataw_aerona_events.435.desc: "With a signal of my horn, my retinue rejoins me, and we set about heating some travel bread to have with salt meat and cheese. Kinloch won't be far now. I will make my peace with this particular mystery."
+ dataw_aerona_events.435.tit: "Любопытство отброшено"
+ dataw_aerona_events.435.desc: "По сигналу рога свита возвращается ко мне, и мы начинаем подогревать дорожный хлеб к солонине и сыру. Кинлох уже близко. Пусть эта загадка останется без ответа."
 
- dataw_aerona_events.435.opt.a: "Onwards and forwards."
- dataw_aerona_events.435.opt.a.tooltip: "You continue on your path with a full stomach."
+ dataw_aerona_events.435.opt.a: "Только вперёд."
+ dataw_aerona_events.435.opt.a.tooltip: "Подкрепившись, вы продолжаете путь."
 # SNAKE HUNTRESS FORK
 
 # DEER WITCH FORK
@@ -188,7 +188,7 @@
 # SUCCESSFUL WOLF QUEEN FORK
 
 # ON UNIFYING CHASIND
-	#dataw_aerona_events.999.tit: "A Dream of All Seasons"
-	#dataw_aerona_events.999.desc: "My mortal toils, and my journey in the eyes of the goddesses has culminated in this moment: The [GetTitleByKey('k_korcari_wilds').GetBaseNameNoTier] forged anew, with the Chasind people brought under my banner. \n\n I am no longer the girl who could do naught but weep at the pain of a wounded beast. The spirit who I have forged a covenant with and I have become something far greater than we could have managed to alone."
+	#dataw_aerona_events.999.tit: "Мечта обо всех временах года"
+	#dataw_aerona_events.999.desc: "Мои смертные труды и путешествие перед взором богинь привели к этому мгновению: [GetTitleByKey('k_korcari_wilds').GetBaseNameNoTier] возродились, а хасиндский народ собрался под моим знаменем. \n\n Я больше не тот ребёнок, которому оставалось лишь плакать от боли раненого зверя. Дух, с которым заключён союз, и я стали чем-то куда большим, чем каждый из нас мог бы стать поодиночке."
 
-	#dataw_aerona_events.999.opt.a: "If the Wolf-Queen wills it, I shall rule."
+	#dataw_aerona_events.999.opt.a: "Если такова воля Королевы-Волчицы, я буду править."

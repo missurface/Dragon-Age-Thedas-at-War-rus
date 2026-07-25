@@ -1,38 +1,38 @@
 ﻿l_russian:
 
-# Halamshiral - Specific
- travel_city_halamshiral_intro:0 "#italic The End of the Journey#!. At least it was to the elves of the Long Walk, as they saw this land and decided to build here for the elves to find their new home. [city_province.GetNameNoTooltip], as this is its elven name, now lay in front of me, its stone walls built in a style meant to emulate Arlathan, now forever lost to time.\n\n"
- travel_city_halamshiral_winding_streets_title: "[city_province.GetBaronyNameExplicitlyNoTooltip]: Winding Streets"
- travel_city_halamshiral_high_quarter_title: "[city_province.GetBaronyNameExplicitlyNoTooltip]: High Quarter"
- travel_city_halamshiral_ancient_walls_title: "[city_province.GetBaronyNameExplicitlyNoTooltip]: Ancient Walls"
+# Халамширал — особые события
+ travel_city_halamshiral_intro:0 "#italic Конец пути#!. Таким стало это место для эльфов, совершивших Долгий путь: увидев эти земли, они решили заложить здесь новый дом для своего народа. Теперь передо мной лежит [city_province.GetNameNoTooltip] — таково его эльфийское имя. Каменные стены города возведены в подражание Арлатану, навеки утраченному во тьме веков.\n\n"
+ travel_city_halamshiral_winding_streets_title: "[city_province.GetBaronyNameExplicitlyNoTooltip]: Извилистые улицы"
+ travel_city_halamshiral_high_quarter_title: "[city_province.GetBaronyNameExplicitlyNoTooltip]: Верхний квартал"
+ travel_city_halamshiral_ancient_walls_title: "[city_province.GetBaronyNameExplicitlyNoTooltip]: Древние стены"
 
- travel_city_halamshiral_winding_streets: "All around, the winding streets of [city_province.GetBaronyNameExplicitlyNoTooltip] surround me as if it was a dense forest. Countless figures walk around, entering and leaving the streets so frequently I cannot recall any of their faces. I knew Halamshiral was built as the center of the new elven homeland, but this feels like it was made to house them all."
- travel_city_halamshiral_high_quarter: "Faraway can be seen the streets of the high quarter, hidden behind high walls, home of the city’s nobility. Seemingly the first place of the city built by the elves, the neighbourhood both feels gorgeous, old, and of an air of desperation, perhaps fitting to elven history."
- travel_city_halamshiral_ancient_walls: "Behind me, I look back to see the old walls surrounding the city, only matched in height by those guarding the high quarter. Made once the city was advanced enough to be called a proper capital, it both exudes a sense of renewal, as well as a sense of obsession with the past.\n\n Are those walls meant to replicate the old walls of Arlathan as they were, or are they trying to emulate on them? Hard to tell, and a question with an answer probably lost forever to time."
+ travel_city_halamshiral_winding_streets: "Извилистые улицы города [city_province.GetBaronyNameExplicitlyNoTooltip] окружают меня со всех сторон, словно густая лесная чаща. По ним без конца снуют бесчисленные прохожие, то появляясь, то исчезая, — ни одного лица не удаётся запомнить. [Select_CString(ROOT.Char.IsFemale, 'Я знала', 'Я знал' )], что Халамширал построили как сердце новой эльфийской родины, но кажется, будто этот город должен был вместить весь народ до последнего эльфа."
+ travel_city_halamshiral_high_quarter: "Вдали виднеются улицы верхнего квартала — обители городской знати, укрытой за высокими стенами. По-видимому, именно отсюда эльфы начали возводить город. В этом месте дивная красота и древность соседствуют с каким-то отчаянием — пожалуй, вполне в духе эльфийской истории."
+ travel_city_halamshiral_ancient_walls: "Я оборачиваюсь и вновь смотрю на старые городские стены; по высоте с ними могут сравниться лишь укрепления верхнего квартала. Их возвели, когда город разросся настолько, чтобы по праву называться столицей. В них чувствуется и надежда на возрождение, и одержимость прошлым.\n\n Пытались ли строители в точности воссоздать древние стены Арлатана или лишь вдохновлялись ими? Трудно сказать: вероятно, ответ навеки затерялся во тьме веков."
 
- travel_city_halamshiral_winding_streets_companion_reflection:0 "\nMy [ROOT.Char.Custom2('RelationToMe', sightseeing_companion)|U] [sightseeing_companion.GetName] adds that we should use this opportunity to learn about the city."
- travel_city_halamshiral_high_quarter_companion_reflection:0 "\nMy [ROOT.Char.Custom2('RelationToMe', sightseeing_companion)|U] [sightseeing_companion.GetName] adds that we should use this opportunity to learn about the city."
- travel_city_halamshiral_ancient_walls_companion_reflection:0 "\nMy [ROOT.Char.Custom2('RelationToMe', sightseeing_companion)|U] [sightseeing_companion.GetName] adds that we should use this opportunity to learn about the ancient walls."
+ travel_city_halamshiral_winding_streets_companion_reflection:0 "\n[Select_CString(sightseeing_companion.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMe', sightseeing_companion)|U] [sightseeing_companion.GetName] добавляет, что стоит воспользоваться случаем и побольше узнать о городе."
+ travel_city_halamshiral_high_quarter_companion_reflection:0 "\n[Select_CString(sightseeing_companion.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMe', sightseeing_companion)|U] [sightseeing_companion.GetName] добавляет, что стоит воспользоваться случаем и побольше узнать о городе."
+ travel_city_halamshiral_ancient_walls_companion_reflection:0 "\n[Select_CString(sightseeing_companion.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMe', sightseeing_companion)|U] [sightseeing_companion.GetName] добавляет, что стоит воспользоваться случаем и побольше узнать о древних стенах."
 
- travel_city_halamshiral_alone_reflection:0 "\nI can't help but reflect on the immense age of this city."
-#val_royeaux - Specific
-#val_royeaux - Specific
- travel_city_val_royeaux_grand_cathedral_title: "[city_province.GetBaronyNameExplicitlyNoTooltip]: Grand Cathedral"
- travel_city_val_royeaux_university_of_orlais_title: "[city_province.GetBaronyNameExplicitlyNoTooltip]: University of Orlais"
- travel_city_val_royeaux_imperial_palace_title: "[city_province.GetBaronyNameExplicitlyNoTooltip]: Imperial Palace"
- PROSPHORION_GLOSS: "The northern commercial harbor of [GetTitleByKey('b_val_royeaux').GetNameNoTier], the city also had a number of other military, commercial and imperial harbors."
- travel_city_val_royeaux_intro: "Passing alongside the gorgeous estates, it is difficult to not be in marvel at the sight of [city_province.GetBaronyNameExplicitlyNoTooltip], capital of Kordillus' empire of Orlais and city of wonder, with enough gold and ornaments to ressemble the Golden City.\n\n"
+ travel_city_halamshiral_alone_reflection:0 "\nЯ невольно задумываюсь о том, сколь древен этот город."
+# Вал Руайо — особые события
+# Вал Руайо — особые события
+ travel_city_val_royeaux_grand_cathedral_title: "[city_province.GetBaronyNameExplicitlyNoTooltip]: Великий Собор"
+ travel_city_val_royeaux_university_of_orlais_title: "[city_province.GetBaronyNameExplicitlyNoTooltip]: Университет Орлея"
+ travel_city_val_royeaux_imperial_palace_title: "[city_province.GetBaronyNameExplicitlyNoTooltip]: Императорский дворец"
+ PROSPHORION_GLOSS: "Северная торговая гавань города [GetTitleByKey('b_val_royeaux').GetNameNoTier]. В городе также было несколько других военных, торговых и имперских гаваней."
+ travel_city_val_royeaux_intro: "Миновав великолепные поместья, я вижу [city_province.GetBaronyNameExplicitlyNoTooltip], столицу Орлесианской империи Кордилиуса. Трудно не восхититься этим дивным городом: золота и украшений здесь столько, что он кажется подобием самого Золотого Города.\n\n"
 
- travel_city_val_royeaux_grand_cathedral: "As I enter the city proper through the Sun Gate, I can see, far into the distance, the [Glossary( 'Grand Cathedral', 'grand_cathedral_GLOSS')], seat of the Divine. the seat of the Sunburst Throne can be seen from here, and the grandness of the circular plaza is only overshadowed by the faint singing of the Chant of Light, ever-present."
- travel_city_grand_cathedral_reflection: "\n\nSurrounded by monumental buildings, it is not hard to be in awe of all this grandeur. My own existence suddenly feels less significant."
- travel_city_companion_grand_cathedral_reflection:0 "\n\n“[ROOT.Char.Custom2('RelationToMeAddress', sightseeing_companion)|U], this is a place unlike any other you have been to. We stand before over a millennia of history”"
- travel_city_companion_university_of_orlais_reflection:0 "\n\n“[ROOT.Char.Custom2('RelationToMeAddress', sightseeing_companion)|U], this is a place unlike any other you have been to. We stand before over a millennia of history”"
+ travel_city_val_royeaux_grand_cathedral: "Войдя в город через Солнечные Врата, я замечаю вдалеке [Glossary( 'Великий Собор', 'grand_cathedral_GLOSS')], резиденцию Верховной Жрицы. Отсюда виден и Солнечный трон. Даже величие круглой площади отступает перед тихим пением Песни Света, которое, кажется, доносится отовсюду."
+ travel_city_grand_cathedral_reflection: "\n\nВ окружении монументальных зданий трудно не преклониться перед всем этим великолепием. Внезапно собственное существование кажется куда менее значительным."
+ travel_city_companion_grand_cathedral_reflection:0 "\n\n«[ROOT.Char.Custom2('RelationToMeAddress', sightseeing_companion)|U], ты ещё не [Select_CString(ROOT.Char.IsFemale, 'бывала', 'бывал' )] в подобных местах. Перед нами — более тысячи лет истории»."
+ travel_city_companion_university_of_orlais_reflection:0 "\n\n«[ROOT.Char.Custom2('RelationToMeAddress', sightseeing_companion)|U], ты ещё не [Select_CString(ROOT.Char.IsFemale, 'бывала', 'бывал' )] в подобных местах. Перед нами — более тысячи лет истории»."
 
- grand_cathedral_GLOSS: "Planned by Kordillus 1 Drakon, the Grand Cathedral of Val Royeaux has historically served as the seat of the Divine of the Orlesian Chantry. It is the only place where the Chant of Light is sung in its entirety, which takes about two weeks. The building would only be completed in 2:99 Glory with the inauguration of its two towers, more than 200 years after the construction's start, giving its name to the Towers Age."
- travel_city_val_royeaux_university_of_orlais: "Driven by curiosity we follow an [Glossary( 'enormous university', 'AQUEDUCT_OF_VALENS_GLOSS' )]\n"
- travel_city_option_study_university_of_orlais: "We must chart and document these libraries"
- travel_city_val_royeaux_imperial_palace: "As I enter the city through the Sun Gate, I can see, standing high above all, the Imperial Palace. Symbol of the debauchery and vices that are so freely accepted, indulged and forgiven in these walls."
- AQUEDUCT_OF_VALENS_GLOSS: "As I enter the city proper through the Night Gate, I can see the University to our right, towering the city with the twin bronze domes of its chantry. It is said that various publications relating to multiple subjects, be it culture, fauna, history or other, despite the limitations set upon themselves by the present ruler's tastes."
- FALLBACK_COIN: "coin"
- travel_city_well_supplied: "Well Supplied"
- travel_city_well_supplied_desc: "This character has recently stocked up on all essentials that are needed for traveling."
+ grand_cathedral_GLOSS: "Задуманный Кордилиусом Дракконом I Великий Собор Вал Руайо на протяжении всей своей истории служил резиденцией Верховной Жрицы орлесианской Церкви. Это единственное место, где Песнь Света исполняется целиком, что занимает около двух недель. Строительство завершилось лишь в 2:99 Славы открытием двух башен — более чем через двести лет после начала работ. Именно они дали имя следующей эре — Веку Башен."
+ travel_city_val_royeaux_university_of_orlais: "Движимые любопытством, мы направляемся к [Glossary( 'огромному университету', 'AQUEDUCT_OF_VALENS_GLOSS' )].\n"
+ travel_city_option_study_university_of_orlais: "Мы должны составить карту этих библиотек и подробно их описать."
+ travel_city_val_royeaux_imperial_palace: "Войдя в город через Солнечные Врата, я вижу возвышающийся надо всем вокруг Императорский дворец. Это символ распутства и пороков, которые в этих стенах столь охотно принимают, которым предаются и которые прощают."
+ AQUEDUCT_OF_VALENS_GLOSS: "Войдя в сам город через Ночные ворота, я вижу справа Университет: над городом возвышаются два бронзовых купола его часовни. Говорят, здесь издают труды на самые разные темы — о культуре, животном мире, истории и многом другом, хотя выбор тем и ограничен вкусами тех, кто ныне стоит у власти."
+ FALLBACK_COIN: "монеты"
+ travel_city_well_supplied: "Хорошее снабжение"
+ travel_city_well_supplied_desc: "Персонаж недавно запасся всем необходимым для путешествия."
