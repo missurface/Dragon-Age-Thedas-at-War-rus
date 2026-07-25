@@ -1,9 +1,9 @@
 ﻿l_russian:
 
- stress_loss_hashishiyah_decision:1 "Consume Elfroot Cakes"
- stress_loss_hashishiyah_decision_desc:1 "Just a few bites, and the stress seems to flow from my body. My mind begins to fog, and a sense of peace and restfulness overcomes me. There is nothing that is quite as relaxing as good elfroot!"
- stress_loss_hashishiyah_decision_tooltip:1 "Let your stress melt into a drug-induced haze"
- stress_loss_hashishiyah_decision_confirm:1 "Bring me a platter!"
- embrace_english_culture_vassals_custom:1 "Every $clayne$ or $wake$ [vassal|E] in de jure Ferelden"
- embrace_english_culture_counties_custom:1 "Every $clayne$ [county|e] in de jure Ferelden"
- decision_embrace_english_culture_get_innovations:1 "The Fereldan [culture|E] gains all Clayne and Wake [innovations|E]"
+ stress_loss_hashishiyah_decision:1 "Съесть пирожные с эльфийским корнем"
+ stress_loss_hashishiyah_decision_desc:1 "Всего пара укусов — и стресс словно покидает мое тело. Разум начинает туманиться, а меня охватывает ощущение мира и покоя. Нет ничего более расслабляющего, чем хороший эльфийский корень!"
+ stress_loss_hashishiyah_decision_tooltip:1 "Позвольте своему стрессу раствориться в наркотической дымке"
+ stress_loss_hashishiyah_decision_confirm:1 "Принесите мне блюдо!"
+ embrace_english_culture_vassals_custom:1 "Каждый $clayne$ий или $wake$ий [Concept( 'vassal', 'вассал' )|E] в де-юре землях Ферелдена"
+ embrace_english_culture_counties_custom:1 "Каждое $clayne$ое [Concept( 'county', 'графство' )|E] в де-юре землях Ферелдена"
+ decision_embrace_english_culture_get_innovations:1 "Ферелденская [Concept( 'culture', 'культура' )|E] получит все клейнские и вейкские [Concept( 'innovations', 'инновации' )|E]"

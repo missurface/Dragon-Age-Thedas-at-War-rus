@@ -1,6 +1,6 @@
 ﻿l_russian:
 
- LOADSCREEN_INITIALIZING_GAME:0 "Traveling to Thedas..." # DATAW Modified
+ LOADSCREEN_INITIALIZING_GAME:0 "Путешествие в Тедас..." # DATAW Modified
 
 #DATAW ADDED, DONT CHANGE IT OR I WILL KILL YOU - Typical
  GAME_DATE_STRING:0 "$CALENDAR_SEL$, $DAY$ $MONTH$"
