@@ -1,18 +1,18 @@
 ﻿l_russian:
- global_culture.3002.t:0 "Rise of the Normans"
- global_culture.3002.desc:1 "The lands of northern France have provided our people with lush and fertile ground to settle and expand.\n\nBy adopting some of the traditions from the locals, we will be able to better acclimate to the region."
- global_culture.3002.a:0 "To new friends and new beginnings!"
+ global_culture.3002.t:0 "Восхождение нормандцев"
+ global_culture.3002.desc:1 "Богатые и плодородные земли северной Франции стали нашему народу изобильным домом и форпостом для новых завоеваний.\n\nПереняв традиции местных, мы сможем лучше приспособиться к жизни в этом регионе."
+ global_culture.3002.a:0 "За новых друзей и новое начало!"
 
  global_culture.3003.t:0 "$global_culture.3002.t$"
- global_culture.3003.desc:0 "We are far from the lands that our Norse ancestors called home, but it is these lands of northern France that we think of as our country. As the leader of my people, it is my responsibility to ensure future prosperity and if we are to flourish, then we must adapt to our new environment. We must learn from the people whose ancestors made use of these fertile grounds.\n\nBy this decree, we will change our way of life to benefit our kin. We will forge a new path as our own people."
- global_culture.3003.a:0 "From this day forward, we call ourselves Normans!"
+ global_culture.3003.desc:0 "Мы далеко от земель, которые наши скандинавские предки называли своим домом, но именно земли на севере Франции мы считаем родными. Я [Select_CString(ROOT.Char.IsFemale, 'предводительница', 'предводитель' )] нашего народа, и на мне лежит ответственность за его процветание. И я считаю, что нам следует приспосабливаться к новому окружению. Нужно учиться у людей, предки которых обрабатывали эти плодородные земли.\n\nВот мое слово: мы изменим сам наш образ жизни — ради самих себя. Мы проложим собственный путь и станем новым народом."
+ global_culture.3003.a:0 "С этого дня мы будем звать себя норманнами!"
 
  global_culture.3005.t:0 "$global_culture.3002.t$"
- global_culture.3005.desc:0 "A group of Norse settlers hailing from Scandinavia have settled on the coast of northern France, making a new home for themselves there.\n\nTheir leader, [fereldan_founder.GetTitledFirstName], has decreed that [fereldan_founder.GetHerHis] people shall adopt several local customs and traditions to ensuring they will thrive in this new land."
- global_culture.3005.a:0 "What does this mean for the region?"
+ global_culture.3005.desc:0 "Группа поселенцев из Скандинавии обосновалась на побережье Северной Франции, сделав это место своим новым домом.\n\nИх [Select_CString(fereldan_founder.IsFemale, 'предводительница', 'предводитель' )], [fereldan_founder.GetTitledFirstName], требует от своих людей принять ряд местных обычаев и традиций ради процветания на новых землях."
+ global_culture.3005.a:0 "И что это означает для региона?"
 
- global_culture.8000.t:0 "Spread of [fereldan.GetNameNoTooltip] Culture"
- global_culture.8000.desc:0 "The eclectic mix of peoples in the Ferelden Valley have given rise to a unique culture, affected by the myriad influences.\n\nNow it is clear that the people in the [county_to_change.GetName] no longer see themselves as [old_culture.GetName], but as native [fereldan.GetCollectiveNoun]!"
- global_culture.8000.a:0 "An interesting development..."
+ global_culture.8000.t:0 "Распространение культуры: [fereldan.GetNameNoTooltip]"
+ global_culture.8000.desc:0 "Смешение народов Ферелденской долины породило самобытную культуру, вобравшую множество разных влияний.\n\nТеперь ясно, что жители владения [county_to_change.GetName] отказались от прежней культурной самоидентификации — [old_culture.GetName]. Отныне они называют себя так: [fereldan.GetCollectiveNoun]!"
+ global_culture.8000.a:0 "Любопытное развитие событий..."
 
- global_culture.8001.a:0 "Wonderful!"
+ global_culture.8001.a:0 "Прекрасно!"

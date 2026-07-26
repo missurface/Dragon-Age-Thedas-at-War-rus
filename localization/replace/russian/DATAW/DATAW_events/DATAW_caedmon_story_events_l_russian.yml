@@ -3,26 +3,26 @@
 
 
 
- dataw_caedmon_normal.0001.tit: "The War of Defiance"
- dataw_caedmon_normal.0001.desc: "We've known something like this would come sooner or later. Courier pigeons are flying in with word, there will be war. \n\nIt seems many of my subjects have lost faith in my vision of a unified Ferelden - if they ever believed in it to begin with. Now they've organized a mass revolt against my reign aided by outside agitators. \n\nIs this the end of my ambition? \n\nNo, I refuse to submit, they shall be shown the truth."
- dataw_caedmon_normal.0001.opt.a: "The doubters and deceivers will soon know their place."
- dataw_caedmon_normal.0001.opt.b: "Now is not the right time."
+ dataw_caedmon_normal.0001.tit: "Война непокорных"
+ dataw_caedmon_normal.0001.desc: "Мы знали, что рано или поздно случится нечто подобное. Почтовые голуби один за другим приносят весть: грядёт война. \n\nПохоже, многие подданные утратили веру в мою мечту о едином Ферелдене — если вообще когда-либо её разделяли. Теперь при поддержке чужеземных подстрекателей они подняли всеобщее восстание против моей власти. \n\nНеужели честолюбивым замыслам пришёл конец? \n\nНет. Я не покорюсь и заставлю их увидеть истину."
+ dataw_caedmon_normal.0001.opt.a: "Сомневающиеся и обманщики скоро узнают своё место."
+ dataw_caedmon_normal.0001.opt.b: "Сейчас неподходящее время."
 
 
 
- DATAW_dataw_caedmon_normal.0001.opt.a.tooltip.a: "[struggle_involved|E] [rulers|e] in [GetTitleByKey('e_ferelden').GetBaseNameNoTier] will oppose your [claim|e] to the throne of [GetTitleByKey('e_ferelden').GetBaseNameNoTier], declaring the #bold The Campaign Against Pretender [loc_scope.GetFirstName]#!."
- DATAW_dataw_caedmon_normal.0001.opt.a.tooltip.b: "[loc_scope.GetCharacterViewNameOrMe] will be pulled into [war|e] against every [struggle_involved|e] [ruler|e] of [GetTitleByKey('e_ferelden').GetBaseNameNoTier] that is not your loyal [vassal|e]. Should you succeed, the #ENC rulers of [GetTitleByKey('e_ferelden').GetBaseNameNoTier] will be forced to accept your [claim|e] to the throne of [GetTitleByKey('e_ferelden').GetBaseNameNoTier]#!."
- DATAW_dataw_caedmon_normal.0001.opt.a.tooltip.d: " Should [loc_scope.GetCharacterViewNameOrMe] be [defeat|e]ed in this [war|e], #XB [loc_scope.GetCharacterViewNameOrMe] will be [deposed|e], and [loc_scope.GetCharacterViewNameOrMe]r [realm|e] will be stripped of all lands not rightfully part of it, leaving only the [de_jure|E] lands of your capital arling#!."
- DATAW_dataw_caedmon_normal.0001.opt.a.tooltip.c: "Should [loc_scope.GetCharacterViewNameOrMe] [character_death_die|E] before fully unifying [GetTitleByKey('e_ferelden').GetBaseNameNoTier], #XB the void caused by [loc_scope.GetCharacterViewNameOrMe]r [character_death_death|E] will trigger the [war_of_the_crowns|E]#!."
- DATAW_dataw_caedmon_normal.0001.opt.b.tooltip.a: "Unlocks Forge The Crown of Ferelden [decision|E] for every [dog_lords|E] of [GetTitleByKey('e_ferelden').GetBaseNameNoTier], with discount towards the cost given to [loc_scope.GetCharacterViewNameOrMe]"
+ DATAW_dataw_caedmon_normal.0001.opt.a.tooltip.a: "[Concept('struggle_involved','Участвующие в борьбе')|E] [Concept('rulers','правители')|E] державы [GetTitleByKey('e_ferelden').GetBaseNameNoTier] выступят против вашей [Concept('claim','претензии')|E] на престол державы [GetTitleByKey('e_ferelden').GetBaseNameNoTier] и объявят #bold «Поход против [Select_CString(loc_scope.IsFemale, 'претендентки', 'претендента' )] [loc_scope.GetFirstName]»#!."
+ DATAW_dataw_caedmon_normal.0001.opt.a.tooltip.b: "[loc_scope.GetCharacterViewNameOrMe] вступит в [Concept('war','войну')|E] со всеми [Concept('struggle_involved','участвующими в борьбе')|E] [Concept('ruler','правителями')|E] державы [GetTitleByKey('e_ferelden').GetBaseNameNoTier], кроме ваших верных [Concept('vassal','вассалов')|E]. Если вы победите, #ENC правителям державы [GetTitleByKey('e_ferelden').GetBaseNameNoTier] придётся признать вашу [Concept('claim','претензию')|E] на престол державы [GetTitleByKey('e_ferelden').GetBaseNameNoTier]#!."
+ DATAW_dataw_caedmon_normal.0001.opt.a.tooltip.d: "Если [loc_scope.GetCharacterViewNameOrMe] потерпит [Concept('defeat','поражение')|E] в этой [Concept('war','войне')|E], #XB персонаж [loc_scope.GetCharacterViewNameOrMe] лишится власти в результате [Concept('deposed','свержения')|E], а [Concept('realm','держава')|E] персонажа [loc_scope.GetCharacterViewNameOrMe] утратит все земли, не принадлежащие ей по праву. Останутся лишь земли [de_jure|E] столичного эрлинга#!."
+ DATAW_dataw_caedmon_normal.0001.opt.a.tooltip.c: "Если [loc_scope.GetCharacterViewNameOrMe] [Concept('character_death_die','умрёт')|E], не успев полностью объединить державу [GetTitleByKey('e_ferelden').GetBaseNameNoTier], #XB возникшая после [Concept('character_death_death','смерти')|E] персонажа [loc_scope.GetCharacterViewNameOrMe] борьба за власть положит начало [Concept('war_of_the_crowns','Войне Корон')|E]#!."
+ DATAW_dataw_caedmon_normal.0001.opt.b.tooltip.a: "Каждому [Concept('dog_lords','Собачьему лорду')|E] державы [GetTitleByKey('e_ferelden').GetBaseNameNoTier] станет доступно [Concept('decision','решение')|E] «Выковать корону Ферелдена», а персонаж [loc_scope.GetCharacterViewNameOrMe] сможет принять его дешевле"
 
 
 
- embrace_fereldan_culture_counties_custom: "Counties you control in the [fereldan_struggle|E]"
+ embrace_fereldan_culture_counties_custom: "Подконтрольные вам [Concept('counties','графства')|E], участвующие в [Concept('fereldan_struggle','Ферелденской борьбе')|E]"
 
- barbarian_ferelden_cultures: "You are of a culture considered barbaric to the Claynes"
+ barbarian_ferelden_cultures: "Клейны считают вашу [Concept('culture','культуру')|E] варварской"
 
- alamarri_pagan_faith_in_the_struggle: "You are of a faith considered barbaric to the Claynes"
+ alamarri_pagan_faith_in_the_struggle: "Клейны считают вашу [Concept('faith','конфессию')|E] варварской"
 
 
 
@@ -41,32 +41,32 @@
 
 ################################ MAIN EVENTS #######################
 ### main event 1 - how to rule
- dataw_caedmon_main.001.tit: "How to Rule?"
- dataw_caedmon_main.001.desc: "I have but one vision, a unified Ferelden, but I must ask myself how I will reign. Shall I win over my Clayne brethren with words, or will the sword prevail where my speech might falter? \n\nA diplomatic approach may foster stability as I consolidate the kingdom, but my strength of arm and strategic acumen may be the surer way to prove my worthiness to rule."
- dataw_caedmon_main.001.opt.a: "I will prove myself as a mighty conqueror!"
- dataw_caedmon_main.001.opt.b: "I will present myself as a unifier!"
+ dataw_caedmon_main.001.tit: "Как править?"
+ dataw_caedmon_main.001.desc: "У меня одна мечта — единый Ферелден, но прежде следует решить, как им править. Удастся ли склонить родичей-клейнов словами, или там, где речи бессильны, победит меч? \n\nДипломатия поможет сохранить спокойствие, пока королевство объединяется, но воинская сила и стратегический талант могут вернее доказать моё право на власть."
+ dataw_caedmon_main.001.opt.a: "Я покажу себя [Select_CString(ROOT.Char.IsFemale, 'могучей завоевательницей', 'могучим завоевателем' )]!"
+ dataw_caedmon_main.001.opt.b: "Я предстану [Select_CString(ROOT.Char.IsFemale, 'объединительницей', 'объединителем' )]!"
 
 ### main event 2 - where to begin           MAYBE CUT?
- dataw_caedmon_main.002.tit: "Where to Begin?"
- dataw_caedmon_main.002.desc: "The unification of Ferelden is a great undertaking, and I must carefully consider where to begin. \n\nTo my west lies the divided Bannorn; consolidating these farmlands before my foes have the opportunity would be wise. \n\nTo my south are the Southron Hills; securing these could serve to better defend Denerim's backdoor. \n\nAmaranthine to my north is a large and powerful arling, and neutering them would be a surefire way to get rid of one of my greatest potential rivals. \n\nLastly is Gwaren to my southeast; though sacked last century by Brecilian barbarians, it remains an important center of trade, and if left unchecked, could prove a formidable threat to Denerim."
- dataw_caedmon_main.002.opt.a: "Eventually, all shall submit..."
- dataw_caedmon_main.002.opt.a.tooltip: "#N Check your decisions for the next step in your journey!#!\n#N Be warned#! - the Clayne loathe being ruled, the idea of a 'king' is not a pleasent thought to them..."
+ dataw_caedmon_main.002.tit: "С чего начать?"
+ dataw_caedmon_main.002.desc: "Объединение Ферелдена — великое начинание, и необходимо тщательно выбрать первый шаг. \n\nНа западе лежит раздробленный Баннорн. Было бы мудро подчинить эти плодородные земли, пока меня не опередили враги. \n\nК югу простираются Южные холмы. Завладев ими, можно надёжнее прикрыть подступы к Денериму. \n\nСевером владеет Амарантайн — обширный и могущественный эрлинг. Его покорение наверняка избавит меня от одного из опаснейших возможных соперников. \n\nНаконец, на юго-востоке находится Гварен. В прошлом столетии его разграбили бресилианские варвары, но город всё ещё остаётся важным торговым центром и, если оставить его без внимания, может стать серьёзной угрозой Денериму."
+ dataw_caedmon_main.002.opt.a: "Рано или поздно покорятся все..."
+ dataw_caedmon_main.002.opt.a.tooltip: "#N Следующий этап вашего пути указан среди решений!#!\n#N Берегитесь!#! Клейны ненавидят подчиняться, и сама мысль о «короле» им отвратительна..."
 
 ### main event 3 - crown of ferelden
- dataw_caedmon_main.003.tit: "The Crown of Ferelden"
- dataw_caedmon_main.003.desc: "A great authority is needed to rally the disparate Clayne banns, and I shall have that symbol placed upon my brow. \n\nI have gathered Ferelden's finest smiths and entrusted them with the finest of materials to forge a crown that will inspire awe in all my subjects. It is my hope that this crown, my legacy, will rest on the heads of many great kings to come after me, and that they will stay true to my vision of a strong, united Ferelden."
- dataw_caedmon_main.003.opt.a: "A crown worthy of a united Ferelden."
- dataw_caedmon_main.003_opt.a.tooltip: "Word has reached the Arls and Banns outside your realm of your coronation. #N They are not pleased.#!"
+ dataw_caedmon_main.003.tit: "Корона Ферелдена"
+ dataw_caedmon_main.003.desc: "Чтобы сплотить разрозненных баннов-клейнов, нужен великий символ власти, и я возложу его на своё чело. \n\nЯ [Select_CString(ROOT.Char.IsFemale, 'созвала', 'созвал' )] лучших кузнецов Ферелдена и [Select_CString(ROOT.Char.IsFemale, 'доверила', 'доверил' )] им драгоценнейшие материалы, чтобы они выковали корону, внушающую благоговение всем моим подданным. Надеюсь, это наследие после меня увенчает многих великих правителей, и они сохранят верность моей мечте о сильном, едином Ферелдене."
+ dataw_caedmon_main.003.opt.a: "Корона, достойная единого Ферелдена."
+ dataw_caedmon_main.003_opt.a.tooltip: "Вести о вашей коронации достигли эрлов и баннов за пределами державы. #N Они недовольны.#!"
 
- caedmon_conquest_paths: "#P You unlock two decisions related to conquering Ferelden #!"
+ caedmon_conquest_paths: "#P Вам станут доступны два решения, связанных с завоеванием Ферелдена#!"
 
 
 
 ### main event 4 - breaking brandel's reach
- dataw_caedmon_main.004.tit: "Breaking Brandel's Reach"
- dataw_caedmon_main.004.desc: "The islands to the northeast of Ferelden have long been a thorn in the side of our ports. They serve as safehavens for the scum and villainy of Ferelden. \n\nBut no longer. The Islands are under my firm grasp, and they shall be routed of any privateering influences."
- dataw_caedmon_main.004.opt.a: "A proper Clayne must rule in this land."
- dataw_caedmon_main.004.opt.a.tooltip: "The Wake are not to be trusted, a loyal Clayne ruler must be installed."
+ dataw_caedmon_main.004.tit: "Сломить Предел Бранделя"
+ dataw_caedmon_main.004.desc: "Острова к северо-востоку от Ферелдена давно стали занозой в боку наших портов. Здесь находят безопасное пристанище все подонки и негодяи страны. \n\nНо этому пришёл конец. Острова крепко зажаты в моём кулаке, и я искореню здесь всякое влияние пиратов."
+ dataw_caedmon_main.004.opt.a: "Этой землёй должен править настоящий клейн."
+ dataw_caedmon_main.004.opt.a.tooltip: "Людям Недремлющего моря нельзя доверять. Здесь необходимо поставить верного правителя-клейна."
 
 
 
@@ -74,31 +74,31 @@
 
 
 ### main event 5 - the future of ferelden
- dataw_caedmon_main.005.tit: "The Gate that Holds"
- dataw_caedmon_main.005.desc: "The Banns have submitted to my will, central Ferelden is mine to rule. Now, my eyes look to Redcliffe, the Clayne's strongest bastian leading into our valley. \n\nAny would-be ruler of our people must naturally include Redcliffe in their domain. The question remains though, how will I approach the gate of Ferelden?"
- dataw_caedmon_main.005.opt.a: "Approach Redcliffe with terms."
- dataw_caedmon_main.005.opt.b: "Conscript from our new subjects."
+ dataw_caedmon_main.005.tit: "Неприступные врата"
+ dataw_caedmon_main.005.desc: "Банны покорились моей воле, и теперь центральный Ферелден принадлежит мне. Пришло время обратить взор к Редклифу — самой могучей твердыне клейнов на пути в нашу долину. \n\nВладения любого, кто желает править нашим народом, непременно должны включать Редклиф. Остаётся лишь решить, как подступиться к вратам Ферелдена."
+ dataw_caedmon_main.005.opt.a: "Предложить Редклифу условия."
+ dataw_caedmon_main.005.opt.b: "Набрать воинов среди новых подданных."
 
 ### main event 5.1 - redcliffe response event - no
- dataw_caedmon_main.0051.tit: "A Response from Redcliffe"
- dataw_caedmon_main.0051.desc: "Redcliffe has rejected our offers of peace, shunning attempts we've made at preventing all-out war between us. \n\nThere will be conflict in the future between our realms, the only question that remains - is when."
- dataw_caedmon_main.0051.opt.a: "They shall soon regret this decision."
+ dataw_caedmon_main.0051.tit: "Ответ Редклифа"
+ dataw_caedmon_main.0051.desc: "Редклиф отверг наши мирные предложения и пренебрёг всеми попытками предотвратить полномасштабную войну. \n\nРано или поздно наши державы столкнутся. Вопрос лишь в том, когда это произойдёт."
+ dataw_caedmon_main.0051.opt.a: "Скоро они пожалеют о своём решении."
 
 ### main event 5.2 - redcliffe response event - yes
- dataw_caedmon_main.0052.tit: "A Response from Redcliffe"
- dataw_caedmon_main.0052.desc: "Redcliffe has accepted our offers of peace, likely in an attempt at preventing all-out war between us. \n\nThere will be peace for now, they may serve their purpose guarding the path into our lands."
- dataw_caedmon_main.0052.opt.a: "Confirm them in their rights to rule."
+ dataw_caedmon_main.0052.tit: "Ответ Редклифа"
+ dataw_caedmon_main.0052.desc: "Редклиф принял наши мирные предложения, вероятно желая предотвратить полномасштабную войну. \n\nПока между нами будет мир, и они смогут исполнить своё предназначение — охранять путь в наши земли."
+ dataw_caedmon_main.0052.opt.a: "Подтвердить их право на власть."
 
 ### main event 6 - What Remains?
- dataw_caedmon_main.006.tit: "What Remains?"
- dataw_caedmon_main.006.desc: "Ferelden is falling one by one to my forces, the would-be teyrns and upstart arls. Now all that remains is for the rest to bend the knee."
- dataw_caedmon_main.006.opt.a: "Onwards, to Portsmouth and Edgehall!"
+ dataw_caedmon_main.006.tit: "Что осталось?"
+ dataw_caedmon_main.006.desc: "Самозваные тэйрны и эрлы-выскочки Ферелдена один за другим падают под натиском моего войска. Осталось лишь заставить остальных преклонить колени."
+ dataw_caedmon_main.006.opt.a: "Вперёд, на Портсмут и Эджхолл!"
 
 ### main event 7 - Ferelden is United
- dataw_caedmon_main.007.tit: "Ferelden is United"
- dataw_caedmon_main.007.desc: "The dream has been realized. \n\nAll of Ferelden is in my grasp. The Clayne have been united and no longer will their petty squabbles divide us. \n\n[daneancestor.GetFirstName] drove the werewovles from Ferelden. [hafterancestor.GetFirstName] was declared the first teyrn of our people. What will they say of me, long after I am gone?"
- dataw_caedmon_main.007.opt.a: "I am finally and truly, King."
- dataw_caedmon_main.007.opt.a.tooltip: "But have your ambitions truly been satisfied?"
+ dataw_caedmon_main.007.tit: "Ферелден объединён"
+ dataw_caedmon_main.007.desc: "Мечта воплотилась в жизнь. \n\nВесь Ферелден в моих руках. Клейны объединены, и мелочные распри больше не разобщат нас. \n\n[daneancestor.GetFirstName] [Select_CString(daneancestor.IsFemale, 'изгнала', 'изгнал' )] оборотней из Ферелдена. [hafterancestor.GetFirstName] [Select_CString(hafterancestor.IsFemale, 'стала первой тэйрной', 'стал первым тэйрном' )] нашего народа. Что скажут обо мне, когда меня уже давно не будет?"
+ dataw_caedmon_main.007.opt.a: "Наконец я по праву [Select_CString(ROOT.Char.IsFemale, 'королева', 'король' )]."
+ dataw_caedmon_main.007.opt.a.tooltip: "Но действительно ли все ваши амбиции удовлетворены?"
 
 
 
@@ -109,26 +109,26 @@
 
 ##################### RELIGION EVENTS ########################
 ##### RELIGION EVENT 1 - FAITH OF FERELDEN
- dataw_caedmon_religion.001.tit: "The Faith of Ferelden"
- dataw_caedmon_religion.001.desc: "'Dear [TITLE] Caedmon! I am [ORLESIAN_KNIGHT], and we have heard of your ambitions of uniting the lands of Ferelden under a single crown and chant, just like our dear [Kordillus 1 Drakon] did for our glorious empire. Please, it would be a pleasure to serve the Kordillus of our generation on such a holy soil.' \n\nIdolized praise from a foreign Orlesian knight was the last thing I expected to come from my declaration as King of Ferelden. While this attitude could be useful, I can still notice the careful looks of my courtiers. Many have been raised on tales of Tevinter's imperial oppression, and despite the support the Emperor has given [KINGDOM OF AENWALDBRIM] in the Second Blight, many look at the multi-layered speeches of the Empire of Orlais with suspicion. \n\nWith all those eyes looking at me, I realise that something needs to be done if we desire for Ferelden to be a realm worthy of its name. Ferelden needs an organized Chantry, to guide my subjects under their rightful king. \n\nYet the ultimate question rests in all those expecting eyes. Should I lean into the parallel with their unifying figure, accepting the support of Orlais and its religious authority? Or should I commit to autonomy to calm the worries of my subjects, who remember strongly the imperial horrors of Tevinter?"
- dataw_caedmon_religion.001.opt.a: "I am the Kordillus of our time!"
- dataw_caedmon_religion.001.opt.a.tooltip: "Accept foregin aid in your conquests. Your fellow Claynes may not approve, but in time they shall be shown the truth!"
- dataw_caedmon_religion.001.opt.b: "This unification is for the throne of Ferelden!"
- dataw_caedmon_religion.001.opt.b.tooltip: "Uniting your people will be much easier without trying to force a new faith upon them as well."
+ dataw_caedmon_religion.001.tit: "Вера Ферелдена"
+ dataw_caedmon_religion.001.desc: "«[Select_CString(ROOT.Char.IsFemale, 'Дорогая', 'Дорогой' )] [TITLE] Кэдмон! Я [ORLESIAN_KNIGHT]. До нас дошли вести о вашем стремлении объединить земли Ферелдена под одной короной и одной Песнью, как наш дорогой [Kordillus 1 Drakon] объединил славную империю. Для меня было бы честью служить новому воплощению Кордилиуса на этой священной земле». \n\nПосле того как я [Select_CString(ROOT.Char.IsFemale, 'провозгласила себя королевой', 'провозгласил себя королём' )] Ферелдена, я меньше всего [Select_CString(ROOT.Char.IsFemale, 'ожидала', 'ожидал' )] восторженных славословий чужеземного орлесианского рыцаря. Такое отношение может оказаться полезным, но придворные обмениваются настороженными взглядами. Многие выросли на рассказах об имперском гнёте Тевинтера, и даже помощь, которую император оказал державе [KINGDOM OF AENWALDBRIM] во время Второго Мора, не избавила их от подозрений к витиеватым речам Орлесианской империи. \n\nПод этими испытующими взглядами становится ясно: если Ферелден хочет стать державой, достойной своего имени, необходимо действовать. Ему нужна единая Церковь, которая направит подданных под властью [Select_CString(ROOT.Char.IsFemale, 'законной королевы', 'законного короля' )]. \n\nГлавный вопрос читается во всех ожидающих глазах. Следует ли уподобиться великому объединителю орлесианцев и принять помощь Орлея вместе с его религиозной властью? Или же сохранить независимость и успокоить подданных, которые ещё хорошо помнят ужасы тевинтерского владычества?"
+ dataw_caedmon_religion.001.opt.a: "Я — Кордилиус нашего времени!"
+ dataw_caedmon_religion.001.opt.a.tooltip: "Принять чужеземную помощь в завоеваниях. Другие клейны могут не одобрить этого, но со временем им откроется истина!"
+ dataw_caedmon_religion.001.opt.b: "Это объединение совершается ради престола Ферелдена!"
+ dataw_caedmon_religion.001.opt.b.tooltip: "Объединить народ будет гораздо легче, если не пытаться одновременно навязать ему новую веру."
 
 ##### RELIGION EVENT 2 - Caedmon's Temple
- dataw_caedmon_religion.002.tit: "Caedmon's Temple"
- dataw_caedmon_religion.002.desc: "Faith shapes our lives. As we sing the Chant and prepare ourselves to bring it to the four corners of Thedas, I wonder about the safety of andrastianism in this realm. With my organization of the [YOUR_FAITH], those who followed me in this faith for a realm need reassurance that I follow it with confidence. \n\nFor that, I should build a great cathedral in Andraste's birthplace, [Denerim]. A cathedral equal to that of the Divine in [Val Royeaux], great enough to silence those pretenders to Andraste's birthplace in [Jader]. \n\nYes, this must be done. But who should I dedicate it to?"
- dataw_caedmon_religion.002.opt.a: "I shall build my temple for the glory of Andraste!"
+ dataw_caedmon_religion.002.tit: "Храм Кэдмона"
+ dataw_caedmon_religion.002.desc: "Вера определяет нашу жизнь. Мы поём Песнь и готовимся разнести её во все уголки Тедаса, но меня тревожит будущее андрастианства в этой державе. После создания единого учения [YOUR_FAITH] последователи, поддержавшие мою веру и моё королевство, должны убедиться в твёрдости моих убеждений. \n\nДля этого следует воздвигнуть великий собор на родине Андрасте — в [Denerim]. Он не уступит собору Верховной Жрицы в [Val Royeaux] и заставит умолкнуть самозванцев из [Jader], которые называют родиной Андрасте свой город. \n\nДа, это необходимо сделать. Но кому посвятить храм?"
+ dataw_caedmon_religion.002.opt.a: "Воздвигнуть храм во славу Андрасте!"
  dataw_caedmon_religion.002.opt.a.tooltip: ""
 
 #### RELIGION EVENT 3 - Foreign Relations
- dataw_caedmon_religion.003.tit: "Foreign Relations"
- dataw_caedmon_religion.003.desc: "I have seen the way the people of Orlais look at me. The pilgrims coming in Denerim now leave candles to my success. Chanters come, signing for the glory of our Chant over the Prophet's homeland. A revered mother has even come to ask of me to write a canticle, like how Kordillus wrote the Canticle of Exaltations. \n\nSuch adoration will not last forever, but I could use it in the present moment to my advantage. I could use this to gain the Divine's personal favour, perhaps by inviting her to Andraste's birthplace. \n\nWould this be bold enough to work? Would the Divine base herself on rumours and popular adoration to meet me?"
- dataw_caedmon_religion.003.opt.a: "It's worth a try."
- dataw_caedmon_religion.003.opt.a.tooltip: "The Divine might be swayed to favor your cause..."
- dataw_caedmon_religion.003.opt.b: "I'd rather better relations with Val Royeaux."
- dataw_caedmon_religion.003.opt.b.tooltip: "The Emperor will clearly be of more use than the Divine..."
+ dataw_caedmon_religion.003.tit: "Отношения с чужеземцами"
+ dataw_caedmon_religion.003.desc: "Я вижу, как на меня смотрят жители Орлея. Прибывающие в Денерим паломники ставят свечи во имя моего успеха. Певчие прославляют нашу Песнь на родине Пророчицы. Одна преподобная мать даже попросила меня написать собственную песнь — подобно тому как Кордилиус создал Песнь Возвышения. \n\nТакое обожание не продлится вечно, но сейчас его можно обратить себе на пользу. Возможно, удастся снискать личное расположение Верховной Жрицы, пригласив её на родину Андрасте. \n\nХватит ли одной дерзости, чтобы замысел удался? Согласится ли Верховная Жрица встретиться со мной, поверив слухам и народному восхищению?"
+ dataw_caedmon_religion.003.opt.a: "Попытаться стоит."
+ dataw_caedmon_religion.003.opt.a.tooltip: "Верховная Жрица может поддержать ваше дело..."
+ dataw_caedmon_religion.003.opt.b: "Лучше укрепить отношения с Вал Руайо."
+ dataw_caedmon_religion.003.opt.b.tooltip: "Император явно окажется полезнее Верховной Жрицы..."
 
 
 
@@ -137,19 +137,19 @@
 
 
 #### Religion Event (new 1) - Faith of Ferelden
- dataw_caedmon_normal.0002.tit: "The Faith of Ferelden"
- dataw_caedmon_normal.0002.desc: "While the Alamarri surely bask in the light of the maker, we lack a central church to organize the faithful. This has limited any would-be unifier of our people. \n\nPagans still rule to the west, while Orlais and Tevinter have found a way to spread Andraste's chant throughout their empires. My kingdom must do the same. But should we unite with the other faithful? Or forge our own path? \n\nReaching out to Orlais could have many positives benefits, both obvious and unforseen - but turning my back on the traditions of my ancestors may taste sour to the people I rule."
- dataw_caedmon_normal.0002.opt.a: "Our people know her word best."
- dataw_caedmon_normal.0002.opt.b: "The Orlesians have the right of it."
- DATAW_allow_faith_reform_with_1_holy_site: "Allows [faith|e] reform using only #positive_value 1#! [holy_site|e]"
- DATAW_allow_faith_reform_with_2_holy_site: "Allows [faith|e] reform using only #positive_value 2#! [holy_site|e]"
- DATAW_grants_20_relation_boost_to_all_same_culture_rulers: "Grants #positive_value +20#! relation to every ruler of [GetTitleByKey('c_denerim').GetHolder.GetCulture.GetName] [culture|e]"
- DATAW_grants_20_relation_boost_to_all_same_faith_rulers: "Grants #positive_value +20#! relation to every ruler of [actor.GetFaith.GetName] [faith|e]" 
- DATAW_vassals_that_like_you: "All vassals that have a positive opinion of you will convert to [actor.GetFaith.GetName]"
- DATAW_grants_20_relation_malus_to_all_same_culture_non_faith_rulers: "Grants #negative_value -20#! relation to every ruler of [recipient.GetCulture.GetName] [culture|e] that is not of [actor.GetFaith.GetName] [faith|e]"
- DATAW_caedmon_you_and_your_family_convert: "[recipient.GetCharacterViewNameOrMe] and your [close_family|e#!] convert to [actor.GetFaith.GetName]"
- DATAW_grants_boost_to_faith_conversion: "Grants boost to [dynasty|E] for [faith|E] conversion as long as they follow [actor.GetFaith.GetName] or any other [faith|e] with [GetDoctrine('chantry_succession_orlesian_doctrine').GetBaseName] [doctrine|E]"
- dataw_orlesian_forces: "An elite vanguard of Orlesian troops joins your forces!"
+ dataw_caedmon_normal.0002.tit: "Вера Ферелдена"
+ dataw_caedmon_normal.0002.desc: "Аламарри, несомненно, купаются в свете Создателя, но у нас нет единой Церкви, способной сплотить верующих. Именно поэтому все прежние попытки объединить наш народ были обречены. \n\nНа западе по-прежнему правят язычники, а Орлей и Тевинтер научились распространять Песнь Андрасте по своим империям. Моё королевство должно последовать их примеру. Но стоит ли объединиться с другими верующими или проложить собственный путь? \n\nОбращение к Орлею сулит множество явных и неожиданных выгод, однако подданным наверняка придётся не по вкусу отказ от традиций предков."
+ dataw_caedmon_normal.0002.opt.a: "Наш народ лучше всех знает слово Андрасте."
+ dataw_caedmon_normal.0002.opt.b: "Орлесианцы избрали верный путь."
+ DATAW_allow_faith_reform_with_1_holy_site: "Позволяет реформировать [Concept('faith','конфессию')|E], имея лишь #positive_value 1#! [Concept('holy_site','святое место')|E]"
+ DATAW_allow_faith_reform_with_2_holy_site: "Позволяет реформировать [Concept('faith','конфессию')|E], имея лишь #positive_value 2#! [Concept('holy_site','святых места')|E]"
+ DATAW_grants_20_relation_boost_to_all_same_culture_rulers: "Все правители, чья [Concept('culture','культура')|E] — [GetTitleByKey('c_denerim').GetHolder.GetCulture.GetName], получают #positive_value +20#! к мнению о вас"
+ DATAW_grants_20_relation_boost_to_all_same_faith_rulers: "Все правители, чья [Concept('faith','конфессия')|E] — [actor.GetFaith.GetName], получают #positive_value +20#! к мнению о вас" 
+ DATAW_vassals_that_like_you: "Все [Concept('vassal','вассалы')|E] с положительным мнением о вас примут веру [actor.GetFaith.GetName]"
+ DATAW_grants_20_relation_malus_to_all_same_culture_non_faith_rulers: "Все правители культуры [recipient.GetCulture.GetName], чья [Concept('faith','конфессия')|E] отличается от [actor.GetFaith.GetName], получают #negative_value -20#! к мнению о вас"
+ DATAW_caedmon_you_and_your_family_convert: "[recipient.GetCharacterViewNameOrMe] и все ваши [Concept('close_family','ближайшие родственники')|E] принимают веру [actor.GetFaith.GetName]"
+ DATAW_grants_boost_to_faith_conversion: "Ваша [Concept('dynasty','династия')|E] получает бонус к обращению в другую [Concept('faith','конфессию')|E], пока её представители исповедуют [actor.GetFaith.GetName] или любую другую [Concept('faith','конфессию')|E] с [Concept('doctrine','доктриной')|E] «[GetDoctrine('chantry_succession_orlesian_doctrine').GetBaseName]»"
+ dataw_orlesian_forces: "Элитный авангард орлесианских войск присоединяется к вашей армии!"
 
 
 
@@ -161,15 +161,15 @@
 
 
 ################ Build-up to Great Defiance #################
- dataw_caedmon_warning.001.tit: "A Murmur at Court"
- dataw_caedmon_warning.001.desc: "Curt glances. Terse words. \n\nI've grown accustomed to these in my courtroom since my coronation. After so many years of my rule, one would think the people would adjust themselves to the new state of affairs. They have not. \n\nIntercepted communications suggest a growing discontent with my rule. Now, even my family fears for their safety. \n\nI eventually catch a pair of gossiping courtiers who believed they were out of earshot, and ordered them under pain of death to reveal their secrets. Little was of use."
- dataw_caedmon_warning.001.opt.a: "Their deaths were swift - but painful."
- dataw_caedmon_warning.001.opt.a.tooltip: "The voices don't stop, they just move somewhere #N you can't hear...#!"
+ dataw_caedmon_warning.001.tit: "Ропот при дворе"
+ dataw_caedmon_warning.001.desc: "Косые взгляды. Резкие слова. \n\nСо дня коронации я [Select_CString(ROOT.Char.IsFemale, 'привыкла', 'привык' )] к этому при своём дворе. Казалось бы, после стольких лет правления люди должны были смириться с новым порядком, но этого не произошло. \n\nПерехваченные письма говорят о растущем недовольстве моей властью. Теперь даже семья опасается за свою жизнь. \n\nНаконец мне удаётся застать двух сплетничающих придворных, считавших, что их никто не слышит. Под страхом смерти я велю им раскрыть свои тайны, но почти ничего полезного узнать не удаётся."
+ dataw_caedmon_warning.001.opt.a: "Они умерли быстро, но мучительно."
+ dataw_caedmon_warning.001.opt.a.tooltip: "Голоса не умолкают — они лишь звучат там, #N где вы их не слышите...#!"
 
- dataw_caedmon_warning.002.tit: "A Direct Confrontation"
- dataw_caedmon_warning.002.desc: "'Ferelden has no king!' \n\nThe air is still, the shout still reverborating through the long halls of my courtroom. \n\nBetween the balconies leading up to my throne stands a lone man, easily in his twilight years pointing a sword - at me. \n\nWithin seconds he is detained by my guards. Alas, somehow during the struggle he was mortally wounded, and bled out in front of my courtiers - a last gasp slipping from his lips. \n\n'I die a free man, will you all do the same?' \n\nWhispers pass from person to person, with the occasional dagger thrown my way. No matter, I am their king. They will be silent. \n\n I command it."
- dataw_caedmon_warning.002.opt.a: "How dare they question my rule!"
- dataw_caedmon_warning.002.opt.a.tooltip: "The tension is palpable, #N my rule lies on a knife's edge...#!"
+ dataw_caedmon_warning.002.tit: "Открытый вызов"
+ dataw_caedmon_warning.002.desc: "«У Ферелдена нет [Select_CString(ROOT.Char.IsFemale, 'королевы', 'короля' )]!» \n\nВоздух застыл, а крик всё ещё эхом разносится по длинным залам дворца. \n\nМежду ведущими к моему престолу галереями стоит одинокий седой старик и направляет меч прямо на меня. \n\nСтража скручивает его за считаные мгновения. Увы, в схватке мятежник каким-то образом получает смертельную рану и истекает кровью на глазах у придворных. С последним вздохом он произносит: \n\n«Я умираю свободным человеком. А вы?» \n\nОт человека к человеку ползут шепотки, и время от времени в мою сторону летят кинжалы. Неважно. Я — [Select_CString(ROOT.Char.IsFemale, 'их королева', 'их король' )]. Они умолкнут. \n\nТакова моя воля."
+ dataw_caedmon_warning.002.opt.a: "Как они смеют оспаривать мою власть!"
+ dataw_caedmon_warning.002.opt.a.tooltip: "Напряжение почти осязаемо: #N моя власть балансирует на острие ножа...#!"
 
 
 
@@ -178,52 +178,52 @@
 
 
 ####### REDCLIFFE STUFF ############
- DATAW_redcliffe_events.01.tit: "An Offer from Denerim"
- DATAW_redcliffe_events.01.desc: "My court swirls with the news. [caedmonliege.GetFirstName] has sent his demands for submission to Redcliffe. \n\nMany say the time of an independent Redcliffe has passed, and that if we want to continue in our existence we must be willing to show humility in the face of certain destruction. \n\nOthers though, advise strength. Castle Redcliffe has never fallen to an outside force - and it never shall - they are quick to tell me."
- DATAW_redcliffe_events.01.opt.a: "Wiser heads must prevail."
- DATAW_redcliffe_events.01.opt.a.tooltip: "Send word to the would-be king, we are his men."
- DATAW_redcliffe_events.01.opt.b: "Castles do not cower."
- DATAW_redcliffe_events.01.opt.b.tooltip: "There is iron in the hills, as there is in the people."
+ DATAW_redcliffe_events.01.tit: "Предложение из Денерима"
+ DATAW_redcliffe_events.01.desc: "Двор бурлит от новостей. [caedmonliege.GetFirstName] [Select_CString(caedmonliege.IsFemale, 'прислала', 'прислал' )] Редклифу требование покориться. \n\nМногие говорят, что время независимого Редклифа миновало и ради выживания нам следует проявить смирение перед лицом неминуемой гибели. \n\nДругие советуют показать силу. Они наперебой напоминают мне, что замок Редклиф никогда не покорялся чужеземцам — и не покорится впредь."
+ DATAW_redcliffe_events.01.opt.a: "Пусть возобладает благоразумие."
+ DATAW_redcliffe_events.01.opt.a.tooltip: "Сообщить [Select_CString(caedmonliege.IsFemale, 'мнимой королеве', 'мнимому королю' )], что мы поступаем к [Select_CString(caedmonliege.IsFemale, 'ней', 'нему' )] на службу."
+ DATAW_redcliffe_events.01.opt.b: "Замки не трепещут от страха."
+ DATAW_redcliffe_events.01.opt.b.tooltip: "Железо есть не только в этих холмах, но и в сердцах их жителей."
 
 
 
 ######### DEATH EVENTS ###########
- dataw_caedmon_death.001.tit: "Death of a Conqueror"
- dataw_caedmon_death.001.desc: "Caedmon is dead, and with him the dream for a unified [GetTitleByKey('e_ferelden').GetBaseNameNoTier] passes into the fade. \n\nIt seems that Dane's legacy was not meant to rule a unified Clayne people, as had been thought. \n\nNow, many look for the earliest chance to declare themselves free from my rule. For certain, any chance on my end of unifying the land is low."
- dataw_caedmon_death.001.opt.a: "Woe to what could have been!"
- dataw_caedmon_death.001.opt.a.tooltip: "Your realm will shatter to just the lands loyal to you around the Arling of Denerim."
- dataw_caedmon_death.001.opt.a.custom_tooltip: "All kingdom level titles are destroyed and vassals outside the Arling of Denerim break free!"
+ dataw_caedmon_death.001.tit: "Смерть завоевателя"
+ dataw_caedmon_death.001.desc: "Кэдмон мёртв, а вместе с ним уходит в небытие мечта об объединении державы [GetTitleByKey('e_ferelden').GetBaseNameNoTier]. \n\nПохоже, роду Дейна не суждено было править единым народом клейнов, как все полагали. \n\nТеперь многие ждут первого удобного случая освободиться от моей власти. Надежды собственными силами объединить эти земли почти не осталось."
+ dataw_caedmon_death.001.opt.a: "Горе несбывшемуся!"
+ dataw_caedmon_death.001.opt.a.tooltip: "Ваша держава распадётся; у вас останутся лишь верные земли вокруг эрлинга Денерима."
+ dataw_caedmon_death.001.opt.a.custom_tooltip: "Все титулы уровня королевства будут уничтожены, а вассалы за пределами эрлинга Денерима обретут независимость!"
 
- dataw_caedmon_death.002.tit: "War for the Crown"
- dataw_caedmon_death.002.desc: "Caedmon is dead, and already the vultures circle for his throne. \n\nIt seems that the legitimacy earned through the hardfought wars of defiance mean nought now, and my claim to the throne of [GetTitleByKey('k_ferelden').GetBaseNameNoTier] passes with his last breath. \n\nWhilst many of my vassals have stayed loyal out of fear of his reputation, others outside my core lands are already looking for a way out from under my authority."
- dataw_caedmon_death.002.opt.a: "Woe to what could have been!"
- dataw_caedmon_death.002.opt.a.tooltip: "Your realm will shatter to just the lands loyal to you around the Teyrnir of Denerim."
- dataw_caedmon_death.002.opt.a.custom_tooltip: "All kingdom level titles except Denerim are destroyed and vassals outside the Teyrnir of Denerim break free!"
+ dataw_caedmon_death.002.tit: "Война за корону"
+ dataw_caedmon_death.002.desc: "Кэдмон мёртв, и стервятники уже кружат над его престолом. \n\nЗаконность власти, завоёванная в тяжёлых войнах с непокорными, теперь ничего не значит. Вместе с последним вздохом Кэдмона исчезла и моя претензия на престол державы [GetTitleByKey('k_ferelden').GetBaseNameNoTier]. \n\nМногие вассалы сохранили верность лишь из страха перед его славой, а за пределами моих исконных земель уже ищут способ избавиться от моей власти."
+ dataw_caedmon_death.002.opt.a: "Горе несбывшемуся!"
+ dataw_caedmon_death.002.opt.a.tooltip: "Ваша держава распадётся; у вас останутся лишь верные земли вокруг тэйрнира Денерима."
+ dataw_caedmon_death.002.opt.a.custom_tooltip: "Все титулы уровня королевства, кроме Денерима, будут уничтожены, а вассалы за пределами тэйрнира Денерима обретут независимость!"
 
 
 
 
 
 ########Death stuff
- dataw_pretender_death.001.tit: "Death of a Conqueror"
- dataw_pretender_death.001.desc: "[deadguy.GetTitledFirstName] is dead, and with [deadguy.GetHerHim] the dream for a unified [GetTitleByKey('e_ferelden').GetBaseNameNoTier] passes into the fade. \n\nIt seems that my dynasty was not meant to rule a unified Clayne people, as had been thought. \n\nNow, many look for the earliest chance to declare themselves free from my rule. For certain, any chance on my end of unifying the land is low."
- dataw_pretender_death.001.opt.a: "Woe to what could have been!"
- dataw_pretender_death.001.opt.a.tooltip: "Your realm will shatter to just the lands loyal to you around your capital Arling."
- dataw_pretender_death.001.opt.a.custom_tooltip: "All kingdom level titles are destroyed and vassals outside your capital break free!"
+ dataw_pretender_death.001.tit: "[Select_CString(deadguy.IsFemale, 'Смерть завоевательницы', 'Смерть завоевателя' )]"
+ dataw_pretender_death.001.desc: "[deadguy.GetTitledFirstName] [Select_CString(deadguy.IsFemale, 'умерла', 'умер' )], и вместе с [Select_CString(deadguy.IsFemale, 'ней', 'ним' )] уходит в небытие мечта об объединении державы [GetTitleByKey('e_ferelden').GetBaseNameNoTier]. \n\nПохоже, моей династии не суждено было править единым народом клейнов, как все полагали. \n\nТеперь многие ждут первого удобного случая освободиться от моей власти. Надежды собственными силами объединить эти земли почти не осталось."
+ dataw_pretender_death.001.opt.a: "Горе несбывшемуся!"
+ dataw_pretender_death.001.opt.a.tooltip: "Ваша держава распадётся; у вас останутся лишь верные земли вокруг столичного эрлинга."
+ dataw_pretender_death.001.opt.a.custom_tooltip: "Все титулы уровня королевства будут уничтожены, а вассалы за пределами вашей столицы обретут независимость!"
 
- dataw_pretender_death.002.tit: "War for the Crown"
- dataw_pretender_death.002.desc: "[deadguy.GetTitledFirstName] is dead, and already the vultures circle for [deadguy.GetHerHis] throne. \n\nIt seems that the legitimacy earned through the hardfought wars of defiance mean nought now, and my claim to the throne of [GetTitleByKey('k_ferelden').GetBaseNameNoTier] passes with [deadguy.GetHerHis] last breath. \n\nWhilst many of my vassals have stayed loyal out of fear of [deadguy.GetHerHis] reputation, others outside my core lands are already looking for a way out from under my authority."
- dataw_pretender_death.002.opt.a: "Woe to what could have been!"
- dataw_pretender_death.002.opt.a.tooltip: "Your realm will shatter to just the lands loyal to you around your capital Teyrnir."
- dataw_pretender_death.002.opt.a.custom_tooltip: "All kingdom level titles except your capital are destroyed and vassals outside the Teyrnir break free!"
+ dataw_pretender_death.002.tit: "Война за корону"
+ dataw_pretender_death.002.desc: "[deadguy.GetTitledFirstName] [Select_CString(deadguy.IsFemale, 'умерла', 'умер' )], и стервятники уже кружат над освободившимся престолом. \n\nЗаконность власти, завоёванная в тяжёлых войнах с непокорными, теперь ничего не значит. Вместе с последним вздохом [Select_CString(deadguy.IsFemale, 'покойной правительницы', 'покойного правителя' )] исчезла и моя претензия на престол державы [GetTitleByKey('k_ferelden').GetBaseNameNoTier]. \n\nМногие вассалы сохранили верность лишь из страха перед [Select_CString(deadguy.IsFemale, 'её', 'его' )] славой, а за пределами моих исконных земель уже ищут способ избавиться от моей власти."
+ dataw_pretender_death.002.opt.a: "Горе несбывшемуся!"
+ dataw_pretender_death.002.opt.a.tooltip: "Ваша держава распадётся; у вас останутся лишь верные земли вокруг столичного тэйрнира."
+ dataw_pretender_death.002.opt.a.custom_tooltip: "Все титулы уровня королевства, кроме вашей столицы, будут уничтожены, а вассалы за пределами тэйрнира обретут независимость!"
 
 
 
- dataw_pretender_death.011.tit: "The Return of Entropy"
- dataw_pretender_death.011.desc: "[deadguy.GetTitledFirstName] is dead, and with [deadguy.GetHerHim] the dream for a unified [GetTitleByKey('e_ferelden').GetBaseNameNoTier] passes into the fade. \n\nIt seems that my dynasty was not meant to rule a unified Clayne people, as had been thought. \n\nUnfortunately, due to [deadguy.GetFirstName]'s already tenuous grasp on the seats of power in Ferelden, I've been left with little but the meager holdings [deadguy.GetSheHe] directly ruled."
- dataw_pretender_death.011.opt.a: "Woe to what could have been!"
- dataw_pretender_death.011.opt.a.tooltip: "Your realm will shatter to just the lands directly ruled by your predecessor."
- dataw_pretender_death.011.opt.a.custom_tooltip: "All kingdom and duchy level titles are destroyed and all vassals break free!"
+ dataw_pretender_death.011.tit: "Возвращение хаоса"
+ dataw_pretender_death.011.desc: "[deadguy.GetTitledFirstName] [Select_CString(deadguy.IsFemale, 'умерла', 'умер' )], и вместе с [Select_CString(deadguy.IsFemale, 'ней', 'ним' )] уходит в небытие мечта об объединении державы [GetTitleByKey('e_ferelden').GetBaseNameNoTier]. \n\nПохоже, моей династии не суждено было править единым народом клейнов, как все полагали. \n\nК несчастью, [deadguy.GetFirstName] и прежде [Select_CString(deadguy.IsFemale, 'едва удерживала', 'едва удерживал' )] власть в Ферелдене, поэтому мне достались лишь скудные земли, которыми [Select_CString(deadguy.IsFemale, 'покойная правила', 'покойный правил' )] напрямую."
+ dataw_pretender_death.011.opt.a: "Горе несбывшемуся!"
+ dataw_pretender_death.011.opt.a.tooltip: "Ваша держава распадётся; у вас останутся лишь земли, которыми [Select_CString(deadguy.IsFemale, 'предшественница правила', 'предшественник правил' )] напрямую."
+ dataw_pretender_death.011.opt.a.custom_tooltip: "Все титулы уровня королевства и герцогства будут уничтожены, а все вассалы обретут независимость!"
 
 
 
@@ -231,33 +231,33 @@
 
 
 ######### capital stuff
- denerim_capital_generic: "Your capital is located in the Arling of Denerim"
- highever_capital_generic: "Your capital is located in the Arling of Highever"
- amaranthine_capital_generic: "Your capital is located in the Arling of Amaranthine"
- oswin_capital_generic: "Your capital is located in the Arling of Oswin"
- gwaren_capital_generic: "Your capital is located in the Arling of Gwaren"
- redcliffe_capital_generic: "Your capital is located in the Arling of Redcliffe"
- portsmouth_capital_generic: "Your capital is located in the Arling of Portsmouth"
- lothering_capital_generic: "Your capital is located in the Arling of Lothering"
- edgehall_capital_generic: "Your capital is located in the Arling of Edgehall"
- tane_capital_generic: "Your capital is located in the Arling of Tane"
+ denerim_capital_generic: "Ваша столица находится в эрлинге Денерима"
+ highever_capital_generic: "Ваша столица находится в эрлинге Хайевера"
+ amaranthine_capital_generic: "Ваша столица находится в эрлинге Амарантайна"
+ oswin_capital_generic: "Ваша столица находится в эрлинге Освина"
+ gwaren_capital_generic: "Ваша столица находится в эрлинге Гварена"
+ redcliffe_capital_generic: "Ваша столица находится в эрлинге Редклифа"
+ portsmouth_capital_generic: "Ваша столица находится в эрлинге Портсмута"
+ lothering_capital_generic: "Ваша столица находится в эрлинге Лотеринга"
+ edgehall_capital_generic: "Ваша столица находится в эрлинге Эджхолла"
+ tane_capital_generic: "Ваша столица находится в эрлинге Тейна"
 
 
 
 
 ###### GET FUCKED EVENT FOR SLOW CONQUERORS
- dataw_pretender_conquest.001.tit: "Fear and Envy"
- dataw_pretender_conquest.001.desc: "In Ferelden, few have the ability to stand against the strength of my realm. \n\nThis serves as quite the source of pride for my court - and especially - me. However, what serves as my source of pride, for others serves as a source of envy and terror; terror at what could be. \n\nA leading courtier of mine has brought word that my fellow rulers of Ferelden have been collaborating in secret, plotting to cut me down to size. It seems they fear my growing power and believe that I intend to crown myself [ROOT.Char.Custom('GetQueenKing')|l] of all Ferelden. \n\nNow all that remains is how I handle this information."
- dataw_pretender_conquest.001.opt.a: "If they think me [ROOT.Char.Custom('GetQueenKing')|l], then I shall be [ROOT.Char.Custom('GetQueenKing')|l]!"
- dataw_pretender_conquest.001.opt.a.tooltip: "Declare yourself [ROOT.Char.Custom('GetQueenKing')|l] of all Ferelden and face any who might try to stop you."
- dataw_pretender_conquest.001.opt.b: "Try to assauge their fears for as long as I can."
- dataw_pretender_conquest.001.opt.b.tooltip: "This might buy you a few years of time to prepare for the inevitable."
+ dataw_pretender_conquest.001.tit: "Страх и зависть"
+ dataw_pretender_conquest.001.desc: "В Ферелдене немногие способны противостоять мощи моей державы. \n\nДвор гордится этим — и особенно горжусь я. Но то, что вызывает у меня гордость, в других пробуждает зависть и ужас перед возможным будущим. \n\nОдин из видных придворных сообщает, что прочие правители Ферелдена тайно сговариваются, желая умерить моё могущество. Похоже, они боятся растущей силы моей державы и считают, что я намереваюсь короновать себя [Select_CString(ROOT.Char.IsFemale, 'королевой', 'королём' )] всего Ферелдена. \n\nОстаётся решить, как распорядиться этими сведениями."
+ dataw_pretender_conquest.001.opt.a: "[Select_CString(ROOT.Char.IsFemale, 'Если они считают меня королевой, я ею и стану!', 'Если они считают меня королём, я им и стану!' )]"
+ dataw_pretender_conquest.001.opt.a.tooltip: "Объявить себя [Select_CString(ROOT.Char.IsFemale, 'королевой', 'королём' )] всего Ферелдена и выступить против каждого, кто попытается вас остановить."
+ dataw_pretender_conquest.001.opt.b: "Постараться как можно дольше унимать их страхи."
+ dataw_pretender_conquest.001.opt.b.tooltip: "Возможно, это даст вам несколько лет на подготовку к неизбежному."
 
 
 
 
  ####### notification event for new pretender
- dataw_pretender_response.001.tit: "A New Pretender for the Throne"
- dataw_pretender_response.001.desc: "[pretender_ruler.GetFirstName] has declared [pretender_ruler.GetHerselfHimself] [pretender_ruler.Custom('GetQueenKing')|l] of all Ferelden. Such statements will surely only lead to conflict for our people. \n\nAlready I hear my neighboring arls and banns clammoring to cut this would-be [pretender_ruler.Custom('GetQueenKing')|l] down to size. \n\nHow this will arise, time will tell."
- dataw_pretender_response.001.opt.a: "A war is sure to come..."
- dataw_pretender_response.001.opt.a.tooltip: "I must prepare myself"
+ dataw_pretender_response.001.tit: "[Select_CString(pretender_ruler.IsFemale, 'Новая претендентка на престол', 'Новый претендент на престол' )]"
+ dataw_pretender_response.001.desc: "[pretender_ruler.GetFirstName] [Select_CString(pretender_ruler.IsFemale, 'провозгласила себя королевой', 'провозгласил себя королём' )] всего Ферелдена. Подобные заявления неизбежно приведут наш народ к новой распре. \n\nСоседние эрлы и банны уже наперебой призывают поставить [Select_CString(pretender_ruler.IsFemale, 'мнимую королеву', 'мнимого короля' )] на место. \n\nВо что это выльется, покажет время."
+ dataw_pretender_response.001.opt.a: "Войны не избежать..."
+ dataw_pretender_response.001.opt.a.tooltip: "Необходимо подготовиться"

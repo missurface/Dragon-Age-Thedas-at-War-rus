@@ -1,14 +1,14 @@
 ﻿l_russian:
-# EVENT 1
- DATAW_morreau_events.001.tit: "A Stolen and Ravaged Homeland"
- DATAW_morreau_events.001.desc: "A decade has passed since House Simmard last ruled over Montsimmard. Ever since the capital of the south was attacked and breached by darkspawn and left to fend for itself by the elves, the House of Simmard has been extinct. Now, [house|E] [percivale.GetHouse.GetName] rules the birthplace of the First Divine, claiming to be the closest to the former ruling house through marriage, due to the current [percivale.GetName] being the son of one of the last scions of House Simmard. \n\n“But they are not like [ROOT.Char.GetHouse.GetName]!” exclaims [jean.GetName], interrupting my lesson. “The Aureliens have only intermingled with de Simmard, while we descend from them. We are the cadet branch of House Simmard, the true successors of Montsimmard, and the city and its lands are ours by birthright.” \n\nWhile we have accepted the present state of affairs, it is true that many among the House of Morreau feel cheated, and long for a return to the city that was once our dynasty's pride. I can see anger, mixed with bravery in the young one's eyes. These are the eyes of someone that could dedicate a lifetime to a dream."
+# СОБЫТИЕ 1
+ DATAW_morreau_events.001.tit: "Украденная и разорённая родина"
+ DATAW_morreau_events.001.desc: "Минуло десять лет с тех пор, как дом Симмар в последний раз правил Монтсиммаром. После того как порождения тьмы напали на Столицу Юга и прорвались в город, а эльфы бросили его на произвол судьбы, дом Симмар угас. Теперь родиной Первой Верховной Жрицы правит [Concept('house','дом')|E] [percivale.GetHouse.GetName], заявляющий о ближайшем родстве с прежними властителями по браку: [Select_CString(percivale.IsFemale, 'нынешняя глава', 'нынешний глава' )], [percivale.GetName], является [Select_CString(percivale.IsFemale, 'дочерью', 'сыном' )] одного из последних представителей дома Симмар. \n\n«Но им не сравниться с домом [ROOT.Char.GetHouse.GetName]!» — восклицает [jean.GetName], прерывая мой урок. «Аврелиены лишь вступали в браки с Симмарами, тогда как мы происходим от них по прямой линии. Мы — младшая ветвь дома Симмар, истинные наследники Монтсиммара, и город со всеми землями принадлежит нам по праву рождения». \n\nМы смирились с нынешним положением дел, но многие в доме Морро по-прежнему чувствуют себя обманутыми и мечтают вернуться в город, некогда бывший гордостью нашей династии. В юном взгляде смешались гнев и отвага. [Select_CString(jean.IsFemale, 'Она способна', 'Он способен' )] посвятить мечте всю жизнь."
 
- DATAW_morreau_events.001.opt.a: "One step at a time, young one."
- DATAW_morreau_events.001.opt.a.tooltip: "Hedinelle will take Jean under her wing, in hopes of guiding him towards Simmard's reclamation."
+ DATAW_morreau_events.001.opt.a: "Шаг за шагом, [Select_CString(jean.IsFemale, 'юная леди', 'юноша' )]."
+ DATAW_morreau_events.001.opt.a.tooltip: "Эдинель возьмёт под своё крыло персонажа [jean.GetName] и постарается направить [Select_CString(jean.IsFemale, 'её', 'его' )] к возвращению наследия Симмаров."
 
-# Event 2
- DATAW_morreau_events.002.tit: "A Dynasty Reclaimed"
- DATAW_morreau_events.002.desc: "Finally, the birthplace of the First Divine is in [ROOT.Char.GetHouse.GetName] hands. The true heirs of [ROOT.Char.GetDynasty.GetName] finally rule the city that was rightfully ours to inherit. \n\nThis is only the first step to reclaim the position House Simmard held before Montsimmard’s destruction. One day, we shall reclaim our place as rulers of Deauvin. But for now, we have reclaimed House Simmard’s position and home, and it is time to reclaim a name that has been without use for decades."
+# СОБЫТИЕ 2
+ DATAW_morreau_events.002.tit: "Возрождение династии"
+ DATAW_morreau_events.002.desc: "Наконец родина Первой Верховной Жрицы оказалась в руках дома [ROOT.Char.GetHouse.GetName]. Истинные наследники династии [ROOT.Char.GetDynasty.GetName] вновь правят городом, который мы должны были унаследовать по праву. \n\nЭто лишь первый шаг к возвращению положения, которое дом Симмар занимал до разрушения Монтсиммара. Однажды мы вновь станем правителями Довина. Но сегодня мы уже вернули владения и родину Симмаров, а теперь настало время возродить имя, которым не пользовались десятилетиями."
 
- DATAW_morreau_events.002.opt.a: "We are Simmard once more!"
- DATAW_morreau_events.002.opt.a.tooltip: "You and your direct descendants become of House Simmard."
+ DATAW_morreau_events.002.opt.a: "Мы снова Симмары!"
+ DATAW_morreau_events.002.opt.a.tooltip: "Вы и ваши прямые потомки станете членами дома Симмар."
