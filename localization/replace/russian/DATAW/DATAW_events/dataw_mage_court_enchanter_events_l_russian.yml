@@ -1,9 +1,9 @@
 ﻿l_russian:
-# Найм придворного чародея
+# Recruit a court enchatner
  dataw_mage_court_enchanter_events.0001.title: ""
  dataw_mage_court_enchanter_events.0001.desc: ""
 
-  # Событие найма
+ # Recruit physician event
  dataw_mage_court_enchanter_events.0001.disease.t: "[SCOPE.Custom('EventTitleDisease')]:"
  dataw_mage_court_enchanter_events.0001.title:1 "Придворный чародей"
 #  dataw_mage_court_enchanter_events.0001.fallback_reason.desc: "Мир полон опасностей, и даже [ROOT.Char.GetTitleTierName|l] и [Select_CString(ROOT.Char.IsFemale, 'её', 'его' )] [ROOT.Char.Custom('GetCourt')|l] не могут их избежать.\n\nКакое-то время ушло на расспросы, зато теперь у меня есть несколько подходящих кандидатур."

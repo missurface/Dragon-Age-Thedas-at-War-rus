@@ -20,7 +20,7 @@
  MW_ATTACKER_NEUTRALS: "Нейтральные вассалы"
  MW_ATTACKER_DISSIDENT_INDP: "Независимые противники нападающего"
 
- # ВРЕМЕННО
+ #TEMP
  DATAW_MW_attacker_story: "Мегавойна — взгляд нападающего"
  DATAW_MW_attacker_story_desc: ""
  DATAW_MW_defender_story: "Мегавойна — взгляд защитника"
