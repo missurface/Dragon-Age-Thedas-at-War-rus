@@ -1,5 +1,5 @@
 ﻿l_russian:
- magic_lifestyle_xp_gain_add: "Magic [lifestyle|E] Experience Gain"
+ magic_lifestyle_xp_gain_add: "Прирост опыта магического [Concept('lifestyle','жизненного пути')|E]"
  magic_lifestyle_xp_gain_mult: "$magic_lifestyle_xp_gain_add$"
  monthly_magic_lifestyle_xp_gain_add: "$monthly_magic_lifestyle_xp_gain_mult$"
- monthly_magic_lifestyle_xp_gain_mult:0 "Monthly [dataw_magic|E] [lifestyle|E] Experience"
+ monthly_magic_lifestyle_xp_gain_mult:0 "Ежемесячный опыт [Concept('dataw_magic','магического')|E] [Concept('lifestyle','жизненного пути')|E]"
