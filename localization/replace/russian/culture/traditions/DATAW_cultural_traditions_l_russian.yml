@@ -1,146 +1,146 @@
 ﻿l_russian:
  #DATAW Traditions
- tradition_chasind_wilders_name: "Chasind Wilders"
- tradition_chasind_wilders_desc: "Long since diverged from their northern kin, the Chasind of the Korcari Wilds have become insular and isolated. Demonized abroad as cannibals and witches, they are in fact a deeply spiritual people who value survivalist skills above all other matters."
+ tradition_chasind_wilders_name: "Хасинды Диких земель"
+ tradition_chasind_wilders_desc: "Давным-давно отделившись от северных сородичей, хасинды Диких земель Коркари замкнулись в себе и оказались отрезаны от остального мира. За их пределами их считают каннибалами и ведьмами, хотя на деле это глубоко духовный народ, для которого умение выживать превыше всего."
 
  tradition_guerrier_de_hauterin_name: "Guerre à la Hauterin"
- tradition_guerrier_de_hauterin_desc: "The Hauterin have always been closer to their Ciriane heritage, like their Mareschois cousins. Yet they have seen a very different history - War. Countless conflicts with darkspawn ravaging the Blasted Hills and beyond, border conflicts with Tevinter and Nevarra, and more, have forged the Hauterin into a culture which earns its glory not in the court, but on the battlefield. A battle for them is akin to a ball to an Orlesian, and falling in battle is the greatest shame. As such, the art of war is taught young, and well."
+ tradition_guerrier_de_hauterin_desc: "Отерены всегда были ближе к своему цирианскому наследию, подобно родственным им марешуа. Однако их историю определила совсем иная сила — война. Бесчисленные столкновения с порождениями тьмы, опустошавшими Проклятые холмы и земли за ними, пограничные войны с Тевинтером и Неваррой и многие другие бедствия превратили отеренов в народ, добывающий славу не при дворе, а на поле боя. Битва для них — то же, что бал для орлесианца, а потерпеть поражение считается величайшим позором. Поэтому военному искусству здесь обучают с малых лет — и обучают превосходно."
 
- tradition_suns_edge_name: "The Sun's Edge"
- tradition_suns_edge_desc: "The Borsol; The faithful on the edge of the sun, the edge of the empire, and Thedas itself. With their lives on the Deauvin Flats, the people have always seen Montsimmard as their capital of choice more than Val Royeaux, yet they still see themselves as part of the greater family of Orlais, united by Kordillus, and above all, the First Divine, Olessa of Montsimmard, born in the Capital of the South. Yet with the Flats came a love and reverence for the horse not seen anywhere else in Thedas, and have such developed a strange way of fighting - mounted archery. This technique, developed partly as a show of skill and discovered to be of surprising efficiency, is the signature way of recognizing the Borsol on the battlefield."
-
-
- tradition_fereldan_pride_name: "Fereldan Pride"
- tradition_fereldan_pride_desc: "The region of Ferelden is a melting pot of proud leaders and people; however, the one thing that stands above all is freedom. The Clayne of the Ferelden valley may be more "civilized" than their cousins in the hills and the wetlands, but they share their fractious nature and love of independence."
- tradition_last_of_the_elvhenan_name: "Last of the Elvhen"
- tradition_last_of_the_elvhenan_desc: "For the second time in recorded history, the Elvhen have a home. In the centuries since the Long March, these Dalish [elves|E] have busied themselves building a new home, learning their histories anew, and patrolling their borders."
-
- tradition_orlesian_opulence_name: "Orlesian Opulence"
- tradition_orlesian_opulence_desc: "In Orlais, appearances are everything. From simple outfits to grand gestures in public, everything is weighted based on first impressions. Social status is paramount, and Orlesians will do whatever they can to ensure that they get to the top and stay on top."
-
- tradition_elegance_empire_name: "Elegance of Empire"
- tradition_elegance_empire_desc: "Once seen as divided barbarians by the Imperium, the descendants of the Ciriane were united under Kordillus and not only rose to elegance, but went above and beyond to position Orlais as the new center of civilization in [thedas|E]. Now, their knights are the fairest, their courts the most elegant, and the words and ways of the Empire are the envy of all."
-
- tradition_tyrddas_children_name: "Tyrdda's Children"
- tradition_tyrddas_children_desc: "Permanence is an alien concept for the Avvar. In a world where home or marriage are merely temporary, they entrust their Skalds with the duty of cultivating history, transforming messy reality into pleasing and informative songs for future generations."
-
- tradition_walkers_of_the_lonely_path_name: "Walkers of the Lonely Path"
- tradition_walkers_of_the_lonely_path_desc: "Ever since the fall of the Dales, those [elves|E] who chose to remain free have been living a nomadic life. Isolated in small clans, roving the frontiers of [thedas|E], they nonetheless remain committed to remembering their heritage, and keeping the dream of the Dales alive."
-
- tradition_vir_tanadahl_name: "Vir Tanadahl"
- tradition_vir_tanadahl_desc: "The Vir Tanadhal is a philosophy often embraced by Dalish hunters to reflect the spirit of Andruil, the Elvhen goddess of the hunt. The three tenets of the Vir Tanadhal aim to instill in its adherents a deep respect for nature. The Way of the Arrow commands a hunter to be swift and silent, to strike true, and to never waver. The Way of the Bow reminds one to bend, but never break. And the Way of the Forest encourages all to receive the gifts of the hunt with mindfulness."
+ tradition_suns_edge_name: "Край Солнца"
+ tradition_suns_edge_desc: "Борсолы — верующие на краю солнца, империи и самого Тедаса. Живя на Дованских равнинах, они всегда охотнее считали своей столицей Монтсиммар, а не Вал Руайо, но по-прежнему видят себя частью великой орлесианской семьи, объединённой Кордилиусом и прежде всего первой Верховной жрицей — Олессой Монсиммарской, родившейся в столице Юга. Равнины породили любовь и благоговение перед лошадьми, каких не встретить более нигде в Тедасе, и потому борсолы выработали необычный способ боя — конную стрельбу из лука. Поначалу этот приём был лишь демонстрацией мастерства, но оказался удивительно действенным и теперь безошибочно выдаёт борсолов на поле боя."
 
 
- tradition_whale_hunters_name: "Whale Hunters"
- tradition_whale_hunters_desc: "With the inviting sea right beside their home, rich with plenty of creatures ready to be hunted, this culture learned to hunt one of the biggest sea animals known to mortalkind, the mighty whales. Whale hunting, for this culture, is a pride and joy, as well as a source of sustenance and wealth."
+ tradition_fereldan_pride_name: "Ферелденская гордость"
+ tradition_fereldan_pride_desc: "Ферелден стал плавильным котлом для гордых вождей и народов, но превыше всего здесь ставят свободу. Клейны Ферелденской долины могут казаться более «цивилизованными», чем их сородичи с холмов и болот, однако они столь же неуступчивы и так же дорожат независимостью."
+ tradition_last_of_the_elvhenan_name: "Последние из элвен"
+ tradition_last_of_the_elvhenan_desc: "Во второй раз за всю известную историю элвен обрели дом. За столетия, прошедшие после Долгого пути, эти долийские [Concept('elves','эльфы')|E] построили новую родину, заново изучили собственную историю и встали на защиту её границ."
 
- tradition_best_friends_worst_enemies_name: "Best Friends, Worst Enemies"
- tradition_best_friends_worst_enemies_desc: "The Ciriane present two masks to the world. One is for friends; loyalty, steadfast allegiance, and deep affection. The other is for foes; vengeance, fierce rivalry, and malicious plotting. A good Ciriane is one who can master both worlds in one lifetime."
+ tradition_orlesian_opulence_name: "Орлесианская роскошь"
+ tradition_orlesian_opulence_desc: "В Орлее внешность решает всё. От повседневного наряда до величественного жеста на публике — обо всём судят по первому впечатлению. Положение в обществе превыше всего, и орлесианцы готовы на что угодно, лишь бы подняться на вершину и удержаться там."
 
- tradition_elder_council_name: "Elder Council"
- tradition_elder_council_desc: "This culture manages their affairs in the ancient style of the early human tribes, of a time long before [andraste|E]. Every free landholder of the realm has their say in the succession, and elders are both favoured heirs and heavily consulted advisors. In this realm, the Crown oversees more than it rules, and few would have it otherwise."
+ tradition_elegance_empire_name: "Имперское изящество"
+ tradition_elegance_empire_desc: "Когда-то Империя считала потомков цириан разобщёнными варварами, но Кордилиус объединил их, и они не просто обрели утончённость — они превратили Орлей в новый центр цивилизации во всём [Concept('thedas','Тедасе')|E]. Теперь их рыцари прекраснее всех, их дворы изысканнее прочих, а речи и обычаи империи вызывают всеобщую зависть."
 
- tradition_wanderers_of_the_dry_sea_name: "Wanderers of the Dry Sea"
- tradition_wanderers_of_the_dry_sea_desc: "We Cendrerin have been exiled in the Sea of Ash long ago by the Névenais, yet we have learned to love the endless wandering that came with it. The next dune, the next statue carved into the rock of the soil itself, all are seen and enjoyed by us, and gave us much wisdom on how to traverse the land, how to fight across it, and so much more. To us, relinquishing our titles to wander the land is a prestigious act, for one enjoys the land in its purest form, and remembers how we once all lived."
+ tradition_tyrddas_children_name: "Дети Тирдды"
+ tradition_tyrddas_children_desc: "Постоянство чуждо авварам. В мире, где дом и брак существуют лишь некоторое время, они поручают скальдам хранить историю, превращая сумбурную действительность в красивые и поучительные песни для грядущих поколений."
 
- tradition_ancient_marshes_name: "Ancient Marshes"
- tradition_ancient_marshes_desc: "The Mareschois have always been closest to the Ciriane of old, to the point that some of Val Royeaux have read history books and claimed they have been left untouched in the marshes. Yet this is far from the truth. The Mareschois hold the Ciriane ways dear in their hearts, yes, but they have learned to live among the humid landscape of the northwest like no one else. They have learned to keep light, fight and use certain plants to preserve their health. They are a far cry from the rest of Orlais, almost barbaric, or at least that’s what most would like you to believe. For the Mareschois understand that preserving this reputation leads to them being underestimated, which can be invaluable in the Game."
+ tradition_walkers_of_the_lonely_path_name: "Идущие одиноким путём"
+ tradition_walkers_of_the_lonely_path_desc: "После падения Долов [Concept('elves','эльфы')|E], решившие сохранить свободу, ведут кочевую жизнь. Маленькими обособленными кланами они странствуют по окраинам [Concept('thedas','Тедаса')|E], бережно храня своё наследие и не позволяя мечте о Долах угаснуть."
+
+ tradition_vir_tanadahl_name: "Вир Танадал"
+ tradition_vir_tanadahl_desc: "Вир Танадал — учение долийских охотников, воплощающее дух Андруил, эльфийской богини охоты. Три его пути призваны воспитать в последователях глубокое уважение к природе. Путь Стрелы требует от охотника быть быстрым и бесшумным, бить без промаха и никогда не колебаться. Путь Лука учит гнуться, но не ломаться. Путь Леса призывает принимать дары охоты осознанно и с благодарностью."
 
 
- tradition_lords_of_the_field_name: "Lords of the Fields"
- tradition_lords_of_the_field_desc: "The Chanvalois, born from the fruitful fields of Ghislain, have always been masters of both agriculture and diplomacy. Every person that came to the realm of the Lords of the Fields tell tales of large plantations, nearing triple the size of Val Royeaux, and of sophisticated grand feasts, beautiful dresses and more. This reputation of extravagant beauty, riches and culture is the pride of the Chanvalois, and the plantation nobility have learned to use this reputation and wealth to their advantage."
+ tradition_whale_hunters_name: "Охотники на китов"
+ tradition_whale_hunters_desc: "Море у самого порога их дома изобилует добычей, и этот народ научился охотиться на одних из крупнейших известных смертным морских животных — могучих китов. Китобойный промысел служит для них предметом гордости и радости, а также источником пищи и богатства."
+
+ tradition_best_friends_worst_enemies_name: "Лучшие друзья, злейшие враги"
+ tradition_best_friends_worst_enemies_desc: "Цириане показывают миру две маски. Одна предназначена для друзей: верность, непоколебимая преданность и глубокая привязанность. Другая — для врагов: месть, непримиримое соперничество и коварные заговоры. Истинный цирианин должен за одну жизнь в совершенстве овладеть обоими искусствами."
+
+ tradition_elder_council_name: "Совет старейшин"
+ tradition_elder_council_desc: "Этот народ решает свои дела по древним обычаям первых человеческих племён, существовавшим задолго до [andraste|E]. Каждый свободный землевладелец державы может высказаться о наследовании, а старейшин предпочитают видеть и наследниками, и почитаемыми советниками. Здесь корона скорее надзирает, чем правит, и мало кто пожелал бы иного."
+
+ tradition_wanderers_of_the_dry_sea_name: "Скитальцы Пепельного моря"
+ tradition_wanderers_of_the_dry_sea_desc: "Давным-давно невенцы изгнали нас, сандренцев, в Море Пепла, но мы полюбили уготованные нам бесконечные странствия. Каждая новая дюна, каждая следующая статуя, высеченная прямо в скале, дарят нам радость и учат пересекать эту землю, сражаться на ней и постигать её бесчисленные тайны. Отказаться от титула ради странствий для нас почётно: так человек познаёт землю в её первозданном виде и вспоминает, как некогда жили все мы."
+
+ tradition_ancient_marshes_name: "Древние болота"
+ tradition_ancient_marshes_desc: "Марешуа всегда были ближе всех к древним цирианам — настолько, что некоторые жители Вал Руайо, начитавшись исторических книг, объявляют их болотным народом, совершенно не изменившимся за века. Это далеко от истины. Марешуа действительно дорожат цирианскими обычаями, но при этом лучше всех приспособились к сырому северо-западу. Они научились путешествовать налегке, сражаться среди топей и поддерживать здоровье с помощью местных растений. Они совершенно не похожи на остальной Орлей — почти варвары, или по крайней мере хотят, чтобы все так думали. Марешуа понимают: подобная репутация заставляет соперников недооценивать их, а в Игре это бесценно."
 
 
- tradition_hunters_of_the_forgotten_sea_name: "Hunters of the Forgotten Sea"
- tradition_hunters_of_the_forgotten_sea_desc: "The people on the western side of the Gamord Mountains, the Névenais, are often forgotten by the people of Orlais and beyond. Isolated by the mountains and mostly trading with the Cendrerin nomads to their west, they have become increasingly protective of their regional identity, which can best be shown in their reverence for hunting, both in the mountains and among the waves. This reputation leaves them often forgotten and underestimated. Yet never underestimate the ones that hunt so frequently the whales of the Sundered Sea."
+ tradition_lords_of_the_field_name: "Владыки полей"
+ tradition_lords_of_the_field_desc: "Рождённые среди плодородных полей Гислейна шанвалуа всегда владели и земледелием, и дипломатией. Каждый, кто посещал державу Владык полей, рассказывает об огромных плантациях, по площади почти втрое превосходящих Вал Руайо, изысканных пирах, прекрасных нарядах и многом другом. Шанвалуа гордятся своей славой народа необычайной красоты, богатства и культуры, а плантационная знать научилась обращать эту славу и состояние себе на пользу."
 
- tradition_devoted_prospectors_name: "Devoted Prospectors"
- tradition_devoted_prospectors_desc: "The Vandalarien have lost their dear Western Approach to the blight. What was once lush and green turned dry and dead. This once thriving and populated land died. Yet the Vandalarien live on. They will keep living, hunting, and above all, never will they forget the past. They will always remember it, delve into its deepest bowels and uncover secrets lost, artifacts left to dust and rust. Against all odds, the Vandalarien will find those ancient beauties, and emulate on them, for this is how they find their strength."
 
- tradition_forest_children_name: "The Forest’s Children"
- tradition_forest_children_desc: "Our people were born in the Brecilian forest, created by it. We Brecilians have learned to live among the trees, alongside the ever present magic that inhabits so many of our children, in order to fight those outsiders who threaten our home. We hunt, live and fight inside our beautiful forest, and we shall not submit to any that threatens us. Blessed be the Brecilian people, for we have learned to listen to the spirits’ wisdom. Blessed be the Brecilian people, for we have learned to make the most beautiful forests our homeland. Blessed be the Brecilian people, for we shall endure for all eternity."
+ tradition_hunters_of_the_forgotten_sea_name: "Охотники Забытого моря"
+ tradition_hunters_of_the_forgotten_sea_desc: "О невенцах, живущих к западу от гор Гаморд, часто забывают и в Орлее, и за его пределами. Отрезанные горами и торгующие главным образом с кочевниками-сандренцами на западе, они всё ревностнее оберегают свою самобытность, ярче всего выраженную в почтении к охоте — и в горах, и среди морских волн. Из-за этой репутации о них нередко забывают и недооценивают их. Но никогда не следует недооценивать тех, кто так часто охотится на китов Расколотого моря."
 
- tradition_DATAW_a_way_of_our_own_name: "A Way of Our Own"
- tradition_DATAW_a_way_of_our_own_desc: "In the Ferelden Valley, the Alamarri arrived and made it their home. In the Frostbacks and the Korcari Wilds did the Alamarri settle as well. From them came Andraste, the warrior prophet that changed the religious landscape of the entirety of Thedas in a few centuries. Despite the fact that the Alamarri slowly diverged into a multitude of people, their independent spirit, attachment to their beliefs and pride remains, as well as their valour in battle, in all of their descendants."
+ tradition_devoted_prospectors_name: "Преданные старатели"
+ tradition_devoted_prospectors_desc: "Мор отнял у вандаларийцев дорогой им Западный предел. Некогда пышная зелёная земля высохла и умерла, а процветавший многолюдный край опустел. Но вандаларийцы живы. Они продолжат жить и охотиться, а главное — никогда не забудут прошлого. Они будут хранить память о нём, проникать в самые глубокие недра и открывать утраченные тайны, находить артефакты, оставленные пылиться и ржаветь. Вопреки всему вандаларийцы отыщут древние сокровища и станут брать их за образец, ведь именно в этом они черпают силу."
+
+ tradition_forest_children_name: "Дети леса"
+ tradition_forest_children_desc: "Наш народ родился в Бресилианском лесу и был создан им. Мы, бресилианцы, научились жить среди деревьев и вездесущей магии, которой наделены многие наши дети, чтобы сражаться с чужаками, угрожающими нашему дому. Мы охотимся, живём и воюем в прекрасном лесу и не покоримся никому, кто нам угрожает. Благословен бресилианский народ, ибо мы научились внимать мудрости духов. Благословен бресилианский народ, ибо мы сделали прекраснейший из лесов своей родиной. Благословен бресилианский народ, ибо мы пребудем вовеки."
+
+ tradition_DATAW_a_way_of_our_own_name: "Собственный путь"
+ tradition_DATAW_a_way_of_our_own_desc: "Аламарри пришли в Ферелденскую долину и сделали её своим домом. Другие их племена поселились в Морозных горах и Диких землях Коркари. Среди них родилась Андрасте — воительница и пророчица, за несколько столетий изменившая веру всего Тедаса. Со временем аламарри разделились на множество народов, но все их потомки сохранили независимый дух, преданность своим верованиям, гордость и доблесть в бою."
 
  
  #DATAW MAA Tradition Effects
- culture_parameter_unlock_maa_borassan: "Can recruit [GetMaA('borassan_harillen').GetName] as [men_at_arms|E]"
- culture_parameter_unlock_maa_marshlander: "Can recruit [GetMaA('marshlander').GetName] as [men_at_arms|E]"
- culture_parameter_unlock_maa_heliwr: "Can recruit [GetMaA('heliwr').GetName] as [men_at_arms|E]"
- culture_parameter_unlock_maa_miadahlen: "Can recruit [GetMaA('miadahlen').GetName] as [men_at_arms|E]"
- culture_parameter_unlock_maa_herthweru: "Can recruit [GetMaA('herthweru').GetName] as [men_at_arms|E]"
- culture_parameter_unlock_maa_orlesian_lancers: "Can recruit [GetMaA('orlesian_lancers').GetName] as [men_at_arms|E]"
- culture_parameter_unlock_maa_reterai: "Can recruit [GetMaA('reterai').GetName] as [men_at_arms|E]"
- culture_parameter_unlock_maa_warrior_skalds: "Can recruit [GetMaA('warrior_skalds').GetName] as [men_at_arms|E]"
- culture_parameter_unlock_maa_tribesmen: "Can recruit [GetMaA('tribesmen').GetName] as [men_at_arms|E]"
- culture_parameter_unlock_maa_field_cavaliers: "Can recruit [GetMaA('field_cavaliers').GetName] as [men_at_arms|E]"
- culture_parameter_unlock_maa_southern_masters: "Can recruit [GetMaA('southern_masters').GetName] as [men_at_arms|E]"
- culture_parameter_unlock_maa_fleches_de_deauvin: "Can recuit [GetMaA('fleches_de_deauvin').GetName] as [men_at_arms|E]"
- culture_parameter_unlock_maa_nomadic_warriors: "Can recruit [GetMaA('nomadic_warriors').GetName] as [men_at_arms|E]"
- culture_parameter_unlock_maa_western_watchmen: "Can recruit [GetMaA('western_watchmen').GetName] as [men_at_arms|E]"
- culture_parameter_unlock_maa_brecilian_hunters: "Can recruit [GetMaA('brecilian_hunters').GetName] as [men_at_arms|E]"
+ culture_parameter_unlock_maa_borassan: "Доступны [men_at_arms|El] — [GetMaA('borassan_harillen').GetName]"
+ culture_parameter_unlock_maa_marshlander: "Доступны [men_at_arms|El] — [GetMaA('marshlander').GetName]"
+ culture_parameter_unlock_maa_heliwr: "Доступны [men_at_arms|El] — [GetMaA('heliwr').GetName]"
+ culture_parameter_unlock_maa_miadahlen: "Доступны [men_at_arms|El] — [GetMaA('miadahlen').GetName]"
+ culture_parameter_unlock_maa_herthweru: "Доступны [men_at_arms|El] — [GetMaA('herthweru').GetName]"
+ culture_parameter_unlock_maa_orlesian_lancers: "Доступны [men_at_arms|El] — [GetMaA('orlesian_lancers').GetName]"
+ culture_parameter_unlock_maa_reterai: "Доступны [men_at_arms|El] — [GetMaA('reterai').GetName]"
+ culture_parameter_unlock_maa_warrior_skalds: "Доступны [men_at_arms|El] — [GetMaA('warrior_skalds').GetName]"
+ culture_parameter_unlock_maa_tribesmen: "Доступны [men_at_arms|El] — [GetMaA('tribesmen').GetName]"
+ culture_parameter_unlock_maa_field_cavaliers: "Доступны [men_at_arms|El] — [GetMaA('field_cavaliers').GetName]"
+ culture_parameter_unlock_maa_southern_masters: "Доступны [men_at_arms|El] — [GetMaA('southern_masters').GetName]"
+ culture_parameter_unlock_maa_fleches_de_deauvin: "Доступны [men_at_arms|El] — [GetMaA('fleches_de_deauvin').GetName]"
+ culture_parameter_unlock_maa_nomadic_warriors: "Доступны [men_at_arms|El] — [GetMaA('nomadic_warriors').GetName]"
+ culture_parameter_unlock_maa_western_watchmen: "Доступны [men_at_arms|El] — [GetMaA('western_watchmen').GetName]"
+ culture_parameter_unlock_maa_brecilian_hunters: "Доступны [men_at_arms|El] — [GetMaA('brecilian_hunters').GetName]"
 
  #DATAW Court Position Tradition Effects
- culture_parameter_can_appoint_bard: "Can appoint the Court Bard"
+ culture_parameter_can_appoint_bard: "Доступна [Concept( 'court_position', 'придворная должность' )|E] «Придворный бард»"
 
  #DATAW Succession Law Tradition Effects
- culture_parameter_council_succession_enabled: "Can enable the [GetLaw('council_elective_succession_law').GetName] [succession_law|E]"
+ culture_parameter_council_succession_enabled: "Доступен [Concept( 'succession_law', 'закон о наследовании' )|E] «[GetLaw('council_elective_succession_law').GetName]»"
 
  #DATAW Decision Tradition Effects
- culture_parameter_enable_consult_the_elders_decision: "Rulers may consult with a council of their Elders via a [decision|E], temporarily boosting their skills"
+ culture_parameter_enable_consult_the_elders_decision: "Правители могут принять [Concept('decision','решение')|E] и обратиться за советом к старейшинам, временно повысив свои навыки"
  
  #DATAW Education/Trait Tradition Effects
- culture_parameter_intrigue_education_better_outcomes: "[children|E] tend to do better in the [intrigue|E] [education|E]"
- culture_parameter_martial_education_better_outcomes: "[children|E] tend to do better in the [martial|E] [education|E]"
- culture_parameter_magic_education_better_outcomes: "[children|E] tend to do better in the [dataw_magic|E] [education|E]"
- culture_parameter_magic_education_worse_outcomes: "[children|E] tend to do worse in the [dataw_magic|E] [education|E]"
- culture_parameter_court_priests_are_mages_only: "[court_chaplain|E] of this culture must be a [mage|E]."
- culture_parameter_brave_trait_gives_bonuses: "The [GetTrait('brave').GetName( GetNullCharacter )] [trait|E] has additional bonuses"
- culture_parameter_arrogant_trait_more_common: "The [GetTrait('arrogant').GetName( GetNullCharacter )] [trait|E] is more common"
- culture_parameter_eccentric_trait_more_common: "The [GetTrait('eccentric').GetName( GetNullCharacter )] [trait|E] is more common"
- culture_parameter_wrathful_trait_more_common: "The [GetTrait('wrathful').GetName( GetNullCharacter )] [trait|E] is more common"
- culture_parameter_loyal_trait_bonuses: "The [GetTrait('loyal').GetName( GetNullCharacter )] [trait|E] doubles this tradition's vengeful character bonuses, but the [GetTrait('disloyal').GetName( GetNullCharacter )] [trait|E] nullifies them"
- culture_parameter_vengeful_trait_bonuses: "The [GetTrait('vengeful').GetName( GetNullCharacter )] [trait|E] doubles this tradition's loyal character bonuses, but the [GetTrait('forgiving').GetName( GetNullCharacter )] [trait|E] nullifies them"
+ culture_parameter_intrigue_education_better_outcomes: "[children|E] обычно получают более качественное [Concept( 'intrigue', 'интриганское' )|E] [Concept( 'education', 'образование' )|E]"
+ culture_parameter_martial_education_better_outcomes: "[children|E] обычно получают более качественное [Concept( 'martial', 'военное' )|E] [Concept( 'education', 'образование' )|E]"
+ culture_parameter_magic_education_better_outcomes: "[children|E] обычно получают более качественное [Concept( 'dataw_magic', 'магическое' )|E] [Concept( 'education', 'образование' )|E]"
+ culture_parameter_magic_education_worse_outcomes: "[children|E] обычно получают менее качественное [Concept( 'dataw_magic', 'магическое' )|E] [Concept( 'education', 'образование' )|E]"
+ culture_parameter_court_priests_are_mages_only: "[Concept('court_chaplain','Придворным священником')|E] этой культуры может быть только [mage|E]"
+ culture_parameter_brave_trait_gives_bonuses: "[trait|E] «[GetTrait('brave').GetName( GetNullCharacter )]» дает дополнительные бонусы"
+ culture_parameter_arrogant_trait_more_common: "[trait|E] «[GetTrait('arrogant').GetName( GetNullCharacter )]» встречается чаще"
+ culture_parameter_eccentric_trait_more_common: "[trait|E] «[GetTrait('eccentric').GetName( GetNullCharacter )]» встречается чаще"
+ culture_parameter_wrathful_trait_more_common: "[trait|E] «[GetTrait('wrathful').GetName( GetNullCharacter )]» встречается чаще"
+ culture_parameter_loyal_trait_bonuses: "[trait|E] «[GetTrait('loyal').GetName( GetNullCharacter )]» удваивает бонусы этой традиции для мстительных персонажей, а [Concept( 'trait', 'свойство' )|E] «[GetTrait('disloyal').GetName( GetNullCharacter )]» отменяет их"
+ culture_parameter_vengeful_trait_bonuses: "[trait|E] «[GetTrait('vengeful').GetName( GetNullCharacter )]» удваивает бонусы этой традиции для преданных персонажей, а [Concept( 'trait', 'свойство' )|E] «[GetTrait('forgiving').GetName( GetNullCharacter )]» отменяет их"
 
 
  #DATAW Other Tradition Effects
- culture_parameter_natural_magic_affinity: "[children|E] born of this culture possess a natural affinity towards [dataw_magic|E]"
- culture_parameter_magic_education_worse_outcomes: "[children|E] tend to do worse in the [dataw_magic|E] [education|E]"
- culture_parameter_mages_are_more_common: "[children|E] of this culture are more likely to possess [dataw_magic|E]al Powers"
- culture_parameter_cheap_jousts: "$tournament_phase_joust$ [contest|E] is cheaper"
- culture_parameter_dislike_foreign_rulers: "Independence Factions are more common if liege is a Different [culture|E]"
- culture_parameter_refined_jousts: "Successful $tournament_phase_joust$ [contest|E] gives more prestige"
- culture_parameter_refined_wrestling: "Successful $tournament_phase_wrestling$ [contest|E] gives more prestige"
- culture_parameter_elder_council_bonus:1 "While their title no longer grants the domain bonuses their vassals send more aid in return"
- tradition_DATAW_gates_of_the_empire_name: "Gates of the Empire"
- tradition_DATAW_gates_of_the_empire_desc: "Within the mountain passes leading to Orlais, the Clayne built a series of settlements and forts to protect the fledgling Orlesian Empire under the prudent guidance of their leader, Isorath. Their Jaderian descendants, entrenched along the mountainous border of Orlais, became renowned as stalwart and deadly stewards by turning their blades and shields against their former Clayne kin. Only fools and arrogant warbands dare to attempt to pry open Jader's defenses that guard the heartlands of Orlais."
- culture_parameter_unlocks_jaderian_maa: "Can recruit [GetMaA('children_of_jader').GetName] as [men_at_arms|E]"
- culture_parameter_commanders_tend_be_unyelding_defender: "[commander_trait|E] [GetTrait('unyielding_defender').GetName( GetNullCharacter )] is more common"
- culture_parameter_vassals_tend_to_be_pariochal: "[GetVassalStance( 'parochial' ).GetName] [vassals|E] are more common"
+ culture_parameter_natural_magic_affinity: "[children|E], рождённые в этой культуре, обладают природной склонностью к [Concept('dataw_magic','магии')|E]"
+ culture_parameter_magic_education_worse_outcomes: "[children|E] обычно получают менее качественное [Concept( 'dataw_magic', 'магическое' )|E] [Concept( 'education', 'образование' )|E]"
+ culture_parameter_mages_are_more_common: "[children|E] этой культуры чаще обладают [Concept('dataw_magic','магическим даром')|E]"
+ culture_parameter_cheap_jousts: "[Concept('contest','Состязание')|E] «$tournament_phase_joust$» обходится дешевле"
+ culture_parameter_dislike_foreign_rulers: "Фракции сепаратистов появляются чаще, если сюзерен принадлежит к другой [Concept( 'culture', 'культуре' )|E]"
+ culture_parameter_refined_jousts: "Успешное [Concept( 'contest', 'состязание' )|E] «$tournament_phase_joust$» дает больше престижа"
+ culture_parameter_refined_wrestling: "Успешное [Concept( 'contest', 'состязание' )|E] «$tournament_phase_wrestling$» дает больше престижа"
+ culture_parameter_elder_council_bonus:1 "Хотя титул больше не даёт бонусов к домену, взамен вассалы оказывают правителю больше помощи"
+ tradition_DATAW_gates_of_the_empire_name: "Врата империи"
+ tradition_DATAW_gates_of_the_empire_desc: "В горных проходах, ведущих в Орлей, клейны под мудрым руководством своего вождя Исората возвели поселения и крепости для защиты молодой Орлесианской империи. Их джейдерские потомки закрепились на горной границе Орлея и прославились как стойкие и смертоносные хранители рубежей, обратив клинки и щиты против бывших сородичей-клейнов. Лишь глупцы и самонадеянные военные отряды осмеливаются прорывать оборону Джейдера, охраняющую сердце Орлея."
+ culture_parameter_unlocks_jaderian_maa: "Доступны [men_at_arms|El] — [GetMaA('children_of_jader').GetName]"
+ culture_parameter_commanders_tend_be_unyelding_defender: "[commander_trait|E] «[GetTrait('unyielding_defender').GetName( GetNullCharacter )]» встречается чаще"
+ culture_parameter_vassals_tend_to_be_pariochal: "#TOOLTIP:VASSAL_STANCE,parochial #L [GetVassalStance( 'parochial' ).GetTextIcon]Местечковые#!#! [vassals|El] встречаются чаще"
 
 
 #EP3 Traditions
- tradition_ep3_indomitable_azatani_name: "Indomitable Azatani"
- tradition_ep3_indomitable_azatani_desc: "For this culture's fiercely proud nobles, riding down thunderously from their high strongholds, "The wound of a dagger heals, but that of a tongue — never!""
- culture_parameter_house_hostility_more_common: "[rulers|E] act more aggressively against other [houses|E]"
- culture_parameter_vassals_more_likely_to_refuse_demands: "[characters|E] are more likely to refuse [imprisonment|E], [retractions|E] and [revocations|E]"
+ tradition_ep3_indomitable_azatani_name: "Непоколебимые азаты"
+ tradition_ep3_indomitable_azatani_desc: "Горделивые дворяне этой культуры — прославленные всадники. В их горных цитаделях бытует поговорка: «Рана от кинжала заживет скоро. Рана от слова — никогда!»"
+ culture_parameter_house_hostility_more_common: "[rulers|E] более агрессивно относятся к другим [Concept( 'houses', 'домам' )|E]"
+ culture_parameter_vassals_more_likely_to_refuse_demands: "[Concept( 'characters', 'Персонажи' )|E] с большей вероятностью откажутся от [Concept( 'imprisonment', 'заключения в тюрьму' )|E], [Concept( 'retractions', 'отъема вассалов' )|E] или [Concept( 'revocations', 'титулов' )|E]"
 
- tradition_ep3_audacious_cadets_name: "Audacious Cadets"
- tradition_ep3_audacious_cadets_desc: "Restless throngs of younger sons define this culture. Bold and unscrupulous, these horsemen chase dreams of faraway adventure, of mercenary cruelties, and of glorious conquest."
+ tradition_ep3_audacious_cadets_name: "Нахальные отпрыски"
+ tradition_ep3_audacious_cadets_desc: "В этой культуре особенными свободами пользуются младшие сыновья. Дерзкие и беспринципные юные всадники становятся отважными путешественниками, жестокими наемниками и славными завоевателями."
 
- culture_parameter_ambitious_trait_more_common: "The [GetTrait('ambitious').GetName( GetNullCharacter )] [trait|E] is more common"
- culture_parameter_reduced_bodyguard_aptitude: "Reduced [GetCourtPositionType('bodyguard_court_position').GetName()] [aptitude|E]"
+ culture_parameter_ambitious_trait_more_common: "[trait|E] «[GetTrait('ambitious').GetName( GetNullCharacter )]» встречается чаще"
+ culture_parameter_reduced_bodyguard_aptitude: "[Concept( 'aptitude', 'Пригодность' )|E] для придворной должности «[GetCourtPositionType('bodyguard_court_position').GetName()]» снижается"
 
- tradition_ep3_imperial_tagmata_name: "Imperial Tagmata"
- tradition_ep3_imperial_tagmata_desc: "Elite, well-armored regiments form the backbone of this culture's military campaigns. Their haughty troops have little regard for petty warrior nobles and reckless acts of personal valor; instead, they honor discipline and the hallowed names of their units. #EMP Exkoubitoi! Scholai! Hikanatoi!#!"
+ tradition_ep3_imperial_tagmata_name: "Имперские тагмы"
+ tradition_ep3_imperial_tagmata_desc: "Костяк вооруженных сил этой культуры составляли элитные, вооруженные до зубов полки. Надменные воины презирали военную знать и ее жалкую погоню за воинской честью. Зато они уважали дисциплину и до последнего отстаивали честь своих подразделений. #EMP Exkoubitoi! Scholai! Hikanatoi!#!"
 
- domain_counties_with_stables_desc: "The [culture_head|E] does not hold #high 8#! [counties|E] with $building_type_stables_01$ built in one of their [holdings|E]"
+ domain_counties_with_stables_desc: "У [Concept( 'culture_head', 'культурного идеолога' )|E] нет #high 8#! [Concept( 'counties', 'графств' )|E] со зданием «$building_type_stables_01$» в одном из [Concept( 'holdings', 'владений' )|E]"
 
- tradition_ep3_roman_ceremonies_name: "Roman Ceremonies"
- tradition_ep3_roman_ceremonies_desc: "The emperors of the past have bestowed this culture with lingering grandeur, spectacular rites, an awe for the imperial office... and a public life rich with unrest."
+ tradition_ep3_roman_ceremonies_name: "Римские церемонии"
+ tradition_ep3_roman_ceremonies_desc: "Императоры прошлых эпох возвеличили эту культуру, расцветили ее красочными обрядами, вселили в сердца народа благоговейный ужас к императорскому престолу... и вызвали массу общественных беспорядков."
 
- tradition_ep3_palace_politics_name: "Palace Politics"
- tradition_ep3_palace_politics_desc: "Powerful eunuchs and silk-robed sycophants man a vast political apparatus, impressing with fineries, flattering with honors, and plotting viciously in the name of advancement."
- culture_head_court_grandeur_desc: "The [culture_head|E] does not have a [court_grandeur_level|E] of #high 8#! or higher"
- culture_parameter_unlock_akolouthos: "Can appoint the [GetCourtPositionType('akolouthos_court_position').GetName()] [court_position|E], when the Imperial Templars have been founded."
+ tradition_ep3_palace_politics_name: "Дворцовая политика"
+ tradition_ep3_palace_politics_desc: "Государственную машину приводят в движение знатные евнухи и облаченные в шелка подхалимы, которые пускают пыль в глаза, льстят напропалую и плетут нескончаемые заговоры ради прогресса."
+ culture_head_court_grandeur_desc: "[court_grandeur_level|E] [Concept( 'culture_head', 'культурного идеолога' )|E] ниже #high 8#!"
+ culture_parameter_unlock_akolouthos: "Доступна [Concept( 'court_position', 'придворная должность' )|E] «[GetCourtPositionType('akolouthos_court_position').GetName()]», если были основаны Имперские храмовники."
