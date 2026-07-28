@@ -92,7 +92,7 @@
  b_cairninkirk:0 "Кэрнинкерк"
  b_cairninkirk_adj:0 "Кэрнинкеркск"
  b_drumdarbeg:0 "Драмдарбег"
- b_drumdarge b_adj:0 "Драмдарбегск"
+ b_drumdarbeg_adj:0 "Драмдарбегск"
  b_baerntys:0 "Бэрнтис"
  b_baerntys_adj:0 "Бэрнтисск"
  b_kirktyre:0 "Кирктайр"
@@ -881,7 +881,7 @@
  c_findochty:0 "Финдохти"
  c_findochty_adj:0 "Финдохтиск"
  c_waking_sea:0 "Пробуждающееся Море"
- c_waking_sea:0 "Пробуждающееся Море"
+ c_waking_sea_adj:0 "Пробуждающегося Моря"
  #
  b_brandon:0 "Брэндон"
  b_caer_bronach:0 "Каэр Бронаш"
