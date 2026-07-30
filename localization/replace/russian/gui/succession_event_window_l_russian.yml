@@ -1,26 +1,26 @@
 ﻿l_russian:
 
 # DATAW ADDED
- SUCCESSION_EVENT_WINDOW_DEAD_INTRO_AVVAR:0 "[ROOT.Char.GetFullNameNoTooltip] reunited with [ROOT.Char.GetHerHis] kin at [ROOT.Char.GetAge] years of age"
- SUCCESSION_EVENT_WINDOW_DEAD_INTRO_CULT_OF_THE_SKY:0 "[ROOT.Char.GetFullNameNoTooltip] was taken to the Lady of the Skies via Eagle at [ROOT.Char.GetAge] years of age."
- SUCCESSION_EVENT_WINDOW_DEAD_INTRO_JAWS_OF_HAKKON:0 "[ROOT.Char.GetFullNameNoTooltip] joined Hakkon Wintersbreath in silence at [ROOT.Char.GetAge] years of age."
- SUCCESSION_EVENT_WINDOW_DEAD_INTRO_CHASIND:0 "[ROOT.Char.GetFullNameNoTooltip] was taken by the Seasons at [ROOT.Char.GetAge] years of age."
- SUCCESSION_EVENT_WINDOW_DEAD_INTRO_BRUCILLAS:0 "[ROOT.Char.GetFullNameNoTooltip] walked within the Woods for the last time at [ROOT.Char.GetAge] years of age."
- SUCCESSION_EVENT_WINDOW_DEAD_INTRO_MAKER:0 "[ROOT.Char.GetFullNameNoTooltip] journeyed beyond the Fade to the Maker's side at [ROOT.Char.GetAge] years of age."
- SUCCESSION_EVENT_WINDOW_DEAD_INTRO_ANDRASTE:0 "[ROOT.Char.GetFullNameNoTooltip] joined blessed Andraste at [ROOT.Char.GetAge] years of age."
- SUCCESSION_EVENT_WINDOW_DEAD_INTRO_FIERY:0 "[ROOT.Char.GetFullNameNoTooltip]'s role in the rebirth of the world ended at [ROOT.Char.GetAge] years of age."
- SUCCESSION_EVENT_WINDOW_DEAD_INTRO_HESSARIAN:0 "[ROOT.Char.GetFullNameNoTooltip]'s service to blessed Andraste ended at [ROOT.Char.GetAge] years of age."
- SUCCESSION_EVENT_WINDOW_DEAD_INTRO_MASKED_ANDRASTE:0 "[ROOT.Char.GetFullNameNoTooltip] joined Andraste deep within the Applewoods at [ROOT.Char.GetAge] years of age."
- SUCCESSION_EVENT_WINDOW_DEAD_INTRO_DAUGHTERS_SONG:0 "[ROOT.Char.GetFullNameNoTooltip] ascended to join the Holy Union at [ROOT.Char.GetAge] years of age."
- SUCCESSION_EVENT_WINDOW_DEAD_INTRO_VIR_EVANURIS:0 "[ROOT.Char.GetFullNameNoTooltip] followed the sacred Halla at [ROOT.Char.GetAge] years of age."
+ SUCCESSION_EVENT_WINDOW_DEAD_INTRO_AVVAR:0 "[ROOT.Char.GetFullNameNoTooltip] [Select_CString(ROOT.Char.IsFemale, 'воссоединилась', 'воссоединился' )] с [ROOT.Char.GetHerHis] роднёй в возрасте [ROOT.Char.GetAge] лет"
+ SUCCESSION_EVENT_WINDOW_DEAD_INTRO_CULT_OF_THE_SKY:0 "[ROOT.Char.GetFullNameNoTooltip] [Select_CString(ROOT.Char.IsFemale, 'была унесена', 'был унесён' )] орлом к Хозяйке Небес в возрасте [ROOT.Char.GetAge] лет."
+ SUCCESSION_EVENT_WINDOW_DEAD_INTRO_JAWS_OF_HAKKON:0 "[ROOT.Char.GetFullNameNoTooltip] безмолвно [Select_CString(ROOT.Char.IsFemale, 'присоединилась', 'присоединился' )] к Гаккону Зимодыху в возрасте [ROOT.Char.GetAge] лет."
+ SUCCESSION_EVENT_WINDOW_DEAD_INTRO_CHASIND:0 "[ROOT.Char.GetFullNameNoTooltip] [Select_CString(ROOT.Char.IsFemale, 'была призвана', 'был призван' )] Временами года в возрасте [ROOT.Char.GetAge] лет."
+ SUCCESSION_EVENT_WINDOW_DEAD_INTRO_BRUCILLAS:0 "[ROOT.Char.GetFullNameNoTooltip] в последний раз [Select_CString(ROOT.Char.IsFemale, 'прошла', 'прошёл' )] по Лесам в возрасте [ROOT.Char.GetAge] лет."
+ SUCCESSION_EVENT_WINDOW_DEAD_INTRO_MAKER:0 "[ROOT.Char.GetFullNameNoTooltip] [Select_CString(ROOT.Char.IsFemale, 'отправилась', 'отправился' )] за пределы Тени к Создателю в возрасте [ROOT.Char.GetAge] лет."
+ SUCCESSION_EVENT_WINDOW_DEAD_INTRO_ANDRASTE:0 "[ROOT.Char.GetFullNameNoTooltip] [Select_CString(ROOT.Char.IsFemale, 'присоединилась', 'присоединился' )] к благословенной Андрасте в возрасте [ROOT.Char.GetAge] лет."
+ SUCCESSION_EVENT_WINDOW_DEAD_INTRO_FIERY:0 "[ROOT.Char.GetFullNameNoTooltip] завершает свою роль в возрождении мира в возрасте [ROOT.Char.GetAge] лет."
+ SUCCESSION_EVENT_WINDOW_DEAD_INTRO_HESSARIAN:0 "[ROOT.Char.GetFullNameNoTooltip] завершает служение благословенной Андрасте в возрасте [ROOT.Char.GetAge] лет."
+ SUCCESSION_EVENT_WINDOW_DEAD_INTRO_MASKED_ANDRASTE:0 "[ROOT.Char.GetFullNameNoTooltip] [Select_CString(ROOT.Char.IsFemale, 'присоединилась', 'присоединился' )] к Андрасте в глубине Яблоневых лесов в возрасте [ROOT.Char.GetAge] лет."
+ SUCCESSION_EVENT_WINDOW_DEAD_INTRO_DAUGHTERS_SONG:0 "[ROOT.Char.GetFullNameNoTooltip] [Select_CString(ROOT.Char.IsFemale, 'вознеслась', 'вознёсся' )], чтобы присоединиться к Священному союзу, в возрасте [ROOT.Char.GetAge] лет."
+ SUCCESSION_EVENT_WINDOW_DEAD_INTRO_VIR_EVANURIS:0 "[ROOT.Char.GetFullNameNoTooltip] [Select_CString(ROOT.Char.IsFemale, 'последовала', 'последовал' )] за священной галлой в возрасте [ROOT.Char.GetAge] лет."
 
 
 
 
  #DATAW ADDED
- SUCCESSION_EVENT_WINDOW_DEAD_OUTRO_ACCOMPLISHMENT_CRESENT:0 "By your hand, the Avvar of the Crescent Valley have been subdued, and the honor of the great city of Jader restored."
- SUCCESSION_EVENT_WINDOW_DEAD_OUTRO_ACCOMPLISHMENT_BANNORN:0 "[ROOT.Char.GetFullNameNoTooltip] achieved the impossible and unified the squabbling Banns into a single Kingdom."
- SUCCESSION_EVENT_WINDOW_DEAD_OUTRO_ACCOMPLISHMENT_FERELDEN:0 "From the highest Teyrn to the humblest Mabari Hound, none will ever forget that [ROOT.Char.GetFullNameNoTooltip] was the first to unite all of Ferelden."
+ SUCCESSION_EVENT_WINDOW_DEAD_OUTRO_ACCOMPLISHMENT_CRESENT:0 "Вашей рукой аввары Долины Полумесяца были покорены, а честь великого города Джейдера восстановлена."
+ SUCCESSION_EVENT_WINDOW_DEAD_OUTRO_ACCOMPLISHMENT_BANNORN:0 "[ROOT.Char.GetFullNameNoTooltip] [Select_CString(ROOT.Char.IsFemale, 'совершила невозможное и объединила', 'совершил невозможное и объединил' )] враждующих баннов в единое королевство."
+ SUCCESSION_EVENT_WINDOW_DEAD_OUTRO_ACCOMPLISHMENT_FERELDEN:0 "От знатнейшего тэйрна до самого скромного пса мабари никто и никогда не забудет, что [ROOT.Char.GetFullNameNoTooltip] [Select_CString(ROOT.Char.IsFemale, 'первой объединила', 'первым объединил' )] весь Ферелден."
 
 
 
