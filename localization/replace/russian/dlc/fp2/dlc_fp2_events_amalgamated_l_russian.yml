@@ -1,100 +1,100 @@
 ﻿l_russian:
 
 	##### Intro #####
- fp2_struggle.0501.t:1 "The $fereldan_struggle$"
- fp2_struggle.0501.desc:1 "Ferelden has been divided among various rulers ever since Maferath’s fall, and the various Arls, Banns and the occasional Teyrn fight on to see who will end up unifying Ferelden. Yet all around the Clayne lands are others who have yet to accept the Maker’s song into their hearts, and still follow the ways of their ancestors. This conflict between Andrastians and against the followers of the old ways have shed much blood in Ferelden, and will no doubt spill much more.\n\n"
- fp2_struggle.0501.desc.involved:0 "For Ferelden yearns for unification, yet who and what will be unified, in the end, depends on those who fight and win in this land. I will make sure House [ROOT.Char.GetHouse.GetNameNoTooltip] is part of the ones that defines the future of my home.\n\n"
- fp2_struggle.0501.desc.interloper:0 "Yet while Ferelden bleeds, I see opportunity. Through the chaos, the war and the various dog lords, I see the future of my house, [ROOT.Char.GetHouse.GetNameNoTooltip], and it is a glorious one.\n\n"
+ fp2_struggle.0501.t:1 "$fereldan_struggle$"
+ fp2_struggle.0501.desc:1 "Со времен падения Маферата Ферелден разделен между множеством правителей, а эрлы, банны и отдельные тэйрны продолжают сражаться за право объединить страну. Но вокруг земель клейнов живут народы, которые еще не приняли в сердце Песнь Создателя и по-прежнему следуют обычаям предков. Противостояние андрастиан и приверженцев старых путей уже пролило немало крови в Ферелдене и, несомненно, прольет еще больше.\n\n"
+ fp2_struggle.0501.desc.involved:0 "Ферелден жаждет объединения, но кого и что оно охватит, решат те, кто сражается и побеждает в этих землях. Я позабочусь о том, чтобы дом [ROOT.Char.GetHouse.GetNameNoTooltip] вошел в число тех, кто определит будущее моей родины.\n\n"
+ fp2_struggle.0501.desc.interloper:0 "Пока Ферелден истекает кровью, я вижу новые возможности. За хаосом, войнами и раздорами собачьих лордов мне видится славное будущее моего дома — дома [ROOT.Char.GetHouse.GetNameNoTooltip].\n\n"
  fp2_struggle.0501.desc.mottocall:0 "[ROOT.Char.GetHouse.GetMotto]!"
- fp2_struggle.0501.a:0 "United we shall rise!"
+ fp2_struggle.0501.a:0 "Объединившись, мы возвысимся!"
 
 	##### Hostility #####
 	# Struggle Ender
  fp2_struggle.0900.t:0 "$struggle_ferelden_ending_hostility_decision$"
- fp2_struggle.0900.opening.basque:0 "We [ROOT.Char.GetCulture.GetNameNoTooltip] have endured centuries of encroachment: Visigoths, Gauls, Moors... but, with time, each of their strengths faltered. Today, the fate of Iberia is in #EMP our#! hands once more."
- fp2_struggle.0900.opening.andalusian:0 "The history of our people is as complex as we are diverse, and as fraught as we are strong. The future of Ferelden will once again be decided by the heirs of the Umayyads."
- fp2_struggle.0900.opening.iberian:0 "For too long the Ferelden peoples have suffered at the hands of the Moorish invaders; today we will restore the hope that the rightful heirs of Rome lost centuries ago."
- fp2_struggle.0900.opening:0 "The chaos that Ferelden suffered in the preceding centuries has left a stain in the hearts of all its inhabitants. Today begins this valley's next chapter..."
- fp2_struggle.0900.desc:0 "\n\nThere is now no other realm that can truly contest our dominance in Ferelden, or the priests and settlers who bring the word of [ROOT.Char.GetFaith.HighGodName] and [ROOT.Char.GetCulture.GetName] civilization to its villages.\n\nAll that remains is to declare this victory, having decided how to proceed with our rule."
- fp2_struggle.0900.a:0 "This shall be a land of [ROOT.Char.GetFaith.HighGodNameAlternate]!"
- fp2_struggle.0900.b:0 "The settlement of this valley will be our focus." #dataw changed
- fp2_struggle.0900.c:1 "[ROOT.Char.GetFaith.HighGodName] has given Ferelden to the [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip]!"
+ fp2_struggle.0900.opening.basque:0 "Много веков мы, [ROOT.Char.GetCulture.GetNameNoTooltip|l], сталкивались с посягательствами: вестготы, галлы, мавры... но со временем их силы истощились. Ныне Иберия вновь в #EMP наших#! руках."
+ fp2_struggle.0900.opening.andalusian:0 "История нашего народа столь же пестра, как он сам, и столь же затейлива, сколь он силен. И вновь будущее Ферелдена в руках наследников Омейядов."
+ fp2_struggle.0900.opening.iberian:0 "Слишком долго народы Ферелдена страдали под гнетом мавританских захватчиков. Сегодня мы возродим надежду, которую законные наследники Рима утратили сотни лет назад."
+ fp2_struggle.0900.opening:0 "Хаос, который пережил Ферелден в прежние века, оставил след в сердцах всех его жителей. Сегодня начинается новая глава в истории долины..."
+ fp2_struggle.0900.desc:0 "\n\nНыне нет иной державы, способной оспорить наше господство над Ферелденом или остановить священников и поселенцев, которые несут по его селениям слово [ROOT.Char.GetFaith.HighGodNamePossessive] и #L [ROOT.Char.GetCulture.GetCollectiveNoun|l]ую#! культуру.\n\nОсталось лишь объявить о победе и решить, как распорядиться нашей властью."
+ fp2_struggle.0900.a:0 "Этим краем будет править [ROOT.Char.GetFaith.HighGodNameAlternate]!"
+ fp2_struggle.0900.b:0 "Мы сосредоточимся на заселении этой долины." #dataw changed
+ fp2_struggle.0900.c:1 "[ROOT.Char.GetFaith.HighGodName] даровал Ферелден #L [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip|l]ому#! народу!"
 	# Other Players
- fp2_struggle.0910.opening.involved:0 "Though it comes from another realm, deliverance from the uncertainty that has engulfed the region for centuries may now be at hand..."
- fp2_struggle.0910.opening:0 "Word of recent developments in the Ferelden valley have reached our court, promising an end to the conflicts that have plagued the region."
- fp2_struggle.0910.desc:0 "\n\n[struggle_ender.GetName], who now controls the majority of the valley, has proclaimed [struggle_ender.GetHerselfHimself] the ultimate victor of the struggles set in motion long ago by the division of the Alamarri people.\n\n"
- fp2_struggle.0910.closing.faith:0 "[struggle_ender.GetSheHe|U] has proclaimed Ferelden to be a [struggle_ender.GetFaith.GetAdjective] land, and that, [struggle_ender.GetFaith.HighGodName] willing, all heretics and infidels will be driven from [struggle_ender.GetHerHis] domain."
- fp2_struggle.0910.closing.culture:0 "[struggle_ender.GetSheHe|U] has proclaimed Ferelden belongs to the [struggle_ender.GetCulture.GetName], and that all foreign invaders and subjugated peoples accept this reality."
- fp2_struggle.0910.closing.combined:0 "[struggle_ender.GetSheHe|U] has proclaimed Ferelden and [struggle_ender.GetPrimaryTitle.GetNameNoTier] to be one and the same, now Ferelden to the hands of the [struggle_ender.GetFaith.GetAdjective] [struggle_ender.GetCulture.GetName] by [struggle_ender.GetFaith.HighGodName]..."
- fp2_struggle.0910.a:0 "This is not over."
- fp2_struggle.0910.b:0 "Most interesting."
+ fp2_struggle.0910.opening.involved:0 "И хотя спасение от жизни в постоянной неуверенности пришло из иной державы, оно может оказаться как нельзя кстати..."
+ fp2_struggle.0910.opening:0 "Нашего двора достигли вести о последних событиях в Ферелденской долине. Судя по всему, изнурительным конфликтам в этом регионе скоро придет конец."
+ fp2_struggle.0910.desc:0 "\n\n[struggle_ender.GetName], [Select_CString(struggle_ender.IsFemale, 'которая теперь контролирует', 'который теперь контролирует' )] большую часть долины, [Select_CString(struggle_ender.IsFemale, 'провозгласила себя окончательной победительницей', 'провозгласил себя окончательным победителем' )] в борьбе, начавшейся много веков назад с разделения народа аламарри.\n\n"
+ fp2_struggle.0910.closing.faith:0 "[Select_CString(struggle_ender.IsFemale, 'Она объявила', 'Он объявил' )] Ферелден #L [struggle_ender.GetFaith.GetName|l]ой#! землей. И, если будет на то воля [struggle_ender.GetFaith.HighGodNamePossessive], все еретики и неверные должны быть изгнаны из [struggle_ender.GetHerHis] владений."
+ fp2_struggle.0910.closing.culture:0 "[Select_CString(struggle_ender.IsFemale, 'Она провозгласила', 'Он провозгласил' )], что Ферелден принадлежит #L [struggle_ender.GetCulture.GetCollectiveNoun|l]ому#! народу, а значит, всем чужеземным захватчикам и покоренным народам придется это признать."
+ fp2_struggle.0910.closing.combined:0 "[Select_CString(struggle_ender.IsFemale, 'Она объявила', 'Он объявил' )], что отныне Ферелден и [struggle_ender.GetPrimaryTitle.GetNameNoTier] едины, ибо [struggle_ender.GetFaith.HighGodName] отдает Ферелден #L [struggle_ender.GetFaith.GetName|l]ому#! #L [struggle_ender.GetCulture.GetCollectiveNoun|l]ому#! народу..."
+ fp2_struggle.0910.a:0 "Это еще не конец."
+ fp2_struggle.0910.b:0 "Весьма интересно."
 	##### Compromise #####
 	# Struggle Ender
  fp2_struggle.0901.t:0 "$struggle_ferelden_ending_compromise_decision$"
- fp2_struggle.0901.desc:1 "\n\nIt is now clear there will be no end to the cycle of bloodshed if things continue as they have; Ferelden must see unification - and we must be its shepherds.\n\nWe will bring peace to Ferelden, and the other teyrns and arls will be brought in line..."
- fp2_struggle.0901.a:0 "May our dynasty reign forever."
- fp2_struggle.0901.tt:0 "[THIS.Char.GetPrimaryTitle.GetDeJureLiege.GetNameNoTier] has become a [de_jure|E] [empire|E]"
+ fp2_struggle.0901.desc:1 "\n\nТеперь ясно: если всё останется как прежде, кровопролитию не будет конца. Ферелден должен объединиться, и именно мы поведем его к единству.\n\nМы принесем Ферелдену мир, а остальных тэйрнов и эрлов заставим подчиниться..."
+ fp2_struggle.0901.a:0 "Пусть наша династия правит вечно."
+ fp2_struggle.0901.tt:0 "[THIS.Char.GetPrimaryTitle.GetDeJureLiege.GetNameNoTier] становится [de_jure|E]-[Concept( 'empire', 'империей' )|E]"
 	# Other Players
- fp2_struggle.0911.desc:0 "\n\n[struggle_ender.GetTitledFirstName] has officialy declared [struggle_ender.GetHerHis] intentions to unite the valley under a common crown, and declared any who would stand opposed - illegitimate.\n\nThe disparate realms molded by centuries of invasion and reconquest now fall away to a new realm - Ferelden"
- fp2_struggle.0911.a:0 "We will not forget the dream of Ferelden..."
+ fp2_struggle.0911.desc:0 "\n\n[struggle_ender.GetTitledFirstName] официально объявляет о намерении объединить долину под одной короной, а всякого противника этой воли — незаконным правителем.\n\nРазрозненные державы, сложившиеся за столетия вторжений и отвоеваний, уходят в прошлое, уступая место новой державе — Ферелдену."
+ fp2_struggle.0911.a:0 "Мы не забудем мечту о Ферелдене..."
 	##### Conciliation #####
 	# Struggle Ender
  fp2_struggle.0902.t:0 "$struggle_ferelden_ending_conciliation_decision$"
- fp2_struggle.0902.desc:0 "\n\nThe lowlands are now rightful [ROOT.Char.GetCulture.GetName] lands, which I have claimed for our people, and will ensure our place of dominance over those that used to turn their noses down at us.\n\n[ROOT.Char.GetFaith.HighGodName] willing, the wars of the past will remain there, and the other Ferelden princes will see the benefits submission."
- fp2_struggle.0902.a:0 "Send the ravens."
+ fp2_struggle.0902.desc:0 "\n\nОтныне низины по праву принадлежат #L [ROOT.Char.GetCulture.GetCollectiveNoun|l]ому#! народу. Я [Select_CString(ROOT.Char.IsFemale, 'отвоевала', 'отвоевал' )] эти земли для своего народа и обеспечу наше господство над теми, кто прежде смотрел на нас свысока.\n\nДаст [ROOT.Char.GetFaith.HighGodName], войны останутся в прошлом, а другие ферелденские князья поймут преимущества подчинения."
+ fp2_struggle.0902.a:0 "Отправить воронов."
 	# Other Players
- fp2_struggle.0912.desc:0 "\n\n[struggle_ender.GetPrimaryTitle.GetAdjectiveNoTooltip] ravens have arrived bearing word of [struggle_ender.GetTitledFirstNamePossessive] declaration of [struggle_ender.GetCulture.GetName] dominance in the lowlands of Ferelden, and the collapse of Clayne power.\n\nMany have longed for an end to the bloodshed in Ferelden; but perhaps #EMP none#! could have predicted this."
- fp2_struggle.0912.a:0 "A surprise, to be sure."
+ fp2_struggle.0912.desc:0 "\n\nВороны из державы [struggle_ender.GetPrimaryTitle.GetNameNoTooltip] принесли весть: [struggle_ender.GetTitledFirstName] [Select_CString(struggle_ender.IsFemale, 'провозгласила', 'провозгласил' )] господство #L [struggle_ender.GetCulture.GetCollectiveNoun|l]ого#! народа над ферелденскими низинами и конец власти клейнов.\n\nМногие жаждали прекращения кровопролития в Ферелдене, но, пожалуй, #EMP никто#! не мог предвидеть такого исхода."
+ fp2_struggle.0912.a:0 "Воистину, удивительно."
 
 
 
 
- fp2_yearly.1006.desc:0 "I stop at a roadside stall selling some simple foods. The trader, [cheese_trader.GetName], plies me with different wares before reaching below the stall and bringing out a carved wooden box.\n\n"For you my liege, this is the finest cheese in all the realm. [cheese_trader.GetSheHe|U] pushes the small block into my hand, leans in and whispers conspiratorially, "It was crafted by cheese-making Vikings here in Ferelden."\n\nDespite the bizarre comment, the cheese is incredibly good."
+ fp2_yearly.1006.desc:0 "Я останавливаюсь у придорожного прилавка, где продаются всякие нехитрые яства. [Select_CString(cheese_trader.IsFemale, 'Торговка', 'Торговец' )], [cheese_trader.GetName], показывает мне разные товары, а затем достает из-под прилавка резную деревянную коробочку.\n\n«Специально для вас, мой сюзерен, лучший сыр во всей державе». [Select_CString(cheese_trader.IsFemale, 'Она', 'Он' )] вкладывает небольшой кусок мне в руку и, наклонившись, заговорщически шепчет: «Его сделали викинги-сыроделы здесь, в Ферелдене».\n\nНесмотря на странное замечание, сыр оказывается невероятно хорош."
 
 
 
 
- fp2_struggle.1010.desc:1 "A [great_swordsmith.GetWomanMan] called [great_swordsmith.GetName] has arrived at my court, claiming to be a master smith who has traveled far and wide.\n\n"My [ROOT.Char.GetLadyLord]", [great_swordsmith.GetSheHe] says, "my family has been swordmakers in [toledo_holding.GetNameNoTierNoTooltip] since ancient times, and once made #italic falcatas#! for the armies of Carthage. No alloy is as strong as that which is made in Ferelden, and I can perfect it. I can make the world's finest weapons, but in return, you must give me command of the blacksmiths' guild in [blacksmith_county.GetNameNoTierNoTooltip]. Then they will see that I was better than them all along!""
+ fp2_struggle.1010.desc:1 "[great_swordsmith.GetWomanMan|U] по имени [great_swordsmith.GetName] [Select_CString(great_swordsmith.IsFemale, 'прибыла', 'прибыл' )] к моему двору, уверяя, что является [Select_CString(great_swordsmith.IsFemale, 'выдающейся оружейницей', 'выдающимся оружейником' )], [Select_CString(great_swordsmith.IsFemale, 'объездившей', 'объездившим' )] весь свет.\n\n«[ROOT.Char.Custom('FormOfAddressForLiege')|U], — [Select_CString(great_swordsmith.IsFemale, 'говорит она', 'говорит он' )], — с древних времен мой род жил во владении [toledo_holding.GetNameNoTierNoTooltip] и ковал мечи. Когда-то мы делали #italic фалькаты#! для армий Карфагена. Ни один сплав не сравнится с тем, что создают в Ферелдене, а я могу сделать его еще лучше. Я изготовлю лучшее оружие в мире, но взамен вы должны назначить меня главой гильдии кузнецов владения [blacksmith_county.GetNameNoTierNoTooltip]. Тогда они наконец поймут, что я всегда [Select_CString(great_swordsmith.IsFemale, 'была', 'был' )] лучше них!»"
 
- fp2_struggle.1010.d:1 "Make me Ferelden's finest blade, and the guild will be yours."
+ fp2_struggle.1010.d:1 "Сделай мне лучший клинок в Ферелдене, и гильдия твоя."
 
 
- fp2_struggle.1012.desc:1 """It is finished", [great_swordsmith.GetName] says.\n\n"This is the sword I promised you, one of my best works. Its blade is of the finest alloy imaginable, such as only could be made in Ferelden. It truly has, as they say, #italic a soul of iron#!. A blade fit for a [Select_CString(ROOT.Char.IsFemale,'noble lady','great lord')] like you.""
-fp2_struggle.1050.desc_no_love_and_warmth_ending:0 ""Dear [ROOT.Char.GetWifeHusband], please listen. It is no ordinary sickness that assails me. I fear that my dreams are true, that these things might come to pass. Please, do not let them. You must save Ferelden.""
+ fp2_struggle.1012.desc:1 "«Дело сделано», — говорит [great_swordsmith.GetName].\n\n«Вот обещанный мной меч, одно из лучших моих творений. Его клинок выкован из самого качественного сплава, какой можно создать лишь в Ферелдене. У него, как говорится, #italic железная душа#!. Клинок под стать [Select_CString(ROOT.Char.IsFemale, 'благородной даме', 'великому правителю' )] вроде вас»."
+ fp2_struggle.1050.desc_no_love_and_warmth_ending:0 "«[Select_CString(ROOT.Char.IsFemale, 'Дорогой муж мой', 'Дорогая жена моя' )], послушай. Это не обычная болезнь. Боюсь, мои сны правдивы и всё это может произойти. Прошу, не допусти этого. Ты [Select_CString(ROOT.Char.IsFemale, 'должен', 'должна' )] спасти Ферелден»."
 
- fp2_yearly.8004.desc_opening:0 "With the spirit of conciliation reigning in Ferelden, scholars from all the region have been dawdling in the libraries of my domain. Perhaps I could direct their energy into something fruitful...\n\n"
+ fp2_yearly.8004.desc_opening:0 "Вдохновленные духом примирения в Ферелдене, ученые со всего региона собираются в библиотеках моей державы. Быть может, я смогу направить их силы на что-нибудь полезное...\n\n"
 
- fp2_yearly.8000.desc_muslim_opening:0 "The fine wine made in Ferelden has long been enjoyed by the faithful who settled here. Yet the [vinoclast_caliph.GetTitleTierName] [vinoclast_caliph.GetFirstName] has now decided that this shall come to an end.\n\n"Wine", [vinoclast_caliph.GetHerHis] envoy [hof_emissary.GetTitledFirstName] declares, "is certainly #italic haram#!, and neither its production nor consumption can be tolerated any longer. You must therefore put the vineyards in the [vineyard_county.GetName] to the torch."
- fp2_yearly.8000.desc_jewish_opening:0 "The fine wine made in Ferelden has long been enjoyed by our ancestors who settled here. Yet the [vinoclast_caliph.GetTitleTierName] [vinoclast_caliph.GetFirstName] has now decided that this shall come to an end.\n\n"Wine", [vinoclast_caliph.GetHerHis] envoy [hof_emissary.GetTitledFirstName] declares, "is certainly not kosher, and neither its production nor consumption can be tolerated any longer. You must therefore put the vineyards in the [vineyard_county.GetName] to the torch."
- fp2_yearly.8000.desc_jerez:0 "But since your city of [jerez_vineyards.GetNameNoTier] has the greatest vineyards in all of Ferelden, we do understand the gravity of your sacrifice, and the [vinoclast_caliph.GetTitleTierName] will not forget it. Still, the vineyards must burn!""
+ fp2_yearly.8000.desc_muslim_opening:0 "Чудесное ферелденское вино уже много веков радует поселившихся здесь верующих. Однако теперь [vinoclast_caliph.GetTitleTierName] [vinoclast_caliph.GetFirstName] [Select_CString(vinoclast_caliph.IsFemale, 'решила', 'решил' )] положить местному виноделию конец.\n\n«Вино, — заявляет [vinoclast_caliph.GetHerHis] посол [hof_emissary.GetTitledFirstName], — это очевидный #italic харам#!, и терпеть его производство и потребление более невозможно. Поэтому вы должны немедленно сжечь все виноградники в провинции [vineyard_county.GetName]»."
+ fp2_yearly.8000.desc_jewish_opening:0 "Чудесное ферелденское вино много веков радовало наших предков, поселившихся в этих землях. Однако теперь [vinoclast_caliph.GetTitleTierName] [vinoclast_caliph.GetFirstName] [Select_CString(vinoclast_caliph.IsFemale, 'решила', 'решил' )] положить виноделию конец.\n\n«Вино, — заявляет [vinoclast_caliph.GetHerHis] посол [hof_emissary.GetTitledFirstName], — это очевидный #italic треф#!, и терпеть его производство и потребление более невозможно. Поэтому вы должны немедленно сжечь все виноградники в провинции [vineyard_county.GetName]»."
+ fp2_yearly.8000.desc_jerez:0 "Но поскольку ваш город [jerez_vineyards.GetNameNoTier] славится лучшими виноградниками во всем Ферелдене, мы понимаем тяжесть вашей жертвы и уверяем, что [vinoclast_caliph.GetTitleTierName] ее не забудет. И всё же виноградники нужно сжечь!»"
 
- fp2_struggle.2007.t:0 "A Castle Worthy of Ferelden"
+ fp2_struggle.2007.t:0 "Замок, достойный Ферелдена"
 
 
  # fp2_james_events
- fp2_james.0001.t:0 "Thriving [fp2_james_0001_jewish_trader.GetFaith.GetAdherentNameNoTooltip] Community in [fp2_james_0001_thriving_community.GetNameNoTierNoTooltip]"
- fp2_james.0001.desc:0 "The expansion of trading ports in [fp2_james_0001_thriving_community.GetNameNoTier] has made it a thriving hub for Jewish peoples all in Ferelden!\n\nA member of a major [fp2_james_0001_jewish_trader.GetCulture.GetName] trading family has been bringing in more and more of [fp2_james_0001_jewish_trader.GetHerHis] people.\n\nSoon it will be the very heart of the vast Jewish trade network across Ferelden."
- fp2_james.0001.a:0 "If they are not [ROOT.Char.GetFaith.GetReligion.GetAdjective], they are not welcome!"
- fp2_james.0001.b:0 "Perhaps [fp2_james_0001_jewish_trader.GetSheHe] should be [fp2_james_0001_thriving_community.GetName]'s lord!"
- fp2_james.0001.c:0 "What a fine development!"
- fp2_thriving_jewish_community_modifier:0 "Thriving Jewish Community"
- fp2_thriving_jewish_community_modifier_desc:0 "This county is experiencing an economic boom of wealthy Jewish families establishing trade networks through the area."
- fp2_jewish_community_denied_modifier:0 "Locals Persecuted"
- fp2_jewish_community_denied_modifier_desc:0 "The social and economic growth of this area has been sabotaged by laws which discriminate against religious minorities."
- fp2_conversos_persecution_modifier:0 "Conversos Persecuted"
- fp2_conversos_persecution_modifier_desc:0 "Despite conversion to Christianity, former Jews and their descendants are continuing to be persecuted."
- fp2_james.0002.t:0 "False Conversion"
- fp2_james.0002.desc:0 "A number of so-called [fp2_james_0002_conversos_character.GetFaith.GetAdherentName] were told by their former [fp2_james_0002_jewish_faith.PriestNeuterPlural] to profess conversion to the true faith. But, they have continued to practice [fp2_james_0002_jewish_faith.GetName] in secret!\n\nIf true, this would undermine any efforts at converting the Jewish communities of Ferelden to Christianity.\n\nOne of their leaders, [fp2_james_0002_conversos_character.GetName], is suspected of promoting Jewish teachings."
- fp2_james.0002.a:0 "I care not, either way."
- fp2_james.0002.a.tt:0 "Allow [fp2_james_0002_conversos_character.GetNameNoTooltip] to do as [fp2_james_0002_conversos_character.GetSheHe] will"
- fp2_james.0002.b:0 "I should interrogate this heretic."
- fp2_james.0002.c:0 "True or not, [fp2_james_0002_conversos_character.GetSheHe] will rot in my dungeons!"
+ fp2_james.0001.t:0 "[fp2_james_0001_jewish_trader.GetFaith.GetAdherentNamePluralNoTooltip] процветают во владении [fp2_james_0001_thriving_community.GetNameNoTierNoTooltip]"
+ fp2_james.0001.desc:0 "Расширение торговых портов во владении [fp2_james_0001_thriving_community.GetNameNoTier] превратило его в процветающий центр иудейской жизни во всем Ферелдене!\n\n[Select_CString(fp2_james_0001_jewish_trader.IsFemale, 'Представительница', 'Представитель' )] крупного #L [fp2_james_0001_jewish_trader.GetCulture.GetCollectiveNoun|l]ого#! торгового семейства привлекает сюда всё больше своих соплеменников.\n\nВскоре это место станет сердцем обширной иудейской торговой сети всего Ферелдена."
+ fp2_james.0001.a:0 "Если они не придерживаются #L [ROOT.Char.GetFaith.GetReligion.GetName|l]ого#! учения, мы им не рады!"
+ fp2_james.0001.b:0 "А ведь [fp2_james_0001_jewish_trader.GetFirstNameNoTooltip] вполне может и править владением [fp2_james_0001_thriving_community.GetName]!"
+ fp2_james.0001.c:0 "Какое удачное стечение событий!"
+ fp2_thriving_jewish_community_modifier:0 "Процветающее иудейское сообщество"
+ fp2_thriving_jewish_community_modifier_desc:0 "Это графство переживает экономический рост, поскольку богатые иудейские семьи развивают местные торговые пути."
+ fp2_jewish_community_denied_modifier:0 "Преследование местных"
+ fp2_jewish_community_denied_modifier_desc:0 "Законы против религиозных меньшинств подорвали общественное и экономическое развитие области."
+ fp2_conversos_persecution_modifier:0 "Преследование конверсо"
+ fp2_conversos_persecution_modifier_desc:0 "Несмотря на обращение в христианство, бывшие иудеи и их потомки продолжают подвергаться преследованиям."
+ fp2_james.0002.t:0 "Ложное обращение"
+ fp2_james.0002.desc:0 "Некоторые так называемые [fp2_james_0002_conversos_character.GetFaith.GetAdherentNamePlural|l] последовали совету, который дали им [fp2_james_0002_jewish_faith.PriestNeuterPlural|l], и сделали вид, что приняли истинную веру. Но на самом деле они тайно исповедуют [fp2_james_0002_jewish_faith.GetAdjective|l]!\n\nЕсли это правда, все попытки обратить иудейские общины Ферелдена в христианство окажутся напрасными.\n\n[Select_CString(fp2_james_0002_conversos_character.IsFemale, 'Одна из их предводительниц', 'Один из их предводителей' )], [fp2_james_0002_conversos_character.GetName], подозревается в распространении иудейского учения."
+ fp2_james.0002.a:0 "Правда это или нет, мне все равно."
+ fp2_james.0002.a.tt:0 "Пусть [fp2_james_0002_conversos_character.GetNameNoTooltip] делает, что хочет"
+ fp2_james.0002.b:0 "Я допрошу [Select_CString(fp2_james_0002_conversos_character.IsFemale, 'эту еретичку', 'этого еретика' )]."
+ fp2_james.0002.c:0 "Правда или нет, [fp2_james_0002_conversos_character.GetSheHe|l] будет гнить в моей темнице!"
 
- fp2_yearly.4005.t:0 "Establishing Enclaves"
- fp2_yearly.4005.desc.christian:0 "The [mozarab_merchant.GetFaith.GetAdherentNamePlural] occupy a unique position in Ferelden society. "
- fp2_yearly.4005.desc.muslim:0 "[mozarab_merchant.GetFaith.GetReligion.GetAdjectiveNoTooltip|U] subjects occupy a unique position in Ferelden society. "
- fp2_yearly.4005.desc:0 "It is unusual, then, to see one of their local merchants ask for an audience with me.\n\n"We [mozarab_merchant.GetFaith.GetAdherentNamePlural] tend to deal with a certain degree of extra... difficulty when living our lives." [mozarab_merchant.GetSheHe|U] speaks evenly and without rancor, but there's clearly some steel to [mozarab_merchant.GetHerHis] words.\n\n"All we want is for a small section of the cities in the [mozarab_quarter.GetName] to call our own and live among our people. I have come here to petition you, my [ROOT.Char.GetLadyLord], to see whether you might magnanimously grant us this.""
- fp2_yearly.4005.a:0 "You are welcome in my cities."
- fp2_yearly.4005.b:0 "I will not have you pollute my towns!"
+ fp2_yearly.4005.t:0 "Создание анклавов"
+ fp2_yearly.4005.desc.christian:0 "[mozarab_merchant.GetFaith.GetAdherentNamePlural] занимают уникальное положение в ферелденском обществе. "
+ fp2_yearly.4005.desc.muslim:0 "[mozarab_merchant.GetFaith.GetReligion.GetNameNoTooltip|U]ие подданные — уникальные представители ферелденского общества. "
+ fp2_yearly.4005.desc:0 "Оттого еще удивительнее, что кто-то из их местных торговцев просит у меня аудиенции.\n\n«Видите ли, мы, [mozarab_merchant.GetFaith.GetAdherentNamePlural|l], должны прилагать особые... усилия, чтобы просто жить своей жизнью». [Select_CString(mozarab_merchant.IsFemale, 'Она говорит', 'Он говорит' )] спокойно и без злобы, но в [mozarab_merchant.GetHerHis] словах явно слышится сталь.\n\n«Мы лишь хотим получить небольшой участок в городах владения [mozarab_quarter.GetName], который сможем назвать своим и где будем жить среди соплеменников. Я [Select_CString(mozarab_merchant.IsFemale, 'пришла', 'пришел' )] просить вас, [ROOT.Char.Custom('FormOfAddressForLiege')], великодушно даровать нам желаемое»."
+ fp2_yearly.4005.a:0 "В моих городах вам будут рады."
+ fp2_yearly.4005.b:0 "Я не позволю вам засорять наши города!"
 
 

@@ -1,8 +1,8 @@
 ﻿l_russian: 
  #Varangian Guard
- found_varangian_guard_decision: "Establish the Imperial Templars"
- found_varangian_guard_decision_desc: "For years, templars from the our outlying provinces have collected in our capitol, attracted by our riches. They offer their services as guards, an art at which they excel, and have no loyalties except those to coin and their own pride. If we could organize their presence around the Archon, we would get an invincible military force at our personal service!"
+ found_varangian_guard_decision: "Учредить Имперских храмовников"
+ found_varangian_guard_decision_desc: "Много лет храмовники из отдалённых провинций стекались в нашу столицу, привлечённые её богатством. Они предлагают себя в качестве стражей и изрядно преуспели в этом ремесле, ведомые лишь жаждой наживы и собственной гордостью. Если объединить их вокруг архонта, в нашем личном распоряжении окажется непобедимое войско!"
  found_varangian_guard_decision_tooltip: "$found_varangian_guard_decision$"
- found_varangian_guard_decision_confirm: "Start recruiting"
- unlocked_varangian_guard_desc: "Unlocks the [court_position|E] $akolouthos_court_position$ and the [GetMaA('imperial_templars').GetName] [men_at_arms|E] for [GetTitleByKey('h_tevinter').GetName]."
- unlocked_varangian_guard_desc_tt: "Imperial Templars Founded"
+ found_varangian_guard_decision_confirm: "Начать вербовку"
+ unlocked_varangian_guard_desc: "[GetTitleByKey('h_tevinter').GetName] открывает [Concept('court_position', 'придворную должность')|E] «$akolouthos_court_position$» и [Concept('men_at_arms', 'профессиональные войска')|E] [GetMaA('imperial_templars').GetName|l]."
+ unlocked_varangian_guard_desc_tt: "Имперские храмовники учреждены"

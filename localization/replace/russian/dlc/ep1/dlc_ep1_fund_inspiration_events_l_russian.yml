@@ -1,51 +1,51 @@
 ﻿l_russian:
 # Adventurer
- fund_inspiration.0051.orlais:0 "Travel to Orlais!"
- fund_inspiration.0051.anderfels:0 "Travel to the Anderfels!"
- fund_inspiration.0051.seheron:0 "Travel to Seheron!"
- fund_inspiration.0051.western_approach:0 "Travel to the Western Approach!"
- fund_inspiration.0051.tevinter:0 "Travel to Tevinter!"
- fund_inspiration.0051.ferelden:0 "Travel to Ferelden!"
+ fund_inspiration.0051.orlais:0 "Отправиться в Орлей!"
+ fund_inspiration.0051.anderfels:0 "Отправиться в Андерфелс!"
+ fund_inspiration.0051.seheron:0 "Отправиться на Сегерон!"
+ fund_inspiration.0051.western_approach:0 "Отправиться в Западный предел!"
+ fund_inspiration.0051.tevinter:0 "Отправиться в Тевинтер!"
+ fund_inspiration.0051.ferelden:0 "Отправиться в Ферелден!"
 ## Postcards from your Adventurer by Isabella Welch
 
 #The Anderfels
 
- fund_inspiration.6001.t:0 "The Steppe and saddle gallop through my heart,"
- fund_inspiration.6001.desc:1 "I have been riding for months on end. My rear shall never recover! I've acquired quite the taste for smoked ham and nights beneath the open sky.\n\nWith this courier, I send a carved Ander sculpture - among the most prized and sought-after art pieces in all of Thedas. Perhaps you have a use for it."
- fund_inspiration.6001.a:0 "I'll hold onto this!"
- fund_inspiration.6001.b:0 "Send it to the Court Musician."
+ fund_inspiration.6001.t:0 "Степь и скачка в седле радостно отзываются в моем сердце,"
+ fund_inspiration.6001.desc:1 "Я путешествую верхом уже несколько месяцев. Мой зад никогда не оправится от такого! Мне пришлись по вкусу копчёный окорок и сон под открытым небом.\n\nВместе с гонцом я посылаю вам резную андерскую статуэтку — одно из самых ценных и желанных произведений искусства во всём Тедасе. Возможно, она вам пригодится."
+ fund_inspiration.6001.a:0 "Я оставлю ее себе!"
+ fund_inspiration.6001.b:0 "Отдайте эту вещь придворному музыканту."
 
 #Tevinter
 
- fund_inspiration.6002.t:0 "My jaunt through Tevinter marches on!"
- fund_inspiration.6002.desc:0 "I am near-blinded by all the gems the courts I visit have to show me. I find myself yearning for the filth of the open road.\n\nI have sent a courier with a particularly tasteless gift I was given — a dragon's head ornament on a ring, with jewels for eyes. Have you ever seen something so garish?"
- fund_inspiration.6002.a:0 "I rather like it, it's his loss."
- fund_inspiration.6002.b:0 "Ghastly! Take it apart and sell the gems."
+ fund_inspiration.6002.t:0 "Моя поездка по Тевинтеру продолжается!"
+ fund_inspiration.6002.desc:0 "Мои глаза почти ослепли от блеска драгоценных камней при дворах местных правителей. Очень часто я ловлю себя на том, что тоскую по дорожной пыли.\n\nЯ посылаю к вам гонца с одним особенно безвкусным даром — кольцом с украшением в виде драконьей головы и самоцветами вместо глаз. Вы когда-нибудь видели что-то столь же аляповатое?"
+ fund_inspiration.6002.a:0 "А мне нравится."
+ fund_inspiration.6002.b:0 "Отвратительно! Разобрать и продать камни."
 
 #Western Approach in Orlais
 
- fund_inspiration.6003.t:0 "I dream of the desert,"
- fund_inspiration.6003.desc:0 "My liege, my journey to the Western Approach is underway, and I have joined a caravan traversing the width of the land.\n\nI send to you a piece of jewelry one of my fellow travelers granted me — a most delicate necklace covered in phoenix shell beads. I suppose you haven't seen a phoenix."
- fund_inspiration.6003.a:0 "A fine find! I will wear it myself."
- fund_inspiration.6003.b:1 "I shall give it to [event_spouse.GetTitledFirstNameNoTooltip]."
+ fund_inspiration.6003.t:0 "Мне снится пустыня,"
+ fund_inspiration.6003.desc:0 "[Select_CString(ROOT.Char.IsFemale, 'Моя госпожа', 'Мой господин' )], моё путешествие по Западному пределу началось, и теперь я иду с караваном через всю эту землю.\n\nЯ посылаю вам драгоценность, подаренную одним из моих спутников, — тончайшее ожерелье с бусинами из скорлупы яиц феникса. Полагаю, вам ещё не доводилось видеть феникса."
+ fund_inspiration.6003.a:0 "Отличная находка! Я лично буду носить его."
+ fund_inspiration.6003.b:1 "Ожерелье получит [event_spouse.GetTitledFirstNameNoTooltip]."
 
 #Orlais
 
- fund_inspiration.6004.t:0 "Ah, to be a pilgrim,"
- fund_inspiration.6004.desc:0 "My journey through Orlais has mostly involved fighting off hordes of peddlers on the pilgrim-paths.\n\nOft, in order not to delay my quest over-long, I give in and buy one of their little trinkets. I have sent a courier bearing the tat your way. Perhaps it shall provide some amusement."
- fund_inspiration.6004.a:0 "What use is an adventurer who takes the common path?"
+ fund_inspiration.6004.t:0 "Ах, жизнь паломника,"
+ fund_inspiration.6004.desc:0 "В своих странствиях по Орлею мне в основном приходится отбиваться от толп лоточников на путях паломничества.\n\nЧасто, чтобы не задерживаться в дороге, я уступаю и покупаю у них какую-нибудь безделушку. Я посылаю вам гонца с набором таких вещиц. Возможно, они вас позабавят."
+ fund_inspiration.6004.a:0 "Какой прок в искателе приключений, который идет по проторенным дорогам?"
 
 #Ferelden
 
- fund_inspiration.6005.t:0 "My adventures are sodden,"
- fund_inspiration.6005.desc:0 "My Lord, I have found a few trite relics so far in my adventures, which I have sent with this courier, but I am unsure what I may uncover next. \n\nThe Fereldans are the smelliest creatures I have encountered. As a child, I dreamt of the green and pleasant meadows, but I am convinced half of this world is made of mud. If you are a gracious liege, please send word to call me back."
- fund_inspiration.6005.a:0 "This isn't a holiday! Quest on!"
- fund_inspiration.6005.b:0 "Poor soul, I suppose these rewards shall suffice."
- fund_inspiration.6005.b.tt:0 "You permit [inspiration_owner.GetTitledFirstName] to return home"
+ fund_inspiration.6005.t:0 "Мои приключения не слишком интересны,"
+ fund_inspiration.6005.desc:0 "[Select_CString(ROOT.Char.IsFemale, 'Моя госпожа', 'Мой господин' )], мне удалось найти несколько обшарпанных реликвий, которые я посылаю с гонцом, но я не знаю, что ещё мне удастся обнаружить. \n\nФерелденцы — самые дурнопахнущие создания из всех, что мне доводилось встречать. В детстве меня посещали образы зелёных и приятных лужаек, но сейчас я твёрдо верю, что половина этого мира состоит из грязи. Если в вас есть хоть капля милосердия, отзовите меня обратно."
+ fund_inspiration.6005.a:0 "Вы не на отдыхе! Ищите дальше!"
+ fund_inspiration.6005.b:0 "Бедняга, полагаю, мне хватит и этих находок."
+ fund_inspiration.6005.b.tt:0 "Вы позволяете, чтобы [inspiration_owner.GetTitledFirstName] [Select_CString(inspiration_owner.IsFemale, 'вернулась', 'вернулся' )] домой."
 
 #Seheron
 
- fund_inspiration.6006.t:0 "Greetings from Seheron,"
- fund_inspiration.6006.desc:0 "My travels throughout the Boeric Ocean have left me with quite a taste for salmon pockets, cherry cupcakes and stuffed grape leaves, and I have sent some recipes along with this courier.\n\nI have been given a golden brooch adorned with a seahorse by one of my hosts, which I also send to you. I'm certain my travels will bring further wonders in due time."
- fund_inspiration.6006.a:0 "Order our chefs to prepare these dishes at once!"
- fund_inspiration.6006.b:0 "[inspiration_owner.GetSheHe|U] seems to be having too much fun..."
+ fund_inspiration.6006.t:0 "Приветствую вас с Сегерона,"
+ fund_inspiration.6006.desc:0 "Во время странствий по океану Боерика мне пришлись по вкусу рыбные пирожки с лососем, вишнёвые капкейки и фаршированные виноградные листья. Я посылаю вам их рецепты с гонцом.\n\nОдин из местных правителей подарил мне золотую брошь с морским коньком, и её я тоже посылаю вам. Наверняка со временем мои путешествия принесут ещё больше чудес."
+ fund_inspiration.6006.a:0 "Прикажите поварам немедленно приготовить эти блюда!"
+ fund_inspiration.6006.b:0 "Похоже, [Select_CString(inspiration_owner.IsFemale, 'она', 'он' )] слишком веселится..."
