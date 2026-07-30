@@ -1,8 +1,8 @@
 ﻿l_russian:
 
- court.9100.t: "Antivan Entertainment"
- court.9100.desc: ""Ah, excellent! [food_lover_1.Custom('GetExpensiveMeal')|U], my favorite!" [food_lover_1.GetFirstName] bellows merrily, gorging [food_lover_1.GetHerselfHimself] as the servant desperately steadies the serving tray.\n\n"Oh, my beloved [food_lover_2.Custom('GetExpensiveDessert')], you truly are delectable!" [food_lover_2.GetFirstName] says with a singing voice.\n\n"Now, this is what life is all about! Servants, more [food_lover_1.Custom('GetExpensiveDrink')], now!" [food_lover_3.GetFirstName] demands.\n\nIt would appear that my courtiers are enjoying themselves!"
- court.9100.a: "More working, less stuffing your faces!"
- court.9100.b: "You all deserve the very best!"
- court.9100.c: "Save some drink for me, [food_lover_3.GetFirstNameNoTooltip] — It is best shared with friends!"
- court.9100.d: "I should let them be."
+ court.9100.t: "Антиванское развлечение"
+ court.9100.desc: "«Превосходно! [food_lover_1.Custom('GetExpensiveMeal')|U], то что я люблю!» — радостно восклицает [food_lover_1.GetFirstName], набрасываясь на еду, пока слуга отчаянно пытается удержать поднос.\n\n«А вот и [food_lover_2.Custom('GetExpensiveDessert')], просто объедение», — пропевает [food_lover_2.GetFirstName].\n\n«Вот что такое жизнь! Слуги, нам нужно [food_lover_1.Custom('GetExpensiveDrink')]!» — требует [food_lover_3.GetFirstName].\n\nПохоже, мои придворные ни в чем себе не отказывают!"
+ court.9100.a: "Больше работайте и меньше ешьте!"
+ court.9100.b: "Вы достойны лучшего!"
+ court.9100.c: "Приберегите напиток и для меня, [food_lover_3.GetFirstNameNoTooltip]. Нет ничего лучше, чем пить с друзьями!"
+ court.9100.d: "Пусть себе пируют."

@@ -1,12 +1,12 @@
 ﻿l_russian:
 
- yearly.9020.t:0 "A Mighty Hound"
- yearly.9020.desc:1 "[marshal.Custom2('MyCharacterIntroduction', ROOT.Char)|U] approaches me with a smile on [marshal.GetHerHis] face. [marshal.GetSheHe|U] explains that I have received a truly impressive gift from an overseer in the [county.GetNameNoTooltip], and beckons me to come with [marshal.GetHerHim].\n\nAnd impressive it is! As I walk outside, I am greeted by a splendid young #emphasis mabari warhound#!. "The pup has yet to imprint on a master," my [marshal.GetCouncilTitle] tells me. "With some training, we can find an ideal partner for her.""
- yearly.9020.a:0 "I will forge a bond with this mighty beast and take her into battle. Personally."
- yearly.9020.b:1 "[marshal.GetCouncilTitle]. The creature is yours."
- yearly.9020.c:2 "My $knight_culture_player_no_tooltip_lowercase$ [knight.GetTitledFirstNameNoTooltip] is sure to make good use of it."
- yearly.9020.d1:1 "Let us honor [ROOT.Char.GetFaith.KnowledgeGodName] and release it."
- yearly.9020.d2:0 "Such an animal should be free to choose its own master. I will not interfere."
- yearly_9020_personal_war_mabari:0 "Personal [war_mabari|E]"
+ yearly.9020.t:0 "Могучая мабари"
+ yearly.9020.desc:1 "[marshal.Custom2('MyCharacterIntroduction', ROOT.Char)|U] подходит ко мне с улыбкой, провозглашает, что меня ждёт поистине впечатляющий подарок от смотрителя земли [county.GetNameNoTooltip], и приглашает следовать за собой.\n\nПодарок и вправду впечатляет! Снаружи меня встречает великолепная молодая #emphasis боевая мабари#!. «Она ещё не выбрала себе хозяина, — говорит мой [marshal.GetCouncilTitle]. — Если её обучить, мы сможем подобрать ей идеального спутника»."
+ yearly.9020.a:0 "Я [Select_CString(ROOT.Char.IsFemale, 'сама', 'сам' )] налажу связь с этой могучей мабари и поведу её в бой. Лично."
+ yearly.9020.b:1 "[marshal.GetCouncilTitle]. Забирай её себе."
+ yearly.9020.c:2 "$knight_culture_player_no_tooltip_lowercase$ [knight.GetTitledFirstNameNoTooltip] наверняка станет для неё достойным хозяином."
+ yearly.9020.d1:1 "Славься [ROOT.Char.GetFaith.KnowledgeGodName]! Давайте вознесем молитвы и отпустим животное."
+ yearly.9020.d2:0 "Такое животное должно само выбирать себе хозяина. Я не стану вмешиваться."
+ yearly_9020_personal_war_mabari:0 "Личный [war_mabari|E]"
 
 

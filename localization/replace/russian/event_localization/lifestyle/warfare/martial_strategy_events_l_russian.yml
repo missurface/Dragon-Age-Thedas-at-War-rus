@@ -1,54 +1,54 @@
 ﻿l_russian:
  #Well-known commander, by Sean Hughes
- martial_strategy.1051.t:0 "General Gossip"
- martial_strategy.1051.desc:0 "The most popular topic of conversation in [ROOT.Char.Custom('GetCourt')] is ever-changing, but one recent trend has been the discussion of my notable skill as a military commander — and what the secret to my success is.\n\nI can use this natural curiosity to bolster my reputation, but first I must decide what to attribute my success to..."
- martial_strategy.1051.a:0 "I have a natural talent that sets me above the rest."
- martial_strategy.1051.a.humble:0 "Knowing my limits means I can work around them."
- martial_strategy.1051.b.brave:0 "My courage inspires my troops to stand and fight."
- martial_strategy.1051.b.stalwart:0 "My determination is such that I will never falter!"
- martial_strategy.1051.c.wrathful:0 "Nobody can withstand my overwhelming ferocity!"
- martial_strategy.1051.c.feareater:0 "My mere presence strikes fear into my foes!"
- martial_strategy.1051.d.zealous:0 "My devotion to [ROOT.GetCharacter.GetFaith.HighGodName] grants me victory."
- martial_strategy.1051.d.sadistic:0 "I always hit my enemies where it hurts the most."
- martial_strategy.1051.d.zealoussadistic:0 "I am unrelenting in my crusade against the wicked!"
- martial_strategy.1051.e.patient:0 "I am ever-vigilant, waiting for my chance to strike."
- martial_strategy.1051.f.ambitious:0 "I will do #EMP whatever#! it takes to emerge victorious!"
+ martial_strategy.1051.t:0 "Расхожие слухи"
+ martial_strategy.1051.desc:0 "[ROOT.Char.Custom('GetCourt')] без умолку обсуждает то одно, то другое, и в последнее время у всех на устах мои выдающиеся командирские навыки и секрет моей успешности.\n\nЯ могу использовать этот интерес, чтобы упрочить свою репутацию, но для начала нужно решить, чем объяснить мой успех..."
+ martial_strategy.1051.a:0 "Мои природные способности ставят меня выше других."
+ martial_strategy.1051.a.humble:0 "Я знаю пределы своих возможностей и умею обходить их."
+ martial_strategy.1051.b.brave:0 "Моя отвага вдохновляет солдат на бой."
+ martial_strategy.1051.b.stalwart:0 "Моя решимость такова, что я никогда не мешкаю!"
+ martial_strategy.1051.c.wrathful:0 "Никто не выстоит против моей ярости!"
+ martial_strategy.1051.c.feareater:0 "Одно мое присутствие вселяет страх в сердца врагов!"
+ martial_strategy.1051.d.zealous:0 "Мои набожность и вера в [ROOT.GetCharacter.GetFaith.HighGodNamePossessive] приносят мне победу."
+ martial_strategy.1051.d.sadistic:0 "Я всегда наношу удар в самое уязвимое место."
+ martial_strategy.1051.d.zealoussadistic:0 "Ничто не остановит мою священную войну против нечестивцев!"
+ martial_strategy.1051.e.patient:0 "Я всегда наготове и никогда не упускаю шанса нанести удар."
+ martial_strategy.1051.f.ambitious:0 "Я сделаю #EMP что угодно#! ради победы!"
 
  
  #Translate old texts (Learning skill challenge), Mathilda Bjarnehed
- martial_strategy.2000.t:0 "Lessons From the Past"
- martial_strategy.2000.start.desc:0 "Though I will surely see many battlefields before I meet my maker, my library holds tales of war from a hundred lifetimes.\n\nI have recently acquired a tome on the great"
+ martial_strategy.2000.t:0 "Уроки прошлого"
+ martial_strategy.2000.start.desc:0 "Хотя до встречи с Создателем меня, без сомнения, ждёт ещё немало битв, в моей библиотеке хранятся военные истории, которых хватит на сотню жизней.\n\nНедавно мне удалось приобрести книгу, повествующую о"
 
- martial_strategy.2000.hastings.desc:1 "Battle of the Silent Plains, " #dataw changed
- martial_strategy.2000.tours.desc:1 "Battle of Montsimmard, " #dataw changed
- martial_strategy.2000.palaceofthemartyrs.desc:1 "Battle of Temerin, " #dataw changed
- martial_strategy.2000.catalaunianplains.desc:1 "Battle of Cumberland, " #dataw changed
- martial_strategy.2000.constantinople.desc:1 "fall of Estwatch, " #dataw changed
- martial_strategy.2000.vapati.desc:1 "siege of Weisshaupt, " #dataw changed
+ martial_strategy.2000.hastings.desc:1 "битве на Безмолвных равнинах, " #dataw changed
+ martial_strategy.2000.tours.desc:1 "битве при Монтсиммаре, " #dataw changed
+ martial_strategy.2000.palaceofthemartyrs.desc:1 "битве при Темерине, " #dataw changed
+ martial_strategy.2000.catalaunianplains.desc:1 "битве при Камберленде, " #dataw changed
+ martial_strategy.2000.constantinople.desc:1 "падении Эстуотча, " #dataw changed
+ martial_strategy.2000.vapati.desc:1 "осаде Вейсхаупта, " #dataw changed
 
- martial_strategy.2000.end.desc:1 "as well as a timeworn scroll written in some ancient language. Who knows what forgotten secrets it holds..."
- martial_strategy.2000.a:0 "Read the newer tome."
- martial_strategy.2000.b:0 "Attempt to translate the old scroll."
- martial_strategy.2000.b.success:0 "I uncover a piece of ancient knowledge"
- martial_strategy.2000.b.success.tt:1 "You gain #P 1#! [martial|E], #P 1#! [learning|E] and a [commander|E] bonus for #V 20 years#!"
- martial_strategy.2000.b.failure:0 "I fail to decipher the scroll"
- martial_strategy.2000.b.failure.tt:1 "You must gain [stress|E] or give up"
-
-
+ martial_strategy.2000.end.desc:1 "а также старинный свиток, написанный на каком-то древнем языке. Кто знает, какие забытые тайны он скрывает..."
+ martial_strategy.2000.a:0 "Прочесть новую книгу."
+ martial_strategy.2000.b:0 "Попытаться перевести старый свиток."
+ martial_strategy.2000.b.success:0 "Мне удалось открыть крупицу древнего знания"
+ martial_strategy.2000.b.success.tt:1 "Вы повышаете навык «[martial|El]» на #P 1#!, «[learning|El]» на #P 1#! и как [commander|El] получаете бонус сроком на #V 20 лет#!"
+ martial_strategy.2000.b.failure:0 "Мне не удалось расшифровать свиток"
+ martial_strategy.2000.b.failure.tt:1 "Повысьте уровень [Concept( 'stress', 'стресса' )|E] или сдайтесь"
 
 
 
- martial_strategy.2001.start.desc:0 "Even with the help of a dusty glossary, the scroll is reluctant to share its secrets, but I press on. As the night progresses, the most incredible story unfolds before me...\n\n"
+
+
+ martial_strategy.2001.start.desc:0 "Даже с помощью пыльного словаря свиток не раскрывает своих тайн, но я не сдаюсь. Постепенно передо мной разворачивается невероятная история...\n\n"
  #DATAW CHANGED
- martial_strategy.2001.red_falls.desc:0 "#F The last duel between the legendary Morrighan'nan and Luthias Dwarfson, this was the culmination of a romantic drama between the two that brought much pain and suffering to all. It is said in a earlier battle, Luthias fought his son born from his affair with the rival chieftain. The duel, while quick, was deadly, as Luthias unknowingly killed his own son, and Morrighan'nan soon revealed what he did cursing the gravely injured Alamarri, who was in the end defeated.#!"
- martial_strategy.2001.the_emerius_slave_revolt.desc:0 "#F In -25 Ancient, the death of an influential Alamarri slave, Radun, sparked the fires of rebellion among the slaves of the city. As he was pushing for better conditions, the death was blamed on the city's magisters, and the slaves stormed the Gallows, before being massacred. \n\nThroughout the yearlong revolt, fights between slaves and soldiers raged inside and outside the city, killing many. The slaves often used their massive numerical advantage to overwhelm the soldiers, while the latter held strategic chokepoints to hold Hightown. However in the end, Hightown was sacked, the city was burned, and Emerius took on the name of Kirkwall.#!"
- martial_strategy.2001.valarian_fields.desc:1 "#F The battle of Valarian Fields, fought outside Minrathous and the most difficult battle Andraste faced in her Exalted March against the Tevinter Imperium. The forces of Minrathous made a sortie from the bridge of Minrathous against the forces of the Bride of the Maker, transforming the siege into an open battle. Supposedly fighting alongside the elves of Shartan, Andraste fought with her husband Maferath, and managed to defeat the soldier of the Old Gods' servants. It is often said that the Maker smiled on them that day, for the betrayal was imminent.#!"
- martial_strategy.2001.pnemoix.desc:0 "#F During the Battle of the Pnemoix River, told in the Canticle of Threnodies, it is said that the King of Neromenian, Antoridus, set fire to the fields of the Planasene. Yet as the Planasene anointed the field with water from the Pnemoix they so revered, it did not burn. Antoridus, meeting the opposing forces in the field, struck with thousands of arrows and spears. Yet as the arrows reigned destruction upon the armies of King Damertes, the spears broke against the shields of the Sons of the Pnemoix. Yet, it was Damertes forsaking the Maker's name that defeated the forces of Antoridus, for when he did, disease struck the armies and forced Neromenian to turn back.#!"
- martial_strategy.2001.a:0 "Study the battle."
- martial_strategy.2001.b:0 "Focus on the translation process."
+ martial_strategy.2001.red_falls.desc:0 "#F Последний поединок легендарных Морриган'нан и Лутиаса Дварфсона стал кульминацией романтической драмы, принёсшей всем немало боли и страданий. Говорят, в одном из предыдущих сражений Лутиас встретился в поединке с сыном, рождённым от его связи с предводительницей враждебного племени. Бой был краток, но смертелен: Лутиас, не ведая того, убил собственного сына. Вскоре Морриган'нан открыла ему содеянное и прокляла тяжело раненного воина-аламарри, который в конце концов пал.#!"
+ martial_strategy.2001.the_emerius_slave_revolt.desc:0 "#F В -25 году Древней эры смерть влиятельного раба-аламарри Радуна разожгла пламя восстания среди рабов города. Он добивался улучшения условий их жизни, поэтому в его гибели обвинили городских магистров. Рабы штурмовали Казематы, но были перебиты.\n\nНа протяжении целого года внутри города и за его стенами шли кровопролитные бои между рабами и солдатами. Рабы часто подавляли противника огромным численным превосходством, а солдаты удерживали ключевые узкие проходы, защищая Верхний город. Но в конце концов Верхний город был разграблен, весь город сгорел, а Эмериус переименовали в Киркволл.#!"
+ martial_strategy.2001.valarian_fields.desc:1 "#F Битва на Валарианских полях произошла у Минратоса и стала самым тяжёлым сражением Андрасте за весь её Священный поход против Тевинтерской империи. Силы Минратоса совершили вылазку с городского моста против войска Невесты Создателя, превратив осаду в открытое сражение. Согласно преданиям, Андрасте сражалась бок о бок с эльфами Шартана и своим мужем Мафератом и сумела разгромить воинов слуг Древних богов. Часто говорят, что в тот день Создатель улыбнулся им, ибо предательство было уже близко.#!"
+ martial_strategy.2001.pnemoix.desc:0 "#F В Погребальных песнях рассказывается, как во время битвы у реки Пнемуа король Неромениана Анторидус поджёг поля планасен. Однако планасены оросили землю водой почитаемой ими Пнемуа, и огонь не занялся. Встретив вражеское войско в поле, Анторидус обрушил на него тысячи стрел и копий. Стрелы сеяли смерть в рядах армии короля Дамертеса, но копья разбивались о щиты Сынов Пнемуа. И всё же силы Анторидуса погубило отречение Дамертеса от Создателя: когда тот отвернулся от Него, армию поразила болезнь и нероменианам пришлось отступить.#!"
+ martial_strategy.2001.a:0 "Изучить сражение."
+ martial_strategy.2001.b:0 "Сосредоточиться на самом переводе."
 
- martial_strategy.2002.desc:0 "Night falls and the single candle illuminating the script before me becomes shorter by the hour. When it flickers one last time and leaves me in darkness, the scroll's secrets remain undiscovered."
- martial_strategy.2002.a:0 "Push forward."
- martial_strategy.2002.b:0 "Give up."
+ martial_strategy.2002.desc:0 "Наступает ночь, и одинокая свеча, озаряющая лежащий передо мной свиток, становится все короче. Вот она трещит в последний раз, оставляя меня в темноте. Тайна свитка остается нераскрытой."
+ martial_strategy.2002.a:0 "Продолжать работу."
+ martial_strategy.2002.b:0 "Сдаться."
 
 
