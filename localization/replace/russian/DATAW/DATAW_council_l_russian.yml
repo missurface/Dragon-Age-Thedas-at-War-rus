@@ -4,70 +4,70 @@
 
 # Empire Tier
  councillor_court_chaplain_andrastianism_empire:0 "[grand_cleric]"
- councillor_court_chaplain_andrastianism_empire_possessive:0 "Grand Cleric's"
+ councillor_court_chaplain_andrastianism_empire_possessive:0 "Владычицы Церкви"
 
 # Cult of the Maker Empire Tier
-councillor_court_chaplain_cult_of_the_maker_empire:0 "High Elder"
-councillor_court_chaplain_cult_of_the_maker_empire_possessive:0 "High Elder's"
+councillor_court_chaplain_cult_of_the_maker_empire:0 "Верховный старейшина"
+councillor_court_chaplain_cult_of_the_maker_empire_possessive:0 "Верховного старейшины"
 
 # Cult of the Maker all other Tiers
- councillor_court_chaplain_cult_of_the_maker_all_tiers:0 "Elder"
- councillor_court_chaplain_cult_of_the_maker_all_tiers_possessive:0 "Elder's"
+ councillor_court_chaplain_cult_of_the_maker_all_tiers:0 "Старейшина"
+ councillor_court_chaplain_cult_of_the_maker_all_tiers_possessive:0 "Старейшины"
 
 # Ciriane Maker Cult Empire Tier
-councillor_court_chaplain_ciriane_maker_cult_empire:0 "High Elder"
-councillor_court_chaplain_ciriane_maker_cult_empire_possessive:0 "High Elder's"
+councillor_court_chaplain_ciriane_maker_cult_empire:0 "Верховный старейшина"
+councillor_court_chaplain_ciriane_maker_cult_empire_possessive:0 "Верховного старейшины"
 
 # Ciriane Maker Cult all other Tiers
- councillor_court_chaplain_ciriane_maker_cult_all_tiers:0 "Elder"
- councillor_court_chaplain_ciriane_maker_cult_all_tiers_possessive:0 "Elder's"
+ councillor_court_chaplain_ciriane_maker_cult_all_tiers:0 "Старейшина"
+ councillor_court_chaplain_ciriane_maker_cult_all_tiers_possessive:0 "Старейшины"
 
 # Alamarri Maker Cult Empire Tier
-councillor_court_chaplain_alamarri_maker_cult_empire:0 "High Elder"
-councillor_court_chaplain_alamarri_maker_cult_empire_possessive:0 "High Elder's"
+councillor_court_chaplain_alamarri_maker_cult_empire:0 "Верховный старейшина"
+councillor_court_chaplain_alamarri_maker_cult_empire_possessive:0 "Верховного старейшины"
 
 # Alamarri Maker Cult all other Tiers
- councillor_court_chaplain_alamarri_maker_cult_all_tiers:0 "Elder"
- councillor_court_chaplain_alamarri_maker_cult_all_tiers_possessive:0 "Elder's"
+ councillor_court_chaplain_alamarri_maker_cult_all_tiers:0 "Старейшина"
+ councillor_court_chaplain_alamarri_maker_cult_all_tiers_possessive:0 "Старейшины"
 
 # All other Tiers
- councillor_court_chaplain_andrastianism_all_tiers:0 "Revered Father"
- councillor_court_chaplain_andrastianism_all_tiers_possessive:0 "Revered Father's" 
+ councillor_court_chaplain_andrastianism_all_tiers:0 "Преподобный отец"
+ councillor_court_chaplain_andrastianism_all_tiers_possessive:0 "Преподобного отца" 
 
- councillor_court_chaplain_andrastianism_all_tiers_female:0 "Revered Mother"
- councillor_court_chaplain_andrastianism_all_tiers_female_possessive:0 "Revered Mother's"
+ councillor_court_chaplain_andrastianism_all_tiers_female:0 "Преподобная мать"
+ councillor_court_chaplain_andrastianism_all_tiers_female_possessive:0 "Преподобной матери"
 
 ## Alamarri Pagan Faiths 
- councillor_court_chaplain_alamarri:0 "Augur"
- councillor_court_chaplain_alamarri_possessive:0 "Augur's"
+ councillor_court_chaplain_alamarri:0 "Авгур"
+ councillor_court_chaplain_alamarri_possessive:0 "Авгура"
 
 ## Brecilian Pagan Faiths 
- councillor_court_chaplain_brecilian:0 "Druid"
- councillor_court_chaplain_brecilian_possessive:0 "Druid's"
+ councillor_court_chaplain_brecilian:0 "Друид"
+ councillor_court_chaplain_brecilian_possessive:0 "Друида"
 
 ## Chasind Pagan Faiths
- councillor_court_chaplain_chasind:0 "Shaman"
- councillor_court_chaplain_chasind_possessive:0 "Shaman's"
+ councillor_court_chaplain_chasind:0 "Шаман"
+ councillor_court_chaplain_chasind_possessive:0 "Шамана"
 
 ## Elven Faiths 
 
 # Empire Tier
- councillor_court_chaplain_elven_empire:0 "High Keeper"
- councillor_court_chaplain_elven_empire_possessive:0 "High Keeper's"
+ councillor_court_chaplain_elven_empire:0 "Верховный хранитель"
+ councillor_court_chaplain_elven_empire_possessive:0 "Верховного хранителя"
 
 # All other Tiers
- councillor_court_chaplain_elven_all_tiers:0 "Keeper"
- councillor_court_chaplain_elven_all_tiers_possessive:0 "Keeper's"
+ councillor_court_chaplain_elven_all_tiers:0 "Хранитель"
+ councillor_court_chaplain_elven_all_tiers_possessive:0 "Хранителя"
 
 ## Wake culture
- councillor_chancellor_wake:0 "First Mate"
- councillor_chancellor_wake_possessive:0 "First Mate's"
+ councillor_chancellor_wake:0 "Старший помощник"
+ councillor_chancellor_wake_possessive:0 "Старшего помощника"
 
- councillor_steward_wake:0 "Quartermaster"
- councillor_steward_wake_possessive:0 "Quartermaster's"
+ councillor_steward_wake:0 "Квартирмейстер"
+ councillor_steward_wake_possessive:0 "Квартирмейстера"
 
- councillor_marshal_wake:0 "Scrapper"
- councillor_marshal_wake_possessive:0 "Scrapper's"
+ councillor_marshal_wake:0 "Рубака"
+ councillor_marshal_wake_possessive:0 "Рубаки"
 
- councillor_spymaster_wake:0 "Gossiper"
- councillor_spymaster_wake_possessive:0 "Gossiper's"
+ councillor_spymaster_wake:0 "Сплетник"
+ councillor_spymaster_wake_possessive:0 "Сплетника"

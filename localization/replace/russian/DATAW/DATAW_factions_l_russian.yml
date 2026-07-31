@@ -1,3 +1,3 @@
 ﻿l_russian:
  #FACTION JOIN/CREATE REASONS
- FACTION_REASON_DISLIKE_FOREIGN_RULERS:0 "[liege|E] is a foreign culture; $VALUE|0+=$"
+ FACTION_REASON_DISLIKE_FOREIGN_RULERS:0 "[Concept('liege','Сюзерен')|E] принадлежит к чужой [Concept('culture','культуре')|E]: $VALUE|0+=$"
