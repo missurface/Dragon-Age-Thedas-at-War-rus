@@ -1,55 +1,55 @@
 ﻿l_russian:
- trait_anointed: "Anointed"
- trait_anointed_desc: "Considered to be directed by the Maker himself, there is no greater honor for the faithful than to be named Anointed."
- trait_anointed_character_desc: "Considered to be directed by the Maker himself, there is no greater honor for the faithful than to be named Anointed."
+ trait_anointed: "[Select_CString(ROOT.Char.IsFemale, 'Помазанница', 'Помазанник' )]"
+ trait_anointed_desc: "Считается, что [Select_CString(ROOT.Char.IsFemale, 'Помазанницей', 'Помазанником' )] руководит сам Создатель; для верующих нет большей чести, чем получить это звание."
+ trait_anointed_character_desc: "[ROOT.Char.GetFirstNameNoTooltip] [Select_CString(ROOT.Char.IsFemale, 'считается Помазанницей, направляемой', 'считается Помазанником, направляемым' )] самим Создателем; для верующих нет большей чести, чем получить это звание."
 
- trait_vallaslin: "Bearer of the [vallaslin|E]"
- trait_vallaslin_desc: "This character has undertaken the rite of passage to adulthood and now wears the [vallaslin|E] of their chosen god, as is the custom."
- trait_vallaslin_character_desc: "[ROOT.Char.GetFirstNameNoTooltip] has undertaken the rite of passage to adulthood and now wears the [vallaslin|E] of their chosen god, as is the custom."
+ trait_vallaslin: "[Select_CString(ROOT.Char.IsFemale, 'Носительница', 'Носитель' )] [Concept('vallaslin', 'валласлина')|E]"
+ trait_vallaslin_desc: "После обряда посвящения во взрослую жизнь этот персонаж по обычаю носит [Concept('vallaslin', 'валласлин')|E] избранного божества."
+ trait_vallaslin_character_desc: "[ROOT.Char.GetFirstNameNoTooltip] [Select_CString(ROOT.Char.IsFemale, 'прошла', 'прошёл' )] обряд посвящения во взрослую жизнь и теперь по обычаю носит [Concept('vallaslin', 'валласлин')|E] избранного божества."
 
- trait_qunari: "[qunari|E]"
- trait_qunari_desc: "[ROOT.Char.GetFirstNameNoTooltip] is apart of the Qun."
- trait_qunari_character_desc: "[ROOT.Char.GetFirstNameNoTooltip] is apart of the Qun."
+ trait_qunari: "[Concept('qunari', 'Кунари')|E]"
+ trait_qunari_desc: "[ROOT.Char.GetFirstNameNoTooltip] следует куну."
+ trait_qunari_character_desc: "[ROOT.Char.GetFirstNameNoTooltip] следует куну."
 
- trait_human: "[human|E]"
- trait_human_desc: "This person is a member of the Human race, hailing from the multiple tribes that migrated from the north beyond Thedas."
- trait_human_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a member of the Human race, hailing from the multiple tribes that migrated from the north beyond Thedas." 
+ trait_human: "[Concept('human', 'Человек')|E]"
+ trait_human_desc: "Этот персонаж принадлежит к человеческой расе, чьи многочисленные племена переселились в Тедас с далёкого севера."
+ trait_human_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] принадлежит к человеческой расе, чьи многочисленные племена переселились в Тедас с далёкого севера."
 
- trait_elvhen: "Elf"
- trait_elvhen_desc: "This person is a member of the [elvhen|E] race, hailing from Arlathan forest."
- trait_elvhen_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a member of the [elvhen|E] race, hailing from Arlathan forest."
+ trait_elvhen: "[Select_CString(ROOT.Char.IsFemale, 'Эльфийка', 'Эльф' )]"
+ trait_elvhen_desc: "Этот персонаж принадлежит к расе [Concept('elvhen', 'эльфов')|E], происходящей из лесов Арлатана."
+ trait_elvhen_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] принадлежит к расе [Concept('elvhen', 'эльфов')|E], происходящей из лесов Арлатана."
 
 
 
- trait_witchofthewilds: "Witch of the Wilds"
- trait_witchofthewilds_desc: "This character is a drop in an ancient and reclusive wellspring - a Witch of the Wilds."
- trait_witchofthewilds_character_desc: "[ROOT.Char.GetFirstNameNoTooltip] is a drop in an ancient and reclusive wellspring - a Witch of the Wilds."
+ trait_witchofthewilds: "Ведьма Диких земель"
+ trait_witchofthewilds_desc: "Этот персонаж — представительница древней и замкнутой традиции, Ведьма Диких земель."
+ trait_witchofthewilds_character_desc: "[ROOT.Char.GetFirstNameNoTooltip] — представительница древней и замкнутой традиции, Ведьма Диких земель."
  I_HAVE_WITCHOFTHEWILDS_TRAIT: "[GetTrait('witchofthewilds').GetName(GetPlayer)]: $VALUE|=+0$"
 
  # CREDIT TO EK2 FOR LETTING US USE THEIR LINE_OF_X!! THANK YOU GUYS
- trait_line_of_x: "Line of [ROOT.Char.GetFirstNameNoTooltip]" # assume named Line of X
- trait_line_of_x_null: "Line of X" # incase character doesnt exist
- trait_line_of_x_desc: "This character represents the Line of [ROOT.Char.GetFirstNameNoTooltip]."
- trait_line_of_x_desc_null: "This character represents the Line of X." # incase character doesnt exist
+ trait_line_of_x: "Род [ROOT.Char.GetFirstNameNoTooltip]" # assume named Line of X
+ trait_line_of_x_null: "Род X" # incase character doesnt exist
+ trait_line_of_x_desc: "Этот персонаж принадлежит к роду [ROOT.Char.GetFirstNameNoTooltip]."
+ trait_line_of_x_desc_null: "Этот персонаж принадлежит к роду X." # incase character doesnt exist
  #Crusader Names
- trait_crusader_andrastianism: "Exalted"
+ trait_crusader_andrastianism: "[Select_CString(ROOT.Char.IsFemale, 'Возвышенная', 'Возвышенный' )]"
 
  # Crusader King names
- trait_crusader_king_andrastianism_male: "Exalted King"
- trait_crusader_king_andrastianism_female: "Exalted Queen"
+ trait_crusader_king_andrastianism_male: "Возвышенный король"
+ trait_crusader_king_andrastianism_female: "Возвышенная королева"
  
- trait_education_magic_1: "Inept Mage"
- trait_education_magic_1_desc: "The Inept Mage has a natural connection to the Fade but needs training to use their powers."
- trait_education_magic_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] has a natural connection to the Fade but needs training to use [ROOT.GetCharacter.GetHerHis] powers."
- trait_education_magic_2: "Apprentice Magician"
- trait_education_magic_2_desc: "The Apprentice Magician can conjure simple magic, enough to entertain or frighten, but more education is needed before they can wield their magic safely."
- trait_education_magic_2_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] can conjure simple magic, enough to entertain or frighten, but more education is needed before [ROOT.GetCharacter.GetSheHe] can wield [ROOT.GetCharacter.GetHerHis] magic safely."
- trait_education_magic_3: "Harrowed Mage"
- trait_education_magic_3_desc: "The Harrowed Mage has mastered their connection to the Fade and their control over the powers within."
- trait_education_magic_3_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] has mastered [ROOT.GetCharacter.GetHerHis] connection to the Fade and [ROOT.GetCharacter.GetHerHis] control over the powers within."
- trait_education_magic_4: "Senior Enchanter"
- trait_education_magic_4_desc: "The Senior Enchanter is a force to be reckoned with; they have trained for years to be in full control of their powers and a master at wielding them when needed."
- trait_education_magic_4_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a force to be reckoned with; [ROOT.GetCharacter.GetSheHe] has trained for years to be in full control of [ROOT.GetCharacter.GetHerHis] powers and is a master at wielding them when needed."
- trait_education_magic_5: "Fade-Touched Archmage"
- trait_education_magic_5_desc: "The Fade-Touched Archmage is a rarity even amongst the most senior of mages, their strong connection to the Fade allows them to cast magic without much effort, almost as natural as breathing."
- trait_education_magic_5_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a rarity even amongst the most senior of mages, [ROOT.GetCharacter.GetHerHis] strong connection to the Fade allows them to cast magic without much effort, almost as natural as breathing."
+ trait_education_magic_1: "[Select_CString(ROOT.Char.IsFemale, 'Неумелая', 'Неумелый' )] маг"
+ trait_education_magic_1_desc: "Природная связь с [Concept('fade', 'Тенью')|E] уже пробудилась, но без обучения этот персонаж не сможет владеть своими силами."
+ trait_education_magic_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] ощущает природную связь с [Concept('fade', 'Тенью')|E], но нуждается в обучении, чтобы владеть [ROOT.GetCharacter.GetHerHis] силами."
+ trait_education_magic_2: "[Select_CString(ROOT.Char.IsFemale, 'Ученица магии', 'Ученик магии' )]"
+ trait_education_magic_2_desc: "[Select_CString(ROOT.Char.IsFemale, 'Ученица магии способна', 'Ученик магии способен' )] творить простые чары, способные развлечь или напугать, но для безопасного владения магией требуется дальнейшее обучение."
+ trait_education_magic_2_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] умеет творить простые чары, способные развлечь или напугать, но [Select_CString(ROOT.GetCharacter.IsFemale, 'ей', 'ему' )] ещё предстоит учиться, прежде чем [Select_CString(ROOT.GetCharacter.IsFemale, 'она сможет', 'он сможет' )] безопасно владеть [ROOT.GetCharacter.GetHerHis] магией."
+ trait_education_magic_3: "[Select_CString(ROOT.Char.IsFemale, 'Маг, прошедшая Истязание', 'Маг, прошедший Истязание' )]"
+ trait_education_magic_3_desc: "После Истязания связь с [Concept('fade', 'Тенью')|E] и заключённые в ней силы оказываются под полным контролем."
+ trait_education_magic_3_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'овладела', 'овладел' )] [ROOT.GetCharacter.GetHerHis] связью с [Concept('fade', 'Тенью')|E] и заключёнными в ней силами."
+ trait_education_magic_4: "[Select_CString(ROOT.Char.IsFemale, 'Старшая чародейка', 'Старший чародей' )]"
+ trait_education_magic_4_desc: "Годы обучения даровали полный контроль над магическими силами и умение в совершенстве применять их в нужный момент."
+ trait_education_magic_4_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] внушает страх и уважение: за годы обучения [Select_CString(ROOT.GetCharacter.IsFemale, 'она научилась', 'он научился' )] полностью управлять [ROOT.GetCharacter.GetHerHis] силами и в совершенстве применять их в нужный момент."
+ trait_education_magic_5: "[Select_CString(ROOT.Char.IsFemale, 'Архимаг, отмеченная Тенью', 'Архимаг, отмеченный Тенью' )]"
+ trait_education_magic_5_desc: "Столь тесная связь с [Concept('fade', 'Тенью')|E] — редкость даже среди самых опытных магов; она позволяет архимагу творить чары почти без усилий, так же естественно, как дышать."
+ trait_education_magic_5_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] — редкость даже среди самых опытных магов: [ROOT.GetCharacter.GetHerHis|U] тесная связь с [Concept('fade', 'Тенью')|E] позволяет творить чары почти без усилий, так же естественно, как дышать."

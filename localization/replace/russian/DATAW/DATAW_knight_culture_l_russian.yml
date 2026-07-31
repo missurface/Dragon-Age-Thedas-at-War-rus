@@ -1,13 +1,13 @@
 ﻿l_russian:
  # No tooltip versions
- knight_mariner_no_tooltip:0 "Mariner"
- knight_mariner_no_tooltip_plural:0 "Mariners"
+ knight_mariner_no_tooltip:0 "Мореход"
+ knight_mariner_no_tooltip_plural:0 "Мореходы"
  
  # Lowercase versions
- knight_mariner_no_tooltip_lowercase:0 "mariner"
- knight_mariner_no_tooltip_lowercase_plural:0 "mariners"
- knight_mariner_no_tooltip_lowercase_plural_possessive:0 "mariners'"
- knight_mariner_no_tooltip_lowercase_adjective:0 "mariner"
+ knight_mariner_no_tooltip_lowercase:0 "мореход"
+ knight_mariner_no_tooltip_lowercase_plural:0 "мореходы"
+ knight_mariner_no_tooltip_lowercase_plural_possessive:0 "мореходов"
+ knight_mariner_no_tooltip_lowercase_adjective:0 "мореходск"
 
  #Game Concept versions
  knight_mariner:0 "[Concept( 'knight', '$knight_mariner_no_tooltip|q$' )|E]"
