@@ -1,16 +1,16 @@
 ﻿l_russian:
  # Syncretic Tenets
- special_doctrine_is_alamarri_faith_name:0 "Following of the old faiths"
+ special_doctrine_is_alamarri_faith_name:0 "Следование старым верованиям"
  is_alamarri_faith_name:0 "$special_doctrine_is_alamarri_faith_name$"
- special_doctrine_is_alamarri_faith_desc:0 "There are some in Thedas that, although they distanced themselves away from [ROOT.Faith.PantheonTerm], still seem to worship them in unison with their new gods. Although a strange practice, we consider those people as not completely lost, and perhaps they can be shown the errors of their ways."
- doctrine_parameter_hostility_override_tenet_alamarri_paganism_religion_syncretic:3 "Non-Alamarri [faiths|E] with the $tenet_alamarri_paganism_religion_syncretic_name$ tenet are considered [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] instead of $hostility_evil_tooltippable$"
+ special_doctrine_is_alamarri_faith_desc:0 "Некоторые жители Тедаса больше не считают, что [ROOT.Faith.PantheonTerm] достойны прежнего поклонения, но всё же чтут их наряду со своими новыми богами. Этот обычай кажется странным, однако мы не считаем таких людей окончательно заблудшими: быть может, им ещё удастся указать на их ошибки."
+ doctrine_parameter_hostility_override_tenet_alamarri_paganism_religion_syncretic:3 "Неаламаррские [Concept('faiths', 'конфессии')|E], исповедующие «$tenet_alamarri_paganism_religion_syncretic_name$», воспринимаются как [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V], а не как $hostility_evil_tooltippable$"
 
- special_doctrine_is_andrastian_faith_name:0 "Teaching of Andraste"
+ special_doctrine_is_andrastian_faith_name:0 "Учение Андрасте"
  is_andrastian_faith_name:0 "$special_doctrine_is_andrastian_faith_name$"
- special_doctrine_is_andrastian_faith_desc:0 "Some people in Thedas have the strange practice of acknowledging the Maker and the Chant of Light, while still venerating their strange pantheons. Though they do not truly follow the Maker, their acknowledgment makes them more tolerable, since they seem on the path to one day embrace the Maker as their one true god."
- doctrine_parameter_hostility_override_tenet_andrastianism_religion_syncretic:3 "Non-Andrastian [faiths|E] with the $tenet_andrastianism_religion_syncretic_name$ tenet are considered [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] instead of $hostility_evil_tooltippable$"
+ special_doctrine_is_andrastian_faith_desc:0 "Некоторые жители Тедаса признают Создателя и Песнь Света, но при этом продолжают почитать собственные чуждые пантеоны. Они не следуют Создателю истинно, однако это признание делает их более терпимыми в наших глазах: похоже, однажды они смогут принять Создателя как своего единственного истинного бога."
+ doctrine_parameter_hostility_override_tenet_andrastianism_religion_syncretic:3 "Неандрастианские [Concept('faiths', 'конфессии')|E], исповедующие «$tenet_andrastianism_religion_syncretic_name$», воспринимаются как [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V], а не как $hostility_evil_tooltippable$"
 
- special_doctrine_is_elven_paganism_faith_name:0 "Veneration of the Evanuris"
+ special_doctrine_is_elven_paganism_faith_name:0 "Почитание эванурисов"
  is_elven_paganism_faith_name:0 "$special_doctrine_is_elven_paganism_faith_name$"
- special_doctrine_is_elven_paganism_faith_desc:0 "Although the Evanuris are followed almost exclusively by elvhenkind, some of our brethren, and even, strangely, some of other races, venerate the Evanuris as well as their gods. Although a strange practice, it is welcomed."
- doctrine_parameter_hostility_override_tenet_elven_paganism_religion_syncretic:0 "Non-Elven Paganism [faiths|E] with the $tenet_elven_paganism_religion_syncretic_name$ tenet are considered [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] instead of $hostility_evil_tooltippable$"
+ special_doctrine_is_elven_paganism_faith_desc:0 "Эванурисам поклоняются почти исключительно эльвены, однако некоторые наши собратья и, как ни странно, даже представители иных народов почитают эванурисов наряду со своими богами. Этот необычный обычай приветствуется."
+ doctrine_parameter_hostility_override_tenet_elven_paganism_religion_syncretic:0 "Не принадлежащие к эльфийскому язычеству [Concept('faiths', 'конфессии')|E], исповедующие «$tenet_elven_paganism_religion_syncretic_name$», воспринимаются как [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V], а не как $hostility_evil_tooltippable$"

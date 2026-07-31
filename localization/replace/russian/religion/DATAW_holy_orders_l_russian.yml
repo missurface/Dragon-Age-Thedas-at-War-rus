@@ -1,18 +1,18 @@
 ﻿l_russian:
  ### Andrastian Holy Orders
- holy_order_inquisition:0 "Inquisition"
- holy_order_knights_enchanter:0 "Knights-Enchanter"
- holy_order_seekers_of_truth:0 "Seekers of Truth"
- holy_order_templars:0 "Templars"
+ holy_order_inquisition:0 "Инквизиция"
+ holy_order_knights_enchanter:0 "Рыцари-чародеи"
+ holy_order_seekers_of_truth:0 "Искатели Истины"
+ holy_order_templars:0 "Храмовники"
 
  # Orlesian Chantry Unique Holy Orders
- holy_order_templar_order:0 "Templar Order"
+ holy_order_templar_order:0 "Орден храмовников"
 
  #Disciples of Andraste Unique Holy Orders
- holy_order_disciples_of_andraste:0 "Disciples of Andraste"
+ holy_order_disciples_of_andraste:0 "Адепты Андрасте"
 
  #Order of Fiery Promise Unique Holy Orders
- holy_order_order_of_fiery_promise:0 "Order of Fiery Promise"
+ holy_order_order_of_fiery_promise:0 "Орден Пламенного Обета"
 
  #Elven Holy Orders
- holy_order_emerald_knights:0 "Emerald Knights"
+ holy_order_emerald_knights:0 "Изумрудные рыцари"
