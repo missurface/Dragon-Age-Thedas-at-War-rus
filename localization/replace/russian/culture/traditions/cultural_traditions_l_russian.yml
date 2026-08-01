@@ -1,10 +1,10 @@
 ﻿l_russian:
 
- tradition_roman_legacy_name:2 "Tevinter Legacy"
- tradition_roman_legacy_desc:2 "The military organization of the Tevinter Imperium is still in living memory within this culture. A professional army is favored over levied troops."
- culture_parameter_children_can_be_born_in_the_purple:2 "[children|E] born to a [ruler|E] holding the $e_byzantium$ may gain the [GetTrait('born_in_the_purple').GetName( GetNullCharacter )]" 
+ tradition_roman_legacy_name:2 "Тевинтерское наследие"
+ tradition_roman_legacy_desc:2 "Военная организация Тевинтерской Империи всё еще жива в памяти этого народа. Профессиональной армии отдается предпочтение перед ополчением."
+ culture_parameter_children_can_be_born_in_the_purple:2 "[children|E] [Concept( 'ruler', 'правителя' )|E] державы $e_byzantium$ могут рождаться со [Concept( 'trait', 'свойством' )|E] «[GetTrait('born_in_the_purple').GetName( GetNullCharacter )]»"
 
- tradition_female_only_inheritance_requirements:1 "You must have a [GetFaithDoctrine('doctrine_gender_female_dominated').GetBaseName] [faith|E]"
+ tradition_female_only_inheritance_requirements:1 "Ваша [Concept('faith','конфессия')|E] должна иметь [Concept('faith_doctrine', 'догмат')|E] «[GetFaithDoctrine('doctrine_gender_female_dominated').GetBaseName]»"
 
- culture_in_himalaya_desc:1 "DATAW REMOVED"
+ culture_in_himalaya_desc:1 "ДАННЫЕ УДАЛЕНЫ"
  
