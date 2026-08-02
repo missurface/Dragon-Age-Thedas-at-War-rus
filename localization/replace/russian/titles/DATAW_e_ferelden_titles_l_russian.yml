@@ -14,13 +14,13 @@
  #
  d_denerim:0 "Денерим"
  d_denerim_adj:0 "Денеримск"
- d_dragonmount:0 "Дракон-Гора"
- d_dragonmount_adj:0 "Дракон-Горск"
+ d_dragonmount:0 "Пик Дракона"
+ d_dragonmount_adj:0 "Пик-драконск"
  #
  c_denerim:0 "Денерим"
  c_denerim_adj:0 "Денеримск"
- c_dragonmount:0 "Дракон-Гора"
- c_dragonmount_adj:0 "Дракон-Горск"
+ c_dragonmount:0 "Пик Дракона"
+ c_dragonmount_adj:0 "Пик-драконск"
  c_norwike:0 "Норвайк"
  c_norwike_adj:0 "Норвайкск"
  c_avinash:0 "Авинаш"
