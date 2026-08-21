@@ -19,6 +19,8 @@
  stress_threshold.1001.drunkard.effect:0 "I will drink until these thoughts are gone."
  stress_threshold.1001.hashishiyah.gain:0 "Some elfroot will put my mind at ease..." # DATAW CHANGED
  stress_threshold.1001.hashishiyah.effect:1 "A relaxing night with a tray of elfroot cakes will help." # DATAW CHANGED
+ stress_threshold.1701.j.hashishiyah.gain:0 "Elfroot will sooth my troubled nerves..." # DATAW CHANGED
+ stress_threshold.1701.j.hashishiyah.effect:0 "$stress_threshold.1701.j.hashishiyah.gain$" # DATAW CHANGED
  stress_threshold.1001.journaller.gain:0 "Writing my worries down will help me focus."
  stress_threshold.1001.journaller.effect:0 "I need a night alone in my study."
  stress_threshold.1001.endure:0 "I must be strong and resist these impulses!"

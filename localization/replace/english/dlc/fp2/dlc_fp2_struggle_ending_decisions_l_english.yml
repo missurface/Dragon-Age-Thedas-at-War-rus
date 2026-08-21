@@ -11,13 +11,30 @@
  struggle_ferelden_ending_hostility_decision_county_tt:0 "Every [de_jure|E] [county|E] of your [capital|E] [kingdom|E] ([THIS.Char.GetCapitalLocation.GetCounty.GetTitle.GetDeJureLiege.GetDeJureLiege.GetNameNoTier]) must be [THIS.Char.GetCulture.GetName] and [THIS.Char.GetFaith.GetAdjective] ([SCOPE.ScriptValue('fp2_struggle_hostility_county_counter_value')|0]/[SCOPE.ScriptValue('fp2_struggle_hostility_county_total_value')|0])"
 
  struggle_ferelden_ending_hostility_decision_county_light_tt:0 "75% of the [de_jure|E] [counties|E] of your [capital|E] [kingdom|E] ([THIS.Char.GetCapitalLocation.GetCounty.GetTitle.GetDeJureLiege.GetDeJureLiege.GetNameNoTier]) must be [THIS.Char.GetCulture.GetName] and [THIS.Char.GetFaith.GetAdjective] ([SCOPE.ScriptValue('fp2_struggle_hostility_county_counter_value')|0]/[SCOPE.ScriptValue('fp2_struggle_hostility_county_total_light_value')|0])"
- struggle_ferelden_ending_hostility_decision_region_tt:2 "No other [independent|E] [struggle_involved|E] [ruler|E] controls more than 10% of [GetGeographicalRegion('world_fereldan_struggle').GetName]"
+ struggle_ferelden_ending_hostility_decision_region_tt:2 "No other [independent|E] [struggle_involved|E] [ruler|E] controls more than 10% of [GetGeographicalRegion('custom_fereldan_struggle').GetName]"
+
+
+ outsider_test_60:0 "You [hold|E] at least 60% of [GetGeographicalRegion('custom_fereldan_struggle').GetName]"
+
+
+ struggle_secure_fereldan_foothold_empire_held_effect_tt:0 "You will create the [GetTitleByKey('e_ferelden').GetName], free to give to a loyal vasssal"
+
+ struggle_secure_fereldan_foothold_ends_the_struggle_tt:0 "You will end the [GetGeographicalRegion('custom_fereldan_struggle').GetName]"
+
+
+ orlais_hegemony_poggers:0 "You will reform the [GetTitleByKey('h_orlais').GetName]"
+
+ subdue_the_dog_lords_decision_confirm:0 "Andraste's homeland is in good hands now"
+
+ subdue_the_dog_lords_decision_tooltip:0 "Bring the dog lords to heel!"
+
+ 
  # Effects
  fp2_struggle_hostility_opinion_tt:1 "[characters|E] of same [faith|E] and/or [culture|E] [opinion|E]: #positive_value +[SCOPE.ScriptValue('fp2_struggle_hostility_opinion_value')]#!"
  fp2_struggle_hostility_opinion_negative_tt:0 "[characters|E] of other [struggle_involved|E] [faiths|E] and/or [cultures|E] [opinion|E]: #negative_value [SCOPE.ScriptValue('fp2_struggle_hostility_opinion_negative_value')]#!"
- fp2_struggle_hostility_conversion_tt:1 "$task_conversion$ and/or $task_promote_culture$ [councillor_tasks|E] speed in [GetGeographicalRegion('world_fereldan_struggle').GetName] [region|E]: #P +50%#!"
- fp2_struggle_hostility_conversion_holy_tt:0 "$task_conversion$ [councillor_task|E] speed in [GetGeographicalRegion('world_fereldan_struggle').GetName] [region|E]: #P +50%#!"
- fp2_struggle_hostility_conversion_culture_tt:0 "$task_promote_culture$ [councillor_task|E] speed in [GetGeographicalRegion('world_fereldan_struggle').GetName] [region|E]: #P +50%#!"
+ fp2_struggle_hostility_conversion_tt:1 "$task_conversion$ and/or $task_promote_culture$ [councillor_tasks|E] speed in [GetGeographicalRegion('custom_fereldan_struggle').GetName] [region|E]: #P +50%#!"
+ fp2_struggle_hostility_conversion_holy_tt:0 "$task_conversion$ [councillor_task|E] speed in [GetGeographicalRegion('custom_fereldan_struggle').GetName] [region|E]: #P +50%#!"
+ fp2_struggle_hostility_conversion_culture_tt:0 "$task_promote_culture$ [councillor_task|E] speed in [GetGeographicalRegion('custom_fereldan_struggle').GetName] [region|E]: #P +50%#!"
  fp2_struggle_hostility_list_tt:1 "Select one of the following modifiers for your [house|E]:\n$EFFECT_LIST_BULLET$[GetModifier('fp2_struggle_hostility_house_faith_modifier').GetNameWithTooltip|L]. In addition, some [holy_wars|E] will be easier to wage.\n$EFFECT_LIST_BULLET$[GetModifier('fp2_struggle_hostility_house_culture_modifier').GetNameWithTooltip|L]. In addition, some Conquest [wars|E] will be easier to wage.\n$EFFECT_LIST_BULLET$[GetModifier('fp2_struggle_hostility_house_combined_modifier').GetNameWithTooltip|L]. In addition, some [holy_war|E] and Conquest [wars|E] will be easier to wage."
  fp2_struggle_hostility_holy_cb_tt:0 "$HOLY_WAR_DUCHY_NAME$ [casus_bellis|E] against other [struggle_involved|E] [faiths|E]: #positive_value -50%#!"
  fp2_struggle_hostility_holy_cb_joint_tt:0 "$HOLY_WAR_DUCHY_NAME$ [casus_bellis|E] against other [struggle_involved|E] [faiths|E]: #positive_value -50%#!\n$culture_parameter_cb_lower_piety_level_requirement$"
@@ -42,19 +59,19 @@
 
  # Triggers
  struggle_ferelden_ending_compromise_decision_kingdom_tt:0 "You [hold|E] and [completely_control|E] any [de_jure|E] [kingdom|E] of [GetTitleByKey('e_ferelden').GetNameNoTier] ([SCOPE.ScriptValue('fp2_struggle_ending_kingdom_counter_value')|0]/[SCOPE.ScriptValue('fp2_struggle_conciliation_kingdom_total_value')|0])"
- struggle_ferelden_ending_compromise_decision_region_tt:0 "You control more than 50% of the [GetGeographicalRegion('world_fereldan_struggle').GetName] [region|E] (Current: [SCOPE.ScriptValue('struggle_ferelden_ending_compromise_decision_region_owned_percent_value')|0]%)"
+ struggle_ferelden_ending_compromise_decision_region_tt:0 "You control more than 50% of the [GetGeographicalRegion('custom_fereldan_struggle').GetName] [region|E] (Current: [SCOPE.ScriptValue('struggle_ferelden_ending_compromise_decision_region_owned_percent_value')|0]%)"
 
- struggle_ferelden_ending_compromise_decision_region_2_tt:0 "You control more than 75% of the [GetGeographicalRegion('world_fereldan_struggle').GetName] [region|E] (Current: [SCOPE.ScriptValue('struggle_ferelden_ending_compromise_decision_region_owned_percent_value')|0]%)"
+ struggle_ferelden_ending_compromise_decision_region_2_tt:0 "You control more than 75% of the [GetGeographicalRegion('custom_fereldan_struggle').GetName] [region|E] (Current: [SCOPE.ScriptValue('struggle_ferelden_ending_compromise_decision_region_owned_percent_value')|0]%)"
 
- struggle_ferelden_ending_compromise_decision_other_region_tt:0 "No other [independent|E] [struggle_involved|E] [ruler|E] controls 20% or more of the [GetGeographicalRegion('world_fereldan_struggle').GetName] [region|E]"
+ struggle_ferelden_ending_compromise_decision_other_region_tt:0 "No other [independent|E] [struggle_involved|E] [ruler|E] controls 20% or more of the [GetGeographicalRegion('custom_fereldan_struggle').GetName] [region|E]"
  struggle_ferelden_ending_compromise_decision_opinion_tt:0 "All other [independent|E] [struggle_involved|E] [rulers|E] have at least [SCOPE.ScriptValue('struggle_ferelden_ending_compromise_decision_opinion_value')|0] [opinion|E] of you or are the target of a [strong_hook|E] ([SCOPE.ScriptValue('struggle_ferelden_ending_compromise_decision_opinion_counter_value')|0]/[SCOPE.ScriptValue('struggle_ferelden_ending_ending_decision_foreign_realm_total_value')|0])"
  struggle_ferelden_ending_compromise_decision_independent_tt:0 "No other [independent|E] [struggle_involved|E] [rulers|E] are [king|E] or [emperor|E] [rank|E] and not allied to you (Current: [SCOPE.ScriptValue('struggle_ferelden_ending_compromise_decision_independent_counter_value')|0])"
- struggle_ferelden_ending_compromise_decision_interloper_tt:0 "More than [SCOPE.ScriptValue('fp2_struggle_compromise_uninvolved_percent_value')]% of the [GetGeographicalRegion('world_fereldan_struggle').GetName] [region|E] is held by [struggle_interloper|E] or [struggle_uninvolved|E] [rulers|E] (Current: [SCOPE.ScriptValue('struggle_ferelden_ending_compromise_decision_region_interloper_percent_value')|1]%)"
+ struggle_ferelden_ending_compromise_decision_interloper_tt:0 "More than [SCOPE.ScriptValue('fp2_struggle_compromise_uninvolved_percent_value')]% of the [GetGeographicalRegion('custom_fereldan_struggle').GetName] [region|E] is held by [struggle_interloper|E] or [struggle_uninvolved|E] [rulers|E] (Current: [SCOPE.ScriptValue('struggle_ferelden_ending_compromise_decision_region_interloper_percent_value')|1]%)"
  struggle_ferelden_ending_compromise_truce_tt:1 "No [wars|E] between [struggle_involved|E] [independent|E] [rulers|E] (Current: [SCOPE.ScriptValue('struggle_ferelden_ending_compromise_decision_war_counter_value')|0])"
 
  # Effects
- fp2_struggle_compromise_create_new_kingdoms_tt:0 "Every [independent|E] or separated [duchy|E] in the [GetGeographicalRegion('world_fereldan_struggle').GetName] [region|E] becomes a [de_jure|E] [kingdom|E]"
- fp2_struggle_compromise_create_new_empires_tt:1 "Every [de_jure|E] [kingdom|E] in the [GetGeographicalRegion('world_fereldan_struggle').GetName] [region|E] with more than [EmptyScope.ScriptValue('fp2_struggle_compromise_ending_minimal_empire_size')|0] [counties|E] becomes a [de_jure|E] [empire|E]. The remaining [kingdoms|E] will fall under the [de_jure|E] of a neighboring [empire|E]."
+ fp2_struggle_compromise_create_new_kingdoms_tt:0 "Every [independent|E] or separated [duchy|E] in the [GetGeographicalRegion('custom_fereldan_struggle').GetName] [region|E] becomes a [de_jure|E] [kingdom|E]"
+ fp2_struggle_compromise_create_new_empires_tt:1 "Every [de_jure|E] [kingdom|E] in the [GetGeographicalRegion('custom_fereldan_struggle').GetName] [region|E] with more than [EmptyScope.ScriptValue('fp2_struggle_compromise_ending_minimal_empire_size')|0] [counties|E] becomes a [de_jure|E] [empire|E]. The remaining [kingdoms|E] will fall under the [de_jure|E] of a neighboring [empire|E]."
  fp2_struggle_compromise_house_rewards_tt:2 "Your and [independent|E] [struggle_involved|E] [rulerpossessive|E] [houses|E]"
  fp2_struggle_compromise_house_enforce_truce_rewards_tt:0 "Unlocks the [enforce_truce|E] [interaction|E] towards the other [houses|E]"
  fp2_struggle_compromise_defensive_rewards_tt:2 "Your and [independent|E] [struggle_involved|E] [rulerpossessive|E] [capital|E] [counties|E]"
@@ -80,14 +97,14 @@
  fp2_struggle_conciliation_holy_war_disabled_tt:1 "Permanently #negative_value disable#! offensive [holy_wars|E] between all [struggle_involved|E] [cultures|E]"
  fp2_struggle_conciliation_acceptance_tt:0 "Conciliation in Ferelden"
  fp2_struggle_conciliation_culture_tt:0 "All [struggle_involved|E] [cultures|E] gain #positive_value +[SCOPE.ScriptValue('fp2_struggle_conciliation_culture_acceptance_value')|0]%#! [cultural_acceptance|E] of each other"
- fp2_struggle_conciliation_join_war_tt:1 "Permanently allows [struggle_involved|E] [culture|E] and [faith|E] [rulers|E] to join each other's defensive [wars|E] against outside invaders of [GetGeographicalRegion('world_fereldan_struggle').GetName]"
+ fp2_struggle_conciliation_join_war_tt:1 "Permanently allows [struggle_involved|E] [culture|E] and [faith|E] [rulers|E] to join each other's defensive [wars|E] against outside invaders of [GetGeographicalRegion('custom_fereldan_struggle').GetName]"
  # Modifiers
  fp2_struggle_conciliation_house_reward_modifier:0 "Conciliation"
  fp2_struggle_conciliation_house_reward_modifier_desc:0 "This house accepted that the way to a lasting peace in Ferelden lies in peace and tolerance."
  ### Common
  can_create_empire_of_ferelden:0 "Unlocks creation of the [empire|E] of [GetTitleByKey('e_ferelden').GetNameNoTier]"
  fp2_struggle_compromise_destroy_hispania_tt:1 "The [empire|E] of [GetTitleByKey('e_ferelden').GetNameNoTier] is permanently #negative_value destroyed#!"
- fp2_struggle_conciliation_caravanserai_unlock_tt:0 "Permanently allows the construction of the #V $building_type_caravanserai_01$#! line of [buildings|E] in [GetGeographicalRegion('world_fereldan_struggle').GetName]"
+ fp2_struggle_conciliation_caravanserai_unlock_tt:0 "Permanently allows the construction of the #V $building_type_caravanserai_01$#! line of [buildings|E] in [GetGeographicalRegion('custom_fereldan_struggle').GetName]"
 
  CB_COST_FP2_STRUGGLE_HOSTILITY_CULTURE_DISCOUNT:0 "Ferelden Hostility"
  CB_COST_FP2_STRUGGLE_HOSTILITY_FAITH_DISCOUNT:0 "$CB_COST_FP2_STRUGGLE_HOSTILITY_CULTURE_DISCOUNT$"

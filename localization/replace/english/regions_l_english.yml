@@ -1,37 +1,41 @@
 ﻿l_english:
 
 # REGIONS
+ world_ferelden_southron_hills:0 "Southron Hills"
+ world_ferelden_brecilian_forest:0 "Brecilian Forest"
+ world_ferelden_korcari_wilds:0 "Korcari Wilds"
+ world_ferelden_hinterlands:0 "Hinterlands"
+ world_ferelden_bannorn:0 "Bannorn"
+ world_ferelden_coastlands:0 "Coastlands"
+ world_ferelden_frostback_mountains:0 "Frostback Mountains"
  world_ferelden:0 "Ferelden"
- world_fereldan_struggle:0 "Fereldan Struggle"
- f_region_frostback_mountains:0 "Frostback Mountains"
- f_region_frostback_basin:0 "Frostback Basin"
- f_region_brecilian_forest:0 "Brecilian Forest"
- f_region_hinterlands:0 "Hinterlands"
+
+ world_orlais_heartlands:0 "Orlesian Heartlands"
+ world_orlais_dales:0 "The Dales"
+ world_orlais_deauvin_flats:0 "Deauvin Flats"
+ world_orlais_gamordan_peaks:0 "Gamordan Peaks"
+ world_orlais_western_approach:0 "Western Approach"
+ world_orlais_nahashin_marshes:0 "Nahashin Marshes"
+ world_orlais_ghislain_fields:0 "Ghislain Fields"
+ world_orlais_blasted_hills:0 "Blasted Hills"
  world_orlais:0 "Orlais"
- o_region_dales:0 "The Dales"
- o_region_nahashin_marsh:0 "Nahashin Marshes"
- o_region_blasted_hills:0 "Blasted Hills"
- o_region_orlesian_plains:0 "Orlesian Plains"
- o_region_ghislain_plains:0 "Ghislain Plains"
- o_region_perendale_mountains:0 "Perendale Mountains"
- o_region_western_approach:0 "Western Approach"
 
- o_region_orlesian_crownlands:0 "Orlesian Crownlands"
- o_region_orlesian_heartlands:0 "Orlesian Heartlands"
- o_region_hissing_wastes:0 "Hissing Wastes"
- o_region_gamord_mountains:0 "Gamord Mountains"
-
- o_region_deauvin_highlands:0 "Deauvin Highlands"
- o_region_orlesian_forests:0 "Orlesian Forests"
- o_region_orlesian_drylands:0 "Orlesian Drylands"
-
- custom_mareschois_population:0 "Nahashin Marshes"
-
- world_innovation_mabari:0 "War Mabari" 
- world_thedas:0 "Thedas"
  world_anderfels:0 "Anderfels"
  world_tevinter:0 "Tevinter"
  world_seheron:0 "Seheron"
+
+ world_thedas:0 "Thedas"
+
+ custom_fereldan_struggle:0 "Fereldan Struggle"
+ custom_brecilian_deep_forest:0 "Deep Brecilian Forest"
+ custom_brecilian_forest_passage:0 "Brecilian Road"
+ custom_brecilian_forest_whole:0 "Brecilian Forest"
+ custom_brandels_reach:0 "Brandel's Reach"
+ custom_orlesian_drylands:0 "Orlesian Drylands"
+ custom_thedas_sea_coastline:0 "Thedas Coastline"
+ custom_mareschois_population:0 "Nahashin Marshes"
+
+ world_innovation_mabari:0 "War Mabari" 
 
  # SEA ZONES
  sea_lake_calenhad:0 "Lake Calenhad"

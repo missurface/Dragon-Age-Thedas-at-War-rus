@@ -71,3 +71,9 @@ councillor_court_chaplain_alamarri_maker_cult_empire_possessive:0 "High Elder's"
 
  councillor_spymaster_wake:0 "Gossiper"
  councillor_spymaster_wake_possessive:0 "Gossiper's"
+
+ #Council Task Modifiers
+ STEWARD_PROMOTE_CULTURE_BRECILIAN_ELVHEN:0 "Dalish Settlement Campaigns"
+ CHAPLAIN_CONVERT_FAITH_BRECILIAN_ELVHEN:0 "Dalish Settlement Campaigns"
+ STEWARD_PROMOTE_CULTURE_AUTOMATIC_BRECILIAN_ELVHEN: "Forced Displacement"
+ CHAPLAIN_CONVERT_FAITH_AUTOMATIC_BRECILIAN_ELVHEN: "Forced Displacement"

@@ -327,3 +327,10 @@
  dataw_filler_western_approach.0010.lost_crown_of_kal_repartha.tit: "With the crown comes the land"
  dataw_filler_western_approach.0010.lost_crown_of_kal_repartha.desc: "With the Crown of Kal-Repartha now in your hands, dwarven customs allows you to rightfully claim the surface thaig as your own."
  dataw_filler_western_approach.0010.crown_of_a_forgotten_thaig.desc: "With the Crown of a Forgotten Thaig now in your hands, dwarven customs allows you to rightfully claim the surface thaig as your own."
+
+ DATAW_events_brecilian_forest.0001.tit: "The Migration into [title.GetBaseNameNoTier]"
+ DATAW_events_brecilian_forest.0001.desc: "With our recent conquest of the [title.GetBaseName], many of the [elvhen|E] have started to move in the Brecilian Forest, seeing it as a new home for our people.\n\n#!Yet with this influx of refugees coming to settle has also arrived conflict with the local [title.GetProvince.GetCulture.GetCollectiveNoun]. They claim they were already settled here for far longer, and that the elves have no right to root them out of their ancestral homes. Without a local ruler in charge to preserve their land rights, the expulsion of local [title.GetProvince.GetCulture.GetCollectiveNounNoTooltip] at the hand of the elves will no doubt continue unimpeded, pushing the locals out of the region and into a world they do not know.\n\n#!Furthermore, many across the forest see the situation in the [title.GetBaseNameNoTooltip] with worry, as it can be expected that a similar situation would occur should we take over another region."
+ DATAW_events_brecilian_forest.0001.opt.a: "This will not endear us to the locals."
+ DATAW_events_brecilian_forest.0001.opt.a.tt: "The Dalish see the Brecilian Forest as a new homeland they can call home.\n\n#!As such, every county conquered in the region will gain the [GetModifier('brecilian_elvhen_culture_automatic_modifier').GetNameWithTooltip] [modifier|E] for 20 years.\n\n#!If a human takes over the county directly, the [GetModifier('brecilian_elvhen_culture_automatic_modifier').GetNameWithTooltip] will stop, and the locals will ensure they never happen again."
+ 
+ 

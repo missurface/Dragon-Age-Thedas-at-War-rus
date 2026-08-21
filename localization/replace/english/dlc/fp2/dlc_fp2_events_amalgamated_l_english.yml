@@ -21,7 +21,7 @@
  fp2_struggle.0900.c:1 "[ROOT.Char.GetFaith.HighGodName] has given Ferelden to the [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip]!"
 	# Other Players
  fp2_struggle.0910.opening.involved:0 "Though it comes from another realm, deliverance from the uncertainty that has engulfed the region for centuries may now be at hand..."
- fp2_struggle.0910.opening:0 "Word of recent developments in the Ferelden valley have reached our court, promising an end to the conflicts that have plagued the region."
+ fp2_struggle.0910.opening:0 "Word of recent developments in the Ferelden Valley have reached our court, promising an end to the conflicts that have plagued the region."
  fp2_struggle.0910.desc:0 "\n\n[struggle_ender.GetName], who now controls the majority of the valley, has proclaimed [struggle_ender.GetHerselfHimself] the ultimate victor of the struggles set in motion long ago by the division of the Alamarri people.\n\n"
  fp2_struggle.0910.closing.faith:0 "[struggle_ender.GetSheHe|U] has proclaimed Ferelden to be a [struggle_ender.GetFaith.GetAdjective] land, and that, [struggle_ender.GetFaith.HighGodName] willing, all heretics and infidels will be driven from [struggle_ender.GetHerHis] domain."
  fp2_struggle.0910.closing.culture:0 "[struggle_ender.GetSheHe|U] has proclaimed Ferelden belongs to the [struggle_ender.GetCulture.GetName], and that all foreign invaders and subjugated peoples accept this reality."

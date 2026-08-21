@@ -60,10 +60,16 @@
 
   GAME_OVER_CANNOT_PLAY_GREY_WARDEN: "Cannot play [grey_warden|E]"
   NOT_GAME_OVER_CANNOT_PLAY_GREY_WARDEN: "$GAME_OVER_CANNOT_PLAY_GREY_WARDEN$"
-
+  is_apostate: "[CHARACTER.GetShortUIName|U] is an [apostate|E] by the rules of your [faith|E]."
+  is_conscripted_mage: "[CHARACTER.GetShortUIName|U] must forcefully serve their court, they are a conscripted mage."
   CANNOT_REVOKE_CIRCLE: "Cannot revoke titles from [circle|E]"
   CANNOT_REVOKE_WARDEN: "Cannot revoke titles from [grey_warden|E]"
-
+  I_CANNOT_BLACKMAIL_OVER_MY_OWN_APOSTATE_CHILD:1 "You cannot blackmail over your own [apostate|E] [child|E]"
+  dataw_send_to_circle: "Send to [circle|E]"
+  RELEASE_BANISH_INVALID_SEND_TO_CIRCLE_CONDITION: "You cannot banish characters and send them to the [circle|E] at the same time."
+  RELEASE_SEND_TO_CIRCLE_INVALID_BANISH_CONDITION: "You cannot banish characters and send them to the [circle|E] at the same time."
+  CIRCLE_NEGATIVE_REASON: "[recipient.GetSheHe|U] does not wish to join the [circle|E] of Magi: $VALUE|=+0$"
+  secret_category_mage: "[mage|E]"
   game_concept_circle: "Circle"
   game_concept_circle_government: "Circle Government"
   game_concept_circle_i: "@circle_icon!"

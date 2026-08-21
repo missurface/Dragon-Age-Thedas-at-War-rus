@@ -154,6 +154,11 @@
  building_type_ducarme_massacre_memorial_desc: "An elven statue found amidst a great andrastian cemetery could lead many to confusion, yet this story is one of remembrance. The statue, representing an elven soldier tearing down the chains of an orphan, shows the elven liberation of the children of Ducarme Orphanage, which was torn down for its crimes against Arlathan's descendants. Under the statue, writing can be found - « Vir Sulahn Var Revas », « We sing our freedom »"
  building_ducarme_massacre_memorial: "Ducarme Massacre Memorial"
  building_ducarme_massacre_memorial_desc: "An elven statue found amidst a great andrastian cemetery could lead many to confusion, yet this story is one of remembrance. The statue, representing an elven soldier tearing down the chains of an orphan, shows the elven liberation of the children of Ducarme Orphanage, which was torn down for its crimes against Arlathan's descendants. Under the statue, writing can be found - « Vir Sulahn Var Revas », « We sing our freedom »"
+ ### Dustytop Fort
+ building_type_dustytop_fort_01: "Dustytop Fort"
+ building_type_dustytop_fort_01_desc: "This fortress of little note is known for being very dusty."
+ building_dustytop_fort_01: "$building_type_dustytop_fort_01$"
+ building_dustytop_fort_01_desc: "$building_type_dustytop_fort_01_desc$"
  ### Edgehall
  building_type_edgehall_01: "Edgehall"
  building_type_edgehall_01_desc: "Originally an outpost of the surface dwarves, now abandoned since Orzammar cut off the Deep Roads, all that remains of that original settlement is the imposing walls and blocked off entrance to the depths. Taking note of its strategic position against the Avvar, the Clayne settled the forgotten ruins and built it up into the settlement of Edgehall, a fortress in the foothills of the Frostbacks looking over the lowlands and shorelines to the East."

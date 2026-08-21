@@ -24,20 +24,21 @@
 
  alamarri_pagan_faith_in_the_struggle: "You are of a faith considered barbaric to the Claynes"
 
+ Must_be_of_clayne_descent: "Must be of Clayne descent"
 
 
+ struggle_secure_fereldan_foothold_empire_tt:0 "You [hold|E] an [empire|E] [title|E] that is not [GetTitleByKey('e_ferelden').GetNameNoTier]"
 
+ struggle_uninvolved_or_external_tt:0 "Your [capital|E] is outside the [GetGeographicalRegion('world_ferelden').GetName] [region|E]"
 
+ struggle_secure_fereldan_foothold_outsider_tt:0 "You [hold|E] at least #Z [SCOPE.ScriptValue('struggle_secure_fereldan_foothold_outsider_target_percent_value')|0]%#! of [counties|E] in the [GetGeographicalRegion('custom_fereldan_struggle').GetName] [region|E] (Current: [SCOPE.ScriptValue('struggle_secure_fereldan_foothold_outsider_percent_value')|0]%)\n"
 
+ 
 
+ 
 
-
-
-
-
-
-
-
+ secure_fereldan_foothold_decision_desc: "Ever since the collapse of the region after the end of Maferath's rule, Ferelden has been an unstable neighbour at best and a hostile one at worst. Kordillus I did his best to bring aid to the common folk against the [darkspawn|E] during the Second [blight|E], but turmoil and conflict still plagues the land of the dog lords to this day. \n\nThis is an unacceptable state for [andraste|E]'s homeland to be in. By bringing it under the rule of Val Royeaux, we could stabilize the region and making it safer for pilgrims and locals alike, while also bolstering our own prestige."
+ subdue_the_dog_lords_decision_title: "Subdue the Dog Lords"
 
 ################################ MAIN EVENTS #######################
 ### main event 1 - how to rule

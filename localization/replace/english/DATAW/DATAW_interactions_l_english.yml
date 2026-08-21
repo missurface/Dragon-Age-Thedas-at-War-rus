@@ -1,0 +1,7 @@
+﻿l_english:
+ I_AM_A_GREY_WARDEN: "I am a [grey_warden|E]: $VALUE|=+0$"
+ THEY_ARE_A_GREY_WARDEN: "[secondary_recipient.GetShortUINameNoTooltip] is a [grey_warden|E]: $VALUE|=+0$"
+ I_AM_A_ELF: "I am a [elvhen|E]: $VALUE|=+0$"
+ THEY_ARE_A_ELF: "[secondary_recipient.GetShortUINameNoTooltip] is a [elvhen|E]: $VALUE|=+0$"
+ I_AM_A_HUMAN: "I am a [human|E]: $VALUE|=+0$"
+ THEY_ARE_A_HUMAN: "[secondary_recipient.GetShortUINameNoTooltip] is a [human|E]: $VALUE|=+0$"

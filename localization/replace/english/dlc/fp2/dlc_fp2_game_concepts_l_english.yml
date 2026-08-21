@@ -31,8 +31,8 @@
  game_concept_contract_assisting: "Assisting Militarily"
  game_concept_contract_assistance_desc:2 "This is a special type of [interaction|E] available to [struggle_involved|E] [rulers|E] of the Fereldan [struggle|E], allowing them to join other [struggle_involved|E] [rulerpossessive|E] [wars|E] in exchange for [gold|E].\n\nPayment is made on conclusion of the [war|E], whatever the outcome, as long as the contractor made a [war_contribution|E] of at least 100."
  
- game_concept_iberian_reclamation:0 "Fereldan Reclamation"
- game_concept_iberian_reclaiming:0 "Fereldan Reclaiming"
- game_concept_iberian_reclamations:0 "Fereldan Reclamations"
- game_concept_iberian_reclamation_desc:2 "This is a special type of [war|E] available to [struggle_involved|E] [rulers|E] of the [fereldan_struggle|E].\n\nThe attacker aims to conquer a [duchy|E] which contains any [struggle_involved|E] [counties|E] held by an [struggle_interloper|E] or [struggle_uninvolved|E] [ruler|E], or [vassalize|E] them if they hold no land outside that Duchy."
+ game_concept_fereldan_reclamation:0 "Fereldan Reclamation"
+ game_concept_fereldan_reclaiming:0 "Fereldan Reclaiming"
+ game_concept_fereldan_reclamations:0 "Fereldan Reclamations"
+ game_concept_fereldan_reclamation_desc:2 "This is a special type of [war|E] available to [struggle_involved|E] [rulers|E] of the [fereldan_struggle|E].\n\nThe attacker aims to conquer a [duchy|E] which contains any [struggle_involved|E] [counties|E] held by an [struggle_interloper|E] or [struggle_uninvolved|E] [ruler|E], or [vassalize|E] them if they hold no land outside that Duchy."
 

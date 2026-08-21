@@ -73,6 +73,7 @@
  DATAW_ciriane_retaliation_war_tt: "#N This will officially begin the War of Independence!#! We will resist Orlesian Occupation!"
  DATAW_ciriane_retaliation_war_next_steps_tt: "#N We will be victorious in our conquests! One Kingdom at a time we shall weaken the Orlesian Empire!#!"
  DATAW_ciriane_retaliation_imprisonment_freed_tt: "Due to the attempted imprisonment by Orlais, #N an army of 10,000 marshmen and local tribes has been spawned to aid you!#!"
+ DATAW_ciriane_retaliation_early_cause_tt: "Due to the unique circumstances and opportunity waning, an army of marshmen and local tribes have been spawned to aid you!#!"
  DATAW_ciriane_retaliation_imprisonment_died_tt: "Due to your predecessor dying at the hands of the Orlesians, #N an army of 14,500 marshmen and local tribes has been spawned to aid you!#!"
 
 
@@ -193,9 +194,9 @@
  dataw_ciriane_rebellion.3002.desc: "Song and celebration ring through the streets of the capital as the victorious soldiers make their triumphant return.\n\nI stand among the crowd, looking with [orlais.GetMotherFather]ly pride upon my troops. The marshfolk fought well, but we fought better.\n\n#N In the days to come, there will be consequences for my errant vassal’s treason, but for now we may take comfort in the fact that the empire has remained intact despite everything.#!"
  dataw_ciriane_rebellion.3002.a: "Long may it remain so."
  # Variant Desc for Kordillus
- dataw_ciriane_rebellion.3002.desc.k: "Song and celebration ring through the streets of the capital as the victorious soldiers make their triumphant return.\n\nI stand among the crowd, looking with [orlais.GetMotherFather]ly pride upon my troops. The marshfolk fought well, but we fought better. Yet the victory is a bittersweet one; my grandson [cyril.GetFirstName] lies dead, slain by the traitor's own hand.\n\n#N In the days to come, there will be consequences for this, but for now.#!"
+ dataw_ciriane_rebellion.3002.desc.k: "Song and celebration ring through the streets of the capital as the victorious soldiers make their triumphant return.\n\nI stand among the crowd, looking with [orlais.GetMotherFather]ly pride upon my troops. The marshfolk fought well, but we fought better. Yet the victory is a bittersweet one; my grandson [cyril.GetFirstName] lies dead, slain by the traitor's own hand.\n\n#N In the days to come, there will be consequences for this, but for now we may take comfort in the fact that the empire has remained intact despite everything.#!"
 # Variant Desc for Jeaneve
- dataw_ciriane_rebellion.3002.desc.j: "Song and celebration ring through the streets of the capital as the victorious soldiers make their triumphant return.\n\nI stand among the crowd, looking with [orlais.GetMotherFather]ly pride upon my troops. The marshfolk fought well, but we fought better. Yet the victory is a bittersweet one; my brother [cyril.GetFirstName] lies dead, slain by the traitor's own hand.\n\n#N In the days to come, there will be consequences for this, but for now.##!"
+ dataw_ciriane_rebellion.3002.desc.j: "Song and celebration ring through the streets of the capital as the victorious soldiers make their triumphant return.\n\nI stand among the crowd, looking with [orlais.GetMotherFather]ly pride upon my troops. The marshfolk fought well, but we fought better. Yet the victory is a bittersweet one; my brother [cyril.GetFirstName] lies dead, slain by the traitor's own hand.\n\n#N In the days to come, there will be consequences for this, but for now we may take comfort in the fact that the empire has remained intact despite everything.##!"
 # Variant Desc if Cyril kills Roux for Kordillus
  dataw_ciriane_rebellion.3002.desc.c.k: "Song and celebration ring through the streets of the capital as the victorious soldiers make their triumphant return.\n\nRiding at the head of the column is my grandson [cyril.GetFirstName], the vaunted hero who slew the traitor in single combat. I stand among the crowd, looking with [orlais.GetMotherFather]ly pride upon my troops. The marshfolk fought well, but we fought better.\n\n#N In the days to come, there will be consequences for their treason, but for now we may take comfort in the fact that the empire has remained intact despite everything.#!"
 # Variant Desc if Cyril kills Roux for Jeaneve
@@ -355,12 +356,25 @@
  # The Turns of Fate
  dataw_ciriane_rebellion.3703.t: "The Fall of Orlais"
  dataw_ciriane_rebellion.3703.g.t: "A Wise Choice"
- dataw_ciriane_rebellion.3703.desc: "A once mighty empire, now brought so low. With the fall of Orlais upon us, the balance of power has changed forever.\n\n#italic Who shall rise in the ashes of the previous empire?#!\n\nSurely the lands west of the [GetGeographicalRegion('f_region_frostback_mountains').GetName] will see nothing but conflict until someone else comes along to succeed where the previous ruler of Orlais failed.\n\n#italic Perhaps, that someone to rise amidst their fall should be one such as I?#!\n\nI now have much to consider with this newfound freedom, as challenges are sure to come as a result.\n\n#N We no longer must bow to another with a crown, but now I can only rely on myself and my vassals.#!"
+ dataw_ciriane_rebellion.3703.desc: "A once mighty empire, now brought so low. With the fall of Orlais upon us, the balance of power has changed forever.\n\n#italic Who shall rise in the ashes of the previous empire?#!\n\nSurely the lands west of the [GetGeographicalRegion('world_ferelden_frostback_mountains').GetName] will see nothing but conflict until someone else comes along to succeed where the previous ruler of Orlais failed.\n\n#italic Perhaps, that someone to rise amidst their fall should be one such as I?#!\n\nI now have much to consider with this newfound freedom, as challenges are sure to come as a result.\n\n#N We no longer must bow to another with a crown, but now I can only rely on myself and my vassals.#!"
  dataw_ciriane_rebellion.3703.g.desc: "As I stand before my councilors, considering my options before potentially leading a rebellion, I hear the door to the chamber open. One of my servants delivers a message to me, to which they claim I should read it right away. Quickly, I begin to read this message, only to find the greatest of surprises awaiting me.\n\n#italic "The [GetGeographicalRegion('custom_mareschois_population').GetName] have been granted independence by order of the [orlais.GetTitleAsNameNoTooltip]"#!. My words leave my lips before I’m able to truly process what this news means. Each of my councilors explode in jubilation as they congratulate me, but I can’t even fathom this development.\n\nOnce I recover from the mind boggling information given to me, I too cheer and laugh along with those next to me. Now we need not prepare for war, but to prepare to act as an independent people as intended.\n\n#N Finally, the people of Nahashin need only worry for themselves, united against anyone else that may wish us harm in the future.#!"
  dataw_ciriane_rebellion.3703.a: "What comes next?"
  dataw_ciriane_rebellion.3703.a.g: "Nahashin’s future is a bright one!"
  dataw_ciriane_rebellion.3703.a_tt: "With Orlais dissolving - #N all plans of the Ciriane Rebellion has ended, but not the story of the Ciriane.#! You have unlocked new decisions & events to Reform the Ciriane Kingdom!"
  dataw_ciriane_rebellion.3703.a.g_tt: "With Orlais granting you independence - #N all plans of the Ciriane Rebellion has ended, but not the story of the Ciriane.#! You have unlocked new decisions & events to Reform the Ciriane Kingdom!"
+ # Pre-RC Extra checks, option to declare independence or back down
+ dataw_ciriane_rebellion.3704_t_early_war: "The Early Call"
+ dataw_ciriane_rebellion.3704_t_early_vassalization: "A Forced Hand"
+ dataw_ciriane_rebellion.3704_t_early_dissolved: "The Collapsed Distraction"
+ dataw_ciriane_rebellion.3704_desc_early_war: "War has come to the Empire. Earlier than any could have predicted, the Dales and Orlais are levying their troops, and marching against one another.\n\nNow comes the time for our independence, sooner than I could have predicted. The people, eager at the news, have begun mobilizing at my back.\n\n#bold The preparations may not be complete, I believe in our success.#!"
+ dataw_ciriane_rebellion.3704_desc_early_vassalization: "My entire court has been cast into a frenzy this morning. Commoners outraged, courtiers shocked... Chaos has gripped my capital, and it is only through pining my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('messenger'))], [messenger.GetShortUIName] that I discover the reason for such panic.\n\n#bold The Dales have accepted vassalage to Orlais. The distraction so many were hoping for will not come.#!\n\nAlready, commoners have been seen mobilizing in every corner of Nahashin. Many believe that if the Mareschois desire independence, they must act now. I need only say the word."
+ dataw_ciriane_rebellion.3704_desc_early_dissolved: "#bold The Dales have collapsed.#!\n\nThe elves through which we hoped to distract the Empire have fallen into squabbling, and will be unable to mount an effective force against [GetTitleByKey('c_val_royeaux').GetBaseNameNoTier].\n\nThis has sent my capital, and all of Nahashin in a frenzy.\n\nMany wish for independence. Many believe that if we do not act now, Orlais will only grow stronger, especially now that the Dales are no more."
+ dataw_ciriane_rebellion.3704_opt_a_early_war: "Now we march against those perfumed fools"
+ dataw_ciriane_rebellion.3704_opt_a_early_vassalization: "We go to war. For freedom, now or never"
+ dataw_ciriane_rebellion.3704_opt_a_early_dissolved: "Levy the troops. We must act now, for independence"
+ dataw_ciriane_rebellion.3704_opt_b_early_war: "I am not ready. Declaring now would spell our doom"
+ dataw_ciriane_rebellion.3704_opt_b_early_vassalization: "Without distractions, it is a doomed attempt"
+ dataw_ciriane_rebellion.3704_opt_b_early_dissolved: "Without distractions, it is a doomed attempt"
 ### Ally with the Ciriane Cult Event Chain
  # The Old Ways
  dataw_ciriane_rebellion.3800.t: "The Old Ways"
@@ -449,6 +463,9 @@
  dataw_ciriane_rebellion_gain_4_tribal_acceptance_tt: "You Gain #positive_value 4#! [dataw_tribal_acceptance|E]"
  CIRIANE_REBELLION_VALUE_FOR_DECISIONS_COMPLETED: "The Amount of Decisions Completed to Form Ciriane Empire:"
  CIRIANE_REBELLION_ORLAIS_POINTS: "The Amount of Ciriane Tribes Destroyed:"
+ CIRIANE_REBELLION_SIDE_ORLAIS_POINTS: "The Amount of Siding with Orlais Points:"
+ CIRIANE_REBELLION_SIDE_ORLAIS_VICTORIES: "The Amount of Victories Won for Orlais:"
+ CIRIANE_REBELLION_SIDE_ORLAIS_WAR: "The Amount of Wars Won for Orlais:"
  # Marsh Courier
  dataw_ciriane_rebellion.3900.t: "Marsh Courier"
  dataw_ciriane_rebellion.3900.desc: "A trusted agent must be sent into the marshes to make contact with our [GetGlobalVariable('ciriane_culture_var').Culture.GetName] kin. The ideal person would be discrete and well-spoken.\n\n#N But they will also need strength & bravado to impress the barbarians.#!"
@@ -466,14 +483,14 @@
   CIRIANE_STORY_PRACTICAL_INFORMATION_STRING: "[Story.MakeScope.Var('debug_test_story_liege').Char.GetShortUIName] is your [liege|E]. $game_concept_dataw_tribal_acceptance$ is a number that affects the loyalty meter of the local [GetGlobalVariable('ciriane_culture_var').Culture.GetName] Tribes"
  CIRIANE_REBELLION_ORLAIS: "The Orlesian Ruler, Current \"Liege\""
  CIRIANE_REBELLION_EVENT_TROOPS_COUNT: "Amount of Event Troops Gained Upon Independence War"
- TRIBAL_ACCEPTANCE: "Ciriane Tribal Acceptance"
+ TRIBAL_ACCEPTANCE: "Ciriane [dataw_tribal_acceptance|E]"
  TRIBAL_ACCEPTANCE_MIN_VALUE_LABEL: "Unworthy"
  TRIBAL_ACCEPTANCE_MAX_VALUE_LABEL: "Worthy"
 
- ciriane_story_counter_positive: "This will #positive_value raise#! [dataw_tribal_acceptance|E] to the [GetGlobalVariable('ciriane_culture_var').Culture.GetName] Tribes"
- ciriane_story_counter_very_positive: "This will #positive_value greatly raise#! [debug_test_story|E] to the [GetGlobalVariable('ciriane_culture_var').Culture.GetName] Tribes"
- ciriane_story_counter_negative: "This will #negative_value question#! [debug_test_story|E] to the [GetGlobalVariable('ciriane_culture_var').Culture.GetName] Tribes"
- ciriane_story_counter_very_negative: "This will #negative_value greatly question#! [debug_test_story|E] to the [GetGlobalVariable('ciriane_culture_var').Culture.GetName] Tribes"
+ ciriane_story_counter_positive: "This will #positive_value increase#! [dataw_tribal_acceptance|E] to the [GetGlobalVariable('ciriane_culture_var').Culture.GetName] Tribes"
+ ciriane_story_counter_very_positive: "This will #positive_value greatly increase#! [dataw_tribal_acceptance|E] to the [GetGlobalVariable('ciriane_culture_var').Culture.GetName] Tribes"
+ ciriane_story_counter_negative: "This will #negative_value decrease#! [dataw_tribal_acceptance|E] to the [GetGlobalVariable('ciriane_culture_var').Culture.GetName] Tribes"
+ ciriane_story_counter_very_negative: "This will #negative_value greatly decrease#! [dataw_tribal_acceptance|E] to the [GetGlobalVariable('ciriane_culture_var').Culture.GetName] Tribes"
 
 
 ### Seeking out the Local Tribes Event Chain
@@ -738,7 +755,7 @@
  dataw_ciriane_rebellion.4151.t: "A Plot Amongst the Marshes"
  dataw_ciriane_rebellion.4151.desc: "My blade sinks inside the neck of my assailant, taken aback by surprise. Barely able to react, [assassin.GetSheHe] slowly attempts to strike back, but is easily restrained as [assassin.GetSheHe] dies, blood gushing from his neck.\n\nAs I observe the body, my bodyguard [bodyguard.GetName] enters the room at the sound of death.\n\n#italic "My Duke! I am sorry to have let that one slip through! I am glad you managed to stop him in time!#!\n\nAs we observe the body closer, we end up finding a note, written in Old Ciriane, which translates as: #italic Night-Blade, the window will be open for you to strike down the Betrayer of the Marshes at the point where Somisarian’s light in the dark is highest. Those who hide amongst the Marshes trust that you shall do the deed, for we all work against the Betrayer of the Marshes.#!\n\nIt seems like the assassin was sent by a group who calls itself "Those who hide amongst the Marshes". That secret group seems hellbent on taking me down, and who knows how far their influence reigns. No doubt another agent would lure nearby, hidden amongst my courtiers. Finding him would be extremely useful." 
  dataw_ciriane_rebellion.4151.a: "Let the hunt begin."
- dataw_ciriane_rebellion.4151.a_tt: "The Hunt for "Those who hide amongst the Marshes" now begins."
+ dataw_ciriane_rebellion.4151.a_tt: "The Hunt for "Those who hide amongst the Marshes" now begins. #italic It would be wise to look amidst your vassals and courtiers, for #N any could hide the dangerous secret of being part of the conspirators.#!#!" 
 
 # Siding with Orlais: Those who hide amongst the Marshes
 # An Offer of Vengeance
@@ -796,12 +813,12 @@
  dataw_ciriane_rebellion.4153.b.w.c_tt: "Random MAA size of [nahashin.GetFirstName] down by 2"
  dataw_ciriane_rebellion.4153.b.l.c_tt: "A random MAA size of yours goes down by 2"
 
- dataw_ciriane_rebellion.4153.c: "We will work against the [nahashin.GetTitleAsNameNoTooltip] by planting an agent in every wall of [nahashin.GetHerHis] keep."
+ dataw_ciriane_rebellion.4153.c: "Plant an agent in every wall to hear every word!"
  dataw_ciriane_rebellion.4153.c.w_tt: "[courtier.GetFirstName] joins the murder plot against [nahashin.GetFirstName]"
  dataw_ciriane_rebellion.4153.c.l_tt: "The mercenaries refuse to join you!"
  dataw_ciriane_rebellion.4153.c.t_tt: "[courtier.GetName]"
- dataw_ciriane_rebellion.4153.d: "Ruin [nahashin.GetHerHis] markets, make the seat of Val Royeaux’s pet suffer."
- dataw_ciriane_rebellion.4153.e: "By teaching the peasants the ways of old, we can stray them away from Orlais!"
+ dataw_ciriane_rebellion.4153.d: "Ruin [nahashin.GetHerHis] markets, make the seat of Val Royeaux’s pet suffer"
+ dataw_ciriane_rebellion.4153.e: "We shall teach the peasants the old ways, to stray them away from Orlais"
  dataw_ciriane_rebellion.4153.e_tt: "The Hunt for "Those who hide amongst the Marshes" now begins."
  dataw_ciriane_rebellion.4153.e.w_tt: "The Mercenaries agree to join you!"
  dataw_ciriane_rebellion.4153.e.l_tt: "The Mercenaries refuse to join you!"
@@ -839,7 +856,7 @@
 # The Hidden Nest
  dataw_ciriane_rebellion.4157.t: "The Hidden Nest"
  dataw_ciriane_rebellion.4157.desc: "Thanks to the information we’ve gathered from our lovely involuntary informant, we are now in the middle of the swamp, in front of an old building, seemingly lost to time. No doubt this is the lair of Those who hide amongst the Marshes, or, I hope, enough to dismantle this heinous group. To minimize my chances of getting discovered, only a minimal group of soldiers are with me today.\n\nAfter a strategic meeting with a few of my advisors, I have two options.\n\n#N I can either strike hard and fast before they can react by sheer overwhelming force and surprise, or slowly and methodically encircle the entire building before coming in from all sides, blocking all routes of escape.#!" 
- dataw_ciriane_rebellion.4157.a: "We will strike hard, leaving them no time to organize any defense!"
+ dataw_ciriane_rebellion.4157.a: "We will strike hard, give no time to organize a defense!"
  dataw_ciriane_rebellion.4157.b: "We will encircle the building and strike from all directions."
  dataw_ciriane_rebellion.4157.a.a_tt: "Up to 5 agents will be captured, if there's that many."
  dataw_ciriane_rebellion.4157.a.b_tt: "Any possible agents escape."

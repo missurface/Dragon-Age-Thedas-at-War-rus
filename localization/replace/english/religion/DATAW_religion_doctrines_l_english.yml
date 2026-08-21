@@ -17,7 +17,7 @@
   tenet_tree_sepulture_name: "Protectors of the Living Sepultures"
   tenet_tree_sepulture_desc: "The forests are filled with trees that have been used to bury the deceased for generations. Their bodies are sealed inside the trunks, protecting the corpse from possession by demons. Each and every tree we may come across could be the sepulture of a long lost parent or other, and as such, the forest must be nurtured and protected from harm."
   doctrine_funeral_tree_burial_active_name: "Tree Burial"
-  doctrine_funeral_tree_burial_active_desc: "With an oaken staff to aid their travels in the Beyond and a cedar branch to ward off the ravens of Dirthamen, our dead are laid to rest beneath the earth. Above their remains we plant a tree, their Vallasdahlen, both to remember them by and to feed new life with each of our deaths. Walk beneath them with reverence, and remember that each of them once had a name." #TODO Should this have a different description than the tenet?
+  doctrine_funeral_tree_burial_active_desc: "With an oaken staff to aid their travels in the Beyond and a cedar branch to ward off the ravens of Dirthamen, our dead are laid to rest beneath the earth. Above their remains we plant a tree, their Vallasdahlen, both to remember them by and to feed new life with each of our deaths. Walk beneath them with reverence, and remember that each of them once had a name."
   doctrine_parameter_tree_burial_active: "[rulers|E] can give their ancestors a Tree Burial, gaining [piety|E] and pleasing their [vassals|E]"
   
   doctrine_funeral_tree_sepulture_active_name: "Tree Sepulture"
@@ -37,8 +37,11 @@
   doctrine_unlanded_sages_desc: "[Concept('mage','Mages')|E] are accepted and even revered as sages or advisors able to display wisdom and connection to the [fade|E] to the common folk. Yet the holding of [titles|E] of [land|E] is forbidden to them, as [dataw_magic|E] has no place on a throne."
   doctrine_persecution_name: "Persecution"
   doctrine_persecution_desc: "[Concept('mage','Mages')|E] are targets of persecution, and forced to hide their abilities."
+  doctrine_unregulated_magic_name: "Unregulated Magic"
+  doctrine_unregulated_magic_desc: "This faith believes that [dataw_magic|E] should be freely used without any restrictons."
   court_enchanter_allowed_name: "Court Enchanter Allowed"
   court_enchanter_disallowed_name: "Court Enchanter Disallowed"
-  doctrine_parameter_circle_system_active:0 "The [circle|E] Government is active."
-  doctrine_parameter_persecution_active: "Mages will experience persecution and flee if they can"  # - add mechs
-  doctrine_parameter_tranquil_solution_active: "Mages will be forced to have their access to the [fade|E] severed"  # - add mechs
+  doctrine_parameter_circle_system_active: "The [circle|E] Government is active."
+  doctrine_parameter_persecution_active: "Mages will experience persecution and flee if they can"
+  doctrine_parameter_tranquil_solution_active: "Mages will be forced to have their access to the [fade|E] severed"
+  tranquil_solution_active_name: "Mages will be forced to have their access to the [fade|E] severed"

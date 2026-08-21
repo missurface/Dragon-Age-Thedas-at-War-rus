@@ -1,13 +1,14 @@
 ﻿l_english:
 # EVENT 1     #THE FIRST STONE
  DATAW_ulstor_events.001.tit: "The First Stone"
- DATAW_ulstor_events.001.desc: "Edgehall, a hall of my own. Built by the dwarves long before the first Blight as a surface outpost, and abandoned when the darkspawn attacked their underground thaigs. \n\nSoon after, the land would be claimed by the native Alamarri, led by the mythical Luthias Dwarfson. His kin and ilk ruled this land for generations - a western bulwark of civilization for the Clayne against the Avvar tribes of the Frostbacks. But the Avvar remember the dishonor inflicted on Morrighan'nan, the hand of friendship pushed aside and spurned. Luthias may have been a hero to the lowlanders, but to us, he was a fraud, and his hall free for the taking by right of conquest. \n\nAnd so I did. The Wolf of the Highlands never quite felt at home in his step-father's hold Far Peak. Stigandr tried his best to impart the ways of the Wise-Wind upon me, but after my mother's passing I was clanless. Upon reaching manhood I wandered, full of rage, unsure of my purpose or who I really was. \n\nI've seen and done much. But what I desired most of all was a hall of my own, so when my friend Endre brought word of the defenseless lands to our east, mismanaged for centuries by Luthias' vile spawn, I knew the hour of the wolf had finally come!"
+ DATAW_ulstor_events.001.desc: "Edgehall, a hall of my own. Built by the dwarves long before the first Blight as a surface outpost, and abandoned when the darkspawn attacked their underground thaigs. \n\nSoon after, the land would be claimed by the native Alamarri, led by the mythical Luthias Dwarfson. But the Avvar remember the dishonor inflicted on Morrighan'nan, the hand of friendship pushed aside and spurned. Luthias may have been a hero to the lowlanders, but to us, he was a fraud, and his hall free for the taking by right of conquest. \n\nAnd so I did. The Wolf of the Highlands never quite felt at home in his step-father's hold Far Peak. Stigandr tried his best to impart the ways of the Wise-Wind upon me, but after my mother's passing I was clanless. Upon reaching manhood I wandered, full of rage, unsure of my purpose or who I really was."
 
  DATAW_ulstor_events.001.opt.a: "And so Edgehall did burn..."
  DATAW_ulstor_events.001.opt.a.tooltip: "During my conquest of Edgehall, I spared not a soul from my wrath, and my coffers benefited all the more for it. This should serve as material to equip my army with before #N making war with Redcliffe.#!"
  DATAW_ulstor_events.001.opt.b: "And so I sat the throne..."
  DATAW_ulstor_events.001.opt.b.tooltip: "During my conquest of Edgehall, I spared a majority of the civilian population, earning me much respect from my Clayne neighbors. This should serve to strengthen my reputation with the locals before #N making war with Redcliffe.#!"
 
+ western_provinces_become_avvar: "The western provinces of your realm are settled by Avvar warriors"
 
 # EVENT 2     #THE WHETSTONE
  DATAW_ulstor_events.002.tit: "The Whetstone"

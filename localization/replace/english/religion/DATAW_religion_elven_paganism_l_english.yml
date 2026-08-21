@@ -92,6 +92,13 @@
  forgotten_ones_faith_adherent_plural:0 "Followers"
  forgotten_ones_faith_desc:0 "Some elves - forsaken by the gods and forsaking them in turn - reached out to others, most of whom have been willingly lost to the mists of time. But a few remain."
 
+
+
+ forgotten_pantheon_term:0 "Forgotten Ones"
+ forgotten_pantheon_term_2:0 "$forgotten_pantheon_term$"
+ forgotten_pantheon_term_3:0 "$forgotten_pantheon_term$"
+
+
  forgotten_ones_high_god_name:0 "the Forgotten Ones"
  forgotten_ones_high_god_name_2:0 "$forgotten_ones_high_god_name$" # Optional translation alt
  forgotten_ones_high_god_name_possessive:0 "the Forgotten Ones'"
@@ -120,8 +127,11 @@
  forgotten_ones_faith_term_2:0 "$forgotten_ones_faith_term$"
  forgotten_ones_faith_term_3:0 "$forgotten_ones_faith_term$"
  forgotten_ones_good_god_anaris:0 "Anaris"
- forgotten_ones_good_god_daern'thal:0 "Daern'thal"
+ forgotten_ones_good_god_anaris_possessive:0 "Anaris'"
+ forgotten_ones_good_god_daern_thal:0 "Daern'thal"
+ forgotten_ones_good_god_daern_thal_possessive:0 "Daern'thal's"
  forgotten_ones_good_god_geldauran:0 "Geldauran"
+ forgotten_ones_good_god_geldauran_possessive:0 "Geldauran's"
  forgotten_ones_devil_name:0 "the Creators"
  forgotten_ones_devil_name_possessive:0 "the Creators'"
  forgotten_ones_devil_herselfhimself:0 "themselves"
@@ -151,10 +161,10 @@
  forgotten_ones_priest_plural:0 "keepers"
  forgotten_ones_bishop:0 "high keeper"
  forgotten_ones_bishop_plural:0 "high keepers"
- forgotten_ones_divine_realm:0 "the Beyond"
+ forgotten_ones_divine_realm:0 "the Abyss"
  forgotten_ones_divine_realm_2:0 "$forgotten_ones_divine_realm$" # Optional translation alt
  forgotten_ones_divine_realm_3:0 "$forgotten_ones_divine_realm$" # Optional translation alt
- forgotten_ones_negative_afterlife:0 "the Abyss"
+ forgotten_ones_negative_afterlife:0 "the Beyond"
  forgotten_ones_negative_afterlife_2:0 "$forgotten_ones_negative_afterlife$" # Optional translation alt
  forgotten_ones_negative_afterlife_3:0 "$forgotten_ones_negative_afterlife$" # Optional translation alt
  ghw_tel_avhenan:0 "Tel'avhenan"

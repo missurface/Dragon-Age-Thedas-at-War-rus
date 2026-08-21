@@ -653,8 +653,8 @@
  #
  c_lothering:0 "Lothering"
  c_lothering_adj:0 "Lothering"
- c_therinfal_redoubt:0 "Therinfal Redoubt"
- c_therinfal_redoubt_adj:0 "Therinfal Redoubt"
+ c_therinfal:0 "Therinfal"
+ c_therinfal_adj:0 "Therinfal"
  c_south_reach:0 "South Reach"
  c_south_reach_adj:0 "South Reach"
  c_ruswold_valley:0 "Ruswold Valley"
@@ -713,7 +713,7 @@
  b_knighton:0 "Knighton"
  b_lipson:0 "Lipson"
  b_beaufort:0 "Beaufort"
- b_therinfal_redoubt:0 "Therinfal Redoubt"
+ b_therinfal:0 "Therinfal"
  b_bronte:0 "Bronte"
  b_avisford:0 "Avisford"
 

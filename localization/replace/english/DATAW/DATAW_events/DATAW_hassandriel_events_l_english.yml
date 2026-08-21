@@ -67,7 +67,7 @@
  DATAW_hassandriel_events.008.desc.cynical: "\n\nI would pray that I never have to resort to it, but I know, deep inside, that those prayers would be futile."
  DATAW_hassandriel_events.008.opt.a: "#italic [Glossary(' Melana en athim las enaste','Melanaenathimlasenaste_GLOSS')]#!"
  Melanaenathimlasenaste_GLOSS: ""May humility grant favor", in the elven tongue. A saying implying that staying humble is the right way to proceed."
- DATAW_hassandriel_events.008.opt.a.tooltip: "Your relation with the ruler of Orlais could make or break the reception of the Dalish Chantry, if it ever comes to be. It would be wise to appease Orlais, in case of hostilities."
+ DATAW_hassandriel_events.008.opt.a.tooltip: "Your relation with the ruler of Orlais could make or break the reception of the Dalish Chantry, if it ever comes to be. #N It would be wise to work toward good relations with Orlais, in case of hostilities.#!"
 
 # EVENT 9
  DATAW_hassandriel_events.009.tit: "The Dalish Chantry: A Bloody and Messy Birth"

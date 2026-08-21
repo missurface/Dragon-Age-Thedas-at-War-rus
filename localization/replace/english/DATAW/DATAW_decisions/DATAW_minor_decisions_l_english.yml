@@ -23,3 +23,8 @@
  investigate_ducarme_orphanage_confirm: "Ducarme's secrets will be revealed."
  investigate_ducarme_orphanage_tooltip: "Look into the mysteries of [GetBuilding('ducarme_orphanage').GetName]"
 
+ DATAW_join_the_circle_decision: "Join the Circle"
+ DATAW_join_the_circle_decision_tooltip: "Join the Circle"
+ DATAW_join_the_circle_decision_desc: "I'm tired of hiding my Magical abilities- It is time to come clean  my [dataw_magic|E] and head to the [circle|E]."
+ DATAW_join_the_circle_decision_confirm: "I will join the Circle."
+ DATAW_join_the_circle_decision_deny: "I will remain a free [mage|E]."

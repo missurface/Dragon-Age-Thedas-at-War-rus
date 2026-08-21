@@ -102,8 +102,6 @@
  game_concept_chant_of_light_desc: "The [chantry|E]'s holy book. It was written by the followers of [andraste|E], with portions said to be penned by the prophet herself."
  game_concept_knight_commander: "Knight-Commander" 
  game_concept_knight_commander_desc: "The leader of the [templar|E]s stationed at a given [circle|E] tower. The Knight-Commander can dispatch templars to watch over [GetTrait('circle_mage').GetName( GetNullCharacter )]s, deal with [GetTrait('apostate').GetName( GetNullCharacter )]s, or even help the local chantries. He or she can also recommend the Right of Annulment, calling for the execution of all [Concept('mage','Mages')|E] in a Circle should it be threatened beyond recovery."
- game_concept_eluvian: "Eluvian" 
- game_concept_eluvian_desc: "An ancient elven mirror of mysterious purpose."
  game_concept_first_warden: "First Warden" 
  game_concept_first_warden_desc: "The official head of the [grey_warden|E]s, the First Warden commands Wardens across [thedas|E] from Weisshaupt Fortress in the [GetGeographicalRegion('world_anderfels').GetName]. He or she maintains the right to summon any or all [warden_commander|E]s to Weisshaupt when necessary. The First Warden has traditionally acted as the Ander king's adviser."
  game_concept_dataw_magic: "Magic"
@@ -112,6 +110,8 @@
  game_concept_dataw_magical_prowess_desc: "Magical Prowess indicates how good a character is at utilizing [dataw_magic|E] in its different forms, be it in combat or else. A high Magical Prowess is important for all types of [Concept('mage','Mages')|E], since it increases their ability of casting various spells, regenerating [dataw_mana|E], and the speed it takes to learn new spells."
  game_concept_dataw_magical_resistance: "Magical Resistance"
  game_concept_dataw_magical_resistance_desc: "Magical Resistance is the chance of hostile spells to fail, preventing their effects altogether, be it combat related or general spell casting. The higher a character's magical resistance is, the more protected they are from the dangers of hostile spells. A very important stat for characters who plan to combat mages or have mages as rivals."
+ game_concept_apostate: "Apostate"
+ game_concept_apostate_desc: "Apostates are 'illegal mages' that are evading the [circle|E] of Magi. They have the [GetTrait('apostate').GetName( GetNullCharacter )] trait, as [dataw_magic|E] is illegal in their homeland. Depending upon a person's faith, they might be subject to death, conscription, or the [rite_of_tranquility|E]."
  game_concept_dataw_mana: "Mana"
  game_concept_dataw_mana_desc: "Mana is a nebulous concept used to refer to the magical reserves a [mage|E] possesses to cast spells. The more mana a [mage|E] has, the more spells the [mage|E] will be able to cast. #N Blood magic#! also allows blood to act as a substitute to mana."
  game_concept_dog_lords: "Dog Lords"
@@ -137,7 +137,8 @@
  game_concept_battle_of_valarian_fields_desc: "The Battle of Valarian Fields took place in -171 Ancient, where the Alamarri army, led by [andraste|E] and Maferath, joined forces with [elves|E] formerly slaves led by Shartan to advance further into the heart of the Imperium. This battle marked their first major challenge against Tevinter, as it rapidly shifted from siege to open combat. Ultimately, the Alamarri and elven forces emerged victorious, defeating Tevinter's greatest army; all Andrastians believe the [maker|E] smiled upon his children that day." #wip
  game_concept_battle_of_starkhaven: "Battle of Starkhaven"
  game_concept_battle_of_starkhaven_desc: "In 1:95 Divine, the final battle of the Second [blight|E] occurred in Starkhaven, where [grey_warden|E]s led an army against the [darkspawn|E]. They set a trap for the [archdemon|E] Zazikel, who was aware of their plan and surrounded them on all sides. After heavy casualties, [grey_warden|E] Corin defeated Zazikel, with his [mage|E] lover, Neriah, sacrificing herself to save him from a deadly attack. Corin was then able to fight his way to Zazkiel, striking a final blow, killing both himself and the [old_god|E], ending the Second [blight|E]." #wip
-
+ game_concept_the_calling: "The Calling"
+ game_concept_the_calling_desc: "the Calling TODO" 
 
 
 

@@ -18,3 +18,9 @@
  survived_sack_of_great_city_desc: "I've survived the sack of [ROOT.Var('province').GetProvince.GetName]"
  survived_sack_of_great_city_desc_second_perspective: "You've survived the sack of [ROOT.Var('province').GetProvince.GetName]"
  survived_sack_of_great_city_desc_third_perspective: "[owner.GetTitledFirstName] has survived the sack of [ROOT.Var('province').GetProvince.GetName]"
+
+ # magic memories 
+ dataw_joined_circle_of_magi: "The [circle|E] of Magi"
+ dataw_joined_circle_of_magi_desc: "I've joined the [circle|E] of Magi"
+ dataw_joined_circle_of_magi_desc_second_perspective: "You've joined the [circle|E] of Magi"
+ dataw_joined_circle_of_magi_desc_third_perspective: "[owner.GetTitledFirstName] has joined the [circle|E] of Magi"

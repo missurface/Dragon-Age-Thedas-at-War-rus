@@ -7,3 +7,4 @@
  embrace_english_culture_vassals_custom:1 "Every $clayne$ or $wake$ [vassal|E] in de jure Ferelden"
  embrace_english_culture_counties_custom:1 "Every $clayne$ [county|e] in de jure Ferelden"
  decision_embrace_english_culture_get_innovations:1 "The Fereldan [culture|E] gains all Clayne and Wake [innovations|E]"
+ islamic_vassals_will_convert:1 "As I am Elvhen, my [tribal|E] vassals will change to [clan|E] government"

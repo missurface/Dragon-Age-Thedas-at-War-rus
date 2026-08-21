@@ -37,6 +37,7 @@
  heroic_offense_perk_effect: "Grant your target a modifier to increase fatal casualties."
  haste_perk_name: "Haste"
  haste_perk_effect: "Grant your target faster movement and travel speed."
+ debug_testttt: "[spell_caster.GetFirstName] has casted [spell_caster.Char.MakeScope.Var( 'spell_selected' ).GetFlagName] on [spell_target.GetFirstName]"
 #  mass_heal_perk_name: "Mass Heal"
 #  mass_heal_perk_effect: "Grant everyone in your target's court or entourage temporarily healing"
  life_ward_perk_name: "Life Ward"

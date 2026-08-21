@@ -175,6 +175,8 @@
  city_elf_wycomean:0 "Wycomean City Elf"
  city_elf_wycomean_prefix:0 "Wycomean City Elf"
  city_elf_wycomean_collective_noun:0 "Wycomean City Elves"
+ dalish_group:0 "Dalish"
+ dalish_group_collective_noun:0 "Dalish"
  dalish_settled:0 "Settled Dalish"
  dalish_settled_prefix:0 "Settled Dalish"
  dalish_settled_collective_noun:0 "Settled Dalish"

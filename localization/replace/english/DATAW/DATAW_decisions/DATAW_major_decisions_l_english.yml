@@ -593,3 +593,33 @@ DATAW_integrate_brecilian_forest_decision:0 "Bring the Forest to Heel"
 DATAW_integrate_brecilian_forest_decision_desc:0 "For as long as can be remembered, our traders have faced constant harrassment by forest savages as they made the journey through the pass from Gwaren to the rest of Ferelden. Now, with the complete subjugation of the forests, we have an opportunity to integrate these lands into our realm forevermore by giving [GetTitleByKey('k_gwaren').GetBaseNameNoTier] stewardship over the area."
 DATAW_integrate_brecilian_forest_decision_confirm:0 "The forest falls silent"
 DATAW_integrate_brecilian_forest_decision_tooltip:0 "Lands of [GetTitleByKey('k_brecilian_forest').GetBaseNameNoTier] become a [de_jure|E] part of the [GetTitleByKey('k_gwaren').GetName]"
+
+################################################
+# Integrate Hinterlands into Korcari Wilds     #
+################################################
+DATAW_korcari_conquest_of_hinterlands_decision:0 "Beyond the Wilds"
+DATAW_korcari_conquest_of_hinterlands_decision_desc:0 "In times long past, our people moved freely between the Wilds and the Hinterlands. But the construction of Ostagar unnaturally cut our people off from this fertile land and the dreaded [GetScriptedCharacterByHistoryID('alamarri0202').GetFirstName] rebuffed our attempt to reclaim our ancestral lands during the Second Blight. With our realm's current gains in the region, we stand in position to right an ancient wrong and finally refute the Clayne claim once and for all."
+DATAW_korcari_conquest_of_hinterlands_decision_confirm:0 "The Hinterlands have a new master!"
+DATAW_korcari_conquest_of_hinterlands_decision_tooltip:0 "Lands of [GetTitleByKey('k_hinterlands').GetBaseNameNoTier] become a [de_jure|E] part of the [GetTitleByKey('k_korcari_wilds').GetBaseNameNoTier]"
+
+#################################################
+# Elven Brecilian Forest Decision 1 CAIRO
+###################################################
+DATAW_unite_brecilian_forest_elvhen_decision:0 "A New Home for the Elvhen"
+DATAW_unite_brecilian_forest_elvhen_decision_desc:0 "We elves have always been in a precarious state, ever since the fall of Arlathan and our subsequent enslavement at the hand of the Magisters. We lost our tongue, our culture and belief, and it is only through Shartan’s revolt and subsequent participation in Andraste's Exalted March that we received the Dales. Yet our situation is still precarious. \n\n#!In the [GetTitleByKey('k_brecilian_forest').GetBaseNameNoTier], the veil is thin, and the trees are wild, just like Arlathan. If it was rid of the native barbarians, we could claim it as our own to shore up our precarious position."
+DATAW_unite_brecilian_forest_elvhen_decision_confirm:0 "Here, a new realm of the elves shall emerge"
+DATAW_unite_brecilian_forest_elvhen_decision_tooltip:0 "Form a new home for the [GetCulturePillar('heritage_elvhen').GetName] in the [GetTitleByKey('k_brecilian_forest').GetBaseNameNoTier]"
+elvhen_brecilian_ruler_tt:0 "All rulers in [GetTitleByKey('k_brecilian_forest').GetBaseNameNoTier] have a culture with [GetCulturePillar('heritage_elvhen').GetName] [heritage|E]"
+
+#########################################################
+# Elven Brecilian Forest Decision 2
+#########################################################
+DATAW_consolidate_brecilian_forest_elvhen:0 "In the Image of Our Forefathers"
+DATAW_consolidate_brecilian_forest_elvhen_desc:0 "We may have created a new home in the land of the [GetTitleByKey('k_brecilian_forest').GetBaseNameNoTier], but our dreams of reclaiming what has been lost remains unfulfilled. The forest remains wild and untamed. Meanwhile, our cultural dominance over the forest has not yet been fully realized. If we wish to lay claim to our ancestors' mantle in truth, we must ensure our new endeavor is established on a solid foundation. Only then can the work of reclaiming what was lost at Arlathan commence."
+DATAW_consolidate_brecilian_forest_elvhen_confirm:0 "Consolidate the new elven kingdom"
+DATAW_consolidate_brecilian_forest_elvhen_tooltip:0 "The Resting Wood is now our home"
+DATAW_consolidate_elvhen_county_culture_tt:0 "All [counties|E] in the [GetGeographicalRegion('world_ferelden_brecilian_forest').GetName] have a culture with a [GetCulturePillar('heritage_elvhen').GetName] [heritage|E]"
+DATAW_consolidate_elvhen_county_religion_tt:0 "All [counties|E] in the [GetGeographicalRegion('world_ferelden_brecilian_forest').GetName] follow a [GetReligionByKey('elven_paganism_religion').GetAdjective] faith or are [GetFaithByKey('dalish_chantry').GetName]"
+DATAW_consolidate_elvhen_county_religion_partial_tt:0 "At least 60% of [counties|E] in the [GetGeographicalRegion('world_ferelden_brecilian_forest').GetName] follow a [GetReligionByKey('elven_paganism_religion').GetAdjective] faith or are [GetFaithByKey('dalish_chantry').GetName]"
+DATAW_consolidate_elvhen_county_culture_partial_tt:0 "At least 70% of [counties|E] in the [GetGeographicalRegion('world_ferelden_brecilian_forest').GetName] have a culture with a [GetCulturePillar('heritage_elvhen').GetName] [heritage|E]"
+DATAW_co_existance_brecilian_elvhen_tt:0 "You have chosen to coexist with the Brecilians"

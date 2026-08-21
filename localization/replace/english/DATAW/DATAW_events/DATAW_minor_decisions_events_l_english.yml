@@ -1,6 +1,6 @@
 ﻿l_english:
- DATAW_minor_decision.0001.tit: "The one for the job"
- DATAW_minor_decision.0001.desc: "It seems my invites have brought numerous veterans to my door. After clearing out multiple people that were blatantly lying about their level of experience. Only three ended up being interesting for us, [veteran01.GetFullName], [veteran02.GetFullName] and [veteran03.GetFullName]. All of them have unique competencies, and the choice now rests on me."
+ DATAW_minor_decision.0001.tit: "The One For The Job"
+ DATAW_minor_decision.0001.desc: "It seems my invites have brought numerous veterans to my door. After clearing out multiple people that were blatantly lying about their level of experience.\n\nOnly three ended up being interesting for us, [veteran01.GetFullName], [veteran02.GetFullName] and [veteran03.GetFullName].\n\nAll of them have unique competencies, and the choice now rests on me."
  DATAW_minor_decision.0001.opt.a: "I will recruit [veteran01.GetName]."
  DATAW_minor_decision.0001.opt.b: "[veteran02.GetName] seems worthwhile."
  DATAW_minor_decision.0001.opt.c: "[veteran03.GetName], no question."

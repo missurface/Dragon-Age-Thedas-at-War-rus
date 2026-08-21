@@ -29,17 +29,17 @@
 
 
 
- DATAW_major_decision.0005.tit: "A nation born."
- DATAW_major_decision.0005.desc: "I have done it.\n\nAs I see the sacrifices pool blood upon the soil of our sacred land, my loyal subjects standing in front of me, and a beautiful throne crafted in Ironbark, I understand what I have done.\nThe Brecilian People, brought together only by beliefs and customs, are now united under one leader. One Myghtern. By attempting to protect the people from the Claynes of Gwaren and Denerim, by attempting to protect ourselves from the people with ears as sharp as knives, I have given the Brecilian people a voice to follow. An herald of the Spirits.\n\nAs the crown of bones rests upon my head, I finally understand.\n\nI am the Voice of the Lady.\n\nI am the Myghtern of the Brecilians.\n\nAbove all."
+ DATAW_major_decision.0005.tit: "A Nation Born."
+ DATAW_major_decision.0005.desc: "#EMP #bold I have done it.#!#!\n\nAs I see the sacrifices pool blood upon the soil of our sacred land, my loyal subjects standing in front of me, and a beautiful throne crafted in Ironbark, I understand what I have done.\nThe Brecilian People, brought together only by beliefs and customs, are now united under one leader. One Myghtern. By attempting to protect the people from the Claynes of Gwaren and Denerim, by attempting to protect ourselves from the people with ears as sharp as knives, I have given the Brecilian people a voice to follow. An herald of the Spirits. As the crown of bones rests upon my head, I finally understand.\n\n#italic I am the Voice of the Lady.\nI am the Myghtern of the Brecilians.\nAbove all.#!"
  DATAW_major_decision.0005.opt.a: "I am the Spirit-[ROOT.Char.Custom('GetQueenKing')|l|U]."
  DATAW_major_decision.0005.opt.b: "I am the Spirit's Wrath."
  DATAW_major_decision.0005.opt.c: "I am the Spirit's Will."
- DATAW_major_decision.00051.tit: "The people's direction"
+ DATAW_major_decision.00051.tit: "The People's Direction"
  DATAW_major_decision.00051.desc: "Now that the brecilian people are united under a myghtern, my vassals now look to me for guidance, for it is the first time our people has ever been united in such a way.\nOf course, my people desire for a greater fortification of the forest, to stand against the outsiders that desire our home.\n\nBut, one of my courtiers, a [brucilian_scholar.GetWomanMan] named [brucilian_scholar.GetNameNoTooltip], as approached me, and called for a different approach.\n\n"Our people are isolated", [brucilian_scholar.GetSheHe] says, "We are strong, yes, but we are alone, and each passing year, an invention is made that does not come to us, leaving us further lagging behind."\n\n"I understand our people demand to be left alone, but such an attitude would sign our death in the long run. If we desire our people to survive, and avoid the fate the people with ears as sharp as knives endured before us, we need to open ourselves to the world.""
  DATAW_major_decision.00051.opt.a: "We shall follow the way my people ask."
  DATAW_major_decision.00051.opt.b: "You are right, we need to bring our people out of isolation."
- DATAW_fortifying_for_the_coming_storm: "Fortifying the [GetGeographicalRegion('f_region_brecilian_forest').GetName]"
- DATAW_opening_the_forest: "Opening the [GetGeographicalRegion('f_region_brecilian_forest').GetName]"
+ DATAW_fortifying_for_the_coming_storm: "Fortifying the [GetGeographicalRegion('world_ferelden_brecilian_forest').GetName]"
+ DATAW_opening_the_forest: "Opening the [GetGeographicalRegion('world_ferelden_brecilian_forest').GetName]"
  DATAW_major_decision.00052.tit: "The Maker of the Forest"
  DATAW_major_decision.00052.desc: "As I was taking a stroll through my capital, I could see my people going around, trading various goods with one another, united under one banner, one Myghtern. Sometimes, I could see a stranger being met, at first with suspicion, but then cordially, allowing him or her to trade and talk with relative safety. It would take a while for the Brecilians to not see outsiders as invaders, especially because of their zeal for their “Maker”, but it was a start, at least.\n\nAs I wandered further, I noticed a group of people in a plaza, chanting words of faith as they converged on one woman. As she continued her speech and prayers, to the joy of her crowd and the disgust of others looking from further, I slowly understood what she was saying, and what I heard bewildered me. She wasn't praying to the Spirits, as we had been taught for centuries, but she wasn't praying to their “Maker” either.\n\nRather, she was praying to both as one.\n\nAs she noticed me, she rapidly went down her podium to come to me, followed by her flock. Excited beyond what I thought possible, she explained:\n“Greetings, my Myghtern! I am Mother [brucilian_chantry_priestess.GetNameNoTooltip], and I am one of your greatest admirers! When you declared the Brecilian Forest open to outsiders, I was delighted! I went to explore, learn more of that strange religion they practiced, and I discovered something. Our worshiping of the Spirits and their worship of the Maker are compatible! The Spirits aren't creators on their own, they were sent by the Maker to create the world! The Lady of the Forest, The Weaver of Thoughts, all agents of the Maker!”\n\nNoticing my complete surprise, she followed:\n“I know not all Brecilians accept this new idea as well as those who listened to me. I will only ask of one thing, oh Myghtern who inspired me in this endeavour. Will you join us in our prayers?”"
  DATAW_major_decision.00052.opt.a: "I will join you in your faith, Mother!"
@@ -63,10 +63,31 @@
  DATAW_major_decision.0009.tit: "A Safe Passage"
  DATAW_major_decision.0009.desc: "In my capital, I have begun to receive the first reports from travelers through the Brecilian Passage ever since my declaration. Many traders have reported a safe journey without incident, and spoke of [GetTitleByKey('c_gwaren').GetBaseNameNoTier] as a lovely, if isolated place. Soon, those words will spread, and our realm on the edge of Thedas may find itself a little more connected, now that the barbarians of the forest no longer threaten us."
  DATAW_major_decision.0009.opt.a: "Let us hope they fade in history, never to be remembered."
+ gwaren_integration_road_tooltip: "Counties in the [GetGeographicalRegion('world_ferelden_brecilian_forest').GetName] gain the [GetModifier('gwaren_safe_passage_modifier').GetNameWithTooltip] [modifier|E] permanently."
+ gwaren_integration_resistance_tooltip: "Any county in the [GetGeographicalRegion('world_ferelden_brecilian_forest').GetName] that is either [GetCulturePillar('heritage_elvhen').GetName] or Brecilian culture gains the [GetModifier('brecilian_barbarian_resistance_modifier').GetNameWithTooltip] [modifier|E] for 20 years"
 
  DATAW_major_decision.0006.tit: "A Teyrn and its Admiral."
  DATAW_major_decision.0006.desc: "A few decades ago, people would have laughed at the idea of a Teyrn established in Brandel's Reach, this lawless land rife with raiders, smugglers and other seafarers of dubious legality. However, this time has come. Through my work as Arl of Brandel's Reach, the islands have now surpassed their image of a smuggler's haven to become a respectable and growing trading hub, connecting the inner Waking Sea with faraway lands to the North. Now, the people, be they of a legitimate trade or not, have started to talk of the newfound Teyrn by a new name: The Admiralty.\n\nAlthough a strange title, it seems to be commanding respect among the populace, and so it is only fitting that I bring this popular name in the official title."
  DATAW_major_decision.0006.opt.a: "Admiral of the Waking Isles. Has a nice ring to it."
+
+ DATAW_major_decision.0012.custom: "All [counties|E] in the [GetGeographicalRegion('world_ferelden_brecilian_forest').GetName]"
+ DATAW_elvhen_convert_or_hybridize_tt: "You will be given a choice between a county conversion modifier and [cultural_acceptance|E]"
+ DATAW_major_decision.0012.tit: "New Home, Old Inhabitants"
+ DATAW_major_decision.0012.start.desc: "We have secured the [GetTitleByKey('k_brecilian_forest').GetBaseNameNoTier]. Better, we cast out all human rulers that once hold sway over this land that reminds us so much of Arlathan. Now, the Elvhen are the only master of this soil."
+ DATAW_major_decision.0012.brecilians.desc: "\n\n#!Though we may be the only master, we are not its only inhabitants. Many humans inhabited the land before us. The [GetCultureByKey('brecilian').GetCollectiveNoun], they call themselves, wary of outsiders and worshippers of spirits like their 'Lady of the Forest'.\n\n#!In order to make the Brecilian Forest a true home for us, we have to reckon with the old inhabitants one way or the other."
+ DATAW_major_decision.0012.no_brecilians.desc: "\n\n#!Though we may be the only master, we were not its only inhabitants. Many humans inhabited the land before us; Their names soon to be lost to time.\n\n#!In order to make the Brecilian Forest a true home for us, we shall to organize our settlement of the region, just as the Dales were settled at the end of the Long March."
+ DATAW_major_decision.0012.opt.a: "#italic [Glossary('Andaran atish’an, Falon','andaran_atishan_falon_GLOSS')]."
+ DATAW_major_decision.0012.opt.b: "We may cohexist if they see our similarities."
+ DATAW_major_decision.0012.b.custom: "All [counties|E] with the [GetModifier('brecilian_elvhen_culture_automatic_modifier').GetNameWithTooltip] [modifier|E]"
+ andaran_atishan_falon_GLOSS: "'Enter this place in peace, friend.', in elvish."
+ DATAW_elvhen_co_existance_path_brecilian: "This will set you on a path of coexistence with the Brecilians"
+
+
+ DATAW_major_decision.0013.tit: "The Third Homeland"
+ DATAW_major_decision.0013.desc: "For generations, the [elvhen|E] were raised on tales of the Long March. This slow and perilous walk troughout half of Thedas, were so many died and so many went back in the chains of the Imperium. So many were raised on these tales of perseverance, of the founding of [GetTitleByKey('k_the_dales').GetBaseNameNoTier], our Second Homeland. \n\n#!Perhaps some day people will speak of my work with such reverence. But for now, we rejoice. We have toiled and fought to make our place here, no matter who stood in our way. On this soil, we have created our Third Homeland."
+ DATAW_major_decision.0013.opt.a: "To the glory of building this land!"
+ DATAW_major_decision.0013.opt.b: "Perhaps we could try to emulate the Dales further."
+ DATAW_major_decision.0013.opt.b.custom: "All [counties|E] in the [GetGeographicalRegion('world_ferelden_brecilian_forest').GetName] with a [GetCulturePillar('heritage_elvhen').GetName] [heritage|E] culture have a 25% chance to convert with you"
 
  DATAW_major_decision.0007.tit: "Unify the Marshes"
  DATAW_major_decision.0007.desc: "PLACEHOLDER"
@@ -78,3 +99,9 @@
  nick_spirit_king: "Spirit-[CHARACTER.Custom('GetQueenKing')|l|U]"
  nick_spirits_wrath: "Spirit's Wrath"
  nick_spirits_will: "Spirit's Will"
+
+
+
+ DATAW_major_decision.0010.tit: "La Gloire de l'Empire"
+ DATAW_major_decision.0010.desc: "The subjugation of the Ferelden Valley is complete. Following Kordillus I's death, the Anderfels and the western Free Marches left the empire. Many said that Orlais had reached its peak, and that never again would we reach such greatness. \n\nWith this, we have proven them wrong. We have taken the homeland of Andraste, our dear prophet. Every pilgrim can now travel to Ferelden safely, with Imperial armies everywhere assuring the security that the Dog Lords never could. \n\nToday is the glorious return of Orlais, as it was meant to be. The first step to become the greatest Empire in Thedas, greater still than the Tevinter Imperium ever was."
+ DATAW_major_decision.0010.opt.a: "Vive [andraste|E]! Vive Orlais!"
