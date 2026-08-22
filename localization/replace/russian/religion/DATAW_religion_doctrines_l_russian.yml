@@ -26,7 +26,7 @@
 
   doctrine_view_on_magic_name: "Отношение к магии"
   doctrine_circle_system_name: "Система Кругов"
-  doctrine_circle_system_desc: "[Concept('mage','Магов')|E] необходимо отправлять в [Concept('circle','Круг')|E], где их обучат владеть [Concept('dataw_magic','магией')|E] и сопротивляться [Concept('demonic_possession','одержимости')|E]. Отказ подчиниться сделает мага [GetTrait('apostate').GetName(GetNullCharacter)]. Если же случится худшее, [Concept('templar','храмовники')|E] позаботятся, чтобы [Concept('abomination','одержимый')|E] был уничтожен."
+  doctrine_circle_system_desc: "[Concept('mage','Магов')|E] необходимо отправлять в [Concept('circle','Круг')|E], где их обучат владеть [Concept('dataw_magic','магией')|E] и сопротивляться [Concept('demonic_possession','одержимости')|E]. Отказ подчиниться сделает мага #TOOLTIP:GAME_TRAIT,apostate, #L отступником#!#!. Если же случится худшее, [Concept('templar','храмовники')|E] позаботятся, чтобы [Concept('abomination','одержимый')|E] был уничтожен."
   doctrine_mage_rule_name: "Власть магов"
   doctrine_mage_rule_desc: "[Concept('dataw_magic','Магия')|E] — это дар и привилегия избранных, подобно власти [Concept('rulers','правителей')|E] над самой землёй. Поэтому вполне естественно, чтобы маги и правители были одними и теми же людьми."
   doctrine_forced_conscription_name: "Принудительный призыв"

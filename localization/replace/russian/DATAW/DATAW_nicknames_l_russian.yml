@@ -7,7 +7,7 @@
  nick_the_virile:0 "[Select_CString(CHARACTER.IsFemale, 'Плодовитая', 'Плодовитый' )]"
  nick_violet_eyes:0 "Лиловые Глаза"
  nick_the_warrior_priest:0 "[Select_CString(CHARACTER.IsFemale, 'Воительница-жрица', 'Воин-жрец' )]"
- nick_the_nevarran:0 "[Select_CString(CHARACTER.IsFemale, 'Неварранка', 'Неварранец' )]"
+ nick_the_nevarran:0 "[Select_CString(CHARACTER.IsFemale, 'Неваррка', 'Неваррец' )]"
  nick_elf_lover:0 "[Select_CString(CHARACTER.IsFemale, 'Любительница эльфов', 'Любитель эльфов' )]"
  nick_of_the_marshes:0 "из Топей"
  nick_of_the_marshes_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [Select_CString(CHARACTER.IsFemale, 'подняла', 'поднял' )] Топи на восстание против Орлесианской империи и [Select_CString(CHARACTER.IsFemale, 'вернулась', 'вернулся' )] с победой."
