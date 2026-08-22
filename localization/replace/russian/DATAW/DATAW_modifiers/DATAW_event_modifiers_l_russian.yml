@@ -7,17 +7,17 @@
  faithful_opinion: "Верность"
 
  ### Brecilian Reclaim Events
- opening_brecilian_forest: "#V #L Каждое#!#! [Concept('county','графство')|E] в регионе [GetGeographicalRegion('f_region_brecilian_forest').GetName] получает модификатор [GetModifier( 'brecilian_forest_opened' ).GetNameWithTooltip] на #V 10 лет#!"
- holding_land_outside_brecilian_forest: "[Concept('county','Графства')|E] за пределами региона [GetGeographicalRegion('f_region_brecilian_forest').GetName] в вашей [Concept('realm','державе')|E] потеряют [Concept('control','контроль')|E], а если вы владеете хотя бы одним из них, #V #L каждый#!#! [Concept('vassal','вассал')|E] потеряет до #N 100#! [Concept('opinion','мнения')|E] о #V вас#!"
+ opening_brecilian_forest: "#V #L Каждое#!#! [Concept('county','графство')|E] в регионе [GetGeographicalRegion('world_ferelden_brecilian_forest').GetName] получает модификатор [GetModifier( 'brecilian_forest_opened' ).GetNameWithTooltip] на #V 10 лет#!"
+ holding_land_outside_brecilian_forest: "[Concept('county','Графства')|E] за пределами региона [GetGeographicalRegion('world_ferelden_brecilian_forest').GetName] в вашей [Concept('realm','державе')|E] потеряют [Concept('control','контроль')|E], а если вы владеете хотя бы одним из них, #V #L каждый#!#! [Concept('vassal','вассал')|E] потеряет до #N 100#! [Concept('opinion','мнения')|E] о #V вас#!"
  subject_converted_to_brecilian_chantry: "Некоторые из ваших [Concept('courtiers','придворных')|E] [Concept('convert','обратятся')|E] в Бресилианскую Церковь"
  convert_to_brecilian_chantry: "После [Concept('converting','обращения')|E] в Бресилианскую Церковь ваши [Concept('courtiers','придворные')|E] — последователи Бруцилис Култас потеряют #N 20#! [Concept('opinion','мнения')|E] о #V вас#!"
  brucilis_cultas_followers_hate_brecilian_chantry_followers: "Ваши [Concept('courtiers','придворные')|E] — последователи Бруцилис Култас потеряют #N 20#! мнения о ваших [Concept('courtiers','придворных-андрастианах')|E]"
  trying_to_convert_brecilian_chantry: "Попытка [Concept('convert','обратить')|E] [Concept('county','графство')|E], исповедующее веру Бресилианской Церкви, заставит местных жителей потерять #N 20#! [Concept('opinion','мнения')|E] о #V вас#!"
  brecilian_chantry_repressed: "Преследование Бресилианской Церкви"
- hold_land_outside_brecilian_forest: "Земли за пределами региона [GetGeographicalRegion('f_region_brecilian_forest').GetName]"
+ hold_land_outside_brecilian_forest: "Земли за пределами региона [GetGeographicalRegion('world_ferelden_brecilian_forest').GetName]"
  stayed_faithful_to_brucilis_cultas: "Верность Бруцилис Култас"
  traitors_follow_brecilian_chantry: "[Concept('convert','Обращение')|E] в Бресилианскую Церковь"
- brecilian_forest_opened: "Открытие региона [GetGeographicalRegion('f_region_brecilian_forest').GetName]"
+ brecilian_forest_opened: "Открытие региона [GetGeographicalRegion('world_ferelden_brecilian_forest').GetName]"
  traitors_to_brucilis_cultas_county: "Предательство Старых путей"
  traitors_to_brecilian_chantry_county: "Противодействие Бресилианской Церкви"
  faithful_to_brucilis_cultas_county: "Верность Бруцилис Култас"
@@ -156,6 +156,9 @@
  scholarly_finds: "Научные находки"
  martial_finds: "Военные находки"
  realm_expansion_memorial: "Памятник расширению державы"
+ chantry_approval: "Одобрение Церкви"
+ elven_sympathizer: "Сочувствие эльфам"
+ dalish_sympathizer: "Сочувствие долийцам"
 
  ### Mareschois filler events
  fast_steed: "Быстрый скакун"
@@ -253,7 +256,34 @@
 
 # Opinion modifiers
  sacked_val_royeaux: "Разграбление Вал Руайо"
- casted_mass_heal_on_me: "Применение ко мне массового исцеления"
+ cast_heal_on_me: "Применение ко мне «Исцеления»"
+ cast_rock_armor_on_me: "Применение ко мне «Каменного доспеха»"
+ cast_rejuvenate_on_me: "Применение ко мне «Очищения»"
+ cast_mass_heal_on_me: "Применение ко мне «Группового исцеления»"
+ cast_barrier_on_me: "Применение ко мне «Барьера»"
+ cast_life_ward_on_me: "Применение ко мне «Хранителя жизни»"
+ cast_walking_bomb_on_me: "Применение ко мне «Ходячей бомбы»"
+ cast_chain_lightning_on_me: "Применение ко мне «Цепной молнии»"
+ cast_regeneration_on_me: "Применение ко мне «Регенерации»"
+ cast_weakness_on_me: "Применение ко мне «Слабости»"
+ cast_frost_weapons_on_me: "Применение ко мне «Ледяного оружия»"
+ cast_mana_cleanse_on_me: "Применение ко мне «Выжигания маны»"
+ cast_mana_drain_on_me: "Применение ко мне «Вытягивания маны»"
+ cast_dispel_magic_on_me: "Применение ко мне «Развеивания магии»"
+ cast_inferno_on_me: "Применение ко мне «Геенны»"
+
+ cast_spell_wisp_on_me: "Применение ко мне «Волшебного огонька»"
+ cast_heroic_defense_on_me: "Применение ко мне «Героической обороны»"
+ cast_heroic_offense_on_me: "Применение ко мне «Героического нападения»"
+ cast_flame_blast_on_me: "Применение ко мне «Пламенной вспышки»"
+ cast_winters_grasp_on_me: "Применение ко мне «Хватки зимы»"
+ cast_stone_fist_on_me: "Применение ко мне «Каменного кулака»"
+ cast_arcane_bolt_on_me: "Применение ко мне «Волшебной стрелы»"
+ cast_crushing_prison_on_me: "Применение ко мне «Дробящей темницы»"
+ cast_mind_blast_on_me: "Применение ко мне «Взрыва разума»"
+ cast_lightning_shock_on_me: "Применение ко мне «Молнии»"
+ cast_haste_on_me: "Применение ко мне «Ускорения»"
+
 # Character modifiers
  anointed_restoration: "Восстановление гробницы Помазанника"
  friend_of_distressed: "Помощь пострадавшим"
@@ -274,4 +304,19 @@
  floating_gardens_of_tombigbee: "Плавучие сады Томбигби"
  floating_gardens_of_tombigbee_desc: "На озёрах Томбигби установлены пышные плоты с травами и цветами, наполняющие воздух сладким ароматом."
 
-# Magic opini
+ gwaren_trade_influx_county_modifier: "Приток торговцев"
+ gwaren_trade_influx_county_modifier_desc: "По мере того как распространяются слухи о безопасном проходе в Гварен, в город устремляются торговцы, принося долгожданное процветание после стольких десятилетий лишений."
+ gwaren_safe_passage_modifier: "Безопасный проход"
+ gwaren_safe_passage_modifier_desc: "После покорения Бресилианского прохода иноземными силами была проведена значительная работа, чтобы сделать этот ранее опасный путь приемлемым для путешественников."
+ brecilian_barbarian_resistance_modifier: "Сопротивление варваров"
+ brecilian_barbarian_resistance_modifier_desc: "Хотя многие теперь считают Бресилианский лес укрощённым и входящим в состав Гварена, местные жители отвергают эти притязания как совершенно незаконные и при любой возможности нападают на солдат Гварена, отправленных на их усмирение."
+
+ brecilian_elvhen_culture_modifier: "Кампании долийского заселения"
+ brecilian_elvhen_culture_modifier_desc: "Скорость [Concept('promote_culture', 'продвижения культур')|E] и [Concept( 'convert_county', 'обращения графства' )|E] исключительно для #L [GetCulturePillar('heritage_elvhen').GetName]их#! культур: #P +75%#!"
+ brecilian_elvhen_culture_automatic_modifier: "Принудительное переселение"
+ brecilian_elvhen_culture_automatic_modifier_desc: "Недавние земельные конфликты привели к тому, что эльфийские поселенцы изгнали многих жителей Бресилианского леса из их родных домов. Скорость [Concept('promote_culture', 'продвижения культур')|E] и [Concept( 'convert_county', 'обращения графства' )|E] исключительно для #L [GetCulturePillar('heritage_elvhen').GetName]их#! культур: #P +50%#!"
+ brecilian_elvhen_tall_county_modifier: "Рождение третьей родины"
+ brecilian_elvhen_dynasty_coexistance_modifier: "Основатели третьей родины"
+ brecilian_elvhen_dynasty_settlement_modifier: "Основатели третьей родины"
+# Magic opinion 
+ is_apostate_opinion: "Является [Concept('apostate','отступником')|E]"

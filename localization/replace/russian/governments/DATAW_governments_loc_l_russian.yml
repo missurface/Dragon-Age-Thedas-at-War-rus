@@ -60,10 +60,16 @@
 
   GAME_OVER_CANNOT_PLAY_GREY_WARDEN: "Нельзя играть за [Concept('grey_warden','Серых Стражей')|E]"
   NOT_GAME_OVER_CANNOT_PLAY_GREY_WARDEN: "$GAME_OVER_CANNOT_PLAY_GREY_WARDEN$"
-
+  is_apostate: "Согласно канонам вашей [Concept('faith','конфессии')|E], [CHARACTER.GetShortUIName|U] — [apostate|El]."
+  is_conscripted_mage: "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsFemale, 'обязана', 'обязан' )] принудительно служить своему двору, так как является завербованным магом."
   CANNOT_REVOKE_CIRCLE: "Нельзя отнимать титулы у [Concept('circle','Кругов магов')|E]"
   CANNOT_REVOKE_WARDEN: "Нельзя отнимать титулы у [Concept('grey_warden','Серых Стражей')|E]"
-
+  I_CANNOT_BLACKMAIL_OVER_MY_OWN_APOSTATE_CHILD:1 "Вы не можете шантажировать своего собственного [Concept('child','ребёнка')|E]-[Concept('apostate','отступника')|E]"
+  dataw_send_to_circle: "Отправить в [circle|E]"
+  RELEASE_BANISH_INVALID_SEND_TO_CIRCLE_CONDITION: "Нельзя одновременно изгонять персонажа и отправлять его в [circle|E]."
+  RELEASE_SEND_TO_CIRCLE_INVALID_BANISH_CONDITION: "Нельзя одновременно изгонять персонажа и отправлять его в [circle|E]."
+  CIRCLE_NEGATIVE_REASON: "[recipient.GetSheHe|U] не желает присоединяться к [Concept('circle','Кругу')|E] магов: $VALUE|=+0$"
+  secret_category_mage: "[mage|E]"
   game_concept_circle: "Круг"
   game_concept_circle_government: "Правительство Круга"
   game_concept_circle_i: "@circle_icon!"

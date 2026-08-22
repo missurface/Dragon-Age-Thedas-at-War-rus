@@ -7,3 +7,4 @@
  embrace_english_culture_vassals_custom:1 "Каждый $clayne$ий или $wake$ий [Concept( 'vassal', 'вассал' )|E] в де-юре землях Ферелдена"
  embrace_english_culture_counties_custom:1 "Каждое $clayne$ое [Concept( 'county', 'графство' )|E] в де-юре землях Ферелдена"
  decision_embrace_english_culture_get_innovations:1 "Ферелденская [Concept( 'culture', 'культура' )|E] получит все клейнские и вейкские [Concept( 'innovations', 'инновации' )|E]"
+ islamic_vassals_will_convert:1 "Поскольку я элвен, все мои [Concept( 'tribal', 'племенные' )|E] вассалы станут [Concept( 'clan', 'кланами' )|E]"

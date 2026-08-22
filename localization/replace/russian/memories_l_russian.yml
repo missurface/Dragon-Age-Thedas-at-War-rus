@@ -19,3 +19,9 @@
  survived_sack_of_great_city_desc: "Мне удалось выжить во время разграбления города [ROOT.Var('province').GetProvince.GetName]"
  survived_sack_of_great_city_desc_second_perspective: "Вам удалось выжить во время разграбления города [ROOT.Var('province').GetProvince.GetName]"
  survived_sack_of_great_city_desc_third_perspective: "[owner.GetTitledFirstName] [Select_CString(owner.IsFemale, 'смогла', 'смог' )] выжить во время разграбления города [ROOT.Var('province').GetProvince.GetName]"
+ 
+ # magic memories 
+ dataw_joined_circle_of_magi: "[circle|E] магов"
+ dataw_joined_circle_of_magi_desc: "Я [Select_CString(owner.IsFemale, 'присоединилась', 'присоединился' )] к [Concept('circle','Кругу')|E] магов"
+ dataw_joined_circle_of_magi_desc_second_perspective: "Вы присоединились к [Concept('circle','Кругу')|E] магов"
+ dataw_joined_circle_of_magi_desc_third_perspective: "[owner.GetTitledFirstName] [Select_CString(owner.IsFemale, 'присоединилась', 'присоединился' )] к [Concept('circle','Кругу')|E] магов"

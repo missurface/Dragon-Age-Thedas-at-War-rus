@@ -37,6 +37,7 @@
  heroic_offense_perk_effect: "Наделите цель модификатором, повышающим смертельные потери противника."
  haste_perk_name: "Ускорение"
  haste_perk_effect: "Увеличьте скорость передвижения и путешествий цели."
+ debug_testttt: "[spell_caster.GetFirstName] [Select_CString(spell_caster.IsFemale, 'наложила', 'наложил' )] заклинание «[spell_caster.Char.MakeScope.Var( 'spell_selected' ).GetFlagName]» на [spell_target.GetFirstName]"
 #  mass_heal_perk_name: "Mass Heal"
 #  mass_heal_perk_effect: "Grant everyone in your target's court or entourage temporarily healing"
  life_ward_perk_name: "Хранитель жизни"

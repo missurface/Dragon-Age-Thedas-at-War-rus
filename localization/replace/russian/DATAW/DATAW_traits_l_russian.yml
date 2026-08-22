@@ -25,6 +25,9 @@
  trait_witchofthewilds_desc: "Этот персонаж — представительница древней и замкнутой традиции, Ведьма Диких земель."
  trait_witchofthewilds_character_desc: "[ROOT.Char.GetFirstNameNoTooltip] — представительница древней и замкнутой традиции, Ведьма Диких земель."
  I_HAVE_WITCHOFTHEWILDS_TRAIT: "[GetTrait('witchofthewilds').GetName(GetPlayer)]: $VALUE|=+0$"
+ trait_conscripted_mage: "Завербованный маг"
+ trait_conscripted_mage_desc: "Этот персонаж — маг, официально призванный на службу и ставший [Concept('knight','рыцарем')|E] независимо от своего желания. Он — лишь орудие войны, не более."
+ trait_conscripted_mage_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] — маг, официально [Select_CString(ROOT.Char.IsFemale, 'призванная на службу и ставшая', 'призванный на службу и ставший' )] [Concept('knight','рыцарем')|E] независимо от своего желания. [ROOT.GetCharacter.GetSheHe|U] — лишь орудие войны, не более."
 
  # CREDIT TO EK2 FOR LETTING US USE THEIR LINE_OF_X!! THANK YOU GUYS
  trait_line_of_x: "Род [ROOT.Char.GetFirstNameNoTooltip]" # assume named Line of X

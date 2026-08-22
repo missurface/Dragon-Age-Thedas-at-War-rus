@@ -19,6 +19,8 @@
  stress_threshold.1001.drunkard.effect:0 "Буду пить, пока эти мысли не исчезнут."
  stress_threshold.1001.hashishiyah.gain:0 "Немного эльфийского корня — и мой разум успокоится..." # DATAW CHANGED
  stress_threshold.1001.hashishiyah.effect:1 "Спокойная ночь с блюдом пирожных с эльфийским корнем поможет." # DATAW CHANGED
+ stress_threshold.1701.j.hashishiyah.gain:0 "Эльфийский корень должен успокоить мои нервы..." # DATAW CHANGED
+ stress_threshold.1701.j.hashishiyah.effect:0 "$stress_threshold.1701.j.hashishiyah.gain$" # DATAW CHANGED
  stress_threshold.1001.journaller.gain:0 "Нужно записать мои страхи — это поможет сосредоточиться."
  stress_threshold.1001.journaller.effect:0 "Я проведу ночь в кабинете, в одиночестве."
  stress_threshold.1001.endure:0 "Я соберусь с силами и не поддамся этим порывам!"

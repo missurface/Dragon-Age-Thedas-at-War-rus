@@ -92,6 +92,13 @@
  forgotten_ones_faith_adherent_plural:0 "Последователи"
  forgotten_ones_faith_desc:0 "Некоторые эльфы, покинутые богами и сами отрёкшиеся от них, обратились к другим сущностям. Большинство из них по собственной воле исчезло в тумане времён, но кое-кто остался."
 
+
+
+ forgotten_pantheon_term:0 "Забытые"
+ forgotten_pantheon_term_2:0 "$forgotten_pantheon_term$"
+ forgotten_pantheon_term_3:0 "$forgotten_pantheon_term$"
+ 
+ 
  forgotten_ones_high_god_name:0 "Забытые"
  forgotten_ones_high_god_name_2:0 "$forgotten_ones_high_god_name$" # Optional translation alt
  forgotten_ones_high_god_name_possessive:0 "Забытых"
@@ -120,8 +127,11 @@
  forgotten_ones_faith_term_2:0 "$forgotten_ones_faith_term$"
  forgotten_ones_faith_term_3:0 "$forgotten_ones_faith_term$"
  forgotten_ones_good_god_anaris:0 "Анарис"
- forgotten_ones_good_god_daern'thal:0 "Даэрнтал"
+ forgotten_ones_good_god_anaris_possessive:0 "Анариса"
+ forgotten_ones_good_god_daern_thal:0 "Даэрнтал"
+ forgotten_ones_good_god_daern_thal_possessive:0 "Даэрнтала"
  forgotten_ones_good_god_geldauran:0 "Гельдауран"
+ forgotten_ones_good_god_geldauran_possessive:0 "Гельдаурана"
  forgotten_ones_devil_name:0 "Творцы"
  forgotten_ones_devil_name_possessive:0 "Творцов"
  forgotten_ones_devil_herselfhimself:0 "сами"
@@ -151,10 +161,10 @@
  forgotten_ones_priest_plural:0 "хранители"
  forgotten_ones_bishop:0 "верховный хранитель"
  forgotten_ones_bishop_plural:0 "верховные хранители"
- forgotten_ones_divine_realm:0 "Потусторонье"
+ forgotten_ones_divine_realm:0 "Бездна"
  forgotten_ones_divine_realm_2:0 "$forgotten_ones_divine_realm$" # Optional translation alt
  forgotten_ones_divine_realm_3:0 "$forgotten_ones_divine_realm$" # Optional translation alt
- forgotten_ones_negative_afterlife:0 "Бездна"
+ forgotten_ones_negative_afterlife:0 "Потусторонье"
  forgotten_ones_negative_afterlife_2:0 "$forgotten_ones_negative_afterlife$" # Optional translation alt
  forgotten_ones_negative_afterlife_3:0 "$forgotten_ones_negative_afterlife$" # Optional translation alt
  ghw_tel_avhenan:0 "Тел'авенан"

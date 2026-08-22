@@ -1,0 +1,7 @@
+﻿l_russian:
+ I_AM_A_GREY_WARDEN: "Я — [grey_warden|El]: $VALUE|=+0$"
+ THEY_ARE_A_GREY_WARDEN: "[secondary_recipient.GetShortUINameNoTooltip] — [grey_warden|El]: $VALUE|=+0$"
+ I_AM_A_ELF: "Я — [elvhen|El]: $VALUE|=+0$"
+ THEY_ARE_A_ELF: "[secondary_recipient.GetShortUINameNoTooltip] — [elvhen|El]: $VALUE|=+0$"
+ I_AM_A_HUMAN: "Я — [human|El]: $VALUE|=+0$"
+ THEY_ARE_A_HUMAN: "[secondary_recipient.GetShortUINameNoTooltip] — [human|El]: $VALUE|=+0$"

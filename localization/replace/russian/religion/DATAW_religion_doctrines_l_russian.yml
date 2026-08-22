@@ -17,7 +17,7 @@
   tenet_tree_sepulture_name: "Хранители живых гробниц"
   tenet_tree_sepulture_desc: "Леса полны деревьев, в которых многие поколения хоронили усопших. Тела запечатывают внутри стволов, оберегая их от вселения демонов. Каждое встреченное дерево может оказаться усыпальницей давно утраченного предка, а потому лес следует взращивать и защищать от всякого вреда."
   doctrine_funeral_tree_burial_active_name: "Погребение под деревом"
-  doctrine_funeral_tree_burial_active_desc: "С дубовым посохом, который поможет им в странствиях по загробному миру, и кедровой ветвью, отгоняющей воронов Диртамена, мы предаём усопших земле. Над останками мы сажаем дерево — их Валласдален, — чтобы хранить память о них и с каждой нашей смертью питать новую жизнь. Ступайте под этими деревьями с благоговением и помните: у каждого из них когда-то было имя." #TODO Should this have a different description than the tenet?
+  doctrine_funeral_tree_burial_active_desc: "С дубовым посохом, который поможет им в странствиях по загробному миру, и кедровой ветвью, отгоняющей воронов Диртамена, мы предаём усопших земле. Над останками мы сажаем дерево — их Валласдален, — чтобы хранить память о них и с каждой нашей смертью питать новую жизнь. Ступайте под этими деревьями с благоговением и помните: у каждого из них когда-то было имя."
   doctrine_parameter_tree_burial_active: "[Concept('rulers','Правители')|E] могут устроить своим предкам погребение под деревом, получив [Concept('piety','благочестие')|E] и порадовав своих [Concept('vassals','вассалов')|E]"
   
   doctrine_funeral_tree_sepulture_active_name: "Погребение в дереве"
@@ -37,8 +37,11 @@
   doctrine_unlanded_sages_desc: "[Concept('mage','Магов')|E] принимают и даже почитают как мудрецов и советников, способных явить простому народу мудрость и связь с [Concept('fade','Тенью')|E]. Однако им запрещено владеть [Concept('land','землёй')|E] и соответствующими [Concept('titles','титулами')|E], ведь [Concept('dataw_magic','магии')|E] не место на престоле."
   doctrine_persecution_name: "Преследование"
   doctrine_persecution_desc: "[Concept('mage','Магов')|E] преследуют, вынуждая скрывать свои способности."
+  doctrine_unregulated_magic_name: "Неконтролируемая магия"
+  doctrine_unregulated_magic_desc: "Эта вера гласит, что [dataw_magic|El] должна свободно использоваться и применяться без каких-либо ограничений."
   court_enchanter_allowed_name: "Придворный чародей разрешён"
   court_enchanter_disallowed_name: "Придворный чародей запрещён"
-  doctrine_parameter_circle_system_active:0 "Действует форма правления [Concept('circle','Круга')|E]."
-  doctrine_parameter_persecution_active: "Магов преследуют, и при возможности они бегут"  # - add mechs
-  doctrine_parameter_tranquil_solution_active: "Магов принуждают разорвать связь с [Concept('fade','Тенью')|E]"  # - add mechs
+  doctrine_parameter_circle_system_active: "Действует форма правления [Concept('circle','Круга')|E]."
+  doctrine_parameter_persecution_active: "Магов преследуют, и при возможности они бегут"
+  doctrine_parameter_tranquil_solution_active: "Магов принуждают разорвать связь с [Concept('fade','Тенью')|E]"
+  tranquil_solution_active_name: "Магов принудят разорвать связь с [Concept('fade','Тенью')|E]"

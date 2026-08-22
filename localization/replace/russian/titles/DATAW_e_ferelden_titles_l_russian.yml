@@ -653,8 +653,8 @@
  #
  c_lothering:0 "Лотеринг"
  c_lothering_adj:0 "Лотерингск"
- c_therinfal_redoubt:0 "Цитадель Теринфаль"
- c_therinfal_redoubt_adj:0 "Теринфальск"
+ c_therinfal:0 "Теринфаль"
+ c_therinfal_adj:0 "Теринфальск"
  c_south_reach:0 "Южный Предел"
  c_south_reach_adj:0 "Южнопредельск"
  c_ruswold_valley:0 "Долина Русволд"
@@ -713,7 +713,7 @@
  b_knighton:0 "Найтон"
  b_lipson:0 "Липсон"
  b_beaufort:0 "Бофорт"
- b_therinfal_redoubt:0 "Цитадель Теринфаль"
+ b_therinfal:0 "Теринфаль"
  b_bronte:0 "Бронте"
  b_avisford:0 "Эвисфорд"
 

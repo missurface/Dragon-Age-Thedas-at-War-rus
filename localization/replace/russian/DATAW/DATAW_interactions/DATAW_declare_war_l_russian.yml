@@ -1,2 +1,5 @@
 ﻿l_russian:
  clan_government_vassals_external_war_tooltip: "[vassals|E] формы правления «[GetGovernment('clan_government').GetName]» не могут объявлять внешние [Concept('war', 'войны')|E], если у них нет особенности «[GetSubjectContractType( 'ghazi_special_rights' ).GetObligationName('ghazi_special_rights_granted')]» в своём [Concept('vassal_contract', 'вассальном договоре')|E] или [Concept( 'strong_hook', 'сильного влияния' )|E] на своего [Concept('liege', 'сюзерена')|E]"
+ MAGIC_ACTIONS: "магические действия"
+ interaction_category_magic: "Магические взаимодействия"
+ interaction_debug_dataw: "@dataw_icon! #D ОТЛАДКА: #BER DATAW#!#!"

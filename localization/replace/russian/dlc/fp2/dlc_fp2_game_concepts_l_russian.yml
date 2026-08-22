@@ -31,8 +31,8 @@
  game_concept_contract_assisting: "Оказывает военную помощь"
  game_concept_contract_assistance_desc:2 "Особое [interaction|El], доступное [Concept('struggle_involved', 'вовлеченным')|E] в Ферелденскую [Concept('struggle', 'борьбу')|E] [Concept('rulers', 'правителям')|E], которое позволяет им присоединяться к [Concept('wars', 'войнам')|E] других [Concept('struggle_involved', 'вовлеченных')|E] [Concept('rulerpossessive', 'правителей')|E] в обмен на [gold|El].\n\nОплата производится по завершении [Concept('war', 'войны')|E], независимо от ее итогов, если [Concept('war_contribution', 'вклад')|E] исполнителя контракта достигнет 100."
  
- game_concept_iberian_reclamation:0 "Ферелденская рекламация"
- game_concept_iberian_reclaiming:0 "Возвращение ферелденских территорий"
- game_concept_iberian_reclamations:0 "Ферелденские рекламации"
- game_concept_iberian_reclamation_desc:2 "Особый тип [Concept('war', 'войны')|E], доступный [Concept('struggle_involved', 'вовлеченным')|E] в [Concept('fereldan_struggle', 'Ферелденскую борьбу')|E] [Concept('rulers', 'правителям')|E].\n\nАтакующий старается завоевать [duchy|El], где присутствуют любые [Concept('struggle_involved', 'вовлеченные')|E] [counties|El], которыми владеет [ruler|El], [Concept('struggle_interloper', 'вмешивающийся в борьбу')|E], или [Concept('struggle_uninvolved', 'не вовлеченный в нее')|E]. Также атакующий может попытаться сделать правителя своим [Concept('vassalize', 'вассалом')|E], если не владеет землями за пределами герцогства."
+ game_concept_fereldan_reclamation:0 "Ферелденская рекламация"
+ game_concept_fereldan_reclaiming:0 "Возвращение ферелденских территорий"
+ game_concept_fereldan_reclamations:0 "Ферелденские рекламации"
+ game_concept_fereldan_reclamation_desc:2 "Особый тип [Concept('war', 'войны')|E], доступный [Concept('struggle_involved', 'вовлеченным')|E] в [Concept('fereldan_struggle', 'Ферелденскую борьбу')|E] [Concept('rulers', 'правителям')|E].\n\nАтакующий старается завоевать [duchy|El], где присутствуют любые [Concept('struggle_involved', 'вовлеченные')|E] [counties|El], которыми владеет [ruler|El], [Concept('struggle_interloper', 'вмешивающийся в борьбу')|E], или [Concept('struggle_uninvolved', 'не вовлеченный в нее')|E]. Также атакующий может попытаться сделать правителя своим [Concept('vassalize', 'вассалом')|E], если не владеет землями за пределами герцогства."
 

@@ -175,6 +175,8 @@
  city_elf_wycomean:0 "Городские эльфы Викома"
  city_elf_wycomean_prefix:0 "Викомо-эльфийско"
  city_elf_wycomean_collective_noun:0 "Викомско-эльфийск"
+ dalish_group:0 "Долийцы"
+ dalish_group_collective_noun:0 "Долийск"
  dalish_settled:0 "Оседлые долийцы"
  dalish_settled_prefix:0 "Оседло-долийско"
  dalish_settled_collective_noun:0 "Оседло-долийск"

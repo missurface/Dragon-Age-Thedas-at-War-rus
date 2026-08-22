@@ -11,13 +11,30 @@
  struggle_ferelden_ending_hostility_decision_county_tt:0 "Каждое [de_jure|El] [Concept('county', 'графство')|E] вашего [Concept('capital', 'столичного')|E] [Concept('kingdom', 'королевства')|E] ([THIS.Char.GetCapitalLocation.GetCounty.GetTitle.GetDeJureLiege.GetDeJureLiege.GetNameNoTier]) должно быть #L [THIS.Char.GetFaith.GetName|l]им#! и #L [THIS.Char.GetCulture.GetCollectiveNoun|l]им#! ([SCOPE.ScriptValue('fp2_struggle_hostility_county_counter_value')|0]/[SCOPE.ScriptValue('fp2_struggle_hostility_county_total_value')|0])"
 
  struggle_ferelden_ending_hostility_decision_county_light_tt:0 "75% [de_jure|El] [Concept('counties', 'графств')|E] вашего [Concept('capital', 'столичного')|E] [Concept('kingdom', 'королевства')|E] ([THIS.Char.GetCapitalLocation.GetCounty.GetTitle.GetDeJureLiege.GetDeJureLiege.GetNameNoTier]) должны быть #L [THIS.Char.GetCulture.GetCollectiveNoun|l]ими#! и #L [THIS.Char.GetFaith.GetName|l]ими#! ([SCOPE.ScriptValue('fp2_struggle_hostility_county_counter_value')|0]/[SCOPE.ScriptValue('fp2_struggle_hostility_county_total_light_value')|0])"
- struggle_ferelden_ending_hostility_decision_region_tt:2 "Никакой другой [Concept('independent', 'независимый')|E] [Concept('struggle_involved', 'участвующий в борьбе')|E] [Concept('ruler', 'правитель')|E] не контролирует более 10% региона [GetGeographicalRegion('world_fereldan_struggle').GetName]"
+ struggle_ferelden_ending_hostility_decision_region_tt:2 "Никакой другой [Concept('independent', 'независимый')|E] [Concept('struggle_involved', 'участвующий в борьбе')|E] [Concept('ruler', 'правитель')|E] не контролирует более 10% региона [GetGeographicalRegion('custom_fereldan_struggle').GetName]"
+ 
+ 
+ outsider_test_60:0 "Вы [Concept('hold', 'удерживаете')|E] как минимум 60% региона, где происходит [GetGeographicalRegion('custom_fereldan_struggle').GetName]"
+
+
+ struggle_secure_fereldan_foothold_empire_held_effect_tt:0 "Вы создадите [GetTitleByKey('e_ferelden').GetName] и сможете передать его верному вассалу"
+
+ struggle_secure_fereldan_foothold_ends_the_struggle_tt:0 "[GetGeographicalRegion('custom_fereldan_struggle').GetName] завершится по вашему повелению"
+
+
+ orlais_hegemony_poggers:0 "Вы реформируете [GetTitleByKey('h_orlais').GetName]"
+
+ subdue_the_dog_lords_decision_confirm:0 "Родина Андрасте теперь в надёжных руках"
+
+ subdue_the_dog_lords_decision_tooltip:0 "Посадить собачьих лордов на цепь!"
+ 
+ 
  # Effects
  fp2_struggle_hostility_opinion_tt:1 "[opinion|E] [Concept( 'characters', 'персонажей' )|E] той же [Concept( 'faith', 'конфессии' )|E] и/или [Concept( 'culture', 'культуры' )|E]: #positive_value +[SCOPE.ScriptValue('fp2_struggle_hostility_opinion_value')]#!"
  fp2_struggle_hostility_opinion_negative_tt:0 "[opinion|E] [Concept( 'characters', 'персонажей' )|E] других [Concept( 'faiths', 'конфессий' )|E] и/или [Concept( 'cultures', 'культур' )|E], [Concept( 'struggle_involved', 'вовлеченных в борьбу' )|E]: #negative_value [SCOPE.ScriptValue('fp2_struggle_hostility_opinion_negative_value')]#!"
- fp2_struggle_hostility_conversion_tt:1 "Скорость [Concept('councillor_tasks', 'заданий')|E] $task_conversion$ и $task_promote_culture$ в [Concept('region', 'регионе')|E] [GetGeographicalRegion('world_fereldan_struggle').GetName]: #P +50%#!"
- fp2_struggle_hostility_conversion_holy_tt:0 "Скорость [Concept('councillor_task', 'задания')|E] $task_conversion$ в [Concept('region', 'регионе')|E] [GetGeographicalRegion('world_fereldan_struggle').GetName]: #P +50%#!"
- fp2_struggle_hostility_conversion_culture_tt:0 "Скорость [Concept('councillor_task', 'задания')|E] $task_promote_culture$ в [Concept('region', 'регионе')|E] [GetGeographicalRegion('world_fereldan_struggle').GetName]: #P +50%#!"
+ fp2_struggle_hostility_conversion_tt:1 "Скорость [Concept('councillor_tasks', 'заданий')|E] $task_conversion$ и $task_promote_culture$ в [Concept('region', 'регионе')|E] [GetGeographicalRegion('custom_fereldan_struggle').GetName]: #P +50%#!"
+ fp2_struggle_hostility_conversion_holy_tt:0 "Скорость [Concept('councillor_task', 'задания')|E] $task_conversion$ в [Concept('region', 'регионе')|E] [GetGeographicalRegion('custom_fereldan_struggle').GetName]: #P +50%#!"
+ fp2_struggle_hostility_conversion_culture_tt:0 "Скорость [Concept('councillor_task', 'задания')|E] $task_promote_culture$ в [Concept('region', 'регионе')|E] [GetGeographicalRegion('custom_fereldan_struggle').GetName]: #P +50%#!"
  fp2_struggle_hostility_list_tt:1 "Выберите один из модификаторов для вашего [Concept('house', 'дома')|E]:\n$EFFECT_LIST_BULLET$[GetModifier('fp2_struggle_hostility_house_faith_modifier').GetNameWithTooltip|L]. Кроме того, это упростит ведение некоторых [Concept('holy_wars', 'священных войн')|E].\n$EFFECT_LIST_BULLET$[GetModifier('fp2_struggle_hostility_house_culture_modifier').GetNameWithTooltip|L]. Кроме того, это упростит ведение некоторых завоевательских [Concept('wars', 'войн')|E].\n$EFFECT_LIST_BULLET$[GetModifier('fp2_struggle_hostility_house_combined_modifier').GetNameWithTooltip|L]. Кроме того, это упростит ведение некоторых [Concept('holy_wars', 'священных войн')|E] и завоевательских [Concept('wars', 'войн')|E]"
  fp2_struggle_hostility_holy_cb_tt:0 "[casus_bellis|E] «$HOLY_WAR_DUCHY_NAME$» против других [Concept( 'struggle_involved', 'участвующих в борьбе' )|E] [Concept( 'faiths', 'конфессий' )|E]: #positive_value -50%#!"
  fp2_struggle_hostility_holy_cb_joint_tt:0 "[casus_bellis|E] «$HOLY_WAR_DUCHY_NAME$» против других [Concept( 'struggle_involved', 'участвующих в борьбе' )|E] [Concept( 'faiths', 'конфессий' )|E]: #positive_value -50%#!\n$culture_parameter_cb_lower_piety_level_requirement$"
@@ -42,19 +59,19 @@
 
  # Triggers
  struggle_ferelden_ending_compromise_decision_kingdom_tt:0 "Вы [Concept('hold', 'удерживаете')|E] и [Concept('completely_control', 'полностью контролируете')|E] любое [de_jure|El] [Concept('kingdom', 'королевство')|E] державы [GetTitleByKey('e_ferelden').GetNameNoTier] ([SCOPE.ScriptValue('fp2_struggle_ending_kingdom_counter_value')|0]/[SCOPE.ScriptValue('fp2_struggle_conciliation_kingdom_total_value')|0])"
- struggle_ferelden_ending_compromise_decision_region_tt:0 "Вы контролируете более 50% [Concept('region', 'региона')|E] [GetGeographicalRegion('world_fereldan_struggle').GetName] (Сейчас: [SCOPE.ScriptValue('struggle_ferelden_ending_compromise_decision_region_owned_percent_value')|0]%)"
+ struggle_ferelden_ending_compromise_decision_region_tt:0 "Вы контролируете более 50% [Concept('region', 'региона')|E] [GetGeographicalRegion('custom_fereldan_struggle').GetName] (Сейчас: [SCOPE.ScriptValue('struggle_ferelden_ending_compromise_decision_region_owned_percent_value')|0]%)"
 
- struggle_ferelden_ending_compromise_decision_region_2_tt:0 "Вы контролируете более 75% [Concept('region', 'региона')|E] [GetGeographicalRegion('world_fereldan_struggle').GetName] (Сейчас: [SCOPE.ScriptValue('struggle_ferelden_ending_compromise_decision_region_owned_percent_value')|0]%)"
+ struggle_ferelden_ending_compromise_decision_region_2_tt:0 "Вы контролируете более 75% [Concept('region', 'региона')|E] [GetGeographicalRegion('custom_fereldan_struggle').GetName] (Сейчас: [SCOPE.ScriptValue('struggle_ferelden_ending_compromise_decision_region_owned_percent_value')|0]%)"
 
- struggle_ferelden_ending_compromise_decision_other_region_tt:0 "Никакой другой [Concept('independent', 'независимый')|E] [Concept('struggle_involved', 'участвующий в борьбе')|E] [Concept('ruler', 'правитель')|E] не контролирует 20% или более [Concept('region', 'региона')|E] [GetGeographicalRegion('world_fereldan_struggle').GetName]"
+ struggle_ferelden_ending_compromise_decision_other_region_tt:0 "Никакой другой [Concept('independent', 'независимый')|E] [Concept('struggle_involved', 'участвующий в борьбе')|E] [Concept('ruler', 'правитель')|E] не контролирует 20% или более [Concept('region', 'региона')|E] [GetGeographicalRegion('custom_fereldan_struggle').GetName]"
  struggle_ferelden_ending_compromise_decision_opinion_tt:0 "У всех других [Concept('independent', 'независимых')|E] [Concept('struggle_involved', 'участвующих в борьбе')|E] [Concept('rulers', 'правителей')|E] [Concept('opinion', 'мнение')|E] о вас не ниже [SCOPE.ScriptValue('struggle_ferelden_ending_compromise_decision_opinion_value')|0] или вы имеете на них [Concept('strong_hook', 'сильное влияние')|E] ([SCOPE.ScriptValue('struggle_ferelden_ending_compromise_decision_opinion_counter_value')|0]/[SCOPE.ScriptValue('struggle_ferelden_ending_ending_decision_foreign_realm_total_value')|0])"
  struggle_ferelden_ending_compromise_decision_independent_tt:0 "Среди других [Concept('independent', 'независимых')|E] [Concept('struggle_involved', 'участвующих в борьбе')|E] [Concept('rulers', 'правителей')|E], не состоящих с вами в союзе, нет правителей [Concept('rank', 'ранга')|E] [Concept('king', 'короля')|E] или [Concept('emperor', 'императора')|E] (Сейчас: [SCOPE.ScriptValue('struggle_ferelden_ending_compromise_decision_independent_counter_value')|0])"
- struggle_ferelden_ending_compromise_decision_interloper_tt:0 "Более [SCOPE.ScriptValue('fp2_struggle_compromise_uninvolved_percent_value')]% [Concept('region', 'региона')|E] [GetGeographicalRegion('world_fereldan_struggle').GetName] удерживают [Concept('struggle_interloper', 'вмешавшиеся')|E] или [Concept('struggle_uninvolved', 'не участвующие в борьбе')|E] [Concept('rulers', 'правители')|E] (Сейчас: [SCOPE.ScriptValue('struggle_ferelden_ending_compromise_decision_region_interloper_percent_value')|1]%)"
+ struggle_ferelden_ending_compromise_decision_interloper_tt:0 "Более [SCOPE.ScriptValue('fp2_struggle_compromise_uninvolved_percent_value')]% [Concept('region', 'региона')|E] [GetGeographicalRegion('custom_fereldan_struggle').GetName] удерживают [Concept('struggle_interloper', 'вмешавшиеся')|E] или [Concept('struggle_uninvolved', 'не участвующие в борьбе')|E] [Concept('rulers', 'правители')|E] (Сейчас: [SCOPE.ScriptValue('struggle_ferelden_ending_compromise_decision_region_interloper_percent_value')|1]%)"
  struggle_ferelden_ending_compromise_truce_tt:1 "Между [Concept('independent', 'независимыми')|E] [Concept('struggle_involved', 'участвующими в борьбе')|E] [Concept('rulers', 'правителями')|E] не ведется [Concept('wars', 'войн')|E] (Сейчас: [SCOPE.ScriptValue('struggle_ferelden_ending_compromise_decision_war_counter_value')|0])"
 
  # Effects
- fp2_struggle_compromise_create_new_kingdoms_tt:0 "Каждое [Concept('independent', 'независимое')|E] или отдельное [Concept('duchy', 'герцогство')|E] в [Concept('region', 'регионе')|E] [GetGeographicalRegion('world_fereldan_struggle').GetName] становится [de_jure|El] [Concept('kingdom', 'королевством')|E]"
- fp2_struggle_compromise_create_new_empires_tt:1 "Каждое [de_jure|El] [Concept('kingdom', 'королевство')|E] в [Concept('region', 'регионе')|E] [GetGeographicalRegion('world_fereldan_struggle').GetName], имеющее более [EmptyScope.ScriptValue('fp2_struggle_compromise_ending_minimal_empire_size')|0] [Concept('counties', 'графств')|E], становится [de_jure|El] [Concept('empire', 'империей')|E]. Остальные [Concept('kingdoms', 'королевства')|E] [de_jure|El] войдут в состав соседней [Concept('empire', 'империи')|E]."
+ fp2_struggle_compromise_create_new_kingdoms_tt:0 "Каждое [Concept('independent', 'независимое')|E] или отдельное [Concept('duchy', 'герцогство')|E] в [Concept('region', 'регионе')|E] [GetGeographicalRegion('custom_fereldan_struggle').GetName] становится [de_jure|El] [Concept('kingdom', 'королевством')|E]"
+ fp2_struggle_compromise_create_new_empires_tt:1 "Каждое [de_jure|El] [Concept('kingdom', 'королевство')|E] в [Concept('region', 'регионе')|E] [GetGeographicalRegion('custom_fereldan_struggle').GetName], имеющее более [EmptyScope.ScriptValue('fp2_struggle_compromise_ending_minimal_empire_size')|0] [Concept('counties', 'графств')|E], становится [de_jure|El] [Concept('empire', 'империей')|E]. Остальные [Concept('kingdoms', 'королевства')|E] [de_jure|El] войдут в состав соседней [Concept('empire', 'империи')|E]."
  fp2_struggle_compromise_house_rewards_tt:2 "Ваш [house|El] и [house|El] [Concept( 'independent', 'независимого' )|E] [Concept( 'struggle_involved', 'вовлеченного в борьбу' )|E] [Concept( 'ruler', 'правителя' )|E]"
  fp2_struggle_compromise_house_enforce_truce_rewards_tt:0 "Открывает [interaction|El] «[enforce_truce|E]» в отношении других [Concept( 'houses', 'домов' )|E]."
  fp2_struggle_compromise_defensive_rewards_tt:2 "Ваше [Concept( 'capital', 'столичное' )|E] [county|El] и [Concept( 'capital', 'столичное' )|E] [county|El] [Concept( 'independent', 'независимого' )|E] [Concept( 'struggle_involved', 'вовлеченного в борьбу' )|E] [Concept( 'ruler', 'правителя' )|E]"
@@ -80,14 +97,14 @@
  fp2_struggle_conciliation_holy_war_disabled_tt:1 "Навсегда #negative_value запрещает#! наступательные [Concept( 'holy_wars', 'священные войны' )|E] между всеми [Concept( 'struggle_involved', 'участвующими в борьбе' )|E] [Concept( 'cultures', 'культурами' )|E]"
  fp2_struggle_conciliation_acceptance_tt:0 "Примирение в Ферелдене"
  fp2_struggle_conciliation_culture_tt:0 "У всех [Concept( 'struggle_involved', 'участвующих в борьбе' )|E] [Concept( 'cultures', 'культур' )|E] [Concept( 'cultural_acceptance', 'терпимость' )|E] друг к другу повышается на #positive_value [SCOPE.ScriptValue('fp2_struggle_conciliation_culture_acceptance_value')|0]%#!"
- fp2_struggle_conciliation_join_war_tt:1 "Навсегда разрешает [Concept('rulers', 'правителям')|E] [Concept('struggle_involved', 'участвующих в борьбе')|E] [Concept('culture', 'культур')|E] и [Concept('faith', 'конфессий')|E] присоединяться друг к другу в оборонительных [Concept('wars', 'войнах')|E] против захватчиков из-за пределов региона [GetGeographicalRegion('world_fereldan_struggle').GetName]"
+ fp2_struggle_conciliation_join_war_tt:1 "Навсегда разрешает [Concept('rulers', 'правителям')|E] [Concept('struggle_involved', 'участвующих в борьбе')|E] [Concept('culture', 'культур')|E] и [Concept('faith', 'конфессий')|E] присоединяться друг к другу в оборонительных [Concept('wars', 'войнах')|E] против захватчиков из-за пределов региона [GetGeographicalRegion('custom_fereldan_struggle').GetName]"
  # Modifiers
  fp2_struggle_conciliation_house_reward_modifier:0 "Примирение"
  fp2_struggle_conciliation_house_reward_modifier_desc:0 "Этот дом признал, что путь к долгосрочному миру в Ферелдене лежит через терпимость и дружбу."
  ### Common
  can_create_empire_of_ferelden:0 "Открывает создание [Concept('empire', 'империи')|E] [GetTitleByKey('e_ferelden').GetNameNoTier]"
  fp2_struggle_compromise_destroy_hispania_tt:1 "[Concept('empire', 'Империя')|E] [GetTitleByKey('e_ferelden').GetNameNoTier] окончательно #negative_value уничтожается#!"
- fp2_struggle_conciliation_caravanserai_unlock_tt:0 "Навсегда позволяет строить цепочку [Concept('buildings', 'зданий')|E] #V «$building_type_caravanserai_01$»#! в регионе [GetGeographicalRegion('world_fereldan_struggle').GetName]"
+ fp2_struggle_conciliation_caravanserai_unlock_tt:0 "Навсегда позволяет строить цепочку [Concept('buildings', 'зданий')|E] #V «$building_type_caravanserai_01$»#! в регионе [GetGeographicalRegion('custom_fereldan_struggle').GetName]"
 
  CB_COST_FP2_STRUGGLE_HOSTILITY_CULTURE_DISCOUNT:0 "Ферелденская вражда"
  CB_COST_FP2_STRUGGLE_HOSTILITY_FAITH_DISCOUNT:0 "$CB_COST_FP2_STRUGGLE_HOSTILITY_CULTURE_DISCOUNT$"
