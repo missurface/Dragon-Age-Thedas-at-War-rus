@@ -523,6 +523,8 @@
  crown_of_ferelden_decision_desc:0 "Ферелден принадлежит мне по праву, и ни одному сопернику не хватит сил оспорить мою власть. Пришло время выковать корону, достойную [Select_CString(ROOT.Char.IsFemale, 'истинной королевы', 'истинного короля' )] Ферелдена, и добиться всеобщего признания."
  crown_of_ferelden_decision_confirm:0 "Я — [Select_CString(ROOT.Char.IsFemale, 'истинная королева', 'истинный король' )] Ферелдена!"
  crown_of_ferelden_decision_tooltip:0 "Взять корону и [Select_CString(ROOT.Char.IsFemale, 'провозгласить себя истинной королевой', 'провозгласить себя истинным королём' )] Ферелдена."
+ crown_of_ferelden_custom_tooltip:0 "Вы коронуете себя «королём» Ферелдена."
+ crown_of_ferelden_custom_tooltip_2:0 "Ваши соседи могут начать готовить ваше свержение."
  fereldennotheldtooltip:0 "Чтобы принять это решение, необходимо, чтобы королевством Ферелден не владел никто другой."
  crown_of_ferelden_decision_generic:0 "Корона Ферелдена"
  crown_of_ferelden_decision_generic_desc:0 "Ферелден принадлежит мне по праву, и ни одному сопернику не хватит сил оспорить мою власть. Пришло время выковать достойную корону и добиться признания моего права на имя: [ROOT.Char.Custom('GetQueenKing')] Ферелдена."
@@ -591,3 +593,33 @@ DATAW_integrate_brecilian_forest_decision:0 "Поставить лес на ко
 DATAW_integrate_brecilian_forest_decision_desc:0 "Сколько существует людская память, лесные дикари постоянно нападали на наших торговцев, шедших через перевал из Гварена в остальной Ферелден. Теперь лес полностью покорён, и мы можем навсегда включить эти земли в нашу державу, передав управление ими титулу [GetTitleByKey('k_gwaren').GetBaseNameNoTier]."
 DATAW_integrate_brecilian_forest_decision_confirm:0 "Лес умолкнет"
 DATAW_integrate_brecilian_forest_decision_tooltip:0 "Земли титула [GetTitleByKey('k_brecilian_forest').GetBaseNameNoTier] станут [Concept('de_jure','де-юре')|E] частью владений [GetTitleByKey('k_gwaren').GetName]"
+
+################################################
+# Integrate Hinterlands into Korcari Wilds     #
+################################################
+DATAW_korcari_conquest_of_hinterlands_decision:0 "За пределами Диких земель"
+DATAW_korcari_conquest_of_hinterlands_decision_desc:0 "В давние времена наш народ свободно переходил из Диких земель во Внутренние земли и обратно. Однако возведение Остагара противоестественно отрезало нас от этого плодородного края, а во время Второго Мора грозный [GetScriptedCharacterByHistoryID('alamarri0202').GetFirstName] отразил нашу попытку вернуть земли предков. Теперь, когда наша держава добилась успехов в этом краю, мы можем исправить древнюю несправедливость и раз и навсегда положить конец притязаниям клейнов."
+DATAW_korcari_conquest_of_hinterlands_decision_confirm:0 "Внутренние земли теперь принадлежат нам!"
+DATAW_korcari_conquest_of_hinterlands_decision_tooltip:0 "Земли титула «[GetTitleByKey('k_hinterlands').GetBaseNameNoTier]» становятся [Concept('de_jure','де-юре')|E] частью титула «[GetTitleByKey('k_korcari_wilds').GetBaseNameNoTier]»"
+
+#################################################
+# Elven Brecilian Forest Decision 1 CAIRO
+###################################################
+DATAW_unite_brecilian_forest_elvhen_decision:0 "Новый дом для элвенов"
+DATAW_unite_brecilian_forest_elvhen_decision_desc:0 "Мы, эльфы, с самого падения Арлатана и последовавшего порабощения магистрами всегда находились в шатком положении. Мы утратили язык, культуру и веру, и лишь благодаря восстанию Шартана и его последующему участию в Священном походе Андрасте обрели Долы. Но наше положение по-прежнему непрочно. \n\n#!В землях «[GetTitleByKey('k_brecilian_forest').GetBaseNameNoTier]» Завеса тонка, а деревья дики, как в Арлатане. Если избавить лес от коренных варваров, мы сможем объявить его своим и тем самым упрочить наше положение."
+DATAW_unite_brecilian_forest_elvhen_decision_confirm:0 "Здесь возникнет новая держава эльфов"
+DATAW_unite_brecilian_forest_elvhen_decision_tooltip:0 "Создать в землях «[GetTitleByKey('k_brecilian_forest').GetBaseNameNoTier]» новый дом для #L [GetCulturePillar('heritage_elvhen').GetName]ого#! народа"
+elvhen_brecilian_ruler_tt:0 "Все правители в пределах державы «[GetTitleByKey('k_brecilian_forest').GetBaseNameNoTier]» принадлежат к культуре с #L [GetCulturePillar('heritage_elvhen').GetName]им#! [Concept('heritage','наследием')|E]"
+
+#########################################################
+# Elven Brecilian Forest Decision 2
+#########################################################
+DATAW_consolidate_brecilian_forest_elvhen:0 "По образу наших праотцев"
+DATAW_consolidate_brecilian_forest_elvhen_desc:0 "Пусть мы и создали новый дом в землях «[GetTitleByKey('k_brecilian_forest').GetBaseNameNoTier]», мечта вернуть утраченное пока не осуществилась. Лес всё ещё дик и необуздан, а наше культурное господство в нём пока не стало полным. Если мы хотим по праву считать себя наследниками предков, необходимо заложить под нашим начинанием прочный фундамент. Лишь тогда начнётся труд по возвращению всего утраченного в Арлатане."
+DATAW_consolidate_brecilian_forest_elvhen_confirm:0 "Укрепить новое эльфийское королевство"
+DATAW_consolidate_brecilian_forest_elvhen_tooltip:0 "Отныне Дремлющий лес — наш дом"
+DATAW_consolidate_elvhen_county_culture_tt:0 "Во всех [Concept('counties','графствах')|E] региона «[GetGeographicalRegion('world_ferelden_brecilian_forest').GetName]» распространены культуры с #L [GetCulturePillar('heritage_elvhen').GetName]им#! [Concept('heritage','наследием')|E]"
+DATAW_consolidate_elvhen_county_religion_tt:0 "Во всех [Concept('counties','графствах')|E] региона «[GetGeographicalRegion('world_ferelden_brecilian_forest').GetName]» исповедуют либо [GetReligionByKey('elven_paganism_religion').GetAdjective], либо конфессию «[GetFaithByKey('dalish_chantry').GetName]»"
+DATAW_consolidate_elvhen_county_religion_partial_tt:0 "Не менее чем в 60% [Concept('counties','графств')|E] региона «[GetGeographicalRegion('world_ferelden_brecilian_forest').GetName]» исповедуют либо [GetReligionByKey('elven_paganism_religion').GetAdjective], либо конфессию «[GetFaithByKey('dalish_chantry').GetName]»"
+DATAW_consolidate_elvhen_county_culture_partial_tt:0 "Не менее чем в 70% [Concept('counties','графств')|E] региона «[GetGeographicalRegion('world_ferelden_brecilian_forest').GetName]» распространены культуры с #L [GetCulturePillar('heritage_elvhen').GetName]им#! [Concept('heritage','наследием')|E]"
+DATAW_co_existance_brecilian_elvhen_tt:0 "Вы выбрали путь сосуществования с бресилианцами"

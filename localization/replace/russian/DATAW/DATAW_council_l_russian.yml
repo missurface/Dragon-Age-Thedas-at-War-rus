@@ -71,3 +71,9 @@ councillor_court_chaplain_alamarri_maker_cult_empire_possessive:0 "Верхов�
 
  councillor_spymaster_wake:0 "Сплетник"
  councillor_spymaster_wake_possessive:0 "Сплетника"
+
+ #Council Task Modifiers
+ STEWARD_PROMOTE_CULTURE_BRECILIAN_ELVHEN:0 "Кампании по основанию долийских поселений"
+ CHAPLAIN_CONVERT_FAITH_BRECILIAN_ELVHEN:0 "Кампании по основанию долийских поселений"
+ STEWARD_PROMOTE_CULTURE_AUTOMATIC_BRECILIAN_ELVHEN: "Принудительное переселение"
+ CHAPLAIN_CONVERT_FAITH_AUTOMATIC_BRECILIAN_ELVHEN: "Принудительное переселение"

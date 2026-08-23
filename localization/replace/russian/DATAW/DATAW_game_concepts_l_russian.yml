@@ -138,7 +138,7 @@
  game_concept_battle_of_starkhaven: "Сражение за Старкхэвен"
  game_concept_battle_of_starkhaven_desc: "В 1:95 году Божественного века под Старкхэвеном состоялась последняя битва Второго [Concept('blight','Мора')|E], в которой [Concept('grey_warden','Серые Стражи')|E] повели войско против [Concept('darkspawn','порождений тьмы')|E]. Они подготовили ловушку для [Concept('archdemon','Архидемона')|E] Зазикеля, но тот узнал об их замысле и окружил войско со всех сторон. После тяжёлых потерь [Concept('grey_warden','Серый Страж')|E] Корин сразил Зазикеля; его возлюбленная, [Concept('mage','маг')|E] Нерия, пожертвовала собой, заслонив Корина от смертельной атаки. Благодаря этому Корин пробился к Зазикелю и нанёс решающий удар, который убил и его самого, и [Concept('old_god','Древнего Бога')|E], положив конец Второму [Concept('blight','Мору')|E]." #wip
  game_concept_the_calling: "Зов"
- game_concept_the_calling_desc: "the Calling TODO" 
+ game_concept_the_calling_desc: "Зов TODO"
 
 
 

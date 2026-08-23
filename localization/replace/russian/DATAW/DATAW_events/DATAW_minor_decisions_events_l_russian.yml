@@ -1,6 +1,6 @@
 ﻿l_russian:
  DATAW_minor_decision.0001.tit: "Подходящая кандидатура"
- DATAW_minor_decision.0001.desc: "Похоже, мои приглашения привели на мой порог немало людей с боевым опытом. Многие откровенно лгали о своих навыках, и после их разоблачения внимания заслужили лишь три кандидатуры: [veteran01.GetFullName], [veteran02.GetFullName] и [veteran03.GetFullName]. У каждой свои особые умения, и теперь выбор за мной."
+ DATAW_minor_decision.0001.desc: "Похоже, мои приглашения привели на мой порог немало людей с боевым опытом.\n\nМногие откровенно лгали о своих навыках, и после их разоблачения внимания заслужили лишь три кандидатуры: [veteran01.GetFullName], [veteran02.GetFullName] и [veteran03.GetFullName].\n\nУ каждой свои особые умения, и теперь выбор за мной."
  DATAW_minor_decision.0001.opt.a: "Я возьму [Select_CString(veteran01.IsFemale, 'её', 'его' )] на службу — [veteran01.GetName]."
  DATAW_minor_decision.0001.opt.b: "[veteran02.GetName] кажется достойной кандидатурой."
  DATAW_minor_decision.0001.opt.c: "Без сомнений — [veteran03.GetName]."

@@ -12,4 +12,4 @@
  death_killed_by_wolf_queen:0 "[Select_CString(CHARACTER.IsFemale, 'была убита', 'был убит' )] Королевой-Волчицей за свою дерзость"
  death_killed_by_elven_sentinels:0 "[Select_CString(CHARACTER.IsFemale, 'была убита', 'был убит' )] древними эльфами, охранявшими Вир Абеласан"
  death_at_the_battle_of_valarian_fields:0 "[Select_CString(CHARACTER.IsFemale, 'погибла', 'погиб' )] в [Concept('battle_of_valarian_fields','битве на Валарианских полях')|E]"
-
+ death_the_calling: "[Select_CString(CHARACTER.IsFemale, 'отправилась', 'отправился' )] на Глубинные тропы, услышав [the_calling|E]"

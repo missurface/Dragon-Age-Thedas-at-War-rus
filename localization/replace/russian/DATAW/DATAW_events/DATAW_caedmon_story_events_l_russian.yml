@@ -24,20 +24,21 @@
 
  alamarri_pagan_faith_in_the_struggle: "Клейны считают вашу [Concept('faith','конфессию')|E] варварской"
 
+ Must_be_of_clayne_descent: "Необходимо иметь клейнское происхождение"
+
+
+ struggle_secure_fereldan_foothold_empire_tt:0 "Вы [Concept('hold','владеете')|E] [Concept('empire','имперским')|E] [Concept('title','титулом')|E], отличным от титула «[GetTitleByKey('e_ferelden').GetNameNoTier]»"
+
+ struggle_uninvolved_or_external_tt:0 "Ваша [Concept('capital','столица')|E] находится за пределами [Concept('region','региона')|E] «[GetGeographicalRegion('world_ferelden').GetName]»"
+
+ struggle_secure_fereldan_foothold_outsider_tt:0 "Вы [Concept('hold','владеете')|E] не менее чем #Z [SCOPE.ScriptValue('struggle_secure_fereldan_foothold_outsider_target_percent_value')|0]%#! [Concept('counties','графств')|E] в [Concept('region','регионе')|E] «[GetGeographicalRegion('custom_fereldan_struggle').GetName]» (сейчас: [SCOPE.ScriptValue('struggle_secure_fereldan_foothold_outsider_percent_value')|0]%)\n"
 
 
 
 
 
-
-
-
-
-
-
-
-
-
+ secure_fereldan_foothold_decision_desc: "Со времени упадка края после окончания правления Маферата Ферелден в лучшем случае оставался беспокойным соседом, а в худшем — враждебным. Кордиллус I делал всё возможное, чтобы помочь простому народу в борьбе с [Concept('darkspawn','порождениями тьмы')|E] во время Второго [Concept('blight','Мора')|E], однако смута и распри до сих пор терзают земли собачьих лордов. \n\nРодина [andraste|E] не должна пребывать в таком состоянии. Подчинив её Вал Руайо, мы сможем восстановить порядок в краю, сделать его безопаснее как для паломников, так и для местных жителей, а заодно укрепить собственный престиж."
+ subdue_the_dog_lords_decision_title: "Усмирить собачьих лордов"
 
 ################################ MAIN EVENTS #######################
 ### main event 1 - how to rule
