@@ -22,7 +22,7 @@
  struggle_secure_fereldan_foothold_ends_the_struggle_tt:0 "[GetGeographicalRegion('custom_fereldan_struggle').GetName] завершится по вашему повелению"
 
 
- orlais_hegemony_poggers:0 "Вы реформируете [GetTitleByKey('h_orlais').GetName]"
+ orlais_hegemony_poggers:0 "[GetTitleByKey('h_orlais').GetName] будет восстановлена вами"
 
  subdue_the_dog_lords_decision_confirm:0 "Родина Андрасте теперь в надёжных руках"
 
