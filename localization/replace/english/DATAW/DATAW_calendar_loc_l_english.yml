@@ -1,9 +1,50 @@
 ﻿l_english: 
   #DONT EDIT THOSE WITHOUT MY PERMISSION OR I SWEAR I WILL DESTROY YOU - Typical
 
+  # luv u pookie - Rislav
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+
+
  CALENDAR_SEL: "$INGAME_DATE$"
  #"[AddTextIf(GetPlayer.GetFaith.HasDoctrineByKey('imperial_chantry'), $Tevinter_CALENDAR$][AddTextIf(Not(GetPlayer.GetFaith.HasDoctrineByKey('imperial_chantry')), $INGAME_DATE$]"
 
+
+
+
+ CURRENT_DATE: "[SelectLocalization(GetPlayer.IsPlayer, 'DATAW_PLAYER_DISPLAY_DATE', 'DATAW_OBSERVER_DISPLAY_DATE')]"
+ DATAW_PLAYER_DISPLAY_DATE:0 "[GetPlayer.Custom('DATAW_GetDisplayDate')]"
+ DATAW_OBSERVER_DISPLAY_DATE:0 "$DATAW_CHANTRY_DISPLAY_DATE$"
+
+
+
+
+
+
+ DATAW_TEVINTER_DISPLAY_DATE:0 "[GetPlayer.MakeScope.ScriptValue('DATAW_tevinter_year_display')|0] TE, [GetPlayer.MakeScope.ScriptValue('DATAW_tevinter_day_display')|0] [GetPlayer.Custom('DATAW_GettevinterMonthName')]"
+ DATAW_CHANTRY_DISPLAY_DATE:0 "[GetCurrentDate.GetStringLong]"
+
+
+
+
+ 
   #year 0 game = founding of Tevinter
  Tevinter_CALENDAR: "$YEAR$ TE"
  CHANTRY_CALENDAR: "Select_int32(GreaterThanOrEqualTo_int32( '(int32)$YEAR$', '(int32)1195' ), $CHANTRY_POST_ANCIENT$, $CHANTRY_ANCIENT$ ))"
@@ -70,3 +111,24 @@
  INGAME_YEAR: "[Select_int32(LessThan_int32('(int32)$YEAR|q$','(int32)1195'),Subtract_int32('(int32)$YEAR|q$', '(int32)1194'), Select_int32(And(GreaterThanOrEqualTo_int32('(int32)$YEAR|q$','(int32)1195'),LessThan_int32('(int32)$YEAR|q$','(int32)1294')),Subtract_int32('(int32)$YEAR|q$','(int32)1194'), Select_int32(And(GreaterThanOrEqualTo_int32('(int32)$YEAR|q$','(int32)1294'),LessThan_int32('(int32)$YEAR|q$','(int32)1394')),Subtract_int32('(int32)$YEAR|q$','(int32)1294'), Select_int32(And(GreaterThanOrEqualTo_int32('(int32)$YEAR|q$','(int32)1394'),LessThan_int32('(int32)$YEAR|q$','(int32)1494')),Subtract_int32('(int32)$YEAR|q$','(int32)1394') , Select_int32(And(GreaterThanOrEqualTo_int32('(int32)$YEAR|q$','(int32)1494'),LessThan_int32('(int32)$YEAR|q$','(int32)1594')),Subtract_int32('(int32)$YEAR|q$','(int32)1494') , Select_int32(And(GreaterThanOrEqualTo_int32('(int32)$YEAR|q$','(int32)1594'),LessThan_int32('(int32)$YEAR|q$','(int32)1694')),Subtract_int32('(int32)$YEAR|q$','(int32)1594') ,Select_int32(And(GreaterThanOrEqualTo_int32('(int32)$YEAR|q$','(int32)1694'),LessThan_int32('(int32)$YEAR|q$','(int32)1794')),Subtract_int32('(int32)$YEAR|q$','(int32)1694') , Select_int32(And(GreaterThanOrEqualTo_int32('(int32)$YEAR|q$','(int32)1794'),LessThan_int32('(int32)$YEAR|q$','(int32)1894')),Subtract_int32('(int32)$YEAR|q$','(int32)1794') , Select_int32(And(GreaterThanOrEqualTo_int32('(int32)$YEAR|q$','(int32)1894'),LessThan_int32('(int32)$YEAR|q$','(int32)1994')),Subtract_int32('(int32)$YEAR|q$','(int32)1894') ,Subtract_int32('(int32)$YEAR|q$','(int32)1994'))))))))))]"
  INGAME_AGE_DATE: "[AddTextIf(LessThan_int32('(int32)$YEAR|q$', '(int32)1195'), 'Ancient')][AddTextIf(And( GreaterThanOrEqualTo_int32( '(int32)$YEAR|q$', '(int32)1195'), LessThan_int32( '(int32)$YEAR|q$', '(int32)1294') ), 'Divine')][AddTextIf(And( GreaterThanOrEqualTo_int32( '(int32)$YEAR|q$', '(int32)1294'), LessThan_int32( '(int32)$YEAR|q$', '(int32)1394') ), 'Glory')][AddTextIf(And( GreaterThanOrEqualTo_int32( '(int32)$YEAR|q$', '(int32)1394'), LessThan_int32( '(int32)$YEAR|q$', '(int32)1494') ), 'Towers')][AddTextIf(And( GreaterThanOrEqualTo_int32( '(int32)$YEAR|q$', '(int32)1494'), LessThan_int32( '(int32)$YEAR|q$', '(int32)1594') ), 'Black')][AddTextIf(And( GreaterThanOrEqualTo_int32( '(int32)$YEAR|q$', '(int32)1594'), LessThan_int32( '(int32)$YEAR|q$', '(int32)1694') ), 'Exalted')][AddTextIf(And( GreaterThanOrEqualTo_int32( '(int32)$YEAR|q$', '(int32)1694'), LessThan_int32( '(int32)$YEAR|q$', '(int32)1794') ), 'Steel')][AddTextIf(And( GreaterThanOrEqualTo_int32( '(int32)$YEAR|q$', '(int32)1794'), LessThan_int32( '(int32)$YEAR|q$', '(int32)1894') ), 'Storm')][AddTextIf(And( GreaterThanOrEqualTo_int32( '(int32)$YEAR|q$', '(int32)1894'), LessThan_int32( '(int32)$YEAR|q$', '(int32)1994') ), 'Blessed')][AddTextIf(GreaterThanOrEqualTo_int32( '(int32)$YEAR|q$', '(int32)1994'), 'Dragon')]"
  INGAME_DATE: "$INGAME_AGE_NUMBER$[AddTextIf(GreaterThanOrEqualTo_int32( '(int32)$YEAR|q$', '(int32)1195'), ':')]$INGAME_YEAR$ $INGAME_AGE_DATE$"
+
+
+
+
+
+
+ change_calendar_system: "Change Calendar System"
+ change_calendar_system_desc: "Before the Chantry calendar saw widespread usage, there were many others - perhaps we should adopt one of these?"
+ dataw_tevinter_calendar: "The Tevinter Calendar!"
+ dataw_calendar_chantry: "The Chantry Calendar!"
+ change_calendar_effect: "Swap your calendar to a different system"
+ has_not_changed_calendar_recently: "You haven't changed your calendar recently"
+ dataw_tevinter_calendar_desc: "Based around the founding date of the Tevinter Imperium, this calender counts by one for each year unto eternity"
+ dataw_tevinter_calendar_enabled_tt: "We must not already be using the Tevinter calendar"
+ dataw_tevinter_calendar_tooltip: "It just makes sense"
+ dataw_calendar_chantry_desc: "Based around the founding of the Orlesian Chantry, every century is broken down into distinctly named ages - chosen by the White Divine of Val Royeaux"
+ dataw_calendar_chantry_enabled_tt: "We must not already be using the Chantry calendar"
+ dataw_chantry_calendar_tooltip: "Why fight against the crowd?"
+ change_calendar_system_confirm: "Switch Calendars"
+ change_calendar_system_tooltip: "Switch calendars?"
+ dataw_chantry_succession_not_orlais: "Your faith must not take its authority from Orlais"

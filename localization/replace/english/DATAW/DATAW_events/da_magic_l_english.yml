@@ -357,6 +357,7 @@
  spell_discovered_on_target: "[spell_target.GetFirstName] discovers that you've cast a Hostile Spell on [spell_target.GetHerHim]"
  spell_target_has_died: "Your Spell Target has died. You cannot cast spells on dead people."
  spell_castable_trigger: "[Localize( Concatenate( GetPlayer.MakeScope.Var('spell_caster').Char.MakeScope.Var('spell_selected').GetFlagName, '_castable_trigger_tt' ) )]"
+ spell_target_cannot_be_self: "Spell Target cannot be yourself"
  spell_target_must_be_self: "Spell Target must be yourself"
  fallback_hostile_spell_castable_trigger_tt: "You do not have a Hostile spell equipped."
  fallback_castable_trigger_tt: "You do not have this spell unlocked."

@@ -581,7 +581,7 @@
 ### Seeking out the Local Tribes Event Chain
  # Champion of the Ciriane
  dataw_ciriane_rebellion.3914.t: "Champion of the Ciriane"
- dataw_ciriane_rebellion.3914.desc: "[winner.GetName] is crowned champion of my tournament, and champion of all [GetGlobalVariable('ciriane_culture_var').Culture.GetName] people.\n\nThey seem satisfied with my prize, as well as their competition. The crowd receives their champion with open arms, and helps themselves to my food and drink.\n\n#N I myself politely congratulate them, before making my way to meet with the marshland chieftains.#!"
+ dataw_ciriane_rebellion.3914.desc: "[winner.GetName] is crowned champion of my tournament, and champion of all [GetGlobalVariable('ciriane_culture_var').Culture.GetName] people.\n\nThey seem satisfied with the prize, as well as their competition. The crowd receives their champion with open arms, and helps themselves to my food and drink.\n\n#N I myself politely congratulate them, before making my way to meet with the marshland chieftains.#!"
  dataw_ciriane_rebellion.3914.a: "Best not keep them waiting..."
 
 ### Seeking out the Local Tribes Event Chain

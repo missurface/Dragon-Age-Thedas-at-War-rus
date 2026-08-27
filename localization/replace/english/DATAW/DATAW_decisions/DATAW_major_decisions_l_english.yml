@@ -593,6 +593,7 @@ DATAW_integrate_brecilian_forest_decision:0 "Bring the Forest to Heel"
 DATAW_integrate_brecilian_forest_decision_desc:0 "For as long as can be remembered, our traders have faced constant harrassment by forest savages as they made the journey through the pass from Gwaren to the rest of Ferelden. Now, with the complete subjugation of the forests, we have an opportunity to integrate these lands into our realm forevermore by giving [GetTitleByKey('k_gwaren').GetBaseNameNoTier] stewardship over the area."
 DATAW_integrate_brecilian_forest_decision_confirm:0 "The forest falls silent"
 DATAW_integrate_brecilian_forest_decision_tooltip:0 "Lands of [GetTitleByKey('k_brecilian_forest').GetBaseNameNoTier] become a [de_jure|E] part of the [GetTitleByKey('k_gwaren').GetName]"
+gwaren_brecilian_kingdom_tt:0 "No one holds the [GetTitleByKey('k_brecilian_forest').GetName]"
 
 ################################################
 # Integrate Hinterlands into Korcari Wilds     #

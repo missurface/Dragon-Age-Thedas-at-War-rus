@@ -1,0 +1,6 @@
+﻿l_english:
+ bp1_yearly.5704.t:0 "Fair When [seduced_rival.GetSheHe|U]'s Angry"
+ # DATAW CHANGED [ROOT.Char.GetChamber] -> [ROOT.Char.Custom('GetChamber')] vanilla fix - stocky
+ bp1_yearly.5704.desc:0 "[seduced_rival.GetFirstName] is in my [ROOT.Char.Custom('GetChamber')] once more, prattling on some nonsense about how I have wronged [seduced_rival.GetHerHim]. [seduced_rival.GetHerHis|U] eyes are aflame as [seduced_rival.GetSheHe] curses my name once again, and [seduced_rival.GetHerHis] choler only rises as I dismiss [seduced_rival.GetHerHis] anger with a scornful shake of the head.\n\nAs [seduced_rival.GetSheHe] continues to berate me even as I snipe back retorts in turn, I catch myself considering [seduced_rival.GetHerHis] eyes again. No sooner have I snapped out of that small reverie than I find my gaze drifting over to the curve of [seduced_rival.GetHerHis] jawline, so strikingly distended by rage. Unconsciously staring, I notice how [seduced_rival.GetHerHis] chest heaves invitingly as [seduced_rival.GetSheHe] continues [seduced_rival.GetHerHis] tirade, and-\n\nWhat #EMP have #!I got myself into?"
+ bp1_yearly.5704.a:0 "Hopefully we see #EMP much #!more of each other, [seduced_rival.GetFirstNameNoTooltip]."
+ bp1_yearly.5704.b:0 "This is ridiculous!"
