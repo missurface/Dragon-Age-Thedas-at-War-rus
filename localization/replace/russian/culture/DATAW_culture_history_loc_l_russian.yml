@@ -5,6 +5,6 @@
  chasind_history_loc:0 "Отделилась от #L [CULTURE.GetCollectiveNoun|l]ой#! культуры в -1415 году Древней эры и поселилась в Диких землях Коркари"
  brecilian_history_loc:0 "Происходит от представителей #L [CULTURE.GetCollectiveNoun|l]ой#! культуры, бежавших в Бресилианский лес в -1385 году Древней эры"
  alamarri_history_loc:0 "Одно из древнейших человеческих племён и первые люди, поселившиеся на юго-востоке Тедаса"
- dalish_settled_history_loc:0 "Потомки [Concept('elves','эльфов')|E], сражавшихся бок о бок с [andraste|E] и получивших Долы для поселения в -165 году Древней эры"
+ dalish_settled_history_loc:0 "Потомки [Concept('elves','эльфов')|E]-союзников [andraste|E], получивших Долы в -165 году Древней эры"
  jaderian_history_loc:0 "Происходит от представителей #L [CULTURE.GetCollectiveNoun|l]ой#! культуры, попавших под влияние #L [GetGlobalVariable('orlesian_culture_var').Culture.GetCollectiveNoun|l]ой#! культуры в -3 году Древней эры"
  wake_history_loc:0 "Культура вольных мореходов со всех берегов региона [GetGeographicalRegion('sea_waking_sea').GetName]"

@@ -357,6 +357,7 @@
  spell_discovered_on_target: "[spell_target.GetFirstName] узнаёт, что враждебное заклинание было наложено вами"
  spell_target_has_died: "Цель вашего заклинания умерла. На мёртвых нельзя накладывать заклинания."
  spell_castable_trigger: "[Localize( Concatenate( GetPlayer.MakeScope.Var('spell_caster').Char.MakeScope.Var('spell_selected').GetFlagName, '_castable_trigger_tt' ) )]"
+ spell_target_cannot_be_self: "Целью заклинания не должны быть вы"
  spell_target_must_be_self: "Целью заклинания должны быть вы"
  fallback_hostile_spell_castable_trigger_tt: "У вас не выбрано враждебное заклинание."
  fallback_castable_trigger_tt: "Это заклинание ещё не открыто."

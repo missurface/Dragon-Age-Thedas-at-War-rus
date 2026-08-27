@@ -1,11 +1,52 @@
 ﻿l_russian: 
   #DONT EDIT THOSE WITHOUT MY PERMISSION OR I SWEAR I WILL DESTROY YOU - Typical
 
+# luv u pookie - Rislav
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  CALENDAR_SEL: "$INGAME_DATE$"
  #"[AddTextIf(GetPlayer.GetFaith.HasDoctrineByKey('imperial_chantry'), $Tevinter_CALENDAR$][AddTextIf(Not(GetPlayer.GetFaith.HasDoctrineByKey('imperial_chantry')), $INGAME_DATE$]"
 
+
+
+
+ CURRENT_DATE: "[SelectLocalization(GetPlayer.IsPlayer, 'DATAW_PLAYER_DISPLAY_DATE', 'DATAW_OBSERVER_DISPLAY_DATE')]"
+ DATAW_PLAYER_DISPLAY_DATE:0 "[GetPlayer.Custom('DATAW_GetDisplayDate')]"
+ DATAW_OBSERVER_DISPLAY_DATE:0 "$DATAW_CHANTRY_DISPLAY_DATE$"
+ 
+ 
+ 
+ 
+ 
+ 
+ DATAW_TEVINTER_DISPLAY_DATE:0 "[GetPlayer.MakeScope.ScriptValue('DATAW_tevinter_year_display')|0] ТЭ, [GetPlayer.MakeScope.ScriptValue('DATAW_tevinter_day_display')|0] [GetPlayer.Custom('DATAW_GettevinterMonthName')]"
+ DATAW_CHANTRY_DISPLAY_DATE:0 "[GetCurrentDate.GetStringLong]"
+ 
+ 
+ 
+ 
+ 
   #year 0 game = founding of Tevinter
- Tevinter_CALENDAR: "$YEAR$ TE"
+ Tevinter_CALENDAR: "$YEAR$ ТЭ"
  CHANTRY_CALENDAR: "Select_int32(GreaterThanOrEqualTo_int32( '(int32)$YEAR$', '(int32)1195' ), $CHANTRY_POST_ANCIENT$, $CHANTRY_ANCIENT$ ))"
  #CHANTRY_POST_ANCIENT: "[GetPlayer.MakeScope.ScriptValue('DATAW_chantry_year')]:[GetPlayer.MakeScope.ScriptValue('DATAW_chantry_year')][GetPlayer.Custom('DATAW_chantry_age_full')]"
  CHANTRY_ANCIENT: "Subtract_int32( '(int32)1194', '(int32)$YEAR$' ) Древней эры"
@@ -70,3 +111,24 @@
  INGAME_YEAR: "[Select_int32(LessThan_int32('(int32)$YEAR|q$','(int32)1195'),Subtract_int32('(int32)$YEAR|q$', '(int32)1194'), Select_int32(And(GreaterThanOrEqualTo_int32('(int32)$YEAR|q$','(int32)1195'),LessThan_int32('(int32)$YEAR|q$','(int32)1294')),Subtract_int32('(int32)$YEAR|q$','(int32)1194'), Select_int32(And(GreaterThanOrEqualTo_int32('(int32)$YEAR|q$','(int32)1294'),LessThan_int32('(int32)$YEAR|q$','(int32)1394')),Subtract_int32('(int32)$YEAR|q$','(int32)1294'), Select_int32(And(GreaterThanOrEqualTo_int32('(int32)$YEAR|q$','(int32)1394'),LessThan_int32('(int32)$YEAR|q$','(int32)1494')),Subtract_int32('(int32)$YEAR|q$','(int32)1394') , Select_int32(And(GreaterThanOrEqualTo_int32('(int32)$YEAR|q$','(int32)1494'),LessThan_int32('(int32)$YEAR|q$','(int32)1594')),Subtract_int32('(int32)$YEAR|q$','(int32)1494') , Select_int32(And(GreaterThanOrEqualTo_int32('(int32)$YEAR|q$','(int32)1594'),LessThan_int32('(int32)$YEAR|q$','(int32)1694')),Subtract_int32('(int32)$YEAR|q$','(int32)1594') ,Select_int32(And(GreaterThanOrEqualTo_int32('(int32)$YEAR|q$','(int32)1694'),LessThan_int32('(int32)$YEAR|q$','(int32)1794')),Subtract_int32('(int32)$YEAR|q$','(int32)1694') , Select_int32(And(GreaterThanOrEqualTo_int32('(int32)$YEAR|q$','(int32)1794'),LessThan_int32('(int32)$YEAR|q$','(int32)1894')),Subtract_int32('(int32)$YEAR|q$','(int32)1794') , Select_int32(And(GreaterThanOrEqualTo_int32('(int32)$YEAR|q$','(int32)1894'),LessThan_int32('(int32)$YEAR|q$','(int32)1994')),Subtract_int32('(int32)$YEAR|q$','(int32)1894') ,Subtract_int32('(int32)$YEAR|q$','(int32)1994'))))))))))]"
  INGAME_AGE_DATE: "[AddTextIf(LessThan_int32('(int32)$YEAR|q$', '(int32)1195'), 'Древней Эры')][AddTextIf(And( GreaterThanOrEqualTo_int32( '(int32)$YEAR|q$', '(int32)1195'), LessThan_int32( '(int32)$YEAR|q$', '(int32)1294') ), 'Божественного Века')][AddTextIf(And( GreaterThanOrEqualTo_int32( '(int32)$YEAR|q$', '(int32)1294'), LessThan_int32( '(int32)$YEAR|q$', '(int32)1394') ), 'Века Славы')][AddTextIf(And( GreaterThanOrEqualTo_int32( '(int32)$YEAR|q$', '(int32)1394'), LessThan_int32( '(int32)$YEAR|q$', '(int32)1494') ), 'Века Башен')][AddTextIf(And( GreaterThanOrEqualTo_int32( '(int32)$YEAR|q$', '(int32)1494'), LessThan_int32( '(int32)$YEAR|q$', '(int32)1594') ), 'Чёрного Века')][AddTextIf(And( GreaterThanOrEqualTo_int32( '(int32)$YEAR|q$', '(int32)1594'), LessThan_int32( '(int32)$YEAR|q$', '(int32)1694') ), 'Священного Века')][AddTextIf(And( GreaterThanOrEqualTo_int32( '(int32)$YEAR|q$', '(int32)1694'), LessThan_int32( '(int32)$YEAR|q$', '(int32)1794') ), 'Века Стали')][AddTextIf(And( GreaterThanOrEqualTo_int32( '(int32)$YEAR|q$', '(int32)1794'), LessThan_int32( '(int32)$YEAR|q$', '(int32)1894') ), 'Века Бурь')][AddTextIf(And( GreaterThanOrEqualTo_int32( '(int32)$YEAR|q$', '(int32)1894'), LessThan_int32( '(int32)$YEAR|q$', '(int32)1994') ), 'Благословенного Века')][AddTextIf(GreaterThanOrEqualTo_int32( '(int32)$YEAR|q$', '(int32)1994'), 'Века Дракона')]"
  INGAME_DATE: "$INGAME_AGE_NUMBER$[AddTextIf(GreaterThanOrEqualTo_int32( '(int32)$YEAR|q$', '(int32)1195'), ':')]$INGAME_YEAR$ $INGAME_AGE_DATE$"
+ 
+ 
+ 
+ 
+ 
+ 
+  change_calendar_system: "Сменить систему летоисчисления"
+ change_calendar_system_desc: "До того как календарь Церкви получил повсеместное распространение, существовало множество других. Возможно, нам стоит принять один из них?"
+ dataw_tevinter_calendar: "Тевинтерский календарь!"
+ dataw_calendar_chantry: "Церковный календарь!"
+ change_calendar_effect: "Текущий календарь будет заменён на другую систему"
+ has_not_changed_calendar_recently: "Вы не меняли свой календарь недавно"
+ dataw_tevinter_calendar_desc: "Взявший за основу дату основания Империума Тевинтер, этот календарь ведёт непрерывный отсчёт лет от этой точки до бесконечности."
+ dataw_tevinter_calendar_enabled_tt: "Мы не должны уже использовать тевинтерский календарь"
+ dataw_tevinter_calendar_tooltip: "В этом просто есть смысл"
+ dataw_calendar_chantry_desc: "Взявший за основу дату основания Орлесианской Церкви, этот календарь делит каждое столетие на отдельные века, названия которых выбирает Верховная жрицей в Вал Руайо."
+ dataw_calendar_chantry_enabled_tt: "Мы не должны уже использовать церковный календарь"
+ dataw_chantry_calendar_tooltip: "Зачем идти против большинства?"
+ change_calendar_system_confirm: "Сменить календарь"
+ change_calendar_system_tooltip: "Перейти на другой календарь?"
+ dataw_chantry_succession_not_orlais: "Ваша вера не брать Орлей за пример"

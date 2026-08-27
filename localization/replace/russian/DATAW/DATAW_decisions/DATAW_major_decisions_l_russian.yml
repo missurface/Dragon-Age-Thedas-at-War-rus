@@ -593,6 +593,7 @@ DATAW_integrate_brecilian_forest_decision:0 "Поставить лес на ко
 DATAW_integrate_brecilian_forest_decision_desc:0 "Сколько существует людская память, лесные дикари постоянно нападали на наших торговцев, шедших через перевал из Гварена в остальной Ферелден. Теперь лес полностью покорён, и мы можем навсегда включить эти земли в нашу державу, передав управление ими титулу [GetTitleByKey('k_gwaren').GetBaseNameNoTier]."
 DATAW_integrate_brecilian_forest_decision_confirm:0 "Лес умолкнет"
 DATAW_integrate_brecilian_forest_decision_tooltip:0 "Земли титула [GetTitleByKey('k_brecilian_forest').GetBaseNameNoTier] станут [Concept('de_jure','де-юре')|E] частью владений [GetTitleByKey('k_gwaren').GetName]"
+gwaren_brecilian_kingdom_tt:0 "Никто не владеет титулом [GetTitleByKey('k_brecilian_forest').GetName]"
 
 ################################################
 # Integrate Hinterlands into Korcari Wilds     #

@@ -28,3 +28,5 @@
  DATAW_join_the_circle_decision_desc: "Мне надоело скрывать свои магические способности. Пора открыто заявить о своей [Concept('dataw_magic','магии')|E] и отправиться в [circle|E]."
  DATAW_join_the_circle_decision_confirm: "Я вступлю в Круг."
  DATAW_join_the_circle_decision_deny: "Я сохраню свободу, оставаясь [Concept('mage','магом')|E]."
+ DATAW_join_the_circle_decision_tooltip_tt: "Поскольку у вас нет подходящего [Concept( 'player_heir', 'наследника-игрока' )|E], вам грозит преждевременный [Concept( 'game_over', 'конец игры' )|E]."
+ DATAW_join_the_circle_decision_tooltip_tt_2: "[player_heir.GetName] унаследует ваши земли и титулы, так как является вашим [Concept( 'player_heir', 'наследником-игроком' )|E]."
