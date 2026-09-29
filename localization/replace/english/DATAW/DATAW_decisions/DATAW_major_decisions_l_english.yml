@@ -99,15 +99,15 @@
  major_decisions.2444.a:0 "Henceforth, the Chasind stand together!"
 
 # Unify the Marshes, by Stocky Kruegar
-
- DATAW_unify_the_marshes_decision: "Unify the Marshes"
- DATAW_unify_the_marshes_decision_tooltip: "placeholder"
- DATAW_unify_the_marshes_decision_desc: "placeholder!"
- DATAW_unify_the_marshes_decision_confirm: "The Marshes are united as one"
- DATAW_unify_the_marshes_decision_faith_tt: "Your [faith|E] is [GetFaithByKey('brucilis_cultas').GetName], or was created from it"
- DATAW_unify_the_marshes_decision_without_orlais: "You must be #P independent #!"
- DATAW_unify_the_marshes_decision_with_orlais: "#italic If you are a vassal under [GetTitleByKey('e_orlais').GetBaseNameNoTier]#!, the Holder of [GetTitleByKey('e_orlais').GetBaseNameNoTier] Holder must have at least #P 80#! [opinion|E] of you."
- unify_marshes: "All of your Vassals must have at least #P 80#! [opinion|E] of you."
+# TODO MAP EXPANSION
+#  DATAW_unify_the_marshes_decision: "Unify the Marshes"
+#  DATAW_unify_the_marshes_decision_tooltip: "placeholder"
+#  DATAW_unify_the_marshes_decision_desc: "placeholder!"
+#  DATAW_unify_the_marshes_decision_confirm: "The Marshes are united as one"
+#  DATAW_unify_the_marshes_decision_faith_tt: "Your [faith|E] is [GetFaithByKey('brucilis_cultas').GetName], or was created from it"
+#  DATAW_unify_the_marshes_decision_without_orlais: "You must be #P independent #!"
+#  DATAW_unify_the_marshes_decision_with_orlais: "#italic If you are a vassal under [GetTitleByKey('e_orlais').GetBaseNameNoTier]#!, the Holder of [GetTitleByKey('e_orlais').GetBaseNameNoTier] Holder must have at least #P 80#! [opinion|E] of you."
+#  unify_marshes: "All of your Vassals must have at least #P 80#! [opinion|E] of you."
  # Summon sylvans to fight!
 
  summon_spirits_decision:0 "Summon the Aid of the Forest"

@@ -48,7 +48,7 @@
 
  epidemic_events.5900.t: "The Blight Sickness"
 
- epidemic_events.5900.desc: "Pestilence stalks the land.\n\nGrisly, bubbling buboes grow upon the victims, whose pitiful calls for help are slowly stifled as they gutter and drown in their own pus-filled throats.\n\nFrom the lowliest urchin to the most fêted emperor, all dread the indiscriminate scythe of the merciless plague. Those that survive must watch helplessly as all around them perish.\n\nThe devoted look to the divine for a savior, and the powerful their riches, but none can truly be safe. Dreadful tendrils spread across the land, constricting it until it no longer breathes.\n\nThe Black Death is upon us. [ROOT.Char.GetFaith.HighGodName] save us all."
- epidemic_events.5900.christian: ""Our Father, who art in heaven, hallowed be thy name...""
+ epidemic_events.5900.desc: "Pestilence stalks the land.\n\nGrisly, bubbling buboes grow upon the victims, whose pitiful calls for help are slowly stifled as they gutter and drown in their own pus-filled throats.\n\nFrom the lowliest urchin to the most fêted emperor, all dread the indiscriminate malice of the [darkspawn|E]. Those that survive must watch helplessly as all around them perish.\n\nThe devoted look to the divine for a savior, and the powerful their riches, but none can truly be safe. Dreadful tendrils spread across the land, constricting it until it no longer breathes.\n\nThe Blight is upon us. [ROOT.Char.GetFaith.HighGodName] save us all."
+ epidemic_events.5900.christian: ""See what My children in arrogance wrought...""
  epidemic_events.5900.fallback: "May we persevere in these grim times."
 

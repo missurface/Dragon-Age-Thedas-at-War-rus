@@ -45,3 +45,5 @@
   doctrine_parameter_persecution_active: "Mages will experience persecution and flee if they can"
   doctrine_parameter_tranquil_solution_active: "Mages will be forced to have their access to the [fade|E] severed"
   tranquil_solution_active_name: "Mages will be forced to have their access to the [fade|E] severed"
+  mages_cannot_hold_titles_name: "Mages cannot hold [titles|E]"
+  doctrine_parameter_mages_cannot_hold_titles: "This faith forbids Mages from having [titles|E]"

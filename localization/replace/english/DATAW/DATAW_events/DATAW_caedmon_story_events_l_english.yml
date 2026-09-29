@@ -9,6 +9,17 @@
  dataw_caedmon_normal.0001.opt.b: "Now is not the right time."
 
 
+ dataw_caedmon_misc.0002.tit: "The Great Defiance"
+ dataw_caedmon_misc.0002.desc: "Banners fly all across Ferelden. [pretender_ruler_ferelden.GetName] has declared [pretender_ruler_ferelden.GetHerselfHimself] ruler of all [GetTitleByKey('e_ferelden').GetBaseNameNoTier], and declared that all of the Valley shall come under [pretender_ruler_ferelden.GetHerHis] rule. \n\nMany have called this claim illegitimate, for reasons all their own. Troops are being mustered to oppose the pretender, while other nobles rise to support the one they declare our rightful [pretender_ruler_ferelden.Custom('GetQueenKing')|l]. Ambition, opportunity and pride clash in this war that is to come. \n\nBut where do I lay in this conflict? Will I support the pretender for promises of peace, gratitude and opportunities, like so many others? Or will I join the growing opposition, with those who defend their independence and ambition?"
+
+ dataw_caedmon_misc.0002.opt.a: "[pretender_ruler_ferelden.GetSheHe|U] is no [pretender_ruler_ferelden.Custom('GetQueenKing')|l]! Down with the pretender!"
+ dataw_caedmon_misc.0002.opt.b: "It is best if I don't get involved."
+ dataw_caedmon_misc.0002.opt.c: "Perhaps submission is the best way forward?"
+ dataw_caedmon_misc.0002.opt.d: "I must honor my oaths to the [pretender_ruler_ferelden.Custom('GetQueenKing')|l]."
+
+
+
+
 
  DATAW_dataw_caedmon_normal.0001.opt.a.tooltip.a: "[struggle_involved|E] [rulers|e] in [GetTitleByKey('e_ferelden').GetBaseNameNoTier] will oppose your [claim|e] to the throne of [GetTitleByKey('e_ferelden').GetBaseNameNoTier], declaring the #bold The Campaign Against Pretender [loc_scope.GetFirstName]#!."
  DATAW_dataw_caedmon_normal.0001.opt.a.tooltip.b: "[loc_scope.GetCharacterViewNameOrMe] will be pulled into [war|e] against every [struggle_involved|e] [ruler|e] of [GetTitleByKey('e_ferelden').GetBaseNameNoTier] that is not your loyal [vassal|e]. Should you succeed, the #ENC rulers of [GetTitleByKey('e_ferelden').GetBaseNameNoTier] will be forced to accept your [claim|e] to the throne of [GetTitleByKey('e_ferelden').GetBaseNameNoTier]#!."

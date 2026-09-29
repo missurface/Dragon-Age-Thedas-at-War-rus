@@ -89,9 +89,10 @@
  DATAW_major_decision.0013.opt.b: "Perhaps we could try to emulate the Dales further."
  DATAW_major_decision.0013.opt.b.custom: "All [counties|E] in the [GetGeographicalRegion('world_ferelden_brecilian_forest').GetName] with a [GetCulturePillar('heritage_elvhen').GetName] [heritage|E] culture have a 25% chance to convert with you"
 
- DATAW_major_decision.0007.tit: "Unify the Marshes"
- DATAW_major_decision.0007.desc: "PLACEHOLDER"
- DATAW_major_decision.0007.opt.a: "Yes"
+# TODO MAP EXPANSION
+#  DATAW_major_decision.0007.tit: "Unify the Marshes"
+#  DATAW_major_decision.0007.desc: "PLACEHOLDER"
+#  DATAW_major_decision.0007.opt.a: "Yes"
 
  DATAW_tamers_of_crescent_valley: "Shepherds of Crescent Valley"
  nick_valley_shepherd: "The Valley's Shepherd"
