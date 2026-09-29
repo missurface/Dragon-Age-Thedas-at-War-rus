@@ -9,7 +9,18 @@
  dataw_caedmon_normal.0001.opt.b: "Сейчас неподходящее время."
 
 
+ dataw_caedmon_misc.0002.tit: "Великое неповиновение"
+ dataw_caedmon_misc.0002.desc: "Знамёна реют по всему Ферелдену. [pretender_ruler_ferelden.GetName] [Select_CString(pretender_ruler_ferelden.IsFemale, 'провозгласила себя правительницей', 'провозгласил себя правителем' )] всего региона [GetTitleByKey('e_ferelden').GetBaseNameNoTier] и [Select_CString(pretender_ruler_ferelden.IsFemale, 'объявила', 'объявил' )], что отныне вся долина теперь принадлежит [pretender_ruler_ferelden.GetHerHim].\n\nМногие называют эти притязания незаконными и противоречащие их планам. Собираются войска, дабы противостоять претенденту, пока другие дворяне поднимаются на поддержку того, кого они нарекли нашим законным монархом. Амбиции, возможности и гордыня сталкиваются в предстоящей войне.\n\nНо каково моё место в этом конфликте? Поддержу ли я претендента ради обещаний мира, благодарности и перспектив, как сделали многие другие? Или же присоединюсь к растущей оппозиции, к тем, кто защищает свою независимость и амбиции?"
 
+ dataw_caedmon_misc.0002.opt.a: "[pretender_ruler_ferelden.GetSheHe|U] мне не [pretender_ruler_ferelden.Custom('GetQueenKing')|l]! Долой [pretender_ruler_ferelden.GetHerHis]!"
+ dataw_caedmon_misc.0002.opt.b: "Лучше мне в это не вмешиваться."
+ dataw_caedmon_misc.0002.opt.c: "Быть может, подчинение — лучший путь?"
+ dataw_caedmon_misc.0002.opt.d: "[pretender_ruler_ferelden.Custom('GetQueenKing')|l] уже [Select_CString(pretender_ruler_ferelden.IsFemale, 'получила', 'получил' )] мои клятвы, их нужно сдержать."
+ 
+ 
+ 
+ 
+ 
  DATAW_dataw_caedmon_normal.0001.opt.a.tooltip.a: "[Concept('struggle_involved','Участвующие в борьбе')|E] [Concept('rulers','правители')|E] державы [GetTitleByKey('e_ferelden').GetBaseNameNoTier] выступят против вашей [Concept('claim','претензии')|E] на престол державы [GetTitleByKey('e_ferelden').GetBaseNameNoTier] и объявят #bold «Поход против [Select_CString(loc_scope.IsFemale, 'претендентки', 'претендента' )] [loc_scope.GetFirstName]»#!."
  DATAW_dataw_caedmon_normal.0001.opt.a.tooltip.b: "[loc_scope.GetCharacterViewNameOrMe] вступит в [Concept('war','войну')|E] со всеми [Concept('struggle_involved','участвующими в борьбе')|E] [Concept('ruler','правителями')|E] державы [GetTitleByKey('e_ferelden').GetBaseNameNoTier], кроме ваших верных [Concept('vassal','вассалов')|E]. Если вы победите, #ENC правителям державы [GetTitleByKey('e_ferelden').GetBaseNameNoTier] придётся признать вашу [Concept('claim','претензию')|E] на престол державы [GetTitleByKey('e_ferelden').GetBaseNameNoTier]#!."
  DATAW_dataw_caedmon_normal.0001.opt.a.tooltip.d: "Если [loc_scope.GetCharacterViewNameOrMe] потерпит [Concept('defeat','поражение')|E] в этой [Concept('war','войне')|E], #XB персонаж [loc_scope.GetCharacterViewNameOrMe] лишится власти в результате [Concept('deposed','свержения')|E], а [Concept('realm','держава')|E] персонажа [loc_scope.GetCharacterViewNameOrMe] утратит все земли, не принадлежащие ей по праву. Останутся лишь земли [de_jure|E] столичного эрлинга#!."

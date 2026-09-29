@@ -1,6 +1,13 @@
 ﻿l_russian:
+
+
+ # DATAW Music stuff 
+ DATAW_soundtrack_list: "Саундтрек Dragon Age: Thedas at War"
  Music_Wolves_In_War: "Волки на войне"
  Music_The_Old_Ways: "Старые обычаи"
  Music_Riels_Theme: "Тема Риэля"
  Music_Varangian: "Варяг"
+ mx_ThedasAtWar: "Тедас в войне"
+ mx_in_the_wake: "Вслед за"
+ mx_plague_of_night: "Ночная чума"
 

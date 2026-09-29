@@ -45,3 +45,5 @@
   doctrine_parameter_persecution_active: "Магов преследуют, и при возможности они бегут"
   doctrine_parameter_tranquil_solution_active: "Магов принуждают разорвать связь с [Concept('fade','Тенью')|E]"
   tranquil_solution_active_name: "Магов принудят разорвать связь с [Concept('fade','Тенью')|E]"
+  mages_cannot_hold_titles_name: "Маги не могут владеть [Concept('title','титулами')|E]"
+  doctrine_parameter_mages_cannot_hold_titles: "Это конфессия запрещает магам владеть [Concept('title','титулами')|E]"

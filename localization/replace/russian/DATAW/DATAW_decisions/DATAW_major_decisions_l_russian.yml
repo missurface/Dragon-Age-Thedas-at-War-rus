@@ -99,15 +99,15 @@
  major_decisions.2444.a:0 "Отныне хасинды стоят плечом к плечу!"
 
 # Unify the Marshes, by Stocky Kruegar
-
- DATAW_unify_the_marshes_decision: "Объединить топи"
- DATAW_unify_the_marshes_decision_tooltip: "Заглушка"
- DATAW_unify_the_marshes_decision_desc: "Текст-заглушка!"
- DATAW_unify_the_marshes_decision_confirm: "Топи объединятся"
- DATAW_unify_the_marshes_decision_faith_tt: "Ваша [Concept('faith','конфессия')|E] — [GetFaithByKey('brucilis_cultas').GetName] либо создана на её основе"
- DATAW_unify_the_marshes_decision_without_orlais: "Вы должны обладать #P независимостью#!"
- DATAW_unify_the_marshes_decision_with_orlais: "#italic Если вы являетесь вассалом державы [GetTitleByKey('e_orlais').GetBaseNameNoTier]#!, владелец державы [GetTitleByKey('e_orlais').GetBaseNameNoTier] должен иметь о вас не менее #P 80#! ед. [Concept('opinion','мнения')|E]."
- unify_marshes: "Все ваши вассалы должны иметь о вас не менее #P 80#! ед. [Concept('opinion','мнения')|E]."
+# TODO MAP EXPANSION
+ # DATAW_unify_the_marshes_decision: "Объединить топи"
+ # DATAW_unify_the_marshes_decision_tooltip: "Заглушка"
+ # DATAW_unify_the_marshes_decision_desc: "Текст-заглушка!"
+ # DATAW_unify_the_marshes_decision_confirm: "Топи объединятся"
+ # DATAW_unify_the_marshes_decision_faith_tt: "Ваша [Concept('faith','конфессия')|E] — [GetFaithByKey('brucilis_cultas').GetName] либо создана на её основе"
+ # DATAW_unify_the_marshes_decision_without_orlais: "Вы должны обладать #P независимостью#!"
+ # DATAW_unify_the_marshes_decision_with_orlais: "#italic Если вы являетесь вассалом державы [GetTitleByKey('e_orlais').GetBaseNameNoTier]#!, владелец державы [GetTitleByKey('e_orlais').GetBaseNameNoTier] должен иметь о вас не менее #P 80#! ед. [Concept('opinion','мнения')|E]."
+ # unify_marshes: "Все ваши вассалы должны иметь о вас не менее #P 80#! ед. [Concept('opinion','мнения')|E]."
  # Summon sylvans to fight!
 
  summon_spirits_decision:0 "Призвать лес на помощь"

@@ -1,12 +1,4 @@
 ﻿l_russian:
-  TAW_version: "#Z Thedas at War #!#EMP (Public 0.1.1.1)#!#!"
+  TAW_version: "#Z Thedas at War #!#EMP (Public 0.1.1.2)#!#!"
   dlc_dataw: "Thedas at War"
   dlc_dataw_desc: "Thedas at War — это глобальный мод во вселенной серии Dragon Age от BioWare. Действие текущей версии происходит в Век Славы: выберите любого правителя и определите судьбу огромного континента Тедас."
-
-  # DATAW Music stuff 
-  DATAW_soundtrack_list: "Саундтрек Dragon Age: Thedas at War"
-  mx_WolvesInWar: "Волки на войне"
-  mx_TheOldWays: "Старые пути"
-  mx_RielsTheme: "Тема Риэля"
-  mx_Varangian: "Варяг"
-  mx_ThedasAtWar: "Тедас в войне (без сведения)"

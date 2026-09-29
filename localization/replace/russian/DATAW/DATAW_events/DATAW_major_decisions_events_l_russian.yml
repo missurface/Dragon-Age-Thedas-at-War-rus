@@ -89,9 +89,10 @@
  DATAW_major_decision.0013.opt.b: "Быть может, нам стоит и дальше следовать примеру Долов."
  DATAW_major_decision.0013.opt.b.custom: "Все [Concept('counties','графства')|E] региона «[GetGeographicalRegion('world_ferelden_brecilian_forest').GetName]», в которых распространена культура с #L [GetCulturePillar('heritage_elvhen').GetName]им#! [Concept('heritage','наследием')|E], с вероятностью 25% сменят культуру вместе с вами"
 
- DATAW_major_decision.0007.tit: "Объединить топи"
- DATAW_major_decision.0007.desc: "ЗАГЛУШКА"
- DATAW_major_decision.0007.opt.a: "Да"
+# TODO MAP EXPANSION
+ # DATAW_major_decision.0007.tit: "Объединить топи"
+ # DATAW_major_decision.0007.desc: "ЗАГЛУШКА"
+ # DATAW_major_decision.0007.opt.a: "Да"
 
  DATAW_tamers_of_crescent_valley: "Пастыри Долины Полумесяца"
  nick_valley_shepherd: "[Select_CString(CHARACTER.IsFemale, 'Пастушка Долины', 'Пастух Долины' )]"
